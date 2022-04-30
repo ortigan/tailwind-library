@@ -1,15 +1,6 @@
 <template>
-  <Layout>
-    <div class="flex">
-       <!-- content -->
-            <div class="flex-1 bg-green-100 h-screen">
-              
-            </div>
-            <!-- right sidebar -->
-            <div class="hidden lg:block">
-           <div class="w-40 flex flex-col min-h-screen overflow-y-hidden">
-              <div class="overflow-y-auto">
-                <div class="flex flex-col mt-6 space-y-1">
+  <div>
+      <div class="flex flex-col mt-6 space-y-1">
                   <div class="font-medium">On this page</div>
                   <div class="text-base">Basic</div>
                   <div class="text-base">Button pills</div>
@@ -21,23 +12,24 @@
                   <div class="text-base">Loader</div>
                  
                 </div>
-              </div>
-            </div>
-            </div>
-    </div>
-  </Layout>
+  </div>
 </template>
 
 <script>
 export default {
-  metaInfo: {
-    title: "Hello, world!",
-  },
-};
+data(){
+return {
+    itmes:[
+            {
+                id: 1,
+                title: "Basic",
+            },
+    ]
+}
+}
+}
 </script>
 
 <style>
-.home-links a {
-  margin-right: 1rem;
-}
+
 </style>

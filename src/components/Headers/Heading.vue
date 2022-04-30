@@ -1,8 +1,6 @@
 <template>
   <div>
-  <div class="h-16 w-full bg-white">
-  footer
-  </div>
+      <div class="font-bold text-2xl">Component heading</div>
   </div>
 </template>
 
