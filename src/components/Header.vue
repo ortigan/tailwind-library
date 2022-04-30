@@ -1,6 +1,7 @@
 <template>
-  <div>
-  <div class="h-16 w-full bg-gray-500 ">
+  <div class="flex">
+  <div class="h-16 w-full bg-gray-500">
+
   </div>
   </div>
 </template>
