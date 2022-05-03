@@ -1,14 +1,13 @@
 <template>
-  <div>
+  <div class="f">
     <Header />
-    <div class="bg-gray-100">
-      <div class="container bg-gray-100">
+    <div class="bg-gray-100 flex h-screen">
+      <div class="container bg-gray-100 h-screen">
         <div class="flex w-full flex-col h-screen">
           <div class="flex w-full h-screen">
             <!-- sidebar left -->
-            <div class="w-44 flex flex-col min-h-screen overflow-y-hidden">
-
-              <div class="overflow-y-auto">
+            <div class="w-44 flex flex-col h-screen overflow-y-hidden">
+              <div class="overflow-y-auto  hidden md:block">
                 <div class="flex flex-col mt-6 space-y-1">
                   <span v-for="(item,index) in menu" :key="index">
                     <div :class="getPath() == item.link ? 'font-extrabold':''">
@@ -21,8 +20,8 @@
                 </div>
               </div>
             </div>
-            <!--  -->
-            <main class="w-full">
+            <!-- Rest of the content -->
+            <main class="w-full h-screen overflow-y-hidden">
               <slot />
             </main>
           </div>
@@ -41,7 +40,7 @@ import MenuItems from "../components/Navigation/MenuItems";
 export default {
   components: { Header, Footer },
   metaInfo: {
-    title: "Hello, world!",
+    title: "Component library!",
   },
   data(){
     return {
