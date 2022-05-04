@@ -102,6 +102,30 @@
               </template>
             </ComponentPad>
             <!-- end Cancel badge -->
+             <!-- Link badge -->
+            <SubHeading > 
+                <template v-slot:subHeader>
+                    Badges as link
+                </template>
+            </SubHeading>
+            <ComponentPad>
+              <template>
+                <LinkBadge />
+              </template>
+            </ComponentPad>
+            <!-- end Link badge -->
+             <!-- Position Badge -->
+            <SubHeading > 
+                <template v-slot:subHeader>
+                    Positioned badge
+                </template>
+            </SubHeading>
+            <ComponentPad>
+              <template>
+                <PositionBadge />
+              </template>
+            </ComponentPad>
+            <!-- end Position Badge -->
         
             
           </div>
@@ -124,6 +148,8 @@ import DefaultBadge from "../components/Badge/DefaultBadge.vue";
 import LargerBadge from "../components/Badge/LargerBadge.vue";
 import BadgeState from "../components/Badge/BadgeState.vue";
 import CancelBadge from "../components/Badge/CancelBadge.vue";
+import LinkBadge from "../components/Badge/LinkBadge.vue";
+import PositionBadge from "../components/Badge/PositionBadge.vue";
 import PillBadge from "../components/Badge/PillBadge.vue";
 import PillOutlineBadge from "../components/Badge/PillOutlineBadge.vue";
 import Heading from "../components/Headers/Heading.vue";
@@ -147,7 +173,9 @@ export default {
     PillOutlineBadge,
     OutlineBadge,
     CancelBadge,
-    RectangleBadge
+    LinkBadge,
+    RectangleBadge,
+    PositionBadge,
 
   },
 };
