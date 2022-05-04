@@ -25,7 +25,7 @@ export default {
                 hoverShadow:"hover:shadow-none",
                 title:"Default card title",
                 type:"Type 1",
-                para:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, consequuntur suscipit nesciunt laudantium eius veritatis at facere soluta mollitia velit.",
+                para:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores.",
 
                 },
                 {
@@ -36,7 +36,7 @@ export default {
                 hoverShadow:"hover:shadow-none",
                 title:"Default card title",
                 type:"Type 2",
-                para:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, consequuntur suscipit nesciunt laudantium eius veritatis at facere soluta mollitia velit.",
+                para:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores.",
 
                 },
                 {
@@ -47,7 +47,7 @@ export default {
                 hoverShadow:"hover:shadow-none",
                 title:"Default card title",
                 type:"Type 3",
-                para:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, consequuntur suscipit nesciunt laudantium eius veritatis at facere soluta mollitia velit.",
+                para:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores.",
 
                 },
             ]

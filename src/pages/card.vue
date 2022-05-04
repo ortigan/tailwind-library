@@ -58,7 +58,7 @@
             <div
               class="pattern-dots-sm text-gray-100 bg-white rounded-lg py-10 px-10 flex justify-center items-center"
             >
-              <DefaultCards />
+              <CardCta />
             </div>
          
             <!-- end default-cards -->
@@ -77,6 +77,7 @@
 </template>
 
 <script>
+import CardCta from '../components/Card/CardCta.vue';
 import CardInfo from '../components/Card/CardInfo.vue';
 import DefaultCards from '../components/Card/DefaultCards.vue';
 import Heading from "../components/Headers/Heading.vue";
@@ -89,6 +90,7 @@ export default {
     Heading,
     CardInfo,
     DefaultCards,
+    CardCta,
 
   },
 };
