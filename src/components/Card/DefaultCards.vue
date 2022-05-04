@@ -3,7 +3,7 @@
       <span v-for="(item,index) in items" :key="index">
           <div :class="`p-6 rounded-lg ${item.shadowColor} ${item.hoverShadow} ${item.textColor} ${item.bgColor} ${item.border} ${item.hoverTextColor} ${item.hoverBgColor}`">
               <div class="flex flex-col w-full">
-              <div class="text-3xl font-semibold">{{item.title}}</div>
+              <div class="text-2xl font-semibold">{{item.title}}</div>
               <div class="text-xl font-semibold">{{item.type}}</div>
               <div class="mt-2 text-sm"><p>{{item.para}}</p></div>
               </div>

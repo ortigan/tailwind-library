@@ -7,7 +7,7 @@
           <div class="overflow-y-auto px-4">
             <Heading />
             <div>
-              <p class="text-lg">
+              <p class="text-base font-primary">
                 Use the button component inside forms, as links, social login,
                 payment options with support for multiple styles, colors, sizes,
                 gradients, and shadows
