@@ -6,7 +6,7 @@
           <div class="overflow-y-auto px-4">
             <Heading />
             <div>
-          <p class="text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam?</p>
+          <p class="text-lg font-primary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam?</p>
             </div>
              <!-- Default card -->
              <div class="w-full flex justify-between py-2">
@@ -37,7 +37,7 @@
             <!-- end default-cards -->
              <!-- CTA card -->
              <div class="w-full flex justify-between py-2">
-              <div class="font-bold text-xl">Card with CTA</div>
+              <div class="font-bold text-xl font-primary">Card with CTA</div>
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
