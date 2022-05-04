@@ -2,8 +2,10 @@
   <Layout>
     <div class="flex">
        <!-- content -->
-            <div class="flex-1 bg-green-100 h-screen">
-              
+            <div class="flex-1  h-screen">
+                <div>
+                  LANDER
+                </div>
             </div>
             <!-- right sidebar -->
             <div class="hidden lg:block">
