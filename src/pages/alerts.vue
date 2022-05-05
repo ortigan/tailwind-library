@@ -6,7 +6,7 @@
           <div class="overflow-y-auto px-4">
             <Heading />
             <div>
-          <p class="text-base font-primary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam?</p>
+          <p class="text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam?</p>
             </div>
              <!-- Default alert -->
             <div class="w-full flex justify-between py-2">

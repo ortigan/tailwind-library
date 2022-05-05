@@ -7,6 +7,12 @@ export default
         link: "/alerts"
     },
     {
+        id: 1,
+        title: 'Avatar',
+        icon: "",
+        link: "/avatar"
+    },
+    {
         id: 2,
         title: 'Accordion',
         icon: "",

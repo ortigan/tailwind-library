@@ -2,7 +2,7 @@
   <div class="flex flex-wrap">
     <span v-for="(item, index) in itmes" :key="index">
       <div
-        :class="`py-0.5 px-2.5 text-xxs rounded-md mr-4 font-medium ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor} ${item.borderColor} ${item.bgColor}`"
+        :class="`py-0.5 px-2.5 text-xs rounded-md mr-4 font-medium ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor} ${item.borderColor} ${item.bgColor}`"
       >
         {{ item.title }}
       </div>

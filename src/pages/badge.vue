@@ -156,6 +156,18 @@
               <NewBadge />
             </template>
           </ComponentPad>
+          <!-- end text Badge -->
+          <!-- Text Badge -->
+          <SubHeading>
+            <template v-slot:subHeader>
+              Icon Badge 
+            </template>
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <IconBadge />
+            </template>
+          </ComponentPad>
           <!-- end New Badge -->
         </div>
       </div>
@@ -180,6 +192,7 @@ import CancelBadge from "../components/Badge/CancelBadge.vue";
 import LinkBadge from "../components/Badge/LinkBadge.vue";
 import PositionBadge from "../components/Badge/PositionBadge.vue";
 import PillBadge from "../components/Badge/PillBadge.vue";
+import IconBadge from "../components/Badge/IconBadge.vue";
 import NewBadge from "../components/Badge/NewBadge.vue";
 import BadgeSizes from "../components/Badge/BadgeSizes.vue";
 import PillOutlineBadge from "../components/Badge/PillOutlineBadge.vue";
@@ -203,6 +216,7 @@ export default {
     PillBadge,
     PillOutlineBadge,
     OutlineBadge,
+    IconBadge,
     CancelBadge,
     LinkBadge,
     RectangleBadge,

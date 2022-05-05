@@ -2,15 +2,7 @@
   <div class="flex flex-wrap items-center">
     <span v-for="(item, index) in itmes" :key="index">
       <div
-        :class="
-          `relative ${item.pad} ${
-            item.textSize
-          } rounded-md mr-4 font-semibold ${item.textColor} ${
-            item.hoverTextColor
-          } ${item.border} ${item.hoverlink} ${item.hoverBgColor}  ${
-            item.bgColor
-          }`
-        "
+        :class="`relative ${item.pad} ${item.textSize} rounded-md mr-4 font-semibold ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor}  ${item.bgColor}`"
       >
         {{ item.title }}
         <span
@@ -18,11 +10,7 @@
           >{{ item.normalStat }}</span
         >
         <div
-          :class="
-            `absolute flex items-center text-xxs bg-red-500 rounded-full ${
-              item.css
-            }`
-          "
+          :class="`absolute flex items-center text-xxs bg-red-500 rounded-full ${item.css}`"
         >
           {{ item.PositionedStat }}
         </div>
