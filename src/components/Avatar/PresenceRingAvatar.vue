@@ -1,19 +1,21 @@
 <template>
-  <div class="flex space-x-4">
+  <div class="flex space-x-4 items-center">
       <!-- Letter -->
     <div
       class="
-        w-10
-        h-10
+        w-8
+        h-8
         flex
         items-center
         justify-center
         rounded-lg
         bg-gray-100
-        hover:bg-gray-200
+        hover:bg-gray-200 relative
+        ring-2 ring-green-200
       "
     >
       <div class="text-base font-medium text-gray-700">P</div>
+      <div class="h-2.5 w-2.5 bg-green-400 absolute border-2 border-white -right-1 -top-1 rounded-full"></div>
     </div>
    
     <!-- text -->
@@ -27,36 +29,40 @@
         rounded-lg
         bg-gray-100
         hover:bg-gray-200
+        relative ring-2 ring-red-200
       "
     >
       <div class="text-sm tracking-tight font-light text-gray-700">John</div>
+      <div class="h-3 w-3 bg-red-400 absolute border-2 border-white -right-1 -top-1 rounded-full"></div>
     </div>
     <!-- Initials -->
     <div
       class="
-        w-10
-        h-10
+        w-12
+        h-12
         flex
         items-center
         justify-center
         rounded-lg
         bg-gray-100
         hover:bg-gray-200
+        relative ring-2 ring-blue-200
       "
     >
       <div class="text-base font-normal text-gray-700">JD</div>
+       <div class="h-3.5 w-3.5 bg-blue-400 absolute border-2 border-white -right-1 -bottom-1 rounded-full"></div>
     </div>
     <!-- Icon -->
     <div
       class="
-        w-10
-        h-10
+        w-14
+        h-14
         flex
         items-center
         justify-center
         bg-gray-100
         hover:bg-gray-200
-        rounded-lg
+        rounded-lg relative ring-2 ring-purple-200
       "
     >
       <svg
@@ -81,33 +87,38 @@
           stroke-linejoin="round"
         />
       </svg>
+             <div class="h-3.5 w-3.5 bg-purple-400 border-2 border-white absolute -right-1 -bottom-1 rounded-full"></div>
+
     </div>
     <!-- Avatar -->
     <div
       class="
-        w-10
-        h-10
+        w-16
+        h-16
         flex
         items-center
         justify-center
         rounded-lg
-        bg-sky-300
-        hover:bg-sky-200
+        bg-amber-300
+        hover:bg-amber-200 relative ring-4 ring-green-200
       "
     >
       <img
         class="w-full h-full object-cover rounded-lg pt-2"
-        src="https://avatars.dicebear.com/api/avataaars/prapr.more2.svg"
+        src="https://avatars.dicebear.com/api/avataaars/pj9bbrv.more2.svg"
         alt=""
       />
+        <div class="h-4 w-4 bg-green-400 absolute border-2 border-white -right-2 -top-2 rounded-full"></div>
+
     </div>
       <!-- image -->
-    <div class="w-10 h-10">
+    <div class="w-20 h-20 relative rounded-2xl ring-4 ring-sky-200">
       <img
-        class="w-full h-full object-cover rounded-lg"
+        class="w-full h-full object-cover rounded-2xl"
         src="https://res.cloudinary.com/pranav1421/image/upload/v1651744687/Tailwind-Component-library/matheus-ferrero-W7b3eDUb_2I-unsplash_hu3utv.jpg"
         alt=""
       />
+      <div class="h-5 w-5 bg-sky-400 absolute border-2 border-white -right-2 -top-2 rounded-full"></div>
     </div>
     
   </div>

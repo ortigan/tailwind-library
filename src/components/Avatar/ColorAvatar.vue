@@ -1,36 +1,6 @@
 <template>
   <div class="flex space-x-4">
-      <!-- Letter -->
-    <div
-      class="
-        w-10
-        h-10
-        flex
-        items-center
-        justify-center
-        rounded-lg
-        bg-gray-100
-        hover:bg-gray-200
-      "
-    >
-      <div class="text-base font-medium text-gray-700">P</div>
-    </div>
    
-    <!-- text -->
-    <div
-      class="
-        w-10
-        h-10
-        flex
-        items-center
-        justify-center
-        rounded-lg
-        bg-gray-100
-        hover:bg-gray-200
-      "
-    >
-      <div class="text-sm tracking-tight font-light text-gray-700">John</div>
-    </div>
     <!-- Initials -->
     <div
       class="
@@ -39,14 +9,14 @@
         flex
         items-center
         justify-center
-        rounded-lg
-        bg-gray-100
-        hover:bg-gray-200
+        rounded-full
+        bg-gray-700
+
       "
     >
-      <div class="text-base font-normal text-gray-700">JD</div>
+      <div class="text-base font-normal text-white">P</div>
     </div>
-    <!-- Icon -->
+    <!--  -->
     <div
       class="
         w-10
@@ -54,13 +24,61 @@
         flex
         items-center
         justify-center
-        bg-gray-100
-        hover:bg-gray-200
+        rounded-full
+        bg-sky-400
+         relative
+      "
+    >
+      <div class="text-base font-normal text-white">S</div>
+          <div class="h-3 w-3 bg-green-400 absolute border-2 border-white -right-0 -top-0 rounded-full"></div>
+    </div>
+   <!--  -->
+    <div
+      class="
+        w-10
+        h-10
+        flex
+        items-center
+        justify-center
         rounded-lg
+        bg-amber-400
+        
+      "
+    >
+      <div class="text-base font-medium text-white">WK</div>
+    </div>
+   <!--  -->
+    <div
+      class="
+        w-10
+        h-10
+        flex
+        items-center
+        justify-center
+        rounded-lg
+        bg-teal-400
+         px-0.5 relative
+      "
+    >
+      <div class="text-xs font-normal text-white tracking-tighter">ADAM</div>
+                <div class="h-3 w-3 bg-red-400 absolute border-2 border-white -right-1 -bottom-1 rounded-full"></div>
+
+    </div>
+   <!--  -->
+    <div
+      class="
+        w-10
+        h-10
+        flex
+        items-center
+        justify-center
+        rounded-full
+        bg-red-500
+         px-0.5
       "
     >
       <svg
-        class="text-gray-700"
+        class="text-white"
         width="24"
         height="24"
         stroke-width="1.5"
@@ -82,33 +100,8 @@
         />
       </svg>
     </div>
-    <!-- Avatar -->
-    <div
-      class="
-        w-10
-        h-10
-        flex
-        items-center
-        justify-center
-        rounded-lg
-        bg-sky-300
-        hover:bg-sky-200
-      "
-    >
-      <img
-        class="w-full h-full object-cover rounded-lg pt-2"
-        src="https://avatars.dicebear.com/api/avataaars/prapr.more2.svg"
-        alt=""
-      />
-    </div>
-      <!-- image -->
-    <div class="w-10 h-10">
-      <img
-        class="w-full h-full object-cover rounded-lg"
-        src="https://res.cloudinary.com/pranav1421/image/upload/v1651744687/Tailwind-Component-library/matheus-ferrero-W7b3eDUb_2I-unsplash_hu3utv.jpg"
-        alt=""
-      />
-    </div>
+    
+
     
   </div>
 </template>

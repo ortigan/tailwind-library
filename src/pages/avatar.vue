@@ -15,7 +15,7 @@
               impedit dolore aliquam?
             </p>
           </div>
-         <!-- Default badge -->
+         <!-- Default avatar -->
           <SubHeading>
             <template v-slot:subHeader
               >Default avatar</template
@@ -26,7 +26,55 @@
               <DefaultAvatar />
             </template>
           </ComponentPad>
-          <!-- end default badge -->
+          <!-- end default avatar -->
+         <!-- Default Sizes -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Avatar sizes</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <SizeAvatar />
+            </template>
+          </ComponentPad>
+          <!-- end  avatar sizes -->
+         <!-- Presence avatar -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Avatar with presence indicator</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <PresenceAvatar />
+            </template>
+          </ComponentPad>
+          <!-- end presence avatar -->
+         <!-- PresenceRing avatar -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Avatar with presence Ring</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <PresenceRingAvatar />
+            </template>
+          </ComponentPad>
+          <!-- end presence Ring avatar -->
+         <!-- Color avatar -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Color</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <ColorAvatar />
+            </template>
+          </ComponentPad>
+          <!-- end Color avatar -->
 
         </div>
       </div>
@@ -48,6 +96,11 @@ import DefaultAvatar from '../components/Avatar/DefaultAvatar.vue';
 import SubHeading from "../components/Headers/SubHeading.vue";
 import Heading from "../components/Headers/Heading.vue";
 import ComponentPad from "../components/Utils/ComponentPad.vue";
+import SizeAvatar from '../components/Avatar/SizeAvatar.vue';
+import PresenceAvatar from '../components/Avatar/PresenceAvatar.vue';
+import PresenceRingAvatar from '../components/Avatar/PresenceRingAvatar.vue';
+import CircleAvatar from '../components/Avatar/CircleAvatar.vue';
+import ColorAvatar from '../components/Avatar/ColorAvatar.vue';
 
 export default {
   metaInfo: {
@@ -58,7 +111,12 @@ export default {
     ComponentPad,
     AvatarInfo,
     DefaultAvatar,
-    SubHeading
+    SubHeading,
+    SizeAvatar,
+    PresenceAvatar,
+    PresenceRingAvatar,
+    CircleAvatar,
+    ColorAvatar
   },
 };
 </script>

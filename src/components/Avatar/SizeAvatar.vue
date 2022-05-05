@@ -1,10 +1,10 @@
 <template>
-  <div class="flex space-x-4">
+  <div class="flex space-x-4 items-center">
       <!-- Letter -->
     <div
       class="
-        w-10
-        h-10
+        w-8
+        h-8
         flex
         items-center
         justify-center
@@ -34,8 +34,8 @@
     <!-- Initials -->
     <div
       class="
-        w-10
-        h-10
+        w-12
+        h-12
         flex
         items-center
         justify-center
@@ -49,8 +49,8 @@
     <!-- Icon -->
     <div
       class="
-        w-10
-        h-10
+        w-14
+        h-14
         flex
         items-center
         justify-center
@@ -85,24 +85,24 @@
     <!-- Avatar -->
     <div
       class="
-        w-10
-        h-10
+        w-16
+        h-16
         flex
         items-center
         justify-center
         rounded-lg
-        bg-sky-300
-        hover:bg-sky-200
+        bg-rose-300
+        hover:bg-rose-200
       "
     >
       <img
-        class="w-full h-full object-cover rounded-lg pt-2"
-        src="https://avatars.dicebear.com/api/avataaars/prapr.more2.svg"
+        class="w-full h-full object-cover rounded-lg pt-1"
+        src="https://avatars.dicebear.com/api/avataaars/prvq5more2.svg"
         alt=""
       />
     </div>
       <!-- image -->
-    <div class="w-10 h-10">
+    <div class="w-20 h-20">
       <img
         class="w-full h-full object-cover rounded-lg"
         src="https://res.cloudinary.com/pranav1421/image/upload/v1651744687/Tailwind-Component-library/matheus-ferrero-W7b3eDUb_2I-unsplash_hu3utv.jpg"
