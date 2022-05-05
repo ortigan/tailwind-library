@@ -3,7 +3,7 @@
     <div class="flex p-4">
       <!-- content -->
       <div class="flex h-screen px-4 overflow-y-hidden scrollBar">
-        <div class="overflow-y-auto px-4">
+        <div class="overflow-y-auto px-4 mb-12">
           <Heading><template>
               Avatar
               </template> </Heading>
@@ -75,6 +75,18 @@
             </template>
           </ComponentPad>
           <!-- end Color avatar -->
+         <!-- Badge avatar -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Badge</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <BadgeAvatar />
+            </template>
+          </ComponentPad>
+          <!-- end Badge avatar -->
 
         </div>
       </div>
@@ -101,6 +113,7 @@ import PresenceAvatar from '../components/Avatar/PresenceAvatar.vue';
 import PresenceRingAvatar from '../components/Avatar/PresenceRingAvatar.vue';
 import CircleAvatar from '../components/Avatar/CircleAvatar.vue';
 import ColorAvatar from '../components/Avatar/ColorAvatar.vue';
+import BadgeAvatar from '../components/Avatar/BadgeAvatar.vue';
 
 export default {
   metaInfo: {
@@ -116,7 +129,8 @@ export default {
     PresenceAvatar,
     PresenceRingAvatar,
     CircleAvatar,
-    ColorAvatar
+    ColorAvatar,
+    BadgeAvatar,
   },
 };
 </script>
