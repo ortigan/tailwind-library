@@ -51,6 +51,18 @@
             </template>
           </ComponentPad>
           <!-- end presence avatar -->
+         <!-- Circle avatar -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Circle</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <CircleAvatar />
+            </template>
+          </ComponentPad>
+          <!-- end Circle avatar -->
          <!-- PresenceRing avatar -->
           <SubHeading>
             <template v-slot:subHeader
@@ -87,6 +99,18 @@
             </template>
           </ComponentPad>
           <!-- end Badge avatar -->
+         <!-- Shadows avatar -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Shadows</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <ShadowsAvatar />
+            </template>
+          </ComponentPad>
+          <!-- end Shadows avatar -->
 
         </div>
       </div>
@@ -114,6 +138,7 @@ import PresenceRingAvatar from '../components/Avatar/PresenceRingAvatar.vue';
 import CircleAvatar from '../components/Avatar/CircleAvatar.vue';
 import ColorAvatar from '../components/Avatar/ColorAvatar.vue';
 import BadgeAvatar from '../components/Avatar/BadgeAvatar.vue';
+import ShadowsAvatar from '../components/Avatar/ShadowsAvatar.vue';
 
 export default {
   metaInfo: {
@@ -131,6 +156,7 @@ export default {
     CircleAvatar,
     ColorAvatar,
     BadgeAvatar,
+    ShadowsAvatar,
   },
 };
 </script>

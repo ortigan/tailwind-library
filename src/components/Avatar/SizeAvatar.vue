@@ -105,7 +105,7 @@
     <div class="w-20 h-20">
       <img
         class="w-full h-full object-cover rounded-lg"
-        src="https://res.cloudinary.com/pranav1421/image/upload/v1651744687/Tailwind-Component-library/matheus-ferrero-W7b3eDUb_2I-unsplash_hu3utv.jpg"
+        src="https://res.cloudinary.com/pranav1421/image/upload/v1651817165/Tailwind-Component-library/Human%20avatar/pexels-anastasia-shuraeva-5704720_lbcevs.jpg"
         alt=""
       />
     </div>

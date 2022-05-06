@@ -26,13 +26,12 @@
         items-center
         justify-center
         rounded-full
-        bg-gray-100
+        bg-gray-700
         hover:bg-gray-200
         relative
       "
     >
-      <div class="text-sm tracking-tight font-light text-gray-700">John</div>
-      <div class="h-3 w-3 bg-red-400 absolute border-2 border-white -right-1 -top-1 rounded-full"></div>
+      <div class="text-sm tracking-tight font-normal text-gray-100">John</div>
     </div>
     <!-- Initials -->
     <div
@@ -45,11 +44,10 @@
         rounded-full
         bg-gray-100
         hover:bg-gray-200
-        relative
+        relative ring-2 ring-indigo-400 border-2 border-white
       "
     >
       <div class="text-base font-normal text-gray-700">JD</div>
-       <div class="h-3.5 w-3.5 bg-blue-400 absolute border-2 border-white -right-1 -bottom-1 rounded-full"></div>
     </div>
     <!-- Icon -->
     <div
@@ -66,8 +64,8 @@
     >
       <svg
         class="text-gray-700"
-        width="24"
-        height="24"
+        width="30"
+        height="30"
         stroke-width="1.5"
         viewBox="0 0 24 24"
         fill="none"
@@ -98,26 +96,26 @@
         items-center
         justify-center
         rounded-full
-        bg-teal-300
-        hover:bg-teal-200 relative 
+        bg-indigo-300
+        hover:bg-indigo-200 relative 
       "
     >
       <img
         class="w-full h-full object-cover rounded-full pt-1"
-        src="https://avatars.dicebear.com/api/avataaars/mv.m55re2.svg"
+        src="https://avatars.dicebear.com/api/micah/mvem55re2.svg"
         alt=""
       />
-        <div class="h-4 w-4 bg-green-400 absolute border-2 border-white -right-1 -top-1 rounded-full"></div>
+        <div class="h-4 w-4 bg-yellow-400 absolute border-2 border-white -right-0 -top-0 rounded-full"></div>
 
     </div>
       <!-- image -->
     <div class="w-20 h-20 rounded-full relative">
       <img
         class="w-full h-full rounded-full object-cover"
-        src="https://res.cloudinary.com/pranav1421/image/upload/v1651744687/Tailwind-Component-library/matheus-ferrero-W7b3eDUb_2I-unsplash_hu3utv.jpg"
+        src="https://res.cloudinary.com/pranav1421/image/upload/v1651820943/Tailwind-Component-library/Human%20avatar/pexels-sound-on-3760857_hujrch.jpg"
         alt=""
       />
-      <div class="h-5 w-5 bg-sky-400 absolute border-2 border-white -right-2 -top-2 rounded-full"></div>
+      <div class="h-5 w-5 bg-red-400 absolute border-2 border-white -right-0 -top-0 rounded-full"></div>
     </div>
     
   </div>

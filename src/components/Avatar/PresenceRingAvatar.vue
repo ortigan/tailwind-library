@@ -8,14 +8,13 @@
         flex
         items-center
         justify-center
-        rounded-lg
+        rounded-full
         bg-gray-100
         hover:bg-gray-200 relative
-        ring-2 ring-green-200
+        ring-2 ring-green-300
       "
     >
       <div class="text-base font-medium text-gray-700">P</div>
-      <div class="h-2.5 w-2.5 bg-green-400 absolute border-2 border-white -right-1 -top-1 rounded-full"></div>
     </div>
    
     <!-- text -->
@@ -28,12 +27,11 @@
         justify-center
         rounded-lg
         bg-gray-100
-        hover:bg-gray-200
-        relative ring-2 ring-red-200
+
+        relative ring-2 ring-red-300
       "
     >
-      <div class="text-sm tracking-tight font-light text-gray-700">John</div>
-      <div class="h-3 w-3 bg-red-400 absolute border-2 border-white -right-1 -top-1 rounded-full"></div>
+      <div class="text-sm tracking-tight font-light text-gray-700 hover:scale-105">Alen</div>
     </div>
     <!-- Initials -->
     <div
@@ -44,13 +42,12 @@
         items-center
         justify-center
         rounded-lg
-        bg-gray-100
-        hover:bg-gray-200
-        relative ring-2 ring-blue-200
+        bg-gray-700
+        hover:bg-gray-800
+        relative ring-2 ring-sky-300 border
       "
     >
-      <div class="text-base font-normal text-gray-700">JD</div>
-       <div class="h-3.5 w-3.5 bg-blue-400 absolute border-2 border-white -right-1 -bottom-1 rounded-full"></div>
+      <div class="text-base font-normal text-gray-100">JD</div>
     </div>
     <!-- Icon -->
     <div
@@ -62,13 +59,13 @@
         justify-center
         bg-gray-100
         hover:bg-gray-200
-        rounded-lg relative ring-2 ring-purple-200
+        rounded-full relative ring-2 ring-indigo-400
       "
     >
       <svg
         class="text-gray-700"
-        width="24"
-        height="24"
+        width="30"
+        height="30"
         stroke-width="1.5"
         viewBox="0 0 24 24"
         fill="none"
@@ -87,7 +84,6 @@
           stroke-linejoin="round"
         />
       </svg>
-             <div class="h-3.5 w-3.5 bg-purple-400 border-2 border-white absolute -right-1 -bottom-1 rounded-full"></div>
 
     </div>
     <!-- Avatar -->
@@ -100,25 +96,23 @@
         justify-center
         rounded-lg
         bg-amber-300
-        hover:bg-amber-200 relative ring-4 ring-green-200
+         relative ring-2 ring-green-300
       "
     >
       <img
-        class="w-full h-full object-cover rounded-lg pt-2"
+        class="w-full h-full object-cover rounded-lg pt-2 border-2"
         src="https://avatars.dicebear.com/api/avataaars/pj9bbrv.more2.svg"
         alt=""
       />
-        <div class="h-4 w-4 bg-green-400 absolute border-2 border-white -right-2 -top-2 rounded-full"></div>
 
     </div>
       <!-- image -->
-    <div class="w-20 h-20 relative rounded-2xl ring-4 ring-sky-200">
+    <div class="w-20 h-20 relative rounded-full ring-2 ring-red-400">
       <img
-        class="w-full h-full object-cover rounded-2xl"
-        src="https://res.cloudinary.com/pranav1421/image/upload/v1651744687/Tailwind-Component-library/matheus-ferrero-W7b3eDUb_2I-unsplash_hu3utv.jpg"
+        class="w-full h-full object-cover rounded-full border-2"
+        src="https://res.cloudinary.com/pranav1421/image/upload/v1651817165/Tailwind-Component-library/Human%20avatar/pexels-anastasia-shuraeva-5704720_lbcevs.jpg"
         alt=""
       />
-      <div class="h-5 w-5 bg-sky-400 absolute border-2 border-white -right-2 -top-2 rounded-full"></div>
     </div>
     
   </div>

@@ -1,6 +1,6 @@
 <template>
   <div class="flex space-x-6">
-      <!-- Letter -->
+     <!-- Icon -->
     <div
       class="
         w-10
@@ -8,36 +8,44 @@
         flex
         items-center
         justify-center
-        rounded-lg
-        bg-yellow-400
-         relative
+        rounded-full
+        bg-white
+         px-0.5
+         shadow-lg shadow-gray-300 hover:shadow-none
       "
     >
-      <div class="text-base font-medium text-gray-100">S</div>
-            <div class="text-xxs bg-cyan-600 px-1 absolute border-2 border-white -right-2 -top-2 rounded-full">3</div>
-
+      <svg
+        class="text-gray-700"
+        width="24"
+        height="24"
+        stroke-width="1.5"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M5 20V19C5 15.134 8.13401 12 12 12V12C15.866 12 19 15.134 19 19V20"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12Z"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
     </div>
    
-    <!-- text -->
-    <div
-      class="
-        w-10
-        h-10
-        flex
-        items-center
-        justify-center
-        rounded-lg
-        bg-gray-100
-        hover:bg-gray-200 relative
-      "
-    >
-    <img
-        class="w-full h-full object-cover rounded-lg"
-        src="https://res.cloudinary.com/pranav1421/image/upload/v1651821816/Tailwind-Component-library/Human%20avatar/pexels-andrea-piacquadio-3767410_kur6zy.jpg"
+    <!-- image -->
+    <div class="w-10 h-10 rounded-full relative shadow-lg shadow-gray-400 hover:shadow-none">
+      <img
+        class="w-full h-full rounded-full object-cover"
+        src="https://res.cloudinary.com/pranav1421/image/upload/v1651820943/Tailwind-Component-library/Human%20avatar/pexels-sound-on-3760857_hujrch.jpg"
         alt=""
       />
-            <div class="text-xxs font-medium px-0.5 bg-violet-500 absolute border border-white -right-2 -bottom-2 rounded-full">+99</div>
-
+      <div class="h-3 w-3 bg-red-400 absolute border-2 border-white -right-0 -top-0 rounded-full"></div>
     </div>
 
     <!-- Icon -->
@@ -49,8 +57,8 @@
         items-center
         justify-center
         bg-blue-100
-        hover:bg-blue-200
-        rounded-full relative
+
+        rounded-full relative shadow-lg shadow-blue-300 hover:shadow-none
       "
     >
       <svg
@@ -80,6 +88,15 @@
 </svg></div>
 
     </div>
+     <!-- ring image -->
+    <div class="w-10 h-10 relative rounded-full ring-2 ring-red-400 shadow-lg shadow-red-300">
+      <img
+        class="w-full h-full object-cover rounded-full border-2"
+        src="https://res.cloudinary.com/pranav1421/image/upload/v1651817165/Tailwind-Component-library/Human%20avatar/pexels-anastasia-shuraeva-5704720_lbcevs.jpg"
+        alt=""
+      />
+    </div>
+    
     <!-- Avatar -->
     <div
       class="
@@ -89,13 +106,13 @@
         items-center
         justify-center
         rounded-full
-        bg-pink-300
-    relative
+        bg-gray-700
+    relative shadow-lg shadow-gray-400 hover:shadow-none
       "
     >
       <img
         class="w-9 h-9 pt-1 hover:w-10 hover:h-10 object-cover rounded-full"
-        src="https://avatars.dicebear.com/api/avataaars/aoiprapre2.svg"
+        src="https://avatars.dicebear.com/api/avataaars/aoliprapre2.svg"
         alt=""
       />
         <div class="bg-rose-500 absolute border border-white -right-1 -bottom-1 rounded-full p-0.5">
@@ -107,16 +124,7 @@
 </svg>
 </div>
     </div>
-      <!-- image -->
-    <div class="w-10 h-10 relative">
-      <img
-        class="w-full h-full object-cover rounded-lg"
-        src="https://res.cloudinary.com/pranav1421/image/upload/v1651744687/Tailwind-Component-library/matheus-ferrero-W7b3eDUb_2I-unsplash_hu3utv.jpg"
-        alt=""
-      />
-                <div class="text-xxs font-medium px-1 bg-gray-500 absolute border border-white -right-2 -top-2 rounded-full">Off</div>
-    </div>
-       <!-- text -->
+        <!-- text -->
     <div
       class="
         w-10
@@ -126,7 +134,7 @@
         justify-center
         rounded-full
         bg-gray-100
-        hover:bg-gray-200 relative
+        hover:bg-gray-200 relative shadow-lg shadow-gray-400
       "
     >
     <img
@@ -134,9 +142,10 @@
         src="https://res.cloudinary.com/pranav1421/image/upload/v1651818407/Tailwind-Component-library/Human%20avatar/pexels-italo-melo-2379004_nibpi3.jpg"
         alt=""
       />
-            <div class="text-xxs font-medium px-0.5 bg-green-500 absolute border border-white -right-2 -bottom-2 rounded-lg tracking-tight">New</div>
+            <div class="text-xxs font-medium px-0.5 bg-green-500 absolute border border-white -right-3 -top-2 rounded-lg tracking-tight">New</div>
 
     </div>
+
        <!-- text -->
     <div
       class="
@@ -147,7 +156,7 @@
         justify-center
         rounded-lg
         bg-gray-100
-        hover:bg-gray-200 relative
+        hover:bg-gray-200 relative shadow-lg shadow-gray-300
       "
     >
     <img

@@ -114,7 +114,7 @@
     <div class="w-20 h-20 relative">
       <img
         class="w-full h-full object-cover rounded-2xl"
-        src="https://res.cloudinary.com/pranav1421/image/upload/v1651744687/Tailwind-Component-library/matheus-ferrero-W7b3eDUb_2I-unsplash_hu3utv.jpg"
+        src="https://res.cloudinary.com/pranav1421/image/upload/v1651817214/Tailwind-Component-library/Human%20avatar/pexels-dalila-dalprat-1844547_zltpkb.jpg"
         alt=""
       />
       <div class="h-5 w-5 bg-sky-400 absolute border-2 border-white -right-2 -top-2 rounded-full"></div>
