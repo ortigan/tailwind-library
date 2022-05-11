@@ -3,20 +3,20 @@
     <span v-for="(item, index) in items" :key="index" class="w-full h-full">
       <div
         :class="
-          `flex flex-col overflow-hidden group w-full h-full rounded-2xl ${
+          `flex flex-col group overflow-hidden group w-full h-full rounded-3xl ${
             item.shadowColor
           } ${item.hoverShadow} ${item.textColor} ${item.bgColor} ${
             item.border
           } ${item.hoverTextColor} ${item.hoverBgColor}`
         "
       >
-        <div class="h-1/3 py-3 bg-indigo-400 w-full">
+        <div class="h-1/3 py-4 bg-indigo-400 w-full">
           <div class="flex justify-between p-4">
             <div class="font-medium text-white">Profile</div>
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 text-white"
+                class="h-6 w-6 text-white cursor-pointer"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -32,7 +32,7 @@
           </div>
         </div>
         <!-- avatar -->
-        <div class="flex justify-center">
+        <div class="flex justify-center rounded-3xl bg-white h-full">
           <div
             class="
               w-24
@@ -45,14 +45,14 @@
             "
           >
             <img
-              class="w-full h-full object-cover"
+              class="w-full h-full object-cover group-hover:scale-110"
               src="https://res.cloudinary.com/pranav1421/image/upload/v1652250432/Tailwind-Component-library/Human%20avatar/IMG_6355_xcaeag.png"
               alt=""
             />
           </div>
         </div>
         <!-- end avatar -->
-        <div class="flex justify-between -translate-y-20 px-4 -mb-14">
+        <div class="flex justify-between -translate-y-20 px-4 -mb-16 rounded-3xl">
           <div class="flex flex-col items-center">
             <div class="text-xs font-semibold text-gray-500">
               Posts
@@ -71,7 +71,6 @@
             flex flex-col
             justify-between
             w-full
-            z-40
             rounded-xl
             overflow-hidden
             -translate-y-5

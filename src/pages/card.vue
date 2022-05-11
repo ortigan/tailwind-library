@@ -150,10 +150,10 @@
             </template>
           </ComponentPad>
             <!-- end type4 user cards -->
-            <!--  type4 user cards -->
+            <!--  type5 user cards -->
             <SubHeading>
             <template v-slot:subHeader
-              >User card <span class="font-normal text-gray-400">type 5</span></template
+              >User card <span class="font-normal text-gray-500">type 5</span></template
             >
           </SubHeading>
           <ComponentPad>
@@ -161,7 +161,19 @@
               <UserCard5 />
             </template>
           </ComponentPad>
-            <!-- end type4 user cards -->
+            <!-- end type5 user cards -->
+            <!--  type6 user cards -->
+            <SubHeading>
+            <template v-slot:subHeader
+              >User card <span class="font-normal text-gray-500">type 6</span></template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <UserCard6 />
+            </template>
+          </ComponentPad>
+            <!-- end type6 user cards -->
           </div>
       </div>
       <!-- right sidebar -->
@@ -189,6 +201,7 @@ import Heading from "../components/Headers/Heading.vue";
 import SubHeading from "../components/Headers/SubHeading.vue";
 import UserCard4 from '../components/Card/UserCard/UserCard4.vue';
 import UserCard5 from '../components/Card/UserCard/UserCard5.vue';
+import UserCard6 from '../components/Card/UserCard/UserCard6.vue';
 
 export default {
   metaInfo: {
@@ -207,6 +220,7 @@ export default {
     UserCard3,
     UserCard4,
     UserCard5,
+    UserCard6,
   },
 };
 
