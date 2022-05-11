@@ -8,7 +8,7 @@
         flex
         items-center
         justify-center
-        rounded-full
+        
         bg-gray-100
         hover:bg-gray-200 relative
       "
@@ -25,9 +25,9 @@
         flex
         items-center
         justify-center
-        rounded-full
+        
         bg-gray-700
-        hover:bg-gray-800
+        hover:bg-gray-200
         relative
       "
     >
@@ -41,7 +41,7 @@
         flex
         items-center
         justify-center
-        rounded-full
+        
         bg-gray-100
         hover:bg-gray-200
         relative ring-2 ring-indigo-400 border-2 border-white
@@ -59,7 +59,7 @@
         justify-center
         bg-gray-100
         hover:bg-gray-200
-        rounded-full relative
+         relative
       "
     >
       <svg
@@ -95,27 +95,27 @@
         flex
         items-center
         justify-center
-        rounded-full
-        bg-indigo-300
-        hover:bg-indigo-200 relative 
+        
+        bg-red-300
+        hover:bg-red-200 relative 
       "
     >
       <img
-        class="w-full h-full object-cover rounded-full pt-1"
-        src="https://avatars.dicebear.com/api/micah/mvem55re2.svg"
+        class="w-full h-full object-cover  pt-1"
+        src="https://avatars.dicebear.com/api/micah/yerm55re2.svg"
         alt=""
       />
-        <div class="h-4 w-4 bg-yellow-400 absolute border-2 border-white -right-0 -top-0 rounded-full"></div>
+        <div class="h-4 w-4 bg-green-400 absolute border-2 border-white -right-1 -top-1 rounded-full"></div>
 
     </div>
       <!-- image -->
-    <div class="w-20 h-20 rounded-full relative">
+    <div class="w-20 h-20  relative">
       <img
-        class="w-full h-full rounded-full object-cover"
-        src="https://res.cloudinary.com/pranav1421/image/upload/v1651820943/Tailwind-Component-library/Human%20avatar/pexels-sound-on-3760857_hujrch.jpg"
+        class="w-full h-full  object-cover"
+        src="https://res.cloudinary.com/pranav1421/image/upload/v1651821859/Tailwind-Component-library/Human%20avatar/pexels-pixabay-220453_ndnfc1.jpg"
         alt=""
       />
-      <div class="h-5 w-5 bg-red-400 absolute border-2 border-white -right-0 -top-0 rounded-full"></div>
+      <div class="h-5 w-5 bg-red-400 absolute border-2 border-white -right-1 -top-1 rounded-full"></div>
     </div>
     
   </div>

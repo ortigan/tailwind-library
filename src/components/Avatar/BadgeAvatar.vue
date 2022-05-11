@@ -1,5 +1,5 @@
 <template>
-  <div class="flex space-x-6">
+  <div class="flex space-x-6 items-center">
       <!-- Letter -->
     <div
       class="
@@ -110,11 +110,11 @@
       <!-- image -->
     <div class="w-10 h-10 relative">
       <img
-        class="w-full h-full object-cover rounded-lg"
+        class="w-full h-full object-cover"
         src="https://res.cloudinary.com/pranav1421/image/upload/v1651744687/Tailwind-Component-library/matheus-ferrero-W7b3eDUb_2I-unsplash_hu3utv.jpg"
         alt=""
       />
-                <div class="text-xxs font-medium px-1 bg-gray-500 absolute border border-white -right-2 -top-2 rounded-full">Off</div>
+                <div class="text-xxs font-medium px-1 bg-gray-500 absolute border border-white -right-3 -top-2 rounded-full">Off</div>
     </div>
        <!-- text -->
     <div
@@ -134,7 +134,32 @@
         src="https://res.cloudinary.com/pranav1421/image/upload/v1651818407/Tailwind-Component-library/Human%20avatar/pexels-italo-melo-2379004_nibpi3.jpg"
         alt=""
       />
-            <div class="text-xxs font-medium px-0.5 bg-green-500 absolute border border-white -right-2 -bottom-2 rounded-lg tracking-tight">New</div>
+            <div class="text-xxs font-medium px-0.5 bg-green-500 absolute border border-white -right-3 -top-2 rounded-lg tracking-tight">New</div>
+
+    </div>
+       <!-- Pen -->
+    <div
+      class="
+        w-10
+        h-10
+        flex
+        items-center
+        justify-center
+        rounded-full
+        bg-gray-100
+        hover:bg-gray-200 relative
+      "
+    >
+    <img
+        class="w-full h-full object-cover rounded-full"
+        src="https://res.cloudinary.com/pranav1421/image/upload/v1651818134/Tailwind-Component-library/Human%20avatar/pexels-rachel-claire-5490276_ahveoz.jpg"
+        alt=""
+      />
+            <div class="text-xxs font-medium  bg-cyan-500 absolute border border-white -right-1 -bottom-1 rounded-full p-0.5 tracking-tight">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
+  <path d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z" />
+</svg>
+            </div>
 
     </div>
        <!-- text -->

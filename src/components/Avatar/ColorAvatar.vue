@@ -16,6 +16,20 @@
     >
       <div class="text-base font-normal text-white">P</div>
     </div>
+    <!-- Initials -->
+    <div
+      class="
+        w-10
+        h-10
+        flex
+        items-center
+        justify-center
+        bg-fuchsia-600
+
+      "
+    >
+      <div class="text-base font-normal text-white">Km</div>
+    </div>
     <!--  -->
     <div
       class="

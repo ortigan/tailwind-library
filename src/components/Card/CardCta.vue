@@ -1,10 +1,10 @@
 <template>
-  <div class="flex w-full space-x-6 justify-center items-center">
+  <div class="flex flex-col lg:flex-row  w-full space-x-6 justify-center items-center">
       <span v-for="(item,index) in items" :key="index">
           <div :class="`p-6 rounded-lg ${item.shadowColor} ${item.hoverShadow} ${item.textColor} ${item.bgColor} ${item.border} ${item.hoverTextColor} ${item.hoverBgColor}`">
               <div class="flex flex-col w-full">
               <div class="text-2xl font-semibold">{{item.title}}</div>
-              <div class="text-xl font-semibold">{{item.type}}</div>
+              <div class="text-sm py-4 font-semibold">{{item.type}}</div>
               <div class="mt-2 text-sm"><p>{{item.para}}</p></div>
               <div><button :class="`px-5 py-2 text-sm font-medium ${item.bgButtonColor} ${item.buttonBorder} ${item.buttonTextColor} rounded-md mt-6`">Button</button></div>
               </div>
@@ -39,7 +39,7 @@ export default {
                 buttonBorder:"border border-gray-700",
                 hoverShadow:"hover:shadow-none",
                 title:"Default card title",
-                border:"border-2 border-gray-700",
+                border:"border border-gray-700",
                 type:"Type 2",
                 para:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores.",
 

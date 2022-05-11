@@ -6,7 +6,7 @@
           <div class="overflow-y-auto px-4">
             <Heading />
             <div>
-          <p class="text-base font-primary ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam?</p>
+          <p class="text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam?</p>
             </div>
              <!-- Default card -->
              <div class="w-full flex justify-between py-2">
@@ -37,7 +37,7 @@
             <!-- end default-cards -->
              <!-- CTA card -->
              <div class="w-full flex justify-between py-2">
-              <div class="font-bold text-xl font-primary">Card with CTA</div>
+              <div class="font-bold text-xl ">Card with CTA</div>
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +64,7 @@
             <!-- end default-cards -->
              <!-- CTA card with link -->
              <div class="w-full flex justify-between py-2">
-              <div class="font-bold text-xl font-primary">Card with Link</div>
+              <div class="font-bold text-xl ">Card with Link</div>
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -89,6 +89,79 @@
             </div>
          
             <!-- end cta cards with link-->
+            <!-- User profile cards start -->
+            <!-- default user cards -->
+            <SubHeading>
+            <template v-slot:subHeader
+              >Default user card</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <DefaultUserCard />
+            </template>
+          </ComponentPad>
+            <!-- enddefault user cards -->
+            <!-- type1 user cards -->
+            <SubHeading>
+            <template v-slot:subHeader
+              >User card <span class="font-normal text-gray-400">type 1</span></template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <UserCard1 />
+            </template>
+          </ComponentPad>
+            <!-- endtype1 user cards -->
+            <!--  type2 user cards -->
+            <SubHeading>
+            <template v-slot:subHeader
+              >User card <span class="font-normal text-gray-400">type 2</span></template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <UserCard2 />
+            </template>
+          </ComponentPad>
+            <!-- end type2 user cards -->
+            <!--  type3 user cards -->
+            <SubHeading>
+            <template v-slot:subHeader
+              >User card <span class="font-normal text-gray-400">type 3</span></template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <UserCard3 />
+            </template>
+          </ComponentPad>
+            <!-- end type3 user cards -->
+            <!--  type4 user cards -->
+            <SubHeading>
+            <template v-slot:subHeader
+              >User card <span class="font-normal text-gray-400">type 4</span></template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <UserCard4 />
+            </template>
+          </ComponentPad>
+            <!-- end type4 user cards -->
+            <!--  type4 user cards -->
+            <SubHeading>
+            <template v-slot:subHeader
+              >User card <span class="font-normal text-gray-400">type 5</span></template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <UserCard5 />
+            </template>
+          </ComponentPad>
+            <!-- end type4 user cards -->
           </div>
       </div>
       <!-- right sidebar -->
@@ -108,23 +181,36 @@ import CardCta from '../components/Card/CardCta.vue';
 import CardInfo from '../components/Card/CardInfo.vue';
 import CardLink from '../components/Card/CardLink.vue';
 import DefaultCards from '../components/Card/DefaultCards.vue';
+import DefaultUserCard from '../components/Card/UserCard/DefaultUserCard.vue';
+import UserCard1 from '../components/Card/UserCard/UserCard1.vue';
+import UserCard3 from '../components/Card/UserCard/UserCard3.vue';
+import UserCard2 from '../components/Card/UserCard/UserCard2.vue';
 import Heading from "../components/Headers/Heading.vue";
+import SubHeading from "../components/Headers/SubHeading.vue";
+import UserCard4 from '../components/Card/UserCard/UserCard4.vue';
+import UserCard5 from '../components/Card/UserCard/UserCard5.vue';
 
 export default {
   metaInfo: {
     title: "Buttons",
   },
   components: {
+    SubHeading,
     Heading,
     CardInfo,
     DefaultCards,
     CardCta,
     CardLink,
-
+    DefaultUserCard,
+    UserCard1,
+    UserCard2,
+    UserCard3,
+    UserCard4,
+    UserCard5,
   },
 };
 
-    CardInfo</script>
+</script>
 
 <style>
 .home-links a {

@@ -89,7 +89,7 @@
 
     </div>
      <!-- ring image -->
-    <div class="w-10 h-10 relative rounded-full ring-2 ring-red-400 shadow-lg shadow-red-300">
+    <div class="w-10 h-10 relative rounded-full ring-2 ring-red-400 shadow-lg shadow-red-300 hover:shadow-none">
       <img
         class="w-full h-full object-cover rounded-full border-2"
         src="https://res.cloudinary.com/pranav1421/image/upload/v1651817165/Tailwind-Component-library/Human%20avatar/pexels-anastasia-shuraeva-5704720_lbcevs.jpg"
@@ -134,7 +134,7 @@
         justify-center
         rounded-full
         bg-gray-100
-        hover:bg-gray-200 relative shadow-lg shadow-gray-400
+        hover:bg-gray-200 relative shadow-lg shadow-gray-400 hover:shadow-none
       "
     >
     <img
@@ -156,7 +156,7 @@
         justify-center
         rounded-lg
         bg-gray-100
-        hover:bg-gray-200 relative shadow-lg shadow-gray-300
+        hover:bg-gray-200 relative shadow-lg shadow-gray-300 hover:shadow-none
       "
     >
     <img

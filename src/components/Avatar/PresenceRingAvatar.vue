@@ -41,7 +41,7 @@
         flex
         items-center
         justify-center
-        rounded-lg
+       
         bg-gray-700
         hover:bg-gray-800
         relative ring-2 ring-sky-300 border
@@ -84,6 +84,7 @@
           stroke-linejoin="round"
         />
       </svg>
+             <div class="h-3.5 w-3.5 bg-indigo-400 border-2 border-white absolute -right-0 top-0 rounded-full"></div>
 
     </div>
     <!-- Avatar -->
@@ -96,7 +97,7 @@
         justify-center
         rounded-lg
         bg-amber-300
-         relative ring-2 ring-green-300
+         relative ring-2 ring-blue-300
       "
     >
       <img

@@ -4,7 +4,7 @@
           <div :class="`p-6 rounded-lg ${item.shadowColor} ${item.hoverShadow} ${item.textColor} ${item.bgColor} ${item.border} ${item.hoverTextColor} ${item.hoverBgColor}`">
               <div class="flex flex-col w-full">
               <div class="text-2xl font-semibold">{{item.title}}</div>
-              <div class="text-xl font-semibold">{{item.type}}</div>
+              <div class="text-sm py-4 font-semibold">{{item.type}}</div>
               <div class="mt-2 text-sm"><p>{{item.para}}</p></div>
               </div>
           </div>
@@ -35,7 +35,7 @@ export default {
                 shadowColor:"",
                 hoverShadow:"hover:shadow-none",
                 title:"Default card title",
-                border:"border-2 border-gray-700",
+                border:"border border-gray-700",
                 type:"Type 2",
                 para:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, consequuntur suscipit nesciunt laudantium eius veritatis at facere soluta mollitia velit.",
 

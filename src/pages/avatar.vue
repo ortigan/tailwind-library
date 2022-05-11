@@ -63,6 +63,18 @@
             </template>
           </ComponentPad>
           <!-- end Circle avatar -->
+         <!-- Square avatar -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Square</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <SquareAvatar />
+            </template>
+          </ComponentPad>
+          <!-- end Square avatar -->
          <!-- PresenceRing avatar -->
           <SubHeading>
             <template v-slot:subHeader
@@ -111,6 +123,54 @@
             </template>
           </ComponentPad>
           <!-- end Shadows avatar -->
+         <!-- Group 1 avatar -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Group 1</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <GroupAvatar1 />
+            </template>
+          </ComponentPad>
+          <!-- end Group 1 avatar -->
+         <!-- Group 2 avatar -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Group 2</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <GroupAvatar2 />
+            </template>
+          </ComponentPad>
+          <!-- end Group 2 avatar -->
+         <!-- Info avatar -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Info</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <InfoAvatar />
+            </template>
+          </ComponentPad>
+          <!-- end Info avatar -->
+         <!-- DropDown Avatar avatar -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Drop Down</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <DropDownAvatar />
+            </template>
+          </ComponentPad>
+          <!-- end DropDownAvatar avatar -->
 
         </div>
       </div>
@@ -139,6 +199,11 @@ import CircleAvatar from '../components/Avatar/CircleAvatar.vue';
 import ColorAvatar from '../components/Avatar/ColorAvatar.vue';
 import BadgeAvatar from '../components/Avatar/BadgeAvatar.vue';
 import ShadowsAvatar from '../components/Avatar/ShadowsAvatar.vue';
+import SquareAvatar from '../components/Avatar/SquareAvatar.vue';
+import GroupAvatar1 from '../components/Avatar/AvatarGroup/GroupAvatar1.vue';
+import GroupAvatar2 from '../components/Avatar/AvatarGroup/GroupAvatar2.vue';
+import InfoAvatar from '../components/Avatar/InfoAvatar.vue';
+import DropDownAvatar from '../components/Avatar/DropDownAvatar.vue';
 
 export default {
   metaInfo: {
@@ -157,6 +222,11 @@ export default {
     ColorAvatar,
     BadgeAvatar,
     ShadowsAvatar,
+    SquareAvatar,
+    GroupAvatar1,
+    GroupAvatar2,
+    InfoAvatar,
+    DropDownAvatar,
   },
 };
 </script>

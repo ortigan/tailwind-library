@@ -1,6 +1,6 @@
 <template>
   <div
-    class="pattern-dots-sm text-gray-100 bg-white rounded-lg py-10 px-10 flex justify-center items-center"
+    class="pattern-dots-sm text-gray-200 bg-white rounded-lg py-10 px-10 flex justify-center items-center"
   >
     <slot />
   </div>
