@@ -18,7 +18,7 @@
               <!-- avatar -->
               <div class="w-24 h-24 overflow-hidden rounded-3xl bg-teal-300">
                    <img
-              class="w-full h-full object-cover group-hover:scale-110"
+              class="w-full h-full object-cover group-hover:scale-105"
               src="https://avatars.dicebear.com/api/micah/helosdh1.svg"
               alt=""
             />

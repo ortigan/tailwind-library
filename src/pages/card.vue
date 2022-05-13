@@ -174,6 +174,18 @@
             </template>
           </ComponentPad>
             <!-- end type6 user cards -->
+            <!--  type7 user cards -->
+            <SubHeading>
+            <template v-slot:subHeader
+              >User card <span class="font-normal text-gray-500">type 7</span></template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <UserCard7 />
+            </template>
+          </ComponentPad>
+            <!-- end type7 user cards -->
           </div>
       </div>
       <!-- right sidebar -->
@@ -202,6 +214,7 @@ import SubHeading from "../components/Headers/SubHeading.vue";
 import UserCard4 from '../components/Card/UserCard/UserCard4.vue';
 import UserCard5 from '../components/Card/UserCard/UserCard5.vue';
 import UserCard6 from '../components/Card/UserCard/UserCard6.vue';
+import UserCard7 from '../components/Card/UserCard/UserCard7.vue';
 
 export default {
   metaInfo: {
@@ -221,6 +234,7 @@ export default {
     UserCard4,
     UserCard5,
     UserCard6,
+    UserCard7,
   },
 };
 
