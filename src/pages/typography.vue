@@ -29,10 +29,10 @@
             </template>
           </ComponentPad>
           <!-- end font size -->
-          <!-- Font size -->
+          <!-- Font weight -->
           <SubHeading>
             <template v-slot:subHeader
-              >Font size</template
+              >Font weight</template
             >
           </SubHeading>
           <ComponentPad>
@@ -40,7 +40,19 @@
               <FontWeightTypo />
             </template>
           </ComponentPad>
-          <!-- end font size -->
+          <!-- end font weight -->
+          <!-- Tracking -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Tracking</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <TrackingTypography />
+            </template>
+          </ComponentPad>
+          <!-- end Tracking -->
          
         </div>
       </div>
@@ -60,6 +72,7 @@
 import TypographyInfo from "../components/Typography/TypographyInfo.vue";
 import FontsizeTypo from "../components/Typography/FontsizeTypo.vue";
 import FontWeightTypo from "../components/Typography/FontWeightTypo.vue";
+import TrackingTypography from "../components/Typography/TrackingTypography.vue";
 
 import Heading from "../components/Headers/Heading.vue";
 import SubHeading from "../components/Headers/SubHeading.vue";
@@ -74,6 +87,7 @@ export default {
     TypographyInfo,
     FontsizeTypo,
     FontWeightTypo,
+    TrackingTypography,
     
   },
 };

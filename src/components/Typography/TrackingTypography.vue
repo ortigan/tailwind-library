@@ -2,7 +2,7 @@
   <div class="flex w-full flex-col justify-start">
       <span v-for="(item,index) in items" :key="index" class="">
         <div class=" justify-start text-gray-700 font">
-            <div :class="`text-lg ${item.FontWeight}`">Font Weight</div>
+            <div :class="`text-lg ${item.tracking} font-medium`">This is tracking</div>
         </div>
       </span>
   </div>
@@ -15,40 +15,29 @@ export default {
             items:[
                 {
                     id:1,
-                    FontWeight:"font-thin",
+                    tracking:"tracking-tighter",
                 },
                 {
                     id:2,
-                    FontWeight:"font-extralight",
+                    tracking:"tracking-tight",
                 },
                 {
                     id:3,
-                    FontWeight:"font-light",
+                    tracking:"tracking-normal",
                 },
                 {
                     id:4,
-                    FontWeight:"font-normal",
+                    tracking:"tracking-wide",
                 },
                 {
                     id:5,
-                    FontWeight:"font-medium",
+                    tracking:"tracking-wider",
                 },
                 {
                     id:6,
-                    FontWeight:"font-semibold",
+                    tracking:"tracking-widest",
                 },
-                {
-                    id:7,
-                    FontWeight:"font-bold",
-                },
-                {
-                    id:8,
-                    FontWeight:"font-extrabold",
-                },
-                {
-                    id:9,
-                    FontWeight:"font-black",
-                },
+               
             ]
         }
     }
