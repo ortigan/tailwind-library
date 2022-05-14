@@ -1,7 +1,17 @@
 <template>
-  <div class="flex w-full flex-col space-y-2 justify-center items-center">
-  
-      <div class="flex items-center w-full space-x-2 font-normal text-sm text-gray-700">
+  <div class="flex w-full flex-col space-y-4 items-center">
+    <span
+      v-for="(item, index) in items"
+      :key="index"
+      class="flex w-full"
+    >
+      <div
+        :class="
+          `flex items-center ${item.alignent} shadow-md w-full space-x-2 text-sm font-normal  ${
+            item.textColor
+          } ${item.bgColor}  p-4 rounded-lg`
+        "
+      >
         <div class="flex items-center space-x-1">
           <div>
             <svg
@@ -94,7 +104,7 @@
             />
           </svg>
         </div>
-        <div class="text-sky-600 flex items-center space-x-1">
+        <div :class="`${item.textColor} flex items-center space-x-1`">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +125,7 @@
           <div>Task2</div>
         </div>
       </div>
- 
+    </span>
   </div>
 </template>
 
@@ -126,6 +136,21 @@ export default {
       items: [
         {
           id: 1,
+          textColor: "text-gray-600",
+          bgColor: "bg-white",
+          alignent: "justify-start",
+        },
+        {
+          id: 2,
+          textColor: "text-gray-600",
+          bgColor: "bg-white",
+          alignent: "justify-center",
+        },
+        {
+          id: 3,
+          textColor: "text-gray-600",
+          bgColor: "bg-white",
+          alignent: "justify-end",
         },
       ],
     };

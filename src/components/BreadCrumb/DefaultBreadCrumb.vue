@@ -1,7 +1,7 @@
 <template>
   <div class="flex w-full justify-center items-center">
     <span v-for="(item, index) in items" :key="index" class="w-full h-full">
-     <div class="flex items-center w-full space-x-2 font-medium text-gray-700">
+     <div class="flex items-center w-full space-x-2 font-normal text-sm text-gray-700">
        <div>Home</div>
        <div>/</div>
        <div>Account</div>

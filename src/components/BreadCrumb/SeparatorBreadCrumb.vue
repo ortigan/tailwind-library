@@ -1,7 +1,17 @@
 <template>
-  <div class="flex w-full flex-col space-y-2 justify-center items-center">
-  
-      <div class="flex items-center w-full space-x-2 font-normal text-sm text-gray-700">
+  <div class="flex w-full flex-col space-y-4 items-center">
+    <span
+      v-for="(item, index) in items"
+      :key="index"
+      class="flex w-full"
+    >
+      <div
+        :class="
+          `flex items-center justify-start shadow-md w-full space-x-2 text-sm font-normal  ${
+            item.textColor
+          } ${item.bgColor}  p-4 rounded-lg`
+        "
+      >
         <div class="flex items-center space-x-1">
           <div>
             <svg
@@ -18,18 +28,8 @@
           <div>Home</div>
         </div>
         <div>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-              clip-rule="evenodd"
-            />
-          </svg>
+            <!-- separator -->
+         `${item.separator}`
         </div>
         <div class="flex item-center space-x-1">
           <div>
@@ -94,7 +94,7 @@
             />
           </svg>
         </div>
-        <div class="text-sky-600 flex items-center space-x-1">
+        <div :class="`${item.textColor} flex items-center space-x-1`">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +115,7 @@
           <div>Task2</div>
         </div>
       </div>
- 
+    </span>
   </div>
 </template>
 
@@ -126,6 +126,32 @@ export default {
       items: [
         {
           id: 1,
+          textColor: "text-gray-600",
+          bgColor: "bg-white",
+          separator: `<svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+              clip-rule="evenodd"
+            />
+          </svg>`,
+        },
+        {
+          id: 2,
+          textColor: "text-gray-600",
+          bgColor: "bg-white",
+          separator: "justify-center",
+        },
+        {
+          id: 3,
+          textColor: "text-gray-600",
+          bgColor: "bg-white",
+          separator: "justify-end",
         },
       ],
     };
