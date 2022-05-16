@@ -186,6 +186,30 @@
             </template>
           </ComponentPad>
             <!-- end type7 user cards -->
+            <!--  type8 user cards -->
+            <SubHeading>
+            <template v-slot:subHeader
+              >User card <span class="font-normal text-gray-500">type 8</span></template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <UserCard8 />
+            </template>
+          </ComponentPad>
+            <!-- end type8 user cards -->
+            <!--  type9 user cards -->
+            <SubHeading>
+            <template v-slot:subHeader
+              >User card <span class="font-normal text-gray-500">type 9</span></template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <UserCard9 />
+            </template>
+          </ComponentPad>
+            <!-- end type9 user cards -->
           </div>
       </div>
       <!-- right sidebar -->
@@ -215,6 +239,8 @@ import UserCard4 from '../components/Card/UserCard/UserCard4.vue';
 import UserCard5 from '../components/Card/UserCard/UserCard5.vue';
 import UserCard6 from '../components/Card/UserCard/UserCard6.vue';
 import UserCard7 from '../components/Card/UserCard/UserCard7.vue';
+import UserCard8 from '../components/Card/UserCard/UserCard8.vue';
+import UserCard9 from '../components/Card/UserCard/UserCard9.vue';
 
 export default {
   metaInfo: {
@@ -235,6 +261,8 @@ export default {
     UserCard5,
     UserCard6,
     UserCard7,
+    UserCard8,
+    UserCard9,
   },
 };
 

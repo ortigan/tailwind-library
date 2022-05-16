@@ -53,6 +53,30 @@
             </template>
           </ComponentPad>
           <!-- end Tracking -->
+          <!-- Text Decoration  -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Text Decoration </template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <TextDecoration />
+            </template>
+          </ComponentPad>
+          <!-- end Text Decoration  -->
+          <!-- Text Decoration thickness -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Text Decoration thickness</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <TextDecorationThickness />
+            </template>
+          </ComponentPad>
+          <!-- end Text Decoration thickness -->
          
         </div>
       </div>
@@ -73,6 +97,8 @@ import TypographyInfo from "../components/Typography/TypographyInfo.vue";
 import FontsizeTypo from "../components/Typography/FontsizeTypo.vue";
 import FontWeightTypo from "../components/Typography/FontWeightTypo.vue";
 import TrackingTypography from "../components/Typography/TrackingTypography.vue";
+import TextDecoration from "../components/Typography/TextDecoration.vue";
+import TextDecorationThickness from "../components/Typography/TextDecorationThickness.vue";
 
 import Heading from "../components/Headers/Heading.vue";
 import SubHeading from "../components/Headers/SubHeading.vue";
@@ -88,6 +114,8 @@ export default {
     FontsizeTypo,
     FontWeightTypo,
     TrackingTypography,
+    TextDecoration,
+    TextDecorationThickness,
     
   },
 };

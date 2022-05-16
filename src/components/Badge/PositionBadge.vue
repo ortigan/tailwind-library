@@ -1,8 +1,8 @@
 <template>
-  <div class="flex flex-wrap items-center">
+  <div class="flex flex-wrap items-center gap-4">
     <span v-for="(item, index) in itmes" :key="index">
       <div
-        :class="`relative ${item.pad} ${item.textSize} rounded-md mr-4 font-semibold ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor}  ${item.bgColor}`"
+        :class="`relative ${item.pad} ${item.textSize} rounded-md font-semibold ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor}  ${item.bgColor}`"
       >
         {{ item.title }}
         <span
