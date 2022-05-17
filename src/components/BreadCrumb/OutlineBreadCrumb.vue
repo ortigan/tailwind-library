@@ -135,7 +135,7 @@ export default {
           id: 2,
           textColor:"text-sky-600",
           bgColor:"",
-        outline:"border border-sky-600"
+        outline:"border-2 border-sky-600"
         },
        
       ],
