@@ -29,6 +29,30 @@
             </template>
           </ComponentPad>
           <!-- end default navbar -->
+          <!-- Dropdown Navbar -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Dropdown Navbar</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <DropdownNavbar />
+            </template>
+          </ComponentPad>
+          <!-- end Dropdown navbar -->
+          <!-- with Search Navbar -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Navbar with search bar</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <SearchNavbar />
+            </template>
+          </ComponentPad>
+          <!-- end with search bar -->
 
         </div>
       </div>
@@ -49,6 +73,8 @@
 import Heading from "../components/Headers/Heading.vue";
 import SubHeading from "../components/Headers/SubHeading.vue";
 import DefaultNavbar from "../components/Navbar/DefaultNavbar.vue";
+import DropdownNavbar from "../components/Navbar/DropdownNavbar.vue";
+import SearchNavbar from "../components/Navbar/SearchNavbar.vue";
 
 export default {
   metaInfo: {
@@ -57,7 +83,9 @@ export default {
   components: {
     SubHeading,
     Heading,
-    DefaultNavbar
+    DefaultNavbar,
+    DropdownNavbar,
+    SearchNavbar,
 
 
   },

@@ -30,14 +30,17 @@
     <!-- nav items -->
     <div class="">
       <div class="" id="navigation">
-        <ul class="flex flex-col lg:flex-row font-medium text-gray-700 gap-2 lg:gap-4 mt-2 lg:mt-0">
+        <ul class="flex flex-col lg:flex-row text-gray-700 font-medium gap-2 lg:gap-4 mt-2 lg:mt-0">
           <li><a href="#" class="text-sky-700">Home</a></li>
           <li><a href="#" class="hover:text-sky-700">About</a></li>
           <li><a href="#" class="hover:text-sky-700">Services</a></li>
           <li><a href="#" class="hover:text-sky-700">Pricing</a></li>
-          <li><a href="#" class="hover:text-sky-700">Contact</a></li>
         </ul>
       </div>
+    </div>
+    <!-- Search bar -->
+    <div>
+     
     </div>
   </div>
 </template>
