@@ -29,21 +29,20 @@
     </div>
     <!-- nav items -->
     <div class="">
-      
+      <div class="" id="navigation">
         <ul class="flex flex-col lg:flex-row text-gray-700 font-medium gap-2 lg:gap-4 mt-2 lg:mt-0">
           <li><a href="#" class="text-sky-700">Home</a></li>
           <li><a href="#" class="hover:text-sky-700">About</a></li>
           <li><a href="#" class="hover:text-sky-700">Services</a></li>
           <li><a href="#" class="hover:text-sky-700">Pricing</a></li>
         </ul>
-      
+      </div>
     </div>
-    <!-- search bar -->
-<div class="flex items-center relative">
-            <input type="text" class="p-2 pl-10 text-gray-900 bg-gray-50 rounded-xl border border-gray-300 sm:text-sm focus:ring-sky-500 focus:border-sky-500 " placeholder="Search...">
-    <div class="flex items-center absolute left-3"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
-  <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
-</svg></div>
+    <!-- 3rd element -->
+    <div>
+   <div class="px-5 py-2 bg-sky-600 hover:bg-sky-700 rounded-lg">
+       <div class="cursor-pointer text-white text-tiny font-medium" type="button">Get started</div>
+   </div>
     </div>
   </div>
 </template>
