@@ -6,7 +6,7 @@
         <div class="overflow-y-auto px-4">
           <Heading
             ><template>
-              Navbar
+              Footer
             </template>
           </Heading>
           <div>
@@ -17,54 +17,19 @@
               impedit dolore aliquam?
             </p>
           </div>
-          <!-- Default Navbar -->
+          <!-- Default Footer -->
           <SubHeading>
             <template v-slot:subHeader
-              >Default Navbar</template
+              >Default Footer</template
             >
           </SubHeading>
           <ComponentPad>
             <template>
-              <DefaultNavbar />
+              <DefaultFooter />
             </template>
           </ComponentPad>
-          <!-- end default navbar -->
-          <!-- Dropdown Navbar -->
-          <SubHeading>
-            <template v-slot:subHeader
-              >Dropdown Navbar</template
-            >
-          </SubHeading>
-          <ComponentPad>
-            <template>
-              <DropdownNavbar />
-            </template>
-          </ComponentPad>
-          <!-- end Dropdown navbar -->
-          <!-- with Search Navbar -->
-          <SubHeading>
-            <template v-slot:subHeader
-              >Navbar with search bar</template
-            >
-          </SubHeading>
-          <ComponentPad>
-            <template>
-              <SearchNavbar />
-            </template>
-          </ComponentPad>
-          <!-- end with search bar -->
-          <!-- with CTA -->
-          <SubHeading>
-            <template v-slot:subHeader
-              >Navbar with CTA</template
-            >
-          </SubHeading>
-          <ComponentPad>
-            <template>
-              <CtaNavbar />
-            </template>
-          </ComponentPad>
-          <!-- end with CTA -->
+          <!-- end default Footer -->
+
 
         </div>
       </div>
@@ -72,7 +37,7 @@
       <div class="hidden lg:block">
         <div class="w-40 flex flex-col min-h-screen overflow-y-hidden">
           <div class="overflow-y-auto">
-            <NavbarInfo />
+            <FooterInfo />
           </div>
         </div>
       </div>
@@ -84,11 +49,9 @@
 
 import Heading from "../components/Headers/Heading.vue";
 import SubHeading from "../components/Headers/SubHeading.vue";
-import NavbarInfo from "../components/Navbar/NavbarInfo.vue";
-import DefaultNavbar from "../components/Navbar/DefaultNavbar.vue";
-import DropdownNavbar from "../components/Navbar/DropdownNavbar.vue";
-import SearchNavbar from "../components/Navbar/SearchNavbar.vue";
-import CtaNavbar from "../components/Navbar/CtaNavbar.vue";
+import FooterInfo from "../components/Footer/FooterInfo.vue";
+import DefaultFooter from "../components/Footer/DefaultFooter.vue";
+
 
 export default {
   metaInfo: {
@@ -97,12 +60,9 @@ export default {
   components: {
     SubHeading,
     Heading,
-    NavbarInfo,
-    DefaultNavbar,
-    DropdownNavbar,
-    SearchNavbar,
-    CtaNavbar
-
+    FooterInfo,
+    DefaultFooter
+   
 
   },
 };
