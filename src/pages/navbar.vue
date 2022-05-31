@@ -65,6 +65,18 @@
             </template>
           </ComponentPad>
           <!-- end with CTA -->
+          <!-- with CTA -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Gumroad navbar</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <GumroadNavbar />
+            </template>
+          </ComponentPad>
+          <!-- end with CTA -->
 
         </div>
       </div>
@@ -89,6 +101,7 @@ import DefaultNavbar from "../components/Navbar/DefaultNavbar.vue";
 import DropdownNavbar from "../components/Navbar/DropdownNavbar.vue";
 import SearchNavbar from "../components/Navbar/SearchNavbar.vue";
 import CtaNavbar from "../components/Navbar/CtaNavbar.vue";
+import GumroadNavbar from "../components/Navbar/GumroadNavbar.vue";
 
 export default {
   metaInfo: {
@@ -101,7 +114,8 @@ export default {
     DefaultNavbar,
     DropdownNavbar,
     SearchNavbar,
-    CtaNavbar
+    CtaNavbar,
+    GumroadNavbar
 
 
   },

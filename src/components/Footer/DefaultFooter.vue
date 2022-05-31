@@ -68,7 +68,7 @@
    </div>
    <div class="flex flex-col md:flex-row justify-between md:items-center w-full py-2 border-t mt-12">
   <!-- logo -->
-    <div class="flex items-center px-4">
+    <div class="flex items-center md:px-4">
       <div class="font-bold text-lg text-gray-700 flex items-center w-10 h-10">
         <img class="w-1/2 h-1/2 md:w-full md:h-full" src="https://res.cloudinary.com/pranav1421/image/upload/v1652785994/Tailwind-Component-library/Logo/tailwind-css_yizuxw.svg" alt="">
         <span class="px-2 text-base">tailwindcss</span>
