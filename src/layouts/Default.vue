@@ -10,7 +10,7 @@
               <div class="overflow-y-auto  hidden md:block">
                 <div class="flex flex-col mt-6 space-y-1 text-slate-700">
                   <span v-for="(item,index) in menu" :key="index">
-                    <div :class="getPath() == item.link ? 'font-semibold':''">
+                    <div :class="getPath() == item.link ? 'font-semibold text-sky-700':''">
 
                     <g-link :to="item.link">
                       {{item.title}}

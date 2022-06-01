@@ -45,7 +45,7 @@
           </div>
           <!-- remember me -->
           <div class="flex items-center gap-2 w-full mt-6">
-            <input type="checkbox" name="" id="" class="rounded bg-gray-50 border border-gray-300 focus:outline-none"/>
+            <input type="checkbox" name="" id="" class="rounded bg-gray-50 border border-gray-300 focus:outline-none focus:ring-0"/>
             <label for="" class="block text-sm font-semibold"
               >Remember me
             </label>

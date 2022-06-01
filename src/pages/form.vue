@@ -17,6 +17,16 @@
           <!-- Default Form -->
           <SubHeading>
             <template v-slot:subHeader
+              >Form elements</template
+            >
+          </SubHeading>
+          
+              <FormElement />
+          
+          <!-- end default Form -->
+          <!-- Default Form -->
+          <SubHeading>
+            <template v-slot:subHeader
               >Default Form</template
             >
           </SubHeading>
@@ -47,6 +57,7 @@ import Heading from "../components/Headers/Heading.vue";
 import SubHeading from "../components/Headers/SubHeading.vue";
 import FormInfo from "../components/Form/FormInfo.vue";
 import DefaultForm from "../components/Form/DefaultForm.vue";
+import FormElement from "../components/Form/FormElement.vue";
 
 
 export default {
@@ -57,7 +68,8 @@ export default {
     SubHeading,
     Heading,
     FormInfo,
-    DefaultForm
+    DefaultForm,
+    FormElement
    
   },
 };
