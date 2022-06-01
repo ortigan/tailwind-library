@@ -1,9 +1,9 @@
 <template>
   <Layout>
-    <div class="flex p-4">
+    <div class="flex p-4 justify-between">
       <!-- content -->
-      <div class="flex-1 h-screen px-4 overflow-y-hidden scrollBar">
-        <div class="overflow-y-auto px-4">
+      <div class="flex w-full h-screen px-4 overflow-y-hidden scrollBar">
+        <div class="w-full overflow-y-auto px-4">
           <Heading
             ><template>
               Form
@@ -14,7 +14,7 @@
             Need to install tailwindcss form plugin
             </p>
           </div>
-          <!-- Default Form -->
+          <!--  Form elements -->
           <SubHeading>
             <template v-slot:subHeader
               >Form elements</template
@@ -23,7 +23,7 @@
           
               <FormElement />
           
-          <!-- end default Form -->
+          <!-- end  Form elements -->
           <!-- Default Form -->
           <SubHeading>
             <template v-slot:subHeader
@@ -34,6 +34,17 @@
               <DefaultForm />
           
           <!-- end default Form -->
+          
+          <!-- Floating Form -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Floating Form</template
+            >
+          </SubHeading>
+          
+              <FloatinglabelForm />
+          
+          <!-- end Floating Form -->
        
 
 
@@ -58,6 +69,7 @@ import SubHeading from "../components/Headers/SubHeading.vue";
 import FormInfo from "../components/Form/FormInfo.vue";
 import DefaultForm from "../components/Form/DefaultForm.vue";
 import FormElement from "../components/Form/FormElement.vue";
+import FloatinglabelForm from "../components/Form/FloatinglabelForm.vue";
 
 
 export default {
@@ -69,7 +81,8 @@ export default {
     Heading,
     FormInfo,
     DefaultForm,
-    FormElement
+    FormElement,
+    FloatinglabelForm
    
   },
 };
