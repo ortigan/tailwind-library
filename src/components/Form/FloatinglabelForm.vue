@@ -75,13 +75,7 @@
           </div>
               </div>
           </div>
-          <!-- remember me -->
-          <div class="flex items-center gap-2 w-full mt-6">
-            <input type="checkbox" name="" id="" class="rounded bg-gray-50 border text-sky-500 border-gray-300 focus:outline-none focus:ring-0"/>
-            <label for="" class="block text-sm font-semibold"
-              >Remember me
-            </label>
-          </div>
+          
           <!-- Login button -->
           <div class="w-1/4 mt-6">
               <div class="bg-sky-500 hover:bg-sky-600 text-center rounded-lg py-2 px-5">

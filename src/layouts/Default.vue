@@ -1,8 +1,8 @@
 <template>
-  <div class="f">
+  <div class="">
     <Header />
-    <div class="bg-gray-100 flex h-screen">
-      <div class="container bg-gray-100 h-screen">
+    <div class=" flex h-screen">
+      <div class="container  h-screen">
         <div class="flex w-full flex-col h-screen">
           <div class="flex w-full h-screen">
             <!-- sidebar left -->

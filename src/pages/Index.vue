@@ -2,7 +2,7 @@
   <Layout>
     <div class="flex">
        <!-- content -->
-            <div class="flex-1  h-screen">
+            <div class="flex-1 mt-4 h-screen">
                 <div>
                   LANDER
                 </div>
