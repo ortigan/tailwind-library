@@ -49,7 +49,7 @@
         </div>
       
           <div
-            class="mt-2 w-24 text-xs px-1.5 py-1.5 font-medium text-white bg-red-500 rounded-md hover:bg-red-600 cursor-pointer text-center"
+            class="mt-2 w-24 text-xs px-1.5 py-1.5 font-medium text-white bg-red-500 rounded-md hover:bg-red-400 cursor-pointer text-center"
           >
             View error
           </div>
@@ -240,12 +240,33 @@
       <div class="flex w-full flex-col">
           <div class="flex justify-between">
 
-        <div class="text-gray-700 font-medium">
+        <div class="text-gray-500 font-medium">
          Item added to cart
         </div>
-       <div class="text-xs px-2 py-1 bg-blue-500 text-white rounded-md cursor-pointer">
+        <div class="flex items-center gap-1">
+
+       <div class="text-sm px-2 py-1 font-medium text-blue-500 rounded-md cursor-pointer">
            Undo
        </div>
+       <div
+            class="flex cursor-pointer hover:bg-gray-200 rounded-lg p-1 text-gray-400 hover:text-gray-700 transition-all"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4  "
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </div>
+        </div>
 
           </div> 
         
