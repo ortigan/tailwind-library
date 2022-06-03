@@ -17,7 +17,7 @@
               impedit dolore aliquam?
             </p>
           </div>
-          <!-- Default Navbar -->
+          <!-- Default Toast -->
           <SubHeading>
             <template v-slot:subHeader
               >Default Toast</template
@@ -28,7 +28,31 @@
               <DefaultToast />
             </template>
           </ComponentPad>
-          <!-- end default navbar -->
+          <!-- end default Toast -->
+          <!-- StateColor Toast -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >StateColor Toast</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <StateColorToast />
+            </template>
+          </ComponentPad>
+          <!-- end StateColor Toast -->
+          <!-- StateColor Toast -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Toast with buttons</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <WithButtonToast />
+            </template>
+          </ComponentPad>
+          <!-- end StateColor Toast -->
  
 
         </div>
@@ -51,6 +75,8 @@ import Heading from "../components/Headers/Heading.vue";
 import SubHeading from "../components/Headers/SubHeading.vue";
 import ToastInfo from "../components/Toast/ToastInfo.vue";
 import DefaultToast from "../components/Toast/DefaultToast.vue";
+import StateColorToast from "../components/Toast/StateColorToast.vue";
+import WithButtonToast from "../components/Toast/WithButtonToast.vue";
 
 
 export default {
@@ -61,7 +87,9 @@ export default {
     SubHeading,
     Heading,
     ToastInfo,
-    DefaultToast
+    DefaultToast,
+    WithButtonToast,
+    StateColorToast,
 
 
   },
