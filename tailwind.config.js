@@ -29,7 +29,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        'primary': ['Poppins']
+        'primary': ['Inter']
       },
       colors:{
         'textAbout': '#3F3F46',

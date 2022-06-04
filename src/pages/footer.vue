@@ -53,6 +53,23 @@
             </template>
           </ComponentPad>
           <!-- end Footer with logo section -->
+          <!-- Footer with logo section -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Appsmith's footer</template
+            >
+          </SubHeading>
+           <div>
+            <p class="text-base pb-2 font-primary">
+              Footer desgin of <a href="https://www.appsmith.com/" class="text-blue-500"> appsmith</a> website
+            </p>
+          </div>
+          <ComponentPad>
+            <template>
+              <AppsmithFooter />
+            </template>
+          </ComponentPad>
+          <!-- end Footer with logo section -->
 
 
         </div>
@@ -77,6 +94,7 @@ import FooterInfo from "../components/Footer/FooterInfo.vue";
 import DefaultFooter from "../components/Footer/DefaultFooter.vue";
 import LogoSectionFooter from "../components/Footer/LogoSectionFooter.vue";
 import TwoRowFooter from "../components/Footer/TwoRowFooter.vue";
+import AppsmithFooter from "../components/Footer/AppsmithFooter.vue";
 
 
 export default {
@@ -89,7 +107,8 @@ export default {
     FooterInfo,
     DefaultFooter,
     LogoSectionFooter,
-    TwoRowFooter
+    TwoRowFooter,
+    AppsmithFooter
    
 
   },
