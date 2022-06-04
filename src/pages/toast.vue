@@ -53,6 +53,18 @@
             </template>
           </ComponentPad>
           <!-- end outline Toast -->
+           <!-- SolidColor Toast -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Solid Color toast</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <SolidColorToast />
+            </template>
+          </ComponentPad>
+          <!-- end SolidColor Toast -->
           <!-- button Toast -->
           <SubHeading>
             <template v-slot:subHeader
@@ -91,6 +103,7 @@ import DefaultToast from "../components/Toast/DefaultToast.vue";
 import StateColorToast from "../components/Toast/StateColorToast.vue";
 import WithButtonToast from "../components/Toast/WithButtonToast.vue";
 import OutlineToast from "../components/Toast/OutlineToast.vue";
+import SolidColorToast from "../components/Toast/SolidColorToast.vue";
 
 
 export default {
@@ -104,6 +117,7 @@ export default {
     DefaultToast,
     WithButtonToast,
     StateColorToast,
+    SolidColorToast,
     OutlineToast,
 
 

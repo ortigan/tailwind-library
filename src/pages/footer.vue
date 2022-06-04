@@ -32,12 +32,24 @@
           <!-- Footer with logo section -->
           <SubHeading>
             <template v-slot:subHeader
-              >Footer</template
+              >Footer logo aside</template
             >
           </SubHeading>
           <ComponentPad>
             <template>
               <LogoSectionFooter />
+            </template>
+          </ComponentPad>
+          <!-- end Footer with logo section -->
+          <!-- Footer with logo section -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Footer with 2 rows</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <TwoRowFooter />
             </template>
           </ComponentPad>
           <!-- end Footer with logo section -->
@@ -64,6 +76,7 @@ import SubHeading from "../components/Headers/SubHeading.vue";
 import FooterInfo from "../components/Footer/FooterInfo.vue";
 import DefaultFooter from "../components/Footer/DefaultFooter.vue";
 import LogoSectionFooter from "../components/Footer/LogoSectionFooter.vue";
+import TwoRowFooter from "../components/Footer/TwoRowFooter.vue";
 
 
 export default {
@@ -75,7 +88,8 @@ export default {
     Heading,
     FooterInfo,
     DefaultFooter,
-    LogoSectionFooter
+    LogoSectionFooter,
+    TwoRowFooter
    
 
   },

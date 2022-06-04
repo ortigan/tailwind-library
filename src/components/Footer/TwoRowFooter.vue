@@ -3,7 +3,8 @@
     class="lg:flex-row w-full  px-8 py-5 rounded-lg shadow-lg text-gray-700 bg-white"
   >
   <!-- Ui reference Untitled UI  -->
-   <div class="grid grid-cols-2 md:grid-cols-6 gap-y-6 font-medium mt-6">
+   <div class="grid grid-cols-2 md:grid-cols-4 gap-y-8 font-medium mt-6">
+    <!-- Product -->
      <div class="flex flex-col">
        <div class="text-gray-400 text-sm mb-2">Product</div>
        <div class="text-gray-600 text-base">Overview</div>
@@ -13,7 +14,7 @@
        <div class="text-gray-600 text-base">Pricing</div>
        <div class="text-gray-600 text-base">Releases</div>
      </div>
-     <!--  -->
+     <!-- Company -->
      <div class="flex flex-col">
        <div class="text-gray-400 text-sm mb-2">Company</div>
        <div class="text-gray-600 text-base">About us</div>
@@ -23,7 +24,7 @@
        <div class="text-gray-600 text-base">Media kit</div>
        <div class="text-gray-600 text-base">Contact</div>
      </div>
-     <!--  -->
+     <!-- Resources -->
      <div class="flex flex-col">
        <div class="text-gray-400 text-sm mb-2">Resources</div>
        <div class="text-gray-600 text-base">Blog</div>
@@ -33,7 +34,7 @@
        <div class="text-gray-600 text-base">Tutorials</div>
        <div class="text-gray-600 text-base">Support</div>
      </div>
-     <!--  -->
+     <!-- User cases -->
      <div class="flex flex-col">
        <div class="text-gray-400 text-sm mb-2">Use cases</div>
        <div class="text-gray-600 text-base">Startups</div>
@@ -43,7 +44,16 @@
        <div class="text-gray-600 text-base">Marketplaces</div>
        <div class="text-gray-600 text-base">Ecommerce</div>
      </div>
-     <!--  -->
+     <!-- Services -->
+     <div class="flex flex-col">
+       <div class="text-gray-400 text-sm mb-2">Services</div>
+       <div class="text-gray-600 text-base">Branding</div>
+       <div class="text-gray-600 text-base">LinkedIn</div>
+       <div class="text-gray-600 text-base">Design</div>
+       <div class="text-gray-600 text-base">Marketing</div>
+       <div class="text-gray-600 text-base">Advertisement</div>
+     </div>
+     <!-- Social -->
      <div class="flex flex-col">
        <div class="text-gray-400 text-sm mb-2">Social</div>
        <div class="text-gray-600 text-base">Twiiter</div>
@@ -53,7 +63,7 @@
        <div class="text-gray-600 text-base">AngelList</div>
        <div class="text-gray-600 text-base">Dribbble</div>
      </div>
-     <!--  -->
+     <!-- Legal -->
      <div class="flex flex-col">
        <div class="text-gray-400 text-sm mb-2">Legal</div>
        <div class="text-gray-600 text-base">Terms</div>
@@ -62,6 +72,15 @@
        <div class="text-gray-600 text-base">Licenses</div>
        <div class="text-gray-600 text-base">Settings</div>
        <div class="text-gray-600 text-base">Contact</div>
+     </div>
+     <!-- Apps -->
+     <div class="flex flex-col">
+       <div class="text-gray-400 text-sm mb-2">Apps</div>
+       <div class="text-gray-600 text-base">Mac</div>
+       <div class="text-gray-600 text-base">Windows</div>
+       <div class="text-gray-600 text-base">iPhone</div>
+       <div class="text-gray-600 text-base">Android</div>
+
      </div>
      <!--  -->
      
