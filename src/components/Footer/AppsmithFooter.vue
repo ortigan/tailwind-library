@@ -9,49 +9,48 @@
       <!-- Product -->
       <div class="flex flex-col gap-2 font-montserrat text-[#2a2f3d]">
         <div class=" text-xs mb-1">Product</div>
-        <div class="text-xs font-bold">Features</div>
-        <div class="text-xs font-bold">Integrations</div>
-        <div class="text-xs font-bold">Widgets</div>
-        <div class="text-xs font-bold">Roadmap</div>
-        <div class="text-xs font-bold">Change log</div>
-        <div class="text-xs font-bold">Status</div>
-        <div class="text-xs font-bold">Pricing</div>
+        <div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">Features</div>
+        <div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">Integrations</div>
+        <div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">Widgets</div>
+        <div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">Roadmap</div>
+        <div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">Change log</div>
+        <div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">Status</div>
+        <div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">Pricing</div>
       </div>
       <!-- Use cases -->
       <div class="flex flex-col gap-2 font-montserrat text-[#2a2f3d]">
         <div class=" text-xs mb-1 uppercase">Use cases</div>
-        <div class="text-xs font-bold">Templates</div>
-        <div class="text-xs font-bold">Fundraising CRM</div>
-        <div class="text-xs font-bold">Applicant tracker</div>
-        <div class="text-xs font-bold">Marketing portal</div>
-        <div class="text-xs font-bold">Customer support</div>
-        <div class="text-xs font-bold">Social manager</div>
+        <div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">Templates</div>
+        <div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">Fundraising CRM</div>
+        <div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">Applicant tracker</div>
+        <div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">Marketing portal</div>
+        <div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">Customer support</div>
+        <div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">Social manager</div>
       </div>
       <!-- Resources -->
       <div class="flex flex-col gap-2 font-montserrat text-[#2a2f3d]">
         <div class=" text-xs mb-1 uppercase">Resources</div>
-        <div class="text-xs font-bold">Community</div>
-        <div class="text-xs font-bold">Discord</div>
-        <div class="text-xs font-bold">GitHub</div>
-        <div class="text-xs font-bold">Case Studies</div>
-        <div class="text-xs font-bold">Documentation</div>
-        <div class="text-xs font-bold">Video tutorials</div>
+        <div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">Community</div>
+        <div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">Discord</div>
+        <div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">GitHub</div>
+        <div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">Case Studies</div>
+        <div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">Documentation</div>
+        <div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">Video tutorials</div>
       </div>
       <!-- Appsmith -->
       <div class="flex flex-col gap-2 font-montserrat text-[#2a2f3d]">
         <div class=" text-xs mb-1 uppercase">Appsmith</div>
-        <div class="text-xs font-bold">About</div>
-        <div class="text-xs font-bold">News</div>
-        <div class="text-xs font-bold">Blog</div>
-        <div class="text-xs font-bold">
+        <div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">About</div>
+        <div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">News</div>
+        <div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">Blog</div>
+        <div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">
           Careers
           <span
             class="bg-[#ff6d2d] rounded-full text-white text-xxs font-normal px-1"
             >6</span
           >
         </div>
-        <div class="text-xs font-bold">Documentation</div>
-        <div class="text-xs font-bold">Video tutorials</div>
+        <div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">Privacy</div>
       </div>
 
       <!-- Follow -->
