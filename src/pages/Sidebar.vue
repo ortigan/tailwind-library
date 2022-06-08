@@ -3,7 +3,7 @@
     <div class="flex p-4 justify-between">
       <!-- content -->
       <div class="flex w-full h-screen px-4 overflow-y-hidden scrollBar">
-        <div class="w-full overflow-y-auto px-4">
+        <div class="w-full overflow-y-auto px-4 pb-20">
           <Heading
             ><template>
               Toast
@@ -29,12 +29,12 @@
           <!-- Default Sidebar -->
           <SubHeading>
             <template v-slot:subHeader
-              >Sidebar</template
+              >Sidebar with badge</template
             >
           </SubHeading>
           <ComponentPad>
             <template>
-              <DefaultSidebar />
+              <SidebarWithBadge />
             </template>
           </ComponentPad>
           <!-- end default Sidebar -->
@@ -62,6 +62,7 @@ import Heading from "../components/Headers/Heading.vue";
 import SubHeading from "../components/Headers/SubHeading.vue";
 import SidebarInfo from "../components/Sidebar/SidebarInfo.vue";
 import DefaultSidebar from "../components/Sidebar/DefaultSidebar.vue";
+import SidebarWithBadge from "../components/Sidebar/SidebarWithBadge.vue";
 
 
 
@@ -74,6 +75,7 @@ export default {
     Heading,
     SidebarInfo,
     DefaultSidebar,
+    SidebarWithBadge
 
 
   },
