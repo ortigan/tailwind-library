@@ -11,7 +11,7 @@
           </Heading>
           <div>
             <p class="text-base">
-              The side-menu can be more useful for actions that a user will take more frequently.
+              The side-menu can be more useful for actions that a user will take more frequently.You can include multiple menu items, They’re not difficult to scale and change, All the element is noticeable, They adjust to all screen sizes.
             </p>
           </div>
           <!-- Default Sidebar -->
@@ -26,7 +26,7 @@
             </template>
           </ComponentPad>
           <!-- end default Sidebar -->
-          <!-- Default Sidebar -->
+          <!-- Sidebar with badge -->
           <SubHeading>
             <template v-slot:subHeader
               >Sidebar with badge</template
@@ -37,7 +37,19 @@
               <SidebarWithBadge />
             </template>
           </ComponentPad>
-          <!-- end default Sidebar -->
+          <!-- end Sidebar with badge -->
+          <!-- Sidebar with separator -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Sidebar with content separator</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <SeparatorSidebar />
+            </template>
+          </ComponentPad>
+          <!-- end Sidebar with separator -->
      
          
  
@@ -63,6 +75,7 @@ import SubHeading from "../components/Headers/SubHeading.vue";
 import SidebarInfo from "../components/Sidebar/SidebarInfo.vue";
 import DefaultSidebar from "../components/Sidebar/DefaultSidebar.vue";
 import SidebarWithBadge from "../components/Sidebar/SidebarWithBadge.vue";
+import SeparatorSidebar from "../components/Sidebar/SeparatorSidebar.vue";
 
 
 
@@ -75,7 +88,8 @@ export default {
     Heading,
     SidebarInfo,
     DefaultSidebar,
-    SidebarWithBadge
+    SeparatorSidebar,
+    SidebarWithBadge,
 
 
   },
