@@ -1,9 +1,9 @@
 <template>
   <Layout>
-    <div class="flex p-4">
+    <div class="flex p-4 justify-between">
       <!-- content -->
-      <div class="flex-1 h-screen px-4 overflow-y-hidden scrollBar">
-        <div class="overflow-y-auto px-4">
+      <div class="flex w-full h-screen px-4 overflow-y-hidden scrollBar">
+        <div class="w-full overflow-y-auto px-4">
           <Heading
             ><template>
               Toast
@@ -14,7 +14,7 @@
               The side-menu can be more useful for actions that a user will take more frequently.
             </p>
           </div>
-          <!-- Default Toast -->
+          <!-- Default Sidebar -->
           <SubHeading>
             <template v-slot:subHeader
               >Default Sidebar</template
@@ -25,7 +25,19 @@
               <DefaultSidebar />
             </template>
           </ComponentPad>
-          <!-- end default Toast -->
+          <!-- end default Sidebar -->
+          <!-- Default Sidebar -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Sidebar</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <DefaultSidebar />
+            </template>
+          </ComponentPad>
+          <!-- end default Sidebar -->
      
          
  
