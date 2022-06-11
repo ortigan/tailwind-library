@@ -16,9 +16,26 @@
           </div>
         </div>
         <!-- logo end -->
+        <div class=" my-4 px-4"><div class="border-t  "></div></div>
+        <!-- avatar start -->
+        <div class="px-8 flex space-x-2 items-center">
+         <div class="w-12 h-12 relative rounded-full ring-2 ring-white shadow-lg shadow-gray-300 hover:shadow-none">
+      <img
+        class="w-full h-full object-cover rounded-full border-2"
+        src="https://res.cloudinary.com/pranav1421/image/upload/v1652079979/Tailwind-Component-library/Human%20avatar/payton-tuttle-RFFR1JjkJx8-unsplash_wglk5e.jpg"
+        alt=""
+      />
+    </div>
+    <div class="flex flex-col">
+        <div class="text-base font-bold text-gray-600">Elvis Ray</div>
+        <div class="text-xs font-medium text-gray-500">Sales manager</div>
+    </div>
+        </div>
+        <!-- end avatart -->
         <div
           class="flex flex-col space-y-3  text-base font-medium text-gray-500 mt-8 px-8"
         >
+        <div class="text-xxs">E-commerce</div>
           <div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all">
             <svg
               width="20"

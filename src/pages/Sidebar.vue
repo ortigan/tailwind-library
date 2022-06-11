@@ -50,6 +50,18 @@
             </template>
           </ComponentPad>
           <!-- end Sidebar with separator -->
+          <!-- Sidebar with Sectioned -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >Sidebar with content Sectioned and avatar</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <SectionedSidebar />
+            </template>
+          </ComponentPad>
+          <!-- end Sidebar with Sectioned -->
      
          
  
@@ -76,6 +88,7 @@ import SidebarInfo from "../components/Sidebar/SidebarInfo.vue";
 import DefaultSidebar from "../components/Sidebar/DefaultSidebar.vue";
 import SidebarWithBadge from "../components/Sidebar/SidebarWithBadge.vue";
 import SeparatorSidebar from "../components/Sidebar/SeparatorSidebar.vue";
+import SectionedSidebar from "../components/Sidebar/SectionedSidebar.vue";
 
 
 
@@ -90,6 +103,7 @@ export default {
     DefaultSidebar,
     SeparatorSidebar,
     SidebarWithBadge,
+    SectionedSidebar,
 
 
   },

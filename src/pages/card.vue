@@ -28,11 +28,13 @@
                 </svg>
               </div>
             </div>
-            <div
-              class="pattern-dots-sm text-gray-100 bg-white rounded-lg py-10 px-10 flex justify-center items-center"
-            >
+               <ComponentPad>
+              <template>
+
               <DefaultCards />
-            </div>
+              </template>
+            </ComponentPad>
+            
          
             <!-- end default-cards -->
              <!-- CTA card -->
@@ -55,11 +57,12 @@
                 </svg>
               </div>
             </div>
-            <div
-              class="pattern-dots-sm text-gray-100 bg-white rounded-lg py-10 px-10 flex justify-center items-center"
-            >
+               <ComponentPad>
+              <template>
+
               <CardCta />
-            </div>
+              </template>
+            </ComponentPad>
          
             <!-- end default-cards -->
              <!-- CTA card with link -->
@@ -82,11 +85,14 @@
                 </svg>
               </div>
             </div>
-            <div
-              class="pattern-dots-sm text-gray-100 bg-white rounded-lg py-10 px-10 flex justify-center items-center"
-            >
+            
+            <ComponentPad>
+              <template>
+
               <CardLink />
-            </div>
+              </template>
+            </ComponentPad>
+            
          
             <!-- end cta cards with link-->
             <!-- User profile cards start -->
