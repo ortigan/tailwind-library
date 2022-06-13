@@ -26,6 +26,18 @@
             </template>
           </ComponentPad>
           <!-- end default Pagination -->
+          <!-- with arrow Pagination -->
+          <SubHeading>
+            <template v-slot:subHeader
+              >With arrow pagination</template
+            >
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <WithArrowPagination />
+            </template>
+          </ComponentPad>
+          <!-- end with arrow Pagination -->
     
          
  
@@ -50,6 +62,7 @@ import Heading from "../components/Headers/Heading.vue";
 import SubHeading from "../components/Headers/SubHeading.vue";
 import PaginationInfo from "../components/Pagination/PaginationInfo.vue";
 import DefaultPagination from "../components/Pagination/DefaultPagination.vue";
+import WithArrowPagination from "../components/Pagination/WithArrowPagination.vue";
 
 
 export default {
@@ -61,6 +74,7 @@ export default {
     Heading,
     PaginationInfo,
     DefaultPagination,
+    WithArrowPagination
   
 
 
