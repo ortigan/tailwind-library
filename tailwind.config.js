@@ -34,6 +34,7 @@ module.exports = {
       colors:{
         'textAbout': '#3F3F46',
         'tutor': '#71717A',
+        'codehighlight': '#2d2d2d'
       },
     },
   },

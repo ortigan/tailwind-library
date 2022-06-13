@@ -47,6 +47,10 @@ export default {
       menu: MenuItems
     }
   },
+   mounted() {
+   
+    Prism.highlightAll(); // highlight your code on mount
+  },
   methods:{
     getPath(){
       return this.$route.path

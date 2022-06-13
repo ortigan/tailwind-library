@@ -9,9 +9,8 @@
   "dependencies": {
     "@tailwindcss/forms": "^0.5.2",
     "gridsome": "^0.7.0",
-    "highlight.js": "^11.5.1",
     "pattern.css": "^1.0.0",
-    "vue-highlight.js": "^3.1.0",
+    "prismjs": "^1.28.0",
     "vuesax": "^4.0.1-alpha.25"
   },
   "devDependencies": {

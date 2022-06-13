@@ -36,3 +36,14 @@ html{
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 }
+
+/*  */
+pre[class*="language-"] {
+    padding: 1em;
+    margin: 0.5em 0;
+    overflow: auto;
+    border-radius: 10px !important;
+}
+pre[class*="language-"] {
+    background: #000000;
+}
