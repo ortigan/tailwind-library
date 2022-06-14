@@ -19,7 +19,7 @@ export default {
           {
           id:1,
           type:"Default",
-          textColor:"text-gray-700",
+          textColor:"text-gray-800",
           bgColor:"bg-gray-100",
       },
           {
