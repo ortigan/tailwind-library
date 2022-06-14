@@ -55,13 +55,13 @@ export default {
         //   bgColor: "bg-gray-700",
         //   borderColor:"border-2 border-gray-300"
         // },
-        {
-          id: 3,
-          type: "Light",
-          textColor: "text-zinc-400",
-          bgColor: "bg-zinc-100",
-          borderColor:"Border-l-2 border-slate-900"
-        },
+        // {
+        //   id: 3,
+        //   type: "Light",
+        //   textColor: "text-zinc-400",
+        //   bgColor: "bg-zinc-100",
+        //   borderColor:"Border-l-2 border-gray-900"
+        // },
          {
           id:4,
           type:"Info",
