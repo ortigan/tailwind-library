@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full flex justify-between py-2">
-              <div class="font-semibold text-xl"><slot name="subHeader"/></div>
+  <div class="w-full flex justify-between py-2 mt-12">
+              <div class="font-bold text-xl"><slot name="subHeader"/></div>
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

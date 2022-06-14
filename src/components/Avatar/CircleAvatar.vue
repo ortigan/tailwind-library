@@ -14,7 +14,7 @@
       "
     >
       <div class="text-base font-medium text-gray-700">P</div>
-      <div class="h-2.5 w-2.5 bg-green-400 absolute border-2 border-white -right-1 -top-1 rounded-full"></div>
+      <div class="h-2.5 w-2.5 bg-green-400 absolute border-2 border-white right-0 top-0 rounded-full"></div>
     </div>
    
     <!-- text -->
@@ -84,7 +84,7 @@
           stroke-linejoin="round"
         />
       </svg>
-             <div class="h-3.5 w-3.5 bg-purple-400 border-2 border-white absolute -right-1 bottom-0 rounded-full"></div>
+             <div class="h-3.5 w-3.5 bg-purple-400 border-2 border-white absolute right-0 bottom-0 rounded-full"></div>
 
     </div>
     <!-- Avatar -->

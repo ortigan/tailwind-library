@@ -59,7 +59,7 @@
         justify-center
         bg-gray-100
         hover:bg-gray-200
-        rounded-full relative ring-2 ring-indigo-400
+        rounded-full relative ring-2 ring-erm-400
       "
     >
       <svg
@@ -84,7 +84,7 @@
           stroke-linejoin="round"
         />
       </svg>
-             <div class="h-3.5 w-3.5 bg-indigo-400 border-2 border-white absolute -right-0 top-0 rounded-full"></div>
+             <div class="h-3.5 w-3.5 bg-emerald-400 border-2 border-white absolute -right-0 top-0 rounded-full"></div>
 
     </div>
     <!-- Avatar -->
