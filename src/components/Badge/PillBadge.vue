@@ -2,7 +2,7 @@
   <div class="flex flex-wrap">
     <span v-for="(item, index) in itmes" :key="index">
       <div
-        :class="`py-0.5 px-2.5 text-xs rounded-full mr-4 font-normal ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor}  ${item.bgColor}`"
+        :class="`py-0.5 px-2.5 text-xs rounded-full mr-4 font-normal ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor} ${item.bgColor}`"
       >
         {{ item.title }}
       </div>
@@ -34,10 +34,10 @@ export default {
         {
           id: 3,
           title: "Ghost",
-          textColor: "text-gray-500",
+          textColor: "text-gray-400",
           bgColor: "bg-zinc-100",
-          hoverTextColor: "",
-          hoverBgColor: "",
+          hoverTextColor: "hover:text-gray-500",
+          hoverBgColor: "hover:bg-zinc-200",
         },
         {
           id: 4,
@@ -45,7 +45,7 @@ export default {
           textColor: "text-gray-400",
           bgColor: "bg-gray-100",
           hoverTextColor: "",
-          hoverBgColor: "bg-gray-300",
+          hoverBgColor: "",
           hoverShadowColor: "shadow-gray-200",
         },
         {
@@ -54,7 +54,7 @@ export default {
           textColor: "text-white",
           bgColor: "bg-gray-900",
           hoverTextColor: "",
-          hoverBgColor: "bg-gray-300",
+          hoverBgColor: "hover:bg-gray-900",
           hoverShadowColor: "shadow-gray-200",
         },
         {

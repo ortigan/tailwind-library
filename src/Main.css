@@ -43,6 +43,7 @@ pre[class*="language-"] {
     margin: 0.5em 0;
     overflow: auto;
     border-radius: 10px !important;
+    font-size: 0.9rem;
 }
 pre[class*="language-"] {
     background: #02041d;

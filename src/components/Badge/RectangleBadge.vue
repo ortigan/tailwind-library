@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-wrap gap-2">
     <span v-for="(item, index) in itmes" :key="index">
-      <div :class="`flex items-center gap-2 py-1 px-3 text-xs rounded-smfont-normal ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor}  ${item.bgColor}`">
+      <div :class="`flex items-center gap-2 py-1 px-3 text-xs rounded-sm font-normal ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor}  ${item.bgColor}`">
         <div>
 
         <svg class="h-1.5 w-1.5" clip-rule="evenodd" fill="currentColor" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="11.998" cy="11.998" fill-rule="nonzero" r="9.998"/></svg>
@@ -59,7 +59,7 @@ export default {
           textColor: "text-white",
           bgColor: "bg-gray-900",
           hoverTextColor: "",
-          hoverBgColor: "bg-gray-300",
+          hoverBgColor: "",
           hoverShadowColor: "shadow-gray-200",
         },
         {
