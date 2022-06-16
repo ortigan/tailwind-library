@@ -1,6 +1,5 @@
 <template>
   <div class="flex w-full flex-col space-y-2 justify-center items-center">
-  
       <div class="flex items-center w-full space-x-2 font-normal text-sm text-gray-700">
         <div class="flex items-center space-x-1">
           <div>

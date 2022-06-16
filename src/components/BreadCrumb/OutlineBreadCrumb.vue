@@ -1,7 +1,7 @@
 <template>
   <div class="flex w-full flex-col space-y-4 justify-center items-center">
          <span v-for="(item,index) in items" :key="index" class="flex w-full">
-      <div :class="`flex items-center w-full space-x-2 text-sm font-normal  ${item.textColor} ${item.outline} ${item.bgColor} p-4 rounded-lg`">
+      <div :class="`flex items-center w-full space-x-2 text-sm font-normal text-gray-900 ${item.outline} ${item.bgColor} p-4 rounded-lg`">
         <div class="flex items-center space-x-1">
           <div>
             <svg

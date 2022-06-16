@@ -28,6 +28,9 @@
               <DefaultBreadCrumb />
             </template>
           </ComponentPad>
+          <!-- code snippet --->
+          <DefaultBreadCrumbSnippet />
+          <!-- code snippet end --->
           <!-- end default Breadcrumb -->
           <!-- with arrow Breadcrumb -->
           <SubHeading>
@@ -40,6 +43,9 @@
               <ArrowBreadCrumb />
             </template>
           </ComponentPad>
+          <!-- code snippet --->
+          <ArrowBreadCrumbSnippet />
+          <!-- code snippet end --->
           <!-- end with arrow Breadcrumb -->
           <!-- with Icon Breadcrumb -->
           <SubHeading>
@@ -52,6 +58,9 @@
               <IconBreadCrumb />
             </template>
           </ComponentPad>
+           <!-- code snippet --->
+          <IconBreadCrumbSnippet />
+          <!-- code snippet end --->
           <!-- end with Icon Breadcrumb -->
           <!-- Solid background Breadcrumb -->
           <SubHeading>
@@ -64,6 +73,9 @@
               <SolidBgBreadCrumb />
             </template>
           </ComponentPad>
+          <!-- code snippet --->
+          <SolidBreadCrumbSnippet />
+          <!-- code snippet end --->
           <!-- end Solid background Breadcrumb -->
           <!-- Outline Breadcrumb -->
           <SubHeading>
@@ -76,6 +88,9 @@
               <OutlineBreadCrumb />
             </template>
           </ComponentPad>
+          <!-- code snippet --->
+          <OutlineBreadCrumbSnippet />
+          <!-- code snippet end --->
           <!-- end Outline Breadcrumb -->
           <!-- Alignment Breadcrumb -->
           <SubHeading>
@@ -88,6 +103,9 @@
               <AlignmentBreadCrumb />
             </template>
           </ComponentPad>
+           <!-- code snippet --->
+          <AlignmentBreadCrumbSnippet />
+          <!-- code snippet end --->
           <!-- end Alignment Breadcrumb -->
           <!-- Separator Breadcrumb -->
           <SubHeading>
@@ -100,6 +118,9 @@
               <SeparatorBreadCrumb />
             </template>
           </ComponentPad>
+           <!-- code snippet --->
+          <SeparatorBreadCrumbSnippet />
+          <!-- code snippet end --->
           <!-- end Separator Breadcrumb -->
         </div>
       </div>
@@ -126,6 +147,13 @@ import SeparatorBreadCrumb from "../components/BreadCrumb/SeparatorBreadCrumb.vu
 import OutlineBreadCrumb from "../components/BreadCrumb/OutlineBreadCrumb.vue";
 import Heading from "../components/Headers/Heading.vue";
 import SubHeading from "../components/Headers/SubHeading.vue";
+import DefaultBreadCrumbSnippet from '../components/BreadCrumb/CodeSnippet/DefaultBreadCrumbSnippet.vue';
+import ArrowBreadCrumbSnippet from '../components/BreadCrumb/CodeSnippet/ArrowBreadCrumbSnippet.vue';
+import IconBreadCrumbSnippet from '../components/BreadCrumb/CodeSnippet/IconBreadCrumbSnippet.vue';
+import SolidBreadCrumbSnippet from '../components/BreadCrumb/CodeSnippet/SolidBreadCrumbSnippet.vue';
+import OutlineBreadCrumbSnippet from '../components/BreadCrumb/CodeSnippet/OutlineBreadCrumbSnippet.vue';
+import AlignmentBreadCrumbSnippet from '../components/BreadCrumb/CodeSnippet/AlignmentBreadCrumbSnippet.vue';
+import SeparatorBreadCrumbSnippet from '../components/BreadCrumb/CodeSnippet/SeparatorBreadCrumbSnippet.vue';
 
 export default {
   metaInfo: {
@@ -142,6 +170,13 @@ export default {
     AlignmentBreadCrumb,
     SeparatorBreadCrumb,
     OutlineBreadCrumb,
+    DefaultBreadCrumbSnippet,
+    ArrowBreadCrumbSnippet,
+    IconBreadCrumbSnippet,
+    SolidBreadCrumbSnippet,
+    OutlineBreadCrumbSnippet,
+    AlignmentBreadCrumbSnippet,
+    SeparatorBreadCrumbSnippet,
   },
 };
 </script>
