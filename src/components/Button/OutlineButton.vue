@@ -82,7 +82,7 @@ export default {
                     textColor: "text-gray-300",
                     bgColor: "",
                     hoverTextColor:"",
-                    hoverBgColor:"hover:bg-gray-100",
+                    hoverBgColor:"",
                     hoverShadowColor:"shadow-gray-200",
                     outlineColor:"border-2 border-gray-100"
     

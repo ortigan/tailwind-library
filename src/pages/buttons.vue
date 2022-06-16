@@ -5,7 +5,11 @@
         <!-- content -->
         <div class="flex h-screen px-4 overflow-y-hidden scrollBar">
           <div class="overflow-y-auto px-4">
-            <Heading />
+            <Heading
+            ><template>
+              Buttons
+            </template>
+          </Heading>
             <div>
               <p class="text-base font-primary">
                 Use the button component inside forms, as links, social login,
@@ -14,54 +18,25 @@
               </p>
             </div>
             <!-- Default buttons -->
-            <div class="w-full flex justify-between py-2">
-              <div class="font-bold text-xl">Default</div>
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
-                  />
-                </svg>
-              </div>
-            </div>
-            <div
-              class="pattern-dots-sm text-gray-100 bg-white rounded-lg py-10 px-10 flex justify-center items-center"
+             <SubHeading>
+            <template v-slot:subHeader
+              >Default</template
             >
+          </SubHeading>
+          <ComponentPad>
+            <template>
               <DefaultButtons />
-            </div>
+            </template>
+          </ComponentPad>
          
             
             <!-- End of default buttons -->
             <!-- Outline buttons -->
-            <div class="w-full flex justify-between py-2">
-              <div class="font-bold text-xl">Outline</div>
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
-                  />
-                </svg>
-              </div>
-            </div>
-
+            <SubHeading>
+            <template v-slot:subHeader
+              >Outline</template
+            >
+          </SubHeading>
             <ComponentPad>
               <template>
                 <OutlineButton />
@@ -69,25 +44,11 @@
             </ComponentPad>
             <!-- end or Outline Button -->
             <!-- OutlineState Button -->
-            <div class="w-full flex justify-between py-2">
-              <div class="font-bold text-xl">Buttons with state colors</div>
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
-                  />
-                </svg>
-              </div>
-            </div>
+            <SubHeading>
+            <template v-slot:subHeader
+              >State color</template
+            >
+          </SubHeading>
             <ComponentPad>
               <template>
                 <StateColorButton />
@@ -95,25 +56,11 @@
             </ComponentPad>
             <!-- end or OutlineState Button -->
             <!-- Buttons sizes -->
-            <div class="w-full flex justify-between py-2">
-              <div class="font-bold text-xl">Sizes</div>
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
-                  />
-                </svg>
-              </div>
-            </div>
+            <SubHeading>
+            <template v-slot:subHeader
+              >Size</template
+            >
+          </SubHeading>
             <ComponentPad>
               <template>
                 <SizeButtons />
@@ -121,25 +68,11 @@
             </ComponentPad>
             <!--End Buttons sizes -->
             <!-- Dual icon buttons -->
-            <div class="w-full flex justify-between py-2">
-              <div class="font-bold text-xl">Dual icon buttons</div>
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
-                  />
-                </svg>
-              </div>
-            </div>
+            <SubHeading>
+            <template v-slot:subHeader
+              >Dual icon</template
+            >
+          </SubHeading>
             <ComponentPad>
               <template>
                 <DualIconButton />
@@ -147,25 +80,11 @@
             </ComponentPad>
             <!--End Dual icon buttons   -->
             <!-- Light color buttons -->
-            <div class="w-full flex justify-between py-2">
-              <div class="font-bold text-xl">Light color buttons</div>
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
-                  />
-                </svg>
-              </div>
-            </div>
+            <SubHeading>
+            <template v-slot:subHeader
+              >Light color</template
+            >
+          </SubHeading>
             <ComponentPad>
               <template>
                 <LightColorButtons />
@@ -173,25 +92,11 @@
             </ComponentPad>
             <!--End Light color buttons   -->
             <!-- Dark color buttons -->
-            <div class="w-full flex justify-between py-2">
-              <div class="font-bold text-xl">Dark color buttons</div>
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
-                  />
-                </svg>
-              </div>
-            </div>
+            <SubHeading>
+            <template v-slot:subHeader
+              >Dark color</template
+            >
+          </SubHeading>
             <ComponentPad>
               <template>
                 <DarkColorButtons />
@@ -199,25 +104,11 @@
             </ComponentPad>
             <!--End Dark color buttons   -->
             <!-- Dark color buttons -->
-            <div class="w-full flex justify-between py-2">
-              <div class="font-bold text-xl">Appsmith buttons</div>
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
-                  />
-                </svg>
-              </div>
-            </div>
+            <SubHeading>
+            <template v-slot:subHeader
+              >Appsmith</template
+            >
+          </SubHeading>
             <ComponentPad>
               <template>
                 <AppsmithButtons />
@@ -251,6 +142,7 @@ import StateColorButton from "../components/Button/StateColorButton.vue";
 import SizeButtons from "../components/Button/SizeButtons.vue";
 import ButtonInfo from "../components/Button/ButtonInfo.vue";
 import Heading from "../components/Headers/Heading.vue";
+import SubHeading from "../components/Headers/SubHeading.vue";
 import DualIconButton from "../components/Button/DualIconButton.vue";
 import AppsmithButtons from "../components/Button/AppsmithButtons.vue";
 import ComponentPad from "../components/Utils/ComponentPad.vue";
@@ -261,6 +153,7 @@ export default {
   components: {
     ButtonInfo,
     Heading,
+    SubHeading,
     DefaultButtons,
     LightColorButtons,
     DarkColorButtons,
