@@ -28,8 +28,9 @@
               <DefaultButtons />
             </template>
           </ComponentPad>
-         
-            
+          <!-- code snippet --->
+          <DefaultButtonSnippet />
+          <!-- code snippet end --->
             <!-- End of default buttons -->
             <!-- Outline buttons -->
             <SubHeading>
@@ -42,6 +43,9 @@
                 <OutlineButton />
               </template>
             </ComponentPad>
+            <!-- code snippet --->
+            <OutlineButtonSnippet />
+            <!-- code snippet end --->
             <!-- end or Outline Button -->
             <!-- OutlineState Button -->
             <SubHeading>
@@ -54,6 +58,9 @@
                 <StateColorButton />
               </template>
             </ComponentPad>
+              <!-- code snippet --->
+            <StateColorButtonSnippet />
+            <!-- code snippet end --->
             <!-- end or OutlineState Button -->
             <!-- Buttons sizes -->
             <SubHeading>
@@ -66,6 +73,9 @@
                 <SizeButtons />
               </template>
             </ComponentPad>
+             <!-- code snippet --->
+            <SizeButtonsSnippet />
+            <!-- code snippet end --->
             <!--End Buttons sizes -->
             <!-- Dual icon buttons -->
             <SubHeading>
@@ -78,6 +88,9 @@
                 <DualIconButton />
               </template>
             </ComponentPad>
+              <!-- code snippet --->
+            <DualIconSnippet />
+            <!-- code snippet end --->
             <!--End Dual icon buttons   -->
             <!-- Light color buttons -->
             <SubHeading>
@@ -90,6 +103,9 @@
                 <LightColorButtons />
               </template>
             </ComponentPad>
+              <!-- code snippet --->
+            <LightColorButtonsSnippet />
+            <!-- code snippet end --->
             <!--End Light color buttons   -->
             <!-- Dark color buttons -->
             <SubHeading>
@@ -102,6 +118,9 @@
                 <DarkColorButtons />
               </template>
             </ComponentPad>
+              <!-- code snippet --->
+            <DarkColorButtonsSnippet />
+            <!-- code snippet end --->
             <!--End Dark color buttons   -->
             <!-- Dark color buttons -->
             <SubHeading>
@@ -114,6 +133,9 @@
                 <AppsmithButtons />
               </template>
             </ComponentPad>
+             <!-- code snippet --->
+            <AppsmithButtonSnippet />
+            <!-- code snippet end --->
             <!--End Dark color buttons   -->
          
             <!-- end -->
@@ -146,6 +168,14 @@ import SubHeading from "../components/Headers/SubHeading.vue";
 import DualIconButton from "../components/Button/DualIconButton.vue";
 import AppsmithButtons from "../components/Button/AppsmithButtons.vue";
 import ComponentPad from "../components/Utils/ComponentPad.vue";
+import DefaultButtonSnippet from "../components/Button/CodeSnippet/DefaultButtonSnippet.vue";
+import OutlineButtonSnippet from "../components/Button/CodeSnippet/OutlineButtonSnippet.vue";
+import StateColorButtonSnippet from "../components/Button/CodeSnippet/StateColorButtonSnippet.vue";
+import SizeButtonsSnippet from "../components/Button/CodeSnippet/SizeButtonsSnippet.vue";
+import DualIconSnippet from "../components/Button/CodeSnippet/DualIconSnippet.vue";
+import LightColorButtonsSnippet from "../components/Button/CodeSnippet/LightColorButtonsSnippet.vue";
+import DarkColorButtonsSnippet from "../components/Button/CodeSnippet/DarkColorButtonsSnippet.vue";
+import AppsmithButtonSnippet from "../components/Button/CodeSnippet/AppsmithButtonSnippet.vue";
 export default {
   metaInfo: {
     title: "Buttons",
@@ -162,7 +192,15 @@ export default {
     DualIconButton,
     StateColorButton,
     ComponentPad,
-    AppsmithButtons
+    AppsmithButtons,
+    DefaultButtonSnippet,
+    OutlineButtonSnippet,
+    StateColorButtonSnippet,
+    SizeButtonsSnippet,
+    DualIconSnippet,
+    LightColorButtonsSnippet,
+    DarkColorButtonsSnippet,
+    AppsmithButtonSnippet
   },
 };
 </script>

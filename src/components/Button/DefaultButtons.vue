@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-wrap">
       <span v-for="(item,index) in itmes" :key="index">
-          <div :class="`px-5 py-2 text-xs rounded-lg mr-2 font-semibold ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor}  ${item.bgColor}`">{{item.title}}</div>
+          <div :class="`px-5 py-2 text-xs rounded-lg hover:cursor-pointer mr-2 font-semibold ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor} ${item.bgColor}`">{{item.title}}</div>
       </span>
   </div>
 </template>
@@ -56,7 +56,7 @@ export default {
                     textColor: "text-gray-500",
                     bgColor: "bg-gray-100",
                     hoverTextColor:"",
-                    hoverBgColor:"bg-gray-300",
+                    hoverBgColor:"hover:bg-gray-200",
                     hoverShadowColor:"shadow-gray-200",
     
                 },
@@ -66,7 +66,7 @@ export default {
                     textColor: "text-white",
                     bgColor: "bg-gray-900",
                     hoverTextColor:"",
-                    hoverBgColor:"bg-gray-300",
+                    hoverBgColor:"",
                     hoverShadowColor:"shadow-gray-200",
     
                 },
@@ -77,7 +77,7 @@ export default {
                     bgColor: "",
                     hoverTextColor:"",
                     hoverBgColor:"bg-gray-100",
-                    hoverShadowColor:"shadow-gray-200",
+                    hoverShadowColor:"shadow-gray-200 hover:cursor-default",
     
                 },
                 {
@@ -86,9 +86,8 @@ export default {
                     textColor: "text-blue-500",
                     bgColor: "",
                     hoverTextColor:"",
-                    hoverBgColor:"",
+                    hoverBgColor:"hover:underline",
                     hoverShadowColor:"",
-                    hoverLink:"no-underline hover:underline"
     
                 },
     ]

@@ -36,7 +36,7 @@ export default {
                 title: "Download",
                 textColor: "text-white",
                 bgColor: "bg-cyan-500",
-                hoverTextColor:"",
+                hoverTextColor:"hover:bg-cyan-400",
                 hoverBgColor:"",
 
             },

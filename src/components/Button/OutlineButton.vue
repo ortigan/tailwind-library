@@ -35,7 +35,7 @@ export default {
             {
                 id: 3,
                 title: "Thin",
-                textColor: "text-pink-500",
+                textColor: "font-normal text-pink-500",
                 bgColor: "",
                 hoverTextColor:"hover:text-white",
                 hoverBgColor:"hover:bg-pink-500",

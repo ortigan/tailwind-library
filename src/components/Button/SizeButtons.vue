@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-wrap justify-center items-center">
       <span v-for="(item,index) in itmes" :key="index">
-          <div :class="`rounded-lg mr-2 mb-2 font-semibold  ${item.textColor} ${item.hoverTextColor} ${item.bgColor} ${item.hoverBgColor} ${item.size} ${item.textSize}`">{{item.title}}</div>
+          <div :class="`rounded-lg mr-2 mb-2 font-semibold cursor-pointer ${item.textColor} ${item.hoverTextColor} ${item.bgColor} ${item.hoverBgColor} ${item.size} ${item.textSize}`">{{item.title}}</div>
       </span>
   </div>
 </template>
@@ -59,12 +59,10 @@ export default {
                 hoverBgColor:"",
                 hoverShadowColor:"",
                 outlineColor:"",
-                size:"px-9 py-5",
+                size:"px-9 py-4",
                 textSize: "text-lg"
 
-            },
-          
-            
+            },           
                 
     ]
 }
