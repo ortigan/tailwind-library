@@ -11,7 +11,8 @@
     "gridsome": "^0.7.0",
     "pattern.css": "^1.0.0",
     "prismjs": "^1.28.0",
-    "vuesax": "^4.0.1-alpha.25"
+    "vuesax": "^4.0.1-alpha.25",
+    "vuex": "^3.5.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.4",
