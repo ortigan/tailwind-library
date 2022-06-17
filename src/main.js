@@ -28,7 +28,7 @@ export default function (Vue, { router, head, isClient, appOptions  }) {
   Vue.use(Vuex)
   appOptions.store = new Vuex.Store({
     state: {
-      theme: 'dark'
+      theme: 'light'
     },
   })
   // Set default layout as a global component

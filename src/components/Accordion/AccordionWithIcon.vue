@@ -31,10 +31,10 @@ export default {
           {
           id:1,
           type:"with Icon",
-          textColor:"text-gray-700",
-          bgColor:"bg-gray-100",
-          bgColor2: "bg-gray-300",
-          textColor2: "text-gray-900",
+          textColor:"text-gray-700 dark:text-gray-300",
+          bgColor:"bg-gray-100 dark:bg-gray-600",
+          bgColor2: "bg-gray-300 dark:bg-gray-700",
+          textColor2: "text-gray-900 dark:text-gray-300",
       },
       
       ],

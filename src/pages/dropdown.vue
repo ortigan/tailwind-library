@@ -25,13 +25,7 @@
               </template>
             </ComponentPad>
             <!-- code snippet -->
-          <pre><code class="language-markup">
-            <script type="prism-html-markup">
-            <!-- Default alert -->
-            
-            
-          </script>
-          </code></pre>
+         
           <!-- code snippet end -->
             <!-- profile dropdown -->
             <SubHeading>

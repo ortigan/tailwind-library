@@ -59,6 +59,23 @@
             <!-- code snippet -->
               <HeartRatingSnippet />
             <!-- code snippet end -->
+            <!-- Imdb rating -->
+            <SubHeading>
+            <template v-slot:subHeader
+              >Imdb rating</template
+            >
+          </SubHeading>
+            <!-- end imdb rating -->
+            <ComponentPad>
+              <template>
+                <div class="flex flex-row space-x-4 w-full justify-around">          
+                  <div><ImdbRating/></div>          
+                </div>
+              </template>
+            </ComponentPad>
+            <!-- code snippet -->
+              <ImdbRatingSnippet />
+            <!-- code snippet end -->
           </div>
       </div>
       <!-- right sidebar -->
@@ -78,11 +95,12 @@ import SubHeading from "../components/Headers/SubHeading.vue"
 import ComponentPad from "../components/Utils/ComponentPad.vue"
 import OurCardRating from "../components/Rating/OurCardRating.vue"
 import HeartRating from "../components/Rating/HeartRating.vue"
-import StarRating from "../components/Rating/StarRating.vue"
 import DefaultRating from "../components/Rating/DefaultRating.vue"
 import DefaultRatingSnippet from "../components/Rating/CodeSnippet/DefaultRatingSnippet.vue"
 import OurCardRatingSnippet from "../components/Rating/CodeSnippet/OurCardRatingSnippet.vue"
 import HeartRatingSnippet from "../components/Rating/CodeSnippet/HeartRatingSnippet.vue"
+import ImdbRating from "../components/Rating/ImdbRating.vue"
+import ImdbRatingSnippet from "../components/Rating/CodeSnippet/ImdbRatingSnippet.vue"
 undefined
 export default {
     metaInfo: {
@@ -93,11 +111,12 @@ export default {
     ComponentPad,
     OurCardRating,
     HeartRating,
-    StarRating,
     DefaultRating,
     DefaultRatingSnippet,
     OurCardRatingSnippet,
     HeartRatingSnippet,
+    ImdbRating,
+    ImdbRatingSnippet
 }
 }
 </script>

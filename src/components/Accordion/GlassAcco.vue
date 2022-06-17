@@ -75,13 +75,13 @@ export default {
           id: 1,
           type: "Glass",
           textColor: "text-gray-400",
-          bgColor: "bg-neutral-700 bg-opacity-70 bg-clip-padding",
-          bgColor2: "bg-neutral-800",
+          bgColor: "bg-gray-700 bg-opacity-70 bg-clip-padding",
+          bgColor2: "bg-gray-800",
           textColor2: "text-gray-300",
           textColorActive: "text-green-300",
           border: "border-1",
           borderColor: "border-gray-900",
-          bgColorActive: "bg-neutral-600 bg-opacity-90 bg-clip-padding"
+          bgColorActive: "bg-gray-600 bg-opacity-90 bg-clip-padding"
         },
       ],
     };

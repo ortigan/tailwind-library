@@ -32,14 +32,14 @@ export default {
           {
           id:1,
           type:"Border",
-          textColor:"text-black",
-          bgColor:"bg-white",
-          bgColor2: "bg-white",
-          textColor2: "text-black",
+          textColor:"text-black dark:text-white",
+          bgColor:"bg-white dark:bg-gray-800",
+          bgColor2: "bg-white dark:bg-gray-800",
+          textColor2: "text-black dark:text-white",
           border: "border-1",
-          borderColor: "border-black",
-          textColorActive: "text-black",
-          bgColorActive: "bg-white"
+          borderColor: "border-black dark:border-white",
+          textColorActive: "text-black dark:text-white",
+          bgColorActive: "bg-white dark:bg-gray-800"
       },
       
       ],
