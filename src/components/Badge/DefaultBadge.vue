@@ -45,7 +45,7 @@ export default {
           textColor: "text-gray-400",
           bgColor: "bg-gray-100",
           hoverTextColor: "",
-          hoverBgColor: "bg-gray-300",
+          hoverBgColor: "",
           hoverShadowColor: "shadow-gray-200",
         },
         {
@@ -54,7 +54,7 @@ export default {
           textColor: "text-white",
           bgColor: "bg-gray-900",
           hoverTextColor: "",
-          hoverBgColor: "bg-gray-300",
+          hoverBgColor: "",
           hoverShadowColor: "shadow-gray-200",
         },
         {

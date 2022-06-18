@@ -55,8 +55,8 @@ export default {
         {
           id: 5,
           title: "Dark",
-          borderColor:"border border-gray-900",
-          textColor: "text-gray-900",
+          borderColor:"border border-gray-700",
+          textColor: "text-gray-900 dark:text-gray-700",
           bgColor: "",
           hoverTextColor: "",
           hoverBgColor: "",
@@ -105,7 +105,7 @@ export default {
         {
           id: 10,
           title: "Error",
-          borderColor:"border border-amber-600",
+          borderColor:"border border-rose-600",
           textColor: "text-rose-600",
           bgColor: "",
           hoverTextColor: "",

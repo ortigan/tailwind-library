@@ -10,10 +10,10 @@
         justify-center
         rounded-lg
         bg-gray-100
-        hover:bg-gray-200 relative
+        hover:bg-gray-200 dark:bg-gray-800 relative
       "
     >
-      <div class="text-base font-medium text-gray-700">P</div>
+      <div class="text-base font-medium text-gray-700 dark:text-gray-400">P</div>
       <div class="h-2.5 w-2.5 bg-green-400 absolute border-2 border-white -right-1 -top-1 rounded-full"></div>
     </div>
    
@@ -27,11 +27,11 @@
         justify-center
         rounded-lg
         bg-gray-100
-        hover:bg-gray-200
+        hover:bg-gray-200 dark:bg-gray-800
         relative
       "
     >
-      <div class="text-sm tracking-tight font-light text-gray-700">John</div>
+      <div class="text-sm tracking-tight font-light text-gray-700 dark:text-gray-400">John</div>
       <div class="h-3 w-3 bg-red-400 absolute border-2 border-white -right-1 -top-1 rounded-full"></div>
     </div>
     <!-- Initials -->
@@ -44,11 +44,11 @@
         justify-center
         rounded-lg
         bg-gray-100
-        hover:bg-gray-200
+        hover:bg-gray-200 dark:bg-gray-800
         relative
       "
     >
-      <div class="text-base font-normal text-gray-700">JD</div>
+      <div class="text-base font-normal text-gray-700 dark:text-gray-400">JD</div>
        <div class="h-3.5 w-3.5 bg-blue-400 absolute border-2 border-white -right-1 -bottom-1 rounded-full"></div>
     </div>
     <!-- Icon -->
@@ -60,12 +60,12 @@
         items-center
         justify-center
         bg-gray-100
-        hover:bg-gray-200
+        hover:bg-gray-200 dark:bg-gray-800
         rounded-lg relative
       "
     >
       <svg
-        class="text-gray-700"
+        class="text-gray-700 dark:text-gray-400"
         width="24"
         height="24"
         stroke-width="1.5"

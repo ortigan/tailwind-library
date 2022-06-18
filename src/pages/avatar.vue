@@ -32,32 +32,7 @@
             </template>
           </ComponentPad>
           <!-- code snippet -->
-          <pre><code class="language-markup"><script type="prism-html-markup">
-          <!-- Letter -->
-          <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200">
-            <div class="text-base font-medium text-gray-700">P</div>
-          </div>
-          <!-- Text -->
-          <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200">
-            <div class="text-sm font-light tracking-tight text-gray-700">John</div>
-          </div>
-          <!-- Initials -->
-          <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200">
-            <div class="text-base font-normal text-gray-700">JD</div>
-          </div>
-          <!-- Icon -->
-          <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200">
-            <svg class="text-gray-700" width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 20V19C5 15.134 8.13401 12 12 12V12C15.866 12 19 15.134 19 19V20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></svg>
-          </div>
-          <!-- Avatar -->
-          <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-sky-300 hover:bg-sky-200">
-            <img class="h-full w-full rounded-lg object-cover pt-2" src="https://avatars.dicebear.com/api/avataaars/prapr.more2.svg" alt="" />
-          </div>
-          <!-- Image -->
-           <div class="h-10 w-10">
-              <img class="h-full w-full rounded-lg object-cover" src="...." alt="" />
-          </div>
-          </script></code></pre>
+          <DefaultAvatarSnippet />
           <!-- code snippet end -->
           <!-- end default avatar -->
           <!-- Default Sizes -->
@@ -77,19 +52,19 @@
           <!-- code snippet -->
           <pre><code class="language-markup"><script type="prism-html-markup">
           <!-- Letter -->
-          <div class="flex h-8 w-8 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200">
-            <div class="text-base font-medium text-gray-700">P</div>
+          <div class="flex h-8 w-8 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200 dark:bg-gray-800">
+            <div class="text-base font-medium text-gray-700 dark:text-gray-400">P</div>
           </div>
           <!-- Text -->
-          <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200">
-            <div class="text-sm font-light tracking-tight text-gray-700">John</div>
+          <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200 dark:bg-gray-800">
+            <div class="text-sm font-light tracking-tight text-gray-700 dark:text-gray-400">John</div>
           </div>
           <!-- Initials -->
-          <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200">
-            <div class="text-base font-normal text-gray-700">JD</div>
+          <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200 dark:bg-gray-800">
+            <div class="text-base font-normal text-gray-700 dark:text-gray-400">JD</div>
           </div>
           <!-- Icon -->
-          <div class="flex h-14 w-14 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200">
+          <div class="flex h-14 w-14 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200 dark:bg-gray-800">
             <svg class="text-gray-700" width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 20V19C5 15.134 8.13401 12 12 12V12C15.866 12 19 15.134 19 19V20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></svg>
           </div>
           <!-- Avatar -->
@@ -117,23 +92,23 @@
                <!-- code snippet -->
           <pre><code class="language-markup"><script type="prism-html-markup">
           <!-- Letter -->
-          <div class="relative flex h-8 w-8 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200">
-            <div class="text-base font-medium text-gray-700">P</div>
+          <div class="relative flex h-8 w-8 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200 dark:text-gray-800">
+            <div class="text-base font-medium text-gray-700 dark:text-gray-400">P</div>
             <div class="absolute -right-1 -top-1 h-2.5 w-2.5 rounded-full border-2 border-white bg-green-400"></div>
           </div>
           <!-- Text -->
-          <div class="relative flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200">
-            <div class="text-sm font-light tracking-tight text-gray-700">John</div>
+          <div class="relative flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200 dark:text-gray-800">
+            <div class="text-sm font-light tracking-tight text-gray-700 dark:text-gray-400">John</div>
             <div class="absolute -right-1 -top-1 h-3 w-3 rounded-full border-2 border-white bg-red-400"></div>
           </div>
           <!-- Initials -->
-          <div class="relative flex h-12 w-12 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200">
-            <div class="text-base font-normal text-gray-700">JD</div>
+          <div class="relative flex h-12 w-12 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200 dark:text-gray-800">
+            <div class="text-base font-normal text-gray-700 dark:text-gray-400">JD</div>
             <div class="absolute -right-1 -bottom-1 h-3.5 w-3.5 rounded-full border-2 border-white bg-blue-400"></div>
           </div>
           <!-- Icon -->
-          <div class="relative flex h-14 w-14 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200">
-            <svg class="text-gray-700" width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div class="relative flex h-14 w-14 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200 dark:text-gray-800">
+            <svg class="text-gray-700 dark:text-gray-400" width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M5 20V19C5 15.134 8.13401 12 12 12V12C15.866 12 19 15.134 19 19V20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
               <path d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
@@ -746,6 +721,7 @@ import GroupAvatar1 from "../components/Avatar/AvatarGroup/GroupAvatar1.vue";
 import GroupAvatar2 from "../components/Avatar/AvatarGroup/GroupAvatar2.vue";
 import InfoAvatar from "../components/Avatar/InfoAvatar.vue";
 import DropDownAvatar from "../components/Avatar/DropDownAvatar.vue";
+import DefaultAvatarSnippet  from "../components/Avatar/CodeSnippet/DefaultAvatarSnippet.vue";
 
 export default {
   metaInfo: {
@@ -769,6 +745,7 @@ export default {
     GroupAvatar2,
     InfoAvatar,
     DropDownAvatar,
+    DefaultAvatarSnippet
   },
 };
 </script>

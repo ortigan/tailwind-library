@@ -1,21 +1,13 @@
 <template>
   <div class="flex space-x-4">
-      <!-- Letter -->
+    <!-- Letter -->
     <div
-      class="
-        w-10
-        h-10
-        flex
-        items-center
-        justify-center
-        rounded-lg
-        bg-gray-100
-        hover:bg-gray-200
+      class=" w-10 h-10 flex items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200 dark:bg-gray-800
       "
     >
-      <div class="text-base font-medium text-gray-700">P</div>
+      <div class="text-base font-medium text-gray-700  dark:text-gray-400">P</div>
     </div>
-   
+
     <!-- text -->
     <div
       class="
@@ -26,10 +18,10 @@
         justify-center
         rounded-lg
         bg-gray-100
-        hover:bg-gray-200
+        hover:bg-gray-200 dark:bg-gray-800
       "
     >
-      <div class="text-sm tracking-tight font-light text-gray-700">John</div>
+      <div class="text-sm tracking-tight font-light text-gray-700 dark:text-gray-400">John</div>
     </div>
     <!-- Initials -->
     <div
@@ -41,10 +33,10 @@
         justify-center
         rounded-lg
         bg-gray-100
-        hover:bg-gray-200
+        hover:bg-gray-200 dark:bg-gray-800
       "
     >
-      <div class="text-base font-normal text-gray-700">JD</div>
+      <div class="text-base font-normal text-gray-700 dark:text-gray-400">JD</div>
     </div>
     <!-- Icon -->
     <div
@@ -56,11 +48,11 @@
         justify-center
         bg-gray-100
         hover:bg-gray-200
-        rounded-lg
+        rounded-lg dark:bg-gray-800
       "
     >
       <svg
-        class="text-gray-700"
+        class="text-gray-700 dark:text-gray-400"
         width="24"
         height="24"
         stroke-width="1.5"
@@ -101,7 +93,7 @@
         alt=""
       />
     </div>
-      <!-- image -->
+    <!-- image -->
     <div class="w-10 h-10">
       <img
         class="w-full h-full object-cover rounded-lg"
@@ -109,7 +101,6 @@
         alt=""
       />
     </div>
-    
   </div>
 </template>
 
