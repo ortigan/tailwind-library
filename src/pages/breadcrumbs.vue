@@ -22,6 +22,19 @@
             <template v-slot:subHeader
               >Default Breadcrumb</template
             >
+             <template v-slot:code>
+              <ShowCodeButton
+                v-if="!default_breadcrumb"
+                @click.native="default_breadcrumb = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="default_breadcrumb = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -29,7 +42,9 @@
             </template>
           </ComponentPad>
           <!-- code snippet --->
+    <span v-show="default_breadcrumb" class="transition-all">
           <DefaultBreadCrumbSnippet />
+</span>
           <!-- code snippet end --->
           <!-- end default Breadcrumb -->
           <!-- with arrow Breadcrumb -->
@@ -37,6 +52,19 @@
             <template v-slot:subHeader
               >With Arrow</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!arrow_breadcrumb"
+                @click.native="arrow_breadcrumb = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="arrow_breadcrumb = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -44,7 +72,9 @@
             </template>
           </ComponentPad>
           <!-- code snippet --->
+          <span v-show="arrow_breadcrumb" class="transition-all">
           <ArrowBreadCrumbSnippet />
+            </span>
           <!-- code snippet end --->
           <!-- end with arrow Breadcrumb -->
           <!-- with Icon Breadcrumb -->
@@ -52,6 +82,19 @@
             <template v-slot:subHeader
               >With Icon</template
             >
+             <template v-slot:code>
+              <ShowCodeButton
+                v-if="!icon_breadcrumb"
+                @click.native="icon_breadcrumb = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="icon_breadcrumb = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -59,7 +102,9 @@
             </template>
           </ComponentPad>
            <!-- code snippet --->
+           <span v-show="icon_breadcrumb" class="transition-all">
           <IconBreadCrumbSnippet />
+            </span>
           <!-- code snippet end --->
           <!-- end with Icon Breadcrumb -->
           <!-- Solid background Breadcrumb -->
@@ -67,6 +112,19 @@
             <template v-slot:subHeader
               >Solid background</template
             >
+             <template v-slot:code>
+              <ShowCodeButton
+                v-if="!solid_breadcrumb"
+                @click.native="solid_breadcrumb = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="solid_breadcrumb = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -74,7 +132,9 @@
             </template>
           </ComponentPad>
           <!-- code snippet --->
+    <span v-show="solid_breadcrumb" class="transition-all">
           <SolidBreadCrumbSnippet />
+</span>
           <!-- code snippet end --->
           <!-- end Solid background Breadcrumb -->
           <!-- Outline Breadcrumb -->
@@ -82,6 +142,19 @@
             <template v-slot:subHeader
               >Outline</template
             >
+             <template v-slot:code>
+              <ShowCodeButton
+                v-if="!outline_breadcrumb"
+                @click.native="outline_breadcrumb = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="outline_breadcrumb = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -89,7 +162,9 @@
             </template>
           </ComponentPad>
           <!-- code snippet --->
+    <span v-show="outline_breadcrumb" class="transition-all">
           <OutlineBreadCrumbSnippet />
+</span>
           <!-- code snippet end --->
           <!-- end Outline Breadcrumb -->
           <!-- Alignment Breadcrumb -->
@@ -97,6 +172,19 @@
             <template v-slot:subHeader
               >Alignment</template
             >
+             <template v-slot:code>
+              <ShowCodeButton
+                v-if="!alignment_breadcrumb"
+                @click.native="alignment_breadcrumb = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="alignment_breadcrumb = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -104,7 +192,9 @@
             </template>
           </ComponentPad>
            <!-- code snippet --->
+           <span v-show="alignment_breadcrumb" class="transition-all">
           <AlignmentBreadCrumbSnippet />
+</span>
           <!-- code snippet end --->
           <!-- end Alignment Breadcrumb -->
           <!-- Separator Breadcrumb -->
@@ -112,6 +202,19 @@
             <template v-slot:subHeader
               >Separator</template
             >
+             <template v-slot:code>
+              <ShowCodeButton
+                v-if="!separator_breadcrumb"
+                @click.native="separator_breadcrumb = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="separator_breadcrumb = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -119,12 +222,14 @@
             </template>
           </ComponentPad>
            <!-- code snippet --->
+           <span v-show="separator_breadcrumb" class="transition-all">
           <SeparatorBreadCrumbSnippet />
+</span>
           <!-- code snippet end --->
           <!-- end Separator Breadcrumb -->
         </div>
       </div>
-      <!-- right sidebar -->
+      <!-- right breadcrumb -->
       <div class="hidden lg:block">
         <div class="w-40 flex flex-col min-h-screen overflow-y-hidden">
           <div class="overflow-y-auto">
@@ -178,6 +283,17 @@ export default {
     AlignmentBreadCrumbSnippet,
     SeparatorBreadCrumbSnippet,
   },
+  data(){
+    return{
+      default_breadcrumb: false,
+      arrow_breadcrumb: false,
+      icon_breadcrumb: false,
+      solid_breadcrumb: false,
+      outline_breadcrumb: false,
+      alignment_breadcrumb: false,
+      separator_breadcrumb: false,
+    }
+  }
 };
 </script>
 

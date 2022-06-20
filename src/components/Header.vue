@@ -35,7 +35,7 @@
         <div>Templates</div>
         <div>Figma</div>
         <div>Faqs</div>
-        <div v-if="getTheme === 'dark'" id="light" @click="changeTheme('light')">
+        <div v-if="getTheme === 'dark'" id="light" @click="changeTheme('light')" class="cursor-pointer">
           
           <svg
             width="20"
@@ -101,7 +101,7 @@
             />
           </svg>
         </div>
-        <div v-else id="dark" @click="changeTheme('dark')">
+        <div v-else id="dark" @click="changeTheme('dark')" class="cursor-pointer">
           <svg
             width="20"
             height="20"
