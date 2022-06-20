@@ -85,7 +85,6 @@
         />
       </svg>
              <div class="h-3.5 w-3.5 bg-purple-400 border-2 border-white dark:border-gray-900 absolute right-0 bottom-0 rounded-full"></div>
-
     </div>
     <!-- Avatar -->
     <div
@@ -117,7 +116,6 @@
       />
       <div class="h-5 w-5 bg-red-400 absolute border-2 border-white -right-0 -top-0 rounded-full"></div>
     </div>
-    
   </div>
 </template>
 

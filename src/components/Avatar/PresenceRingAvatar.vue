@@ -9,12 +9,12 @@
         items-center
         justify-center
         rounded-full
-        bg-gray-100
+        bg-gray-100 dark:bg-gray-800
         hover:bg-gray-200 relative
         ring-2 ring-green-300
       "
     >
-      <div class="text-base font-medium text-gray-700">P</div>
+      <div class="text-base font-medium text-gray-700 dark:text-gray-400">P</div>
     </div>
    
     <!-- text -->
@@ -26,12 +26,11 @@
         items-center
         justify-center
         rounded-lg
-        bg-gray-100
-
+        bg-gray-100 dark:bg-gray-800
         relative ring-2 ring-red-300
       "
     >
-      <div class="text-sm tracking-tight font-light text-gray-700 hover:scale-105">Alen</div>
+      <div class="text-sm tracking-tight font-light text-gray-700 hover:scale-105 dark:text-gray-400">Alen</div>
     </div>
     <!-- Initials -->
     <div
@@ -41,10 +40,9 @@
         flex
         items-center
         justify-center
-       
         bg-gray-700
         hover:bg-gray-800
-        relative ring-2 ring-sky-300 border
+        relative ring-2 ring-sky-300 border dark:border-gray-800
       "
     >
       <div class="text-base font-normal text-gray-100">JD</div>
@@ -57,15 +55,15 @@
         flex
         items-center
         justify-center
-        bg-gray-100
+        bg-gray-100 dark:bg-gray-800
         hover:bg-gray-200
-        rounded-full relative ring-2 ring-erm-400
+        rounded-full relative ring-2 ring-emerald-400
       "
     >
       <svg
-        class="text-gray-700"
-        width="30"
-        height="30"
+        class="text-gray-700 dark:text-gray-400"
+        width="34"
+        height="34"
         stroke-width="1.5"
         viewBox="0 0 24 24"
         fill="none"
@@ -84,7 +82,7 @@
           stroke-linejoin="round"
         />
       </svg>
-             <div class="h-3.5 w-3.5 bg-emerald-400 border-2 border-white absolute -right-0 top-0 rounded-full"></div>
+             <div class="h-3.5 w-3.5 bg-emerald-400 border-2 border-white dark:border-gray-800 absolute -right-0 top-0 rounded-full"></div>
 
     </div>
     <!-- Avatar -->
@@ -101,7 +99,7 @@
       "
     >
       <img
-        class="w-full h-full object-cover rounded-lg pt-2 border-2"
+        class="w-full h-full object-cover rounded-lg pt-2 border-2 dark:border-gray-800"
         src="https://avatars.dicebear.com/api/avataaars/pj9bbrv.more2.svg"
         alt=""
       />

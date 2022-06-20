@@ -9,12 +9,12 @@
         items-center
         justify-center
         
-        bg-gray-100
+        bg-gray-100 dark:bg-gray-800
         hover:bg-gray-200 relative
       "
     >
-      <div class="text-base font-medium text-gray-700">P</div>
-      <div class="h-2.5 w-2.5 bg-green-400 absolute border-2 border-white -right-1 -top-1 rounded-full"></div>
+      <div class="text-base font-medium text-gray-700 dark:text-gray-400">P</div>
+      <div class="h-2.5 w-2.5 bg-green-400 absolute border-2 border-white dark:border-gray-800 -right-1 -top-1 rounded-full"></div>
     </div>
    
     <!-- text -->
@@ -26,12 +26,12 @@
         items-center
         justify-center
         
-        bg-gray-700
-        hover:bg-gray-200
+        bg-gray-100
+        hover:bg-gray-200 dark:bg-gray-800
         relative
       "
     >
-      <div class="text-sm tracking-tight font-normal text-gray-100">John</div>
+      <div class="text-sm tracking-tight font-normal text-gray-700 dark:text-gray-400">John</div>
     </div>
     <!-- Initials -->
     <div
@@ -42,12 +42,12 @@
         items-center
         justify-center
         
-        bg-gray-100
+        bg-gray-100 dark:bg-gray-800
         hover:bg-gray-200
-        relative ring-2 ring-indigo-400 border-2 border-white
+        relative ring-2 ring-green-400 border-2 border-white dark:border-gray-800
       "
     >
-      <div class="text-base font-normal text-gray-700">JD</div>
+      <div class="text-base font-normal text-gray-700 dark:text-gray-400">JD</div>
     </div>
     <!-- Icon -->
     <div
@@ -57,13 +57,13 @@
         flex
         items-center
         justify-center
-        bg-gray-100
+        bg-gray-100 dark:bg-gray-800
         hover:bg-gray-200
          relative
       "
     >
       <svg
-        class="text-gray-700"
+        class="text-gray-700 dark:text-gray-400"
         width="30"
         height="30"
         stroke-width="1.5"
@@ -84,7 +84,7 @@
           stroke-linejoin="round"
         />
       </svg>
-             <div class="h-3.5 w-3.5 bg-purple-400 border-2 border-white absolute -right-1 bottom-0 rounded-full"></div>
+             <div class="h-3.5 w-3.5 bg-purple-400 border-2 border-white dark:border-gray-800 solid absolute -right-1 -bottom-1 rounded-full"></div>
 
     </div>
     <!-- Avatar -->
@@ -105,7 +105,7 @@
         src="https://avatars.dicebear.com/api/micah/yerm55re2.svg"
         alt=""
       />
-        <div class="h-4 w-4 bg-green-400 absolute border-2 border-white -right-1 -top-1 rounded-full"></div>
+        <div class="h-4 w-4 bg-green-400 absolute border-2 border-white -right-1 -bottom-1 rounded-full"></div>
 
     </div>
       <!-- image -->
@@ -115,7 +115,7 @@
         src="https://res.cloudinary.com/pranav1421/image/upload/v1651821859/Tailwind-Component-library/Human%20avatar/pexels-pixabay-220453_ndnfc1.jpg"
         alt=""
       />
-      <div class="h-5 w-5 bg-red-400 absolute border-2 border-white -right-1 -top-1 rounded-full"></div>
+      <div class="h-5 w-5 bg-red-400 absolute border-2 border-white -right-2 -top-1 rounded-full"></div>
     </div>
     
   </div>

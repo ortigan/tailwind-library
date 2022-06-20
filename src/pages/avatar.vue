@@ -22,6 +22,19 @@
             <template v-slot:subHeader
               >Default avatar</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!default_avatar"
+                @click.native="default_avatar = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="default_avatar = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <div class="pb-4">
             <p>In the fifth component <a href="https://avatars.dicebear.com/"> DiceBear avatars </a> are used</p>
@@ -31,15 +44,28 @@
               <DefaultAvatar />
             </template>
           </ComponentPad>
-          <!-- code snippet -->
-          <DefaultAvatarSnippet />
-          <!-- code snippet end -->
+          <span v-show="default_avatar" class="transition-all">
+            <DefaultAvatarSnippet />
+          </span>
           <!-- end default avatar -->
           <!-- Default Sizes -->
           <SubHeading>
             <template v-slot:subHeader
               >Avatar sizes</template
             >
+             <template v-slot:code>
+              <ShowCodeButton
+                v-if="!size_avatar"
+                @click.native="size_avatar = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="size_avatar = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <div class="pb-4">
             <p>Use height and width classes from <a href="https://tailwindcss.com/" class="text-sky-700">tailwindcss</a> for variable size components</p>
@@ -49,221 +75,121 @@
               <SizeAvatar />
             </template>
           </ComponentPad>
-          <!-- code snippet -->
-          <pre><code class="language-markup"><script type="prism-html-markup">
-          <!-- Letter -->
-          <div class="flex h-8 w-8 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200 dark:bg-gray-800">
-            <div class="text-base font-medium text-gray-700 dark:text-gray-400">P</div>
-          </div>
-          <!-- Text -->
-          <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200 dark:bg-gray-800">
-            <div class="text-sm font-light tracking-tight text-gray-700 dark:text-gray-400">John</div>
-          </div>
-          <!-- Initials -->
-          <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200 dark:bg-gray-800">
-            <div class="text-base font-normal text-gray-700 dark:text-gray-400">JD</div>
-          </div>
-          <!-- Icon -->
-          <div class="flex h-14 w-14 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200 dark:bg-gray-800">
-            <svg class="text-gray-700" width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 20V19C5 15.134 8.13401 12 12 12V12C15.866 12 19 15.134 19 19V20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></svg>
-          </div>
-          <!-- Avatar -->
-          <div class="flex h-16 w-16 items-center justify-center rounded-lg bg-sky-300 hover:bg-sky-200">
-            <img class="h-full w-full rounded-lg object-cover pt-2" src="https://avatars.dicebear.com/api/avataaars/prapr.more2.svg" alt="" />
-          </div>
-          <!-- Image -->
-           <div class="h-20 w-20">
-              <img class="h-full w-full rounded-lg object-cover" src="...." alt="" />
-          </div>
-          </script></code></pre>
-          <!-- code snippet end -->
+           <span v-show="size_avatar" class="transition-all">
+            <SizeAvatarSnippet />
+          </span>
           <!-- end  avatar sizes -->
           <!-- Presence avatar -->
           <SubHeading>
             <template v-slot:subHeader
               >Avatar with presence indicator</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!presence_avatar"
+                @click.native="presence_avatar = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="presence_avatar = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
               <PresenceAvatar />
             </template>
           </ComponentPad>
-               <!-- code snippet -->
-          <pre><code class="language-markup"><script type="prism-html-markup">
-          <!-- Letter -->
-          <div class="relative flex h-8 w-8 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200 dark:text-gray-800">
-            <div class="text-base font-medium text-gray-700 dark:text-gray-400">P</div>
-            <div class="absolute -right-1 -top-1 h-2.5 w-2.5 rounded-full border-2 border-white bg-green-400"></div>
-          </div>
-          <!-- Text -->
-          <div class="relative flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200 dark:text-gray-800">
-            <div class="text-sm font-light tracking-tight text-gray-700 dark:text-gray-400">John</div>
-            <div class="absolute -right-1 -top-1 h-3 w-3 rounded-full border-2 border-white bg-red-400"></div>
-          </div>
-          <!-- Initials -->
-          <div class="relative flex h-12 w-12 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200 dark:text-gray-800">
-            <div class="text-base font-normal text-gray-700 dark:text-gray-400">JD</div>
-            <div class="absolute -right-1 -bottom-1 h-3.5 w-3.5 rounded-full border-2 border-white bg-blue-400"></div>
-          </div>
-          <!-- Icon -->
-          <div class="relative flex h-14 w-14 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200 dark:text-gray-800">
-            <svg class="text-gray-700 dark:text-gray-400" width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 20V19C5 15.134 8.13401 12 12 12V12C15.866 12 19 15.134 19 19V20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <div class="absolute -right-1 bottom-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-purple-400"></div>
-          </div>
-          <!-- Avatar -->
-          <div class="relative flex h-16 w-16 items-center justify-center rounded-lg bg-teal-300 hover:bg-teal-200">
-            <img class="h-full w-full rounded-lg object-cover pt-1" src="https://avatars.dicebear.com/api/avataaars/mv.m55re2.svg" alt="" />
-            <div class="absolute -right-1 -top-1 h-4 w-4 rounded-full border-2 border-white bg-green-400"></div>
-          </div>
-          <!-- image -->
-          <div class="relative h-20 w-20">
-            <img class="h-full w-full rounded-2xl object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651817214/Tailwind-Component-library/Human%20avatar/pexels-dalila-dalprat-1844547_zltpkb.jpg" alt="" />
-            <div class="absolute -right-2 -top-2 h-5 w-5 rounded-full border-2 border-white bg-sky-400"></div>
-          </div>
-          </script></code></pre>
-          <!-- code snippet end -->
+           <span v-show="presence_avatar" class="transition-all">
+            <PresenceAvatarSnippet />
+          </span>
           <!-- end presence avatar -->
           <!-- Circle avatar -->
           <SubHeading>
             <template v-slot:subHeader
               >Circle</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!circle_avatar"
+                @click.native="circle_avatar = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="circle_avatar = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
               <CircleAvatar />
             </template>
           </ComponentPad>
-               <!-- code snippet -->
-          <pre><code class="language-markup"><script type="prism-html-markup">
-          <!-- Letter -->
-          <div class="relative flex h-8 w-8 items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200">
-            <div class="text-base font-medium text-gray-700">P</div>
-            <div class="absolute right-0 top-0 h-2.5 w-2.5 rounded-full border-2 border-white bg-green-400"></div>
-          </div>
-          <!-- Text -->
-          <div class="relative flex h-10 w-10 items-center justify-center rounded-full bg-gray-700 hover:bg-gray-800">
-            <div class="text-sm font-normal tracking-tight text-gray-100">John</div>
-          </div>
-          <!-- Initials -->
-          <div class="relative flex h-12 w-12 items-center justify-center rounded-full border-2 border-white bg-gray-100 ring-2 ring-indigo-400 hover:bg-gray-200">
-            <div class="text-base font-normal text-gray-700">JD</div>
-          </div>
-          <!-- Icon -->
-          <div class="relative flex h-14 w-14 items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200">
-            <svg class="text-gray-700" width="30" height="30" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 20V19C5 15.134 8.13401 12 12 12V12C15.866 12 19 15.134 19 19V20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <div class="absolute right-0 bottom-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-purple-400"></div>
-          </div>
-          <!-- Avatar -->
-          <div class="relative flex h-16 w-16 items-center justify-center rounded-full bg-indigo-300 hover:bg-indigo-200">
-            <img class="h-full w-full rounded-full object-cover pt-1" src="https://avatars.dicebear.com/api/micah/mvem55re2.svg" alt="" />
-            <div class="absolute -right-0 -top-0 h-4 w-4 rounded-full border-2 border-white bg-yellow-400"></div>
-          </div>
-          <!-- image -->
-          <div class="relative h-20 w-20 rounded-full">
-            <img class="h-full w-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651820943/Tailwind-Component-library/Human%20avatar/pexels-sound-on-3760857_hujrch.jpg" alt="" />
-            <div class="absolute -right-0 -top-0 h-5 w-5 rounded-full border-2 border-white bg-red-400"></div>
-          </div>
-          </script></code></pre>
-          <!-- code snippet end -->
+            <span v-show="circle_avatar" class="transition-all">
+            <CircleAvatarSnippet />
+          </span>
           <!-- end Circle avatar -->
           <!-- Square avatar -->
           <SubHeading>
             <template v-slot:subHeader
               >Square</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!square_avatar"
+                @click.native="square_avatar = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="square_avatar = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
               <SquareAvatar />
             </template>
           </ComponentPad>
-               <!-- code snippet -->
-          <pre><code class="language-markup"><script type="prism-html-markup">
-          <!-- Letter -->
-          <div class="relative flex h-8 w-8 items-center justify-center bg-gray-100 hover:bg-gray-200">
-            <div class="text-base font-medium text-gray-700">P</div>
-            <div class="absolute -right-1 -top-1 h-2.5 w-2.5 rounded-full border-2 border-white bg-green-400"></div>
-          </div>
-          <!-- Text -->
-          <div class="relative flex h-10 w-10 items-center justify-center bg-gray-700 hover:bg-gray-200">
-            <div class="text-sm font-normal tracking-tight text-gray-100">John</div>
-          </div>
-          <!-- Initials -->
-          <div class="relative flex h-12 w-12 items-center justify-center border-2 border-white bg-gray-100 ring-2 ring-indigo-400 hover:bg-gray-200">
-            <div class="text-base font-normal text-gray-700">JD</div>
-          </div>
-          <!-- Icon -->
-          <div class="relative flex h-14 w-14 items-center justify-center bg-gray-100 hover:bg-gray-200">
-            <svg class="text-gray-700" width="30" height="30" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 20V19C5 15.134 8.13401 12 12 12V12C15.866 12 19 15.134 19 19V20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <div class="absolute -right-1 bottom-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-purple-400"></div>
-          </div>
-          <!-- Avatar -->
-          <div class="relative flex h-16 w-16 items-center justify-center bg-red-300 hover:bg-red-200">
-            <img class="h-full w-full object-cover pt-1" src="https://avatars.dicebear.com/api/micah/yerm55re2.svg" alt="" />
-            <div class="absolute -right-1 -top-1 h-4 w-4 rounded-full border-2 border-white bg-green-400"></div>
-          </div>
-          <!-- Image -->
-          <div class="relative h-20 w-20">
-            <img class="h-full w-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651821859/Tailwind-Component-library/Human%20avatar/pexels-pixabay-220453_ndnfc1.jpg" alt="" />
-            <div class="absolute -right-1 -top-1 h-5 w-5 rounded-full border-2 border-white bg-red-400"></div>
-          </div>
-          </script></code></pre>
-          <!-- code snippet end -->
+           <span v-show="square_avatar" class="transition-all">
+            <SquareAvatarSnippet />
+          </span>
           <!-- end Square avatar -->
           <!-- PresenceRing avatar -->
           <SubHeading>
             <template v-slot:subHeader
               >Avatar with presence Ring</template
             >
+             <template v-slot:code>
+              <ShowCodeButton
+                v-if="!presencering_avatar"
+                @click.native="presencering_avatar = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="presencering_avatar = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
               <PresenceRingAvatar />
             </template>
           </ComponentPad>
-          <!-- code snippet -->
-          <pre><code class="language-markup"><script type="prism-html-markup">
-          <!-- Letter -->
-          <div class="relative flex h-8 w-8 items-center justify-center rounded-full bg-gray-100 ring-2 ring-green-300 hover:bg-gray-200">
-            <div class="text-base font-medium text-gray-700">P</div>
-          </div>
-          <!-- Text -->
-          <div class="relative flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 ring-2 ring-red-300">
-            <div class="text-sm font-light tracking-tight text-gray-700 hover:scale-105">Alen</div>
-          </div>
-          <!-- Initials -->
-          <div class="relative flex h-12 w-12 items-center justify-center border bg-gray-700 ring-2 ring-sky-300 hover:bg-gray-800">
-            <div class="text-base font-normal text-gray-100">JD</div>
-          </div>
-          <!-- Icon -->
-          <div class="relative flex h-14 w-14 items-center justify-center rounded-full bg-gray-100 ring-2 ring-indigo-400 hover:bg-gray-200">
-            <svg class="text-gray-700" width="30" height="30" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 20V19C5 15.134 8.13401 12 12 12V12C15.866 12 19 15.134 19 19V20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <div class="absolute -right-0 top-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-emerald-400"></div>
-          </div>
-          <!-- Avatar -->
-          <div class="relative flex h-16 w-16 items-center justify-center rounded-lg bg-amber-300 ring-2 ring-blue-300">
-            <img class="h-full w-full rounded-lg border-2 object-cover pt-2" src="https://avatars.dicebear.com/api/avataaars/pj9bbrv.more2.svg" alt="" />
-          </div>
-          <!-- Image -->
-          <div class="relative h-20 w-20 rounded-full ring-2 ring-red-400">
-            <img class="h-full w-full rounded-full border-2 object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651817165/Tailwind-Component-library/Human%20avatar/pexels-anastasia-shuraeva-5704720_lbcevs.jpg" alt="" />
-          </div>
-          </script></code></pre>
-          <!-- code snippet end -->
+            <span v-show="presencering_avatar" class="transition-all">
+            <PresenceRingAvatarSnippet />
+          </span>
           <!-- end presence Ring avatar -->
           <!-- Color avatar -->
           <SubHeading>
@@ -722,6 +648,11 @@ import GroupAvatar2 from "../components/Avatar/AvatarGroup/GroupAvatar2.vue";
 import InfoAvatar from "../components/Avatar/InfoAvatar.vue";
 import DropDownAvatar from "../components/Avatar/DropDownAvatar.vue";
 import DefaultAvatarSnippet  from "../components/Avatar/CodeSnippet/DefaultAvatarSnippet.vue";
+import SquareAvatarSnippet  from "../components/Avatar/CodeSnippet/SquareAvatarSnippet.vue";
+import PresenceRingAvatarSnippet  from "../components/Avatar/CodeSnippet/PresenceRingAvatarSnippet.vue";
+import CircleAvatarSnippet  from "../components/Avatar/CodeSnippet/CircleAvatarSnippet.vue";
+import SizeAvatarSnippet  from "../components/Avatar/CodeSnippet/SizeAvatarSnippet.vue";
+import PresenceAvatarSnippet  from "../components/Avatar/CodeSnippet/PresenceAvatarSnippet.vue";
 
 export default {
   metaInfo: {
@@ -745,8 +676,23 @@ export default {
     GroupAvatar2,
     InfoAvatar,
     DropDownAvatar,
-    DefaultAvatarSnippet
+    DefaultAvatarSnippet,
+    SquareAvatarSnippet,
+    PresenceRingAvatarSnippet,
+    CircleAvatarSnippet,
+    SizeAvatarSnippet,
+    PresenceAvatarSnippet
   },
+  data(){
+    return{
+      square_avatar: false,
+      presencering_avatar: false,
+      circle_avatar: false,
+      default_avatar: false,
+      size_avatar: false,
+      presence_avatar: false,
+    }
+  }
 };
 </script>
 
