@@ -196,424 +196,198 @@
             <template v-slot:subHeader
               >Color</template
             >
+             <template v-slot:code>
+              <ShowCodeButton
+                v-if="!color_avatar"
+                @click.native="color_avatar = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="color_avatar = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
               <ColorAvatar />
             </template>
           </ComponentPad>
-          <!-- code snippet -->
-          <pre><code class="language-markup"><script type="prism-html-markup">
-          <!-- Letter -->
-          <div class="flex h-10 w-10 items-center justify-center rounded-full bg-gray-700">
-            <div class="text-base font-normal text-white">P</div>
-          </div>
-          <!-- Text -->
-          <div class="flex h-10 w-10 items-center justify-center bg-fuchsia-600">
-            <div class="text-base font-normal text-white">Km</div>
-          </div>
-          <!-- Intials -->
-          <div class="relative flex h-10 w-10 items-center justify-center rounded-full bg-sky-400">
-            <div class="text-base font-normal text-white">S</div>
-            <div class="absolute -right-0 -top-0 h-3 w-3 rounded-full border-2 border-white bg-green-400"></div>
-          </div>
-          <!-- Icon -->
-          <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-amber-400">
-            <div class="text-base font-medium text-white">WK</div>
-          </div>
-          <!-- Avatar -->
-          <div class="relative flex h-10 w-10 items-center justify-center rounded-lg bg-teal-400 px-0.5">
-            <div class="text-xs font-normal tracking-tighter text-white">ADAM</div>
-            <div class="absolute -right-1 -bottom-1 h-3 w-3 rounded-full border-2 border-white bg-red-400"></div>
-          </div>
-          <!-- Image -->
-          <div class="flex h-10 w-10 items-center justify-center rounded-full bg-red-500 px-0.5">
-            <svg class="text-white" width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 20V19C5 15.134 8.13401 12 12 12V12C15.866 12 19 15.134 19 19V20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></svg>
-          </div>
-          </script></code></pre>
-          <!-- code snippet end -->
-          
+          <span v-show="color_avatar" class="transition-all">
+            <ColorAvatarSnippet />
+          </span>
           <!-- end Color avatar -->
           <!-- Badge avatar -->
           <SubHeading>
             <template v-slot:subHeader
               >Badge</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!badge_avatar"
+                @click.native="badge_avatar = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="badge_avatar = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
               <BadgeAvatar />
             </template>
           </ComponentPad>
-           <!-- code snippet -->
-          <pre><code class="language-markup"><script type="prism-html-markup">
-          <!-- Letter -->
-          <div class="relative flex h-10 w-10 items-center justify-center rounded-lg bg-yellow-400">
-            <div class="text-base font-medium text-gray-100">S</div>
-            <div class="text-xxs absolute -right-2 -top-2 rounded-full border-2 border-white bg-cyan-600 px-1">3</div>
-          </div>
-          <!-- text -->
-          <div class="relative flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200">
-            <img class="h-full w-full rounded-lg object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651821816/Tailwind-Component-library/Human%20avatar/pexels-andrea-piacquadio-3767410_kur6zy.jpg" alt="" />
-            <div class="text-xxs absolute -right-2 -bottom-2 rounded-full border border-white bg-violet-500 px-0.5 font-medium">+99</div>
-          </div>
-          <!-- Icon -->
-          <div class="relative flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 hover:bg-blue-200">
-            <svg class="text-blue-700" width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 20V19C5 15.134 8.13401 12 12 12V12C15.866 12 19 15.134 19 19V20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></svg>
-            <div class="absolute -right-1 -bottom-1 rounded-full border border-white bg-blue-500">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" /></svg>
-            </div>
-          </div>
-          <!-- Avatar -->
-          <div class="relative flex h-10 w-10 items-center justify-center rounded-full bg-pink-300">
-            <img class="h-9 w-9 rounded-full object-cover pt-1 hover:h-10 hover:w-10" src="https://avatars.dicebear.com/api/avataaars/aoiprapre2.svg" alt="" />
-            <div class="absolute -right-1 -bottom-1 rounded-full border border-white bg-rose-500 p-0.5">
-              <svg class="text-white" width="12" height="12" stroke-width="2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.27049 6.5C6.09277 7.10971 6 7.74975 6 8.4C6 15.8667 3 18 3 18H18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M7.75732 3.87452C8.88254 2.67428 10.4087 2 12 2C13.5913 2 15.1174 2.67428 16.2426 3.87452C17.3678 5.07475 18 6.70261 18 8.4C18 15.8667 21 18 21 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M13.73 21C13.5542 21.3031 13.3019 21.5547 12.9982 21.7295C12.6946 21.9044 12.3504 21.9965 12 21.9965C11.6496 21.9965 11.3054 21.9044 11.0018 21.7295C10.6982 21.5547 10.4458 21.3031 10.27 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M3 3L21 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></svg>
-            </div>
-          </div>
-          <!-- image -->
-          <div class="relative h-10 w-10">
-            <img class="h-full w-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651744687/Tailwind-Component-library/matheus-ferrero-W7b3eDUb_2I-unsplash_hu3utv.jpg" alt="" />
-            <div class="text-xxs absolute -right-3 -top-2 rounded-full border border-white bg-gray-500 px-1 font-medium">Off</div>
-          </div>
-          <!-- text -->
-          <div class="relative flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200">
-            <img class="h-full w-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651818407/Tailwind-Component-library/Human%20avatar/pexels-italo-melo-2379004_nibpi3.jpg" alt="" />
-            <div class="absolute -right-3 -top-2 text-xxs rounded-lg border border-white bg-green-500 px-0.5 font-medium tracking-tight">New</div>
-          </div>
-          <!-- Pen -->
-          <div class="relative flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200">
-            <img class="h-full w-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651818134/Tailwind-Component-library/Human%20avatar/pexels-rachel-claire-5490276_ahveoz.jpg" alt="" />
-            <div class="text-xxs absolute -right-1 -bottom-1 rounded-full border border-white bg-cyan-500 p-0.5 font-medium tracking-tight">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
-                <path d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z" />
-              </svg>
-            </div>
-          </div>
-          <!-- text -->
-          <div class="relative flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200">
-            <img class="h-full w-full rounded-lg object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651821859/Tailwind-Component-library/Human%20avatar/pexels-pixabay-220453_ndnfc1.jpg" alt="" />
-            <div class="text-xxs absolute -right-2 -bottom-2 rounded-lg border-2 border-white bg-yellow-500 px-1 font-medium">16</div>
-          </div>
-          </script></code></pre>
-          <!-- code snippet end -->
+       <span v-show="badge_avatar" class="transition-all">
+            <BadgeAvatarSnippet />
+          </span>
           <!-- end Badge avatar -->
           <!-- Shadows avatar -->
           <SubHeading>
             <template v-slot:subHeader
               >Shadows</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!shadow_avatar"
+                @click.native="shadow_avatar = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="shadow_avatar = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
               <ShadowsAvatar />
             </template>
           </ComponentPad>
-            <!-- code snippet -->
-          <pre><code class="language-markup"><script type="prism-html-markup">
-          <!-- Icon -->
-          <div class="flex h-10 w-10 items-center justify-center rounded-full bg-white px-0.5 shadow-lg shadow-gray-300 hover:shadow-none">
-            <svg class="text-gray-700" width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 20V19C5 15.134 8.13401 12 12 12V12C15.866 12 19 15.134 19 19V20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-          </div>
-          <!-- Image -->
-          <div class="relative h-10 w-10 rounded-full shadow-lg shadow-gray-400 hover:shadow-none">
-            <img class="h-full w-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651820943/Tailwind-Component-library/Human%20avatar/pexels-sound-on-3760857_hujrch.jpg" alt="" />
-            <div class="absolute -right-0 -top-0 h-3 w-3 rounded-full border-2 border-white bg-red-400"></div>
-          </div>
-          <!-- Icon -->
-          <div class="relative flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 shadow-lg shadow-blue-300 hover:shadow-none">
-            <svg class="text-blue-700" width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 20V19C5 15.134 8.13401 12 12 12V12C15.866 12 19 15.134 19 19V20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <div class="absolute -right-1 -bottom-1 rounded-full border border-white bg-blue-500">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
-              </svg>
-            </div>
-          </div>
-          <!-- ring image -->
-          <div class="relative h-10 w-10 rounded-full shadow-lg shadow-red-300 ring-2 ring-red-400 hover:shadow-none">
-            <img class="h-full w-full rounded-full border-2 object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651817165/Tailwind-Component-library/Human%20avatar/pexels-anastasia-shuraeva-5704720_lbcevs.jpg" alt="" />
-          </div>
-          <!-- Avatar -->
-          <div class="relative flex h-10 w-10 items-center justify-center rounded-full bg-gray-700 shadow-lg shadow-gray-400 hover:shadow-none">
-            <img class="h-9 w-9 rounded-full object-cover pt-1 hover:h-10 hover:w-10" src="https://avatars.dicebear.com/api/avataaars/aoliprapre2.svg" alt="" />
-            <div class="absolute -right-1 -bottom-1 rounded-full border border-white bg-rose-500 p-0.5">
-              <svg class="text-white" width="12" height="12" stroke-width="2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.27049 6.5C6.09277 7.10971 6 7.74975 6 8.4C6 15.8667 3 18 3 18H18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M7.75732 3.87452C8.88254 2.67428 10.4087 2 12 2C13.5913 2 15.1174 2.67428 16.2426 3.87452C17.3678 5.07475 18 6.70261 18 8.4C18 15.8667 21 18 21 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M13.73 21C13.5542 21.3031 13.3019 21.5547 12.9982 21.7295C12.6946 21.9044 12.3504 21.9965 12 21.9965C11.6496 21.9965 11.3054 21.9044 11.0018 21.7295C10.6982 21.5547 10.4458 21.3031 10.27 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M3 3L21 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-            </div>
-          </div>
-          <!-- New badge -->
-          <div class="relative flex h-10 w-10 items-center justify-center rounded-full bg-gray-100 shadow-lg shadow-gray-400 hover:bg-gray-200 hover:shadow-none">
-            <img class="h-full w-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651818407/Tailwind-Component-library/Human%20avatar/pexels-italo-melo-2379004_nibpi3.jpg" alt="" />
-            <div class="text-xxs absolute -right-3 -top-2 rounded-lg border border-white bg-green-500 px-0.5 font-medium tracking-tight">New</div>
-          </div>
-          <!-- Badge number -->
-          <div class="relative flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100 shadow-lg shadow-gray-300 hover:bg-gray-200 hover:shadow-none">
-            <img class="h-full w-full rounded-lg object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651821859/Tailwind-Component-library/Human%20avatar/pexels-pixabay-220453_ndnfc1.jpg" alt="" />
-            <div class="text-xxs absolute -right-2 -bottom-2 rounded-lg border-2 border-white bg-yellow-500 px-1 font-medium">16</div>
-          </div>
-          </script></code></pre>
-          <!-- code snippet end -->
+           <span v-show="shadow_avatar" class="transition-all">
+            <ShadowAvatarSnippet />
+          </span>
+     
           <!-- end Shadows avatar -->
           <!-- Group 1 avatar -->
           <SubHeading>
             <template v-slot:subHeader
               >Group 1</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!group1_avatar"
+                @click.native="group1_avatar = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="group1_avatar = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
               <GroupAvatar1 />
             </template>
           </ComponentPad>
-           <!-- code snippet -->
-          <pre><code class="language-markup"><script type="prism-html-markup">
-          <div class="flex items-center">
-          <div class="flex items-center -space-x-3">
-            <!-- 1 -->
-            <div class="flex">
-              <div class="h-11 w-11 rounded-full border-2 border-white hover:mr-2">
-                <img class="h-full w-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651820943/Tailwind-Component-library/Human%20avatar/pexels-sound-on-3760857_hujrch.jpg" alt="" />
-              </div>
-            </div>
-            <!-- 2 -->
-            <div class="flex">
-              <div class="h-11 w-11 rounded-full border-2 border-white hover:mr-2">
-                <img class="h-full w-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651821859/Tailwind-Component-library/Human%20avatar/pexels-pixabay-220453_ndnfc1.jpg" alt="" />
-              </div>
-            </div>
-            <!-- 3 -->
-            <div class="flex">
-              <div class="h-11 w-11 rounded-full border-2 border-white hover:mr-2">
-                <img class="h-full w-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651821816/Tailwind-Component-library/Human%20avatar/pexels-andrea-piacquadio-3767410_kur6zy.jpg" alt="" />
-              </div>
-            </div>
-            <!-- 4 -->
-            <div class="flex">
-              <div class="h-11 w-11 rounded-full border-2 border-white hover:mr-2">
-                <img class="h-full w-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651817165/Tailwind-Component-library/Human%20avatar/pexels-anastasia-shuraeva-5704720_lbcevs.jpg" alt="" />
-              </div>
-            </div>
-            <!-- 5 -->
-            <div class="flex">
-              <div class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-white bg-yellow-200 hover:mr-2">
-                <img class="h-10 w-10 rounded-full object-cover pt-1 hover:h-10 hover:w-10" src="https://avatars.dicebear.com/api/avataaars/aolraicppre2.svg" alt="" />
-              </div>
-            </div>
-            <!-- 6 -->
-            <div class="flex">
-              <div class="h-11 w-11 rounded-full border-2 border-white hover:mr-2">
-                <img class="h-full w-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651817214/Tailwind-Component-library/Human%20avatar/pexels-dalila-dalprat-1844547_zltpkb.jpg" alt="" />
-              </div>
-            </div>
-            <!-- 7 -->
-            <div class="flex h-10 w-10 items-center justify-center rounded-full bg-gray-100">
-              <div class="text-base font-normal text-gray-600">KM</div>
-            </div>
-          </div>
-          <!-- 8 -->
-          <div class="ml-2 flex h-10 w-10 items-center justify-center rounded-full border border-dashed border-gray-400 bg-gray-50">
-            <div class="text-base font-normal text-gray-400 hover:cursor-pointer">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
-              </svg>
-            </div>
-          </div>
-        </div>
-          </script></code></pre>
-          <!-- code snippet end -->
+           <span v-show="group1_avatar" class="transition-all">
+            <Group1AvatarSnippet />
+          </span>
+     
           <!-- end Group 1 avatar -->
           <!-- Group 2 avatar -->
           <SubHeading>
             <template v-slot:subHeader
               >Group 2</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!group2_avatar"
+                @click.native="group2_avatar = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="group2_avatar = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
               <GroupAvatar2 />
             </template>
           </ComponentPad>
-           <!-- code snippet -->
-          <pre><code class="language-markup"><script type="prism-html-markup">
-          <div class="flex items-center">
-          <div class="flex items-center -space-x-3">
-            <div class="flex">
-              <div class="h-11 w-11 rounded-lg border-2 border-white hover:mr-2">
-                <img class="h-full w-full rounded-lg object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651820943/Tailwind-Component-library/Human%20avatar/pexels-sound-on-3760857_hujrch.jpg" alt="" />
-              </div>
-            </div>
-            <div class="flex">
-              <div class="h-11 w-11 rounded-lg border-2 border-white hover:mr-2">
-                <img class="h-full w-full rounded-lg object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651821859/Tailwind-Component-library/Human%20avatar/pexels-pixabay-220453_ndnfc1.jpg" alt="" />
-              </div>
-            </div>
-            <div class="flex">
-              <div class="h-11 w-11 rounded-lg border-2 border-white hover:mr-2">
-                <img class="h-full w-full rounded-lg object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651817165/Tailwind-Component-library/Human%20avatar/pexels-anastasia-shuraeva-5704720_lbcevs.jpg" alt="" />
-              </div>
-            </div>
-            <div class="flex">
-              <div class="h-11 w-11 rounded-lg border-2 border-white hover:mr-2">
-                <img class="h-full w-full rounded-lg object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651821816/Tailwind-Component-library/Human%20avatar/pexels-andrea-piacquadio-3767410_kur6zy.jpg" alt="" />
-              </div>
-            </div>
-            <div class="flex">
-              <div class="flex h-10 w-10 items-center justify-center rounded-lg border-2 border-white bg-green-400 hover:mr-2">
-                <img class="h-10 w-10 rounded-lg object-cover pt-1 hover:h-10 hover:w-10" src="https://avatars.dicebear.com/api/avataaars/aolrqriicppre2.svg" alt="" />
-              </div>
-            </div>
-            <div class="flex">
-              <div class="h-11 w-11 rounded-lg border-2 border-white hover:mr-2">
-                <img class="h-full w-full rounded-lg object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651817214/Tailwind-Component-library/Human%20avatar/pexels-dalila-dalprat-1844547_zltpkb.jpg" alt="" />
-              </div>
-            </div>
-            <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100">
-              <div class="text-base font-medium text-gray-600">+20</div>
-            </div>
-          </div>
-          <div class="ml-2 flex h-9 w-9 items-center justify-center rounded-lg border border-dashed border-gray-400 bg-gray-50">
-            <div class="text-base font-normal text-gray-400 hover:cursor-pointer">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
-              </svg>
-            </div>
-          </div>
-        </div>
-          </script></code></pre>
-          <!-- code snippet end -->
+           <span v-show="group2_avatar" class="transition-all">
+            <Group2AvatarSnippet />
+          </span>
           <!-- end Group 2 avatar -->
           <!-- Info avatar -->
           <SubHeading>
             <template v-slot:subHeader
               >Info</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!info_avatar"
+                @click.native="info_avatar = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="info_avatar = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
               <InfoAvatar />
             </template>
           </ComponentPad>
-           <!-- code snippet -->
-          <pre><code class="language-markup"><script type="prism-html-markup">
-          <!-- 1 -->
-          <div class="flex w-1/3 items-center space-x-2">
-            <div class="h-12 w-12">
-              <img class="h-full w-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651838637/Tailwind-Component-library/Human%20avatar/pexels-marta-dzedyshko-2067519_t8v1up.jpg" alt="" />
-            </div>
-            <div class="flex flex-col">
-              <div class="text-base font-bold text-gray-700">Evans Rose</div>
-              <div class="text-xs font-semibold text-gray-500">View profile</div>
-            </div>
-          </div>
-          <!-- 2 -->
-          <div class="flex w-1/3 items-center space-x-2">
-            <div class="relative h-12 w-12">
-              <img class="h-full w-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651838637/Tailwind-Component-library/Human%20avatar/pexels-marta-dzedyshko-2067519_t8v1up.jpg" alt="" />
-              <div class="absolute -right-0 -bottom-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-green-400"></div>
-            </div>
-            <div class="flex flex-col">
-              <div class="text-base font-bold text-gray-700">Evans Rose</div>
-              <div class="text-xs font-semibold text-gray-500">View profile</div>
-            </div>
-          </div>
-          <!-- 3 -->
-          <div class="flex w-1/3 items-center space-x-2">
-            <div class="relative h-12 w-12">
-              <img class="h-full w-full rounded-full border-2 border-white object-cover ring-2 ring-green-300" src="https://res.cloudinary.com/pranav1421/image/upload/v1651838637/Tailwind-Component-library/Human%20avatar/pexels-marta-dzedyshko-2067519_t8v1up.jpg" alt="" />
-            </div>
-            <div class="flex flex-col">
-              <div class="text-base font-bold text-gray-700">Evans Rose</div>
-              <div class="text-xs font-semibold text-gray-500">View profile</div>
-            </div>
-          </div>
-          </div>
-          <!-- 4 -->
-          <div class="flex w-1/3 items-center space-x-2">
-            <div class="relative h-12 w-12">
-              <img class="h-full w-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651838637/Tailwind-Component-library/Human%20avatar/pexels-marta-dzedyshko-2067519_t8v1up.jpg" alt="" />
-              <div class="absolute -right-0 -bottom-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-green-400"></div>
-            </div>
-            <div class="flex flex-col">
-              <div class="text-base font-bold text-gray-700">Evans Rose</div>
-              <div class="text-xs font-semibold text-green-500">Online</div>
-            </div>
-          </div>
-          <!-- 5 -->
-          <div class="flex w-1/3 items-center space-x-2">
-            <div class="relative h-12 w-12">
-              <img class="h-full w-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651838637/Tailwind-Component-library/Human%20avatar/pexels-marta-dzedyshko-2067519_t8v1up.jpg" alt="" />
-              <div class="absolute -right-0 -bottom-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-gray-400"></div>
-            </div>
-            <div class="flex flex-col">
-              <div class="text-base font-bold text-gray-700">Evans Rose</div>
-              <div class="text-xs font-semibold text-gray-500">5 min ago</div>
-            </div>
-          </div>
-          <!-- 6 -->
-          <div class="flex w-1/3 items-center space-x-2">
-            <div class="relative h-12 w-12">
-              <img class="h-full w-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651838637/Tailwind-Component-library/Human%20avatar/pexels-marta-dzedyshko-2067519_t8v1up.jpg" alt="" />
-            </div>
-            <div class="flex flex-col">
-              <div class="text-base font-bold text-gray-700">Evans Rose</div>
-              <div class="w-full text-xs font-semibold text-gray-500">Working 🚀</div>
-            </div>
-          </div>
-          </script></code></pre>
-          <!-- code snippet end -->
+           <span v-show="info_avatar" class="transition-all">
+            <InfoAvatarSnippet />
+          </span>
           <!-- end Info avatar -->
           <!-- DropDown Avatar avatar -->
           <SubHeading>
             <template v-slot:subHeader
               >Drop Down</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!dropdown_avatar"
+                @click.native="dropdown_avatar = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="dropdown_avatar = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
               <DropDownAvatar />
             </template>
           </ComponentPad>
-            <!-- code snippet -->
-          <pre><code class="language-markup"><script type="prism-html-markup">
-           <!-- 1 -->
-          <div class="flex w-1/3 items-center space-x-2">
-            <div class="h-12 w-12">
-              <img class="h-full w-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651838637/Tailwind-Component-library/Human%20avatar/pexels-marta-dzedyshko-2067519_t8v1up.jpg" alt="" />
-            </div>
-            <a class="flex text-gray-500">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
-              </svg>
-            </a>
-          </div>
-          <!-- 2 -->
-          <div class="flex w-1/3 items-center space-x-2">
-            <div class="relative h-12 w-12">
-              <img class="h-full w-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651838637/Tailwind-Component-library/Human%20avatar/pexels-marta-dzedyshko-2067519_t8v1up.jpg" alt="" />
-              <div class="absolute -right-0 -bottom-0 h-3.5 w-3.5 rounded-full border-2 border-white bg-green-400"></div>
-            </div>
-            <div class="flex space-x-2">
-              <div class="text-base font-bold text-gray-700">Evans</div>
-              <div class="text-xs font-semibold text-gray-500">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                </svg>
-              </div>
-            </div>
-          </div>
-          <!-- 3 -->
-          <div class="flex w-1/3 items-center space-x-2">
-            <div class="relative h-12 w-12">
-              <img class="h-full w-full rounded-full border-2 border-white object-cover ring-2 ring-green-300" src="https://res.cloudinary.com/pranav1421/image/upload/v1651838637/Tailwind-Component-library/Human%20avatar/pexels-marta-dzedyshko-2067519_t8v1up.jpg" alt="" />
-            </div>
-            <div class="flex flex-col">
-              <div class="text-base font-bold text-gray-700">Evans Rose</div>
-              <div class="text-xs font-semibold text-gray-500">View profile</div>
-            </div>
-          </div>
-          </script></code></pre>
-          <!-- code snippet end -->
+          <span v-show="dropdown_avatar" class="transition-all">
+            <DropDownAvatarSnippet />
+          </span>
           <!-- end DropDownAvatar avatar -->
         </div>
       </div>
@@ -653,6 +427,13 @@ import PresenceRingAvatarSnippet  from "../components/Avatar/CodeSnippet/Presenc
 import CircleAvatarSnippet  from "../components/Avatar/CodeSnippet/CircleAvatarSnippet.vue";
 import SizeAvatarSnippet  from "../components/Avatar/CodeSnippet/SizeAvatarSnippet.vue";
 import PresenceAvatarSnippet  from "../components/Avatar/CodeSnippet/PresenceAvatarSnippet.vue";
+import ColorAvatarSnippet  from "../components/Avatar/CodeSnippet/ColorAvatarSnippet.vue";
+import BadgeAvatarSnippet  from "../components/Avatar/CodeSnippet/BadgeAvatarSnippet.vue";
+import ShadowAvatarSnippet  from "../components/Avatar/CodeSnippet/ShadowAvatarSnippet.vue";
+import Group1AvatarSnippet  from "../components/Avatar/CodeSnippet/Group1AvatarSnippet.vue";
+import Group2AvatarSnippet  from "../components/Avatar/CodeSnippet/Group2AvatarSnippet.vue";
+import InfoAvatarSnippet  from "../components/Avatar/CodeSnippet/InfoAvatarSnippet.vue";
+import DropDownAvatarSnippet  from "../components/Avatar/CodeSnippet/DropDownAvatarSnippet.vue";
 
 export default {
   metaInfo: {
@@ -681,7 +462,14 @@ export default {
     PresenceRingAvatarSnippet,
     CircleAvatarSnippet,
     SizeAvatarSnippet,
-    PresenceAvatarSnippet
+    PresenceAvatarSnippet,
+    ColorAvatarSnippet,
+    BadgeAvatarSnippet,
+    ShadowAvatarSnippet,
+    Group1AvatarSnippet,
+    Group2AvatarSnippet,
+    InfoAvatarSnippet,
+    DropDownAvatarSnippet
   },
   data(){
     return{
@@ -691,6 +479,14 @@ export default {
       default_avatar: false,
       size_avatar: false,
       presence_avatar: false,
+      color_avatar: false,
+      badge_avatar: false,
+      shadow_avatar: false,
+      group1_avatar: false,
+      group2_avatar: false,
+      info_avatar: false,
+      dropdown_avatar: false,
+
     }
   }
 };
