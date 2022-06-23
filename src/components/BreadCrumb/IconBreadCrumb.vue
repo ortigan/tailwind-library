@@ -1,11 +1,11 @@
 <template>
   <div class="flex w-full flex-col space-y-2 justify-center items-center">
-      <div class="flex items-center w-full space-x-2 font-normal text-sm text-gray-700">
+      <div class="flex items-center w-full space-x-2 font-normal text-sm text-gray-700 dark:text-gray-200">
         <div class="flex items-center space-x-1">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
+              class="h-4 w-4"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
@@ -93,7 +93,7 @@
             />
           </svg>
         </div>
-        <div class="text-sky-600 flex items-center space-x-1">
+        <div class="text-sky-600 dark:text-sky-400 flex items-center space-x-1">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"

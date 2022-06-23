@@ -136,20 +136,20 @@ export default {
       items: [
         {
           id: 1,
-          textColor: "text-gray-600",
-          bgColor: "bg-white",
+          textColor: "text-gray-600 dark:text-gray-200",
+          bgColor: "bg-white dark:bg-gray-800",
           alignent: "justify-start",
         },
         {
           id: 2,
-          textColor: "text-gray-600",
-          bgColor: "bg-white",
+          textColor: "text-gray-600 dark:text-gray-200",
+          bgColor: "bg-white dark:bg-gray-800",
           alignent: "justify-center",
         },
         {
           id: 3,
-          textColor: "text-gray-600",
-          bgColor: "bg-white",
+          textColor: "text-gray-600 dark:text-gray-200",
+          bgColor: "bg-white dark:bg-gray-800",
           alignent: "justify-end",
         },
       ],

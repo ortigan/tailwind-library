@@ -1,7 +1,7 @@
 <template>
   <pre><code class="language-markup"><script type="prism-html-markup">
         <!-- Left -->
-         <div class="flex w-full items-center justify-start space-x-2 rounded-lg p-4 text-sm font-normal shadow-md">
+         <div class="flex w-full items-center justify-start space-x-2 rounded-lg p-4 text-sm font-normal shadow-md text-gray-600">
         <div class="flex items-center space-x-1">
         <div>
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -53,7 +53,7 @@
         </div>
          </div>
          <!-- Center -->
-         <div class="flex w-full items-center justify-center space-x-2 rounded-lg p-4 text-sm font-normal shadow-md">
+         <div class="flex w-full items-center justify-center space-x-2 rounded-lg p-4 text-sm font-normal shadow-md text-gray-600">
         <div class="flex items-center space-x-1">
         <div>
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -105,7 +105,7 @@
         </div>
          </div>
          <!-- Right-->
-         <div class="flex w-full items-center justify-end space-x-2 rounded-lg p-4 text-sm font-normal shadow-md">
+         <div class="flex w-full items-center justify-end space-x-2 rounded-lg p-4 text-sm font-normal shadow-md text-gray-600">
         <div class="flex items-center space-x-1">
         <div>
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">

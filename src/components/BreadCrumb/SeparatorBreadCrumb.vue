@@ -62,8 +62,8 @@ export default {
       items: [
         {
           id: 1,
-          textColor: "text-gray-600",
-          bgColor: "bg-white",
+          textColor: "text-gray-600 dark:text-gray-200",
+          bgColor: "bg-white dark:bg-gray-800",
           separator: `<svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-5 w-5"
@@ -79,20 +79,20 @@ export default {
         },
         {
           id: 2,
-          textColor: "text-gray-600",
-          bgColor: "bg-white",
+          textColor: "text-gray-600 dark:text-gray-200",
+          bgColor: "bg-white dark:bg-gray-800",
           separator: `<p class="mr-1">/ </p>`,
         },
         {
           id: 3,
-          textColor: "text-gray-600",
-          bgColor: "bg-white",
+          textColor: "text-gray-600 dark:text-gray-200",
+          bgColor: "bg-white dark:bg-gray-800",
           separator: `<p class="mr-1">- </p>`,
         },
         {
           id: 4,
-          textColor: "text-gray-600",
-          bgColor: "bg-white",
+          textColor: "text-gray-600 dark:text-gray-200",
+          bgColor: "bg-white dark:bg-gray-800",
           separator: `<p class="mr-1 font-semibold text-gray-400">|</p>`,
         },
       ],
