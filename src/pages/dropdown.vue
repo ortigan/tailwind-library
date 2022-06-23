@@ -17,7 +17,7 @@
             <!-- end icon with dropdown -->
             <ComponentPad>
               <template>
-                <div class="flex flex-row space-x-4 w-full justify-around">
+                <div class="grid gri-flow-col grid-cols-3 gap-4 w-full">
                   <div><DropdownWithIcon /></div>
                   <div><DropdownNoIcon /></div>
                   <div><OnlyHeadingD /></div>

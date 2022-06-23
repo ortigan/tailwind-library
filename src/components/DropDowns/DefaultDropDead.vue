@@ -52,7 +52,7 @@
                   >
                    {{menuitem.title}}
                   </p>
-                  <p class="text-sm" :class="`${item.bgColor3}`">{{menuitem.time}}</p>
+                  <p class="text-sm" :class="`${item.bgColor3} ${item.textColor3}`">{{menuitem.time}}</p>
                 </div>
                 <div class="w-24"><div class="h-16 w-28 bg-slate-200 overflow-hidden">
                   <img
@@ -79,16 +79,16 @@ export default {
         {
           id: 1,
           type: "Default",
-          textColor: "text-slate-200",
-          bgColor: "bg-neutral-800",
-          bgColor2: "bg-neutral-800",
-          textColor2: "text-slate-200",
-          textColor3: "text-gray-400",
+          textColor: "text-slate-400 dark:text-slate-200",
+          bgColor: "bg-gray-50 dark:bg-gray-800",
+          bgColor2: "bg-gray-50 dark:bg-gray-800",
+          textColor2: "text-slate-400 dark:text-slate-200",
+          textColor3: "text-gray-700 dark:text-gray-400",
           border: "border-1",
           borderColor: "border-slate-200",
-          textColorActive: "text-slate-200",
-          bgColorActive: "bg-neutral-800",
-          divider: "divide-neutral-700",
+          textColorActive: "text-slate-400 dark:text-slate-200",
+          bgColorActive: "bg-gray-50 dark:bg-gray-800",
+          divider: "divide-gray-700",
         },
       ],
       menuitems:[
