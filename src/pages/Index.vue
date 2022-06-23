@@ -1,14 +1,17 @@
 <template>
-  <Layout>
-    <div class="flex">
+  <!-- <Layout> -->
+    <div class="flex relative">
        <!-- content -->
-            <div class="flex-1 mt-4 h-screen">
-                <div>
-                  LANDER
+            <div class="flex-1 w-full flex justify-center items-center h-screen">
+                <div class="font-medium text-7xl">
+                  <span class="font-light"> AIR </span> COMPONENTS
                 </div>
             </div>
+            <div class="absolute bottom-5 right-5">
+               <g-link to="/alerts"> Get started >>> </g-link>
+            </div>
             <!-- right sidebar -->
-            <div class="hidden lg:block">
+            <!-- <div class="hidden lg:block">
            <div class="w-40 flex flex-col min-h-screen overflow-y-hidden">
               <div class="overflow-y-auto">
                 <div class="flex flex-col mt-6 space-y-1">
@@ -25,9 +28,9 @@
                 </div>
               </div>
             </div>
-            </div>
+            </div> -->
     </div>
-  </Layout>
+  <!-- </Layout> -->
 </template>
 
 <script>
