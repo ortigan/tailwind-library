@@ -28,7 +28,11 @@
               <DefaultFooter />
             </template>
           </ComponentPad>
+          <!-- code snippet -->
+            <DefaultFooterCodeSnippet />
+          <!-- code snippet end -->
           <!-- end default Footer -->
+
           <!-- Footer with logo section -->
           <SubHeading>
             <template v-slot:subHeader
@@ -40,6 +44,9 @@
               <LogoSectionFooter />
             </template>
           </ComponentPad>
+          <!-- code snippet -->
+            <LogoSectionFooterCodeSnippet />
+          <!-- code snippet end -->
           <!-- end Footer with logo section -->
           <!-- Footer with logo section -->
           <SubHeading>
@@ -52,6 +59,9 @@
               <TwoRowFooter />
             </template>
           </ComponentPad>
+          <!-- code snippet -->
+            <TwoRowFooterCodeSnippet />
+          <!-- code snippet end -->
           <!-- end Footer with logo section -->
           <!-- Footer with logo section -->
           <SubHeading>
@@ -69,6 +79,9 @@
               <AppsmithFooter />
             </template>
           </ComponentPad>
+          <!-- code snippet -->
+            <AppsmithFooterCodeSnippet />
+          <!-- code snippet end -->
           <!-- end Footer with logo section -->
 
 
@@ -95,7 +108,10 @@ import DefaultFooter from "../components/Footer/DefaultFooter.vue";
 import LogoSectionFooter from "../components/Footer/LogoSectionFooter.vue";
 import TwoRowFooter from "../components/Footer/TwoRowFooter.vue";
 import AppsmithFooter from "../components/Footer/AppsmithFooter.vue";
-
+import DefaultFooterCodeSnippet from "../components/Footer/Code Snippets/DefaultFooterCodeSnippet.vue";
+import AppsmithFooterCodeSnippet from "../components/Footer/Code Snippets/AppsmithFooterCodeSnippet.vue";
+import TwoRowFooterCodeSnippet from "../components/Footer/Code Snippets/TwoRowFooterCodeSnippet.vue";
+import LogoSectionFooterCodeSnippet from "../components/Footer/Code Snippets/LogoSectionFooterCodeSnippet.vue";
 
 export default {
   metaInfo: {
@@ -108,8 +124,11 @@ export default {
     DefaultFooter,
     LogoSectionFooter,
     TwoRowFooter,
-    AppsmithFooter
-   
+    AppsmithFooter,
+    DefaultFooterCodeSnippet,
+    AppsmithFooterCodeSnippet,
+    TwoRowFooterCodeSnippet,
+    LogoSectionFooterCodeSnippet,
 
   },
 };

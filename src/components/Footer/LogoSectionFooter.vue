@@ -1,6 +1,6 @@
 <template>
   <div
-    class="lg:flex-row w-full  px-8 py-5 rounded-lg shadow-lg text-gray-700 bg-white"
+    class="lg:flex-row w-full  px-8 py-5 rounded-lg shadow-lg text-gray-700 dark:text-gray-400 bg-white dark:bg-gray-900"
   >
     <!-- Ui reference Untitled UI  -->
     <div class="grid grid-cols-2 md:grid-cols-6 gap-y-6 font-medium py-4">
@@ -21,45 +21,45 @@
         </div>
       </div>
       <!--  -->
-      <div class="flex flex-col">
-        <div class="text-gray-400 text-sm mb-2">Company</div>
-        <div class="text-gray-600 text-base">About us</div>
-        <div class="text-gray-600 text-base">Careers</div>
-        <div class="text-gray-600 text-base">Press</div>
-        <div class="text-gray-600 text-base">News</div>
-        <div class="text-gray-600 text-base">Media kit</div>
-        <div class="text-gray-600 text-base">Contact</div>
+      <div class="flex flex-col text-gray-600 dark:text-gray-400 text-base">
+        <div class="text-gray-400 dark:text-gray-200 text-sm mb-2">Company</div>
+        <div>About us</div>
+        <div>Careers</div>
+        <div>Press</div>
+        <div>News</div>
+        <div>Media kit</div>
+        <div>Contact</div>
       </div>
       <!--  -->
-      <div class="flex flex-col">
-        <div class="text-gray-400 text-sm mb-2">Resources</div>
-        <div class="text-gray-600 text-base">Blog</div>
-        <div class="text-gray-600 text-base">Newsletter</div>
-        <div class="text-gray-600 text-base">Events</div>
-        <div class="text-gray-600 text-base">Help centre</div>
-        <div class="text-gray-600 text-base">Tutorials</div>
-        <div class="text-gray-600 text-base">Support</div>
+      <div class="flex flex-col text-gray-600 dark:text-gray-400 text-base">
+        <div class="text-gray-400 dark:text-gray-200 text-sm mb-2">Resources</div>
+        <div>Blog</div>
+        <div>Newsletter</div>
+        <div>Events</div>
+        <div>Help centre</div>
+        <div>Tutorials</div>
+        <div>Support</div>
       </div>
       <!--  -->
 
-      <div class="flex flex-col">
-        <div class="text-gray-400 text-sm mb-2">Social</div>
-        <div class="text-gray-600 text-base">Twiiter</div>
-        <div class="text-gray-600 text-base">LinkedIn</div>
-        <div class="text-gray-600 text-base">Facebook</div>
-        <div class="text-gray-600 text-base">Github</div>
-        <div class="text-gray-600 text-base">AngelList</div>
-        <div class="text-gray-600 text-base">Dribbble</div>
+      <div class="flex flex-col text-gray-600 dark:text-gray-400 text-base">
+        <div class="text-gray-400 dark:text-gray-200 text-sm mb-2">Social</div>
+        <div>Twiiter</div>
+        <div>LinkedIn</div>
+        <div>Facebook</div>
+        <div>Github</div>
+        <div>AngelList</div>
+        <div>Dribbble</div>
       </div>
       <!--  -->
-      <div class="flex flex-col">
-        <div class="text-gray-400 text-sm mb-2">Legal</div>
-        <div class="text-gray-600 text-base">Terms</div>
-        <div class="text-gray-600 text-base">Privacy</div>
-        <div class="text-gray-600 text-base">Cookies</div>
-        <div class="text-gray-600 text-base">Licenses</div>
-        <div class="text-gray-600 text-base">Settings</div>
-        <div class="text-gray-600 text-base">Contact</div>
+      <div class="flex flex-col text-gray-600 dark:text-gray-400 text-base">
+        <div class="text-gray-400 dark:text-gray-200 text-sm mb-2">Legal</div>
+        <div>Terms</div>
+        <div>Privacy</div>
+        <div>Cookies</div>
+        <div>Licenses</div>
+        <div>Settings</div>
+        <div>Contact</div>
       </div>
       <!--  -->
       
