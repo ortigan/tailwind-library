@@ -22,6 +22,19 @@
             <template v-slot:subHeader
               >Default Navbar</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!default_navbar"
+                @click.native="default_navbar = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="default_navbar = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -29,7 +42,9 @@
             </template>
           </ComponentPad>
           <!-- code snippet -->
+          <span v-show="default_navbar" class="transition-all">
             <DefaultNavbarCodeSnippet />
+          </span>
           <!-- code snippet end -->
           <!-- end default navbar -->
 
@@ -38,6 +53,19 @@
             <template v-slot:subHeader
               >Dropdown Navbar</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!dropdown_navbar"
+                @click.native="dropdown_navbar = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="dropdown_navbar = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -45,7 +73,9 @@
             </template>
           </ComponentPad>
           <!-- code snippet -->
+          <span v-show="dropdown_navbar" class="transition-all">
             <DropdownNavbarCodeSnippet />
+          </span>
           <!-- code snippet end -->
           <!-- end Dropdown navbar -->
 
@@ -54,6 +84,19 @@
             <template v-slot:subHeader
               >Navbar with search bar</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!searchbar_navbar"
+                @click.native="searchbar_navbar = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="searchbar_navbar = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -61,7 +104,9 @@
             </template>
           </ComponentPad>
           <!-- code snippet -->
+          <span v-show="searchbar_navbar" class="transition-all">
             <SearchNavbarCodeSnippet />
+          </span>
           <!-- code snippet end -->
           <!-- end with search bar -->
           <!-- with CTA -->
@@ -69,6 +114,19 @@
             <template v-slot:subHeader
               >Navbar with CTA</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!cta_navbar"
+                @click.native="cta_navbar = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="cta_navbar = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -76,7 +134,9 @@
             </template>
           </ComponentPad>
           <!-- code snippet -->
+          <span v-show="cta_navbar" class="transition-all">
             <CtaNavbarCodeSnippet />
+          </span>
           <!-- code snippet end -->
           <!-- end with CTA -->
           <!-- with CTA -->
@@ -84,6 +144,19 @@
             <template v-slot:subHeader
               >Gumroad navbar</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!gumroad_navbar"
+                @click.native="gumroad_navbar = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="gumroad_navbar = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -91,10 +164,11 @@
             </template>
           </ComponentPad>
           <!-- code snippet -->
-            <GumroadNavbarCodeSnippet />
+                    <span v-show="gumroad_navbar" class="transition-all">
+          <GumroadNavbarCodeSnippet />
+                    </span>
           <!-- code snippet end -->
-          <!-- end with CTA -->
-
+          <!-- end with gumroad -->
         </div>
       </div>
       <!-- right sidebar -->
@@ -110,7 +184,6 @@
 </template>
 
 <script>
-
 import Heading from "../components/Headers/Heading.vue";
 import SubHeading from "../components/Headers/SubHeading.vue";
 import NavbarInfo from "../components/Navbar/NavbarInfo.vue";
@@ -143,11 +216,17 @@ export default {
     DefaultNavbarCodeSnippet,
     GumroadNavbarCodeSnippet,
     SearchNavbarCodeSnippet,
-    
-},
+  },
+  data() {
+    return {
+      default_navbar: false,
+      dropdown_navbar: false,
+      searchbar_navbar: false,
+      cta_navbar: false,
+      gumroad_navbar: false,
+    };
+  },
 };
 </script>
 
-<style>
-
-</style>
+<style></style>
