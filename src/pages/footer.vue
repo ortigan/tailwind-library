@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="flex p-4">
+    <div class="flex p-4 pb-24">
       <!-- content -->
       <div class="flex h-screen px-4 overflow-y-hidden scrollBar">
         <div class="overflow-y-auto px-4">
@@ -22,6 +22,19 @@
             <template v-slot:subHeader
               >Default Footer</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!default_footer"
+                @click.native="default_footer = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="default_footer = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -29,7 +42,9 @@
             </template>
           </ComponentPad>
           <!-- code snippet -->
+          <span v-show="default_footer" class="transition-all">
             <DefaultFooterCodeSnippet />
+          </span>
           <!-- code snippet end -->
           <!-- end default Footer -->
 
@@ -38,6 +53,19 @@
             <template v-slot:subHeader
               >Footer logo aside</template
             >
+             <template v-slot:code>
+              <ShowCodeButton
+                v-if="!logoaside_footer"
+                @click.native="logoaside_footer = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="logoaside_footer = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -45,7 +73,10 @@
             </template>
           </ComponentPad>
           <!-- code snippet -->
-            <LogoSectionFooterCodeSnippet />
+                    <span v-show="logoaside_footer" class="transition-all">
+
+          <LogoSectionFooterCodeSnippet />
+                    </span>
           <!-- code snippet end -->
           <!-- end Footer with logo section -->
           <!-- Footer with logo section -->
@@ -53,6 +84,19 @@
             <template v-slot:subHeader
               >Footer with 2 rows</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!tworows_footer"
+                @click.native="tworows_footer = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="tworows_footer = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -60,7 +104,9 @@
             </template>
           </ComponentPad>
           <!-- code snippet -->
-            <TwoRowFooterCodeSnippet />
+                    <span v-show="tworows_footer" class="transition-all">
+          <TwoRowFooterCodeSnippet />
+                    </span>
           <!-- code snippet end -->
           <!-- end Footer with logo section -->
           <!-- Footer with logo section -->
@@ -68,10 +114,27 @@
             <template v-slot:subHeader
               >Appsmith's footer</template
             >
+             <template v-slot:code>
+              <ShowCodeButton
+                v-if="!appsmith_footer"
+                @click.native="appsmith_footer = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="appsmith_footer = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
-           <div>
+          <div>
             <p class="text-base pb-2 font-primary">
-              Footer desgin of <a href="https://www.appsmith.com/" class="text-blue-500"> appsmith</a> website
+              Footer desgin of
+              <a href="https://www.appsmith.com/" target="_blank" class="text-blue-500">
+                appsmith</a
+              >
+              website
             </p>
           </div>
           <ComponentPad>
@@ -80,11 +143,11 @@
             </template>
           </ComponentPad>
           <!-- code snippet -->
-            <AppsmithFooterCodeSnippet />
+                    <span v-show="appsmith_footer" class="transition-all">
+          <AppsmithFooterCodeSnippet />
+                    </span>
           <!-- code snippet end -->
           <!-- end Footer with logo section -->
-
-
         </div>
       </div>
       <!-- right sidebar -->
@@ -131,9 +194,15 @@ export default {
     LogoSectionFooterCodeSnippet,
 
   },
+   data(){
+    return{
+      default_footer: false,
+      logoaside_footer: false,
+      tworows_footer: false,
+      appsmith_footer: false,
+    }
+}
 };
 </script>
 
-<style>
-
-</style>
+<style></style>
