@@ -28,7 +28,11 @@
               <DefaultNavbar />
             </template>
           </ComponentPad>
+          <!-- code snippet -->
+            <DefaultNavbarCodeSnippet />
+          <!-- code snippet end -->
           <!-- end default navbar -->
+
           <!-- Dropdown Navbar -->
           <SubHeading>
             <template v-slot:subHeader
@@ -40,7 +44,11 @@
               <DropdownNavbar />
             </template>
           </ComponentPad>
+          <!-- code snippet -->
+            <DropdownNavbarCodeSnippet />
+          <!-- code snippet end -->
           <!-- end Dropdown navbar -->
+
           <!-- with Search Navbar -->
           <SubHeading>
             <template v-slot:subHeader
@@ -52,6 +60,9 @@
               <SearchNavbar />
             </template>
           </ComponentPad>
+          <!-- code snippet -->
+            <SearchNavbarCodeSnippet />
+          <!-- code snippet end -->
           <!-- end with search bar -->
           <!-- with CTA -->
           <SubHeading>
@@ -64,6 +75,9 @@
               <CtaNavbar />
             </template>
           </ComponentPad>
+          <!-- code snippet -->
+            <CtaNavbarCodeSnippet />
+          <!-- code snippet end -->
           <!-- end with CTA -->
           <!-- with CTA -->
           <SubHeading>
@@ -76,6 +90,9 @@
               <GumroadNavbar />
             </template>
           </ComponentPad>
+          <!-- code snippet -->
+            <GumroadNavbarCodeSnippet />
+          <!-- code snippet end -->
           <!-- end with CTA -->
 
         </div>
@@ -102,6 +119,11 @@ import DropdownNavbar from "../components/Navbar/DropdownNavbar.vue";
 import SearchNavbar from "../components/Navbar/SearchNavbar.vue";
 import CtaNavbar from "../components/Navbar/CtaNavbar.vue";
 import GumroadNavbar from "../components/Navbar/GumroadNavbar.vue";
+import DropdownNavbarCodeSnippet from "../components/Navbar/CodeSnippets/DropdownNavbarCodeSnippet.vue";
+import CtaNavbarCodeSnippet from "../components/Navbar/CodeSnippets/CtaNavbarCodeSnippet.vue";
+import DefaultNavbarCodeSnippet from "../components/Navbar/CodeSnippets/DefaultNavbarCodeSnippet.vue";
+import GumroadNavbarCodeSnippet from "../components/Navbar/CodeSnippets/GumroadNavbarCodeSnippet.vue";
+import SearchNavbarCodeSnippet from "../components/Navbar/CodeSnippets/SearchNavbarCodeSnippet.vue";
 
 export default {
   metaInfo: {
@@ -115,10 +137,14 @@ export default {
     DropdownNavbar,
     SearchNavbar,
     CtaNavbar,
-    GumroadNavbar
-
-
-  },
+    GumroadNavbar,
+    DropdownNavbarCodeSnippet,
+    CtaNavbarCodeSnippet,
+    DefaultNavbarCodeSnippet,
+    GumroadNavbarCodeSnippet,
+    SearchNavbarCodeSnippet,
+    
+},
 };
 </script>
 
