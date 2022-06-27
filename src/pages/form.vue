@@ -22,7 +22,9 @@
           </SubHeading>
           
               <FormElement />
-          
+          <!-- code snippet --->
+          <FormElementCodeSnippet />
+          <!-- code snippet end --->
           <!-- end  Form elements -->
           <!-- Default Form -->
           <SubHeading>
@@ -32,7 +34,9 @@
           </SubHeading>
           
               <DefaultForm />
-          
+          <!-- code snippet --->
+          <DefaultFormCodeSnippet />
+          <!-- code snippet end --->              
           <!-- end default Form -->
           
           <!-- Floating Form -->
@@ -43,7 +47,9 @@
           </SubHeading>
           
               <FloatinglabelForm />
-          
+          <!-- code snippet --->
+          <FloatinglabelFormCodeSnippet />
+          <!-- code snippet end --->
           <!-- end Floating Form -->
        
 
@@ -70,7 +76,9 @@ import FormInfo from "../components/Form/FormInfo.vue";
 import DefaultForm from "../components/Form/DefaultForm.vue";
 import FormElement from "../components/Form/FormElement.vue";
 import FloatinglabelForm from "../components/Form/FloatinglabelForm.vue";
-
+import FormElementCodeSnippet from "../components/Form/Code Snippets/FormElementCodeSnippet.vue";
+import DefaultFormCodeSnippet from "../components/Form/Code Snippets/DefaultFormCodeSnippet.vue";
+import FloatinglabelFormCodeSnippet from "../components/Form/Code Snippets/FloatinglabelFormCodeSnippet.vue";
 
 export default {
   metaInfo: {
@@ -82,8 +90,10 @@ export default {
     FormInfo,
     DefaultForm,
     FormElement,
-    FloatinglabelForm
-   
+    FloatinglabelForm,
+    FormElementCodeSnippet,
+    DefaultFormCodeSnippet,
+    FloatinglabelFormCodeSnippet,   
   },
 };
 </script>

@@ -29,8 +29,8 @@ export default {
           id:1,
           type:"Default",
           textColor:"text-gray-700 dark:text-gray-900",
-          bgColor:"bg-green-100 dark:bg-green-300",
-          bgColor2: "bg-green-200 dark:bg-green-400",
+          bgColor:"bg-sky-100 dark:bg-sky-500",
+          bgColor2: "bg-sky-200 dark:bg-sky-600",
           textColor2: "text-gray-900 dark:text-gray-900",
       },
       //     {

@@ -33,8 +33,8 @@ export default {
           id:1,
           type:"Border",
           textColor:"text-gray-700 dark:text-gray-900",
-          bgColor:"bg-green-100 dark:bg-green-300",
-          bgColor2: "bg-green-100 dark:bg-green-300",
+          bgColor:"bg-sky-200 dark:bg-sky-500",
+          bgColor2: "bg-sky-200 dark:bg-sky-500",
           textColor2: "text-gray-900",
           border: "border-1",
           borderColor: "border-gray-900"
