@@ -30,12 +30,12 @@ export default {
                 },
                 {
                 id: 2,
-                textColor:"text-gray-700",
+                textColor:"text-gray-700 dark:text-gray-500",
                 bgColor:"",
                 shadowColor:"",
                 hoverShadow:"hover:shadow-none",
                 title:"Default card title",
-                border:"border border-gray-700",
+                border:"border border-gray-700 dark:border-gray-500",
                 type:"Type 2",
                 para:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, consequuntur suscipit nesciunt laudantium eius veritatis at facere soluta mollitia velit.",
 
