@@ -51,10 +51,10 @@ export default {
                 {
                 id: 1,
                 textColor:"text-gray-50",
-                bgColor:"bg-white",
+                bgColor:"",
                 shadowColor:"shadow-lg",
                 hoverShadow:"hover:shadow-3xl",
-                title:"Elvis Ray",
+                title:"Raja Rabish",
                 subTitle:"Devops engineer",
                 type:"Type 1",
                 hidden:"hover:block",
