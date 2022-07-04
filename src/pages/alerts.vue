@@ -22,6 +22,19 @@
             <template v-slot:subHeader
               >Default alert</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!default_alertt"
+                @click.native="default_alertt = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="default_alertt = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -29,22 +42,9 @@
             </template>
           </ComponentPad>
           <!-- code snippet -->
-          <pre><code class="language-markup">
-            <script type="prism-html-markup">
-            <!-- Default alert -->
-            <div class="w-full p-4 rounded-lg text-sm text-gray-800 bg-gray-100" role="alert">
-              <span class="font-medium">Default alert!</span> A simple Default alert message
-            </div>
-            <!-- Dark alert -->
-            <div class="w-full p-4 rounded-lg text-sm text-gray-100 bg-gray-700" role="alert">
-              <span class="font-medium">Default alert!</span> A simple Default alert message
-            </div>
-            <!-- Light alert -->
-             <div class="w-full p-4 rounded-lg text-sm text-zinc-400 bg-zinc-100" role="alert">
-              <span class="font-medium">Default alert!</span> A simple Default alert message
-            </div>
-          </script>
-          </code></pre>
+          <span v-show="default_alertt" class="transition-all">
+          <DefaultAlertCodeSnippet/>
+          </span>
           <!-- code snippet end -->
           <!-- end default alert -->
           <!-- State alert -->
@@ -52,6 +52,19 @@
             <template v-slot:subHeader
               >State color alert</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!statecolor_alertt"
+                @click.native="statecolor_alertt = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="statecolor_alertt = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -59,26 +72,9 @@
             </template>
           </ComponentPad>
           <!-- code snippet -->
-          <pre><code class="language-markup">
-            <script type="prism-html-markup">
-            <!-- Info alert -->
-            <div class="w-full p-4 rounded-lg text-sm text-sky-700 bg-sky-100" role="alert">
-              <span class="font-medium">Info alert!</span> A simple Info alert message
-            </div>
-            <!-- Success alert -->
-            <div class="w-full p-4 rounded-lg text-sm text-emerald-700 bg-emerald-100" role="alert">
-              <span class="font-medium">Success alert!</span> A simple Success alert message
-            </div>
-            <!-- Warning alert -->
-            <div class="w-full p-4 rounded-lg text-sm text-amber-700 bg-amber-100" role="alert">
-              <span class="font-medium">Warning alert!</span> A simple Warning alert message
-            </div>
-            <!-- Danger alert -->
-            <div class="w-full p-4 rounded-lg text-sm text-rose-700 bg-rose-100" role="alert">
-              <span class="font-medium">Danger alert!</span> A simple Danger alert message
-            </div>
-            </script>
-          </code></pre>
+          <span v-show="statecolor_alertt" class="transition-all">
+          <StateAlertCodeSnippet/>
+          </span>
           <!-- code snippet end -->
           <!-- end state alert -->
           <!-- with button alert -->
@@ -86,6 +82,19 @@
             <template v-slot:subHeader
               >With button alert</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!with_btn_alertt"
+                @click.native="with_btn_alertt = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="with_btn_alertt = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -93,38 +102,9 @@
             </template>
           </ComponentPad>
           <!-- code snippet -->
-          <pre><code class="language-markup">
-            <script type="prism-html-markup">
-            <!-- Default alert -->
-            <div class="flex justify-between rounded-lg bg-gray-100 p-4 text-sm text-gray-700" role="alert">
-              <div>
-                <span class="font-medium">Default alert!</span> A simple Default alert message
-              </div>
-              <div class="hover:cursor-pointer">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
-              </div>
-            </div>            
-            <!-- Dark alert -->
-            <div class="flex justify-between rounded-lg bg-gray-700 p-4 text-sm text-gray-100" role="alert">
-              <div>
-                <span class="font-medium">Dark alert!</span> A simple Dark alert message
-              </div>
-              <div class="hover:cursor-pointer">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
-              </div>
-            </div>
-            <!-- Light alert -->
-            <div class="flex justify-between rounded-lg bg-zinc-100 p-4 text-sm text-zinc-400" role="alert">
-              <div>
-                <span class="font-medium">Light alert!</span> A simple Light alert message
-              </div>
-              <div class="hover:cursor-pointer">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
-              </div>
-            </div>
-            
-            </script>
-          </code></pre>
+          <span v-show="with_btn_alertt" class="transition-all">
+          <WithButtonAlertCodeSnippet/>
+          </span>
           <!-- code snippet end -->
           <!-- end button alert -->
           <!-- alert with link-->
@@ -132,6 +112,19 @@
             <template v-slot:subHeader
               >Alert with link</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!alert_wlink"
+                @click.native="alert_wlink = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="alert_wlink = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -139,40 +132,9 @@
             </template>
           </ComponentPad>
           <!-- code snippet -->
-           <pre><code class="language-markup">
-            <script type="prism-html-markup">
-            <!-- Default alert -->
-            <div class="flex justify-between rounded-lg bg-gray-100 p-4 text-sm text-gray-700" role="alert">
-              <div>
-                <span class="font-medium">Default alert!</span> A simple Default alert message. 
-                <a href="#" class="underline">Click here</a> to know more
-              </div>
-              <div class="hover:cursor-pointer">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
-              </div>
-            </div>            
-            <!-- Dark alert -->
-            <div class="flex justify-between rounded-lg bg-gray-700 p-4 text-sm text-gray-100" role="alert">
-              <div>
-                <span class="font-medium">Dark alert!</span> A simple Dark alert message. 
-                <a href="#" class="underline">Click here</a> to know more
-              </div>
-              <div class="hover:cursor-pointer">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
-              </div>
-            </div>
-            <!-- Light alert -->
-            <div class="flex justify-between rounded-lg bg-zinc-100 p-4 text-sm text-zinc-400" role="alert">
-              <div>
-                <span class="font-medium">Light alert!</span> A simple Light alert message. 
-                <a href="#" class="underline">Click here</a> to know more
-              </div>
-              <div class="hover:cursor-pointer">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
-              </div>
-            </div> 
-            </script>
-          </code></pre>
+          <span v-show="alert_wlink" class="transition-all">
+          <AlertWithLinkCodeSnippet/>
+          </span>
           <!-- code snippet end -->
           <!--end alert with links -->
           <!-- alert with Icon-->
@@ -180,6 +142,19 @@
             <template v-slot:subHeader
               >Alert with icon</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!alert_wicon"
+                @click.native="alert_wicon = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="alert_wicon = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <div class="pb-4">
           <p>I have used <a href="https://heroicons.com/" class="text-sky-700">heroicons</a> for this component. You can user any icon according to the constraints. I have provided with code snippet only for one component as rest of the components are same, just have different colors. All the components hvae <span class="text-sky-900">text-'color'-700</span> and <span class="text-sky-900">bg-'color'-100</span> for all the components.
@@ -191,25 +166,9 @@
             </template>
           </ComponentPad>
           <!-- code snippet --->
-          <pre><code class="language-markup">
-            <script type="prism-html-markup">
-            <!-- Alert with icon -->
-            <div class="flex justify-between rounded-lg bg-gray-100 p-4 text-sm text-gray-700" role="alert">
-              <div class="flex items-center space-x-2">
-                <div>
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-                <div>
-                  <span class="font-medium">Default alert!</span> A simple Default alert message.</div>
-                </div>
-                <div class="hover:cursor-pointer">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
-              </div>
-             </div>
-            </script>
-          </code></pre>
+          <span v-show="alert_wicon" class="transition-all">
+          <AlertWithIconCodeSnippet/>
+          </span>
           <!-- code snippet end--->
           <!--end alert with Icons -->
           <!-- Border alert-->
@@ -217,6 +176,19 @@
             <template v-slot:subHeader
               >Alert with border</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!alert_wborder"
+                @click.native="alert_wborder = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="alert_wborder = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <div class="pb-4">
           <p>This component has a top border of 2px. You can always increase border size and can change color as mentioned in above component info.</p>
@@ -227,25 +199,9 @@
             </template>
           </ComponentPad>
           <!-- code snippet --->
-          <pre><code class="language-markup">
-            <script type="prism-html-markup">
-            <!-- Alert with border -->
-            <div class="flex justify-between rounded-lg border-t-2 border-gray-700 bg-gray-100 p-4 text-sm text-gray-700" role="alert">
-              <div class="flex items-center space-x-2">
-                <div>
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-                <div>
-                  <span class="font-medium">Default alert!</span> A simple Default alert message.</div>
-                </div>
-                <div class="hover:cursor-pointer">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
-              </div>
-             </div>
-            </script>
-          </code></pre>
+          <span v-show="alert_wborder" class="transition-all">
+          <BorderAlertCodeSnippet/>
+          </span>
           <!-- code snippet end--->
           <!--end Border alerts -->
           <!-- Border accent alert-->
@@ -253,6 +209,19 @@
             <template v-slot:subHeader
               >Border left</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!alert_wleftborder"
+                @click.native="alert_wleftborder = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="alert_wleftborder = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -260,25 +229,9 @@
             </template>
           </ComponentPad>
           <!-- code snippet --->
-          <pre><code class="language-markup">
-            <script type="prism-html-markup">
-            <!-- Alert with border -->
-            <div class="flex justify-between rounded-lg border-l-2 border-gray-700 bg-gray-100 p-4 text-sm text-gray-700" role="alert">
-              <div class="flex items-center space-x-2">
-                <div>
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                </div>
-                <div>
-                  <span class="font-medium">Default alert!</span> A simple Default alert message.</div>
-                </div>
-                <div class="hover:cursor-pointer">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
-              </div>
-             </div>
-            </script>
-          </code></pre>
+          <span v-show="alert_wleftborder" class="transition-all">
+          <BorderAccentCodeSnippet/>
+          </span>
           <!-- code snippet end--->
           <!--end Border left alerts -->
         </div>
@@ -306,6 +259,13 @@ import WithButtonAlert from "../components/Alert/WithButtonAlert.vue";
 import BorderAlert from "../components/Alert/BorderAlert.vue";
 import Heading from "../components/Headers/Heading.vue";
 import BorderAccent from "../components/Alert/BorderAccent.vue";
+import DefaultAlertCodeSnippet from "../components/Alert/Code Snippets/DefaultAlertCodeSnippet.vue";
+import StateAlertCodeSnippet from "../components/Alert/Code Snippets/StateAlertCodeSnippet.vue";
+import AlertWithIconCodeSnippet from "../components/Alert/Code Snippets/AlertWithIconCodeSnippet.vue";
+import WithButtonAlertCodeSnippet from "../components/Alert/Code Snippets/WithButtonAlertCodeSnippet.vue";
+import BorderAlertCodeSnippet from "../components/Alert/Code Snippets/BorderAlertCodeSnippet.vue";
+import BorderAccentCodeSnippet from "../components/Alert/Code Snippets/BorderAccentCodeSnippet.vue";
+import AlertWithLinkCodeSnippet from "../components/Alert/Code Snippets/AlertWithLinkCodeSnippet.vue";
 export default {
   metaInfo: {
     title: "Buttons",
@@ -321,11 +281,23 @@ export default {
     AlertWithIcon,
     BorderAlert,
     BorderAccent,
-  },
+    DefaultAlertCodeSnippet,
+    StateAlertCodeSnippet,
+    AlertWithIconCodeSnippet,
+    WithButtonAlertCodeSnippet,
+    BorderAlertCodeSnippet,
+    BorderAccentCodeSnippet,
+    AlertWithLinkCodeSnippet
+},
   data() {
     return {
-      default_btn: false,
-      
+      default_alertt: false,
+      statecolor_alertt: false,
+      with_btn_alertt: false,
+      alert_wlink: false,
+      alert_wicon: false,
+      alert_wborder: false,
+      alert_wleftborder: false,      
     };
   },
 };

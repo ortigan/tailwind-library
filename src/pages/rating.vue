@@ -13,6 +13,19 @@
             <template v-slot:subHeader
               >Deafult star rating</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!default_starrating"
+                @click.native="default_starrating = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="default_starrating = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
             <!-- end deafult rating -->
             <ComponentPad>
@@ -23,13 +36,28 @@
               </template>
             </ComponentPad>
             <!-- code snippet -->
-         <DefaultRatingSnippet />
-          <!-- code snippet end -->
+            <span v-show="default_starrating" class="transition-all">
+            <DefaultRatingSnippet />
+            </span>
+            <!-- code snippet end -->
             <!-- icon with dropdown -->
             <SubHeading>
             <template v-slot:subHeader
               >Component-1 rating</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!comp1_rating"
+                @click.native="comp1_rating = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="comp1_rating = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
             <!-- end icon with dropdown -->
             <ComponentPad>
@@ -40,13 +68,28 @@
               </template>
             </ComponentPad>
             <!-- code snippet -->
-           <OurCardRatingSnippet />
+            <span v-show="comp1_rating" class="transition-all">
+            <OurCardRatingSnippet />
+            </span>
           <!-- code snippet end -->
             <!-- heart rating -->
             <SubHeading>
             <template v-slot:subHeader
               >Heart rating</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!heart_rating"
+                @click.native="heart_rating = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="heart_rating = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
             <!-- end heart rating -->
             <ComponentPad>
@@ -57,13 +100,28 @@
               </template>
             </ComponentPad>
             <!-- code snippet -->
+            <span v-show="heart_rating" class="transition-all">
               <HeartRatingSnippet />
+            </span>
             <!-- code snippet end -->
             <!-- Imdb rating -->
             <SubHeading>
             <template v-slot:subHeader
               >Imdb rating</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!imdb_rating"
+                @click.native="imdb_rating = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="imdb_rating = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
             <!-- end imdb rating -->
             <ComponentPad>
@@ -74,7 +132,9 @@
               </template>
             </ComponentPad>
             <!-- code snippet -->
+            <span v-show="imdb_rating" class="transition-all">
               <ImdbRatingSnippet />
+            </span>
             <!-- code snippet end -->
           </div>
       </div>
@@ -117,7 +177,15 @@ export default {
     HeartRatingSnippet,
     ImdbRating,
     ImdbRatingSnippet
-}
+},
+data() {
+    return {
+         default_starrating: false,
+         comp1_rating: false,
+         heart_rating: false,
+         imdb_rating: false,
+    };
+  },
 }
 </script>
 

@@ -22,13 +22,30 @@
             <template v-slot:subHeader
               >Font size</template
             >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!font_size"
+                @click.native="font_size = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="font_size = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
           </SubHeading>
           <ComponentPad>
             <template>
               <FontsizeTypo />
             </template>
           </ComponentPad>
+          <span v-show="font_size" class="transition-all">
+          <FontSizeTypoCodeSnippet/>
+          </span>
           <!-- end font size -->
+          
           <!-- Font weight -->
           <SubHeading>
             <template v-slot:subHeader
@@ -40,6 +57,8 @@
               <FontWeightTypo />
             </template>
           </ComponentPad>
+          <!-- code snippet --->          
+          <FontWeightTypoCodeSnippet/>          
           <!-- end font weight -->
           <!-- Tracking -->
           <SubHeading>
@@ -52,6 +71,9 @@
               <TrackingTypography />
             </template>
           </ComponentPad>
+          <!-- code snippet --->          
+          <TrackingTypoCodeSnippet/>          
+          <!-- end font weight -->
           <!-- end Tracking -->
           <!-- Text Decoration  -->
           <SubHeading>
@@ -64,8 +86,11 @@
               <TextDecoration />
             </template>
           </ComponentPad>
-          <!-- end Text Decoration  -->
+          <!-- code snippet --->          
+          <TextDecorationCodeSnippet/>          
+          <!-- end font weight -->
           <!-- Text Decoration thickness -->
+          <!-- end Text Decoration  -->
           <SubHeading>
             <template v-slot:subHeader
               >Text Decoration thickness</template
@@ -99,9 +124,9 @@ import FontWeightTypo from "../components/Typography/FontWeightTypo.vue";
 import TrackingTypography from "../components/Typography/TrackingTypography.vue";
 import TextDecoration from "../components/Typography/TextDecoration.vue";
 import TextDecorationThickness from "../components/Typography/TextDecorationThickness.vue";
-
 import Heading from "../components/Headers/Heading.vue";
 import SubHeading from "../components/Headers/SubHeading.vue";
+import FontSizeTypoCodeSnippet from "../components/Typography/Code Snippets/FontSizeTypoCodeSnippet.vue"
 
 export default {
   metaInfo: {
@@ -116,7 +141,13 @@ export default {
     TrackingTypography,
     TextDecoration,
     TextDecorationThickness,
+    FontSizeTypoCodeSnippet,
     
+  },
+  data() {
+    return {
+         font_size: false,
+    };
   },
 };
 </script>
