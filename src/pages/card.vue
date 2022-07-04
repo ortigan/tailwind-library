@@ -15,9 +15,7 @@
           </div>
           <!-- Default card -->
           <SubHeading>
-            <template v-slot:subHeader
-              >Default Card</template
-            >
+            <template v-slot:subHeader>Default Card</template>
             <template v-slot:code>
               <ShowCodeButton
                 v-if="!default_card"
@@ -37,16 +35,14 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="default_card" class="transition-all">
-          <DefaultCardsCodeSnippet />
-         </span>
+            <DefaultCardsCodeSnippet />
+          </span>
           <!-- code snippet end --->
 
           <!-- end default-cards -->
           <!-- CTA card -->
           <SubHeading>
-            <template v-slot:subHeader
-              >Card with CTA</template
-            >
+            <template v-slot:subHeader>Card with CTA</template>
             <template v-slot:code>
               <ShowCodeButton
                 v-if="!cta_card"
@@ -66,15 +62,13 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="cta_card" class="transition-all">
-          <CardCtaCodeSnippet />
+            <CardCtaCodeSnippet />
           </span>
           <!-- code snippet end --->
           <!-- end default-cards -->
           <!-- CTA card with link -->
           <SubHeading>
-            <template v-slot:subHeader
-              >Card with Link</template
-            >
+            <template v-slot:subHeader>Card with Link</template>
             <template v-slot:code>
               <ShowCodeButton
                 v-if="!link_card"
@@ -94,17 +88,15 @@
             </template>
           </ComponentPad>
           <!-- code snippet --->
-                    <span v-show="link_card" class="transition-all">
-          <CardLinkCodeSnippet />
-</span>
+          <span v-show="link_card" class="transition-all">
+            <CardLinkCodeSnippet />
+          </span>
           <!-- code snippet end --->
           <!-- end cta cards with link-->
           <!-- User profile cards start -->
           <!-- default user cards -->
           <SubHeading>
-            <template v-slot:subHeader
-              >Default user card</template
-            >
+            <template v-slot:subHeader>Default user card</template>
             <template v-slot:code>
               <ShowCodeButton
                 v-if="!default_user_card"
@@ -124,7 +116,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="default_user_card" class="transition-all">
-          <DefaultUserCardCodeSnippet />
+            <DefaultUserCardCodeSnippet />
           </span>
           <!-- code snippet end --->
           <!-- enddefault user cards -->
@@ -153,7 +145,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="user_card1" class="transition-all">
-          <UserCard1CodeSnippet />
+            <UserCard1CodeSnippet />
           </span>
           <!-- code snippet end --->
           <!-- endtype1 user cards -->
@@ -181,9 +173,9 @@
             </template>
           </ComponentPad>
           <!-- code snippet --->
-           <span v-show="user_card2" class="transition-all">
-          <UserCard2CodeSnippet />
-           </span>
+          <span v-show="user_card2" class="transition-all">
+            <UserCard2CodeSnippet />
+          </span>
           <!-- code snippet end --->
           <!-- end type2 user cards -->
           <!--  type3 user cards -->
@@ -211,7 +203,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="user_card3" class="transition-all">
-          <UserCard3CodeSnippet />
+            <UserCard3CodeSnippet />
           </span>
           <!-- code snippet end --->
           <!-- end type3 user cards -->
@@ -240,7 +232,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="user_card4" class="transition-all">
-          <UsrCard4CodeSnippet />
+            <UsrCard4CodeSnippet />
           </span>
           <!-- code snippet end --->
           <!-- end type4 user cards -->
@@ -269,7 +261,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="user_card5" class="transition-all">
-          <UserCard5CodeSnippet />
+            <UserCard5CodeSnippet />
           </span>
           <!-- code snippet end --->
           <!-- end type5 user cards -->
@@ -298,7 +290,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="user_card6" class="transition-all">
-          <UserCard6CodeSnippet />
+            <UserCard6CodeSnippet />
           </span>
           <!-- code snippet end --->
           <!-- end type6 user cards -->
@@ -327,7 +319,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="user_card7" class="transition-all">
-          <UserCard7CodeSnippet />
+            <UserCard7CodeSnippet />
           </span>
           <!-- code snippet end --->
           <!-- end type7 user cards -->
@@ -356,7 +348,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="user_card8" class="transition-all">
-          <UserCard8CodeSnippet />
+            <UserCard8CodeSnippet />
           </span>
           <!-- code snippet end --->
           <!-- end type8 user cards -->
@@ -385,7 +377,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="user_card9" class="transition-all">
-          <UserCard9CodeSnippet />
+            <UserCard9CodeSnippet />
           </span>
           <!-- code snippet end --->
           <!-- end type9 user cards -->
@@ -461,7 +453,7 @@ export default {
     UserCard1CodeSnippet,
     UserCard2CodeSnippet,
     UserCard3CodeSnippet,
-    UsrCard4CodeSnippet,    
+    UsrCard4CodeSnippet,
     UserCard5CodeSnippet,
     UserCard6CodeSnippet,
     UserCard7CodeSnippet,
@@ -469,8 +461,8 @@ export default {
     UserCard9CodeSnippet,
     DefaultUserCardCodeSnippet,
   },
-  data(){
-    return{
+  data() {
+    return {
       default_card: false,
       cta_card: false,
       link_card: false,
@@ -484,9 +476,8 @@ export default {
       user_card7: false,
       user_card8: false,
       user_card9: false,
-      
-    }
-  }
+    };
+  },
 };
 </script>
 

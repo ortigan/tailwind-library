@@ -322,6 +322,12 @@ export default {
     BorderAlert,
     BorderAccent,
   },
+  data() {
+    return {
+      default_btn: false,
+      
+    };
+  },
 };
 </script>
 
