@@ -2,13 +2,11 @@
   <Layout>
     <div class="flex p-4">
       <!-- content -->
-      <div class="flex h-screen px-4 overflow-y-hidden scrollBar">
-        <div class="overflow-y-auto px-4 pb-20">
-          <Heading
-            ><template>
-              Alert
-            </template>
-          </Heading>
+      <div
+        class="flex h-screen px-4 overflow-y-hidden scrollBar"
+      >
+        <div class="overflow-y-auto px-4 pb-20" id="alertContainer">
+          <Heading><template> Alert </template> </Heading>
           <div>
             <p class="text-base">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -18,70 +16,64 @@
             </p>
           </div>
           <!-- Default alert -->
-          <SubHeading>
-            <template v-slot:subHeader
-              >Default alert</template
-            >
-            <template v-slot:code>
-              <ShowCodeButton
-                v-if="!default_alertt"
-                @click.native="default_alertt = true"
-              ></ShowCodeButton>
-              <HideCodeButton
-                v-else
-                @click.native="default_alertt = false"
-              ></HideCodeButton>
-            </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
-          </SubHeading>
-          <ComponentPad>
-            <template>
-              <DefaultAlert />
-            </template>
-          </ComponentPad>
-          <!-- code snippet -->
-          <span v-show="default_alertt" class="transition-all">
-          <DefaultAlertCodeSnippet/>
-          </span>
-          <!-- code snippet end -->
+          <section id="defaultAlert">
+            <SubHeading>
+              <template v-slot:subHeader>Default alert</template>
+              <template v-slot:code>
+                <ShowCodeButton
+                  v-if="!default_alertt"
+                  @click.native="default_alertt = true"
+                ></ShowCodeButton>
+                <HideCodeButton
+                  v-else
+                  @click.native="default_alertt = false"
+                ></HideCodeButton>
+              </template>
+              <template v-slot:copy><CopyButton></CopyButton> </template>
+            </SubHeading>
+            <ComponentPad>
+              <template>
+                <DefaultAlert />
+              </template>
+            </ComponentPad>
+            <!-- code snippet -->
+            <span v-show="default_alertt" class="transition-all">
+              <DefaultAlertCodeSnippet />
+            </span>
+            <!-- code snippet end -->
+          </section>
           <!-- end default alert -->
-          <!-- State alert -->
-          <SubHeading>
-            <template v-slot:subHeader
-              >State color alert</template
-            >
-            <template v-slot:code>
-              <ShowCodeButton
-                v-if="!statecolor_alertt"
-                @click.native="statecolor_alertt = true"
-              ></ShowCodeButton>
-              <HideCodeButton
-                v-else
-                @click.native="statecolor_alertt = false"
-              ></HideCodeButton>
-            </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
-          </SubHeading>
-          <ComponentPad>
-            <template>
-              <StateAlert />
-            </template>
-          </ComponentPad>
-          <!-- code snippet -->
-          <span v-show="statecolor_alertt" class="transition-all">
-          <StateAlertCodeSnippet/>
-          </span>
-          <!-- code snippet end -->
+          <section id="stateColorAlert">
+            <!-- State alert -->
+            <SubHeading>
+              <template v-slot:subHeader>State color alert</template>
+              <template v-slot:code>
+                <ShowCodeButton
+                  v-if="!statecolor_alertt"
+                  @click.native="statecolor_alertt = true"
+                ></ShowCodeButton>
+                <HideCodeButton
+                  v-else
+                  @click.native="statecolor_alertt = false"
+                ></HideCodeButton>
+              </template>
+              <template v-slot:copy><CopyButton></CopyButton> </template>
+            </SubHeading>
+            <ComponentPad>
+              <template>
+                <StateAlert />
+              </template>
+            </ComponentPad>
+            <!-- code snippet -->
+            <span v-show="statecolor_alertt" class="transition-all">
+              <StateAlertCodeSnippet />
+            </span>
+            <!-- code snippet end -->
+          </section>
           <!-- end state alert -->
           <!-- with button alert -->
           <SubHeading>
-            <template v-slot:subHeader
-              >With button alert</template
-            >
+            <template v-slot:subHeader>With button alert</template>
             <template v-slot:code>
               <ShowCodeButton
                 v-if="!with_btn_alertt"
@@ -92,9 +84,7 @@
                 @click.native="with_btn_alertt = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
+            <template v-slot:copy><CopyButton></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -103,15 +93,13 @@
           </ComponentPad>
           <!-- code snippet -->
           <span v-show="with_btn_alertt" class="transition-all">
-          <WithButtonAlertCodeSnippet/>
+            <WithButtonAlertCodeSnippet />
           </span>
           <!-- code snippet end -->
           <!-- end button alert -->
           <!-- alert with link-->
           <SubHeading>
-            <template v-slot:subHeader
-              >Alert with link</template
-            >
+            <template v-slot:subHeader>Alert with link</template>
             <template v-slot:code>
               <ShowCodeButton
                 v-if="!alert_wlink"
@@ -122,9 +110,7 @@
                 @click.native="alert_wlink = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
+            <template v-slot:copy><CopyButton></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -133,15 +119,13 @@
           </ComponentPad>
           <!-- code snippet -->
           <span v-show="alert_wlink" class="transition-all">
-          <AlertWithLinkCodeSnippet/>
+            <AlertWithLinkCodeSnippet />
           </span>
           <!-- code snippet end -->
           <!--end alert with links -->
           <!-- alert with Icon-->
           <SubHeading>
-            <template v-slot:subHeader
-              >Alert with icon</template
-            >
+            <template v-slot:subHeader>Alert with icon</template>
             <template v-slot:code>
               <ShowCodeButton
                 v-if="!alert_wicon"
@@ -152,13 +136,31 @@
                 @click.native="alert_wicon = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
+            <template v-slot:copy><CopyButton></CopyButton> </template>
           </SubHeading>
           <div class="pb-4">
-          <p>I have used <a href="https://heroicons.com/" class="text-sky-700">heroicons</a> for this component. You can user any icon according to the constraints. I have provided with code snippet only for one component as rest of the components are same, just have different colors. All the components hvae <span class="text-sky-900">text-'color'-700</span> and <span class="text-sky-900">bg-'color'-100</span> for all the components.
-          You can refer <a href="https://tailwindcss.com/docs/customizing-colors" class="text-sky-700 ">Tailwind colors</a> to experiment with different colors. <span class="text-gray-800 italic">Same goes for following components.</span> </p>
+            <p>
+              I have used
+              <a href="https://heroicons.com/" class="text-sky-700"
+                >heroicons</a
+              >
+              for this component. You can user any icon according to the
+              constraints. I have provided with code snippet only for one
+              component as rest of the components are same, just have different
+              colors. All the components hvae
+              <span class="text-sky-900">text-'color'-700</span> and
+              <span class="text-sky-900">bg-'color'-100</span> for all the
+              components. You can refer
+              <a
+                href="https://tailwindcss.com/docs/customizing-colors"
+                class="text-sky-700"
+                >Tailwind colors</a
+              >
+              to experiment with different colors.
+              <span class="text-gray-800 italic"
+                >Same goes for following components.</span
+              >
+            </p>
           </div>
           <ComponentPad>
             <template>
@@ -167,15 +169,13 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="alert_wicon" class="transition-all">
-          <AlertWithIconCodeSnippet/>
+            <AlertWithIconCodeSnippet />
           </span>
           <!-- code snippet end--->
           <!--end alert with Icons -->
           <!-- Border alert-->
           <SubHeading>
-            <template v-slot:subHeader
-              >Alert with border</template
-            >
+            <template v-slot:subHeader>Alert with border</template>
             <template v-slot:code>
               <ShowCodeButton
                 v-if="!alert_wborder"
@@ -186,12 +186,14 @@
                 @click.native="alert_wborder = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
+            <template v-slot:copy><CopyButton></CopyButton> </template>
           </SubHeading>
           <div class="pb-4">
-          <p>This component has a top border of 2px. You can always increase border size and can change color as mentioned in above component info.</p>
+            <p>
+              This component has a top border of 2px. You can always increase
+              border size and can change color as mentioned in above component
+              info.
+            </p>
           </div>
           <ComponentPad>
             <template>
@@ -200,15 +202,13 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="alert_wborder" class="transition-all">
-          <BorderAlertCodeSnippet/>
+            <BorderAlertCodeSnippet />
           </span>
           <!-- code snippet end--->
           <!--end Border alerts -->
           <!-- Border accent alert-->
           <SubHeading>
-            <template v-slot:subHeader
-              >Border left</template
-            >
+            <template v-slot:subHeader>Border left</template>
             <template v-slot:code>
               <ShowCodeButton
                 v-if="!alert_wleftborder"
@@ -219,9 +219,7 @@
                 @click.native="alert_wleftborder = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
+            <template v-slot:copy><CopyButton></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -230,7 +228,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="alert_wleftborder" class="transition-all">
-          <BorderAccentCodeSnippet/>
+            <BorderAccentCodeSnippet />
           </span>
           <!-- code snippet end--->
           <!--end Border left alerts -->
@@ -240,7 +238,15 @@
       <div class="hidden lg:block">
         <div class="w-40 flex flex-col min-h-screen overflow-y-hidden">
           <div class="overflow-y-auto">
-            <AlertInfo />
+            <!-- <AlertInfo /> -->
+            <div class="flex flex-col justify-start items-start">
+              <button @click="scrollToSection('defaultAlert')">
+                Default Alert
+              </button>
+              <button @click="scrollToSection('stateColorAlert')">
+                State Color Alert
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -287,8 +293,8 @@ export default {
     WithButtonAlertCodeSnippet,
     BorderAlertCodeSnippet,
     BorderAccentCodeSnippet,
-    AlertWithLinkCodeSnippet
-},
+    AlertWithLinkCodeSnippet,
+  },
   data() {
     return {
       default_alertt: false,
@@ -297,8 +303,17 @@ export default {
       alert_wlink: false,
       alert_wicon: false,
       alert_wborder: false,
-      alert_wleftborder: false,      
+      alert_wleftborder: false,
+      // SCROLL 
+      activeScrollSection: ""
     };
+  },
+  methods: {
+    scrollToSection(section) {
+      this.activeScrollSection = section
+      document.getElementById("alertContainer").scrollTo({top: document.getElementById(`${section}`).offsetTop-100, behavior: 'smooth'})
+      // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
   },
 };
 </script>
