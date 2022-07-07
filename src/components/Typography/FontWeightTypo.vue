@@ -1,7 +1,7 @@
 <template>
   <div class="flex w-full flex-col justify-start">
       <span v-for="(item,index) in items" :key="index" class="">
-        <div class=" justify-start text-gray-700 font">
+        <div class=" justify-start text-gray-700 dark:text-gray-500 font">
             <div :class="`text-lg ${item.FontWeight}`">Font Weight</div>
         </div>
       </span>

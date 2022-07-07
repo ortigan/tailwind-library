@@ -1,7 +1,7 @@
 <template>
   <div class="flex w-full flex-col justify-start -space-y-1">
       <span v-for="(item,index) in items" :key="index" class="">
-        <div class=" justify-start text-gray-700">
+        <div class=" justify-start text-gray-700 dark:text-gray-500">
             <div :class="`${item.textSize}`">Font size</div>
         </div>
       </span>
