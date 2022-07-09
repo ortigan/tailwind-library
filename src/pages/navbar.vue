@@ -3,7 +3,7 @@
     <div class="flex p-4">
       <!-- content -->
       <div class="flex h-screen px-4 overflow-y-hidden scrollBar">
-        <div class="overflow-y-auto px-4">
+        <div class="overflow-y-auto px-4" id="navbarContainer">
           <Heading
             ><template>
               Navbar
@@ -18,6 +18,7 @@
             </p>
           </div>
           <!-- Default Navbar -->
+          <section id="defaultNavbar">
           <SubHeading>
             <template v-slot:subHeader
               >Default Navbar</template
@@ -45,10 +46,12 @@
           <span v-show="default_navbar" class="transition-all">
             <DefaultNavbarCodeSnippet />
           </span>
+          </section>
           <!-- code snippet end -->
           <!-- end default navbar -->
 
           <!-- Dropdown Navbar -->
+          <section id="dropdownNavbar">
           <SubHeading>
             <template v-slot:subHeader
               >Dropdown Navbar</template
@@ -76,10 +79,12 @@
           <span v-show="dropdown_navbar" class="transition-all">
             <DropdownNavbarCodeSnippet />
           </span>
+          </section>
           <!-- code snippet end -->
           <!-- end Dropdown navbar -->
 
           <!-- with Search Navbar -->
+          <section id="navbarWithSearchBar">
           <SubHeading>
             <template v-slot:subHeader
               >Navbar with search bar</template
@@ -107,9 +112,11 @@
           <span v-show="searchbar_navbar" class="transition-all">
             <SearchNavbarCodeSnippet />
           </span>
+          </section>
           <!-- code snippet end -->
           <!-- end with search bar -->
           <!-- with CTA -->
+          <section id="NavbarWithCta">
           <SubHeading>
             <template v-slot:subHeader
               >Navbar with CTA</template
@@ -137,9 +144,11 @@
           <span v-show="cta_navbar" class="transition-all">
             <CtaNavbarCodeSnippet />
           </span>
+          </section>
           <!-- code snippet end -->
           <!-- end with CTA -->
           <!-- with CTA -->
+          <section id="gumroadNavbar">
           <SubHeading>
             <template v-slot:subHeader
               >Gumroad navbar</template
@@ -167,15 +176,35 @@
                     <span v-show="gumroad_navbar" class="transition-all">
           <GumroadNavbarCodeSnippet />
                     </span>
+                    </section>
           <!-- code snippet end -->
           <!-- end with gumroad -->
         </div>
       </div>
       <!-- right sidebar -->
       <div class="hidden lg:block">
-        <div class="w-40 flex flex-col min-h-screen overflow-y-hidden">
+        <div class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2">
           <div class="overflow-y-auto">
-            <NavbarInfo />
+            <!-- <AlertInfo /> -->
+            <div class="flex flex-col justify-start items-end space-y-2">
+            <p class="text-normal font-bold">On This Page</p>
+              <button @click="scrollToSection('defaultNavbar')">
+                Default Navbar
+              </button>
+              <button @click="scrollToSection('dropdownNavbar')">
+                Dropdown Navbar
+              </button>
+              <button @click="scrollToSection('navbarWithSearchBar')" class="text-right">
+                Navbar With Search Bar
+              </button>
+              <button @click="scrollToSection('NavbarWithCta')">
+                Navbar With CTA
+              </button>
+              <button @click="scrollToSection('gumroadNavbar')">
+                Gumroad Navbar
+              </button>
+                            
+            </div>
           </div>
         </div>
       </div>
@@ -225,6 +254,18 @@ export default {
       cta_navbar: false,
       gumroad_navbar: false,
     };
+  },
+  methods: {
+    scrollToSection(section) {
+      this.activeScrollSection = section;
+      document
+        .getElementById("navbarContainer")
+        .scrollTo({
+          top: document.getElementById(`${section}`).offsetTop - 100,
+          behavior: "smooth",
+        });
+      // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
   },
 };
 </script>

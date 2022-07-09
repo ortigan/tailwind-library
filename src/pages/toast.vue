@@ -3,7 +3,7 @@
     <div class="flex p-4">
       <!-- content -->
       <div class="flex h-screen px-4 overflow-y-hidden scrollBar">
-        <div class="overflow-y-auto px-4">
+        <div class="overflow-y-auto px-4" id="toastContainer">
           <Heading
             ><template>
               Toast
@@ -18,6 +18,7 @@
             </p>
           </div>
           <!-- Default Toast -->
+          <section id="defaultToast">
           <SubHeading>
             <template v-slot:subHeader
               >Default Toast</template
@@ -43,9 +44,11 @@
           <span v-show="DefaultToast" class="transition-all">
             <DefaultToastCodeSnippet />
           </span>
+          </section>
           <!-- code snippet end --->
           <!-- end default Toast -->
           <!-- StateColor Toast -->
+          <section id="stateColorToast">
           <SubHeading>
             <template v-slot:subHeader
               >StateColor Toast</template
@@ -70,8 +73,10 @@
           <span v-show="state_color_toast" class="transition-all">
             <StateColorToastCodeSnippet />
           </span>
+          </section>
           <!-- end StateColor Toast -->
            <!-- outline Toast -->
+          <section id="toastWOutline">
           <SubHeading>
             <template v-slot:subHeader
               >Toast with outline</template
@@ -96,8 +101,10 @@
           <span v-show="Toast_with_outline" class="transition-all">
             <OutlineToastCodeSnippet />
           </span>
+          </section>
           <!-- end outline Toast -->
            <!-- SolidColor Toast -->
+          <section id="solidColorToast">
           <SubHeading>
             <template v-slot:subHeader
               >Solid Color toast</template
@@ -122,8 +129,10 @@
           <span v-show="solid_color_toast" class="transition-all">
             <SolidColorToastCodeSnippet />
           </span>
+          </section>
           <!-- end SolidColor Toast -->
           <!-- button Toast -->
+          <section id="toastWButtons">
           <SubHeading>
             <template v-slot:subHeader
               >Toast with buttons</template
@@ -148,6 +157,7 @@
           <span v-show="with_btn_toast" class="transition-all">
             <WithButtonToastCodeSnippet />
           </span>
+          </section>
           <!-- end button Toast -->
          
  
@@ -156,9 +166,28 @@
       </div>
       <!-- right sidebar -->
       <div class="hidden lg:block">
-        <div class="w-40 flex flex-col min-h-screen overflow-y-hidden">
+        <div class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2">
           <div class="overflow-y-auto">
-            <ToastInfo />
+            <!-- <AlertInfo /> -->
+            <div class="flex flex-col justify-start items-end space-y-2">
+            <p class="text-normal font-bold">On This Page</p>
+              <button @click="scrollToSection('defaultToast')">
+                Default Toast
+              </button>
+              <button @click="scrollToSection('stateColorToast')">
+                State Color Toast
+              </button>
+              <button @click="scrollToSection('toastWOutline')" class="text-right">
+                Toast With Outline
+              </button>
+              <button @click="scrollToSection('solidColorToast')" class="text-right">
+                Solid Color Toast
+              </button>
+              <button @click="scrollToSection('toastWButtons')" class="text-right">
+                Toast With Buttons
+              </button>
+                            
+            </div>
           </div>
         </div>
       </div>
@@ -210,6 +239,18 @@ export default {
       with_btn_toast: false,
 
     };
+  },
+  methods: {
+    scrollToSection(section) {
+      this.activeScrollSection = section;
+      document
+        .getElementById("toastContainer")
+        .scrollTo({
+          top: document.getElementById(`${section}`).offsetTop - 100,
+          behavior: "smooth",
+        });
+      // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
   },
 };
 </script>

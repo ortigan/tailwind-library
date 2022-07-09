@@ -4,7 +4,7 @@
       <div class="flex p-4">
         <!-- content -->
         <div class="flex h-screen px-4 overflow-y-hidden scrollBar">
-          <div class="overflow-y-auto px-4">
+          <div class="overflow-y-auto px-4" id="buttonsContainer">
             <Heading
             ><template>
               Buttons
@@ -18,6 +18,7 @@
               </p>
             </div>
             <!-- Default buttons -->
+            <section id="defaultButton">
              <SubHeading>
             <template v-slot:subHeader
               >Default</template
@@ -43,9 +44,11 @@
           <span v-show="default_btn" class="transition-all">
           <DefaultButtonSnippet />
           </span>
-          <!-- code snippet end --->
+            </section>
+            <!-- code snippet end --->
             <!-- End of default buttons -->
             <!-- Outline buttons -->
+            <section id="outlineButton">
             <SubHeading>
             <template v-slot:subHeader
               >Outline</template
@@ -71,9 +74,11 @@
             <span v-show="outline_btn" class="transition-all">
             <OutlineButtonSnippet />
             </span>
+            </section>
             <!-- code snippet end --->
             <!-- end or Outline Button -->
             <!-- OutlineState Button -->
+            <section id="stateColor">
             <SubHeading>
             <template v-slot:subHeader
               >State color</template
@@ -99,9 +104,11 @@
               <span v-show="state_color_btn" class="transition-all">
             <StateColorButtonSnippet />
               </span>
+              </section>
             <!-- code snippet end --->
             <!-- end or OutlineState Button -->
             <!-- Buttons sizes -->
+            <section id="sizeButton">
             <SubHeading>
             <template v-slot:subHeader
               >Size</template
@@ -127,9 +134,11 @@
              <span v-show="size_btn" class="transition-all">
             <SizeButtonsSnippet />
              </span>
+             </section>
             <!-- code snippet end --->
             <!--End Buttons sizes -->
             <!-- Dual icon buttons -->
+            <section id="dualIcon">
             <SubHeading>
             <template v-slot:subHeader
               >Dual icon</template
@@ -155,9 +164,11 @@
             <span v-show="dual_icon_btn" class="transition-all">
             <DualIconSnippet />
             </span>
+            </section>
             <!-- code snippet end --->
             <!--End Dual icon buttons   -->
             <!-- Light color buttons -->
+            <section id="lightColor">
             <SubHeading>
             <template v-slot:subHeader
               >Light color</template
@@ -183,9 +194,11 @@
             <span v-show="light_color_btn" class="transition-all">
             <LightColorButtonsSnippet />
             </span>
+            </section>
             <!-- code snippet end --->
-            <!--End Light color buttons   -->
+            <!--End Light color buttons -->
             <!-- Dark color buttons -->
+            <section id="darkColor">
             <SubHeading>
             <template v-slot:subHeader
               >Dark color</template
@@ -211,9 +224,11 @@
             <span v-show="dark_color_btn" class="transition-all">
             <DarkColorButtonsSnippet />
             </span>
+            </section>
             <!-- code snippet end --->
             <!--End Dark color buttons   -->
             <!-- Dark color buttons -->
+            <section id="appsmithButton">
             <SubHeading>
             <template v-slot:subHeader
               >Appsmith</template
@@ -239,6 +254,7 @@
             <span v-show="appsmith_btn" class="transition-all">
             <AppsmithButtonSnippet />
             </span>
+            </section>
             <!-- code snippet end --->
             <!--End Dark color buttons   -->
          
@@ -248,12 +264,40 @@
 
         <!-- right sidebar -->
         <div class="hidden lg:block">
-          <div class="w-40 flex flex-col min-h-screen overflow-y-hidden">
-            <div class="overflow-y-auto w-full flex justify-end">
-              <ButtonInfo />
+        <div class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2">
+          <div class="overflow-y-auto">
+            <!-- <AlertInfo /> -->
+            <div class="flex flex-col justify-start items-end space-y-2">
+            <p class="text-normal font-bold">On This Page</p>
+              <button @click="scrollToSection('defaultButton')">
+                Default
+              </button>
+              <button @click="scrollToSection('outlineButton')">
+                Outline
+              </button>
+              <button @click="scrollToSection('stateColor')">
+                State Color
+              </button>
+              <button @click="scrollToSection('sizeButton')">
+                Size
+              </button>
+              <button @click="scrollToSection('dualIcon')">
+                Dual Icon
+              </button>
+              <button @click="scrollToSection('lightColor')">
+                Light Color
+              </button>
+              <button @click="scrollToSection('darkColor')">
+                Dark Color
+              </button>
+              <button @click="scrollToSection('appsmithButton')">
+                Appsmith
+              </button>
+                            
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   </Layout>
@@ -315,9 +359,20 @@ export default {
       dual_icon_btn: false,
       light_color_btn: false,
       dark_color_btn: false,
-      appsmith_btn: false,
-     
+      appsmith_btn: false,     
     };
+  },
+  methods: {
+    scrollToSection(section) {
+      this.activeScrollSection = section;
+      document
+        .getElementById("buttonsContainer")
+        .scrollTo({
+          top: document.getElementById(`${section}`).offsetTop - 100,
+          behavior: "smooth",
+        });
+      // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
   },
 };
 </script>

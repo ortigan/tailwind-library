@@ -3,17 +3,21 @@
     <div class="flex p-4">
       <!-- content -->
       <div class="flex h-screen px-4 overflow-y-hidden scrollBar">
-          <div class="overflow-y-auto px-4">
-            <Heading />
-            <div>
-          <p class="text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam?</p>
-            </div>
-            <!-- icon with dropdown -->
+        <div class="overflow-y-auto px-4" id="dropdownContainer">
+          <Heading />
+          <div>
+            <p class="text-base">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Molestias optio quam architecto culpa unde accusamus illo error
+              neque explicabo, numquam ut, qui eligendi magnam non quis fugiat
+              impedit dolore aliquam?
+            </p>
+          </div>
+          <!-- icon with dropdown -->
+          <section id="iconFirstDropdown">
             <SubHeading>
-            <template v-slot:subHeader
-              >Icon First Dropdown</template
-            >
-          </SubHeading>
+              <template v-slot:subHeader>Icon First Dropdown</template>
+            </SubHeading>
             <!-- end icon with dropdown -->
             <ComponentPad>
               <template>
@@ -24,14 +28,16 @@
                 </div>
               </template>
             </ComponentPad>
-            <!-- code snippet -->
-         
+          </section>
+          <!-- code snippet -->
+
           <!-- code snippet end -->
-            <!-- profile dropdown -->
+          <!-- profile dropdown -->
+          <section id="profileDropdown">
             <SubHeading>
-            <template v-slot:subHeader>
-              <div>
-                Profile dropdown(On-Click)</div></template>
+              <template v-slot:subHeader>
+                <div>Profile dropdown(On-Click)</div></template
+              >
             </SubHeading>
             <!-- profile dropdown -->
             <ComponentPad>
@@ -39,8 +45,9 @@
                 <ProfileDropdown />
               </template>
             </ComponentPad>
-
-            <!-- icon first dropdown -->
+          </section>
+          <!-- icon first dropdown -->
+          <section id="ytDropdown">
             <SubHeading>
               <template v-slot:subHeader>Youtube dropdown</template>
             </SubHeading>
@@ -48,13 +55,28 @@
             <ComponentPad>
               <template><DefaultDropDead /></template>
             </ComponentPad>
-          </div>
+          </section>
+        </div>
       </div>
       <!-- right sidebar -->
       <div class="hidden lg:block">
-        <div class="w-40 flex flex-col min-h-screen overflow-y-hidden">
+        <div
+          class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2"
+        >
           <div class="overflow-y-auto">
-            <DropDownInfo />
+            <!-- <AlertInfo /> -->
+            <div class="flex flex-col justify-start items-end space-y-2">
+              <p class="text-normal font-bold">On This Page</p>
+              <button @click="scrollToSection('iconFirstDropdown')">
+                Icon First Dropdown
+              </button>
+              <button @click="scrollToSection('profileDropdown')">
+                Profile Dropdown
+              </button>
+              <button @click="scrollToSection('ytDropdown')">
+                Youtube Dropdown
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -63,17 +85,17 @@
 </template>
 
 <script>
-import DefaultDropDead from "../components/DropDowns/DefaultDropDead.vue"
-import DropDownInfo from "../components/DropDowns/DropDownInfo.vue"
-import DropdownWithIcon from '../components/DropDowns/DropdownWithIcon.vue'
-import DropdownNoIcon from "../components/DropDowns/DropdownNoIcon.vue"
-import OnlyHeadingD from "../components/DropDowns/OnlyHeadingD.vue"
-import ProfileDropdown from "../components/DropDowns/ProfileDropdown.vue"
-import SubHeading from "../components/Headers/SubHeading.vue"
-import ComponentPad from "../components/Utils/ComponentPad.vue"
+import DefaultDropDead from "../components/DropDowns/DefaultDropDead.vue";
+import DropDownInfo from "../components/DropDowns/DropDownInfo.vue";
+import DropdownWithIcon from "../components/DropDowns/DropdownWithIcon.vue";
+import DropdownNoIcon from "../components/DropDowns/DropdownNoIcon.vue";
+import OnlyHeadingD from "../components/DropDowns/OnlyHeadingD.vue";
+import ProfileDropdown from "../components/DropDowns/ProfileDropdown.vue";
+import SubHeading from "../components/Headers/SubHeading.vue";
+import ComponentPad from "../components/Utils/ComponentPad.vue";
 export default {
-    metaInfo: {
-    title: 'Dropdown'
+  metaInfo: {
+    title: "Dropdown",
   },
   components: {
     DefaultDropDead,
@@ -83,11 +105,20 @@ export default {
     OnlyHeadingD,
     ProfileDropdown,
     SubHeading,
-    ComponentPad
-}
-}
+    ComponentPad,
+  },
+  methods: {
+    scrollToSection(section) {
+      this.activeScrollSection = section;
+      document.getElementById("dropdownContainer").scrollTo({
+        top: document.getElementById(`${section}`).offsetTop - 100,
+        behavior: "smooth",
+      });
+      // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+  },
+};
 </script>
 
 <style>
-
 </style>

@@ -3,7 +3,7 @@
     <div class="flex p-4">
       <!-- content -->
       <div class="flex h-screen px-4 overflow-y-hidden scrollBar">
-        <div class="overflow-y-auto px-4">
+        <div class="overflow-y-auto px-4" id="cardContainer">
           <Heading />
           <div>
             <p class="text-base">
@@ -14,6 +14,7 @@
             </p>
           </div>
           <!-- Default card -->
+          <section id="defaultCard">
           <SubHeading>
             <template v-slot:subHeader>Default Card</template>
             <template v-slot:code>
@@ -37,10 +38,12 @@
           <span v-show="default_card" class="transition-all">
             <DefaultCardsCodeSnippet />
           </span>
+          </section>
           <!-- code snippet end --->
 
           <!-- end default-cards -->
           <!-- CTA card -->
+          <section id="cardWithCta">
           <SubHeading>
             <template v-slot:subHeader>Card with CTA</template>
             <template v-slot:code>
@@ -64,9 +67,11 @@
           <span v-show="cta_card" class="transition-all">
             <CardCtaCodeSnippet />
           </span>
+          </section>
           <!-- code snippet end --->
           <!-- end default-cards -->
           <!-- CTA card with link -->
+          <section id="cardWithLink">
           <SubHeading>
             <template v-slot:subHeader>Card with Link</template>
             <template v-slot:code>
@@ -91,10 +96,12 @@
           <span v-show="link_card" class="transition-all">
             <CardLinkCodeSnippet />
           </span>
+          </section>
           <!-- code snippet end --->
           <!-- end cta cards with link-->
           <!-- User profile cards start -->
           <!-- default user cards -->
+          <section id="defaultUserCard">
           <SubHeading>
             <template v-slot:subHeader>Default user card</template>
             <template v-slot:code>
@@ -118,9 +125,11 @@
           <span v-show="default_user_card" class="transition-all">
             <DefaultUserCardCodeSnippet />
           </span>
+          </section>
           <!-- code snippet end --->
           <!-- enddefault user cards -->
           <!-- type1 user cards -->
+          <section id="type1">
           <SubHeading>
             <template v-slot:subHeader
               >User card
@@ -147,9 +156,11 @@
           <span v-show="user_card1" class="transition-all">
             <UserCard1CodeSnippet />
           </span>
+          </section>
           <!-- code snippet end --->
           <!-- endtype1 user cards -->
           <!--  type2 user cards -->
+          <section id="type2">
           <SubHeading>
             <template v-slot:subHeader
               >User card
@@ -176,9 +187,11 @@
           <span v-show="user_card2" class="transition-all">
             <UserCard2CodeSnippet />
           </span>
+          </section>
           <!-- code snippet end --->
           <!-- end type2 user cards -->
           <!--  type3 user cards -->
+          <section id="type3">
           <SubHeading>
             <template v-slot:subHeader
               >User card
@@ -205,9 +218,11 @@
           <span v-show="user_card3" class="transition-all">
             <UserCard3CodeSnippet />
           </span>
+          </section>
           <!-- code snippet end --->
           <!-- end type3 user cards -->
           <!--  type4 user cards -->
+          <section id="type4">
           <SubHeading>
             <template v-slot:subHeader
               >User card
@@ -234,9 +249,11 @@
           <span v-show="user_card4" class="transition-all">
             <UsrCard4CodeSnippet />
           </span>
+          </section>
           <!-- code snippet end --->
           <!-- end type4 user cards -->
           <!--  type5 user cards -->
+          <section id="type5">
           <SubHeading>
             <template v-slot:subHeader
               >User card
@@ -263,9 +280,11 @@
           <span v-show="user_card5" class="transition-all">
             <UserCard5CodeSnippet />
           </span>
+          </section>
           <!-- code snippet end --->
           <!-- end type5 user cards -->
           <!--  type6 user cards -->
+          <section id="type6">
           <SubHeading>
             <template v-slot:subHeader
               >User card
@@ -292,9 +311,11 @@
           <span v-show="user_card6" class="transition-all">
             <UserCard6CodeSnippet />
           </span>
+          </section>
           <!-- code snippet end --->
           <!-- end type6 user cards -->
           <!--  type7 user cards -->
+          <section id="type7">
           <SubHeading>
             <template v-slot:subHeader
               >User card
@@ -321,9 +342,11 @@
           <span v-show="user_card7" class="transition-all">
             <UserCard7CodeSnippet />
           </span>
+          </section>
           <!-- code snippet end --->
           <!-- end type7 user cards -->
           <!--  type8 user cards -->
+          <section id="type8">
           <SubHeading>
             <template v-slot:subHeader
               >User card
@@ -350,9 +373,11 @@
           <span v-show="user_card8" class="transition-all">
             <UserCard8CodeSnippet />
           </span>
+          </section>
           <!-- code snippet end --->
           <!-- end type8 user cards -->
           <!--  type9 user cards -->
+          <section id="type9">
           <SubHeading>
             <template v-slot:subHeader
               >User card
@@ -379,15 +404,59 @@
           <span v-show="user_card9" class="transition-all">
             <UserCard9CodeSnippet />
           </span>
+          </section>
           <!-- code snippet end --->
           <!-- end type9 user cards -->
         </div>
       </div>
       <!-- right sidebar -->
       <div class="hidden lg:block">
-        <div class="w-40 flex flex-col min-h-screen overflow-y-hidden">
+        <div class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2">
           <div class="overflow-y-auto">
-            <CardInfo />
+            <!-- <AlertInfo /> -->
+            <div class="flex flex-col justify-start items-end space-y-2">
+            <p class="text-normal font-bold">On This Page</p>
+              <button @click="scrollToSection('defaultCard')">
+                Default Card
+              </button>
+              <button @click="scrollToSection('cardWithCta')">
+                CArd With CTA
+              </button>
+              <button @click="scrollToSection('cardWithLink')">
+                Card With Link
+              </button>
+              <button @click="scrollToSection('defaultUserCard')">
+                Default User Card
+              </button>
+              <button @click="scrollToSection('type1')">
+               User Card Type 1
+              </button>
+              <button @click="scrollToSection('type2')">
+                User Card Type 2
+              </button>
+              <button @click="scrollToSection('type3')">
+                User Card Type 3
+              </button>
+              <button @click="scrollToSection('type4')">
+                User Card Type 4
+              </button>
+              <button @click="scrollToSection('type5')">
+               User Card Type 5
+              </button>
+              <button @click="scrollToSection('type6')">
+                User Card Type 6
+              </button>
+              <button @click="scrollToSection('type7')">
+                User Card Type 7
+              </button>
+              <button @click="scrollToSection('type8')">
+                User Card Type 8
+              </button>
+              <button @click="scrollToSection('type9')">
+                User Card Type 9
+              </button>
+                            
+            </div>
           </div>
         </div>
       </div>
@@ -477,6 +546,18 @@ export default {
       user_card8: false,
       user_card9: false,
     };
+  },
+  methods: {
+    scrollToSection(section) {
+      this.activeScrollSection = section;
+      document
+        .getElementById("cardContainer")
+        .scrollTo({
+          top: document.getElementById(`${section}`).offsetTop - 100,
+          behavior: "smooth",
+        });
+      // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
   },
 };
 </script>

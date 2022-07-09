@@ -3,12 +3,13 @@
     <div class="flex p-4 justify-between">
       <!-- content -->
       <div class="flex w-full h-screen px-4 overflow-y-hidden scrollBar">
-        <div class="w-full overflow-y-auto px-4">
+        <div class="w-full overflow-y-auto px-4" id="formContainer">
           <Heading><template> Form </template> </Heading>
           <div class="w-full">
             <p class="text-base">Need to install tailwindcss form plugin</p>
           </div>
           <!--  Form elements -->
+          <section id="formElement">
           <SubHeading>
             <template v-slot:subHeader>Form elements</template>
             <template v-slot:code>
@@ -29,9 +30,11 @@
           <span v-show="form_elements" class="transition-all">
             <FormElementCodeSnippet />
           </span>
+          </section>
           <!-- code snippet end --->
           <!-- end  Form elements -->
           <!-- Default Form -->
+          <section id="defaultform">
           <SubHeading>
             <template v-slot:subHeader>Default Form</template>
             <template v-slot:code>
@@ -52,10 +55,12 @@
           <span v-show="default_form" class="transition-all">
             <DefaultFormCodeSnippet />
           </span>
+          </section>
           <!-- code snippet end --->
           <!-- end default Form -->
 
           <!-- Floating Form -->
+          <section id="floatingForm">
           <SubHeading>
             <template v-slot:subHeader>Floating Form
             </template>
@@ -79,15 +84,29 @@
           <span v-show="floating_form" class="transition-all">
             <FloatinglabelFormCodeSnippet />
           </span>
+          </section>
           <!-- code snippet end --->
           <!-- end Floating Form -->
         </div>
       </div>
       <!-- right sidebar -->
       <div class="hidden lg:block">
-        <div class="w-40 flex flex-col min-h-screen overflow-y-hidden">
+        <div class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2">
           <div class="overflow-y-auto">
-            <FormInfo />
+            <!-- <AlertInfo /> -->
+            <div class="flex flex-col justify-start items-end space-y-2">
+            <p class="text-normal font-bold">On This Page</p>
+              <button @click="scrollToSection('formElement')">
+                Form Element
+              </button>
+              <button @click="scrollToSection('defaultform')">
+                Default Form
+              </button>
+              <button @click="scrollToSection('floatingForm')">
+                Floating Form
+              </button>
+                            
+            </div>
           </div>
         </div>
       </div>
@@ -127,6 +146,18 @@ export default {
       default_form: false,
       floating_form: false,
     };
+  },
+  methods: {
+    scrollToSection(section) {
+      this.activeScrollSection = section;
+      document
+        .getElementById("formContainer")
+        .scrollTo({
+          top: document.getElementById(`${section}`).offsetTop - 100,
+          behavior: "smooth",
+        });
+      // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
   },
 };
 </script>

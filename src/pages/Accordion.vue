@@ -3,7 +3,7 @@
     <div class="flex p-4">
       <!-- content -->
       <div class="flex h-screen px-4 overflow-y-hidden scrollBar">
-        <div class="overflow-y-auto px-4">
+        <div class="overflow-y-auto px-4" id="accordionContainer">
           <Heading />
           <div>
             <p class="text-base">
@@ -14,6 +14,7 @@
             </p>
           </div>
           <!-- icon first accordion -->
+          <section id="iconfirstacco">
           <SubHeading>
             <template v-slot:subHeader
               >Icon First accordion</template
@@ -29,7 +30,9 @@
               </div>
             </template>
           </ComponentPad>
+          </section>
           <!-- Default alert -->
+          <section id="deafultAcco">
           <SubHeading>
             <template v-slot:subHeader
               >Default accordion</template
@@ -42,9 +45,10 @@
                 <AccordionSimple />
               </div>
             </template>
-          </ComponentPad>            
-         
+          </ComponentPad>
+          </section>      
           <!-- Accordion With Icon -->
+          <section id="AccoWIcon">
           <SubHeading>
             <template v-slot:subHeader
               >Accordion with Icon</template
@@ -57,15 +61,16 @@
                 <AccordionWithIcon />
               </div>
             </template>
-          </ComponentPad> 
+          </ComponentPad>
+          </section> 
           <!-- Border accordion -->
+          <section id="borderAcco">
           <SubHeading>
             <template v-slot:subHeader
               >Border accordion</template
             >
           </SubHeading>
           <!-- end border accordion -->
-
           <ComponentPad>
             <template>
               <div class="flex flex-col w-full space-y-5">
@@ -74,8 +79,9 @@
               </div>
             </template>
           </ComponentPad>
-
+          </section>
           <!-- list accordion -->
+          <section id="listAcco">
           <SubHeading>
             <template v-slot:subHeader
               >List Accordion</template
@@ -89,7 +95,9 @@
               </div>
             </template>
           </ComponentPad>
+          </section>
           <!-- open list accordion -->
+          <section id="listOpenUntilClosed">
          <SubHeading>
             <template v-slot:subHeader
               >List-Open-Until-closed-Accordion</template
@@ -103,7 +111,9 @@
               </div>
             </template>
           </ComponentPad>
+          </section>
           <!-- Spaced accordion -->
+          <section id="spacedAcco">
           <SubHeading>
             <template v-slot:subHeader
               >Spaced accordion</template
@@ -117,14 +127,38 @@
               </div>
             </template>
           </ComponentPad>
-          
+          </section>          
         </div>
       </div>
       <!-- right sidebar -->
       <div class="hidden lg:block">
-        <div class="w-40 flex flex-col min-h-screen overflow-y-hidden">
+        <div class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2">
           <div class="overflow-y-auto">
-            <AccordionInfo />
+            <!-- <AlertInfo /> -->
+            <div class="flex flex-col justify-start items-end space-y-2">
+            <p class="text-normal font-bold">On This Page</p>
+              <button @click="scrollToSection('iconfirstacco')">
+                Icon First Accordion
+              </button>
+              <button @click="scrollToSection('deafultAcco')">
+                Default Accordion
+              </button>
+              <button @click="scrollToSection('AccoWIcon')">
+                Accordion With Icon
+              </button>
+              <button @click="scrollToSection('borderAcco')">
+                Border Accordion
+              </button>
+              <button @click="scrollToSection('listAcco')">
+                List Accordion
+              </button>
+              <button @click="scrollToSection('listOpenUntilClosed')" class="text-right">
+                Open-Until-closed-Accordion
+              </button>
+              <button @click="scrollToSection('spacedAcco')">
+                Spaced accordion
+              </button>                            
+            </div>
           </div>
         </div>
       </div>
@@ -167,6 +201,18 @@ export default {
     ListOpenAcco,
     ComponentPad,
     SubHeading
+  },
+  methods: {
+    scrollToSection(section) {
+      this.activeScrollSection = section;
+      document
+        .getElementById("accordionContainer")
+        .scrollTo({
+          top: document.getElementById(`${section}`).offsetTop - 100,
+          behavior: "smooth",
+        });
+      // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
   },
 };
 </script>

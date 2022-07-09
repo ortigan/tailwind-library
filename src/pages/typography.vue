@@ -3,7 +3,7 @@
     <div class="flex p-4">
       <!-- content -->
       <div class="flex h-screen px-4 overflow-y-hidden scrollBar">
-        <div class="overflow-y-auto px-4">
+        <div class="overflow-y-auto px-4" id="typoContainer">
           <Heading
             ><template>
               Typography
@@ -18,6 +18,7 @@
             </p>
           </div>
           <!-- Font size -->
+          <section id="fontSize">
           <SubHeading>
             <template v-slot:subHeader
               >Font size</template
@@ -44,9 +45,11 @@
           <span v-show="font_size" class="transition-all">
           <FontSizeTypoCodeSnippet/>
           </span>
+          </section>
           <!-- end font size -->
           
           <!-- Font weight -->
+          <section id="fontWeight">
           <SubHeading>
             <template v-slot:subHeader
               >Font weight</template
@@ -73,9 +76,11 @@
           <!-- code snippet --->
           <span v-show="font_weight" class="transition-all">
           <FontWeightTypoCodeSnippet/>          
-          </span>          
+          </span> 
+          </section>         
           <!-- end code snippet -->
           <!-- Tracking -->
+          <section id="tracking">
           <SubHeading>
             <template v-slot:subHeader
               >Tracking</template
@@ -102,10 +107,12 @@
           <!-- code snippet --->   
           <span v-show="tracking_typo" class="transition-all">
           <TrackingTypoCodeSnippet/>          
-          </span>       
+          </span> 
+          </section>      
           <!-- end code snippet -->
           <!-- end Tracking -->
           <!-- Text Decoration  -->
+          <section id="textDecoration">
           <SubHeading>
             <template v-slot:subHeader
               >Text Decoration </template
@@ -132,10 +139,12 @@
           <!-- code snippet ---> 
           <span v-show="text_deco" class="transition-all">
           <TextDecorationCodeSnippet/>          
-          </span>         
+          </span>
+          </section>         
           <!-- end of code snippet -->
           <!-- end Text Decoration  -->
           <!-- Text Decoration thickness -->
+          <section id="textDecorationThickness">
           <SubHeading>
             <template v-slot:subHeader
               >Text Decoration thickness</template
@@ -162,7 +171,8 @@
           <!-- code snippet --->
           <span v-show="text_deco_thick" class="transition-all">
           <TextDecorationThicknessCodeSnippet/>          
-          </span>          
+          </span>
+          </section>          
           <!-- end of code snippet -->
           <!-- end Text Decoration thickness -->
          
@@ -170,9 +180,28 @@
       </div>
       <!-- right sidebar -->
       <div class="hidden lg:block">
-        <div class="w-40 flex flex-col min-h-screen overflow-y-hidden">
+        <div class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2">
           <div class="overflow-y-auto">
-            <TypographyInfo />
+            <!-- <AlertInfo /> -->
+            <div class="flex flex-col justify-start items-end space-y-2">
+            <p class="text-normal font-bold">On This Page</p>
+              <button @click="scrollToSection('fontSize')">
+                Font Size
+              </button>
+              <button @click="scrollToSection('fontWeight')">
+                Font Weight
+              </button>
+              <button @click="scrollToSection('tracking')">
+                Tracking
+              </button>
+              <button @click="scrollToSection('textDecoration')">
+                Text Decoration
+              </button>
+              <button @click="scrollToSection('textDecorationThickness')">
+                Text Deco-Thickness
+              </button>
+                            
+            </div>
           </div>
         </div>
       </div>
@@ -222,6 +251,18 @@ export default {
          text_deco: false,
          text_deco_thick: false,
     };
+  },
+  methods: {
+    scrollToSection(section) {
+      this.activeScrollSection = section;
+      document
+        .getElementById("typoContainer")
+        .scrollTo({
+          top: document.getElementById(`${section}`).offsetTop - 100,
+          behavior: "smooth",
+        });
+      // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
   },
 };
 </script>

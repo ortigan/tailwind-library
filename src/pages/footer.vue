@@ -3,12 +3,8 @@
     <div class="flex p-4 pb-24">
       <!-- content -->
       <div class="flex h-screen px-4 overflow-y-hidden scrollBar">
-        <div class="overflow-y-auto px-4">
-          <Heading
-            ><template>
-              Footer
-            </template>
-          </Heading>
+        <div class="overflow-y-auto px-4" id="footerContainer">
+          <Heading><template> Footer </template> </Heading>
           <div>
             <p class="text-base">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -18,143 +14,155 @@
             </p>
           </div>
           <!-- Default Footer -->
-          <SubHeading>
-            <template v-slot:subHeader
-              >Default Footer</template
-            >
-            <template v-slot:code>
-              <ShowCodeButton
-                v-if="!default_footer"
-                @click.native="default_footer = true"
-              ></ShowCodeButton>
-              <HideCodeButton
-                v-else
-                @click.native="default_footer = false"
-              ></HideCodeButton>
-            </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
-          </SubHeading>
-          <ComponentPad>
-            <template>
-              <DefaultFooter />
-            </template>
-          </ComponentPad>
-          <!-- code snippet -->
-          <span v-show="default_footer" class="transition-all">
-            <DefaultFooterCodeSnippet />
-          </span>
+          <section id="defaultFooter">
+            <SubHeading>
+              <template v-slot:subHeader>Default Footer</template>
+              <template v-slot:code>
+                <ShowCodeButton
+                  v-if="!default_footer"
+                  @click.native="default_footer = true"
+                ></ShowCodeButton>
+                <HideCodeButton
+                  v-else
+                  @click.native="default_footer = false"
+                ></HideCodeButton>
+              </template>
+              <template v-slot:copy><CopyButton></CopyButton> </template>
+            </SubHeading>
+            <ComponentPad>
+              <template>
+                <DefaultFooter />
+              </template>
+            </ComponentPad>
+            <!-- code snippet -->
+            <span v-show="default_footer" class="transition-all">
+              <DefaultFooterCodeSnippet />
+            </span>
+          </section>
           <!-- code snippet end -->
           <!-- end default Footer -->
 
           <!-- Footer with logo section -->
-          <SubHeading>
-            <template v-slot:subHeader
-              >Footer logo aside</template
-            >
-             <template v-slot:code>
-              <ShowCodeButton
-                v-if="!logoaside_footer"
-                @click.native="logoaside_footer = true"
-              ></ShowCodeButton>
-              <HideCodeButton
-                v-else
-                @click.native="logoaside_footer = false"
-              ></HideCodeButton>
-            </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
-          </SubHeading>
-          <ComponentPad>
-            <template>
-              <LogoSectionFooter />
-            </template>
-          </ComponentPad>
-          <!-- code snippet -->
-                    <span v-show="logoaside_footer" class="transition-all">
-
-          <LogoSectionFooterCodeSnippet />
-                    </span>
+          <section id="footerLogoAside">
+            <SubHeading>
+              <template v-slot:subHeader>Footer logo aside</template>
+              <template v-slot:code>
+                <ShowCodeButton
+                  v-if="!logoaside_footer"
+                  @click.native="logoaside_footer = true"
+                ></ShowCodeButton>
+                <HideCodeButton
+                  v-else
+                  @click.native="logoaside_footer = false"
+                ></HideCodeButton>
+              </template>
+              <template v-slot:copy><CopyButton></CopyButton> </template>
+            </SubHeading>
+            <ComponentPad>
+              <template>
+                <LogoSectionFooter />
+              </template>
+            </ComponentPad>
+            <!-- code snippet -->
+            <span v-show="logoaside_footer" class="transition-all">
+              <LogoSectionFooterCodeSnippet />
+            </span>
+          </section>
           <!-- code snippet end -->
           <!-- end Footer with logo section -->
           <!-- Footer with logo section -->
-          <SubHeading>
-            <template v-slot:subHeader
-              >Footer with 2 rows</template
-            >
-            <template v-slot:code>
-              <ShowCodeButton
-                v-if="!tworows_footer"
-                @click.native="tworows_footer = true"
-              ></ShowCodeButton>
-              <HideCodeButton
-                v-else
-                @click.native="tworows_footer = false"
-              ></HideCodeButton>
-            </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
-          </SubHeading>
-          <ComponentPad>
-            <template>
-              <TwoRowFooter />
-            </template>
-          </ComponentPad>
-          <!-- code snippet -->
-                    <span v-show="tworows_footer" class="transition-all">
-          <TwoRowFooterCodeSnippet />
-                    </span>
+          <section id="footerWith2rows">
+            <SubHeading>
+              <template v-slot:subHeader>Footer with 2 rows</template>
+              <template v-slot:code>
+                <ShowCodeButton
+                  v-if="!tworows_footer"
+                  @click.native="tworows_footer = true"
+                ></ShowCodeButton>
+                <HideCodeButton
+                  v-else
+                  @click.native="tworows_footer = false"
+                ></HideCodeButton>
+              </template>
+              <template v-slot:copy><CopyButton></CopyButton> </template>
+            </SubHeading>
+            <ComponentPad>
+              <template>
+                <TwoRowFooter />
+              </template>
+            </ComponentPad>
+            <!-- code snippet -->
+            <span v-show="tworows_footer" class="transition-all">
+              <TwoRowFooterCodeSnippet />
+            </span>
+          </section>
           <!-- code snippet end -->
           <!-- end Footer with logo section -->
           <!-- Footer with logo section -->
-          <SubHeading>
-            <template v-slot:subHeader
-              >Appsmith's footer</template
-            >
-             <template v-slot:code>
-              <ShowCodeButton
-                v-if="!appsmith_footer"
-                @click.native="appsmith_footer = true"
-              ></ShowCodeButton>
-              <HideCodeButton
-                v-else
-                @click.native="appsmith_footer = false"
-              ></HideCodeButton>
-            </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
-          </SubHeading>
-          <div>
-            <p class="text-base pb-2 font-primary">
-              Footer desgin of
-              <a href="https://www.appsmith.com/" target="_blank" class="text-blue-500">
-                appsmith</a
-              >
-              website
-            </p>
-          </div>
-          <ComponentPad>
-            <template>
-              <AppsmithFooter />
-            </template>
-          </ComponentPad>
-          <!-- code snippet -->
-                    <span v-show="appsmith_footer" class="transition-all">
-          <AppsmithFooterCodeSnippet />
-                    </span>
+          <section id="appsmithFooter">
+            <SubHeading>
+              <template v-slot:subHeader>Appsmith's footer</template>
+              <template v-slot:code>
+                <ShowCodeButton
+                  v-if="!appsmith_footer"
+                  @click.native="appsmith_footer = true"
+                ></ShowCodeButton>
+                <HideCodeButton
+                  v-else
+                  @click.native="appsmith_footer = false"
+                ></HideCodeButton>
+              </template>
+              <template v-slot:copy><CopyButton></CopyButton> </template>
+            </SubHeading>
+            <div>
+              <p class="text-base pb-2 font-primary">
+                Footer desgin of
+                <a
+                  href="https://www.appsmith.com/"
+                  target="_blank"
+                  class="text-blue-500"
+                >
+                  appsmith</a
+                >
+                website
+              </p>
+            </div>
+            <ComponentPad>
+              <template>
+                <AppsmithFooter />
+              </template>
+            </ComponentPad>
+            <!-- code snippet -->
+            <span v-show="appsmith_footer" class="transition-all">
+              <AppsmithFooterCodeSnippet />
+            </span>
+          </section>
           <!-- code snippet end -->
           <!-- end Footer with logo section -->
         </div>
       </div>
       <!-- right sidebar -->
       <div class="hidden lg:block">
-        <div class="w-40 flex flex-col min-h-screen overflow-y-hidden">
+        <div
+          class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2"
+        >
           <div class="overflow-y-auto">
-            <FooterInfo />
+            <!-- <AlertInfo /> -->
+            <div class="flex flex-col justify-start items-end space-y-2">
+              <p class="text-normal font-bold">On This Page</p>
+              <button @click="scrollToSection('defaultFooter')">
+                Default Footer
+              </button>
+              <button @click="scrollToSection('footerLogoAside')">
+                Footer Logo Aside
+              </button>
+              <button @click="scrollToSection('footerWith2rows')">
+                Footer With 2 rows
+              </button>
+              <button @click="scrollToSection('appsmithFooter')">
+                Appsmith Footer
+              </button>              
+            </div>
           </div>
         </div>
       </div>
@@ -163,7 +171,6 @@
 </template>
 
 <script>
-
 import Heading from "../components/Headers/Heading.vue";
 import SubHeading from "../components/Headers/SubHeading.vue";
 import FooterInfo from "../components/Footer/FooterInfo.vue";
@@ -192,16 +199,25 @@ export default {
     AppsmithFooterCodeSnippet,
     TwoRowFooterCodeSnippet,
     LogoSectionFooterCodeSnippet,
-
   },
-   data(){
-    return{
+  data() {
+    return {
       default_footer: false,
       logoaside_footer: false,
       tworows_footer: false,
       appsmith_footer: false,
-    }
-}
+    };
+  },
+  methods: {
+    scrollToSection(section) {
+      this.activeScrollSection = section;
+      document.getElementById("footerContainer").scrollTo({
+        top: document.getElementById(`${section}`).offsetTop - 100,
+        behavior: "smooth",
+      });
+      // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+  },
 };
 </script>
 

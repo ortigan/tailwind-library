@@ -3,12 +3,8 @@
     <div class="flex p-4">
       <!-- content -->
       <div class="flex h-screen px-4 overflow-y-hidden scrollBar">
-        <div class="overflow-y-auto px-4 mb-12">
-          <Heading
-            ><template>
-              Avatar
-            </template>
-          </Heading>
+        <div class="overflow-y-auto px-4 mb-12" id="avatarContainer">
+          <Heading><template> Avatar </template> </Heading>
           <div>
             <p class="text-base">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -18,384 +14,408 @@
             </p>
           </div>
           <!-- Default avatar -->
-          <SubHeading>
-            <template v-slot:subHeader
-              >Default avatar</template
-            >
-            <template v-slot:code>
-              <ShowCodeButton
-                v-if="!default_avatar"
-                @click.native="default_avatar = true"
-              ></ShowCodeButton>
-              <HideCodeButton
-                v-else
-                @click.native="default_avatar = false"
-              ></HideCodeButton>
-            </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
-          </SubHeading>
-          <div class="pb-4">
-            <p>In the fifth component <a href="https://avatars.dicebear.com/"> DiceBear avatars </a> are used</p>
-          </div>
-          <ComponentPad>
-            <template>
-              <DefaultAvatar />
-            </template>
-          </ComponentPad>
-          <span v-show="default_avatar" class="transition-all">
-            <DefaultAvatarSnippet />
-          </span>
+          <section id="defaultAvatar">
+            <SubHeading>
+              <template v-slot:subHeader>Default avatar</template>
+              <template v-slot:code>
+                <ShowCodeButton
+                  v-if="!default_avatar"
+                  @click.native="default_avatar = true"
+                ></ShowCodeButton>
+                <HideCodeButton
+                  v-else
+                  @click.native="default_avatar = false"
+                ></HideCodeButton>
+              </template>
+              <template v-slot:copy><CopyButton></CopyButton> </template>
+            </SubHeading>
+            <div class="pb-4">
+              <p>
+                In the fifth component
+                <a href="https://avatars.dicebear.com/"> DiceBear avatars </a>
+                are used
+              </p>
+            </div>
+            <ComponentPad>
+              <template>
+                <DefaultAvatar />
+              </template>
+            </ComponentPad>
+            <span v-show="default_avatar" class="transition-all">
+              <DefaultAvatarSnippet />
+            </span>
+          </section>
           <!-- end default avatar -->
           <!-- Default Sizes -->
-          <SubHeading>
-            <template v-slot:subHeader
-              >Avatar sizes</template
-            >
-             <template v-slot:code>
-              <ShowCodeButton
-                v-if="!size_avatar"
-                @click.native="size_avatar = true"
-              ></ShowCodeButton>
-              <HideCodeButton
-                v-else
-                @click.native="size_avatar = false"
-              ></HideCodeButton>
-            </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
-          </SubHeading>
-          <div class="pb-4">
-            <p>Use height and width classes from <a href="https://tailwindcss.com/" class="text-sky-700">tailwindcss</a> for variable size components</p>
-          </div>
-          <ComponentPad>
-            <template>
-              <SizeAvatar />
-            </template>
-          </ComponentPad>
-           <span v-show="size_avatar" class="transition-all">
-            <SizeAvatarSnippet />
-          </span>
+          <section id="avatarSize">
+            <SubHeading>
+              <template v-slot:subHeader>Avatar sizes</template>
+              <template v-slot:code>
+                <ShowCodeButton
+                  v-if="!size_avatar"
+                  @click.native="size_avatar = true"
+                ></ShowCodeButton>
+                <HideCodeButton
+                  v-else
+                  @click.native="size_avatar = false"
+                ></HideCodeButton>
+              </template>
+              <template v-slot:copy><CopyButton></CopyButton> </template>
+            </SubHeading>
+            <div class="pb-4">
+              <p>
+                Use height and width classes from
+                <a href="https://tailwindcss.com/" class="text-sky-700"
+                  >tailwindcss</a
+                >
+                for variable size components
+              </p>
+            </div>
+            <ComponentPad>
+              <template>
+                <SizeAvatar />
+              </template>
+            </ComponentPad>
+            <span v-show="size_avatar" class="transition-all">
+              <SizeAvatarSnippet />
+            </span>
+          </section>
           <!-- end  avatar sizes -->
           <!-- Presence avatar -->
-          <SubHeading>
-            <template v-slot:subHeader
-              >Avatar with presence indicator</template
-            >
-            <template v-slot:code>
-              <ShowCodeButton
-                v-if="!presence_avatar"
-                @click.native="presence_avatar = true"
-              ></ShowCodeButton>
-              <HideCodeButton
-                v-else
-                @click.native="presence_avatar = false"
-              ></HideCodeButton>
-            </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
-          </SubHeading>
-          <ComponentPad>
-            <template>
-              <PresenceAvatar />
-            </template>
-          </ComponentPad>
-           <span v-show="presence_avatar" class="transition-all">
-            <PresenceAvatarSnippet />
-          </span>
+          <section id="avatarWithIndicator">
+            <SubHeading>
+              <template v-slot:subHeader
+                >Avatar with presence indicator</template
+              >
+              <template v-slot:code>
+                <ShowCodeButton
+                  v-if="!presence_avatar"
+                  @click.native="presence_avatar = true"
+                ></ShowCodeButton>
+                <HideCodeButton
+                  v-else
+                  @click.native="presence_avatar = false"
+                ></HideCodeButton>
+              </template>
+              <template v-slot:copy><CopyButton></CopyButton> </template>
+            </SubHeading>
+            <ComponentPad>
+              <template>
+                <PresenceAvatar />
+              </template>
+            </ComponentPad>
+            <span v-show="presence_avatar" class="transition-all">
+              <PresenceAvatarSnippet />
+            </span>
+          </section>
           <!-- end presence avatar -->
           <!-- Circle avatar -->
-          <SubHeading>
-            <template v-slot:subHeader
-              >Circle</template
-            >
-            <template v-slot:code>
-              <ShowCodeButton
-                v-if="!circle_avatar"
-                @click.native="circle_avatar = true"
-              ></ShowCodeButton>
-              <HideCodeButton
-                v-else
-                @click.native="circle_avatar = false"
-              ></HideCodeButton>
-            </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
-          </SubHeading>
-          <ComponentPad>
-            <template>
-              <CircleAvatar />
-            </template>
-          </ComponentPad>
+          <section id="circleAvatar">
+            <SubHeading>
+              <template v-slot:subHeader>Circle</template>
+              <template v-slot:code>
+                <ShowCodeButton
+                  v-if="!circle_avatar"
+                  @click.native="circle_avatar = true"
+                ></ShowCodeButton>
+                <HideCodeButton
+                  v-else
+                  @click.native="circle_avatar = false"
+                ></HideCodeButton>
+              </template>
+              <template v-slot:copy><CopyButton></CopyButton> </template>
+            </SubHeading>
+            <ComponentPad>
+              <template>
+                <CircleAvatar />
+              </template>
+            </ComponentPad>
             <span v-show="circle_avatar" class="transition-all">
-            <CircleAvatarSnippet />
-          </span>
+              <CircleAvatarSnippet />
+            </span>
+          </section>
           <!-- end Circle avatar -->
           <!-- Square avatar -->
-          <SubHeading>
-            <template v-slot:subHeader
-              >Square</template
-            >
-            <template v-slot:code>
-              <ShowCodeButton
-                v-if="!square_avatar"
-                @click.native="square_avatar = true"
-              ></ShowCodeButton>
-              <HideCodeButton
-                v-else
-                @click.native="square_avatar = false"
-              ></HideCodeButton>
-            </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
-          </SubHeading>
-          <ComponentPad>
-            <template>
-              <SquareAvatar />
-            </template>
-          </ComponentPad>
-           <span v-show="square_avatar" class="transition-all">
-            <SquareAvatarSnippet />
-          </span>
+          <section id="squareAvatar">
+            <SubHeading>
+              <template v-slot:subHeader>Square</template>
+              <template v-slot:code>
+                <ShowCodeButton
+                  v-if="!square_avatar"
+                  @click.native="square_avatar = true"
+                ></ShowCodeButton>
+                <HideCodeButton
+                  v-else
+                  @click.native="square_avatar = false"
+                ></HideCodeButton>
+              </template>
+              <template v-slot:copy><CopyButton></CopyButton> </template>
+            </SubHeading>
+            <ComponentPad>
+              <template>
+                <SquareAvatar />
+              </template>
+            </ComponentPad>
+            <span v-show="square_avatar" class="transition-all">
+              <SquareAvatarSnippet />
+            </span>
+          </section>
           <!-- end Square avatar -->
           <!-- PresenceRing avatar -->
-          <SubHeading>
-            <template v-slot:subHeader
-              >Avatar with presence Ring</template
-            >
-             <template v-slot:code>
-              <ShowCodeButton
-                v-if="!presencering_avatar"
-                @click.native="presencering_avatar = true"
-              ></ShowCodeButton>
-              <HideCodeButton
-                v-else
-                @click.native="presencering_avatar = false"
-              ></HideCodeButton>
-            </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
-          </SubHeading>
-          <ComponentPad>
-            <template>
-              <PresenceRingAvatar />
-            </template>
-          </ComponentPad>
+          <section id="avatarWithRing">
+            <SubHeading>
+              <template v-slot:subHeader>Avatar with presence Ring</template>
+              <template v-slot:code>
+                <ShowCodeButton
+                  v-if="!presencering_avatar"
+                  @click.native="presencering_avatar = true"
+                ></ShowCodeButton>
+                <HideCodeButton
+                  v-else
+                  @click.native="presencering_avatar = false"
+                ></HideCodeButton>
+              </template>
+              <template v-slot:copy><CopyButton></CopyButton> </template>
+            </SubHeading>
+            <ComponentPad>
+              <template>
+                <PresenceRingAvatar />
+              </template>
+            </ComponentPad>
             <span v-show="presencering_avatar" class="transition-all">
-            <PresenceRingAvatarSnippet />
-          </span>
+              <PresenceRingAvatarSnippet />
+            </span>
+          </section>
           <!-- end presence Ring avatar -->
           <!-- Color avatar -->
-          <SubHeading>
-            <template v-slot:subHeader
-              >Color</template
-            >
-             <template v-slot:code>
-              <ShowCodeButton
-                v-if="!color_avatar"
-                @click.native="color_avatar = true"
-              ></ShowCodeButton>
-              <HideCodeButton
-                v-else
-                @click.native="color_avatar = false"
-              ></HideCodeButton>
-            </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
-          </SubHeading>
-          <ComponentPad>
-            <template>
-              <ColorAvatar />
-            </template>
-          </ComponentPad>
-          <span v-show="color_avatar" class="transition-all">
-            <ColorAvatarSnippet />
-          </span>
+          <section id="colorAvatar">
+            <SubHeading>
+              <template v-slot:subHeader>Color</template>
+              <template v-slot:code>
+                <ShowCodeButton
+                  v-if="!color_avatar"
+                  @click.native="color_avatar = true"
+                ></ShowCodeButton>
+                <HideCodeButton
+                  v-else
+                  @click.native="color_avatar = false"
+                ></HideCodeButton>
+              </template>
+              <template v-slot:copy><CopyButton></CopyButton> </template>
+            </SubHeading>
+            <ComponentPad>
+              <template>
+                <ColorAvatar />
+              </template>
+            </ComponentPad>
+            <span v-show="color_avatar" class="transition-all">
+              <ColorAvatarSnippet />
+            </span>
+          </section>
           <!-- end Color avatar -->
           <!-- Badge avatar -->
-          <SubHeading>
-            <template v-slot:subHeader
-              >Badge</template
-            >
-            <template v-slot:code>
-              <ShowCodeButton
-                v-if="!badge_avatar"
-                @click.native="badge_avatar = true"
-              ></ShowCodeButton>
-              <HideCodeButton
-                v-else
-                @click.native="badge_avatar = false"
-              ></HideCodeButton>
-            </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
-          </SubHeading>
-          <ComponentPad>
-            <template>
-              <BadgeAvatar />
-            </template>
-          </ComponentPad>
-       <span v-show="badge_avatar" class="transition-all">
-            <BadgeAvatarSnippet />
-          </span>
+          <section id="badgeAvatar">
+            <SubHeading>
+              <template v-slot:subHeader>Badge</template>
+              <template v-slot:code>
+                <ShowCodeButton
+                  v-if="!badge_avatar"
+                  @click.native="badge_avatar = true"
+                ></ShowCodeButton>
+                <HideCodeButton
+                  v-else
+                  @click.native="badge_avatar = false"
+                ></HideCodeButton>
+              </template>
+              <template v-slot:copy><CopyButton></CopyButton> </template>
+            </SubHeading>
+            <ComponentPad>
+              <template>
+                <BadgeAvatar />
+              </template>
+            </ComponentPad>
+            <span v-show="badge_avatar" class="transition-all">
+              <BadgeAvatarSnippet />
+            </span>
+          </section>
           <!-- end Badge avatar -->
           <!-- Shadows avatar -->
-          <SubHeading>
-            <template v-slot:subHeader
-              >Shadows</template
-            >
-            <template v-slot:code>
-              <ShowCodeButton
-                v-if="!shadow_avatar"
-                @click.native="shadow_avatar = true"
-              ></ShowCodeButton>
-              <HideCodeButton
-                v-else
-                @click.native="shadow_avatar = false"
-              ></HideCodeButton>
-            </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
-          </SubHeading>
-          <ComponentPad>
-            <template>
-              <ShadowsAvatar />
-            </template>
-          </ComponentPad>
-           <span v-show="shadow_avatar" class="transition-all">
-            <ShadowAvatarSnippet />
-          </span>
-     
+          <section id="shadowAvatar">
+            <SubHeading>
+              <template v-slot:subHeader>Shadows</template>
+              <template v-slot:code>
+                <ShowCodeButton
+                  v-if="!shadow_avatar"
+                  @click.native="shadow_avatar = true"
+                ></ShowCodeButton>
+                <HideCodeButton
+                  v-else
+                  @click.native="shadow_avatar = false"
+                ></HideCodeButton>
+              </template>
+              <template v-slot:copy><CopyButton></CopyButton> </template>
+            </SubHeading>
+            <ComponentPad>
+              <template>
+                <ShadowsAvatar />
+              </template>
+            </ComponentPad>
+            <span v-show="shadow_avatar" class="transition-all">
+              <ShadowAvatarSnippet />
+            </span>
+          </section>
           <!-- end Shadows avatar -->
           <!-- Group 1 avatar -->
-          <SubHeading>
-            <template v-slot:subHeader
-              >Group 1</template
-            >
-            <template v-slot:code>
-              <ShowCodeButton
-                v-if="!group1_avatar"
-                @click.native="group1_avatar = true"
-              ></ShowCodeButton>
-              <HideCodeButton
-                v-else
-                @click.native="group1_avatar = false"
-              ></HideCodeButton>
-            </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
-          </SubHeading>
-          <ComponentPad>
-            <template>
-              <GroupAvatar1 />
-            </template>
-          </ComponentPad>
-           <span v-show="group1_avatar" class="transition-all">
-            <Group1AvatarSnippet />
-          </span>
-     
+          <section id="group1">
+            <SubHeading>
+              <template v-slot:subHeader>Group 1</template>
+              <template v-slot:code>
+                <ShowCodeButton
+                  v-if="!group1_avatar"
+                  @click.native="group1_avatar = true"
+                ></ShowCodeButton>
+                <HideCodeButton
+                  v-else
+                  @click.native="group1_avatar = false"
+                ></HideCodeButton>
+              </template>
+              <template v-slot:copy><CopyButton></CopyButton> </template>
+            </SubHeading>
+            <ComponentPad>
+              <template>
+                <GroupAvatar1 />
+              </template>
+            </ComponentPad>
+            <span v-show="group1_avatar" class="transition-all">
+              <Group1AvatarSnippet />
+            </span>
+          </section>
           <!-- end Group 1 avatar -->
           <!-- Group 2 avatar -->
-          <SubHeading>
-            <template v-slot:subHeader
-              >Group 2</template
-            >
-            <template v-slot:code>
-              <ShowCodeButton
-                v-if="!group2_avatar"
-                @click.native="group2_avatar = true"
-              ></ShowCodeButton>
-              <HideCodeButton
-                v-else
-                @click.native="group2_avatar = false"
-              ></HideCodeButton>
-            </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
-          </SubHeading>
-          <ComponentPad>
-            <template>
-              <GroupAvatar2 />
-            </template>
-          </ComponentPad>
-           <span v-show="group2_avatar" class="transition-all">
-            <Group2AvatarSnippet />
-          </span>
+          <section id="group2">
+            <SubHeading>
+              <template v-slot:subHeader>Group 2</template>
+              <template v-slot:code>
+                <ShowCodeButton
+                  v-if="!group2_avatar"
+                  @click.native="group2_avatar = true"
+                ></ShowCodeButton>
+                <HideCodeButton
+                  v-else
+                  @click.native="group2_avatar = false"
+                ></HideCodeButton>
+              </template>
+              <template v-slot:copy><CopyButton></CopyButton> </template>
+            </SubHeading>
+            <ComponentPad>
+              <template>
+                <GroupAvatar2 />
+              </template>
+            </ComponentPad>
+            <span v-show="group2_avatar" class="transition-all">
+              <Group2AvatarSnippet />
+            </span>
+          </section>
           <!-- end Group 2 avatar -->
           <!-- Info avatar -->
-          <SubHeading>
-            <template v-slot:subHeader
-              >Info</template
-            >
-            <template v-slot:code>
-              <ShowCodeButton
-                v-if="!info_avatar"
-                @click.native="info_avatar = true"
-              ></ShowCodeButton>
-              <HideCodeButton
-                v-else
-                @click.native="info_avatar = false"
-              ></HideCodeButton>
-            </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
-          </SubHeading>
-          <ComponentPad>
-            <template>
-              <InfoAvatar />
-            </template>
-          </ComponentPad>
-           <span v-show="info_avatar" class="transition-all">
-            <InfoAvatarSnippet />
-          </span>
+          <section id="infoAvatar">
+            <SubHeading>
+              <template v-slot:subHeader>Info</template>
+              <template v-slot:code>
+                <ShowCodeButton
+                  v-if="!info_avatar"
+                  @click.native="info_avatar = true"
+                ></ShowCodeButton>
+                <HideCodeButton
+                  v-else
+                  @click.native="info_avatar = false"
+                ></HideCodeButton>
+              </template>
+              <template v-slot:copy><CopyButton></CopyButton> </template>
+            </SubHeading>
+            <ComponentPad>
+              <template>
+                <InfoAvatar />
+              </template>
+            </ComponentPad>
+            <span v-show="info_avatar" class="transition-all">
+              <InfoAvatarSnippet />
+            </span>
+          </section>
           <!-- end Info avatar -->
           <!-- DropDown Avatar avatar -->
-          <SubHeading>
-            <template v-slot:subHeader
-              >Drop Down</template
-            >
-            <template v-slot:code>
-              <ShowCodeButton
-                v-if="!dropdown_avatar"
-                @click.native="dropdown_avatar = true"
-              ></ShowCodeButton>
-              <HideCodeButton
-                v-else
-                @click.native="dropdown_avatar = false"
-              ></HideCodeButton>
-            </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
-          </SubHeading>
-          <ComponentPad>
-            <template>
-              <DropDownAvatar />
-            </template>
-          </ComponentPad>
-          <span v-show="dropdown_avatar" class="transition-all">
-            <DropDownAvatarSnippet />
-          </span>
+          <section id="dropdownAvatar">
+            <SubHeading>
+              <template v-slot:subHeader>Drop Down</template>
+              <template v-slot:code>
+                <ShowCodeButton
+                  v-if="!dropdown_avatar"
+                  @click.native="dropdown_avatar = true"
+                ></ShowCodeButton>
+                <HideCodeButton
+                  v-else
+                  @click.native="dropdown_avatar = false"
+                ></HideCodeButton>
+              </template>
+              <template v-slot:copy><CopyButton></CopyButton> </template>
+            </SubHeading>
+            <ComponentPad>
+              <template>
+                <DropDownAvatar />
+              </template>
+            </ComponentPad>
+            <span v-show="dropdown_avatar" class="transition-all">
+              <DropDownAvatarSnippet />
+            </span>
+          </section>
           <!-- end DropDownAvatar avatar -->
         </div>
       </div>
       <!-- right sidebar -->
       <div class="hidden lg:block">
-        <div class="w-40 flex flex-col min-h-screen overflow-y-hidden">
+        <div
+          class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2"
+        >
           <div class="overflow-y-auto">
-            <AvatarInfo />
+            <!-- <AlertInfo /> -->
+            <div class="flex flex-col justify-start items-end space-y-2">
+              <p class="text-normal font-bold">On This Page</p>
+              <button @click="scrollToSection('defaultAvatar')">
+                Default Avatar
+              </button>
+              <button @click="scrollToSection('avatarSize')">
+                Avatar Sizes
+              </button>
+              <button @click="scrollToSection('avatarWithIndicator')">
+                Avatar with Indicator
+              </button>
+              <button @click="scrollToSection('circleAvatar')">
+                Circle Avatar
+              </button>
+              <button @click="scrollToSection('squareAvatar')">
+                Square Avatar
+              </button>
+              <button @click="scrollToSection('avatarWithRing')">
+                Avatar with Ring
+              </button>
+              <button @click="scrollToSection('colorAvatar')">
+                Color Avatar
+              </button>
+              <button @click="scrollToSection('badgeAvatar')">
+                Badge Avatar
+              </button>
+              <button @click="scrollToSection('shadowAvatar')">
+                Shadows Avatar
+              </button>
+              <button @click="scrollToSection('group1')">Group 1 Avatar</button>
+              <button @click="scrollToSection('group2')">Group 2 Avatar</button>
+              <button @click="scrollToSection('infoAvatar')">
+                Info Avatar
+              </button>
+              <button @click="scrollToSection('dropdownAvatar')">
+                Drop Down Avatar
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -421,19 +441,19 @@ import GroupAvatar1 from "../components/Avatar/AvatarGroup/GroupAvatar1.vue";
 import GroupAvatar2 from "../components/Avatar/AvatarGroup/GroupAvatar2.vue";
 import InfoAvatar from "../components/Avatar/InfoAvatar.vue";
 import DropDownAvatar from "../components/Avatar/DropDownAvatar.vue";
-import DefaultAvatarSnippet  from "../components/Avatar/CodeSnippet/DefaultAvatarSnippet.vue";
-import SquareAvatarSnippet  from "../components/Avatar/CodeSnippet/SquareAvatarSnippet.vue";
-import PresenceRingAvatarSnippet  from "../components/Avatar/CodeSnippet/PresenceRingAvatarSnippet.vue";
-import CircleAvatarSnippet  from "../components/Avatar/CodeSnippet/CircleAvatarSnippet.vue";
-import SizeAvatarSnippet  from "../components/Avatar/CodeSnippet/SizeAvatarSnippet.vue";
-import PresenceAvatarSnippet  from "../components/Avatar/CodeSnippet/PresenceAvatarSnippet.vue";
-import ColorAvatarSnippet  from "../components/Avatar/CodeSnippet/ColorAvatarSnippet.vue";
-import BadgeAvatarSnippet  from "../components/Avatar/CodeSnippet/BadgeAvatarSnippet.vue";
-import ShadowAvatarSnippet  from "../components/Avatar/CodeSnippet/ShadowAvatarSnippet.vue";
-import Group1AvatarSnippet  from "../components/Avatar/CodeSnippet/Group1AvatarSnippet.vue";
-import Group2AvatarSnippet  from "../components/Avatar/CodeSnippet/Group2AvatarSnippet.vue";
-import InfoAvatarSnippet  from "../components/Avatar/CodeSnippet/InfoAvatarSnippet.vue";
-import DropDownAvatarSnippet  from "../components/Avatar/CodeSnippet/DropDownAvatarSnippet.vue";
+import DefaultAvatarSnippet from "../components/Avatar/CodeSnippet/DefaultAvatarSnippet.vue";
+import SquareAvatarSnippet from "../components/Avatar/CodeSnippet/SquareAvatarSnippet.vue";
+import PresenceRingAvatarSnippet from "../components/Avatar/CodeSnippet/PresenceRingAvatarSnippet.vue";
+import CircleAvatarSnippet from "../components/Avatar/CodeSnippet/CircleAvatarSnippet.vue";
+import SizeAvatarSnippet from "../components/Avatar/CodeSnippet/SizeAvatarSnippet.vue";
+import PresenceAvatarSnippet from "../components/Avatar/CodeSnippet/PresenceAvatarSnippet.vue";
+import ColorAvatarSnippet from "../components/Avatar/CodeSnippet/ColorAvatarSnippet.vue";
+import BadgeAvatarSnippet from "../components/Avatar/CodeSnippet/BadgeAvatarSnippet.vue";
+import ShadowAvatarSnippet from "../components/Avatar/CodeSnippet/ShadowAvatarSnippet.vue";
+import Group1AvatarSnippet from "../components/Avatar/CodeSnippet/Group1AvatarSnippet.vue";
+import Group2AvatarSnippet from "../components/Avatar/CodeSnippet/Group2AvatarSnippet.vue";
+import InfoAvatarSnippet from "../components/Avatar/CodeSnippet/InfoAvatarSnippet.vue";
+import DropDownAvatarSnippet from "../components/Avatar/CodeSnippet/DropDownAvatarSnippet.vue";
 
 export default {
   metaInfo: {
@@ -469,10 +489,10 @@ export default {
     Group1AvatarSnippet,
     Group2AvatarSnippet,
     InfoAvatarSnippet,
-    DropDownAvatarSnippet
+    DropDownAvatarSnippet,
   },
-  data(){
-    return{
+  data() {
+    return {
       square_avatar: false,
       presencering_avatar: false,
       circle_avatar: false,
@@ -486,9 +506,20 @@ export default {
       group2_avatar: false,
       info_avatar: false,
       dropdown_avatar: false,
-
-    }
-  }
+      // SCROLL
+      activeScrollSection: "",
+    };
+  },
+  methods: {
+    scrollToSection(section) {
+      this.activeScrollSection = section;
+      document.getElementById("avatarContainer").scrollTo({
+        top: document.getElementById(`${section}`).offsetTop - 100,
+        behavior: "smooth",
+      });
+      // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+  },
 };
 </script>
 

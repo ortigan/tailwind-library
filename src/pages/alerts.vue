@@ -2,9 +2,7 @@
   <Layout>
     <div class="flex p-4">
       <!-- content -->
-      <div
-        class="flex h-screen px-4 overflow-y-hidden scrollBar"
-      >
+      <div class="flex h-screen px-4 overflow-y-hidden scrollBar">
         <div class="overflow-y-auto px-4 pb-20" id="alertContainer">
           <Heading><template> Alert </template> </Heading>
           <div>
@@ -72,32 +70,35 @@
           </section>
           <!-- end state alert -->
           <!-- with button alert -->
-          <SubHeading>
-            <template v-slot:subHeader>With button alert</template>
-            <template v-slot:code>
-              <ShowCodeButton
-                v-if="!with_btn_alertt"
-                @click.native="with_btn_alertt = true"
-              ></ShowCodeButton>
-              <HideCodeButton
-                v-else
-                @click.native="with_btn_alertt = false"
-              ></HideCodeButton>
-            </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
-          </SubHeading>
-          <ComponentPad>
-            <template>
-              <WithButtonAlert />
-            </template>
-          </ComponentPad>
-          <!-- code snippet -->
-          <span v-show="with_btn_alertt" class="transition-all">
-            <WithButtonAlertCodeSnippet />
-          </span>
+          <section id="withBtnAlert">
+            <SubHeading>
+              <template v-slot:subHeader>With button alert</template>
+              <template v-slot:code>
+                <ShowCodeButton
+                  v-if="!with_btn_alertt"
+                  @click.native="with_btn_alertt = true"
+                ></ShowCodeButton>
+                <HideCodeButton
+                  v-else
+                  @click.native="with_btn_alertt = false"
+                ></HideCodeButton>
+              </template>
+              <template v-slot:copy><CopyButton></CopyButton> </template>
+            </SubHeading>
+            <ComponentPad>
+              <template>
+                <WithButtonAlert />
+              </template>
+            </ComponentPad>
+            <!-- code snippet -->
+            <span v-show="with_btn_alertt" class="transition-all">
+              <WithButtonAlertCodeSnippet />
+            </span>
+          </section>
           <!-- code snippet end -->
           <!-- end button alert -->
           <!-- alert with link-->
+          <section id="alertWithLink">
           <SubHeading>
             <template v-slot:subHeader>Alert with link</template>
             <template v-slot:code>
@@ -121,9 +122,11 @@
           <span v-show="alert_wlink" class="transition-all">
             <AlertWithLinkCodeSnippet />
           </span>
+          </section>
           <!-- code snippet end -->
           <!--end alert with links -->
           <!-- alert with Icon-->
+          <section id="alertWithIcon">
           <SubHeading>
             <template v-slot:subHeader>Alert with icon</template>
             <template v-slot:code>
@@ -171,9 +174,11 @@
           <span v-show="alert_wicon" class="transition-all">
             <AlertWithIconCodeSnippet />
           </span>
+          </section>
           <!-- code snippet end--->
           <!--end alert with Icons -->
           <!-- Border alert-->
+          <section id="alertWithBorder">
           <SubHeading>
             <template v-slot:subHeader>Alert with border</template>
             <template v-slot:code>
@@ -204,9 +209,11 @@
           <span v-show="alert_wborder" class="transition-all">
             <BorderAlertCodeSnippet />
           </span>
+          </section>
           <!-- code snippet end--->
           <!--end Border alerts -->
           <!-- Border accent alert-->
+          <section id="borderLeft">
           <SubHeading>
             <template v-slot:subHeader>Border left</template>
             <template v-slot:code>
@@ -230,22 +237,39 @@
           <span v-show="alert_wleftborder" class="transition-all">
             <BorderAccentCodeSnippet />
           </span>
+          </section>
           <!-- code snippet end--->
           <!--end Border left alerts -->
         </div>
       </div>
       <!-- right sidebar -->
       <div class="hidden lg:block">
-        <div class="w-40 flex flex-col min-h-screen overflow-y-hidden">
+        <div class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2">
           <div class="overflow-y-auto">
             <!-- <AlertInfo /> -->
-            <div class="flex flex-col justify-start items-start">
+            <div class="flex flex-col justify-start items-end space-y-2">
+            <p class="text-normal font-bold">On This Page</p>
               <button @click="scrollToSection('defaultAlert')">
                 Default Alert
               </button>
               <button @click="scrollToSection('stateColorAlert')">
                 State Color Alert
               </button>
+              <button @click="scrollToSection('withBtnAlert')">
+                With Button Alert
+              </button>
+              <button @click="scrollToSection('alertWithLink')">
+                Alert With Link
+              </button>
+              <button @click="scrollToSection('alertWithIcon')">
+                Alert With Icon
+              </button>
+              <button @click="scrollToSection('alertWithBorder')">
+                Alert With Border
+              </button>
+              <button @click="scrollToSection('borderLeft')" class="flex flex-row">
+                Alert With Left-Border
+              </button>              
             </div>
           </div>
         </div>
@@ -304,14 +328,19 @@ export default {
       alert_wicon: false,
       alert_wborder: false,
       alert_wleftborder: false,
-      // SCROLL 
-      activeScrollSection: ""
+      // SCROLL
+      activeScrollSection: "",
     };
   },
   methods: {
     scrollToSection(section) {
-      this.activeScrollSection = section
-      document.getElementById("alertContainer").scrollTo({top: document.getElementById(`${section}`).offsetTop-100, behavior: 'smooth'})
+      this.activeScrollSection = section;
+      document
+        .getElementById("alertContainer")
+        .scrollTo({
+          top: document.getElementById(`${section}`).offsetTop - 100,
+          behavior: "smooth",
+        });
       // this.$router.push(`/alerts/#${this.activeScrollSection}`)
     },
   },

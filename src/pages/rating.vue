@@ -3,12 +3,13 @@
     <div class="flex p-4">
       <!-- content -->
       <div class="flex h-screen px-4 overflow-y-hidden scrollBar">
-          <div class="overflow-y-auto px-4">
+          <div class="overflow-y-auto px-4" id="ratingContainer">
             <Heading />
             <div>
           <p class="text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam?</p>
             </div>
             <!-- deafult rating -->
+            <section id="starRating">
             <SubHeading>
             <template v-slot:subHeader
               >Deafult star rating</template
@@ -39,8 +40,10 @@
             <span v-show="default_starrating" class="transition-all">
             <DefaultRatingSnippet />
             </span>
+            </section>
             <!-- code snippet end -->
             <!-- icon with dropdown -->
+            <section id="Comp1Rating">
             <SubHeading>
             <template v-slot:subHeader
               >Component-1 rating</template
@@ -71,8 +74,10 @@
             <span v-show="comp1_rating" class="transition-all">
             <OurCardRatingSnippet />
             </span>
+            </section>
           <!-- code snippet end -->
             <!-- heart rating -->
+            <section id="heartRating">
             <SubHeading>
             <template v-slot:subHeader
               >Heart rating</template
@@ -103,8 +108,10 @@
             <span v-show="heart_rating" class="transition-all">
               <HeartRatingSnippet />
             </span>
+            </section>
             <!-- code snippet end -->
             <!-- Imdb rating -->
+            <section id="imdbRating">
             <SubHeading>
             <template v-slot:subHeader
               >Imdb rating</template
@@ -135,14 +142,31 @@
             <span v-show="imdb_rating" class="transition-all">
               <ImdbRatingSnippet />
             </span>
+            </section>
             <!-- code snippet end -->
           </div>
       </div>
       <!-- right sidebar -->
       <div class="hidden lg:block">
-        <div class="w-40 flex flex-col min-h-screen overflow-y-hidden">
+        <div class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2">
           <div class="overflow-y-auto">
-            <DropDownInfo />
+            <!-- <AlertInfo /> -->
+            <div class="flex flex-col justify-start items-end space-y-2">
+            <p class="text-normal font-bold">On This Page</p>
+              <button @click="scrollToSection('starRating')">
+                Star Rating 
+              </button>
+              <button @click="scrollToSection('Comp1Rating')">
+                Component-1 rating
+              </button>
+              <button @click="scrollToSection('heartRating')">
+                Heart Rating
+              </button>
+              <button @click="scrollToSection('imdbRating')">
+                Imdb Rating
+              </button>
+                            
+            </div>
           </div>
         </div>
       </div>
@@ -185,6 +209,18 @@ data() {
          heart_rating: false,
          imdb_rating: false,
     };
+  },
+  methods: {
+    scrollToSection(section) {
+      this.activeScrollSection = section;
+      document
+        .getElementById("ratingContainer")
+        .scrollTo({
+          top: document.getElementById(`${section}`).offsetTop - 100,
+          behavior: "smooth",
+        });
+      // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
   },
 }
 </script>

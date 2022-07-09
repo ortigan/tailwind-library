@@ -3,11 +3,9 @@
     <div class="flex p-4">
       <!-- content -->
       <div class="flex h-screen px-4 overflow-y-hidden scrollBar">
-        <div class="overflow-y-auto px-4">
+        <div class="overflow-y-auto px-4" id="badgeContainer">
           <Heading>
-            <template>
-              Badge
-            </template>
+            <template> Badge </template>
           </Heading>
           <div>
             <p class="text-base font-primary">
@@ -18,10 +16,9 @@
             </p>
           </div>
           <!-- Default badge -->
+          <section id="defaultBadge">
           <SubHeading>
-            <template v-slot:subHeader
-              >Default badge</template
-            >
+            <template v-slot:subHeader>Default badge</template>
             <template v-slot:code>
               <ShowCodeButton
                 v-if="!default_badge"
@@ -32,9 +29,7 @@
                 @click.native="default_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
+            <template v-slot:copy><CopyButton></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -45,13 +40,13 @@
           <span v-show="default_badge" class="transition-all">
             <DefaultBadgeSnippet />
           </span>
+          </section>
           <!-- code snippet end -->
           <!-- end default badge -->
           <!-- Larger badge -->
+          <section id="largeBadge">
           <SubHeading>
-            <template v-slot:subHeader>
-              Larger badge
-            </template>
+            <template v-slot:subHeader> Larger badge </template>
             <template v-slot:code>
               <ShowCodeButton
                 v-if="!large_badge"
@@ -62,9 +57,7 @@
                 @click.native="large_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
+            <template v-slot:copy><CopyButton></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -75,13 +68,13 @@
           <span v-show="large_badge" class="transition-all">
             <LargeBadgeSnippet />
           </span>
+          </section>
           <!-- code snippet end -->
           <!-- end Larger badge -->
           <!-- state color badge -->
+          <section id="badgeStateColor">
           <SubHeading>
-            <template v-slot:subHeader>
-              Badge State color
-            </template>
+            <template v-slot:subHeader> Badge State color </template>
             <template v-slot:code>
               <ShowCodeButton
                 v-if="!statecolor_badge"
@@ -92,9 +85,7 @@
                 @click.native="statecolor_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
+            <template v-slot:copy><CopyButton></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -105,13 +96,13 @@
           <span v-show="statecolor_badge" class="transition-all">
             <BadgeStateSnippet />
           </span>
+          </section>
           <!-- code snippet end -->
           <!-- end state color badge -->
           <!-- Outline badge -->
+          <section id="outlineBadge">
           <SubHeading>
-            <template v-slot:subHeader>
-              Outline badge
-            </template>
+            <template v-slot:subHeader> Outline badge </template>
             <template v-slot:code>
               <ShowCodeButton
                 v-if="!outline_badge"
@@ -122,9 +113,7 @@
                 @click.native="outline_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
+            <template v-slot:copy><CopyButton></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -135,13 +124,13 @@
           <span v-show="outline_badge" class="transition-all">
             <OutlineBadgeSnippet />
           </span>
+          </section>
           <!-- code snippet end -->
           <!-- end outline badge -->
           <!-- Pill badge -->
+          <section id="pillBadge">
           <SubHeading>
-            <template v-slot:subHeader>
-              Pill badge
-            </template>
+            <template v-slot:subHeader> Pill badge </template>
             <template v-slot:code>
               <ShowCodeButton
                 v-if="!pill_badge"
@@ -152,9 +141,7 @@
                 @click.native="pill_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
+            <template v-slot:copy><CopyButton></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -165,13 +152,13 @@
           <span v-show="pill_badge" class="transition-all">
             <PillBadgeSnippet />
           </span>
+          </section>
           <!-- code snippet end -->
           <!-- end Pill badge -->
           <!-- Pill outline badge -->
+          <section id="pillBadgeOutline">
           <SubHeading>
-            <template v-slot:subHeader>
-              Pill Outline badge
-            </template>
+            <template v-slot:subHeader> Pill Outline badge </template>
             <template v-slot:code>
               <ShowCodeButton
                 v-if="!pilloutline_badge"
@@ -182,26 +169,24 @@
                 @click.native="pilloutline_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
+            <template v-slot:copy><CopyButton></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
-                <PillOutlineBadge />
+              <PillOutlineBadge />
             </template>
           </ComponentPad>
           <!-- code snippet -->
-              <span v-show="pilloutline_badge" class="transition-all">
-          <PillOutlineBadgeSnippet />
-              </span>
+          <span v-show="pilloutline_badge" class="transition-all">
+            <PillOutlineBadgeSnippet />
+          </span>
+          </section>
           <!-- code snippet end -->
           <!-- end Pill outline badge -->
           <!-- Rectange badge -->
+          <section id="rectangleBadge">
           <SubHeading>
-            <template v-slot:subHeader>
-              Rectangle badge
-            </template>
+            <template v-slot:subHeader> Rectangle badge </template>
             <template v-slot:code>
               <ShowCodeButton
                 v-if="!rectangle_badge"
@@ -212,26 +197,24 @@
                 @click.native="rectangle_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
+            <template v-slot:copy><CopyButton></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
-                <RectangleBadge />
+              <RectangleBadge />
             </template>
           </ComponentPad>
           <!-- code snippet -->
-              <span v-show="rectangle_badge" class="transition-all">
-          <RectangleBadgeSnippet />
-              </span>
+          <span v-show="rectangle_badge" class="transition-all">
+            <RectangleBadgeSnippet />
+          </span>
+          </section>
           <!-- code snippet end -->
           <!-- end Rectangle badge -->
           <!-- Cancel badge -->
+          <section id="badgeWithCancelButton">
           <SubHeading>
-            <template v-slot:subHeader>
-              Badge with cancel button
-            </template>
+            <template v-slot:subHeader> Badge with cancel button </template>
             <template v-slot:code>
               <ShowCodeButton
                 v-if="!cancelbutton_badge"
@@ -242,9 +225,7 @@
                 @click.native="cancelbutton_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
+            <template v-slot:copy><CopyButton></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -252,16 +233,16 @@
             </template>
           </ComponentPad>
           <!-- code snippet --->
-               <span v-show="cancelbutton_badge" class="transition-all">
-          <CancelBadgeSnippet />
-               </span>
+          <span v-show="cancelbutton_badge" class="transition-all">
+            <CancelBadgeSnippet />
+          </span>
+          </section>
           <!-- code snippet end --->
           <!-- end Cancel badge -->
           <!-- Link badge -->
+          <section id="badgeAsLink">
           <SubHeading>
-            <template v-slot:subHeader>
-              Badges as link
-            </template>
+            <template v-slot:subHeader> Badges as link </template>
             <template v-slot:code>
               <ShowCodeButton
                 v-if="!link_badge"
@@ -272,9 +253,7 @@
                 @click.native="link_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
+            <template v-slot:copy><CopyButton></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -282,16 +261,16 @@
             </template>
           </ComponentPad>
           <!-- code snippet --->
-           <span v-show="link_badge" class="transition-all">
-          <LinkBadgeSnippet />
-</span>
+          <span v-show="link_badge" class="transition-all">
+            <LinkBadgeSnippet />
+          </span>
+          </section>
           <!-- code snippet end--->
           <!-- end Link badge -->
           <!--  badge Sizes -->
+          <section id="BadgeAsSizes">
           <SubHeading>
-            <template v-slot:subHeader>
-              Badges as Sizes
-            </template>
+            <template v-slot:subHeader> Badges as Sizes </template>
             <template v-slot:code>
               <ShowCodeButton
                 v-if="!size_badge"
@@ -302,9 +281,7 @@
                 @click.native="size_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
+            <template v-slot:copy><CopyButton></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -312,16 +289,16 @@
             </template>
           </ComponentPad>
           <!-- code snippet --->
-              <span v-show="size_badge" class="transition-all">
-          <BadgeSizeSnippet />
-              </span>
+          <span v-show="size_badge" class="transition-all">
+            <BadgeSizeSnippet />
+          </span>
+          </section>
           <!-- code snippet end --->
           <!-- end  badge Sizes -->
           <!-- Position Badge -->
+          <section id="positionedBadge">
           <SubHeading>
-            <template v-slot:subHeader>
-              Positioned badge
-            </template>
+            <template v-slot:subHeader> Positioned badge </template>
             <template v-slot:code>
               <ShowCodeButton
                 v-if="!positioned_badge"
@@ -332,9 +309,7 @@
                 @click.native="positioned_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
+            <template v-slot:copy><CopyButton></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -342,16 +317,16 @@
             </template>
           </ComponentPad>
           <!-- code snippet --->
-                                  <span v-show="positioned_badge" class="transition-all">
-          <PositionBadgeSnippet />
-</span>
+          <span v-show="positioned_badge" class="transition-all">
+            <PositionBadgeSnippet />
+          </span>
+          </section>
           <!-- code snippet end --->
           <!-- end Position Badge -->
           <!-- Text Badge -->
+          <section id="textBadge">
           <SubHeading>
-            <template v-slot:subHeader>
-              Text badge
-            </template>
+            <template v-slot:subHeader> Text badge </template>
             <template v-slot:code>
               <ShowCodeButton
                 v-if="!text_badge"
@@ -362,9 +337,7 @@
                 @click.native="text_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
+            <template v-slot:copy><CopyButton></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -372,16 +345,16 @@
             </template>
           </ComponentPad>
           <!-- code snippet --->
-                        <span v-show="text_badge" class="transition-all">
-          <TextBadgeSnippet />
-</span>
+          <span v-show="text_badge" class="transition-all">
+            <TextBadgeSnippet />
+          </span>
+          </section>
           <!-- code snippet end --->
           <!-- end text Badge -->
           <!-- Text Badge -->
+          <section id="iconBadge">
           <SubHeading>
-            <template v-slot:subHeader>
-              Icon Badge
-            </template>
+            <template v-slot:subHeader> Icon Badge </template>
             <template v-slot:code>
               <ShowCodeButton
                 v-if="!icon_badge"
@@ -392,9 +365,7 @@
                 @click.native="icon_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
+            <template v-slot:copy><CopyButton></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -402,18 +373,63 @@
             </template>
           </ComponentPad>
           <!-- code snippet --->
-                                  <span v-show="icon_badge" class="transition-all">
-          <IconBadgeSnippet />
-</span>
+          <span v-show="icon_badge" class="transition-all">
+            <IconBadgeSnippet />
+          </span>
+          </section>
           <!-- code snippet end --->
           <!-- end New Badge -->
         </div>
       </div>
       <!-- right sidebar -->
       <div class="hidden lg:block">
-        <div class="w-40 flex flex-col min-h-screen overflow-y-hidden">
+        <div
+          class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2"
+        >
           <div class="overflow-y-auto">
-            <BadgeInfo />
+            <!-- <AlertInfo /> -->
+            <div class="flex flex-col justify-start items-end space-y-2">
+              <p class="text-normal font-bold">On This Page</p>
+              <button @click="scrollToSection('defaultBadge')">
+                Default Badge
+              </button>
+              <button @click="scrollToSection('largeBadge')">
+                Large Badge
+              </button>
+              <button @click="scrollToSection('badgeStateColor')">
+                Badge State Color
+              </button>
+              <button @click="scrollToSection('outlineBadge')">
+                Outline Badge
+              </button>
+              <button @click="scrollToSection('pillBadge')">
+                Pill Badge
+              </button>
+              <button @click="scrollToSection('pillBadgeOutline')">
+                Pill Outline Badge 
+              </button>
+              <button @click="scrollToSection('rectangleBadge')">
+                Rectangle Badge 
+              </button>
+              <button @click="scrollToSection('badgeWithCancelButton')" class="text-right">
+                Badge With Cancel Button
+              </button>
+              <button @click="scrollToSection('badgeAsLink')">
+                Badge As Link 
+              </button>
+              <button @click="scrollToSection('BadgeAsSizes')">
+                Badge As Sizes
+              </button>
+              <button @click="scrollToSection('positionedBadge')">
+                Positioned badge
+              </button>
+              <button @click="scrollToSection('textBadge')">
+                Text Badge
+              </button>
+              <button @click="scrollToSection('iconBadge')">
+                Icon Badge
+              </button>            
+            </div>
           </div>
         </div>
       </div>
@@ -452,6 +468,7 @@ import BadgeSizeSnippet from "../components/Badge/CodeSnippet/BadgeSizeSnippet.v
 import PositionBadgeSnippet from "../components/Badge/CodeSnippet/PositionBadgeSnippet.vue";
 import TextBadgeSnippet from "../components/Badge/CodeSnippet/TextBadgeSnippet.vue";
 import IconBadgeSnippet from "../components/Badge/CodeSnippet/IconBadgeSnippet.vue";
+
 export default {
   metaInfo: {
     title: "Badges",
@@ -504,6 +521,16 @@ export default {
       text_badge: false,
       icon_badge: false,
     };
+  },
+  methods: {
+    scrollToSection(section) {
+      this.activeScrollSection = section;
+      document.getElementById("badgeContainer").scrollTo({
+        top: document.getElementById(`${section}`).offsetTop - 100,
+        behavior: "smooth",
+      });
+      // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
   },
 };
 </script>
