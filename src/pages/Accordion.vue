@@ -2,7 +2,7 @@
   <Layout>
     <div class="flex p-4">
       <!-- content -->
-      <div class="flex h-screen px-4 overflow-y-hidden scrollBar">
+      <div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar">
         <div class="overflow-y-auto px-4" id="accordionContainer">
           <Heading />
           <div>

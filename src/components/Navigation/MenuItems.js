@@ -36,12 +36,12 @@ export default
         icon: "",
         link: "/buttons"
     },
-    // {
-    //     id: 6,
-    //     title: 'Button Group',
-    //     icon: "",
-    //     link: "/buttonGroup"
-    // },
+    {
+        id: 6,
+        title: 'Button Group',
+        icon: "",
+        link: "/buttongroup"
+    },
     {
         id: 7,
         title: 'Card',

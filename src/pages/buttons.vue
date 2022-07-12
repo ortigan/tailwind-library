@@ -3,7 +3,7 @@
     <div class="">
       <div class="flex p-4">
         <!-- content -->
-        <div class="flex h-screen px-4 overflow-y-hidden scrollBar">
+        <div class="flex h-screen pb-20 px-4 overflow-y-hidden scrollBar">
           <div class="overflow-y-auto px-4" id="buttonsContainer">
             <Heading
             ><template>
@@ -227,6 +227,36 @@
             </section>
             <!-- code snippet end --->
             <!--End Dark color buttons   -->
+            <!-- colored_sdadow buttons -->
+            <section id="darkColor">
+            <SubHeading>
+            <template v-slot:subHeader
+              >Colored shadow buttons</template
+            >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!colored_shadow_btn"
+                @click.native="colored_shadow_btn = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="colored_shadow_btn = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy><CopyButton></CopyButton> </template>
+          </SubHeading>
+            <ComponentPad>
+              <template>
+                <ColoredShadowButton />
+              </template>
+            </ComponentPad>
+            <!-- code snippet --->
+            <span v-show="colored_shadow_btn" class="transition-all">
+            <ColoredShadowButtonSnippet />
+            </span>
+            </section>
+            <!-- code snippet end --->
+            <!--End colored_sdadow buttons   -->
             <!-- gradient buttons -->
             <section id="darkColor">
             <SubHeading>
@@ -346,6 +376,7 @@ import Heading from "../components/Headers/Heading.vue";
 import SubHeading from "../components/Headers/SubHeading.vue";
 import DualIconButton from "../components/Button/DualIconButton.vue";
 import AppsmithButtons from "../components/Button/AppsmithButtons.vue";
+import ColoredShadowButton from "../components/Button/ColoredShadowButton.vue";
 import ComponentPad from "../components/Utils/ComponentPad.vue";
 import DefaultButtonSnippet from "../components/Button/CodeSnippet/DefaultButtonSnippet.vue";
 import OutlineButtonSnippet from "../components/Button/CodeSnippet/OutlineButtonSnippet.vue";
@@ -356,6 +387,7 @@ import LightColorButtonsSnippet from "../components/Button/CodeSnippet/LightColo
 import DarkColorButtonsSnippet from "../components/Button/CodeSnippet/DarkColorButtonsSnippet.vue";
 import AppsmithButtonSnippet from "../components/Button/CodeSnippet/AppsmithButtonSnippet.vue";
 import GradientButtonSnippet from "../components/Button/CodeSnippet/GradientButtonSnippet.vue";
+import ColoredShadowButtonSnippet from "../components/Button/CodeSnippet/ColoredShadowButtonSnippet.vue";
 export default {
   metaInfo: {
     title: "Buttons",
@@ -374,6 +406,7 @@ export default {
     GradientButton,
     ComponentPad,
     AppsmithButtons,
+    ColoredShadowButton,
     DefaultButtonSnippet,
     OutlineButtonSnippet,
     StateColorButtonSnippet,
@@ -383,6 +416,7 @@ export default {
     DarkColorButtonsSnippet,
     AppsmithButtonSnippet,
     GradientButtonSnippet,
+    ColoredShadowButtonSnippet,
   },
   data() {
     return {
@@ -394,6 +428,7 @@ export default {
       light_color_btn: false,
       dark_color_btn: false,
       gradient_btn: false,
+      colored_shadow_btn: false,
       appsmith_btn: false,     
     };
   },
