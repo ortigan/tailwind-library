@@ -1,7 +1,7 @@
 <template>
   <div class="">
   <div class="w-full">
-  <div class="flex h-28 flex-col items-center justify-center space-y-2 bg-gray-100">
+  <div class="flex h-28 flex-col items-center justify-center space-y-2 bg-white">
     <div class="flex flex-row items-center justify-center space-x-5">
       <hr class="w-56 border border-gray-700" />
       <img src="https://res.cloudinary.com/binarycode/image/upload/v1597915831/Ortigan%20Official/ortigan_nav_bar_logo_left_kkv2u4.svg" alt="" class="h-6" />

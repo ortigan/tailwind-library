@@ -454,8 +454,7 @@
               </button>
               <button @click="scrollToSection('type9')">
                 User Card Type 9
-              </button>
-                            
+              </button>                            
             </div>
           </div>
         </div>

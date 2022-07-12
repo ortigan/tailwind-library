@@ -144,6 +144,74 @@
             </span>
             </section>
             <!-- code snippet end -->
+            <!-- start of smiley rating -->
+            <section id="smileyRating">
+            <SubHeading>
+            <template v-slot:subHeader
+              >Smiley rating</template
+            >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!smiley_rating"
+                @click.native="smiley_rating = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="smiley_rating = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
+          </SubHeading>
+            <!-- end imdb rating -->
+            <ComponentPad>
+              <template>
+                <div class="flex flex-row space-x-4 w-full justify-around">          
+                  <div><SmileyRating/></div>          
+                </div>
+              </template>
+            </ComponentPad>
+            <!-- code snippet -->
+            <span v-show="smiley_rating" class="transition-all">
+              <SmileyRatingCodeSnippet />
+            </span>
+            </section>
+            <!-- end of smiley rating -->
+            <!-- start of yes or no -->
+            <section id="yesornoRating">
+            <SubHeading>
+            <template v-slot:subHeader
+              >Yes/No rating</template
+            >
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!yesorno_rating"
+                @click.native="yesorno_rating = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="yesorno_rating = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
+          </SubHeading>
+            <!-- end imdb rating -->
+            <ComponentPad>
+              <template>
+                <div class="flex flex-row space-x-4 w-full justify-around">          
+                  <div><YesOrNoRating/></div>          
+                </div>
+              </template>
+            </ComponentPad>
+            <!-- code snippet -->
+            <span v-show="yesorno_rating" class="transition-all">
+              <YesOrNoCodeSnippet />
+            </span>
+            </section>
+            <!-- end of yes or no -->
           </div>
       </div>
       <!-- right sidebar -->
@@ -164,8 +232,13 @@
               </button>
               <button @click="scrollToSection('imdbRating')">
                 Imdb Rating
-              </button>
-                            
+              </button>                            
+              <button @click="scrollToSection('smileyRating')">
+                Smiley Rating
+              </button>                            
+              <button @click="scrollToSection('yesornoRating')">
+                Yes or No Rating
+              </button>                            
             </div>
           </div>
         </div>
@@ -185,6 +258,10 @@ import OurCardRatingSnippet from "../components/Rating/CodeSnippet/OurCardRating
 import HeartRatingSnippet from "../components/Rating/CodeSnippet/HeartRatingSnippet.vue"
 import ImdbRating from "../components/Rating/ImdbRating.vue"
 import ImdbRatingSnippet from "../components/Rating/CodeSnippet/ImdbRatingSnippet.vue"
+import SmileyRatingCodeSnippet from "../components/Rating/CodeSnippet/SmileyRatingCodeSnippet.vue"
+import SmileyRating from "../components/Rating/SmileyRating.vue"
+import YesOrNoRating from "../components/Rating/YesOrNoRating.vue"
+import YesOrNoCodeSnippet from "../components/Rating/CodeSnippet/YesOrNoCodeSnippet.vue"
 undefined
 export default {
     metaInfo: {
@@ -200,7 +277,11 @@ export default {
     OurCardRatingSnippet,
     HeartRatingSnippet,
     ImdbRating,
-    ImdbRatingSnippet
+    ImdbRatingSnippet,
+    SmileyRating,
+    SmileyRatingCodeSnippet,
+    YesOrNoCodeSnippet,
+    YesOrNoRating
 },
 data() {
     return {
@@ -208,6 +289,8 @@ data() {
          comp1_rating: false,
          heart_rating: false,
          imdb_rating: false,
+         smiley_rating: false,
+         yesorno_rating: false,
     };
   },
   methods: {
