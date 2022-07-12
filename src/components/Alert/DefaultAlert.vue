@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex flex-col space-y-4">
+  <div class="w-full flex flex-col space-y-4" >
     <span v-for="(item,index) in items" :key="index">
       <div
         role="alert"
