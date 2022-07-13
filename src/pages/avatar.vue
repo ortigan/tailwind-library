@@ -27,7 +27,7 @@
                   @click.native="default_avatar = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('defaultAvatarComp')"></CopyButton></template>
             </SubHeading>
             <div class="pb-4">
               <p>
@@ -42,7 +42,7 @@
               </template>
             </ComponentPad>
             <span v-show="default_avatar" class="transition-all">
-              <DefaultAvatarSnippet />
+              <DefaultAvatarSnippet id="defaultAvatarComp" />
             </span>
           </section>
           <!-- end default avatar -->
@@ -60,7 +60,7 @@
                   @click.native="size_avatar = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('sizeAvatarComp')"></CopyButton> </template>
             </SubHeading>
             <div class="pb-4">
               <p>
@@ -77,7 +77,7 @@
               </template>
             </ComponentPad>
             <span v-show="size_avatar" class="transition-all">
-              <SizeAvatarSnippet />
+              <SizeAvatarSnippet id="sizeAvatarComp" />
             </span>
           </section>
           <!-- end  avatar sizes -->
@@ -97,7 +97,7 @@
                   @click.native="presence_avatar = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('presenceAvatarComp')"></CopyButton> </template>
             </SubHeading>
             <ComponentPad>
               <template>
@@ -105,7 +105,7 @@
               </template>
             </ComponentPad>
             <span v-show="presence_avatar" class="transition-all">
-              <PresenceAvatarSnippet />
+              <PresenceAvatarSnippet id="presenceAvatarComp" />
             </span>
           </section>
           <!-- end presence avatar -->
@@ -123,7 +123,7 @@
                   @click.native="circle_avatar = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('circleAvatarComp')"></CopyButton> </template>
             </SubHeading>
             <ComponentPad>
               <template>
@@ -131,7 +131,7 @@
               </template>
             </ComponentPad>
             <span v-show="circle_avatar" class="transition-all">
-              <CircleAvatarSnippet />
+              <CircleAvatarSnippet id="circleAvatarComp" />
             </span>
           </section>
           <!-- end Circle avatar -->
@@ -149,7 +149,7 @@
                   @click.native="square_avatar = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('squareAvatarComp')"></CopyButton> </template>
             </SubHeading>
             <ComponentPad>
               <template>
@@ -157,7 +157,7 @@
               </template>
             </ComponentPad>
             <span v-show="square_avatar" class="transition-all">
-              <SquareAvatarSnippet />
+              <SquareAvatarSnippet id="squareAvatarComp" />
             </span>
           </section>
           <!-- end Square avatar -->
@@ -175,7 +175,7 @@
                   @click.native="presencering_avatar = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('avatarWithRingComp')"></CopyButton></template>
             </SubHeading>
             <ComponentPad>
               <template>
@@ -183,7 +183,7 @@
               </template>
             </ComponentPad>
             <span v-show="presencering_avatar" class="transition-all">
-              <PresenceRingAvatarSnippet />
+              <PresenceRingAvatarSnippet id="avatarWithRingComp"  />
             </span>
           </section>
           <!-- end presence Ring avatar -->
@@ -201,7 +201,7 @@
                   @click.native="color_avatar = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('colorAvatarComp')"></CopyButton> </template>
             </SubHeading>
             <ComponentPad>
               <template>
@@ -209,7 +209,7 @@
               </template>
             </ComponentPad>
             <span v-show="color_avatar" class="transition-all">
-              <ColorAvatarSnippet />
+              <ColorAvatarSnippet id="colorAvatarComp" />
             </span>
           </section>
           <!-- end Color avatar -->
@@ -227,7 +227,7 @@
                   @click.native="badge_avatar = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('badgeAvatarComp')"></CopyButton> </template>
             </SubHeading>
             <ComponentPad>
               <template>
@@ -235,7 +235,7 @@
               </template>
             </ComponentPad>
             <span v-show="badge_avatar" class="transition-all">
-              <BadgeAvatarSnippet />
+              <BadgeAvatarSnippet id="badgeAvatarComp" />
             </span>
           </section>
           <!-- end Badge avatar -->
@@ -253,7 +253,7 @@
                   @click.native="shadow_avatar = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('shadowAvatarComp')"></CopyButton> </template>
             </SubHeading>
             <ComponentPad>
               <template>
@@ -261,7 +261,7 @@
               </template>
             </ComponentPad>
             <span v-show="shadow_avatar" class="transition-all">
-              <ShadowAvatarSnippet />
+              <ShadowAvatarSnippet id="shadowAvatarComp" />
             </span>
           </section>
           <!-- end Shadows avatar -->
@@ -279,7 +279,7 @@
                   @click.native="group1_avatar = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('group1AvatarComp')"></CopyButton> </template>
             </SubHeading>
             <ComponentPad>
               <template>
@@ -287,7 +287,7 @@
               </template>
             </ComponentPad>
             <span v-show="group1_avatar" class="transition-all">
-              <Group1AvatarSnippet />
+              <Group1AvatarSnippet id="group1AvatarComp" />
             </span>
           </section>
           <!-- end Group 1 avatar -->
@@ -305,7 +305,7 @@
                   @click.native="group2_avatar = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('group2AvatarComp')"></CopyButton> </template>
             </SubHeading>
             <ComponentPad>
               <template>
@@ -313,7 +313,7 @@
               </template>
             </ComponentPad>
             <span v-show="group2_avatar" class="transition-all">
-              <Group2AvatarSnippet />
+              <Group2AvatarSnippet id="group2AvatarComp" />
             </span>
           </section>
           <!-- end Group 2 avatar -->
@@ -331,7 +331,7 @@
                   @click.native="info_avatar = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('infoAvatarComp')"></CopyButton> </template>
             </SubHeading>
             <ComponentPad>
               <template>
@@ -339,7 +339,7 @@
               </template>
             </ComponentPad>
             <span v-show="info_avatar" class="transition-all">
-              <InfoAvatarSnippet />
+              <InfoAvatarSnippet id="infoAvatarComp" />
             </span>
           </section>
           <!-- end Info avatar -->
@@ -357,7 +357,7 @@
                   @click.native="dropdown_avatar = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('dropdownAvatarComp')"></CopyButton></template>
             </SubHeading>
             <ComponentPad>
               <template>
@@ -365,7 +365,7 @@
               </template>
             </ComponentPad>
             <span v-show="dropdown_avatar" class="transition-all">
-              <DropDownAvatarSnippet />
+              <DropDownAvatarSnippet id="dropdownAvatarComp" />
             </span>
           </section>
           <!-- end DropDownAvatar avatar -->
@@ -455,10 +455,13 @@ import Group2AvatarSnippet from "../components/Avatar/CodeSnippet/Group2AvatarSn
 import InfoAvatarSnippet from "../components/Avatar/CodeSnippet/InfoAvatarSnippet.vue";
 import DropDownAvatarSnippet from "../components/Avatar/CodeSnippet/DropDownAvatarSnippet.vue";
 
+import {UtilsMixin} from '../minins/utils.js'
 export default {
   metaInfo: {
     title: "Badges",
   },
+  // GLOBAL MIXIN
+  mixins: [UtilsMixin],
   components: {
     Heading,
     ComponentPad,
@@ -518,6 +521,9 @@ export default {
         behavior: "smooth",
       });
       // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+    copyToClipboard(id) {
+      this.globalCopyFunc(id)
     },
   },
 };

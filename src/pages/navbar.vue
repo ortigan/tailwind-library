@@ -34,7 +34,7 @@
               ></HideCodeButton>
             </template>
             <template v-slot:copy
-              ><CopyButton></CopyButton>
+              ><CopyButton @click.native="copyToClipboard('defaultNavbarComp')"></CopyButton>
             </template>
           </SubHeading>
           <ComponentPad>
@@ -44,7 +44,7 @@
           </ComponentPad>
           <!-- code snippet -->
           <span v-show="default_navbar" class="transition-all">
-            <DefaultNavbarCodeSnippet />
+            <DefaultNavbarCodeSnippet id="defaultNavbarComp" />
           </span>
           </section>
           <!-- code snippet end -->
@@ -67,7 +67,7 @@
               ></HideCodeButton>
             </template>
             <template v-slot:copy
-              ><CopyButton></CopyButton>
+              ><CopyButton @click.native="copyToClipboard('dropdownNavbarComp')"></CopyButton>
             </template>
           </SubHeading>
           <ComponentPad>
@@ -77,7 +77,7 @@
           </ComponentPad>
           <!-- code snippet -->
           <span v-show="dropdown_navbar" class="transition-all">
-            <DropdownNavbarCodeSnippet />
+            <DropdownNavbarCodeSnippet id="dropdownNavbarComp" />
           </span>
           </section>
           <!-- code snippet end -->
@@ -100,7 +100,7 @@
               ></HideCodeButton>
             </template>
             <template v-slot:copy
-              ><CopyButton></CopyButton>
+              ><CopyButton @click.native="copyToClipboard('searchNavbarComp')"></CopyButton>
             </template>
           </SubHeading>
           <ComponentPad>
@@ -110,7 +110,7 @@
           </ComponentPad>
           <!-- code snippet -->
           <span v-show="searchbar_navbar" class="transition-all">
-            <SearchNavbarCodeSnippet />
+            <SearchNavbarCodeSnippet id="searchNavbarComp" />
           </span>
           </section>
           <!-- code snippet end -->
@@ -132,7 +132,7 @@
               ></HideCodeButton>
             </template>
             <template v-slot:copy
-              ><CopyButton></CopyButton>
+              ><CopyButton @click.native="copyToClipboard('ctaNavbarComp')"></CopyButton>
             </template>
           </SubHeading>
           <ComponentPad>
@@ -142,7 +142,7 @@
           </ComponentPad>
           <!-- code snippet -->
           <span v-show="cta_navbar" class="transition-all">
-            <CtaNavbarCodeSnippet />
+            <CtaNavbarCodeSnippet id="ctaNavbarComp" />
           </span>
           </section>
           <!-- code snippet end -->
@@ -164,7 +164,7 @@
               ></HideCodeButton>
             </template>
             <template v-slot:copy
-              ><CopyButton></CopyButton>
+              ><CopyButton @click.native="copyToClipboard('gumroadNavbarComp')"></CopyButton>
             </template>
           </SubHeading>
           <ComponentPad>
@@ -174,7 +174,7 @@
           </ComponentPad>
           <!-- code snippet -->
                     <span v-show="gumroad_navbar" class="transition-all">
-          <GumroadNavbarCodeSnippet />
+          <GumroadNavbarCodeSnippet id="gumroadNavbarComp" />
                     </span>
                     </section>
           <!-- code snippet end -->
@@ -227,10 +227,13 @@ import DefaultNavbarCodeSnippet from "../components/Navbar/CodeSnippets/DefaultN
 import GumroadNavbarCodeSnippet from "../components/Navbar/CodeSnippets/GumroadNavbarCodeSnippet.vue";
 import SearchNavbarCodeSnippet from "../components/Navbar/CodeSnippets/SearchNavbarCodeSnippet.vue";
 
+import {UtilsMixin} from '../minins/utils.js'
 export default {
   metaInfo: {
     title: "Buttons",
   },
+  // GLOBAL MIXIN
+  mixins: [UtilsMixin],
   components: {
     SubHeading,
     Heading,
@@ -265,6 +268,9 @@ export default {
           behavior: "smooth",
         });
       // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+    copyToClipboard(id) {
+      this.globalCopyFunc(id)
     },
   },
 };

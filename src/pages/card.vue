@@ -31,7 +31,7 @@
                 @click.native="default_card = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('defaultCardComp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -40,7 +40,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="default_card" class="transition-all">
-            <DefaultCardsCodeSnippet />
+            <DefaultCardsCodeSnippet id="defaultCardComp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -60,7 +60,7 @@
                 @click.native="cta_card = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('ctaCardComp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -69,7 +69,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="cta_card" class="transition-all">
-            <CardCtaCodeSnippet />
+            <CardCtaCodeSnippet id="ctaCardComp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -88,7 +88,7 @@
                 @click.native="link_card = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('linkCardComp')"></CopyButton> </template>
           </SubHeading>
 
           <ComponentPad>
@@ -98,7 +98,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="link_card" class="transition-all">
-            <CardLinkCodeSnippet />
+            <CardLinkCodeSnippet id="linkCardComp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -118,7 +118,7 @@
                 @click.native="default_user_card = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('defaultUserCardComp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -127,7 +127,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="default_user_card" class="transition-all">
-            <DefaultUserCardCodeSnippet />
+            <DefaultUserCardCodeSnippet id="defaultUserCardComp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -149,7 +149,7 @@
                 @click.native="user_card1 = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('userCard1Comp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -158,7 +158,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="user_card1" class="transition-all">
-            <UserCard1CodeSnippet />
+            <UserCard1CodeSnippet id="userCard1Comp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -180,7 +180,7 @@
                 @click.native="user_card2 = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('userCard2Comp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -189,7 +189,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="user_card2" class="transition-all">
-            <UserCard2CodeSnippet />
+            <UserCard2CodeSnippet id="userCard2Comp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -211,7 +211,7 @@
                 @click.native="user_card3 = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('userCard3Comp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -220,7 +220,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="user_card3" class="transition-all">
-            <UserCard3CodeSnippet />
+            <UserCard3CodeSnippet id="userCard3Comp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -242,7 +242,7 @@
                 @click.native="user_card4 = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('userCard4Comp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -251,7 +251,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="user_card4" class="transition-all">
-            <UsrCard4CodeSnippet />
+            <UsrCard4CodeSnippet id="userCard4Comp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -273,7 +273,7 @@
                 @click.native="user_card5 = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('userCard5Comp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -282,7 +282,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="user_card5" class="transition-all">
-            <UserCard5CodeSnippet />
+            <UserCard5CodeSnippet id="userCard5Comp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -304,7 +304,7 @@
                 @click.native="user_card6 = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('userCard6Comp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -313,7 +313,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="user_card6" class="transition-all">
-            <UserCard6CodeSnippet />
+            <UserCard6CodeSnippet id="userCard6Comp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -335,7 +335,7 @@
                 @click.native="user_card7 = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('userCard7Comp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -344,7 +344,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="user_card7" class="transition-all">
-            <UserCard7CodeSnippet />
+            <UserCard7CodeSnippet id="userCard7Comp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -366,7 +366,7 @@
                 @click.native="user_card8 = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('userCard8Comp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -375,7 +375,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="user_card8" class="transition-all">
-            <UserCard8CodeSnippet />
+            <UserCard8CodeSnippet id="userCard8Comp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -397,7 +397,7 @@
                 @click.native="user_card9 = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('userCard9Comp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -406,7 +406,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="user_card9" class="transition-all">
-            <UserCard9CodeSnippet />
+            <UserCard9CodeSnippet id="userCard9Comp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -498,10 +498,13 @@ import UserCard8CodeSnippet from "../components/Card/UserCard/Code Snippets/User
 import UserCard9CodeSnippet from "../components/Card/UserCard/Code Snippets/UserCard9CodeSnippet.vue";
 import DefaultUserCardCodeSnippet from "../components/Card/UserCard/Code Snippets/DefaultUserCardCodeSnippet.vue";
 
+import {UtilsMixin} from '../minins/utils.js'
 export default {
   metaInfo: {
     title: "Buttons",
   },
+  // GLOBAL MIXIN
+  mixins: [UtilsMixin],
   components: {
     SubHeading,
     Heading,
@@ -560,6 +563,9 @@ export default {
           behavior: "smooth",
         });
       // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+    copyToClipboard(id) {
+      this.globalCopyFunc(id)
     },
   },
 };

@@ -27,7 +27,7 @@
                   @click.native="default_footer = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('defaultFooterComp')"></CopyButton></template>
             </SubHeading>
             <ComponentPad>
               <template>
@@ -36,7 +36,7 @@
             </ComponentPad>
             <!-- code snippet -->
             <span v-show="default_footer" class="transition-all">
-              <DefaultFooterCodeSnippet />
+              <DefaultFooterCodeSnippet id="defaultFooterComp" />
             </span>
           </section>
           <!-- code snippet end -->
@@ -56,7 +56,7 @@
                   @click.native="logoaside_footer = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('logoAsideFooterComp')"></CopyButton></template>
             </SubHeading>
             <ComponentPad>
               <template>
@@ -65,7 +65,7 @@
             </ComponentPad>
             <!-- code snippet -->
             <span v-show="logoaside_footer" class="transition-all">
-              <LogoSectionFooterCodeSnippet />
+              <LogoSectionFooterCodeSnippet id="logoAsideFooterComp" />
             </span>
           </section>
           <!-- code snippet end -->
@@ -84,7 +84,7 @@
                   @click.native="tworows_footer = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('twoRowFooterComp')"></CopyButton></template>
             </SubHeading>
             <ComponentPad>
               <template>
@@ -93,7 +93,7 @@
             </ComponentPad>
             <!-- code snippet -->
             <span v-show="tworows_footer" class="transition-all">
-              <TwoRowFooterCodeSnippet />
+              <TwoRowFooterCodeSnippet id="twoRowFooterComp" />
             </span>
           </section>
           <!-- code snippet end -->
@@ -112,7 +112,7 @@
                   @click.native="appsmith_footer = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('appsmithFooterComp')"></CopyButton></template>
             </SubHeading>
             <div>
               <p class="text-base pb-2 font-primary">
@@ -134,7 +134,7 @@
             </ComponentPad>
             <!-- code snippet -->
             <span v-show="appsmith_footer" class="transition-all">
-              <AppsmithFooterCodeSnippet />
+              <AppsmithFooterCodeSnippet id="appsmithFooterComp" />
             </span>
           </section>
           <!-- code snippet end -->
@@ -183,10 +183,13 @@ import AppsmithFooterCodeSnippet from "../components/Footer/Code Snippets/Appsmi
 import TwoRowFooterCodeSnippet from "../components/Footer/Code Snippets/TwoRowFooterCodeSnippet.vue";
 import LogoSectionFooterCodeSnippet from "../components/Footer/Code Snippets/LogoSectionFooterCodeSnippet.vue";
 
+import {UtilsMixin} from '../minins/utils.js'
 export default {
   metaInfo: {
     title: "Buttons",
   },
+  // GLOBAL MIXIN
+  mixins: [UtilsMixin],
   components: {
     SubHeading,
     Heading,
@@ -216,6 +219,9 @@ export default {
         behavior: "smooth",
       });
       // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+    copyToClipboard(id) {
+      this.globalCopyFunc(id)
     },
   },
 };

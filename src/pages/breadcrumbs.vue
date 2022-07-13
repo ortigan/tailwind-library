@@ -27,7 +27,7 @@
                 @click.native="default_breadcrumb = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('defaultBreadcrumbComp')"></CopyButton></template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -36,7 +36,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="default_breadcrumb" class="transition-all">
-            <DefaultBreadCrumbSnippet />
+            <DefaultBreadCrumbSnippet id="defaultBreadcrumbComp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -55,7 +55,7 @@
                 @click.native="arrow_breadcrumb = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('arrowBreadcrumbComp')"></CopyButton></template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -64,7 +64,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="arrow_breadcrumb" class="transition-all">
-            <ArrowBreadCrumbSnippet />
+            <ArrowBreadCrumbSnippet id="arrowBreadcrumbComp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -83,7 +83,7 @@
                 @click.native="icon_breadcrumb = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('iconBreadcrumbComp')"></CopyButton></template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -92,7 +92,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="icon_breadcrumb" class="transition-all">
-            <IconBreadCrumbSnippet />
+            <IconBreadCrumbSnippet id="iconBreadcrumbComp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -111,16 +111,16 @@
                 @click.native="solid_breadcrumb = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('solidBreadcrumbComp')"></CopyButton></template>
           </SubHeading>
           <ComponentPad>
             <template>
-              <SolidBgBreadCrumb />
+              <SolidBgBreadCrumb  />
             </template>
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="solid_breadcrumb" class="transition-all">
-            <SolidBreadCrumbSnippet />
+            <SolidBreadCrumbSnippet id="solidBreadcrumbComp"/>
           </span>
           </section>
           <!-- code snippet end --->
@@ -139,7 +139,7 @@
                 @click.native="outline_breadcrumb = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('outlineBreadcrumbComp')"></CopyButton></template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -148,7 +148,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="outline_breadcrumb" class="transition-all">
-            <OutlineBreadCrumbSnippet />
+            <OutlineBreadCrumbSnippet id="outlineBreadcrumbComp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -167,7 +167,7 @@
                 @click.native="alignment_breadcrumb = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('alignmentBreadcrumbComp')"></CopyButton></template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -176,7 +176,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="alignment_breadcrumb" class="transition-all">
-            <AlignmentBreadCrumbSnippet />
+            <AlignmentBreadCrumbSnippet id="alignmentBreadcrumbComp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -195,7 +195,7 @@
                 @click.native="separator_breadcrumb = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('separatorBreadcrumbComp')"></CopyButton></template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -204,7 +204,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="separator_breadcrumb" class="transition-all">
-            <SeparatorBreadCrumbSnippet />
+            <SeparatorBreadCrumbSnippet id="separatorBreadcrumbComp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -268,10 +268,13 @@ import OutlineBreadCrumbSnippet from "../components/BreadCrumb/CodeSnippet/Outli
 import AlignmentBreadCrumbSnippet from "../components/BreadCrumb/CodeSnippet/AlignmentBreadCrumbSnippet.vue";
 import SeparatorBreadCrumbSnippet from "../components/BreadCrumb/CodeSnippet/SeparatorBreadCrumbSnippet.vue";
 
+import {UtilsMixin} from '../minins/utils.js'
 export default {
   metaInfo: {
     title: "Buttons",
   },
+  // GLOBAL MIXIN
+  mixins: [UtilsMixin],
   components: {
     SubHeading,
     Heading,
@@ -310,6 +313,9 @@ export default {
         behavior: "smooth",
       });
       // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+    copyToClipboard(id) {
+      this.globalCopyFunc(id)
     },
   },
 };

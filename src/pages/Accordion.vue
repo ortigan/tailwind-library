@@ -182,10 +182,13 @@ import BorderType2Acco from "../components/Accordion/BorderType2Acco.vue";
 import ListOpenAcco from "../components/Accordion/ListOpenAcco.vue";
 import ComponentPad from "../components/Utils/ComponentPad.vue";
 
+import {UtilsMixin} from '../minins/utils.js'
 export default {
   metaInfo: {
     title: "Accordion",
   },
+  // GLOBAL MIXIN
+  mixins: [UtilsMixin],
   components: {
     AccordionSimple,
     AccordionInfo,
@@ -212,6 +215,9 @@ export default {
           behavior: "smooth",
         });
       // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+    copyToClipboard(id) {
+      this.globalCopyFunc(id)
     },
   },
 };

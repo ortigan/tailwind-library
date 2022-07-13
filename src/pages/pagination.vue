@@ -28,7 +28,7 @@
               ></HideCodeButton>
             </template>
             <template v-slot:copy
-              ><CopyButton></CopyButton>
+              ><CopyButton @click.native="copyToClipboard('defaultPaginationComp')"></CopyButton>
             </template>
           </SubHeading>
           <ComponentPad>
@@ -38,7 +38,7 @@
           </ComponentPad>
            <!-- code snippet -->
           <span v-show="default_pagination" class="transition-all">
-            <DefaultPaginationSnippet />
+            <DefaultPaginationSnippet id="defaultPaginationComp" />
           </span>
           </section>
           <!-- code snippet end -->
@@ -58,7 +58,7 @@
               ></HideCodeButton>
             </template>
             <template v-slot:copy
-              ><CopyButton></CopyButton>
+              ><CopyButton @click.native="copyToClipboard('arrowPaginationComp')"></CopyButton>
             </template>
           </SubHeading>
           <ComponentPad>
@@ -67,7 +67,7 @@
             </template>
           </ComponentPad>
           <span v-show="arrow_pagination" class="transition-all">
-            <WithArrowPaginationSnippet />
+            <WithArrowPaginationSnippet id="arrowPaginationComp" />
           </span>
           </section>
           <!-- end with arrow Pagination -->
@@ -104,10 +104,13 @@ import WithArrowPagination from "../components/Pagination/WithArrowPagination.vu
 import DefaultPaginationSnippet from "../components/Pagination/CodeSnippet/DefaultPaginationSnippet.vue";
 import WithArrowPaginationSnippet from "../components/Pagination/CodeSnippet/WithArrowPaginationSnippet.vue";
 
+import {UtilsMixin} from '../minins/utils.js'
 export default {
   metaInfo: {
     title: "Buttons",
   },
+  // GLOBAL MIXIN
+  mixins: [UtilsMixin],
   components: {
     SubHeading,
     Heading,
@@ -134,6 +137,9 @@ export default {
           behavior: "smooth",
         });
       // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+    copyToClipboard(id) {
+      this.globalCopyFunc(id)
     },
   },
 };

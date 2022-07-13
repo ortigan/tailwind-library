@@ -34,7 +34,7 @@
               ></HideCodeButton>
             </template>
             <template v-slot:copy
-              ><CopyButton></CopyButton>
+              ><CopyButton @click.native="copyToClipboard('fontSizeComp')"></CopyButton>
             </template>
           </SubHeading>
           <ComponentPad>
@@ -43,7 +43,7 @@
             </template>
           </ComponentPad>
           <span v-show="font_size" class="transition-all">
-          <FontSizeTypoCodeSnippet/>
+          <FontSizeTypoCodeSnippet id="fontSizeComp" />
           </span>
           </section>
           <!-- end font size -->
@@ -65,7 +65,7 @@
               ></HideCodeButton>
             </template>
             <template v-slot:copy
-              ><CopyButton></CopyButton>
+              ><CopyButton @click.native="copyToClipboard('fontweightComp')"></CopyButton>
             </template>
           </SubHeading>
           <ComponentPad>
@@ -75,7 +75,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="font_weight" class="transition-all">
-          <FontWeightTypoCodeSnippet/>          
+          <FontWeightTypoCodeSnippet id="fontweightComp" />          
           </span> 
           </section>         
           <!-- end code snippet -->
@@ -96,7 +96,7 @@
               ></HideCodeButton>
             </template>
             <template v-slot:copy
-              ><CopyButton></CopyButton>
+              ><CopyButton @click.native="copyToClipboard('trackingTypoComp')"></CopyButton>
             </template>
           </SubHeading>
           <ComponentPad>
@@ -106,7 +106,7 @@
           </ComponentPad>
           <!-- code snippet --->   
           <span v-show="tracking_typo" class="transition-all">
-          <TrackingTypoCodeSnippet/>          
+          <TrackingTypoCodeSnippet id="trackingTypoComp" />          
           </span> 
           </section>      
           <!-- end code snippet -->
@@ -128,7 +128,7 @@
               ></HideCodeButton>
             </template>
             <template v-slot:copy
-              ><CopyButton></CopyButton>
+              ><CopyButton @click.native="copyToClipboard('textDecorationComp')"></CopyButton>
             </template>
           </SubHeading>
           <ComponentPad>
@@ -138,7 +138,7 @@
           </ComponentPad>
           <!-- code snippet ---> 
           <span v-show="text_deco" class="transition-all">
-          <TextDecorationCodeSnippet/>          
+          <TextDecorationCodeSnippet id="textDecorationComp" />          
           </span>
           </section>         
           <!-- end of code snippet -->
@@ -160,7 +160,7 @@
               ></HideCodeButton>
             </template>
             <template v-slot:copy
-              ><CopyButton></CopyButton>
+              ><CopyButton @click.native="copyToClipboard('textDecorationThicknessComp')"></CopyButton>
             </template>
           </SubHeading>
           <ComponentPad>
@@ -170,7 +170,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="text_deco_thick" class="transition-all">
-          <TextDecorationThicknessCodeSnippet/>          
+          <TextDecorationThicknessCodeSnippet id="textDecorationThicknessComp" />          
           </span>
           </section>          
           <!-- end of code snippet -->
@@ -224,10 +224,13 @@ import TextDecorationThicknessCodeSnippet from "../components/Typography/Code Sn
 import TextDecorationCodeSnippet from "../components/Typography/Code Snippets/TextDecorationCodeSnippet.vue";
 import TrackingTypoCodeSnippet from "../components/Typography/Code Snippets/TrackingTypoCodeSnippet.vue";
 
+import {UtilsMixin} from '../minins/utils.js'
 export default {
   metaInfo: {
     title: "Buttons",
   },
+  // GLOBAL MIXIN
+  mixins: [UtilsMixin],
   components: {
     SubHeading,
     Heading,
@@ -262,6 +265,9 @@ export default {
           behavior: "smooth",
         });
       // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+    copyToClipboard(id) {
+      this.globalCopyFunc(id)
     },
   },
 };

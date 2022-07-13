@@ -93,10 +93,13 @@ import OnlyHeadingD from "../components/DropDowns/OnlyHeadingD.vue";
 import ProfileDropdown from "../components/DropDowns/ProfileDropdown.vue";
 import SubHeading from "../components/Headers/SubHeading.vue";
 import ComponentPad from "../components/Utils/ComponentPad.vue";
+import {UtilsMixin} from '../minins/utils.js'
 export default {
   metaInfo: {
     title: "Dropdown",
   },
+  // GLOBAL MIXIN
+  mixins: [UtilsMixin],
   components: {
     DefaultDropDead,
     DropDownInfo,
@@ -115,6 +118,9 @@ export default {
         behavior: "smooth",
       });
       // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+    copyToClipboard(id) {
+      this.globalCopyFunc(id)
     },
   },
 };

@@ -29,7 +29,7 @@
                 @click.native="default_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('defaultBadgeComp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -38,7 +38,7 @@
           </ComponentPad>
           <!-- code snippet -->
           <span v-show="default_badge" class="transition-all">
-            <DefaultBadgeSnippet />
+            <DefaultBadgeSnippet id="defaultBadgeComp" />
           </span>
           </section>
           <!-- code snippet end -->
@@ -57,7 +57,7 @@
                 @click.native="large_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('largeBadgeComp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -66,7 +66,7 @@
           </ComponentPad>
           <!-- code snippet -->
           <span v-show="large_badge" class="transition-all">
-            <LargeBadgeSnippet />
+            <LargeBadgeSnippet id="largeBadgeComp" />
           </span>
           </section>
           <!-- code snippet end -->
@@ -85,7 +85,7 @@
                 @click.native="statecolor_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('stateColorBadgeComp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -94,7 +94,7 @@
           </ComponentPad>
           <!-- code snippet -->
           <span v-show="statecolor_badge" class="transition-all">
-            <BadgeStateSnippet />
+            <BadgeStateSnippet id="stateColorBadgeComp" />
           </span>
           </section>
           <!-- code snippet end -->
@@ -113,7 +113,7 @@
                 @click.native="outline_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('outlineBadgeComp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -122,7 +122,7 @@
           </ComponentPad>
           <!-- code snippet -->
           <span v-show="outline_badge" class="transition-all">
-            <OutlineBadgeSnippet />
+            <OutlineBadgeSnippet id="outlineBadgeComp" />
           </span>
           </section>
           <!-- code snippet end -->
@@ -141,7 +141,7 @@
                 @click.native="pill_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('pillBadgeComp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -150,7 +150,7 @@
           </ComponentPad>
           <!-- code snippet -->
           <span v-show="pill_badge" class="transition-all">
-            <PillBadgeSnippet />
+            <PillBadgeSnippet id="pillBadgeComp" />
           </span>
           </section>
           <!-- code snippet end -->
@@ -169,7 +169,7 @@
                 @click.native="pilloutline_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('pillOutlineBadgeComp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -178,7 +178,7 @@
           </ComponentPad>
           <!-- code snippet -->
           <span v-show="pilloutline_badge" class="transition-all">
-            <PillOutlineBadgeSnippet />
+            <PillOutlineBadgeSnippet id="pillOutlineBadgeComp" />
           </span>
           </section>
           <!-- code snippet end -->
@@ -197,7 +197,7 @@
                 @click.native="rectangle_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('rectangleBadgeComp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -206,7 +206,7 @@
           </ComponentPad>
           <!-- code snippet -->
           <span v-show="rectangle_badge" class="transition-all">
-            <RectangleBadgeSnippet />
+            <RectangleBadgeSnippet id="rectangleBadgeComp" />
           </span>
           </section>
           <!-- code snippet end -->
@@ -225,7 +225,7 @@
                 @click.native="cancelbutton_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('badgeWithCancelButtonComp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -234,7 +234,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="cancelbutton_badge" class="transition-all">
-            <CancelBadgeSnippet />
+            <CancelBadgeSnippet id="badgeWithCancelButtonComp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -253,7 +253,7 @@
                 @click.native="link_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('linkBadgeComp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -262,7 +262,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="link_badge" class="transition-all">
-            <LinkBadgeSnippet />
+            <LinkBadgeSnippet id="linkBadgeComp" />
           </span>
           </section>
           <!-- code snippet end--->
@@ -281,7 +281,7 @@
                 @click.native="size_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('sizeBadgeComp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -290,7 +290,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="size_badge" class="transition-all">
-            <BadgeSizeSnippet />
+            <BadgeSizeSnippet id="sizeBadgeComp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -309,7 +309,7 @@
                 @click.native="positioned_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('positionedBadgeComp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -318,7 +318,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="positioned_badge" class="transition-all">
-            <PositionBadgeSnippet />
+            <PositionBadgeSnippet id="positionedBadgeComp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -337,7 +337,7 @@
                 @click.native="text_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('textBadgeComp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -346,7 +346,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="text_badge" class="transition-all">
-            <TextBadgeSnippet />
+            <TextBadgeSnippet id="textBadgeComp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -365,7 +365,7 @@
                 @click.native="icon_badge = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('iconBadgeComp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -374,7 +374,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="icon_badge" class="transition-all">
-            <IconBadgeSnippet />
+            <IconBadgeSnippet id="iconBadgeComp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -469,10 +469,13 @@ import PositionBadgeSnippet from "../components/Badge/CodeSnippet/PositionBadgeS
 import TextBadgeSnippet from "../components/Badge/CodeSnippet/TextBadgeSnippet.vue";
 import IconBadgeSnippet from "../components/Badge/CodeSnippet/IconBadgeSnippet.vue";
 
+import {UtilsMixin} from '../minins/utils.js'
 export default {
   metaInfo: {
     title: "Badges",
   },
+  // GLOBAL MIXIN
+  mixins: [UtilsMixin],
   components: {
     BadgeInfo,
     Heading,
@@ -530,6 +533,9 @@ export default {
         behavior: "smooth",
       });
       // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+    copyToClipboard(id) {
+      this.globalCopyFunc(id)
     },
   },
 };

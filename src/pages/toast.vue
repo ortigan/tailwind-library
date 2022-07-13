@@ -27,7 +27,7 @@
                   @click.native="DefaultToast = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('defaultToastComp')"></CopyButton></template>
             </SubHeading>
             <ComponentPad>
               <template>
@@ -36,7 +36,7 @@
             </ComponentPad>
             <!-- code snippet --->
             <span v-show="DefaultToast" class="transition-all">
-              <DefaultToastCodeSnippet />
+              <DefaultToastCodeSnippet id="defaultToastComp" />
             </span>
           </section>
           <!-- code snippet end --->
@@ -55,7 +55,7 @@
                   @click.native="state_color_toast = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('stateColorToastComp')"></CopyButton></template>
             </SubHeading>
             <ComponentPad>
               <template>
@@ -63,7 +63,7 @@
               </template>
             </ComponentPad>
             <span v-show="state_color_toast" class="transition-all">
-              <StateColorToastCodeSnippet />
+              <StateColorToastCodeSnippet id="stateColorToastComp" />
             </span>
           </section>
           <!-- end StateColor Toast -->
@@ -81,7 +81,7 @@
                   @click.native="Toast_with_outline = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('ToastWithOutlineComp')"></CopyButton></template>
             </SubHeading>
             <ComponentPad>
               <template>
@@ -89,7 +89,7 @@
               </template>
             </ComponentPad>
             <span v-show="Toast_with_outline" class="transition-all">
-              <OutlineToastCodeSnippet />
+              <OutlineToastCodeSnippet id="ToastWithOutlineComp" />
             </span>
           </section>
           <!-- end outline Toast -->
@@ -107,7 +107,7 @@
                   @click.native="solid_color_toast = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('solidColorToastComp')"></CopyButton></template>
             </SubHeading>
             <ComponentPad>
               <template>
@@ -115,7 +115,7 @@
               </template>
             </ComponentPad>
             <span v-show="solid_color_toast" class="transition-all">
-              <SolidColorToastCodeSnippet />
+              <SolidColorToastCodeSnippet id="solidColorToastComp" />
             </span>
           </section>
           <!-- end SolidColor Toast -->
@@ -133,7 +133,7 @@
                   @click.native="with_btn_toast = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('withBtnToastComp')"></CopyButton></template>
             </SubHeading>
             <ComponentPad>
               <template>
@@ -141,7 +141,7 @@
               </template>
             </ComponentPad>
             <span v-show="with_btn_toast" class="transition-all">
-              <WithButtonToastCodeSnippet />
+              <WithButtonToastCodeSnippet id="withBtnToastComp" />
             </span>
           </section>
           <!-- end button Toast -->
@@ -203,10 +203,13 @@ import OutlineToastCodeSnippet from "../components/Toast/Code Snippets/OutlineTo
 import SolidColorToastCodeSnippet from "../components/Toast/Code Snippets/SolidColorToastCodeSnippet.vue";
 import StateColorToastCodeSnippet from "../components/Toast/Code Snippets/StateColorToastCodeSnippet.vue";
 
+import {UtilsMixin} from '../minins/utils.js'
 export default {
   metaInfo: {
     title: "Buttons",
   },
+  // GLOBAL MIXIN
+  mixins: [UtilsMixin],
   components: {
     SubHeading,
     Heading,
@@ -239,6 +242,9 @@ export default {
         behavior: "smooth",
       });
       // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+    copyToClipboard(id) {
+      this.globalCopyFunc(id)
     },
   },
 };

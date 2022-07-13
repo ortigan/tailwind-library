@@ -33,7 +33,7 @@
                 @click.native="default_btn = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('defaultBtnComp')"></CopyButton> </template>
           </SubHeading>
           <ComponentPad>
             <template>
@@ -42,7 +42,7 @@
           </ComponentPad>
           <!-- code snippet --->
           <span v-show="default_btn" class="transition-all">
-          <DefaultButtonSnippet />
+          <DefaultButtonSnippet id="defaultBtnComp" />
           </span>
             </section>
             <!-- code snippet end --->
@@ -63,7 +63,7 @@
                 @click.native="outline_btn = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('outlineBtnComp')"></CopyButton> </template>
           </SubHeading>
             <ComponentPad>
               <template>
@@ -72,7 +72,7 @@
             </ComponentPad>
             <!-- code snippet --->
             <span v-show="outline_btn" class="transition-all">
-            <OutlineButtonSnippet />
+            <OutlineButtonSnippet id="outlineBtnComp" />
             </span>
             </section>
             <!-- code snippet end --->
@@ -93,7 +93,7 @@
                 @click.native="state_color_btn = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('stateColorBtnComp')"></CopyButton> </template>
           </SubHeading>
             <ComponentPad>
               <template>
@@ -102,7 +102,7 @@
             </ComponentPad>
               <!-- code snippet --->
               <span v-show="state_color_btn" class="transition-all">
-            <StateColorButtonSnippet />
+            <StateColorButtonSnippet id="stateColorBtnComp" />
               </span>
               </section>
             <!-- code snippet end --->
@@ -123,7 +123,7 @@
                 @click.native="size_btn = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('sizeBtnComp')"></CopyButton> </template>
           </SubHeading>
             <ComponentPad>
               <template>
@@ -132,7 +132,7 @@
             </ComponentPad>
              <!-- code snippet --->
              <span v-show="size_btn" class="transition-all">
-            <SizeButtonsSnippet />
+            <SizeButtonsSnippet id="sizeBtnComp" />
              </span>
              </section>
             <!-- code snippet end --->
@@ -153,7 +153,7 @@
                 @click.native="dual_icon_btn = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('dualIconBtnComp')"></CopyButton> </template>
           </SubHeading>
             <ComponentPad>
               <template>
@@ -162,7 +162,7 @@
             </ComponentPad>
               <!-- code snippet --->
             <span v-show="dual_icon_btn" class="transition-all">
-            <DualIconSnippet />
+            <DualIconSnippet id="dualIconBtnComp" />
             </span>
             </section>
             <!-- code snippet end --->
@@ -183,7 +183,7 @@
                 @click.native="light_color_btn = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('lightColorBtnComp')"></CopyButton> </template>
           </SubHeading>
             <ComponentPad>
               <template>
@@ -192,7 +192,7 @@
             </ComponentPad>
             <!-- code snippet --->
             <span v-show="light_color_btn" class="transition-all">
-            <LightColorButtonsSnippet />
+            <LightColorButtonsSnippet id="lightColorBtnComp" />
             </span>
             </section>
             <!-- code snippet end --->
@@ -213,7 +213,7 @@
                 @click.native="dark_color_btn = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('darkColorBtnComp')"></CopyButton> </template>
           </SubHeading>
             <ComponentPad>
               <template>
@@ -222,13 +222,13 @@
             </ComponentPad>
             <!-- code snippet --->
             <span v-show="dark_color_btn" class="transition-all">
-            <DarkColorButtonsSnippet />
+            <DarkColorButtonsSnippet id="darkColorBtnComp" />
             </span>
             </section>
             <!-- code snippet end --->
             <!--End Dark color buttons   -->
             <!-- colored_sdadow buttons -->
-            <section id="darkColor">
+            <section id="coloredShadowBtn">
             <SubHeading>
             <template v-slot:subHeader
               >Colored shadow buttons</template
@@ -243,7 +243,7 @@
                 @click.native="colored_shadow_btn = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('coloredShadowBtnComp')"></CopyButton> </template>
           </SubHeading>
             <ComponentPad>
               <template>
@@ -252,13 +252,13 @@
             </ComponentPad>
             <!-- code snippet --->
             <span v-show="colored_shadow_btn" class="transition-all">
-            <ColoredShadowButtonSnippet />
+            <ColoredShadowButtonSnippet id="coloredShadowBtnComp" />
             </span>
             </section>
             <!-- code snippet end --->
             <!--End colored_sdadow buttons   -->
             <!-- gradient buttons -->
-            <section id="darkColor">
+            <section id="gradientBtn">
             <SubHeading>
             <template v-slot:subHeader
               >Gradient buttons</template
@@ -273,7 +273,7 @@
                 @click.native="gradient_btn = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('gradientBtnComp')"></CopyButton> </template>
           </SubHeading>
             <ComponentPad>
               <template>
@@ -282,7 +282,7 @@
             </ComponentPad>
             <!-- code snippet --->
             <span v-show="gradient_btn" class="transition-all">
-            <GradientButtonSnippet />
+            <GradientButtonSnippet id="gradientBtnComp" />
             </span>
             </section>
             <!-- code snippet end --->
@@ -303,7 +303,7 @@
                 @click.native="appsmith_btn = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('appsmithBtnComp')"></CopyButton> </template>
           </SubHeading>
             <ComponentPad>
               <template>
@@ -312,7 +312,7 @@
             </ComponentPad>
             <!-- code snippet --->
             <span v-show="appsmith_btn" class="transition-all">
-            <AppsmithButtonSnippet />
+            <AppsmithButtonSnippet id="appsmithBtnComp" />
             </span>
             </section>
             <!-- code snippet end --->
@@ -349,6 +349,12 @@
               </button>
               <button @click="scrollToSection('darkColor')">
                 Dark Color
+              </button>
+              <button @click="scrollToSection('coloredShadowBtn')" class="text-right">
+                Colored shadow buttons
+              </button>
+              <button @click="scrollToSection('gradientBtn')">
+                Gradient buttons
               </button>
               <button @click="scrollToSection('appsmithButton')">
                 Appsmith
@@ -388,10 +394,14 @@ import DarkColorButtonsSnippet from "../components/Button/CodeSnippet/DarkColorB
 import AppsmithButtonSnippet from "../components/Button/CodeSnippet/AppsmithButtonSnippet.vue";
 import GradientButtonSnippet from "../components/Button/CodeSnippet/GradientButtonSnippet.vue";
 import ColoredShadowButtonSnippet from "../components/Button/CodeSnippet/ColoredShadowButtonSnippet.vue";
+
+import {UtilsMixin} from '../minins/utils.js'
 export default {
   metaInfo: {
     title: "Buttons",
   },
+  // GLOBAL MIXIN
+  mixins: [UtilsMixin],
   components: {
     ButtonInfo,
     Heading,
@@ -442,6 +452,9 @@ export default {
           behavior: "smooth",
         });
       // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+    copyToClipboard(id) {
+      this.globalCopyFunc(id)
     },
   },
 };

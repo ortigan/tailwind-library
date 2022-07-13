@@ -27,7 +27,7 @@
                   @click.native="default_sidebar = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('defaultFooterComp')"></CopyButton></template>
             </SubHeading>
             <ComponentPad>
               <template>
@@ -36,7 +36,7 @@
             </ComponentPad>
             <!-- code snippet --->
             <span v-show="default_sidebar" class="transition-all">
-              <DefaultSidebarSnippet />
+              <DefaultSidebarSnippet id="defaultFooterComp" />
             </span>
           </section>
           <!-- code snippet end --->
@@ -55,7 +55,7 @@
                   @click.native="badge_sidebar = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('badgeSidebarComp')"></CopyButton></template>
             </SubHeading>
             <ComponentPad>
               <template>
@@ -64,7 +64,7 @@
             </ComponentPad>
             <!-- code snippet --->
             <span v-show="badge_sidebar" class="transition-all">
-              <SidebarBadgeSnippet />
+              <SidebarBadgeSnippet id="badgeSidebarComp" />
             </span>
           </section>
           <!-- code snippet end --->
@@ -85,7 +85,7 @@
                   @click.native="separator_sidebar = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('separatorSidebarComp')"></CopyButton></template>
             </SubHeading>
             <ComponentPad>
               <template>
@@ -94,7 +94,7 @@
             </ComponentPad>
             <!-- code snippet --->
             <span v-show="separator_sidebar" class="transition-all">
-              <SeparatorSidebarSnippet />
+              <SeparatorSidebarSnippet id="separatorSidebarComp" />
             </span>
           </section>
           <!-- code snippet end --->
@@ -115,7 +115,7 @@
                   @click.native="sectioned_sidebar = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy><CopyButton></CopyButton> </template>
+              <template v-slot:copy><CopyButton @click.native="copyToClipboard('sectionedSidebarComp')"></CopyButton></template>
             </SubHeading>
             <ComponentPad>
               <template>
@@ -124,7 +124,7 @@
             </ComponentPad>
             <!-- code snippet --->
             <span v-show="sectioned_sidebar" class="transition-all">
-              <SectionedSidebarSnippet />
+              <SectionedSidebarSnippet id="sectionedSidebarComp" />
             </span>
           </section>
           <!-- code snippet end --->
@@ -173,10 +173,13 @@ import SidebarBadgeSnippet from "../components/Sidebar/CodeSnippet/SidebarBadgeS
 import SeparatorSidebarSnippet from "../components/Sidebar/CodeSnippet/SeparatorSidebarSnippet.vue";
 import SectionedSidebarSnippet from "../components/Sidebar/CodeSnippet/SectionedSidebarSnippet.vue";
 
+import {UtilsMixin} from '../minins/utils.js'
 export default {
   metaInfo: {
     title: "Buttons",
   },
+  // GLOBAL MIXIN
+  mixins: [UtilsMixin],
   components: {
     SubHeading,
     Heading,
@@ -206,6 +209,9 @@ export default {
         behavior: "smooth",
       });
       // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+    copyToClipboard(id) {
+      this.globalCopyFunc(id)
     },
   },
 };

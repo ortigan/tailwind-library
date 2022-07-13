@@ -91,10 +91,13 @@ import SubHeading from "../components/Headers/SubHeading.vue";
 import ComponentPad from "../components/Utils/ComponentPad.vue";
 import DefaultButtonGroup from "../components/ButtonGroup/DefaultButtonGroup.vue";
 
+import {UtilsMixin} from '../minins/utils.js'
 export default {
   metaInfo: {
     title: "Buttons",
   },
+  // GLOBAL MIXIN
+  mixins: [UtilsMixin],
   components: {
     Heading,
     SubHeading,
@@ -126,6 +129,9 @@ export default {
           behavior: "smooth",
         });
       // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+    copyToClipboard(id) {
+      this.globalCopyFunc(id)
     },
   },
 };

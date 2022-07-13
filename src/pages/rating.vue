@@ -25,7 +25,7 @@
               ></HideCodeButton>
             </template>
             <template v-slot:copy
-              ><CopyButton></CopyButton>
+              ><CopyButton @click.native="copyToClipboard('deafultStarRatingComp')"></CopyButton>
             </template>
           </SubHeading>
             <!-- end deafult rating -->
@@ -38,7 +38,7 @@
             </ComponentPad>
             <!-- code snippet -->
             <span v-show="default_starrating" class="transition-all">
-            <DefaultRatingSnippet />
+            <DefaultRatingSnippet id="deafultStarRatingComp" />
             </span>
             </section>
             <!-- code snippet end -->
@@ -59,7 +59,7 @@
               ></HideCodeButton>
             </template>
             <template v-slot:copy
-              ><CopyButton></CopyButton>
+              ><CopyButton @click.native="copyToClipboard('comp1ratingComp')"></CopyButton>
             </template>
           </SubHeading>
             <!-- end icon with dropdown -->
@@ -72,7 +72,7 @@
             </ComponentPad>
             <!-- code snippet -->
             <span v-show="comp1_rating" class="transition-all">
-            <OurCardRatingSnippet />
+            <OurCardRatingSnippet id="comp1ratingComp" />
             </span>
             </section>
           <!-- code snippet end -->
@@ -93,7 +93,7 @@
               ></HideCodeButton>
             </template>
             <template v-slot:copy
-              ><CopyButton></CopyButton>
+              ><CopyButton @click.native="copyToClipboard('heartRatingComp')"></CopyButton>
             </template>
           </SubHeading>
             <!-- end heart rating -->
@@ -106,7 +106,7 @@
             </ComponentPad>
             <!-- code snippet -->
             <span v-show="heart_rating" class="transition-all">
-              <HeartRatingSnippet />
+              <HeartRatingSnippet id="heartRatingComp" />
             </span>
             </section>
             <!-- code snippet end -->
@@ -127,7 +127,7 @@
               ></HideCodeButton>
             </template>
             <template v-slot:copy
-              ><CopyButton></CopyButton>
+              ><CopyButton @click.native="copyToClipboard('imdbRatingComp')"></CopyButton>
             </template>
           </SubHeading>
             <!-- end imdb rating -->
@@ -140,7 +140,7 @@
             </ComponentPad>
             <!-- code snippet -->
             <span v-show="imdb_rating" class="transition-all">
-              <ImdbRatingSnippet />
+              <ImdbRatingSnippet id="imdbRatingComp" />
             </span>
             </section>
             <!-- code snippet end -->
@@ -161,7 +161,7 @@
               ></HideCodeButton>
             </template>
             <template v-slot:copy
-              ><CopyButton></CopyButton>
+              ><CopyButton @click.native="copyToClipboard('smileyRatingComp')"></CopyButton>
             </template>
           </SubHeading>
             <!-- end imdb rating -->
@@ -174,7 +174,7 @@
             </ComponentPad>
             <!-- code snippet -->
             <span v-show="smiley_rating" class="transition-all">
-              <SmileyRatingCodeSnippet />
+              <SmileyRatingCodeSnippet id="smileyRatingComp" />
             </span>
             </section>
             <!-- end of smiley rating -->
@@ -195,7 +195,7 @@
               ></HideCodeButton>
             </template>
             <template v-slot:copy
-              ><CopyButton></CopyButton>
+              ><CopyButton @click.native="copyToClipboard('yesOrNoRatingComp')"></CopyButton>
             </template>
           </SubHeading>
             <!-- end imdb rating -->
@@ -208,7 +208,7 @@
             </ComponentPad>
             <!-- code snippet -->
             <span v-show="yesorno_rating" class="transition-all">
-              <YesOrNoCodeSnippet />
+              <YesOrNoCodeSnippet id="yesOrNoRatingComp" />
             </span>
             </section>
             <!-- end of yes or no -->
@@ -263,10 +263,14 @@ import SmileyRating from "../components/Rating/SmileyRating.vue"
 import YesOrNoRating from "../components/Rating/YesOrNoRating.vue"
 import YesOrNoCodeSnippet from "../components/Rating/CodeSnippet/YesOrNoCodeSnippet.vue"
 undefined
+
+import {UtilsMixin} from '../minins/utils.js'
 export default {
     metaInfo: {
     title: 'Dropdown'
   },
+  // GLOBAL MIXIN
+  mixins: [UtilsMixin],
   components: {
     SubHeading,
     ComponentPad,
@@ -303,6 +307,9 @@ data() {
           behavior: "smooth",
         });
       // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+    copyToClipboard(id) {
+      this.globalCopyFunc(id)
     },
   },
 }

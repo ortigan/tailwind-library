@@ -97,8 +97,8 @@
                   @click.native="with_btn_alertt = false"
                 ></HideCodeButton>
               </template>
-              <template v-slot:copy
-                ><CopyButton></CopyButton>
+              <template v-slot:copy 
+                ><CopyButton @click.native="copyToClipboard('withButtonAlertcomp')"></CopyButton>
               </template>
             </SubHeading>
             <ComponentPad>
@@ -108,7 +108,7 @@
             </ComponentPad>
             <!-- code snippet -->
             <span v-show="with_btn_alertt" class="transition-all">
-              <WithButtonAlertCodeSnippet />
+              <WithButtonAlertCodeSnippet id="withButtonAlertcomp" />
             </span>
           </section>
           <!-- code snippet end -->
@@ -130,7 +130,7 @@
                 ></HideCodeButton>
               </template>
               <template v-slot:copy
-                ><CopyButton></CopyButton>
+                ><CopyButton @click.native="copyToClipboard('alertWithLinkComp')"></CopyButton>
               </template>
             </SubHeading>
             <ComponentPad>
@@ -140,7 +140,7 @@
             </ComponentPad>
             <!-- code snippet -->
             <span v-show="alert_wlink" class="transition-all">
-              <AlertWithLinkCodeSnippet />
+              <AlertWithLinkCodeSnippet id="alertWithLinkComp" />
             </span>
           </section>
           <!-- code snippet end -->
@@ -162,7 +162,7 @@
                 ></HideCodeButton>
               </template>
               <template v-slot:copy
-                ><CopyButton></CopyButton>
+                ><CopyButton @click.native="copyToClipboard('alertWithIconComp')"></CopyButton>
               </template>
             </SubHeading>
             <div class="pb-4">
@@ -196,7 +196,7 @@
             </ComponentPad>
             <!-- code snippet --->
             <span v-show="alert_wicon" class="transition-all">
-              <AlertWithIconCodeSnippet />
+              <AlertWithIconCodeSnippet id="alertWithIconComp" />
             </span>
           </section>
           <!-- code snippet end--->
@@ -218,7 +218,7 @@
                 ></HideCodeButton>
               </template>
               <template v-slot:copy
-                ><CopyButton></CopyButton>
+                ><CopyButton @click.native="copyToClipboard('alertWithBorderComp')"></CopyButton>
               </template>
             </SubHeading>
             <div class="pb-4">
@@ -235,7 +235,7 @@
             </ComponentPad>
             <!-- code snippet --->
             <span v-show="alert_wborder" class="transition-all">
-              <BorderAlertCodeSnippet />
+              <BorderAlertCodeSnippet id="alertWithBorderComp" />
             </span>
           </section>
           <!-- code snippet end--->
@@ -257,7 +257,7 @@
                 ></HideCodeButton>
               </template>
               <template v-slot:copy
-                ><CopyButton></CopyButton>
+                ><CopyButton @click.native="copyToClipboard('alertWithBorderLeftComp')"></CopyButton>
               </template>
             </SubHeading>
             <ComponentPad>
@@ -267,7 +267,7 @@
             </ComponentPad>
             <!-- code snippet --->
             <span v-show="alert_wleftborder" class="transition-all">
-              <BorderAccentCodeSnippet />
+              <BorderAccentCodeSnippet id="alertWithBorderLeftComp" />
             </span>
           </section>
           <!-- code snippet end--->

@@ -22,13 +22,13 @@
                 @click.native="form_elements = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('formElementsComp')"></CopyButton></template>
           </SubHeading>
 
           <FormElement />
           <!-- code snippet --->
           <span v-show="form_elements" class="transition-all">
-            <FormElementCodeSnippet />
+            <FormElementCodeSnippet id="formElementsComp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -47,13 +47,13 @@
                 @click.native="default_form = false"
               ></HideCodeButton>
             </template>
-            <template v-slot:copy><CopyButton></CopyButton> </template>
+            <template v-slot:copy><CopyButton @click.native="copyToClipboard('defaultFormComp')"></CopyButton></template>
           </SubHeading>
 
           <DefaultForm />
           <!-- code snippet --->
           <span v-show="default_form" class="transition-all">
-            <DefaultFormCodeSnippet />
+            <DefaultFormCodeSnippet id="defaultFormComp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -75,14 +75,13 @@
               ></HideCodeButton>
             </template>
             <template v-slot:copy
-              ><CopyButton></CopyButton>
-            </template>
+              ><CopyButton @click.native="copyToClipboard('floatingFormComp')"></CopyButton></template>
           </SubHeading>
 
           <FloatinglabelForm />
           <!-- code snippet --->
           <span v-show="floating_form" class="transition-all">
-            <FloatinglabelFormCodeSnippet />
+            <FloatinglabelFormCodeSnippet id="floatingFormComp" />
           </span>
           </section>
           <!-- code snippet end --->
@@ -125,10 +124,13 @@ import FormElementCodeSnippet from "../components/Form/Code Snippets/FormElement
 import DefaultFormCodeSnippet from "../components/Form/Code Snippets/DefaultFormCodeSnippet.vue";
 import FloatinglabelFormCodeSnippet from "../components/Form/Code Snippets/FloatinglabelFormCodeSnippet.vue";
 
+import {UtilsMixin} from '../minins/utils.js'
 export default {
   metaInfo: {
     title: "Buttons",
   },
+  // GLOBAL MIXIN
+  mixins: [UtilsMixin],
   components: {
     SubHeading,
     Heading,
@@ -157,6 +159,9 @@ export default {
           behavior: "smooth",
         });
       // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+    copyToClipboard(id) {
+      this.globalCopyFunc(id)
     },
   },
 };
