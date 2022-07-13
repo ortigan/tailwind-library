@@ -16,4 +16,8 @@ export default defineNuxtConfig({
         "/assets/css/tailwind.css"
     ],
     buildModules: ['@pinia/nuxt'],
+    plugins:[
+        '~/plugins/helperMixin.js',
+        '~/plugins/prism.js',
+    ]
 })
