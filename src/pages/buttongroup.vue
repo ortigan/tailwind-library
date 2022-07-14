@@ -17,20 +17,20 @@
               impedit dolore aliquam?
             </p>
           </div>
-          <!-- Default Navbar -->
-          <section id="defaultNavbar">
+          <!-- Default buttonGroup -->
+          <section id="defaultbuttonGroup">
           <SubHeading>
             <template v-slot:subHeader
               >Default button group</template
             >
             <template v-slot:code>
               <ShowCodeButton
-                v-if="!default_navbar"
-                @click.native="default_navbar = true"
+                v-if="!default_buttonGroup"
+                @click.native="default_buttonGroup = true"
               ></ShowCodeButton>
               <HideCodeButton
                 v-else
-                @click.native="default_navbar = false"
+                @click.native="default_buttonGroup = false"
               ></HideCodeButton>
             </template>
             <template v-slot:copy
@@ -43,12 +43,45 @@
             </template>
           </ComponentPad>
           <!-- code snippet -->
-          <span v-show="default_navbar" class="transition-all">
-           
+          <span v-show="default_buttonGroup" class="transition-all">
+           <DefaultButtonGroupSnippet />
           </span>
           </section>
           <!-- code snippet end -->
-          <!-- end default navbar -->
+          <!-- end default buttonGroup -->
+          <!-- Outline buttonGroup -->
+          <section id="OutlinebuttonGroup">
+          <SubHeading>
+            <template v-slot:subHeader
+              >Outline button group</template
+            >
+
+            <template v-slot:code>
+              <ShowCodeButton
+                v-if="!outline_buttonGroup"
+                @click.native="outline_buttonGroup = true"
+              ></ShowCodeButton>
+              <HideCodeButton
+                v-else
+                @click.native="outline_buttonGroup = false"
+              ></HideCodeButton>
+            </template>
+            <template v-slot:copy
+              ><CopyButton></CopyButton>
+            </template>
+          </SubHeading>
+          <ComponentPad>
+            <template>
+              <OutlineButtonGroup />
+            </template>
+          </ComponentPad>
+          <!-- code snippet -->
+          <span v-show="outline_buttonGroup" class="transition-all">
+           <DefaultButtonGroupSnippet />
+          </span>
+          </section>
+          <!-- code snippet end -->
+          <!-- end Outline buttonGroup -->
 
 
         </div>
@@ -61,7 +94,7 @@
             <div class="flex flex-col justify-start items-end space-y-2">
             <p class="text-normal font-bold">On This Page</p>
               <button @click="scrollToSection('defaultNavbar')">
-                Default Navbar
+                Default button group
               </button>
               <button @click="scrollToSection('dropdownNavbar')">
                 Dropdown Navbar
@@ -90,6 +123,9 @@ import Heading from "../components/Headers/Heading.vue";
 import SubHeading from "../components/Headers/SubHeading.vue";
 import ComponentPad from "../components/Utils/ComponentPad.vue";
 import DefaultButtonGroup from "../components/ButtonGroup/DefaultButtonGroup.vue";
+import OutlineButtonGroup from "../components/ButtonGroup/OutlineButtonGroup.vue";
+import DefaultButtonGroupSnippet from "../components/ButtonGroup/CodeSnippet/DefaultButtonGroupSnippet.vue";
+import OutlineButtonGroupSnippet from "../components/ButtonGroup/CodeSnippet/OutlineButtonGroupSnippet.vue";
 
 import {UtilsMixin} from '../minins/utils.js'
 export default {
@@ -102,21 +138,17 @@ export default {
     Heading,
     SubHeading,
     ComponentPad,
-    DefaultButtonGroup
+    DefaultButtonGroup,
+    OutlineButtonGroup,
+    DefaultButtonGroupSnippet,
+    OutlineButtonGroupSnippet,
     
   },
   data() {
     return {
-      default_btn: false,
-      outline_btn: false,
-      state_color_btn: false,
-      size_btn: false,
-      dual_icon_btn: false,
-      light_color_btn: false,
-      dark_color_btn: false,
-      gradient_btn: false,
-      colored_shadow_btn    : false,
-      appsmith_btn: false,     
+      default_buttonGroup: false,
+      outline_buttonGroup: false,
+     
     };
   },
   methods: {
