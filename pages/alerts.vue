@@ -3,7 +3,7 @@
     <div class="flex p-4">
       <!-- content -->
       <div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar">
-        <div class="overflow-y-auto px-4 pb-20" id="alertContainer">
+        <div class="overflow-y-auto w-full px-4 pb-20" id="alertContainer">
           <HeadersHeading> Alert  </HeadersHeading>
           <div>
             <p class="text-base">
@@ -14,7 +14,7 @@
             </p>
           </div>
           <!-- Default alert -->
-          <section id="defaultAlert">
+          <section id="defaultAlert" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>Default alert</template>
               <template v-slot:code>
@@ -27,14 +27,9 @@
                   @click="default_alertt = false"
                 ></UtilsHideCodeButton>
               </template>
-              <!-- <template v-slot:copy
-                ><UtilsCopyButton
-                  @click="copyToClipboard('defaultAlertComp')"
-                ></UtilsCopyButton>
-              </template> -->
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <DefaultAlert />
+              <AlertDefaultAlert />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
@@ -54,6 +49,118 @@
             </transition>
             <!-- code snippet end -->
           </section>
+          <!--  -->
+          <!-- stateColorAlert -->
+          <section id="stateColorAlert  " class="w-full">
+            <HeadersSubHeading>
+              <template v-slot:subHeader>State color alert</template>
+              <template v-slot:code>
+                <UtilsShowCodeButton
+                  v-if="!statecolor_alertt"
+                  @click="statecolor_alertt = true"
+                ></UtilsShowCodeButton>
+                <UtilsHideCodeButton
+                  v-else
+                  @click="statecolor_alertt = false"
+                ></UtilsHideCodeButton>
+              </template>
+            </HeadersSubHeading>
+            <UtilsComponentPad>
+              <AlertStateAlert />
+            </UtilsComponentPad>
+            <!-- code snippet -->
+            <transition name="fadeSnippet">
+              <div v-show="statecolor_alertt" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+                <div class="flex justify-between px-2 pt-2">
+                  <div>
+                    HTML
+                  </div>
+                  <div>
+                    <UtilsCopyButton
+                    @click="copyToClipboard('stateColorAlertComp')"
+                  ></UtilsCopyButton>
+                  </div>
+                </div>
+                <StateAlertCodeSnippet id="stateColorAlertComp" />
+              </div>
+            </transition>
+            <!-- code snippet end -->
+          </section>
+          <!--  -->
+           <!-- stateColorAlert -->
+          <section id="stateColorAlert  " class="w-full">
+            <HeadersSubHeading>
+              <template v-slot:subHeader>Border alert</template>
+              <template v-slot:code>
+                <UtilsShowCodeButton
+                  v-if="!alert_wborder"
+                  @click="alert_wborder = true"
+                ></UtilsShowCodeButton>
+                <UtilsHideCodeButton
+                  v-else
+                  @click="alert_wborder = false"
+                ></UtilsHideCodeButton>
+              </template>
+            </HeadersSubHeading>
+            <UtilsComponentPad>
+              <AlertWithButtonAlert />
+            </UtilsComponentPad>
+            <!-- code snippet -->
+            <transition name="fadeSnippet">
+              <div v-show="alert_wborder" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+                <div class="flex justify-between px-2 pt-2">
+                  <div>
+                    HTML
+                  </div>
+                  <div>
+                    <UtilsCopyButton
+                    @click="copyToClipboard('alertWithBorder')"
+                  ></UtilsCopyButton>
+                  </div>
+                </div>
+                <AlertSnippetsWithButtonAlertCodeSnippet id="alertWithBorder" />
+              </div>
+            </transition>
+            <!-- code snippet end -->
+          </section>
+          <!--  -->
+           <!-- alertWithIcon -->
+          <section id="stateColorAlert  " class="w-full">
+            <HeadersSubHeading>
+              <template v-slot:subHeader>Alert with Icon</template>
+              <template v-slot:code>
+                <UtilsShowCodeButton
+                  v-if="!alert_wborder"
+                  @click="alert_wborder = true"
+                ></UtilsShowCodeButton>
+                <UtilsHideCodeButton
+                  v-else
+                  @click="alert_wborder = false"
+                ></UtilsHideCodeButton>
+              </template>
+            </HeadersSubHeading>
+            <UtilsComponentPad>
+              <AlertWithIcon />
+            </UtilsComponentPad>
+            <!-- code snippet -->
+            <transition name="fadeSnippet">
+              <div v-show="alert_wborder" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+                <div class="flex justify-between px-2 pt-2">
+                  <div>
+                    HTML
+                  </div>
+                  <div>
+                    <UtilsCopyButton
+                    @click="copyToClipboard('alertWithIcon')"
+                  ></UtilsCopyButton>
+                  </div>
+                </div>
+                <AlertSnippetsWithIcon id="alertWithIcon" />
+              </div>
+            </transition>
+            <!-- code snippet end -->
+          </section>
+          <!--  -->
         </div>
       </div>
       <!-- right sidebar -->
@@ -99,10 +206,8 @@
 
 <script>
 import SubHeading from "../components/Headers/SubHeading.vue";
-import DefaultAlert from "../components/Alert/DefaultAlert.vue";
 import AlertInfo from "../components/Alert/AlertInfo.vue";
 import Heading from "../components/Headers/Heading.vue";
-import DefaultAlertCodeSnippet from "../components/Alert/Code Snippets/DefaultAlertCodeSnippet.vue";
 export default {
   metaInfo: {
     title: "Alerts",
@@ -111,9 +216,7 @@ export default {
     AlertInfo,
     Heading,
     SubHeading,
-    DefaultAlert,
-    DefaultAlertCodeSnippet,
-  },
+},
   data() {
     return {
       layout: "custom",
@@ -151,27 +254,5 @@ export default {
 .home-links a {
   margin-right: 1rem;
 }
-.fadeSnippet-enter-active {
-  animation: fade-in 0.2s;
-}
-.fadeSnippet-leave-active {
-  animation: fade-out 0.2s;
-}
-@keyframes fade-in {
-  from {
-    transform: translateY(10px);
-  }
-  to {
-    transform: translateY(0px);
-  }
-}
-@keyframes fade-out {
-  from {
-    transform: translateY(0px);
-  }
-  to {
-    transform: translateY(10px);
-    opacity: 0;
-  }
-}
+
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="w-full" >
     <div
-      class="flex w-full items-center justify-between rounded-lg bg-white text-gray-800 dark:bg-black dark:text-neutral-200 px-4 py-3 shadow-md text-sm"
+      class="flex w-full items-center justify-between rounded-lg bg-gray-50 text-gray-800 dark:bg-black dark:text-neutral-200 px-4 py-3 shadow-md text-sm"
     >
       <div class="flex items-center space-x-2">
         <div class="rounded-lg bg-blue-100 p-1.5 text-blue-500">

@@ -1,5 +1,5 @@
 <template>
-          <pre><code class="language-markup">
+          <pre class="line-numbers"><code class="language-markup">
             <component :is="script" type="prism-html-markup">
             <!--Default Alert with border -->
             <div class="flex justify-between border-t-2 border-gray-700 bg-gray-100 p-4 text-sm text-gray-700">

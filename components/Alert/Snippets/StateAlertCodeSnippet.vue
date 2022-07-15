@@ -1,7 +1,15 @@
 <template>
-<pre><code class="language-markup">
-<component :is="script" type="prism-html-markup">
-<!-- Info alert -->
+<pre>
+<code class="language-markup">
+  {{code}}
+</code>
+</pre>
+</template>
+<script>
+export default {
+  data(){
+    return{
+      code:`<!-- Info alert -->
 <div class="w-full p-4 rounded-lg text-sm text-sky-700 bg-sky-100" role="alert">
   <span class="font-medium">Info alert!</span> A simple Info alert message
 </div>
@@ -16,13 +24,10 @@
 <!-- Danger alert -->
 <div class="w-full p-4 rounded-lg text-sm text-rose-700 bg-rose-100" role="alert">
   <span class="font-medium">Danger alert!</span> A simple Danger alert message
-</div>
-</component>
-</code></pre>
-</template>
-
-<script>
-export default {};
+</div>`
+    }
+  }
+};
 </script>
 
 <style></style>
