@@ -3,6 +3,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     'Footer': typeof import("../components/Footer.vue")['default'],
     'Header': typeof import("../components/Header.vue")['default'],
+    'CodeHighlight': typeof import("../components/CodeSnippet/CodeHighlight.vue")['default'],
     'AlertInfo': typeof import("../components/Alert/AlertInfo.vue")['default'],
     'AlertWithIcon': typeof import("../components/Alert/AlertWithIcon.vue")['default'],
     'AlertWithLink': typeof import("../components/Alert/AlertWithLink.vue")['default'],
@@ -11,7 +12,6 @@ declare module 'vue' {
     'AlertDefaultAlert': typeof import("../components/Alert/DefaultAlert.vue")['default'],
     'AlertStateAlert': typeof import("../components/Alert/StateAlert.vue")['default'],
     'AlertWithButtonAlert': typeof import("../components/Alert/WithButtonAlert.vue")['default'],
-    'CodeHighlight': typeof import("../components/CodeSnippet/CodeHighlight.vue")['default'],
     'NavigationMenuItems': typeof import("../components/Navigation/MenuItems.js")['default'],
     'HeadersHeading': typeof import("../components/Headers/Heading.vue")['default'],
     'HeadersSubHeading': typeof import("../components/Headers/SubHeading.vue")['default'],
@@ -35,6 +35,7 @@ declare module 'vue' {
     'NuxtLink': typeof import("../node_modules/nuxt/dist/app/components/nuxt-link")['default']
     'LazyFooter': typeof import("../components/Footer.vue")['default'],
     'LazyHeader': typeof import("../components/Header.vue")['default'],
+    'LazyCodeHighlight': typeof import("../components/CodeSnippet/CodeHighlight.vue")['default'],
     'LazyAlertInfo': typeof import("../components/Alert/AlertInfo.vue")['default'],
     'LazyAlertWithIcon': typeof import("../components/Alert/AlertWithIcon.vue")['default'],
     'LazyAlertWithLink': typeof import("../components/Alert/AlertWithLink.vue")['default'],
@@ -43,7 +44,6 @@ declare module 'vue' {
     'LazyAlertDefaultAlert': typeof import("../components/Alert/DefaultAlert.vue")['default'],
     'LazyAlertStateAlert': typeof import("../components/Alert/StateAlert.vue")['default'],
     'LazyAlertWithButtonAlert': typeof import("../components/Alert/WithButtonAlert.vue")['default'],
-    'LazyCodeHighlight': typeof import("../components/CodeSnippet/CodeHighlight.vue")['default'],
     'LazyNavigationMenuItems': typeof import("../components/Navigation/MenuItems.js")['default'],
     'LazyHeadersHeading': typeof import("../components/Headers/Heading.vue")['default'],
     'LazyHeadersSubHeading': typeof import("../components/Headers/SubHeading.vue")['default'],
@@ -69,6 +69,7 @@ declare module 'vue' {
 }
 export const Footer: typeof import("../components/Footer.vue")['default']
 export const Header: typeof import("../components/Header.vue")['default']
+export const CodeHighlight: typeof import("../components/CodeSnippet/CodeHighlight.vue")['default']
 export const AlertInfo: typeof import("../components/Alert/AlertInfo.vue")['default']
 export const AlertWithIcon: typeof import("../components/Alert/AlertWithIcon.vue")['default']
 export const AlertWithLink: typeof import("../components/Alert/AlertWithLink.vue")['default']
@@ -77,7 +78,6 @@ export const AlertBorderAlert: typeof import("../components/Alert/BorderAlert.vu
 export const AlertDefaultAlert: typeof import("../components/Alert/DefaultAlert.vue")['default']
 export const AlertStateAlert: typeof import("../components/Alert/StateAlert.vue")['default']
 export const AlertWithButtonAlert: typeof import("../components/Alert/WithButtonAlert.vue")['default']
-export const CodeHighlight: typeof import("../components/CodeSnippet/CodeHighlight.vue")['default']
 export const NavigationMenuItems: typeof import("../components/Navigation/MenuItems.js")['default']
 export const HeadersHeading: typeof import("../components/Headers/Heading.vue")['default']
 export const HeadersSubHeading: typeof import("../components/Headers/SubHeading.vue")['default']
@@ -101,6 +101,7 @@ export const ServerPlaceholder: typeof import("../node_modules/nuxt/dist/app/com
 export const NuxtLink: typeof import("../node_modules/nuxt/dist/app/components/nuxt-link")['default']
 export const LazyFooter: typeof import("../components/Footer.vue")['default']
 export const LazyHeader: typeof import("../components/Header.vue")['default']
+export const LazyCodeHighlight: typeof import("../components/CodeSnippet/CodeHighlight.vue")['default']
 export const LazyAlertInfo: typeof import("../components/Alert/AlertInfo.vue")['default']
 export const LazyAlertWithIcon: typeof import("../components/Alert/AlertWithIcon.vue")['default']
 export const LazyAlertWithLink: typeof import("../components/Alert/AlertWithLink.vue")['default']
@@ -109,7 +110,6 @@ export const LazyAlertBorderAlert: typeof import("../components/Alert/BorderAler
 export const LazyAlertDefaultAlert: typeof import("../components/Alert/DefaultAlert.vue")['default']
 export const LazyAlertStateAlert: typeof import("../components/Alert/StateAlert.vue")['default']
 export const LazyAlertWithButtonAlert: typeof import("../components/Alert/WithButtonAlert.vue")['default']
-export const LazyCodeHighlight: typeof import("../components/CodeSnippet/CodeHighlight.vue")['default']
 export const LazyNavigationMenuItems: typeof import("../components/Navigation/MenuItems.js")['default']
 export const LazyHeadersHeading: typeof import("../components/Headers/Heading.vue")['default']
 export const LazyHeadersSubHeading: typeof import("../components/Headers/SubHeading.vue")['default']

@@ -1,14 +1,10 @@
 <template>
   <div :class="store.theme === 'light' ? 'light' : 'dark'" class="relative">
+  <transition name="fade">
     <div class="absolute top-4 right-4" v-if="showToast">
-      <Motion
-        :initial="{ y: 0 }"
-        :animate="{ y: 10 }"
-        :exit="{ y: -10 }"
-      >
         <UtilsToast></UtilsToast>
-      </Motion>
     </div>
+  </transition>
     <Header />
     <div class="dark:bg-[#121212] dark:text-gray-100 flex h-screen">
       <div class="container h-screen">
@@ -51,13 +47,12 @@
 </template>
 
 <script>
-import { Motion } from "motion/vue"
 import { useStore } from "~/store/index";
 import Header from "../components/Header.vue";
 import Footer from "../components/Footer.vue";
 import MenuItems from "../components/Navigation/MenuItems";
 export default {
-  components: { Header, Footer,Motion },
+  components: { Header, Footer },
   metaInfo: {
     title: "Component library!",
   },
@@ -105,5 +100,28 @@ export default {
 }
 .bgGradient {
   background-image: url();
+}
+.fade-enter-active {
+  animation: fade-in 0.2s;
+}
+.fade-leave-active {
+  animation: fade-out 0.2s;
+}
+@keyframes fade-in {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+@keyframes fade-out {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(10px);
+    opacity: 0;
+  }
 }
 </style>

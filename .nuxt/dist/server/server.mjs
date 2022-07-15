@@ -118,7 +118,6 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /components/Utils/Toast.vue ($id_1423e7ad)
 // - /components/Header.vue ($id_4e284fc3)
 // - /components/Footer.vue ($id_f3d8f325)
-// - /node_modules/@motionone/vue/dist/motion-vue.esm.js ($id_aa50c33d)
 // - /layouts/custom.vue ($id_d158cf1f)
 // - /layouts/full.vue ($id_2ca7d6cb)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -1590,7 +1589,7 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.cs
 
 // --------------------
 const $id_f75548e1 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap\");\n/*! tailwindcss v3.1.6 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[multiple],[type=date],[type=datetime-local],[type=email],[type=month],[type=number],[type=password],[type=search],[type=tel],[type=text],[type=time],[type=url],[type=week],select,textarea{--tw-shadow:0 0 #0000;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;border-color:#6b7280;border-radius:0;border-width:1px;font-size:1rem;line-height:1.5rem;padding:.5rem .75rem}[multiple]:focus,[type=date]:focus,[type=datetime-local]:focus,[type=email]:focus,[type=month]:focus,[type=number]:focus,[type=password]:focus,[type=search]:focus,[type=tel]:focus,[type=text]:focus,[type=time]:focus,[type=url]:focus,[type=week]:focus,select:focus,textarea:focus{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);border-color:#2563eb;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);outline:2px solid transparent;outline-offset:2px}input::-moz-placeholder,textarea::-moz-placeholder{color:#6b7280;opacity:1}input::placeholder,textarea::placeholder{color:#6b7280;opacity:1}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-date-and-time-value{min-height:1.5em}::-webkit-datetime-edit,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-meridiem-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-year-field{padding-bottom:0;padding-top:0}select{color-adjust:exact;background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3E%3C/svg%3E\");background-position:right .5rem center;background-repeat:no-repeat;background-size:1.5em 1.5em;padding-right:2.5rem;-webkit-print-color-adjust:exact;print-color-adjust:exact}[multiple]{color-adjust:unset;background-image:none;background-position:0 0;background-repeat:unset;background-size:initial;padding-right:.75rem;-webkit-print-color-adjust:unset;print-color-adjust:unset}[type=checkbox],[type=radio]{color-adjust:exact;--tw-shadow:0 0 #0000;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;background-origin:border-box;border-color:#6b7280;border-width:1px;color:#2563eb;display:inline-block;flex-shrink:0;height:1rem;padding:0;-webkit-print-color-adjust:exact;print-color-adjust:exact;-webkit-user-select:none;-moz-user-select:none;user-select:none;vertical-align:middle;width:1rem}[type=checkbox]{border-radius:0}[type=radio]{border-radius:100%}[type=checkbox]:focus,[type=radio]:focus{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:2px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);outline:2px solid transparent;outline-offset:2px}[type=checkbox]:checked,[type=radio]:checked{background-color:currentColor;background-position:50%;background-repeat:no-repeat;background-size:100% 100%;border-color:transparent}[type=checkbox]:checked{background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.207 4.793a1 1 0 0 1 0 1.414l-5 5a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L6.5 9.086l4.293-4.293a1 1 0 0 1 1.414 0z'/%3E%3C/svg%3E\")}[type=radio]:checked{background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='8' cy='8' r='3'/%3E%3C/svg%3E\")}[type=checkbox]:checked:focus,[type=checkbox]:checked:hover,[type=radio]:checked:focus,[type=radio]:checked:hover{background-color:currentColor;border-color:transparent}[type=checkbox]:indeterminate{background-color:currentColor;background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3E%3Cpath stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3E%3C/svg%3E\");background-position:50%;background-repeat:no-repeat;background-size:100% 100%;border-color:transparent}[type=checkbox]:indeterminate:focus,[type=checkbox]:indeterminate:hover{background-color:currentColor;border-color:transparent}[type=file]{background:unset;border-color:inherit;border-radius:0;border-width:0;font-size:unset;line-height:inherit;padding:0}[type=file]:focus{outline:1px solid ButtonText;outline:1px auto -webkit-focus-ring-color}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.container{margin-left:auto;margin-right:auto;padding-left:.5rem;padding-right:.5rem;width:100%}@media (min-width:340px){.container{max-width:340px}}@media (min-width:640px){.container{max-width:640px;padding-left:1rem;padding-right:1rem}}@media (min-width:768px){.container{max-width:768px;padding-left:1rem;padding-right:1rem}}@media (min-width:1024px){.container{max-width:1024px;padding-left:2rem;padding-right:2rem}}@media (min-width:1280px){.container{max-width:1280px;padding-left:3rem;padding-right:3rem}}@media (min-width:1536px){.container{max-width:1536px;padding-left:3rem;padding-right:3rem}}.absolute{position:absolute}.relative{position:relative}.top-4{top:1rem}.right-4{right:1rem}.bottom-5{bottom:1.25rem}.right-5{right:1.25rem}.mt-6{margin-top:1.5rem}.mt-4{margin-top:1rem}.mt-12{margin-top:3rem}.flex{display:flex}.table{display:table}.contents{display:contents}.hidden{display:none}.h-28{height:7rem}.h-6{height:1.5rem}.h-16{height:4rem}.h-screen{height:100vh}.h-5{height:1.25rem}.h-4{height:1rem}.min-h-screen{min-height:100vh}.w-full{width:100%}.w-56{width:14rem}.w-44{width:11rem}.w-40{width:10rem}.w-6{width:1.5rem}.w-5{width:1.25rem}.w-4{width:1rem}.flex-1{flex:1 1 0%}.cursor-pointer{cursor:pointer}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.5rem*var(--tw-space-y-reverse));margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)))}.space-x-5>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.25rem*var(--tw-space-x-reverse))}.space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1rem*var(--tw-space-x-reverse))}.space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.5rem*var(--tw-space-x-reverse))}.space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.25rem*var(--tw-space-y-reverse));margin-top:calc(.25rem*(1 - var(--tw-space-y-reverse)))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1rem*var(--tw-space-y-reverse));margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)))}.space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.5rem*var(--tw-space-x-reverse))}.space-x-1>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.25rem*var(--tw-space-x-reverse))}.overflow-y-auto{overflow-y:auto}.overflow-y-hidden{overflow-y:hidden}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-xl{border-radius:.75rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-l-2{border-left-width:2px}.border-t-2{border-top-width:2px}.border-neutral-700{--tw-border-opacity:1;border-color:rgb(64 64 64/var(--tw-border-opacity))}.border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81/var(--tw-border-opacity))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219/var(--tw-border-opacity))}.border-gray-900{--tw-border-opacity:1;border-color:rgb(17 24 39/var(--tw-border-opacity))}.border-sky-700{--tw-border-opacity:1;border-color:rgb(3 105 161/var(--tw-border-opacity))}.border-emerald-700{--tw-border-opacity:1;border-color:rgb(4 120 87/var(--tw-border-opacity))}.border-amber-700{--tw-border-opacity:1;border-color:rgb(180 83 9/var(--tw-border-opacity))}.border-rose-700{--tw-border-opacity:1;border-color:rgb(190 18 60/var(--tw-border-opacity))}.border-slate-900{--tw-border-opacity:1;border-color:rgb(15 23 42/var(--tw-border-opacity))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235/var(--tw-border-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity))}.bg-neutral-50{--tw-bg-opacity:1;background-color:rgb(250 250 250/var(--tw-bg-opacity))}.bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.bg-zinc-100{--tw-bg-opacity:1;background-color:rgb(244 244 245/var(--tw-bg-opacity))}.bg-sky-100{--tw-bg-opacity:1;background-color:rgb(224 242 254/var(--tw-bg-opacity))}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229/var(--tw-bg-opacity))}.bg-amber-100{--tw-bg-opacity:1;background-color:rgb(254 243 199/var(--tw-bg-opacity))}.bg-rose-100{--tw-bg-opacity:1;background-color:rgb(255 228 230/var(--tw-bg-opacity))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254/var(--tw-bg-opacity))}.p-4{padding:1rem}.p-1\\.5{padding:.375rem}.p-1{padding:.25rem}.py-1{padding-bottom:.25rem;padding-top:.25rem}.px-4{padding-left:1rem;padding-right:1rem}.px-2{padding-left:.5rem;padding-right:.5rem}.py-2{padding-bottom:.5rem;padding-top:.5rem}.py-10{padding-bottom:2.5rem;padding-top:2.5rem}.px-10{padding-left:2.5rem;padding-right:2.5rem}.py-3{padding-bottom:.75rem;padding-top:.75rem}.pl-4{padding-left:1rem}.pr-12{padding-right:3rem}.pb-20{padding-bottom:5rem}.pt-2{padding-top:.5rem}.text-right{text-align:right}.text-xs{font-size:.75rem}.text-base{font-size:1rem}.text-sm{font-size:.875rem}.text-7xl{font-size:5rem}.text-2xl{font-size:1.5rem}.text-xl{font-size:1.25rem}.font-semibold{font-weight:600}.font-normal{font-weight:400}.font-thin{font-weight:100}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-light{font-weight:300}.uppercase{text-transform:uppercase}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85/var(--tw-text-opacity))}.text-sky-700{--tw-text-opacity:1;color:rgb(3 105 161/var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.text-zinc-400{--tw-text-opacity:1;color:rgb(161 161 170/var(--tw-text-opacity))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87/var(--tw-text-opacity))}.text-amber-700{--tw-text-opacity:1;color:rgb(180 83 9/var(--tw-text-opacity))}.text-rose-700{--tw-text-opacity:1;color:rgb(190 18 60/var(--tw-text-opacity))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity))}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.text-blue-500{--tw-text-opacity:1;color:rgb(59 130 246/var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.shadow-md{--tw-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.transition-all{transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}html{font-family:\"Inter\",sans-serif;font-family:\"Montserrat\",sans-serif}::-webkit-scrollbar{height:12px;width:5px}::-webkit-scrollbar-track{border:1px solid #8c8c8c;border-radius:10px}::-webkit-scrollbar-thumb{background:#848484;border-radius:10px}::-webkit-scrollbar-thumb:hover{background:#909090}.no-scrollbar::-webkit-scrollbar{display:none}.no-scrollbar{-ms-overflow-style:none;scrollbar-width:none}pre[class*=language-]{border-radius:10px!important;font-size:.9rem;margin:.5em 0;overflow:auto;padding:1em}.light pre[class*=language-]{background:#f5f5f5!important;padding:1.5rem}.dark pre[class*=language-]{background:#171717!important;padding:1.5rem}.hover\\:cursor-pointer:hover{cursor:pointer}.dark .dark\\:border-\\[\\#2D2D2D\\]{--tw-border-opacity:1;border-color:rgb(45 45 45/var(--tw-border-opacity))}.dark .dark\\:border-b-\\[\\#2D2D2D\\]{--tw-border-opacity:1;border-bottom-color:rgb(45 45 45/var(--tw-border-opacity))}.dark .dark\\:bg-neutral-800{--tw-bg-opacity:1;background-color:rgb(38 38 38/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#212121\\]{--tw-bg-opacity:1;background-color:rgb(33 33 33/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#121212\\]{--tw-bg-opacity:1;background-color:rgb(18 18 18/var(--tw-bg-opacity))}.dark .dark\\:bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity))}.dark .dark\\:text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.dark .dark\\:text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.dark .dark\\:text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.dark .dark\\:text-sky-500{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.dark .dark\\:text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.dark .dark\\:text-neutral-200{--tw-text-opacity:1;color:rgb(229 229 229/var(--tw-text-opacity))}@media (min-width:768px){.md\\:block{display:block}}@media (min-width:1024px){.lg\\:block{display:block}}";
+__vite_ssr_exports__.default = "@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap\");\n/*! tailwindcss v3.1.6 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[multiple],[type=date],[type=datetime-local],[type=email],[type=month],[type=number],[type=password],[type=search],[type=tel],[type=text],[type=time],[type=url],[type=week],select,textarea{--tw-shadow:0 0 #0000;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;border-color:#6b7280;border-radius:0;border-width:1px;font-size:1rem;line-height:1.5rem;padding:.5rem .75rem}[multiple]:focus,[type=date]:focus,[type=datetime-local]:focus,[type=email]:focus,[type=month]:focus,[type=number]:focus,[type=password]:focus,[type=search]:focus,[type=tel]:focus,[type=text]:focus,[type=time]:focus,[type=url]:focus,[type=week]:focus,select:focus,textarea:focus{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);border-color:#2563eb;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);outline:2px solid transparent;outline-offset:2px}input::-moz-placeholder,textarea::-moz-placeholder{color:#6b7280;opacity:1}input::placeholder,textarea::placeholder{color:#6b7280;opacity:1}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-date-and-time-value{min-height:1.5em}::-webkit-datetime-edit,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-meridiem-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-year-field{padding-bottom:0;padding-top:0}select{color-adjust:exact;background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3E%3C/svg%3E\");background-position:right .5rem center;background-repeat:no-repeat;background-size:1.5em 1.5em;padding-right:2.5rem;-webkit-print-color-adjust:exact;print-color-adjust:exact}[multiple]{color-adjust:unset;background-image:none;background-position:0 0;background-repeat:unset;background-size:initial;padding-right:.75rem;-webkit-print-color-adjust:unset;print-color-adjust:unset}[type=checkbox],[type=radio]{color-adjust:exact;--tw-shadow:0 0 #0000;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;background-origin:border-box;border-color:#6b7280;border-width:1px;color:#2563eb;display:inline-block;flex-shrink:0;height:1rem;padding:0;-webkit-print-color-adjust:exact;print-color-adjust:exact;-webkit-user-select:none;-moz-user-select:none;user-select:none;vertical-align:middle;width:1rem}[type=checkbox]{border-radius:0}[type=radio]{border-radius:100%}[type=checkbox]:focus,[type=radio]:focus{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:2px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);outline:2px solid transparent;outline-offset:2px}[type=checkbox]:checked,[type=radio]:checked{background-color:currentColor;background-position:50%;background-repeat:no-repeat;background-size:100% 100%;border-color:transparent}[type=checkbox]:checked{background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.207 4.793a1 1 0 0 1 0 1.414l-5 5a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L6.5 9.086l4.293-4.293a1 1 0 0 1 1.414 0z'/%3E%3C/svg%3E\")}[type=radio]:checked{background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='8' cy='8' r='3'/%3E%3C/svg%3E\")}[type=checkbox]:checked:focus,[type=checkbox]:checked:hover,[type=radio]:checked:focus,[type=radio]:checked:hover{background-color:currentColor;border-color:transparent}[type=checkbox]:indeterminate{background-color:currentColor;background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3E%3Cpath stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3E%3C/svg%3E\");background-position:50%;background-repeat:no-repeat;background-size:100% 100%;border-color:transparent}[type=checkbox]:indeterminate:focus,[type=checkbox]:indeterminate:hover{background-color:currentColor;border-color:transparent}[type=file]{background:unset;border-color:inherit;border-radius:0;border-width:0;font-size:unset;line-height:inherit;padding:0}[type=file]:focus{outline:1px solid ButtonText;outline:1px auto -webkit-focus-ring-color}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.container{margin-left:auto;margin-right:auto;padding-left:.5rem;padding-right:.5rem;width:100%}@media (min-width:340px){.container{max-width:340px}}@media (min-width:640px){.container{max-width:640px;padding-left:1rem;padding-right:1rem}}@media (min-width:768px){.container{max-width:768px;padding-left:1rem;padding-right:1rem}}@media (min-width:1024px){.container{max-width:1024px;padding-left:2rem;padding-right:2rem}}@media (min-width:1280px){.container{max-width:1280px;padding-left:3rem;padding-right:3rem}}@media (min-width:1536px){.container{max-width:1536px;padding-left:3rem;padding-right:3rem}}.absolute{position:absolute}.relative{position:relative}.top-4{top:1rem}.right-4{right:1rem}.bottom-5{bottom:1.25rem}.right-5{right:1.25rem}.mt-6{margin-top:1.5rem}.mt-4{margin-top:1rem}.mt-12{margin-top:3rem}.flex{display:flex}.table{display:table}.contents{display:contents}.hidden{display:none}.h-28{height:7rem}.h-6{height:1.5rem}.h-16{height:4rem}.h-screen{height:100vh}.h-5{height:1.25rem}.h-4{height:1rem}.min-h-screen{min-height:100vh}.w-full{width:100%}.w-56{width:14rem}.w-44{width:11rem}.w-40{width:10rem}.w-6{width:1.5rem}.w-5{width:1.25rem}.w-4{width:1rem}.flex-1{flex:1 1 0%}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.5rem*var(--tw-space-y-reverse));margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)))}.space-x-5>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.25rem*var(--tw-space-x-reverse))}.space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1rem*var(--tw-space-x-reverse))}.space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.5rem*var(--tw-space-x-reverse))}.space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.25rem*var(--tw-space-y-reverse));margin-top:calc(.25rem*(1 - var(--tw-space-y-reverse)))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1rem*var(--tw-space-y-reverse));margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)))}.space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.5rem*var(--tw-space-x-reverse))}.space-x-1>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.25rem*var(--tw-space-x-reverse))}.overflow-y-auto{overflow-y:auto}.overflow-y-hidden{overflow-y:hidden}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-xl{border-radius:.75rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-l-2{border-left-width:2px}.border-t-2{border-top-width:2px}.border-neutral-700{--tw-border-opacity:1;border-color:rgb(64 64 64/var(--tw-border-opacity))}.border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81/var(--tw-border-opacity))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219/var(--tw-border-opacity))}.border-gray-900{--tw-border-opacity:1;border-color:rgb(17 24 39/var(--tw-border-opacity))}.border-sky-700{--tw-border-opacity:1;border-color:rgb(3 105 161/var(--tw-border-opacity))}.border-emerald-700{--tw-border-opacity:1;border-color:rgb(4 120 87/var(--tw-border-opacity))}.border-amber-700{--tw-border-opacity:1;border-color:rgb(180 83 9/var(--tw-border-opacity))}.border-rose-700{--tw-border-opacity:1;border-color:rgb(190 18 60/var(--tw-border-opacity))}.border-slate-900{--tw-border-opacity:1;border-color:rgb(15 23 42/var(--tw-border-opacity))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235/var(--tw-border-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity))}.bg-neutral-50{--tw-bg-opacity:1;background-color:rgb(250 250 250/var(--tw-bg-opacity))}.bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.bg-zinc-100{--tw-bg-opacity:1;background-color:rgb(244 244 245/var(--tw-bg-opacity))}.bg-sky-100{--tw-bg-opacity:1;background-color:rgb(224 242 254/var(--tw-bg-opacity))}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229/var(--tw-bg-opacity))}.bg-amber-100{--tw-bg-opacity:1;background-color:rgb(254 243 199/var(--tw-bg-opacity))}.bg-rose-100{--tw-bg-opacity:1;background-color:rgb(255 228 230/var(--tw-bg-opacity))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254/var(--tw-bg-opacity))}.p-4{padding:1rem}.p-1\\.5{padding:.375rem}.p-1{padding:.25rem}.py-1{padding-bottom:.25rem;padding-top:.25rem}.px-4{padding-left:1rem;padding-right:1rem}.px-2{padding-left:.5rem;padding-right:.5rem}.py-2{padding-bottom:.5rem;padding-top:.5rem}.py-10{padding-bottom:2.5rem;padding-top:2.5rem}.px-10{padding-left:2.5rem;padding-right:2.5rem}.py-3{padding-bottom:.75rem;padding-top:.75rem}.pl-4{padding-left:1rem}.pr-12{padding-right:3rem}.pb-20{padding-bottom:5rem}.pt-2{padding-top:.5rem}.text-right{text-align:right}.text-xs{font-size:.75rem}.text-base{font-size:1rem}.text-sm{font-size:.875rem}.text-7xl{font-size:5rem}.text-2xl{font-size:1.5rem}.text-xl{font-size:1.25rem}.font-semibold{font-weight:600}.font-normal{font-weight:400}.font-thin{font-weight:100}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-light{font-weight:300}.uppercase{text-transform:uppercase}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85/var(--tw-text-opacity))}.text-sky-700{--tw-text-opacity:1;color:rgb(3 105 161/var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.text-zinc-400{--tw-text-opacity:1;color:rgb(161 161 170/var(--tw-text-opacity))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87/var(--tw-text-opacity))}.text-amber-700{--tw-text-opacity:1;color:rgb(180 83 9/var(--tw-text-opacity))}.text-rose-700{--tw-text-opacity:1;color:rgb(190 18 60/var(--tw-text-opacity))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity))}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.text-blue-500{--tw-text-opacity:1;color:rgb(59 130 246/var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.shadow-md{--tw-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.transition{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-all{transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}html{font-family:\"Inter\",sans-serif;font-family:\"Montserrat\",sans-serif}::-webkit-scrollbar{height:12px;width:5px}::-webkit-scrollbar-track{border:1px solid #8c8c8c;border-radius:10px}::-webkit-scrollbar-thumb{background:#848484;border-radius:10px}::-webkit-scrollbar-thumb:hover{background:#909090}.no-scrollbar::-webkit-scrollbar{display:none}.no-scrollbar{-ms-overflow-style:none;scrollbar-width:none}pre[class*=language-]{border-radius:10px!important;font-size:.9rem;margin:.5em 0;overflow:auto;padding:1em}.light pre[class*=language-]{background:#f5f5f5!important;padding:1.5rem}.dark pre[class*=language-]{background:#171717!important;padding:1.5rem}.hover\\:cursor-pointer:hover{cursor:pointer}.dark .dark\\:border-\\[\\#2D2D2D\\]{--tw-border-opacity:1;border-color:rgb(45 45 45/var(--tw-border-opacity))}.dark .dark\\:border-b-\\[\\#2D2D2D\\]{--tw-border-opacity:1;border-bottom-color:rgb(45 45 45/var(--tw-border-opacity))}.dark .dark\\:bg-neutral-800{--tw-bg-opacity:1;background-color:rgb(38 38 38/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#212121\\]{--tw-bg-opacity:1;background-color:rgb(33 33 33/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#121212\\]{--tw-bg-opacity:1;background-color:rgb(18 18 18/var(--tw-bg-opacity))}.dark .dark\\:bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity))}.dark .dark\\:text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.dark .dark\\:text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.dark .dark\\:text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.dark .dark\\:text-sky-500{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.dark .dark\\:text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.dark .dark\\:text-neutral-200{--tw-text-opacity:1;color:rgb(229 229 229/var(--tw-text-opacity))}@media (min-width:768px){.md\\:block{display:block}}@media (min-width:1024px){.lg\\:block{display:block}}";
 }
 
 
@@ -3209,19 +3208,27 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     _: 1 /* STABLE */
                   }),
                   __vite_ssr_import_12__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_12__.withDirectives(__vite_ssr_import_12__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                    __vite_ssr_import_12__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                      __vite_ssr_import_12__.createVNode("div", null, " HTML "),
-                      __vite_ssr_import_12__.createVNode("div", null, [
-                        __vite_ssr_import_12__.createVNode(_component_UtilsCopyButton, {
-                          onClick: $event => ($options.copyToClipboard('defaultAlertComp'))
-                        }, null, 8 /* PROPS */, ["onClick"])
+                  __vite_ssr_import_12__.createVNode(__vite_ssr_import_12__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_12__.withCtx(() => [
+                      __vite_ssr_import_12__.withDirectives(__vite_ssr_import_12__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_12__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_12__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_12__.createVNode("div", null, [
+                            __vite_ssr_import_12__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('defaultAlertComp'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_12__.createVNode(_component_DefaultAlertCodeSnippet, { id: "defaultAlertComp" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_12__.vShow, $data.default_alertt]
                       ])
                     ]),
-                    __vite_ssr_import_12__.createVNode(_component_DefaultAlertCodeSnippet, { id: "defaultAlertComp" })
-                  ], 512 /* NEED_PATCH */), [
-                    [__vite_ssr_import_12__.vShow, $data.default_alertt]
-                  ]),
+                    _: 1 /* STABLE */
+                  }),
                   __vite_ssr_import_12__.createCommentVNode(" code snippet end ")
                 ])
               ])
@@ -3361,7 +3368,6 @@ __vite_ssr_exports__.default = {
 // - /components/Header.vue ($id_4e284fc3)
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
 // - /components/Footer.vue ($id_f3d8f325)
-// - /node_modules/motion/dist/vue.es.js ($id_7068682e)
 // - /store/index.js ($id_3135ce2a)
 // - /components/Navigation/MenuItems.js ($id_3f5e6989)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -3379,26 +3385,24 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/components/Footer.vue");
 
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/motion/dist/vue.es.js");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/store/index.js");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/store/index.js");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/components/Header.vue");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/components/Header.vue");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/components/Footer.vue");
 
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/components/Footer.vue");
-
-const __vite_ssr_import_8__ = await __vite_ssr_import__("/components/Navigation/MenuItems.js");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/components/Navigation/MenuItems.js");
 
 const _sfc_main = {
-  components: { Header: __vite_ssr_import_6__.default, Footer: __vite_ssr_import_7__.default,Motion: __vite_ssr_import_4__.Motion },
+  components: { Header: __vite_ssr_import_5__.default, Footer: __vite_ssr_import_6__.default },
   metaInfo: {
     title: "Component library!",
   },
   data() {
     return {
-      menu: __vite_ssr_import_8__.default,
+      menu: __vite_ssr_import_7__.default,
       theme: "dark",
-      store: __vite_ssr_import_5__.useStore(),
+      store: __vite_ssr_import_4__.useStore(),
       showToast: false,
     };
   },
@@ -3431,60 +3435,44 @@ const _sfc_main = {
   },
 };
 
-const __vite_ssr_import_9__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_10__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+const __vite_ssr_import_9__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  const _component_Motion = __vite_ssr_import_9__.resolveComponent("Motion")
   const _component_UtilsToast = __vite_ssr_import_0__.default
   const _component_Header = __vite_ssr_import_1__.default
   const _component_nuxt_link = __vite_ssr_import_2__.default
   const _component_Footer = __vite_ssr_import_3__.default
 
-  _push(`<div${__vite_ssr_import_10__.ssrRenderAttrs(__vite_ssr_import_9__.mergeProps({
+  _push(`<div${__vite_ssr_import_9__.ssrRenderAttrs(__vite_ssr_import_8__.mergeProps({
     class: [$data.store.theme === 'light' ? 'light' : 'dark', "relative"]
   }, _attrs))}>`)
   if ($data.showToast) {
     _push(`<div class="absolute top-4 right-4">`)
-    _push(__vite_ssr_import_10__.ssrRenderComponent(_component_Motion, {
-      initial: { y: 0 },
-      animate: { y: 10 },
-      exit: { y: -10 }
-    }, {
-      default: __vite_ssr_import_9__.withCtx((_, _push, _parent, _scopeId) => {
-        if (_push) {
-          _push(__vite_ssr_import_10__.ssrRenderComponent(_component_UtilsToast, null, null, _parent, _scopeId))
-        } else {
-          return [
-            __vite_ssr_import_9__.createVNode(_component_UtilsToast)
-          ]
-        }
-      }),
-      _: 1 /* STABLE */
-    }, _parent))
+    _push(__vite_ssr_import_9__.ssrRenderComponent(_component_UtilsToast, null, null, _parent))
     _push(`</div>`)
   } else {
     _push(`<!---->`)
   }
-  _push(__vite_ssr_import_10__.ssrRenderComponent(_component_Header, null, null, _parent))
+  _push(__vite_ssr_import_9__.ssrRenderComponent(_component_Header, null, null, _parent))
   _push(`<div class="dark:bg-[#121212] dark:text-gray-100 flex h-screen"><div class="container h-screen"><div class="flex w-full flex-col h-screen"><div class="flex w-full h-screen"><!-- sidebar left --><div class="w-44 flex flex-col h-screen overflow-y-hidden"><div class="overflow-y-auto hidden md:block"><div class="flex flex-col text-base mt-6 space-y-1 text-slate-700 dark:text-gray-300"><!--[-->`)
-  __vite_ssr_import_10__.ssrRenderList($data.menu, (item, index) => {
-    _push(`<span><div class="${__vite_ssr_import_10__.ssrRenderClass(
+  __vite_ssr_import_9__.ssrRenderList($data.menu, (item, index) => {
+    _push(`<span><div class="${__vite_ssr_import_9__.ssrRenderClass(
                         $options.getPath() == item.link
                           ? 'font-semibold text-sky-700 dark:text-sky-500'
                           : ''
                       )}">`)
-    _push(__vite_ssr_import_10__.ssrRenderComponent(_component_nuxt_link, {
+    _push(__vite_ssr_import_9__.ssrRenderComponent(_component_nuxt_link, {
       to: item.link
     }, {
-      default: __vite_ssr_import_9__.withCtx((_, _push, _parent, _scopeId) => {
+      default: __vite_ssr_import_8__.withCtx((_, _push, _parent, _scopeId) => {
         if (_push) {
-          _push(`${__vite_ssr_import_10__.ssrInterpolate(item.title)}`)
+          _push(`${__vite_ssr_import_9__.ssrInterpolate(item.title)}`)
         } else {
           return [
-            __vite_ssr_import_9__.createTextVNode(__vite_ssr_import_9__.toDisplayString(item.title), 1 /* TEXT */)
+            __vite_ssr_import_8__.createTextVNode(__vite_ssr_import_8__.toDisplayString(item.title), 1 /* TEXT */)
           ]
         }
       }),
@@ -3493,26 +3481,26 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
     _push(`</div></span>`)
   })
   _push(`<!--]--></div></div></div><!-- Rest of the content --><main class="w-full h-screen overflow-y-hidden">`)
-  __vite_ssr_import_10__.ssrRenderSlot(_ctx.$slots, "default", {}, null, _push, _parent)
+  __vite_ssr_import_9__.ssrRenderSlot(_ctx.$slots, "default", {}, null, _push, _parent)
   _push(`</main></div></div></div></div><div class="">`)
-  _push(__vite_ssr_import_10__.ssrRenderComponent(_component_Footer, null, null, _parent))
+  _push(__vite_ssr_import_9__.ssrRenderComponent(_component_Footer, null, null, _parent))
   _push(`</div></div>`)
 }
 
-const __vite_ssr_import_11__ = await __vite_ssr_import__("/layouts/custom.vue?vue&type=style&index=0&lang.css");
+const __vite_ssr_import_10__ = await __vite_ssr_import__("/layouts/custom.vue?vue&type=style&index=0&lang.css");
 
 
-const __vite_ssr_import_12__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_11__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_12__.useSSRContext()
+  const ssrContext = __vite_ssr_import_11__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("layouts/custom.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_13__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_12__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_13__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/paragchirde/Desktop/Ortigan/Ortigan Internal Gigs/Tailwindcss Component Library/component-library/layouts/custom.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_12__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/paragchirde/Desktop/Ortigan/Ortigan Internal Gigs/Tailwindcss Component Library/component-library/layouts/custom.vue"]]);
 }
 
 
@@ -3723,1506 +3711,6 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 
 
 // --------------------
-// Request: /node_modules/motion/dist/vue.es.js
-// Parents: 
-// - /layouts/custom.vue ($id_d158cf1f)
-// Dependencies: 
-// - /node_modules/@motionone/vue/dist/motion-vue.esm.js ($id_aa50c33d)
-// --------------------
-const $id_7068682e = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@motionone/vue/dist/motion-vue.esm.js");
-__vite_ssr_exportAll__(__vite_ssr_import_0__);
-;
-}
-
-
-// --------------------
-// Request: /node_modules/@motionone/vue/dist/motion-vue.esm.js
-// Parents: 
-// - /node_modules/motion/dist/vue.es.js ($id_7068682e)
-// Dependencies: 
-// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
-// --------------------
-const $id_aa50c33d = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-
-/**
- * The MotionValue tracks the state of a single animatable
- * value. Currently, updatedAt and current are unused. The
- * long term idea is to use this to minimise the number
- * of DOM reads, and to abstract the DOM interactions here.
- */
-class MotionValue {
-  setAnimation(animation) {
-    this.animation = animation;
-    animation === null || animation === void 0 ? void 0 : animation.finished.then(() => this.clearAnimation()).catch(() => {});
-  }
-
-  clearAnimation() {
-    this.animation = this.generator = undefined;
-  }
-
-}
-
-const data = new WeakMap();
-
-function getAnimationData(element) {
-  if (!data.has(element)) {
-    data.set(element, {
-      transforms: [],
-      values: new Map()
-    });
-  }
-
-  return data.get(element);
-}
-
-function getMotionValue(motionValues, name) {
-  if (!motionValues.has(name)) {
-    motionValues.set(name, new MotionValue());
-  }
-
-  return motionValues.get(name);
-}
-
-function addUniqueItem(array, item) {
-  array.indexOf(item) === -1 && array.push(item);
-}
-
-function removeItem(arr, item) {
-  const index = arr.indexOf(item);
-  index > -1 && arr.splice(index, 1);
-}
-
-const clamp = (min, max, v) => Math.min(Math.max(v, min), max);
-
-const defaults = {
-  duration: 0.3,
-  delay: 0,
-  endDelay: 0,
-  repeat: 0,
-  easing: "ease"
-};
-
-const isNumber = value => typeof value === "number";
-
-const isEasingGenerator = easing => typeof easing === "object" && Boolean(easing.createAnimation);
-
-const isCubicBezier = easing => Array.isArray(easing) && isNumber(easing[0]);
-
-const isEasingList = easing => Array.isArray(easing) && !isNumber(easing[0]);
-
-const wrap = (min, max, v) => {
-  const rangeSize = max - min;
-  return ((v - min) % rangeSize + rangeSize) % rangeSize + min;
-};
-
-function getEasingForSegment(easing, i) {
-  return isEasingList(easing) ? easing[wrap(0, easing.length, i)] : easing;
-}
-
-const mix = (min, max, progress) => -progress * min + progress * max + min;
-
-const noop = () => {};
-
-const noopReturn = v => v;
-
-const progress = (min, max, value) => max - min === 0 ? 1 : (value - min) / (max - min);
-
-function fillOffset(offset, remaining) {
-  const min = offset[offset.length - 1];
-
-  for (let i = 1; i <= remaining; i++) {
-    const offsetProgress = progress(0, remaining, i);
-    offset.push(mix(min, 1, offsetProgress));
-  }
-}
-
-function defaultOffset(length) {
-  const offset = [0];
-  fillOffset(offset, length - 1);
-  return offset;
-}
-
-function interpolate(output) {
-  let input = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : defaultOffset(output.length);
-  let easing = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : noopReturn;
-  const length = output.length;
-  /**
-   * If the input length is lower than the output we
-   * fill the input to match. This currently assumes the input
-   * is an animation progress value so is a good candidate for
-   * moving outside the function.
-   */
-
-  const remainder = length - input.length;
-  remainder > 0 && fillOffset(input, remainder);
-  return t => {
-    let i = 0;
-
-    for (; i < length - 2; i++) {
-      if (t < input[i + 1]) break;
-    }
-
-    let progressInRange = clamp(0, 1, progress(input[i], input[i + 1], t));
-    const segmentEasing = getEasingForSegment(easing, i);
-    progressInRange = segmentEasing(progressInRange);
-    return mix(output[i], output[i + 1], progressInRange);
-  };
-}
-
-const time = {
-  ms: seconds => seconds * 1000,
-  s: milliseconds => milliseconds / 1000
-};
-
-/**
- * A list of all transformable axes. We'll use this list to generated a version
- * of each axes for each transform.
- */
-
-const axes = ["", "X", "Y", "Z"];
-/**
- * An ordered array of each transformable value. By default, transform values
- * will be sorted to this order.
- */
-
-const order = ["translate", "scale", "rotate", "skew"];
-const transformAlias = {
-  x: "translateX",
-  y: "translateY",
-  z: "translateZ"
-};
-const rotation = {
-  syntax: "<angle>",
-  initialValue: "0deg",
-  toDefaultUnit: v => v + "deg"
-};
-const baseTransformProperties = {
-  translate: {
-    syntax: "<length-percentage>",
-    initialValue: "0px",
-    toDefaultUnit: v => v + "px"
-  },
-  rotate: rotation,
-  scale: {
-    syntax: "<number>",
-    initialValue: 1,
-    toDefaultUnit: noopReturn
-  },
-  skew: rotation
-};
-const transformDefinitions = new Map();
-
-const asTransformCssVar = name => `--motion-${name}`;
-/**
- * Generate a list of every possible transform key
- */
-
-
-const transforms = ["x", "y", "z"];
-order.forEach(name => {
-  axes.forEach(axis => {
-    transforms.push(name + axis);
-    transformDefinitions.set(asTransformCssVar(name + axis), baseTransformProperties[name]);
-  });
-});
-/**
- * A function to use with Array.sort to sort transform keys by their default order.
- */
-
-const compareTransformOrder = (a, b) => transforms.indexOf(a) - transforms.indexOf(b);
-/**
- * Provide a quick way to check if a string is the name of a transform
- */
-
-
-const transformLookup = new Set(transforms);
-
-const isTransform = name => transformLookup.has(name);
-
-const addTransformToElement = (element, name) => {
-  // Map x to translateX etc
-  if (transformAlias[name]) name = transformAlias[name];
-  const {
-    transforms
-  } = getAnimationData(element);
-  addUniqueItem(transforms, name);
-  /**
-   * TODO: An optimisation here could be to cache the transform in element data
-   * and only update if this has changed.
-   */
-
-  element.style.transform = buildTransformTemplate(transforms);
-};
-
-const buildTransformTemplate = transforms => transforms.sort(compareTransformOrder).reduce(transformListToString, "").trim();
-
-const transformListToString = (template, name) => `${template} ${name}(var(${asTransformCssVar(name)}))`;
-
-const isCssVar = name => name.startsWith("--");
-
-const registeredProperties = new Set();
-
-function registerCssVariable(name) {
-  if (registeredProperties.has(name)) return;
-  registeredProperties.add(name);
-
-  try {
-    const {
-      syntax,
-      initialValue
-    } = transformDefinitions.has(name) ? transformDefinitions.get(name) : {};
-    CSS.registerProperty({
-      name,
-      inherits: false,
-      syntax,
-      initialValue
-    });
-  } catch (e) {}
-}
-
-/*
-  Bezier function generator
-
-  This has been modified from Gaëtan Renaudeau's BezierEasing
-  https://github.com/gre/bezier-easing/blob/master/src/index.js
-  https://github.com/gre/bezier-easing/blob/master/LICENSE
-  
-  I've removed the newtonRaphsonIterate algo because in benchmarking it
-  wasn't noticiably faster than binarySubdivision, indeed removing it
-  usually improved times, depending on the curve.
-
-  I also removed the lookup table, as for the added bundle size and loop we're
-  only cutting ~4 or so subdivision iterations. I bumped the max iterations up
-  to 12 to compensate and this still tended to be faster for no perceivable
-  loss in accuracy.
-
-  Usage
-    const easeOut = cubicBezier(.17,.67,.83,.67);
-    const x = easeOut(0.5); // returns 0.627...
-*/
-// Returns x(t) given t, x1, and x2, or y(t) given t, y1, and y2.
-
-const calcBezier = (t, a1, a2) => (((1.0 - 3.0 * a2 + 3.0 * a1) * t + (3.0 * a2 - 6.0 * a1)) * t + 3.0 * a1) * t;
-
-const subdivisionPrecision = 0.0000001;
-const subdivisionMaxIterations = 12;
-
-function binarySubdivide(x, lowerBound, upperBound, mX1, mX2) {
-  let currentX;
-  let currentT;
-  let i = 0;
-
-  do {
-    currentT = lowerBound + (upperBound - lowerBound) / 2.0;
-    currentX = calcBezier(currentT, mX1, mX2) - x;
-
-    if (currentX > 0.0) {
-      upperBound = currentT;
-    } else {
-      lowerBound = currentT;
-    }
-  } while (Math.abs(currentX) > subdivisionPrecision && ++i < subdivisionMaxIterations);
-
-  return currentT;
-}
-
-function cubicBezier(mX1, mY1, mX2, mY2) {
-  // If this is a linear gradient, return linear easing
-  if (mX1 === mY1 && mX2 === mY2) return noopReturn;
-
-  const getTForX = aX => binarySubdivide(aX, 0, 1, mX1, mX2); // If animation is at start/end, return t without easing
-
-
-  return t => t === 0 || t === 1 ? t : calcBezier(getTForX(t), mY1, mY2);
-}
-
-const steps = function (steps) {
-  let direction = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : "end";
-  return progress => {
-    progress = direction === "end" ? Math.min(progress, 0.999) : Math.max(progress, 0.001);
-    const expanded = progress * steps;
-    const rounded = direction === "end" ? Math.floor(expanded) : Math.ceil(expanded);
-    return clamp(0, 1, rounded / steps);
-  };
-};
-
-const namedEasings = {
-  ease: cubicBezier(0.25, 0.1, 0.25, 1.0),
-  "ease-in": cubicBezier(0.42, 0.0, 1.0, 1.0),
-  "ease-in-out": cubicBezier(0.42, 0.0, 0.58, 1.0),
-  "ease-out": cubicBezier(0.0, 0.0, 0.58, 1.0)
-};
-const functionArgsRegex = /\((.*?)\)/;
-
-function getEasingFunction(definition) {
-  // If already an easing function, return
-  if (typeof definition === "function") return definition; // If an easing curve definition, return bezier function
-
-  if (Array.isArray(definition)) return cubicBezier(...definition); // If we have a predefined easing function, return
-
-  if (namedEasings[definition]) return namedEasings[definition]; // If this is a steps function, attempt to create easing curve
-
-  if (definition.startsWith("steps")) {
-    const args = functionArgsRegex.exec(definition);
-
-    if (args) {
-      const argsArray = args[1].split(",");
-      return steps(parseFloat(argsArray[0]), argsArray[1].trim());
-    }
-  }
-
-  return noopReturn;
-}
-
-class Animation {
-  constructor(output) {
-    let keyframes = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : [0, 1];
-    let {
-      easing,
-      duration: initialDuration = defaults.duration,
-      delay = defaults.delay,
-      endDelay = defaults.endDelay,
-      repeat = defaults.repeat,
-      offset,
-      direction = "normal"
-    } = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-    this.startTime = null;
-    this.rate = 1;
-    this.t = 0;
-    this.cancelTimestamp = null;
-    this.easing = noopReturn;
-    this.duration = 0;
-    this.totalDuration = 0;
-    this.repeat = 0;
-    this.playState = "idle";
-    this.finished = new Promise((resolve, reject) => {
-      this.resolve = resolve;
-      this.reject = reject;
-    });
-    easing = easing || defaults.easing;
-
-    if (isEasingGenerator(easing)) {
-      const custom = easing.createAnimation(keyframes, () => "0", true);
-      easing = custom.easing;
-      if (custom.keyframes !== undefined) keyframes = custom.keyframes;
-      if (custom.duration !== undefined) initialDuration = custom.duration;
-    }
-
-    this.repeat = repeat;
-    this.easing = isEasingList(easing) ? noopReturn : getEasingFunction(easing);
-    this.updateDuration(initialDuration);
-    const interpolate$1 = interpolate(keyframes, offset, isEasingList(easing) ? easing.map(getEasingFunction) : noopReturn);
-
-    this.tick = timestamp => {
-      var _a; // TODO: Temporary fix for OptionsResolver typing
-
-
-      delay = delay;
-      let t = 0;
-
-      if (this.pauseTime !== undefined) {
-        t = this.pauseTime;
-      } else {
-        t = (timestamp - this.startTime) * this.rate;
-      }
-
-      this.t = t; // Convert to seconds
-
-      t /= 1000; // Rebase on delay
-
-      t = Math.max(t - delay, 0);
-      /**
-       * If this animation has finished, set the current time
-       * to the total duration.
-       */
-
-      if (this.playState === "finished" && this.pauseTime === undefined) {
-        t = this.totalDuration;
-      }
-      /**
-       * Get the current progress (0-1) of the animation. If t is >
-       * than duration we'll get values like 2.5 (midway through the
-       * third iteration)
-       */
-
-
-      const progress = t / this.duration; // TODO progress += iterationStart
-
-      /**
-       * Get the current iteration (0 indexed). For instance the floor of
-       * 2.5 is 2.
-       */
-
-      let currentIteration = Math.floor(progress);
-      /**
-       * Get the current progress of the iteration by taking the remainder
-       * so 2.5 is 0.5 through iteration 2
-       */
-
-      let iterationProgress = progress % 1.0;
-
-      if (!iterationProgress && progress >= 1) {
-        iterationProgress = 1;
-      }
-      /**
-       * If iteration progress is 1 we count that as the end
-       * of the previous iteration.
-       */
-
-
-      iterationProgress === 1 && currentIteration--;
-      /**
-       * Reverse progress if we're not running in "normal" direction
-       */
-
-      const iterationIsOdd = currentIteration % 2;
-
-      if (direction === "reverse" || direction === "alternate" && iterationIsOdd || direction === "alternate-reverse" && !iterationIsOdd) {
-        iterationProgress = 1 - iterationProgress;
-      }
-
-      const p = t >= this.totalDuration ? 1 : Math.min(iterationProgress, 1);
-      const latest = interpolate$1(this.easing(p));
-      output(latest);
-      const isAnimationFinished = this.pauseTime === undefined && (this.playState === "finished" || t >= this.totalDuration + endDelay);
-
-      if (isAnimationFinished) {
-        this.playState = "finished";
-        (_a = this.resolve) === null || _a === void 0 ? void 0 : _a.call(this, latest);
-      } else if (this.playState !== "idle") {
-        this.frameRequestId = requestAnimationFrame(this.tick);
-      }
-    };
-
-    this.play();
-  }
-
-  play() {
-    const now = performance.now();
-    this.playState = "running";
-
-    if (this.pauseTime !== undefined) {
-      this.startTime = now - this.pauseTime;
-    } else if (!this.startTime) {
-      this.startTime = now;
-    }
-
-    this.cancelTimestamp = this.startTime;
-    this.pauseTime = undefined;
-    this.frameRequestId = requestAnimationFrame(this.tick);
-  }
-
-  pause() {
-    this.playState = "paused";
-    this.pauseTime = this.t;
-  }
-
-  finish() {
-    this.playState = "finished";
-    this.tick(0);
-  }
-
-  stop() {
-    var _a;
-
-    this.playState = "idle";
-
-    if (this.frameRequestId !== undefined) {
-      cancelAnimationFrame(this.frameRequestId);
-    }
-
-    (_a = this.reject) === null || _a === void 0 ? void 0 : _a.call(this, false);
-  }
-
-  cancel() {
-    this.stop();
-    this.tick(this.cancelTimestamp);
-  }
-
-  reverse() {
-    this.rate *= -1;
-  }
-
-  commitStyles() {}
-
-  updateDuration(duration) {
-    this.duration = duration;
-    this.totalDuration = duration * (this.repeat + 1);
-  }
-
-  get currentTime() {
-    return this.t;
-  }
-
-  set currentTime(t) {
-    if (this.pauseTime !== undefined || this.rate === 0) {
-      this.pauseTime = t;
-    } else {
-      this.startTime = performance.now() - t / this.rate;
-    }
-  }
-
-  get playbackRate() {
-    return this.rate;
-  }
-
-  set playbackRate(rate) {
-    this.rate = rate;
-  }
-
-}
-
-const convertEasing = easing => isCubicBezier(easing) ? cubicBezierAsString(easing) : easing;
-
-const cubicBezierAsString = _ref => {
-  let [a, b, c, d] = _ref;
-  return `cubic-bezier(${a}, ${b}, ${c}, ${d})`;
-};
-
-const testAnimation = keyframes => document.createElement("div").animate(keyframes, {
-  duration: 0.001
-});
-
-const featureTests = {
-  cssRegisterProperty: () => typeof CSS !== "undefined" && Object.hasOwnProperty.call(CSS, "registerProperty"),
-  waapi: () => Object.hasOwnProperty.call(Element.prototype, "animate"),
-  partialKeyframes: () => {
-    try {
-      testAnimation({
-        opacity: [1]
-      });
-    } catch (e) {
-      return false;
-    }
-
-    return true;
-  },
-  finished: () => Boolean(testAnimation({
-    opacity: [0, 1]
-  }).finished)
-};
-const results = {};
-const supports = {};
-
-for (const key in featureTests) {
-  supports[key] = () => {
-    if (results[key] === undefined) results[key] = featureTests[key]();
-    return results[key];
-  };
-}
-
-function hydrateKeyframes(keyframes, readInitialValue) {
-  for (let i = 0; i < keyframes.length; i++) {
-    if (keyframes[i] === null) {
-      keyframes[i] = i ? keyframes[i - 1] : readInitialValue();
-    }
-  }
-
-  return keyframes;
-}
-
-const keyframesList = keyframes => Array.isArray(keyframes) ? keyframes : [keyframes];
-
-function getStyleName(key) {
-  if (transformAlias[key]) key = transformAlias[key];
-  return isTransform(key) ? asTransformCssVar(key) : key;
-}
-
-const style = {
-  get: (element, name) => {
-    name = getStyleName(name);
-    let value = isCssVar(name) ? element.style.getPropertyValue(name) : getComputedStyle(element)[name];
-
-    if (!value && value !== 0) {
-      const definition = transformDefinitions.get(name);
-      if (definition) value = definition.initialValue;
-    }
-
-    return value;
-  },
-  set: (element, name, value) => {
-    name = getStyleName(name);
-
-    if (isCssVar(name)) {
-      element.style.setProperty(name, value);
-    } else {
-      element.style[name] = value;
-    }
-  }
-};
-
-function stopAnimation(animation) {
-  let needsCommit = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
-  if (!animation || animation.playState === "finished") return; // Suppress error thrown by WAAPI
-
-  try {
-    if (animation.stop) {
-      animation.stop();
-    } else {
-      needsCommit && animation.commitStyles();
-      animation.cancel();
-    }
-  } catch (e) {}
-}
-
-function getDevToolsRecord() {
-  return window.__MOTION_DEV_TOOLS_RECORD;
-}
-
-function animateStyle(element, key, keyframesDefinition) {
-  let options = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {};
-  const record = getDevToolsRecord();
-  const isRecording = options.record !== false && record;
-  let animation;
-  let {
-    duration = defaults.duration,
-    delay = defaults.delay,
-    endDelay = defaults.endDelay,
-    repeat = defaults.repeat,
-    easing = defaults.easing,
-    direction,
-    offset,
-    allowWebkitAcceleration = false
-  } = options;
-  const data = getAnimationData(element);
-  let canAnimateNatively = supports.waapi();
-  const valueIsTransform = isTransform(key);
-  /**
-   * If this is an individual transform, we need to map its
-   * key to a CSS variable and update the element's transform style
-   */
-
-  valueIsTransform && addTransformToElement(element, key);
-  const name = getStyleName(key);
-  const motionValue = getMotionValue(data.values, name);
-  /**
-   * Get definition of value, this will be used to convert numerical
-   * keyframes into the default value type.
-   */
-
-  const definition = transformDefinitions.get(name);
-  /**
-   * Stop the current animation, if any. Because this will trigger
-   * commitStyles (DOM writes) and we might later trigger DOM reads,
-   * this is fired now and we return a factory function to create
-   * the actual animation that can get called in batch,
-   */
-
-  stopAnimation(motionValue.animation, !(isEasingGenerator(easing) && motionValue.generator) && options.record !== false);
-  /**
-   * Batchable factory function containing all DOM reads.
-   */
-
-  return () => {
-    const readInitialValue = () => {
-      var _a, _b;
-
-      return (_b = (_a = style.get(element, name)) !== null && _a !== void 0 ? _a : definition === null || definition === void 0 ? void 0 : definition.initialValue) !== null && _b !== void 0 ? _b : 0;
-    };
-    /**
-     * Replace null values with the previous keyframe value, or read
-     * it from the DOM if it's the first keyframe.
-     */
-
-
-    let keyframes = hydrateKeyframes(keyframesList(keyframesDefinition), readInitialValue);
-
-    if (isEasingGenerator(easing)) {
-      const custom = easing.createAnimation(keyframes, readInitialValue, valueIsTransform, name, motionValue);
-      easing = custom.easing;
-      if (custom.keyframes !== undefined) keyframes = custom.keyframes;
-      if (custom.duration !== undefined) duration = custom.duration;
-    }
-    /**
-     * If this is a CSS variable we need to register it with the browser
-     * before it can be animated natively. We also set it with setProperty
-     * rather than directly onto the element.style object.
-     */
-
-
-    if (isCssVar(name)) {
-      if (supports.cssRegisterProperty()) {
-        registerCssVariable(name);
-      } else {
-        canAnimateNatively = false;
-      }
-    }
-    /**
-     * If we can animate this value with WAAPI, do so. Currently this only
-     * feature detects CSS.registerProperty but could check WAAPI too.
-     */
-
-
-    if (canAnimateNatively) {
-      /**
-       * Convert numbers to default value types. Currently this only supports
-       * transforms but it could also support other value types.
-       */
-      if (definition) {
-        keyframes = keyframes.map(value => isNumber(value) ? definition.toDefaultUnit(value) : value);
-      }
-      /**
-       * If this browser doesn't support partial/implicit keyframes we need to
-       * explicitly provide one.
-       */
-
-
-      if (keyframes.length === 1 && (!supports.partialKeyframes() || isRecording)) {
-        keyframes.unshift(readInitialValue());
-      }
-
-      const animationOptions = {
-        delay: time.ms(delay),
-        duration: time.ms(duration),
-        endDelay: time.ms(endDelay),
-        easing: !isEasingList(easing) ? convertEasing(easing) : undefined,
-        direction,
-        iterations: repeat + 1,
-        fill: "both"
-      };
-      animation = element.animate({
-        [name]: keyframes,
-        offset,
-        easing: isEasingList(easing) ? easing.map(convertEasing) : undefined
-      }, animationOptions);
-      /**
-       * Polyfill finished Promise in browsers that don't support it
-       */
-
-      if (!animation.finished) {
-        animation.finished = new Promise((resolve, reject) => {
-          animation.onfinish = resolve;
-          animation.oncancel = reject;
-        });
-      }
-
-      const target = keyframes[keyframes.length - 1];
-      animation.finished.then(() => {
-        // Apply styles to target
-        style.set(element, name, target); // Ensure fill modes don't persist
-
-        animation.cancel();
-      }).catch(noop);
-      /**
-       * This forces Webkit to run animations on the main thread by exploiting
-       * this condition:
-       * https://trac.webkit.org/browser/webkit/trunk/Source/WebCore/platform/graphics/ca/GraphicsLayerCA.cpp?rev=281238#L1099
-       *
-       * This fixes Webkit's timing bugs, like accelerated animations falling
-       * out of sync with main thread animations and massive delays in starting
-       * accelerated animations in WKWebView.
-       */
-
-      if (!allowWebkitAcceleration) animation.playbackRate = 1.000001;
-      /**
-       * If we can't animate the value natively then we can fallback to the numbers-only
-       * polyfill for transforms.
-       */
-    } else if (valueIsTransform) {
-      /**
-       * If any keyframe is a string (because we measured it from the DOM), we need to convert
-       * it into a number before passing to the Animation polyfill.
-       */
-      keyframes = keyframes.map(value => typeof value === "string" ? parseFloat(value) : value);
-      /**
-       * If we only have a single keyframe, we need to create an initial keyframe by reading
-       * the current value from the DOM.
-       */
-
-      if (keyframes.length === 1) {
-        keyframes.unshift(parseFloat(readInitialValue()));
-      }
-
-      const render = latest => {
-        if (definition) latest = definition.toDefaultUnit(latest);
-        style.set(element, name, latest);
-      };
-
-      animation = new Animation(render, keyframes, Object.assign(Object.assign({}, options), {
-        duration,
-        easing
-      }));
-    } else {
-      const target = keyframes[keyframes.length - 1];
-      style.set(element, name, definition && isNumber(target) ? definition.toDefaultUnit(target) : target);
-    }
-
-    if (isRecording) {
-      record(element, key, keyframes, {
-        duration,
-        delay: delay,
-        easing,
-        repeat,
-        offset
-      }, "motion-one");
-    }
-
-    motionValue.setAnimation(animation);
-    return animation;
-  };
-}
-
-const getOptions = (options, key) =>
-/**
- * TODO: Make test for this
- * Always return a new object otherwise delay is overwritten by results of stagger
- * and this results in no stagger
- */
-options[key] ? Object.assign(Object.assign({}, options), options[key]) : Object.assign({}, options);
-
-function resolveElements(elements, selectorCache) {
-  var _a;
-
-  if (typeof elements === "string") {
-    if (selectorCache) {
-      (_a = selectorCache[elements]) !== null && _a !== void 0 ? _a : selectorCache[elements] = document.querySelectorAll(elements);
-      elements = selectorCache[elements];
-    } else {
-      elements = document.querySelectorAll(elements);
-    }
-  } else if (elements instanceof Element) {
-    elements = [elements];
-  }
-  /**
-   * Return an empty array
-   */
-
-
-  return Array.from(elements || []);
-}
-
-/******************************************************************************
-Copyright (c) Microsoft Corporation.
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
-REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
-AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
-INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
-LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
-OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
-PERFORMANCE OF THIS SOFTWARE.
-***************************************************************************** */
-function __rest(s, e) {
-  var t = {};
-
-  for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];
-
-  if (s != null && typeof Object.getOwnPropertySymbols === "function") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
-    if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i])) t[p[i]] = s[p[i]];
-  }
-  return t;
-}
-
-const thresholds = {
-  any: 0,
-  all: 1
-};
-
-function inView$1(elementOrSelector, onStart) {
-  let {
-    root,
-    margin: rootMargin,
-    amount = "any"
-  } = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-
-  /**
-   * If this browser doesn't support IntersectionObserver, return a dummy stop function.
-   * Default triggering of onStart is tricky - it could be used for starting/stopping
-   * videos, lazy loading content etc. We could provide an option to enable a fallback, or
-   * provide a fallback callback option.
-   */
-  if (typeof IntersectionObserver === "undefined") {
-    return () => {};
-  }
-
-  const elements = resolveElements(elementOrSelector);
-  const activeIntersections = new WeakMap();
-
-  const onIntersectionChange = entries => {
-    entries.forEach(entry => {
-      const onEnd = activeIntersections.get(entry.target);
-      /**
-       * If there's no change to the intersection, we don't need to
-       * do anything here.
-       */
-
-      if (entry.isIntersecting === Boolean(onEnd)) return;
-
-      if (entry.isIntersecting) {
-        const newOnEnd = onStart(entry);
-
-        if (typeof newOnEnd === "function") {
-          activeIntersections.set(entry.target, newOnEnd);
-        } else {
-          observer.unobserve(entry.target);
-        }
-      } else if (onEnd) {
-        onEnd(entry);
-        activeIntersections.delete(entry.target);
-      }
-    });
-  };
-
-  const observer = new IntersectionObserver(onIntersectionChange, {
-    root,
-    rootMargin,
-    threshold: typeof amount === "number" ? amount : thresholds[amount]
-  });
-  elements.forEach(element => observer.observe(element));
-  return () => observer.disconnect();
-}
-
-function hasChanged(a, b) {
-  if (typeof a !== typeof b) return true;
-  if (Array.isArray(a) && Array.isArray(b)) return !shallowCompare(a, b);
-  return a !== b;
-}
-
-function shallowCompare(next, prev) {
-  const prevLength = prev.length;
-  if (prevLength !== next.length) return false;
-
-  for (let i = 0; i < prevLength; i++) {
-    if (prev[i] !== next[i]) return false;
-  }
-
-  return true;
-}
-
-function isVariant(definition) {
-  return typeof definition === "object";
-}
-
-function resolveVariant(definition, variants) {
-  if (isVariant(definition)) {
-    return definition;
-  } else if (definition && variants) {
-    return variants[definition];
-  }
-}
-
-let scheduled = undefined;
-
-function processScheduledAnimations() {
-  if (!scheduled) return;
-  const generators = scheduled.sort(compareByDepth).map(fireAnimateUpdates);
-  generators.forEach(fireNext);
-  generators.forEach(fireNext);
-  scheduled = undefined;
-}
-
-function scheduleAnimation(state) {
-  if (!scheduled) {
-    scheduled = [state];
-    requestAnimationFrame(processScheduledAnimations);
-  } else {
-    addUniqueItem(scheduled, state);
-  }
-}
-
-function unscheduleAnimation(state) {
-  scheduled && removeItem(scheduled, state);
-}
-
-const compareByDepth = (a, b) => a.getDepth() - b.getDepth();
-
-const fireAnimateUpdates = state => state.animateUpdates();
-
-const fireNext = iterator => iterator.next();
-
-const motionEvent = (name, target) => new CustomEvent(name, {
-  detail: {
-    target
-  }
-});
-
-function dispatchPointerEvent(element, name, event) {
-  element.dispatchEvent(new CustomEvent(name, {
-    detail: {
-      originalEvent: event
-    }
-  }));
-}
-
-function dispatchViewEvent(element, name, entry) {
-  element.dispatchEvent(new CustomEvent(name, {
-    detail: {
-      originalEntry: entry
-    }
-  }));
-}
-
-const inView = {
-  isActive: options => Boolean(options.inView),
-  subscribe: (element, _ref, _ref2) => {
-    let {
-      enable,
-      disable
-    } = _ref;
-    let {
-      inViewOptions = {}
-    } = _ref2;
-
-    const {
-      once
-    } = inViewOptions,
-          viewOptions = __rest(inViewOptions, ["once"]);
-
-    return inView$1(element, enterEntry => {
-      enable();
-      dispatchViewEvent(element, "viewenter", enterEntry);
-
-      if (!once) {
-        return leaveEntry => {
-          disable();
-          dispatchViewEvent(element, "viewleave", leaveEntry);
-        };
-      }
-    }, viewOptions);
-  }
-};
-
-const mouseEvent = (element, name, action) => event => {
-  if (event.pointerType && event.pointerType !== "mouse") return;
-  action();
-  dispatchPointerEvent(element, name, event);
-};
-
-const hover = {
-  isActive: options => Boolean(options.hover),
-  subscribe: (element, _ref) => {
-    let {
-      enable,
-      disable
-    } = _ref;
-    const onEnter = mouseEvent(element, "hoverstart", enable);
-    const onLeave = mouseEvent(element, "hoverend", disable);
-    element.addEventListener("pointerenter", onEnter);
-    element.addEventListener("pointerleave", onLeave);
-    return () => {
-      element.removeEventListener("pointerenter", onEnter);
-      element.removeEventListener("pointerleave", onLeave);
-    };
-  }
-};
-
-const press = {
-  isActive: options => Boolean(options.press),
-  subscribe: (element, _ref) => {
-    let {
-      enable,
-      disable
-    } = _ref;
-
-    const onPointerUp = event => {
-      disable();
-      dispatchPointerEvent(element, "pressend", event);
-      window.removeEventListener("pointerup", onPointerUp);
-    };
-
-    const onPointerDown = event => {
-      enable();
-      dispatchPointerEvent(element, "pressstart", event);
-      window.addEventListener("pointerup", onPointerUp);
-    };
-
-    element.addEventListener("pointerdown", onPointerDown);
-    return () => {
-      element.removeEventListener("pointerdown", onPointerDown);
-      window.removeEventListener("pointerup", onPointerUp);
-    };
-  }
-};
-
-const gestures = {
-  inView,
-  hover,
-  press
-};
-/**
- * A list of state types, in priority order. If a value is defined in
- * a righter-most type, it will override any definition in a lefter-most.
- */
-
-const stateTypes = ["initial", "animate", ...Object.keys(gestures), "exit"];
-/**
- * A global store of all generated motion states. This can be used to lookup
- * a motion state for a given Element.
- */
-
-const mountedStates = new WeakMap();
-
-function createMotionState() {
-  let options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-  let parent = arguments.length > 1 ? arguments[1] : undefined;
-
-  /**
-   * The element represented by the motion state. This is an empty reference
-   * when we create the state to support SSR and allow for later mounting
-   * in view libraries.
-   *
-   * @ts-ignore
-   */
-  let element;
-  /**
-   * Calculate a depth that we can use to order motion states by tree depth.
-   */
-
-  let depth = parent ? parent.getDepth() + 1 : 0;
-  /**
-   * Track which states are currently active.
-   */
-
-  const activeStates = {
-    initial: true,
-    animate: true
-  };
-  /**
-   * A map of functions that, when called, will remove event listeners for
-   * a given gesture.
-   */
-
-  const gestureSubscriptions = {};
-  /**
-   * Initialise a context to share through motion states. This
-   * will be populated by variant names (if any).
-   */
-
-  const context = {};
-
-  for (const name of stateTypes) {
-    context[name] = typeof options[name] === "string" ? options[name] : parent === null || parent === void 0 ? void 0 : parent.getContext()[name];
-  }
-  /**
-   * If initial is set to false we use the animate prop as the initial
-   * animation state.
-   */
-
-
-  const initialVariantSource = options.initial === false ? "animate" : "initial";
-  /**
-   * Destructure an initial target out from the resolved initial variant.
-   */
-
-  let _a = resolveVariant(options[initialVariantSource] || context[initialVariantSource], options.variants) || {},
-      target = __rest(_a, ["transition"]);
-  /**
-   * The base target is a cached map of values that we'll use to animate
-   * back to if a value is removed from all active state types. This
-   * is usually the initial value as read from the DOM, for instance if
-   * it hasn't been defined in initial.
-   */
-
-
-  const baseTarget = Object.assign({}, target);
-  /**
-   * A generator that will be processed by the global animation scheduler.
-   * This yeilds when it switches from reading the DOM to writing to it
-   * to prevent layout thrashing.
-   */
-
-  function* animateUpdates() {
-    var _a, _b;
-
-    const prevTarget = target;
-    target = {};
-    const animationOptions = {};
-
-    for (const name of stateTypes) {
-      if (!activeStates[name]) continue;
-      const variant = resolveVariant(options[name]);
-      if (!variant) continue;
-
-      for (const key in variant) {
-        if (key === "transition") continue;
-        target[key] = variant[key];
-        animationOptions[key] = getOptions((_b = (_a = variant.transition) !== null && _a !== void 0 ? _a : options.transition) !== null && _b !== void 0 ? _b : {}, key);
-      }
-    }
-
-    const allTargetKeys = new Set([...Object.keys(target), ...Object.keys(prevTarget)]);
-    const animationFactories = [];
-    allTargetKeys.forEach(key => {
-      var _a;
-
-      if (target[key] === undefined) {
-        target[key] = baseTarget[key];
-      }
-
-      if (hasChanged(prevTarget[key], target[key])) {
-        (_a = baseTarget[key]) !== null && _a !== void 0 ? _a : baseTarget[key] = style.get(element, key);
-        animationFactories.push(animateStyle(element, key, target[key], animationOptions[key]));
-      }
-    }); // Wait for all animation states to read from the DOM
-
-    yield;
-    const animations = animationFactories.map(factory => factory()).filter(Boolean);
-    if (!animations.length) return;
-    const animationTarget = target;
-    element.dispatchEvent(motionEvent("motionstart", animationTarget));
-    Promise.all(animations.map(animation => animation.finished)).then(() => {
-      element.dispatchEvent(motionEvent("motioncomplete", animationTarget));
-    }).catch(noop);
-  }
-
-  const setGesture = (name, isActive) => () => {
-    activeStates[name] = isActive;
-    scheduleAnimation(state);
-  };
-
-  const updateGestureSubscriptions = () => {
-    for (const name in gestures) {
-      const isGestureActive = gestures[name].isActive(options);
-      const remove = gestureSubscriptions[name];
-
-      if (isGestureActive && !remove) {
-        gestureSubscriptions[name] = gestures[name].subscribe(element, {
-          enable: setGesture(name, true),
-          disable: setGesture(name, false)
-        }, options);
-      } else if (!isGestureActive && remove) {
-        remove();
-        delete gestureSubscriptions[name];
-      }
-    }
-  };
-
-  const state = {
-    update: newOptions => {
-      if (!element) return;
-      options = newOptions;
-      updateGestureSubscriptions();
-      scheduleAnimation(state);
-    },
-    setActive: (name, isActive) => {
-      if (!element) return;
-      activeStates[name] = isActive;
-      scheduleAnimation(state);
-    },
-    animateUpdates,
-    getDepth: () => depth,
-    getTarget: () => target,
-    getOptions: () => options,
-    getContext: () => context,
-    mount: newElement => {
-      element = newElement;
-      mountedStates.set(element, state);
-      updateGestureSubscriptions();
-      return () => {
-        mountedStates.delete(element);
-        unscheduleAnimation(state);
-
-        for (const key in gestureSubscriptions) {
-          gestureSubscriptions[key]();
-        }
-      };
-    },
-    isMounted: () => Boolean(element)
-  };
-  return state;
-}
-
-function createStyles(keyframes) {
-  const initialKeyframes = {};
-  const transformKeys = [];
-
-  for (let key in keyframes) {
-    const value = keyframes[key];
-
-    if (isTransform(key)) {
-      if (transformAlias[key]) key = transformAlias[key];
-      transformKeys.push(key);
-      key = asTransformCssVar(key);
-    }
-
-    let initialKeyframe = Array.isArray(value) ? value[0] : value;
-    /**
-     * If this is a number and we have a default value type, convert the number
-     * to this type.
-     */
-
-    const definition = transformDefinitions.get(key);
-
-    if (definition) {
-      initialKeyframe = isNumber(value) ? definition.toDefaultUnit(value) : value;
-    }
-
-    initialKeyframes[key] = initialKeyframe;
-  }
-
-  if (transformKeys.length) {
-    initialKeyframes.transform = buildTransformTemplate(transformKeys);
-  }
-
-  return initialKeyframes;
-}
-
-const contextId = "motion-state";
-const presenceId = "motion-presence";
-
-const objectType = {
-  type: Object
-};
-const Motion = __vite_ssr_import_0__.defineComponent({
-  name: "Motion",
-  inheritAttrs: true,
-  props: {
-    tag: {
-      type: String,
-      default: "div"
-    },
-    initial: {
-      type: [Object, Boolean]
-    },
-    animate: objectType,
-    inView: objectType,
-    hover: objectType,
-    press: objectType,
-    exit: objectType,
-    inViewOptions: objectType,
-    transition: objectType,
-    style: objectType
-  },
-
-  setup(props) {
-    const root = __vite_ssr_import_0__.ref(null);
-    const parentState = __vite_ssr_import_0__.inject(contextId, undefined);
-    const presenceState = __vite_ssr_import_0__.inject(presenceId, undefined);
-    const state = createMotionState(Object.assign(Object.assign({}, props), {
-      initial: (presenceState === null || presenceState === void 0 ? void 0 : presenceState.initial) === false ? presenceState.initial : props.initial === true ? undefined : props.initial
-    }), parentState);
-    __vite_ssr_import_0__.provide(contextId, state);
-    __vite_ssr_import_0__.onMounted(() => {
-      const unmount = state.mount(root.value);
-      state.update(Object.assign(Object.assign({}, props), {
-        initial: props.initial === true ? undefined : props.initial
-      }));
-      return unmount;
-    });
-    let manuallyAppliedMotionStyles = false;
-    __vite_ssr_import_0__.onUpdated(() => {
-      /**
-       * Vue reapplies all styles every render, rather than diffing and
-       * only reapplying the ones that change. This means that initially
-       * calculated motion styles also get reapplied every render, leading
-       * to incorrect animation origins.
-       *
-       * To prevent this, once an element is mounted we hand over these
-       * styles to Motion. This will currently still lead to a jump if interrupting
-       * transforms in browsers where the number polyfill is used.
-       */
-      if (!manuallyAppliedMotionStyles && root.value) {
-        manuallyAppliedMotionStyles = true;
-        const styles = createStyles(state.getTarget());
-
-        for (const key in styles) {
-          style.set(root.value, key, styles[key]);
-        }
-      }
-
-      state.update(Object.assign(Object.assign({}, props), {
-        initial: props.initial === true ? undefined : props.initial
-      }));
-    });
-    return {
-      state,
-      root,
-      initialStyles: createStyles(state.getTarget())
-    };
-  },
-
-  render() {
-    var _a, _b;
-
-    return __vite_ssr_import_0__.h(this.tag, {
-      ref: "root",
-      style: this.state.isMounted() ? this.style : Object.assign(Object.assign({}, this.style), this.initialStyles)
-    }, (_b = (_a = this.$slots).default) === null || _b === void 0 ? void 0 : _b.call(_a));
-  }
-
-});
-
-const doneCallbacks = new WeakMap();
-
-function removeDoneCallback(element) {
-  const prevDoneCallback = doneCallbacks.get(element);
-  prevDoneCallback && element.removeEventListener("motioncomplete", prevDoneCallback);
-  doneCallbacks.delete(element);
-}
-
-const Presence = __vite_ssr_import_0__.defineComponent({
-  name: "Presence",
-  props: {
-    name: {
-      type: String
-    },
-    initial: {
-      type: Boolean,
-      default: true
-    },
-    exitBeforeEnter: {
-      type: Boolean,
-      default: false
-    }
-  },
-  methods: {
-    enter(element) {
-      const state = mountedStates.get(element);
-      if (!state) return;
-      removeDoneCallback(element);
-      state.setActive("exit", false);
-    },
-
-    exit(element, done) {
-      const state = mountedStates.get(element);
-      if (!state) return done();
-      state.setActive("exit", true);
-      removeDoneCallback(element);
-      doneCallbacks.set(element, done);
-      element.addEventListener("motioncomplete", done);
-    }
-
-  },
-
-  setup(_ref) {
-    let {
-      initial
-    } = _ref;
-    const state = {
-      initial
-    };
-    __vite_ssr_import_0__.provide(presenceId, state);
-    __vite_ssr_import_0__.onBeforeUpdate(() => {
-      state.initial = undefined;
-    });
-  },
-
-  render() {
-    return __vite_ssr_import_0__.h(__vite_ssr_import_0__.Transition, {
-      name: this.name,
-      onEnter: this.enter,
-      onLeave: this.exit,
-      css: false,
-      mode: this.exitBeforeEnter ? "out-in" : undefined
-    }, this.$slots.default);
-  }
-
-});
-
-
-Object.defineProperty(__vite_ssr_exports__, "Motion", { enumerable: true, configurable: true, get(){ return Motion }});
-Object.defineProperty(__vite_ssr_exports__, "Presence", { enumerable: true, configurable: true, get(){ return Presence }});
-;
-}
-
-
-// --------------------
 // Request: /components/Navigation/MenuItems.js
 // Parents: 
 // - /layouts/custom.vue ($id_d158cf1f)
@@ -5400,7 +3888,7 @@ __vite_ssr_exports__.default =
 
 // --------------------
 const $id_5a9caf4e = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = ".home-links a{margin-right:1rem}.bgGradient{background-image:url()}";
+__vite_ssr_exports__.default = ".home-links a{margin-right:1rem}.bgGradient{background-image:url()}.fade-enter-active{-webkit-animation:fade-in .2s;animation:fade-in .2s}.fade-leave-active{-webkit-animation:fade-out .2s;animation:fade-out .2s}@-webkit-keyframes fade-in{0%{transform:translateY(10px)}to{transform:translateY(0)}}@keyframes fade-in{0%{transform:translateY(10px)}to{transform:translateY(0)}}@-webkit-keyframes fade-out{0%{transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}@keyframes fade-out{0%{transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}";
 }
 
 
@@ -5975,7 +4463,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_m
 
 // --------------------
 const $id_7fc24c03 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
+__vite_ssr_exports__.default = ".home-links a{margin-right:1rem}.fadeSnippet-enter-active{-webkit-animation:fade-in .2s;animation:fade-in .2s}.fadeSnippet-leave-active{-webkit-animation:fade-out .2s;animation:fade-out .2s}@-webkit-keyframes fade-in{0%{transform:translateY(10px)}to{transform:translateY(0)}}@keyframes fade-in{0%{transform:translateY(10px)}to{transform:translateY(0)}}@-webkit-keyframes fade-out{0%{transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}@keyframes fade-out{0%{transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}";
 }
 
 
@@ -6431,19 +4919,27 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     _: 1 /* STABLE */
                   }),
                   __vite_ssr_import_12__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_12__.withDirectives(__vite_ssr_import_12__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                    __vite_ssr_import_12__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                      __vite_ssr_import_12__.createVNode("div", null, " HTML "),
-                      __vite_ssr_import_12__.createVNode("div", null, [
-                        __vite_ssr_import_12__.createVNode(_component_UtilsCopyButton, {
-                          onClick: $event => ($options.copyToClipboard('defaultAlertComp'))
-                        }, null, 8 /* PROPS */, ["onClick"])
+                  __vite_ssr_import_12__.createVNode(__vite_ssr_import_12__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_12__.withCtx(() => [
+                      __vite_ssr_import_12__.withDirectives(__vite_ssr_import_12__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_12__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_12__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_12__.createVNode("div", null, [
+                            __vite_ssr_import_12__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('defaultAlertComp'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_12__.createVNode(_component_DefaultAlertCodeSnippet, { id: "defaultAlertComp" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_12__.vShow, $data.default_alertt]
                       ])
                     ]),
-                    __vite_ssr_import_12__.createVNode(_component_DefaultAlertCodeSnippet, { id: "defaultAlertComp" })
-                  ], 512 /* NEED_PATCH */), [
-                    [__vite_ssr_import_12__.vShow, $data.default_alertt]
-                  ]),
+                    _: 1 /* STABLE */
+                  }),
                   __vite_ssr_import_12__.createCommentVNode(" code snippet end ")
                 ])
               ])
@@ -7580,8 +6076,6 @@ const __modules__ = {
   "/store/index.js": $id_3135ce2a,
   "/node_modules/pinia/dist/pinia.mjs": $id_b1920624,
   "/components/Footer.vue": $id_f3d8f325,
-  "/node_modules/motion/dist/vue.es.js": $id_7068682e,
-  "/node_modules/@motionone/vue/dist/motion-vue.esm.js": $id_aa50c33d,
   "/components/Navigation/MenuItems.js": $id_3f5e6989,
   "/layouts/custom.vue?vue&type=style&index=0&lang.css": $id_5a9caf4e,
   "/layouts/full.vue": $id_2ca7d6cb,

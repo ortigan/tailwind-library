@@ -37,19 +37,21 @@
               <DefaultAlert />
             </UtilsComponentPad>
             <!-- code snippet -->
-            <div v-show="default_alertt" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
-              <div class="flex justify-between px-2 pt-2">
-                <div>
-                  HTML
+            <transition name="fadeSnippet">
+              <div v-show="default_alertt" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+                <div class="flex justify-between px-2 pt-2">
+                  <div>
+                    HTML
+                  </div>
+                  <div>
+                    <UtilsCopyButton
+                    @click="copyToClipboard('defaultAlertComp')"
+                  ></UtilsCopyButton>
+                  </div>
                 </div>
-                <div>
-                  <UtilsCopyButton
-                  @click="copyToClipboard('defaultAlertComp')"
-                ></UtilsCopyButton>
-                </div>
+                <DefaultAlertCodeSnippet id="defaultAlertComp" />
               </div>
-              <DefaultAlertCodeSnippet id="defaultAlertComp" />
-            </div>
+            </transition>
             <!-- code snippet end -->
           </section>
         </div>
@@ -148,5 +150,28 @@ export default {
 <style>
 .home-links a {
   margin-right: 1rem;
+}
+.fadeSnippet-enter-active {
+  animation: fade-in 0.2s;
+}
+.fadeSnippet-leave-active {
+  animation: fade-out 0.2s;
+}
+@keyframes fade-in {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+@keyframes fade-out {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(10px);
+    opacity: 0;
+  }
 }
 </style>

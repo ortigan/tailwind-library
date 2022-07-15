@@ -2,3 +2,8 @@ node_modules
 yarn-error.log
 .cache
 .DS_store
+.nuxt
+.output
+.yarn-error.log
+.tsconfig.json
+.pnpm-lock.yaml
