@@ -24,7 +24,6 @@ declare module 'vue' {
     'AvatarShadow': typeof import("../components/Avatar/Shadow.vue")['default'],
     'AvatarSize': typeof import("../components/Avatar/Size.vue")['default'],
     'AvatarSquare': typeof import("../components/Avatar/Square.vue")['default'],
-    'CodeHighlight': typeof import("../components/CodeSnippet/CodeHighlight.vue")['default'],
     'BadgeCancel': typeof import("../components/Badge/Cancel.vue")['default'],
     'BadgeDefault': typeof import("../components/Badge/Default.vue")['default'],
     'BadgeIcon': typeof import("../components/Badge/Icon.vue")['default'],
@@ -38,6 +37,14 @@ declare module 'vue' {
     'BadgeSize': typeof import("../components/Badge/Size.vue")['default'],
     'BadgeStateColor': typeof import("../components/Badge/StateColor.vue")['default'],
     'BadgeText': typeof import("../components/Badge/Text.vue")['default'],
+    'BreadCrumbAlignment': typeof import("../components/BreadCrumb/Alignment.vue")['default'],
+    'BreadCrumbArrow': typeof import("../components/BreadCrumb/Arrow.vue")['default'],
+    'BreadCrumbDefault': typeof import("../components/BreadCrumb/Default.vue")['default'],
+    'BreadCrumbIcon': typeof import("../components/BreadCrumb/Icon.vue")['default'],
+    'BreadCrumbOutline': typeof import("../components/BreadCrumb/Outline.vue")['default'],
+    'BreadCrumbSeparator': typeof import("../components/BreadCrumb/Separator.vue")['default'],
+    'BreadCrumbSolid': typeof import("../components/BreadCrumb/Solid.vue")['default'],
+    'CodeHighlight': typeof import("../components/CodeSnippet/CodeHighlight.vue")['default'],
     'HeadersHeading': typeof import("../components/Headers/Heading.vue")['default'],
     'HeadersSubHeading': typeof import("../components/Headers/SubHeading.vue")['default'],
     'NavigationMenuItems': typeof import("../components/Navigation/MenuItems.js")['default'],
@@ -79,6 +86,13 @@ declare module 'vue' {
     'BadgeSnippetsSize': typeof import("../components/Badge/Snippets/Size.vue")['default'],
     'BadgeSnippetsStateColor': typeof import("../components/Badge/Snippets/StateColor.vue")['default'],
     'BadgeSnippetsText': typeof import("../components/Badge/Snippets/Text.vue")['default'],
+    'BreadCrumbSnippetsAlignment': typeof import("../components/BreadCrumb/Snippets/Alignment.vue")['default'],
+    'BreadCrumbSnippetsArrow': typeof import("../components/BreadCrumb/Snippets/Arrow.vue")['default'],
+    'BreadCrumbSnippetsDefault': typeof import("../components/BreadCrumb/Snippets/Default.vue")['default'],
+    'BreadCrumbSnippetsIcon': typeof import("../components/BreadCrumb/Snippets/Icon.vue")['default'],
+    'BreadCrumbSnippetsOutline': typeof import("../components/BreadCrumb/Snippets/Outline.vue")['default'],
+    'BreadCrumbSnippetsSeparator': typeof import("../components/BreadCrumb/Snippets/Separator.vue")['default'],
+    'BreadCrumbSnippetsSolid': typeof import("../components/BreadCrumb/Snippets/Solid.vue")['default'],
     'NuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default'],
     'NuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/layout")['default'],
     'NuxtErrorBoundary': typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default'],
@@ -108,7 +122,6 @@ declare module 'vue' {
     'LazyAvatarShadow': typeof import("../components/Avatar/Shadow.vue")['default'],
     'LazyAvatarSize': typeof import("../components/Avatar/Size.vue")['default'],
     'LazyAvatarSquare': typeof import("../components/Avatar/Square.vue")['default'],
-    'LazyCodeHighlight': typeof import("../components/CodeSnippet/CodeHighlight.vue")['default'],
     'LazyBadgeCancel': typeof import("../components/Badge/Cancel.vue")['default'],
     'LazyBadgeDefault': typeof import("../components/Badge/Default.vue")['default'],
     'LazyBadgeIcon': typeof import("../components/Badge/Icon.vue")['default'],
@@ -122,6 +135,14 @@ declare module 'vue' {
     'LazyBadgeSize': typeof import("../components/Badge/Size.vue")['default'],
     'LazyBadgeStateColor': typeof import("../components/Badge/StateColor.vue")['default'],
     'LazyBadgeText': typeof import("../components/Badge/Text.vue")['default'],
+    'LazyBreadCrumbAlignment': typeof import("../components/BreadCrumb/Alignment.vue")['default'],
+    'LazyBreadCrumbArrow': typeof import("../components/BreadCrumb/Arrow.vue")['default'],
+    'LazyBreadCrumbDefault': typeof import("../components/BreadCrumb/Default.vue")['default'],
+    'LazyBreadCrumbIcon': typeof import("../components/BreadCrumb/Icon.vue")['default'],
+    'LazyBreadCrumbOutline': typeof import("../components/BreadCrumb/Outline.vue")['default'],
+    'LazyBreadCrumbSeparator': typeof import("../components/BreadCrumb/Separator.vue")['default'],
+    'LazyBreadCrumbSolid': typeof import("../components/BreadCrumb/Solid.vue")['default'],
+    'LazyCodeHighlight': typeof import("../components/CodeSnippet/CodeHighlight.vue")['default'],
     'LazyHeadersHeading': typeof import("../components/Headers/Heading.vue")['default'],
     'LazyHeadersSubHeading': typeof import("../components/Headers/SubHeading.vue")['default'],
     'LazyNavigationMenuItems': typeof import("../components/Navigation/MenuItems.js")['default'],
@@ -163,6 +184,13 @@ declare module 'vue' {
     'LazyBadgeSnippetsSize': typeof import("../components/Badge/Snippets/Size.vue")['default'],
     'LazyBadgeSnippetsStateColor': typeof import("../components/Badge/Snippets/StateColor.vue")['default'],
     'LazyBadgeSnippetsText': typeof import("../components/Badge/Snippets/Text.vue")['default'],
+    'LazyBreadCrumbSnippetsAlignment': typeof import("../components/BreadCrumb/Snippets/Alignment.vue")['default'],
+    'LazyBreadCrumbSnippetsArrow': typeof import("../components/BreadCrumb/Snippets/Arrow.vue")['default'],
+    'LazyBreadCrumbSnippetsDefault': typeof import("../components/BreadCrumb/Snippets/Default.vue")['default'],
+    'LazyBreadCrumbSnippetsIcon': typeof import("../components/BreadCrumb/Snippets/Icon.vue")['default'],
+    'LazyBreadCrumbSnippetsOutline': typeof import("../components/BreadCrumb/Snippets/Outline.vue")['default'],
+    'LazyBreadCrumbSnippetsSeparator': typeof import("../components/BreadCrumb/Snippets/Separator.vue")['default'],
+    'LazyBreadCrumbSnippetsSolid': typeof import("../components/BreadCrumb/Snippets/Solid.vue")['default'],
     'LazyNuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default'],
     'LazyNuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/layout")['default'],
     'LazyNuxtErrorBoundary': typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default'],
@@ -194,7 +222,6 @@ export const AvatarPresenceRing: typeof import("../components/Avatar/PresenceRin
 export const AvatarShadow: typeof import("../components/Avatar/Shadow.vue")['default']
 export const AvatarSize: typeof import("../components/Avatar/Size.vue")['default']
 export const AvatarSquare: typeof import("../components/Avatar/Square.vue")['default']
-export const CodeHighlight: typeof import("../components/CodeSnippet/CodeHighlight.vue")['default']
 export const BadgeCancel: typeof import("../components/Badge/Cancel.vue")['default']
 export const BadgeDefault: typeof import("../components/Badge/Default.vue")['default']
 export const BadgeIcon: typeof import("../components/Badge/Icon.vue")['default']
@@ -208,6 +235,14 @@ export const BadgeRectangle: typeof import("../components/Badge/Rectangle.vue")[
 export const BadgeSize: typeof import("../components/Badge/Size.vue")['default']
 export const BadgeStateColor: typeof import("../components/Badge/StateColor.vue")['default']
 export const BadgeText: typeof import("../components/Badge/Text.vue")['default']
+export const BreadCrumbAlignment: typeof import("../components/BreadCrumb/Alignment.vue")['default']
+export const BreadCrumbArrow: typeof import("../components/BreadCrumb/Arrow.vue")['default']
+export const BreadCrumbDefault: typeof import("../components/BreadCrumb/Default.vue")['default']
+export const BreadCrumbIcon: typeof import("../components/BreadCrumb/Icon.vue")['default']
+export const BreadCrumbOutline: typeof import("../components/BreadCrumb/Outline.vue")['default']
+export const BreadCrumbSeparator: typeof import("../components/BreadCrumb/Separator.vue")['default']
+export const BreadCrumbSolid: typeof import("../components/BreadCrumb/Solid.vue")['default']
+export const CodeHighlight: typeof import("../components/CodeSnippet/CodeHighlight.vue")['default']
 export const HeadersHeading: typeof import("../components/Headers/Heading.vue")['default']
 export const HeadersSubHeading: typeof import("../components/Headers/SubHeading.vue")['default']
 export const NavigationMenuItems: typeof import("../components/Navigation/MenuItems.js")['default']
@@ -249,6 +284,13 @@ export const BadgeSnippetsRectangle: typeof import("../components/Badge/Snippets
 export const BadgeSnippetsSize: typeof import("../components/Badge/Snippets/Size.vue")['default']
 export const BadgeSnippetsStateColor: typeof import("../components/Badge/Snippets/StateColor.vue")['default']
 export const BadgeSnippetsText: typeof import("../components/Badge/Snippets/Text.vue")['default']
+export const BreadCrumbSnippetsAlignment: typeof import("../components/BreadCrumb/Snippets/Alignment.vue")['default']
+export const BreadCrumbSnippetsArrow: typeof import("../components/BreadCrumb/Snippets/Arrow.vue")['default']
+export const BreadCrumbSnippetsDefault: typeof import("../components/BreadCrumb/Snippets/Default.vue")['default']
+export const BreadCrumbSnippetsIcon: typeof import("../components/BreadCrumb/Snippets/Icon.vue")['default']
+export const BreadCrumbSnippetsOutline: typeof import("../components/BreadCrumb/Snippets/Outline.vue")['default']
+export const BreadCrumbSnippetsSeparator: typeof import("../components/BreadCrumb/Snippets/Separator.vue")['default']
+export const BreadCrumbSnippetsSolid: typeof import("../components/BreadCrumb/Snippets/Solid.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
 export const NuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/layout")['default']
 export const NuxtErrorBoundary: typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default']
@@ -278,7 +320,6 @@ export const LazyAvatarPresenceRing: typeof import("../components/Avatar/Presenc
 export const LazyAvatarShadow: typeof import("../components/Avatar/Shadow.vue")['default']
 export const LazyAvatarSize: typeof import("../components/Avatar/Size.vue")['default']
 export const LazyAvatarSquare: typeof import("../components/Avatar/Square.vue")['default']
-export const LazyCodeHighlight: typeof import("../components/CodeSnippet/CodeHighlight.vue")['default']
 export const LazyBadgeCancel: typeof import("../components/Badge/Cancel.vue")['default']
 export const LazyBadgeDefault: typeof import("../components/Badge/Default.vue")['default']
 export const LazyBadgeIcon: typeof import("../components/Badge/Icon.vue")['default']
@@ -292,6 +333,14 @@ export const LazyBadgeRectangle: typeof import("../components/Badge/Rectangle.vu
 export const LazyBadgeSize: typeof import("../components/Badge/Size.vue")['default']
 export const LazyBadgeStateColor: typeof import("../components/Badge/StateColor.vue")['default']
 export const LazyBadgeText: typeof import("../components/Badge/Text.vue")['default']
+export const LazyBreadCrumbAlignment: typeof import("../components/BreadCrumb/Alignment.vue")['default']
+export const LazyBreadCrumbArrow: typeof import("../components/BreadCrumb/Arrow.vue")['default']
+export const LazyBreadCrumbDefault: typeof import("../components/BreadCrumb/Default.vue")['default']
+export const LazyBreadCrumbIcon: typeof import("../components/BreadCrumb/Icon.vue")['default']
+export const LazyBreadCrumbOutline: typeof import("../components/BreadCrumb/Outline.vue")['default']
+export const LazyBreadCrumbSeparator: typeof import("../components/BreadCrumb/Separator.vue")['default']
+export const LazyBreadCrumbSolid: typeof import("../components/BreadCrumb/Solid.vue")['default']
+export const LazyCodeHighlight: typeof import("../components/CodeSnippet/CodeHighlight.vue")['default']
 export const LazyHeadersHeading: typeof import("../components/Headers/Heading.vue")['default']
 export const LazyHeadersSubHeading: typeof import("../components/Headers/SubHeading.vue")['default']
 export const LazyNavigationMenuItems: typeof import("../components/Navigation/MenuItems.js")['default']
@@ -333,6 +382,13 @@ export const LazyBadgeSnippetsRectangle: typeof import("../components/Badge/Snip
 export const LazyBadgeSnippetsSize: typeof import("../components/Badge/Snippets/Size.vue")['default']
 export const LazyBadgeSnippetsStateColor: typeof import("../components/Badge/Snippets/StateColor.vue")['default']
 export const LazyBadgeSnippetsText: typeof import("../components/Badge/Snippets/Text.vue")['default']
+export const LazyBreadCrumbSnippetsAlignment: typeof import("../components/BreadCrumb/Snippets/Alignment.vue")['default']
+export const LazyBreadCrumbSnippetsArrow: typeof import("../components/BreadCrumb/Snippets/Arrow.vue")['default']
+export const LazyBreadCrumbSnippetsDefault: typeof import("../components/BreadCrumb/Snippets/Default.vue")['default']
+export const LazyBreadCrumbSnippetsIcon: typeof import("../components/BreadCrumb/Snippets/Icon.vue")['default']
+export const LazyBreadCrumbSnippetsOutline: typeof import("../components/BreadCrumb/Snippets/Outline.vue")['default']
+export const LazyBreadCrumbSnippetsSeparator: typeof import("../components/BreadCrumb/Snippets/Separator.vue")['default']
+export const LazyBreadCrumbSnippetsSolid: typeof import("../components/BreadCrumb/Snippets/Solid.vue")['default']
 export const LazyNuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
 export const LazyNuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/layout")['default']
 export const LazyNuxtErrorBoundary: typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default']

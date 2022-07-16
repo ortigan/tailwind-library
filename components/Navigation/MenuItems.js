@@ -28,7 +28,7 @@ export default
         id: 4,
         title: 'Breadcrumb',
         icon: "",
-        link: "/breadcrumbs"
+        link: "/breadcrumb"
     },
     {
         id: 5,
