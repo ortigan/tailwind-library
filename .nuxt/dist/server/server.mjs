@@ -169,10 +169,38 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /components/Avatar/DropDown.vue ($id_3ff2427c)
 // - /components/Avatar/Snippets/DropDown.vue ($id_44182734)
 // - /pages/avatar.vue?macro=true ($id_62837cb2)
+// - /components/Badge/Default.vue ($id_81f2d59e)
+// - /components/Badge/Snippets/default.vue ($id_e2a82a42)
+// - /components/Badge/Large.vue ($id_324bb3fe)
+// - /components/Badge/Snippets/Large.vue ($id_24bde5aa)
+// - /components/Badge/StateColor.vue ($id_6575bf2f)
+// - /components/Badge/Snippets/StateColor.vue ($id_91ccdfeb)
+// - /components/Badge/Outline.vue ($id_61b08d48)
+// - /components/Badge/Snippets/Outline.vue ($id_0de52721)
+// - /components/Badge/Pill.vue ($id_905286d2)
+// - /components/Badge/Snippets/Pill.vue ($id_6efedfa6)
+// - /components/Badge/PillOutline.vue ($id_d9d656b5)
+// - /components/Badge/Snippets/PillOutline.vue ($id_232186e7)
+// - /components/Badge/Rectangle.vue ($id_edfb2f3d)
+// - /components/Badge/Snippets/Rectangle.vue ($id_0a470201)
+// - /components/Badge/Cancel.vue ($id_abda55fa)
+// - /components/Badge/Snippets/Cancel.vue ($id_cd5366e1)
+// - /components/Badge/Link.vue ($id_d7b0cb41)
+// - /components/Badge/Snippets/Link.vue ($id_fb2cca49)
+// - /components/Badge/Size.vue ($id_bdac4bd2)
+// - /components/Badge/Snippets/Size.vue ($id_475d1751)
+// - /components/Badge/Positioned.vue ($id_988a469a)
+// - /components/Badge/Snippets/Positioned.vue ($id_6186acd3)
+// - /components/Badge/Text.vue ($id_f118c71a)
+// - /components/Badge/Snippets/Text.vue ($id_5ef597c3)
+// - /components/Badge/Icon.vue ($id_b55890d3)
+// - /components/Badge/Snippets/Icon.vue ($id_043e9904)
+// - /pages/badge.vue?macro=true ($id_8d023e34)
 // - /pages/index.vue?macro=true ($id_5dd70240)
 // - /pages/About.vue ($id_4fd34246)
 // - /pages/alerts.vue ($id_392b88d4)
 // - /pages/avatar.vue ($id_96dc5723)
+// - /pages/badge.vue ($id_f19d9a80)
 // - /pages/index.vue ($id_cca58e97)
 // - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/dist.plugin.a7948c32.mjs ($id_8479a5fe)
 // - /node_modules/nuxt/dist/app/compat/capi.mjs ($id_0c5717a4)
@@ -1629,7 +1657,7 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.cs
 
 // --------------------
 const $id_f75548e1 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap\");\n/*! tailwindcss v3.1.6 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[multiple],[type=date],[type=datetime-local],[type=email],[type=month],[type=number],[type=password],[type=search],[type=tel],[type=text],[type=time],[type=url],[type=week],select,textarea{--tw-shadow:0 0 #0000;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;border-color:#6b7280;border-radius:0;border-width:1px;font-size:1rem;line-height:1.5rem;padding:.5rem .75rem}[multiple]:focus,[type=date]:focus,[type=datetime-local]:focus,[type=email]:focus,[type=month]:focus,[type=number]:focus,[type=password]:focus,[type=search]:focus,[type=tel]:focus,[type=text]:focus,[type=time]:focus,[type=url]:focus,[type=week]:focus,select:focus,textarea:focus{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);border-color:#2563eb;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);outline:2px solid transparent;outline-offset:2px}input::-moz-placeholder,textarea::-moz-placeholder{color:#6b7280;opacity:1}input::placeholder,textarea::placeholder{color:#6b7280;opacity:1}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-date-and-time-value{min-height:1.5em}::-webkit-datetime-edit,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-meridiem-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-year-field{padding-bottom:0;padding-top:0}select{color-adjust:exact;background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3E%3C/svg%3E\");background-position:right .5rem center;background-repeat:no-repeat;background-size:1.5em 1.5em;padding-right:2.5rem;-webkit-print-color-adjust:exact;print-color-adjust:exact}[multiple]{color-adjust:unset;background-image:none;background-position:0 0;background-repeat:unset;background-size:initial;padding-right:.75rem;-webkit-print-color-adjust:unset;print-color-adjust:unset}[type=checkbox],[type=radio]{color-adjust:exact;--tw-shadow:0 0 #0000;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;background-origin:border-box;border-color:#6b7280;border-width:1px;color:#2563eb;display:inline-block;flex-shrink:0;height:1rem;padding:0;-webkit-print-color-adjust:exact;print-color-adjust:exact;-webkit-user-select:none;-moz-user-select:none;user-select:none;vertical-align:middle;width:1rem}[type=checkbox]{border-radius:0}[type=radio]{border-radius:100%}[type=checkbox]:focus,[type=radio]:focus{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:2px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);outline:2px solid transparent;outline-offset:2px}[type=checkbox]:checked,[type=radio]:checked{background-color:currentColor;background-position:50%;background-repeat:no-repeat;background-size:100% 100%;border-color:transparent}[type=checkbox]:checked{background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.207 4.793a1 1 0 0 1 0 1.414l-5 5a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L6.5 9.086l4.293-4.293a1 1 0 0 1 1.414 0z'/%3E%3C/svg%3E\")}[type=radio]:checked{background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='8' cy='8' r='3'/%3E%3C/svg%3E\")}[type=checkbox]:checked:focus,[type=checkbox]:checked:hover,[type=radio]:checked:focus,[type=radio]:checked:hover{background-color:currentColor;border-color:transparent}[type=checkbox]:indeterminate{background-color:currentColor;background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3E%3Cpath stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3E%3C/svg%3E\");background-position:50%;background-repeat:no-repeat;background-size:100% 100%;border-color:transparent}[type=checkbox]:indeterminate:focus,[type=checkbox]:indeterminate:hover{background-color:currentColor;border-color:transparent}[type=file]{background:unset;border-color:inherit;border-radius:0;border-width:0;font-size:unset;line-height:inherit;padding:0}[type=file]:focus{outline:1px solid ButtonText;outline:1px auto -webkit-focus-ring-color}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.container{margin-left:auto;margin-right:auto;padding-left:.5rem;padding-right:.5rem;width:100%}@media (min-width:340px){.container{max-width:340px}}@media (min-width:640px){.container{max-width:640px;padding-left:1rem;padding-right:1rem}}@media (min-width:768px){.container{max-width:768px;padding-left:1rem;padding-right:1rem}}@media (min-width:1024px){.container{max-width:1024px;padding-left:2rem;padding-right:2rem}}@media (min-width:1280px){.container{max-width:1280px;padding-left:3rem;padding-right:3rem}}@media (min-width:1536px){.container{max-width:1536px;padding-left:3rem;padding-right:3rem}}.absolute{position:absolute}.relative{position:relative}.top-4{top:1rem}.right-4{right:1rem}.-right-2{right:-.5rem}.-top-2{top:-.5rem}.-bottom-2{bottom:-.5rem}.-right-1{right:-.25rem}.-bottom-1{bottom:-.25rem}.-right-3{right:-.75rem}.right-0{right:0}.top-0{top:0}.bottom-0{bottom:0}.-right-0{right:0}.-top-0{top:0}.-bottom-0{bottom:0}.-top-1{top:-.25rem}.mt-6{margin-top:1.5rem}.mt-4{margin-top:1rem}.ml-2{margin-left:.5rem}.mt-12{margin-top:3rem}.flex{display:flex}.table{display:table}.contents{display:contents}.hidden{display:none}.h-28{height:7rem}.h-6{height:1.5rem}.h-16{height:4rem}.h-screen{height:100vh}.h-5{height:1.25rem}.h-10{height:2.5rem}.h-full{height:100%}.h-4{height:1rem}.h-9{height:2.25rem}.h-3{height:.75rem}.h-8{height:2rem}.h-2\\.5{height:.625rem}.h-2{height:.5rem}.h-12{height:3rem}.h-14{height:3.5rem}.h-3\\.5{height:.875rem}.h-20{height:5rem}.h-11{height:2.75rem}.min-h-screen{min-height:100vh}.w-full{width:100%}.w-56{width:14rem}.w-44{width:11rem}.w-40{width:10rem}.w-fit{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.w-5{width:1.25rem}.w-6{width:1.5rem}.w-10{width:2.5rem}.w-4{width:1rem}.w-9{width:2.25rem}.w-3{width:.75rem}.w-8{width:2rem}.w-2\\.5{width:.625rem}.w-2{width:.5rem}.w-12{width:3rem}.w-14{width:3.5rem}.w-3\\.5{width:.875rem}.w-16{width:4rem}.w-20{width:5rem}.w-1\\/3{width:33.333333%}.w-11{width:2.75rem}.flex-1{flex:1 1 0%}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.5rem*var(--tw-space-y-reverse));margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)))}.space-x-5>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.25rem*var(--tw-space-x-reverse))}.space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1rem*var(--tw-space-x-reverse))}.space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.5rem*var(--tw-space-x-reverse))}.space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.25rem*var(--tw-space-y-reverse));margin-top:calc(.25rem*(1 - var(--tw-space-y-reverse)))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1rem*var(--tw-space-y-reverse));margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)))}.space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.5rem*var(--tw-space-x-reverse))}.space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1.5rem*var(--tw-space-y-reverse));margin-top:calc(1.5rem*(1 - var(--tw-space-y-reverse)))}.-space-x-3>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(-.75rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(-.75rem*var(--tw-space-x-reverse))}.overflow-y-auto{overflow-y:auto}.overflow-y-hidden{overflow-y:hidden}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-2xl{border-radius:1rem}.rounded-xl{border-radius:.75rem}.rounded{border-radius:.25rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-l-2{border-left-width:2px}.border-t-2{border-top-width:2px}.border-dashed{border-style:dashed}.border-neutral-700{--tw-border-opacity:1;border-color:rgb(64 64 64/var(--tw-border-opacity))}.border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81/var(--tw-border-opacity))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219/var(--tw-border-opacity))}.border-gray-900{--tw-border-opacity:1;border-color:rgb(17 24 39/var(--tw-border-opacity))}.border-sky-700{--tw-border-opacity:1;border-color:rgb(3 105 161/var(--tw-border-opacity))}.border-emerald-700{--tw-border-opacity:1;border-color:rgb(4 120 87/var(--tw-border-opacity))}.border-amber-700{--tw-border-opacity:1;border-color:rgb(180 83 9/var(--tw-border-opacity))}.border-rose-700{--tw-border-opacity:1;border-color:rgb(190 18 60/var(--tw-border-opacity))}.border-slate-900{--tw-border-opacity:1;border-color:rgb(15 23 42/var(--tw-border-opacity))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255/var(--tw-border-opacity))}.border-gray-400{--tw-border-opacity:1;border-color:rgb(156 163 175/var(--tw-border-opacity))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235/var(--tw-border-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity))}.bg-neutral-50{--tw-bg-opacity:1;background-color:rgb(250 250 250/var(--tw-bg-opacity))}.bg-\\[\\#0A0C25\\]{--tw-bg-opacity:1;background-color:rgb(10 12 37/var(--tw-bg-opacity))}.bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.bg-zinc-100{--tw-bg-opacity:1;background-color:rgb(244 244 245/var(--tw-bg-opacity))}.bg-rose-100{--tw-bg-opacity:1;background-color:rgb(255 228 230/var(--tw-bg-opacity))}.bg-sky-100{--tw-bg-opacity:1;background-color:rgb(224 242 254/var(--tw-bg-opacity))}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229/var(--tw-bg-opacity))}.bg-amber-100{--tw-bg-opacity:1;background-color:rgb(254 243 199/var(--tw-bg-opacity))}.bg-yellow-400{--tw-bg-opacity:1;background-color:rgb(250 204 21/var(--tw-bg-opacity))}.bg-cyan-600{--tw-bg-opacity:1;background-color:rgb(8 145 178/var(--tw-bg-opacity))}.bg-violet-500{--tw-bg-opacity:1;background-color:rgb(139 92 246/var(--tw-bg-opacity))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254/var(--tw-bg-opacity))}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246/var(--tw-bg-opacity))}.bg-pink-300{--tw-bg-opacity:1;background-color:rgb(249 168 212/var(--tw-bg-opacity))}.bg-rose-500{--tw-bg-opacity:1;background-color:rgb(244 63 94/var(--tw-bg-opacity))}.bg-gray-500{--tw-bg-opacity:1;background-color:rgb(107 114 128/var(--tw-bg-opacity))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94/var(--tw-bg-opacity))}.bg-cyan-500{--tw-bg-opacity:1;background-color:rgb(6 182 212/var(--tw-bg-opacity))}.bg-yellow-500{--tw-bg-opacity:1;background-color:rgb(234 179 8/var(--tw-bg-opacity))}.bg-green-400{--tw-bg-opacity:1;background-color:rgb(74 222 128/var(--tw-bg-opacity))}.bg-purple-400{--tw-bg-opacity:1;background-color:rgb(192 132 252/var(--tw-bg-opacity))}.bg-indigo-300{--tw-bg-opacity:1;background-color:rgb(165 180 252/var(--tw-bg-opacity))}.bg-red-400{--tw-bg-opacity:1;background-color:rgb(248 113 113/var(--tw-bg-opacity))}.bg-fuchsia-600{--tw-bg-opacity:1;background-color:rgb(192 38 211/var(--tw-bg-opacity))}.bg-sky-400{--tw-bg-opacity:1;background-color:rgb(56 189 248/var(--tw-bg-opacity))}.bg-amber-400{--tw-bg-opacity:1;background-color:rgb(251 191 36/var(--tw-bg-opacity))}.bg-teal-400{--tw-bg-opacity:1;background-color:rgb(45 212 191/var(--tw-bg-opacity))}.bg-red-500{--tw-bg-opacity:1;background-color:rgb(239 68 68/var(--tw-bg-opacity))}.bg-sky-300{--tw-bg-opacity:1;background-color:rgb(125 211 252/var(--tw-bg-opacity))}.bg-yellow-200{--tw-bg-opacity:1;background-color:rgb(254 240 138/var(--tw-bg-opacity))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity))}.bg-gray-400{--tw-bg-opacity:1;background-color:rgb(156 163 175/var(--tw-bg-opacity))}.bg-blue-400{--tw-bg-opacity:1;background-color:rgb(96 165 250/var(--tw-bg-opacity))}.bg-teal-300{--tw-bg-opacity:1;background-color:rgb(94 234 212/var(--tw-bg-opacity))}.bg-emerald-400{--tw-bg-opacity:1;background-color:rgb(52 211 153/var(--tw-bg-opacity))}.bg-amber-300{--tw-bg-opacity:1;background-color:rgb(252 211 77/var(--tw-bg-opacity))}.bg-rose-300{--tw-bg-opacity:1;background-color:rgb(253 164 175/var(--tw-bg-opacity))}.bg-red-300{--tw-bg-opacity:1;background-color:rgb(252 165 165/var(--tw-bg-opacity))}.object-cover{-o-object-fit:cover;object-fit:cover}.p-4{padding:1rem}.p-0\\.5{padding:.125rem}.p-0{padding:0}.p-1{padding:.25rem}.p-1\\.5{padding:.375rem}.py-1{padding-bottom:.25rem;padding-top:.25rem}.px-4{padding-left:1rem;padding-right:1rem}.px-2{padding-left:.5rem;padding-right:.5rem}.py-2{padding-bottom:.5rem;padding-top:.5rem}.px-1{padding-left:.25rem;padding-right:.25rem}.px-0\\.5{padding-left:.125rem;padding-right:.125rem}.px-0{padding-left:0;padding-right:0}.py-10{padding-bottom:2.5rem;padding-top:2.5rem}.px-10{padding-left:2.5rem;padding-right:2.5rem}.py-3{padding-bottom:.75rem;padding-top:.75rem}.pl-4{padding-left:1rem}.pr-12{padding-right:3rem}.pb-20{padding-bottom:5rem}.pt-2{padding-top:.5rem}.pt-1{padding-top:.25rem}.text-right{text-align:right}.text-xs{font-size:.75rem}.text-base{font-size:1rem}.text-sm{font-size:.875rem}.text-7xl{font-size:5rem}.text-xxs{font-size:.7rem}.text-2xl{font-size:1.5rem}.text-xl{font-size:1.25rem}.font-semibold{font-weight:600}.font-normal{font-weight:400}.font-thin{font-weight:100}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-light{font-weight:300}.uppercase{text-transform:uppercase}.tracking-tight{letter-spacing:-.025em}.tracking-tighter{letter-spacing:-.05em}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85/var(--tw-text-opacity))}.text-sky-700{--tw-text-opacity:1;color:rgb(3 105 161/var(--tw-text-opacity))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.text-zinc-400{--tw-text-opacity:1;color:rgb(161 161 170/var(--tw-text-opacity))}.text-rose-700{--tw-text-opacity:1;color:rgb(190 18 60/var(--tw-text-opacity))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87/var(--tw-text-opacity))}.text-amber-700{--tw-text-opacity:1;color:rgb(180 83 9/var(--tw-text-opacity))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216/var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94/var(--tw-text-opacity))}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.text-blue-500{--tw-text-opacity:1;color:rgb(59 130 246/var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.shadow-lg,.shadow-md{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color)}.shadow-gray-300{--tw-shadow-color:#d1d5db;--tw-shadow:var(--tw-shadow-colored)}.shadow-gray-400{--tw-shadow-color:#9ca3af;--tw-shadow:var(--tw-shadow-colored)}.shadow-blue-300{--tw-shadow-color:#93c5fd;--tw-shadow:var(--tw-shadow-colored)}.shadow-red-300{--tw-shadow-color:#fca5a5;--tw-shadow:var(--tw-shadow-colored)}.ring-2{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.ring,.ring-2{box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.ring{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.ring-indigo-400{--tw-ring-opacity:1;--tw-ring-color:rgb(129 140 248/var(--tw-ring-opacity))}.ring-green-300{--tw-ring-opacity:1;--tw-ring-color:rgb(134 239 172/var(--tw-ring-opacity))}.ring-red-300{--tw-ring-opacity:1;--tw-ring-color:rgb(252 165 165/var(--tw-ring-opacity))}.ring-sky-300{--tw-ring-opacity:1;--tw-ring-color:rgb(125 211 252/var(--tw-ring-opacity))}.ring-emerald-400{--tw-ring-opacity:1;--tw-ring-color:rgb(52 211 153/var(--tw-ring-opacity))}.ring-blue-300{--tw-ring-opacity:1;--tw-ring-color:rgb(147 197 253/var(--tw-ring-opacity))}.ring-red-400{--tw-ring-opacity:1;--tw-ring-color:rgb(248 113 113/var(--tw-ring-opacity))}.ring-green-400{--tw-ring-opacity:1;--tw-ring-color:rgb(74 222 128/var(--tw-ring-opacity))}.transition{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-all{transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}html{font-family:\"Inter\",sans-serif;font-family:\"Montserrat\",sans-serif}::-webkit-scrollbar{height:12px;width:5px}::-webkit-scrollbar-track{border:1px solid #8c8c8c;border-radius:10px}::-webkit-scrollbar-thumb{background:#848484;border-radius:10px}::-webkit-scrollbar-thumb:hover{background:#909090}.no-scrollbar::-webkit-scrollbar{display:none}.no-scrollbar{-ms-overflow-style:none;scrollbar-width:none}pre[class*=language-]{border-radius:10px!important;font-size:.9rem;margin:.5em 0;overflow:auto;padding:1em}.light pre[class*=language-]{background:#f5f5f5!important;padding:1.5rem}.dark pre[class*=language-]{background:#171717!important;padding:1.5rem}.fadeSnippet-enter-active{-webkit-animation:fade-in .2s;animation:fade-in .2s}.fadeSnippet-leave-active{-webkit-animation:fade-out .2s;animation:fade-out .2s}@-webkit-keyframes fade-in{0%{transform:translateY(10px)}to{transform:translateY(0)}}@keyframes fade-in{0%{transform:translateY(10px)}to{transform:translateY(0)}}@-webkit-keyframes fade-out{0%{transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}@keyframes fade-out{0%{transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}.hover\\:mr-2:hover{margin-right:.5rem}.hover\\:h-10:hover{height:2.5rem}.hover\\:w-10:hover{width:2.5rem}.hover\\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\\:cursor-pointer:hover{cursor:pointer}.hover\\:bg-gray-200:hover{--tw-bg-opacity:1;background-color:rgb(229 231 235/var(--tw-bg-opacity))}.hover\\:bg-blue-200:hover{--tw-bg-opacity:1;background-color:rgb(191 219 254/var(--tw-bg-opacity))}.hover\\:bg-gray-800:hover{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.hover\\:bg-indigo-200:hover{--tw-bg-opacity:1;background-color:rgb(199 210 254/var(--tw-bg-opacity))}.hover\\:bg-sky-200:hover{--tw-bg-opacity:1;background-color:rgb(186 230 253/var(--tw-bg-opacity))}.hover\\:bg-teal-200:hover{--tw-bg-opacity:1;background-color:rgb(153 246 228/var(--tw-bg-opacity))}.hover\\:bg-rose-200:hover{--tw-bg-opacity:1;background-color:rgb(254 205 211/var(--tw-bg-opacity))}.hover\\:bg-red-200:hover{--tw-bg-opacity:1;background-color:rgb(254 202 202/var(--tw-bg-opacity))}.hover\\:shadow-none:hover{--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.dark .dark\\:border-gray-900{--tw-border-opacity:1;border-color:rgb(17 24 39/var(--tw-border-opacity))}.dark .dark\\:border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55/var(--tw-border-opacity))}.dark .dark\\:border-\\[\\#2D2D2D\\]{--tw-border-opacity:1;border-color:rgb(45 45 45/var(--tw-border-opacity))}.dark .dark\\:border-b-\\[\\#2D2D2D\\]{--tw-border-opacity:1;border-bottom-color:rgb(45 45 45/var(--tw-border-opacity))}.dark .dark\\:bg-neutral-800{--tw-bg-opacity:1;background-color:rgb(38 38 38/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#212121\\]{--tw-bg-opacity:1;background-color:rgb(33 33 33/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#121212\\]{--tw-bg-opacity:1;background-color:rgb(18 18 18/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-800{--tw-bg-opacity:1;background-color:rgb(39 39 42/var(--tw-bg-opacity))}.dark .dark\\:bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity))}.dark .dark\\:text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.dark .dark\\:text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.dark .dark\\:text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.dark .dark\\:text-sky-500{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.dark .dark\\:text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.dark .dark\\:text-zinc-400{--tw-text-opacity:1;color:rgb(161 161 170/var(--tw-text-opacity))}.dark .dark\\:text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.dark .dark\\:text-neutral-200{--tw-text-opacity:1;color:rgb(229 229 229/var(--tw-text-opacity))}.dark .dark\\:text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity))}@media (min-width:768px){.md\\:block{display:block}.md\\:px-24{padding-left:6rem;padding-right:6rem}}@media (min-width:1024px){.lg\\:block{display:block}}";
+__vite_ssr_exports__.default = "@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap\");\n/*! tailwindcss v3.1.6 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[multiple],[type=date],[type=datetime-local],[type=email],[type=month],[type=number],[type=password],[type=search],[type=tel],[type=text],[type=time],[type=url],[type=week],select,textarea{--tw-shadow:0 0 #0000;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;border-color:#6b7280;border-radius:0;border-width:1px;font-size:1rem;line-height:1.5rem;padding:.5rem .75rem}[multiple]:focus,[type=date]:focus,[type=datetime-local]:focus,[type=email]:focus,[type=month]:focus,[type=number]:focus,[type=password]:focus,[type=search]:focus,[type=tel]:focus,[type=text]:focus,[type=time]:focus,[type=url]:focus,[type=week]:focus,select:focus,textarea:focus{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);border-color:#2563eb;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);outline:2px solid transparent;outline-offset:2px}input::-moz-placeholder,textarea::-moz-placeholder{color:#6b7280;opacity:1}input::placeholder,textarea::placeholder{color:#6b7280;opacity:1}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-date-and-time-value{min-height:1.5em}::-webkit-datetime-edit,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-meridiem-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-year-field{padding-bottom:0;padding-top:0}select{color-adjust:exact;background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3E%3C/svg%3E\");background-position:right .5rem center;background-repeat:no-repeat;background-size:1.5em 1.5em;padding-right:2.5rem;-webkit-print-color-adjust:exact;print-color-adjust:exact}[multiple]{color-adjust:unset;background-image:none;background-position:0 0;background-repeat:unset;background-size:initial;padding-right:.75rem;-webkit-print-color-adjust:unset;print-color-adjust:unset}[type=checkbox],[type=radio]{color-adjust:exact;--tw-shadow:0 0 #0000;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;background-origin:border-box;border-color:#6b7280;border-width:1px;color:#2563eb;display:inline-block;flex-shrink:0;height:1rem;padding:0;-webkit-print-color-adjust:exact;print-color-adjust:exact;-webkit-user-select:none;-moz-user-select:none;user-select:none;vertical-align:middle;width:1rem}[type=checkbox]{border-radius:0}[type=radio]{border-radius:100%}[type=checkbox]:focus,[type=radio]:focus{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:2px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);outline:2px solid transparent;outline-offset:2px}[type=checkbox]:checked,[type=radio]:checked{background-color:currentColor;background-position:50%;background-repeat:no-repeat;background-size:100% 100%;border-color:transparent}[type=checkbox]:checked{background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.207 4.793a1 1 0 0 1 0 1.414l-5 5a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L6.5 9.086l4.293-4.293a1 1 0 0 1 1.414 0z'/%3E%3C/svg%3E\")}[type=radio]:checked{background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='8' cy='8' r='3'/%3E%3C/svg%3E\")}[type=checkbox]:checked:focus,[type=checkbox]:checked:hover,[type=radio]:checked:focus,[type=radio]:checked:hover{background-color:currentColor;border-color:transparent}[type=checkbox]:indeterminate{background-color:currentColor;background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3E%3Cpath stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3E%3C/svg%3E\");background-position:50%;background-repeat:no-repeat;background-size:100% 100%;border-color:transparent}[type=checkbox]:indeterminate:focus,[type=checkbox]:indeterminate:hover{background-color:currentColor;border-color:transparent}[type=file]{background:unset;border-color:inherit;border-radius:0;border-width:0;font-size:unset;line-height:inherit;padding:0}[type=file]:focus{outline:1px solid ButtonText;outline:1px auto -webkit-focus-ring-color}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.container{margin-left:auto;margin-right:auto;padding-left:.5rem;padding-right:.5rem;width:100%}@media (min-width:340px){.container{max-width:340px}}@media (min-width:640px){.container{max-width:640px;padding-left:1rem;padding-right:1rem}}@media (min-width:768px){.container{max-width:768px;padding-left:1rem;padding-right:1rem}}@media (min-width:1024px){.container{max-width:1024px;padding-left:2rem;padding-right:2rem}}@media (min-width:1280px){.container{max-width:1280px;padding-left:3rem;padding-right:3rem}}@media (min-width:1536px){.container{max-width:1536px;padding-left:3rem;padding-right:3rem}}.absolute{position:absolute}.relative{position:relative}.top-4{top:1rem}.right-4{right:1rem}.-right-2{right:-.5rem}.-top-2{top:-.5rem}.-bottom-2{bottom:-.5rem}.-right-1{right:-.25rem}.-bottom-1{bottom:-.25rem}.-right-3{right:-.75rem}.right-0{right:0}.top-0{top:0}.bottom-0{bottom:0}.-right-0{right:0}.-top-0{top:0}.-bottom-0{bottom:0}.-top-1{top:-.25rem}.-top-3{top:-.75rem}.mt-6{margin-top:1.5rem}.mt-4{margin-top:1rem}.ml-2{margin-left:.5rem}.mt-12{margin-top:3rem}.mr-4{margin-right:1rem}.ml-1{margin-left:.25rem}.flex{display:flex}.table{display:table}.contents{display:contents}.hidden{display:none}.h-28{height:7rem}.h-6{height:1.5rem}.h-16{height:4rem}.h-screen{height:100vh}.h-5{height:1.25rem}.h-10{height:2.5rem}.h-full{height:100%}.h-4{height:1rem}.h-9{height:2.25rem}.h-3{height:.75rem}.h-8{height:2rem}.h-2\\.5{height:.625rem}.h-2{height:.5rem}.h-12{height:3rem}.h-14{height:3.5rem}.h-3\\.5{height:.875rem}.h-20{height:5rem}.h-11{height:2.75rem}.h-1\\.5{height:.375rem}.h-1{height:.25rem}.min-h-screen{min-height:100vh}.w-full{width:100%}.w-56{width:14rem}.w-44{width:11rem}.w-40{width:10rem}.w-fit{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.w-5{width:1.25rem}.w-6{width:1.5rem}.w-10{width:2.5rem}.w-4{width:1rem}.w-9{width:2.25rem}.w-3{width:.75rem}.w-8{width:2rem}.w-2\\.5{width:.625rem}.w-2{width:.5rem}.w-12{width:3rem}.w-14{width:3.5rem}.w-3\\.5{width:.875rem}.w-16{width:4rem}.w-20{width:5rem}.w-1\\/3{width:33.333333%}.w-11{width:2.75rem}.w-1\\.5{width:.375rem}.w-1{width:.25rem}.flex-1{flex:1 1 0%}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-4{gap:1rem}.gap-1{gap:.25rem}.gap-2{gap:.5rem}.gap-3{gap:.75rem}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.5rem*var(--tw-space-y-reverse));margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)))}.space-x-5>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.25rem*var(--tw-space-x-reverse))}.space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1rem*var(--tw-space-x-reverse))}.space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.5rem*var(--tw-space-x-reverse))}.space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.25rem*var(--tw-space-y-reverse));margin-top:calc(.25rem*(1 - var(--tw-space-y-reverse)))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1rem*var(--tw-space-y-reverse));margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)))}.space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.5rem*var(--tw-space-x-reverse))}.space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1.5rem*var(--tw-space-y-reverse));margin-top:calc(1.5rem*(1 - var(--tw-space-y-reverse)))}.-space-x-3>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(-.75rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(-.75rem*var(--tw-space-x-reverse))}.space-x-1>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.25rem*var(--tw-space-x-reverse))}.overflow-y-auto{overflow-y:auto}.overflow-y-hidden{overflow-y:hidden}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-2xl{border-radius:1rem}.rounded-xl{border-radius:.75rem}.rounded{border-radius:.25rem}.rounded-md{border-radius:.375rem}.rounded-sm{border-radius:.125rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-l-2{border-left-width:2px}.border-t-2{border-top-width:2px}.border-dashed{border-style:dashed}.border-neutral-700{--tw-border-opacity:1;border-color:rgb(64 64 64/var(--tw-border-opacity))}.border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81/var(--tw-border-opacity))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219/var(--tw-border-opacity))}.border-gray-900{--tw-border-opacity:1;border-color:rgb(17 24 39/var(--tw-border-opacity))}.border-sky-700{--tw-border-opacity:1;border-color:rgb(3 105 161/var(--tw-border-opacity))}.border-emerald-700{--tw-border-opacity:1;border-color:rgb(4 120 87/var(--tw-border-opacity))}.border-amber-700{--tw-border-opacity:1;border-color:rgb(180 83 9/var(--tw-border-opacity))}.border-rose-700{--tw-border-opacity:1;border-color:rgb(190 18 60/var(--tw-border-opacity))}.border-slate-900{--tw-border-opacity:1;border-color:rgb(15 23 42/var(--tw-border-opacity))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255/var(--tw-border-opacity))}.border-gray-400{--tw-border-opacity:1;border-color:rgb(156 163 175/var(--tw-border-opacity))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235/var(--tw-border-opacity))}.border-cyan-500{--tw-border-opacity:1;border-color:rgb(6 182 212/var(--tw-border-opacity))}.border-sky-600{--tw-border-opacity:1;border-color:rgb(2 132 199/var(--tw-border-opacity))}.border-emerald-600{--tw-border-opacity:1;border-color:rgb(5 150 105/var(--tw-border-opacity))}.border-amber-600{--tw-border-opacity:1;border-color:rgb(217 119 6/var(--tw-border-opacity))}.border-rose-600{--tw-border-opacity:1;border-color:rgb(225 29 72/var(--tw-border-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity))}.bg-neutral-50{--tw-bg-opacity:1;background-color:rgb(250 250 250/var(--tw-bg-opacity))}.bg-\\[\\#0A0C25\\]{--tw-bg-opacity:1;background-color:rgb(10 12 37/var(--tw-bg-opacity))}.bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.bg-zinc-100{--tw-bg-opacity:1;background-color:rgb(244 244 245/var(--tw-bg-opacity))}.bg-rose-100{--tw-bg-opacity:1;background-color:rgb(255 228 230/var(--tw-bg-opacity))}.bg-sky-100{--tw-bg-opacity:1;background-color:rgb(224 242 254/var(--tw-bg-opacity))}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229/var(--tw-bg-opacity))}.bg-amber-100{--tw-bg-opacity:1;background-color:rgb(254 243 199/var(--tw-bg-opacity))}.bg-yellow-400{--tw-bg-opacity:1;background-color:rgb(250 204 21/var(--tw-bg-opacity))}.bg-cyan-600{--tw-bg-opacity:1;background-color:rgb(8 145 178/var(--tw-bg-opacity))}.bg-violet-500{--tw-bg-opacity:1;background-color:rgb(139 92 246/var(--tw-bg-opacity))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254/var(--tw-bg-opacity))}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246/var(--tw-bg-opacity))}.bg-pink-300{--tw-bg-opacity:1;background-color:rgb(249 168 212/var(--tw-bg-opacity))}.bg-rose-500{--tw-bg-opacity:1;background-color:rgb(244 63 94/var(--tw-bg-opacity))}.bg-gray-500{--tw-bg-opacity:1;background-color:rgb(107 114 128/var(--tw-bg-opacity))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94/var(--tw-bg-opacity))}.bg-cyan-500{--tw-bg-opacity:1;background-color:rgb(6 182 212/var(--tw-bg-opacity))}.bg-yellow-500{--tw-bg-opacity:1;background-color:rgb(234 179 8/var(--tw-bg-opacity))}.bg-green-400{--tw-bg-opacity:1;background-color:rgb(74 222 128/var(--tw-bg-opacity))}.bg-purple-400{--tw-bg-opacity:1;background-color:rgb(192 132 252/var(--tw-bg-opacity))}.bg-indigo-300{--tw-bg-opacity:1;background-color:rgb(165 180 252/var(--tw-bg-opacity))}.bg-red-400{--tw-bg-opacity:1;background-color:rgb(248 113 113/var(--tw-bg-opacity))}.bg-fuchsia-600{--tw-bg-opacity:1;background-color:rgb(192 38 211/var(--tw-bg-opacity))}.bg-sky-400{--tw-bg-opacity:1;background-color:rgb(56 189 248/var(--tw-bg-opacity))}.bg-amber-400{--tw-bg-opacity:1;background-color:rgb(251 191 36/var(--tw-bg-opacity))}.bg-teal-400{--tw-bg-opacity:1;background-color:rgb(45 212 191/var(--tw-bg-opacity))}.bg-red-500{--tw-bg-opacity:1;background-color:rgb(239 68 68/var(--tw-bg-opacity))}.bg-sky-300{--tw-bg-opacity:1;background-color:rgb(125 211 252/var(--tw-bg-opacity))}.bg-yellow-200{--tw-bg-opacity:1;background-color:rgb(254 240 138/var(--tw-bg-opacity))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity))}.bg-gray-400{--tw-bg-opacity:1;background-color:rgb(156 163 175/var(--tw-bg-opacity))}.bg-blue-400{--tw-bg-opacity:1;background-color:rgb(96 165 250/var(--tw-bg-opacity))}.bg-teal-300{--tw-bg-opacity:1;background-color:rgb(94 234 212/var(--tw-bg-opacity))}.bg-emerald-400{--tw-bg-opacity:1;background-color:rgb(52 211 153/var(--tw-bg-opacity))}.bg-amber-300{--tw-bg-opacity:1;background-color:rgb(252 211 77/var(--tw-bg-opacity))}.bg-rose-300{--tw-bg-opacity:1;background-color:rgb(253 164 175/var(--tw-bg-opacity))}.bg-red-300{--tw-bg-opacity:1;background-color:rgb(252 165 165/var(--tw-bg-opacity))}.bg-yellow-100{--tw-bg-opacity:1;background-color:rgb(254 249 195/var(--tw-bg-opacity))}.bg-red-100{--tw-bg-opacity:1;background-color:rgb(254 226 226/var(--tw-bg-opacity))}.bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity))}.bg-gray-300{--tw-bg-opacity:1;background-color:rgb(209 213 219/var(--tw-bg-opacity))}.bg-gray-600{--tw-bg-opacity:1;background-color:rgb(75 85 99/var(--tw-bg-opacity))}.object-cover{-o-object-fit:cover;object-fit:cover}.p-4{padding:1rem}.p-0\\.5{padding:.125rem}.p-0{padding:0}.p-1{padding:.25rem}.p-1\\.5{padding:.375rem}.py-1{padding-bottom:.25rem;padding-top:.25rem}.px-4{padding-left:1rem;padding-right:1rem}.px-2{padding-left:.5rem;padding-right:.5rem}.py-2{padding-bottom:.5rem;padding-top:.5rem}.px-1{padding-left:.25rem;padding-right:.25rem}.px-0\\.5{padding-left:.125rem;padding-right:.125rem}.px-0{padding-left:0;padding-right:0}.py-10{padding-bottom:2.5rem;padding-top:2.5rem}.px-10{padding-left:2.5rem;padding-right:2.5rem}.py-3{padding-bottom:.75rem;padding-top:.75rem}.py-0\\.5{padding-bottom:.125rem;padding-top:.125rem}.py-0{padding-bottom:0;padding-top:0}.px-3{padding-left:.75rem;padding-right:.75rem}.px-2\\.5{padding-left:.625rem;padding-right:.625rem}.px-1\\.5{padding-left:.375rem;padding-right:.375rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.pl-4{padding-left:1rem}.pr-12{padding-right:3rem}.pb-20{padding-bottom:5rem}.pt-2{padding-top:.5rem}.pt-1{padding-top:.25rem}.pl-1{padding-left:.25rem}.pb-4{padding-bottom:1rem}.text-right{text-align:right}.text-xs{font-size:.75rem}.text-base{font-size:1rem}.text-sm{font-size:.875rem}.text-7xl{font-size:5rem}.text-xxs{font-size:.7rem}.text-2xl{font-size:1.5rem}.text-xl{font-size:1.25rem}.text-lg{font-size:1.125rem}.text-3xl{font-size:1.875rem}.font-semibold{font-weight:600}.font-normal{font-weight:400}.font-thin{font-weight:100}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-light{font-weight:300}.uppercase{text-transform:uppercase}.italic{font-style:italic}.tracking-tight{letter-spacing:-.025em}.tracking-tighter{letter-spacing:-.05em}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85/var(--tw-text-opacity))}.text-sky-700{--tw-text-opacity:1;color:rgb(3 105 161/var(--tw-text-opacity))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.text-zinc-400{--tw-text-opacity:1;color:rgb(161 161 170/var(--tw-text-opacity))}.text-rose-700{--tw-text-opacity:1;color:rgb(190 18 60/var(--tw-text-opacity))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87/var(--tw-text-opacity))}.text-amber-700{--tw-text-opacity:1;color:rgb(180 83 9/var(--tw-text-opacity))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216/var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94/var(--tw-text-opacity))}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.text-blue-500{--tw-text-opacity:1;color:rgb(59 130 246/var(--tw-text-opacity))}.text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.text-cyan-500{--tw-text-opacity:1;color:rgb(6 182 212/var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.text-sky-600{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105/var(--tw-text-opacity))}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6/var(--tw-text-opacity))}.text-rose-600{--tw-text-opacity:1;color:rgb(225 29 72/var(--tw-text-opacity))}.text-sky-500{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.text-sky-900{--tw-text-opacity:1;color:rgb(12 74 110/var(--tw-text-opacity))}.text-sky-800{--tw-text-opacity:1;color:rgb(7 89 133/var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.shadow-lg,.shadow-md{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color)}.shadow-gray-300{--tw-shadow-color:#d1d5db;--tw-shadow:var(--tw-shadow-colored)}.shadow-gray-400{--tw-shadow-color:#9ca3af;--tw-shadow:var(--tw-shadow-colored)}.shadow-blue-300{--tw-shadow-color:#93c5fd;--tw-shadow:var(--tw-shadow-colored)}.shadow-red-300{--tw-shadow-color:#fca5a5;--tw-shadow:var(--tw-shadow-colored)}.shadow-gray-200{--tw-shadow-color:#e5e7eb;--tw-shadow:var(--tw-shadow-colored)}.ring-2{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.ring,.ring-2{box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.ring{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.ring-indigo-400{--tw-ring-opacity:1;--tw-ring-color:rgb(129 140 248/var(--tw-ring-opacity))}.ring-green-300{--tw-ring-opacity:1;--tw-ring-color:rgb(134 239 172/var(--tw-ring-opacity))}.ring-red-300{--tw-ring-opacity:1;--tw-ring-color:rgb(252 165 165/var(--tw-ring-opacity))}.ring-sky-300{--tw-ring-opacity:1;--tw-ring-color:rgb(125 211 252/var(--tw-ring-opacity))}.ring-emerald-400{--tw-ring-opacity:1;--tw-ring-color:rgb(52 211 153/var(--tw-ring-opacity))}.ring-blue-300{--tw-ring-opacity:1;--tw-ring-color:rgb(147 197 253/var(--tw-ring-opacity))}.ring-red-400{--tw-ring-opacity:1;--tw-ring-color:rgb(248 113 113/var(--tw-ring-opacity))}.ring-green-400{--tw-ring-opacity:1;--tw-ring-color:rgb(74 222 128/var(--tw-ring-opacity))}.transition{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-all{transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}html{font-family:\"Inter\",sans-serif;font-family:\"Montserrat\",sans-serif}::-webkit-scrollbar{height:12px;width:5px}::-webkit-scrollbar-track{border:1px solid #8c8c8c;border-radius:10px}::-webkit-scrollbar-thumb{background:#848484;border-radius:10px}::-webkit-scrollbar-thumb:hover{background:#909090}.no-scrollbar::-webkit-scrollbar{display:none}.no-scrollbar{-ms-overflow-style:none;scrollbar-width:none}pre[class*=language-]{border-radius:10px!important;font-size:.9rem;margin:.5em 0;overflow:auto;padding:1em}.light pre[class*=language-]{background:#f5f5f5!important;padding:1.5rem}.dark pre[class*=language-]{background:#171717!important;padding:1.5rem}.fadeSnippet-enter-active{-webkit-animation:fade-in .2s;animation:fade-in .2s}.fadeSnippet-leave-active{-webkit-animation:fade-out .2s;animation:fade-out .2s}@-webkit-keyframes fade-in{0%{transform:translateY(10px)}to{transform:translateY(0)}}@keyframes fade-in{0%{transform:translateY(10px)}to{transform:translateY(0)}}@-webkit-keyframes fade-out{0%{transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}@keyframes fade-out{0%{transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}.hover\\:mr-2:hover{margin-right:.5rem}.hover\\:h-10:hover{height:2.5rem}.hover\\:w-10:hover{width:2.5rem}.hover\\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\\:cursor-pointer:hover{cursor:pointer}.hover\\:bg-gray-200:hover{--tw-bg-opacity:1;background-color:rgb(229 231 235/var(--tw-bg-opacity))}.hover\\:bg-blue-200:hover{--tw-bg-opacity:1;background-color:rgb(191 219 254/var(--tw-bg-opacity))}.hover\\:bg-gray-800:hover{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.hover\\:bg-indigo-200:hover{--tw-bg-opacity:1;background-color:rgb(199 210 254/var(--tw-bg-opacity))}.hover\\:bg-sky-200:hover{--tw-bg-opacity:1;background-color:rgb(186 230 253/var(--tw-bg-opacity))}.hover\\:bg-teal-200:hover{--tw-bg-opacity:1;background-color:rgb(153 246 228/var(--tw-bg-opacity))}.hover\\:bg-rose-200:hover{--tw-bg-opacity:1;background-color:rgb(254 205 211/var(--tw-bg-opacity))}.hover\\:bg-red-200:hover{--tw-bg-opacity:1;background-color:rgb(254 202 202/var(--tw-bg-opacity))}.hover\\:bg-emerald-200:hover{--tw-bg-opacity:1;background-color:rgb(167 243 208/var(--tw-bg-opacity))}.hover\\:bg-yellow-200:hover{--tw-bg-opacity:1;background-color:rgb(254 240 138/var(--tw-bg-opacity))}.hover\\:bg-zinc-200:hover{--tw-bg-opacity:1;background-color:rgb(228 228 231/var(--tw-bg-opacity))}.hover\\:bg-gray-900:hover{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.hover\\:text-sky-800:hover{--tw-text-opacity:1;color:rgb(7 89 133/var(--tw-text-opacity))}.hover\\:text-emerald-800:hover{--tw-text-opacity:1;color:rgb(6 95 70/var(--tw-text-opacity))}.hover\\:text-amber-800:hover{--tw-text-opacity:1;color:rgb(146 64 14/var(--tw-text-opacity))}.hover\\:text-rose-800:hover{--tw-text-opacity:1;color:rgb(159 18 57/var(--tw-text-opacity))}.hover\\:text-gray-500:hover{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.hover\\:shadow-none:hover{--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.dark .dark\\:border-gray-900{--tw-border-opacity:1;border-color:rgb(17 24 39/var(--tw-border-opacity))}.dark .dark\\:border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55/var(--tw-border-opacity))}.dark .dark\\:border-\\[\\#2D2D2D\\]{--tw-border-opacity:1;border-color:rgb(45 45 45/var(--tw-border-opacity))}.dark .dark\\:border-b-\\[\\#2D2D2D\\]{--tw-border-opacity:1;border-bottom-color:rgb(45 45 45/var(--tw-border-opacity))}.dark .dark\\:bg-neutral-800{--tw-bg-opacity:1;background-color:rgb(38 38 38/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#212121\\]{--tw-bg-opacity:1;background-color:rgb(33 33 33/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#121212\\]{--tw-bg-opacity:1;background-color:rgb(18 18 18/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-800{--tw-bg-opacity:1;background-color:rgb(39 39 42/var(--tw-bg-opacity))}.dark .dark\\:bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity))}.dark .dark\\:text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.dark .dark\\:text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.dark .dark\\:text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.dark .dark\\:text-sky-500{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.dark .dark\\:text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.dark .dark\\:text-zinc-400{--tw-text-opacity:1;color:rgb(161 161 170/var(--tw-text-opacity))}.dark .dark\\:text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.dark .dark\\:text-neutral-200{--tw-text-opacity:1;color:rgb(229 229 229/var(--tw-text-opacity))}.dark .dark\\:text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity))}.dark .dark\\:text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.dark .dark\\:text-sky-600{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.dark .dark\\:text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}@media (min-width:768px){.md\\:block{display:block}.md\\:px-24{padding-left:6rem;padding-right:6rem}}@media (min-width:1024px){.lg\\:block{display:block}}";
 }
 
 
@@ -2785,10 +2813,12 @@ Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, confi
 // - /pages/About.vue?macro=true ($id_b79d0c53)
 // - /pages/alerts.vue?macro=true ($id_07053f14)
 // - /pages/avatar.vue?macro=true ($id_62837cb2)
+// - /pages/badge.vue?macro=true ($id_8d023e34)
 // - /pages/index.vue?macro=true ($id_5dd70240)
 // - /pages/About.vue ($id_4fd34246)
 // - /pages/alerts.vue ($id_392b88d4)
 // - /pages/avatar.vue ($id_96dc5723)
+// - /pages/badge.vue ($id_f19d9a80)
 // - /pages/index.vue ($id_cca58e97)
 // --------------------
 const $id_f44322c8 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
@@ -2798,7 +2828,9 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/pages/alerts.vue?macro
 
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/pages/avatar.vue?macro=true");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/pages/index.vue?macro=true");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/pages/badge.vue?macro=true");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/pages/index.vue?macro=true");
 
 __vite_ssr_exports__.default = [
   {
@@ -2829,12 +2861,21 @@ __vite_ssr_exports__.default = [
     component: () => __vite_ssr_dynamic_import__('/pages/avatar.vue')
   },
   {
+    name: "badge",
+    path: "/badge",
+    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/badge.vue",
+    children: [],
+    meta: __vite_ssr_import_3__.meta,
+    alias: __vite_ssr_import_3__.meta?.alias || [],
+    component: () => __vite_ssr_dynamic_import__('/pages/badge.vue')
+  },
+  {
     name: "index",
     path: "/",
     file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/index.vue",
     children: [],
-    meta: __vite_ssr_import_3__.meta,
-    alias: __vite_ssr_import_3__.meta?.alias || [],
+    meta: __vite_ssr_import_4__.meta,
+    alias: __vite_ssr_import_4__.meta?.alias || [],
     component: () => __vite_ssr_dynamic_import__('/pages/index.vue')
   }
 ];
@@ -2960,10 +3001,38 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // - /components/Avatar/DropDown.vue ($id_3ff2427c)
 // - /components/Avatar/Snippets/DropDown.vue ($id_44182734)
 // - /pages/avatar.vue?macro=true ($id_62837cb2)
+// - /components/Badge/Default.vue ($id_81f2d59e)
+// - /components/Badge/Snippets/default.vue ($id_e2a82a42)
+// - /components/Badge/Large.vue ($id_324bb3fe)
+// - /components/Badge/Snippets/Large.vue ($id_24bde5aa)
+// - /components/Badge/StateColor.vue ($id_6575bf2f)
+// - /components/Badge/Snippets/StateColor.vue ($id_91ccdfeb)
+// - /components/Badge/Outline.vue ($id_61b08d48)
+// - /components/Badge/Snippets/Outline.vue ($id_0de52721)
+// - /components/Badge/Pill.vue ($id_905286d2)
+// - /components/Badge/Snippets/Pill.vue ($id_6efedfa6)
+// - /components/Badge/PillOutline.vue ($id_d9d656b5)
+// - /components/Badge/Snippets/PillOutline.vue ($id_232186e7)
+// - /components/Badge/Rectangle.vue ($id_edfb2f3d)
+// - /components/Badge/Snippets/Rectangle.vue ($id_0a470201)
+// - /components/Badge/Cancel.vue ($id_abda55fa)
+// - /components/Badge/Snippets/Cancel.vue ($id_cd5366e1)
+// - /components/Badge/Link.vue ($id_d7b0cb41)
+// - /components/Badge/Snippets/Link.vue ($id_fb2cca49)
+// - /components/Badge/Size.vue ($id_bdac4bd2)
+// - /components/Badge/Snippets/Size.vue ($id_475d1751)
+// - /components/Badge/Positioned.vue ($id_988a469a)
+// - /components/Badge/Snippets/Positioned.vue ($id_6186acd3)
+// - /components/Badge/Text.vue ($id_f118c71a)
+// - /components/Badge/Snippets/Text.vue ($id_5ef597c3)
+// - /components/Badge/Icon.vue ($id_b55890d3)
+// - /components/Badge/Snippets/Icon.vue ($id_043e9904)
+// - /pages/badge.vue?macro=true ($id_8d023e34)
 // - /pages/index.vue?macro=true ($id_5dd70240)
 // - /pages/About.vue ($id_4fd34246)
 // - /pages/alerts.vue ($id_392b88d4)
 // - /pages/avatar.vue ($id_96dc5723)
+// - /pages/badge.vue ($id_f19d9a80)
 // - /pages/index.vue ($id_cca58e97)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
@@ -3046,10 +3115,38 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
 // - /components/Avatar/DropDown.vue ($id_3ff2427c)
 // - /components/Avatar/Snippets/DropDown.vue ($id_44182734)
 // - /pages/avatar.vue?macro=true ($id_62837cb2)
+// - /components/Badge/Default.vue ($id_81f2d59e)
+// - /components/Badge/Snippets/default.vue ($id_e2a82a42)
+// - /components/Badge/Large.vue ($id_324bb3fe)
+// - /components/Badge/Snippets/Large.vue ($id_24bde5aa)
+// - /components/Badge/StateColor.vue ($id_6575bf2f)
+// - /components/Badge/Snippets/StateColor.vue ($id_91ccdfeb)
+// - /components/Badge/Outline.vue ($id_61b08d48)
+// - /components/Badge/Snippets/Outline.vue ($id_0de52721)
+// - /components/Badge/Pill.vue ($id_905286d2)
+// - /components/Badge/Snippets/Pill.vue ($id_6efedfa6)
+// - /components/Badge/PillOutline.vue ($id_d9d656b5)
+// - /components/Badge/Snippets/PillOutline.vue ($id_232186e7)
+// - /components/Badge/Rectangle.vue ($id_edfb2f3d)
+// - /components/Badge/Snippets/Rectangle.vue ($id_0a470201)
+// - /components/Badge/Cancel.vue ($id_abda55fa)
+// - /components/Badge/Snippets/Cancel.vue ($id_cd5366e1)
+// - /components/Badge/Link.vue ($id_d7b0cb41)
+// - /components/Badge/Snippets/Link.vue ($id_fb2cca49)
+// - /components/Badge/Size.vue ($id_bdac4bd2)
+// - /components/Badge/Snippets/Size.vue ($id_475d1751)
+// - /components/Badge/Positioned.vue ($id_988a469a)
+// - /components/Badge/Snippets/Positioned.vue ($id_6186acd3)
+// - /components/Badge/Text.vue ($id_f118c71a)
+// - /components/Badge/Snippets/Text.vue ($id_5ef597c3)
+// - /components/Badge/Icon.vue ($id_b55890d3)
+// - /components/Badge/Snippets/Icon.vue ($id_043e9904)
+// - /pages/badge.vue?macro=true ($id_8d023e34)
 // - /pages/index.vue?macro=true ($id_5dd70240)
 // - /pages/About.vue ($id_4fd34246)
 // - /pages/alerts.vue ($id_392b88d4)
 // - /pages/avatar.vue ($id_96dc5723)
+// - /pages/badge.vue ($id_f19d9a80)
 // - /pages/index.vue ($id_cca58e97)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
@@ -3554,6 +3651,21 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
+        _push(`<div class="pb-4"${
+          _scopeId
+        }><p${
+          _scopeId
+        }> I have used <a href="https://heroicons.com/" class="text-sky-700 dark:text-sky-500"${
+          _scopeId
+        }>heroicons</a> for this component. You can user any icon according to the constraints. I have provided with code snippet only for one component as rest of the components are same, just have different colors. All the components hvae <span class="text-sky-900 dark:text-sky-600"${
+          _scopeId
+        }>text-&#39;color&#39;-700</span> and <span class="text-sky-900 dark:text-sky-600"${
+          _scopeId
+        }>bg-&#39;color&#39;-100</span> for all the components. You can refer <a href="https://tailwindcss.com/docs/customizing-colors" class="text-sky-700 dark:text-sky-500"${
+          _scopeId
+        }>Tailwind colors</a> to experiment with different colors. <span class="text-sky-800 dark:text-sky-500 italic"${
+          _scopeId
+        }>Same goes for following components.</span></p></div>`)
         _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
           default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
@@ -3620,6 +3732,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
+        _push(`<div class="pb-4"${
+          _scopeId
+        }><p${
+          _scopeId
+        }> This component has a top border of 2px. You can always increase border size and can change color as mentioned in above component info. </p></div>`)
         _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
           default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
@@ -3991,6 +4108,26 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     ]),
                     _: 1 /* STABLE */
                   }),
+                  __vite_ssr_import_24__.createVNode("div", { class: "pb-4" }, [
+                    __vite_ssr_import_24__.createVNode("p", null, [
+                      __vite_ssr_import_24__.createTextVNode(" I have used "),
+                      __vite_ssr_import_24__.createVNode("a", {
+                        href: "https://heroicons.com/",
+                        class: "text-sky-700 dark:text-sky-500"
+                      }, "heroicons"),
+                      __vite_ssr_import_24__.createTextVNode(" for this component. You can user any icon according to the constraints. I have provided with code snippet only for one component as rest of the components are same, just have different colors. All the components hvae "),
+                      __vite_ssr_import_24__.createVNode("span", { class: "text-sky-900 dark:text-sky-600" }, "text-'color'-700"),
+                      __vite_ssr_import_24__.createTextVNode(" and "),
+                      __vite_ssr_import_24__.createVNode("span", { class: "text-sky-900 dark:text-sky-600" }, "bg-'color'-100"),
+                      __vite_ssr_import_24__.createTextVNode(" for all the components. You can refer "),
+                      __vite_ssr_import_24__.createVNode("a", {
+                        href: "https://tailwindcss.com/docs/customizing-colors",
+                        class: "text-sky-700 dark:text-sky-500"
+                      }, "Tailwind colors"),
+                      __vite_ssr_import_24__.createTextVNode(" to experiment with different colors. "),
+                      __vite_ssr_import_24__.createVNode("span", { class: "text-sky-800 dark:text-sky-500 italic" }, "Same goes for following components.")
+                    ])
+                  ]),
                   __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
                     default: __vite_ssr_import_24__.withCtx(() => [
                       __vite_ssr_import_24__.createVNode(_component_AlertWithIcon)
@@ -4044,6 +4181,9 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     ]),
                     _: 1 /* STABLE */
                   }),
+                  __vite_ssr_import_24__.createVNode("div", { class: "pb-4" }, [
+                    __vite_ssr_import_24__.createVNode("p", null, " This component has a top border of 2px. You can always increase border size and can change color as mentioned in above component info. ")
+                  ]),
                   __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
                     default: __vite_ssr_import_24__.withCtx(() => [
                       __vite_ssr_import_24__.createVNode(_component_AlertWithBorder)
@@ -4195,9 +4335,11 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // Parents: 
 // - /pages/alerts.vue?macro=true ($id_07053f14)
 // - /pages/avatar.vue?macro=true ($id_62837cb2)
+// - /pages/badge.vue?macro=true ($id_8d023e34)
 // - /pages/index.vue?macro=true ($id_5dd70240)
 // - /pages/alerts.vue ($id_392b88d4)
 // - /pages/avatar.vue ($id_96dc5723)
+// - /pages/badge.vue ($id_f19d9a80)
 // - /pages/index.vue ($id_cca58e97)
 // - /node_modules/nuxt/dist/pages/runtime/app.vue ($id_6c61010f)
 // Dependencies: 
@@ -4891,8 +5033,10 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}.bgGradient{back
 // Parents: 
 // - /pages/alerts.vue?macro=true ($id_07053f14)
 // - /pages/avatar.vue?macro=true ($id_62837cb2)
+// - /pages/badge.vue?macro=true ($id_8d023e34)
 // - /pages/alerts.vue ($id_392b88d4)
 // - /pages/avatar.vue ($id_96dc5723)
+// - /pages/badge.vue ($id_f19d9a80)
 // Dependencies: 
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -4933,8 +5077,10 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_m
 // Parents: 
 // - /pages/alerts.vue?macro=true ($id_07053f14)
 // - /pages/avatar.vue?macro=true ($id_62837cb2)
+// - /pages/badge.vue?macro=true ($id_8d023e34)
 // - /pages/alerts.vue ($id_392b88d4)
 // - /pages/avatar.vue ($id_96dc5723)
+// - /pages/badge.vue ($id_f19d9a80)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -4979,8 +5125,10 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // Parents: 
 // - /pages/alerts.vue?macro=true ($id_07053f14)
 // - /pages/avatar.vue?macro=true ($id_62837cb2)
+// - /pages/badge.vue?macro=true ($id_8d023e34)
 // - /pages/alerts.vue ($id_392b88d4)
 // - /pages/avatar.vue ($id_96dc5723)
+// - /pages/badge.vue ($id_f19d9a80)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -5021,8 +5169,10 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // Parents: 
 // - /pages/alerts.vue?macro=true ($id_07053f14)
 // - /pages/avatar.vue?macro=true ($id_62837cb2)
+// - /pages/badge.vue?macro=true ($id_8d023e34)
 // - /pages/alerts.vue ($id_392b88d4)
 // - /pages/avatar.vue ($id_96dc5723)
+// - /pages/badge.vue ($id_f19d9a80)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -5063,8 +5213,10 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // Parents: 
 // - /pages/alerts.vue?macro=true ($id_07053f14)
 // - /pages/avatar.vue?macro=true ($id_62837cb2)
+// - /pages/badge.vue?macro=true ($id_8d023e34)
 // - /pages/alerts.vue ($id_392b88d4)
 // - /pages/avatar.vue ($id_96dc5723)
+// - /pages/badge.vue ($id_f19d9a80)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -5184,8 +5336,10 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // Parents: 
 // - /pages/alerts.vue?macro=true ($id_07053f14)
 // - /pages/avatar.vue?macro=true ($id_62837cb2)
+// - /pages/badge.vue?macro=true ($id_8d023e34)
 // - /pages/alerts.vue ($id_392b88d4)
 // - /pages/avatar.vue ($id_96dc5723)
+// - /pages/badge.vue ($id_f19d9a80)
 // Dependencies: 
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -6405,8 +6559,10 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_m
 // Parents: 
 // - /pages/alerts.vue?macro=true ($id_07053f14)
 // - /pages/avatar.vue?macro=true ($id_62837cb2)
+// - /pages/badge.vue?macro=true ($id_8d023e34)
 // - /pages/alerts.vue ($id_392b88d4)
 // - /pages/avatar.vue ($id_96dc5723)
+// - /pages/badge.vue ($id_f19d9a80)
 // Dependencies: 
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -6627,11 +6783,11 @@ const _sfc_main = {
     AlertInfo: __vite_ssr_import_34__.default,
     Heading: __vite_ssr_import_35__.default,
     SubHeading: __vite_ssr_import_33__.default,
-},
+  },
   data() {
     return {
       layout: "custom",
-   square_avatar: false,
+      square_avatar: false,
       presencering_avatar: false,
       circle_avatar: false,
       default_avatar: false,
@@ -6659,10 +6815,9 @@ const _sfc_main = {
       // this.$router.push(`/alerts/#${this.activeScrollSection}`)
     },
     copyToClipboard(id) {
-      this.$bus.$emit("showToastNotification")
+      this.$bus.$emit("showToastNotification");
       this.$globalCopyFunc(id);
     },
-
   },
 };
 
@@ -6772,6 +6927,13 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
+        _push(`<div class="pb-4"${
+          _scopeId
+        }><p${
+          _scopeId
+        }> In the fifth component <a href="https://avatars.dicebear.com/" target="_blank" class="text-sky-500"${
+          _scopeId
+        }> DiceBear avatars </a> are used </p></div>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
           default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
@@ -6792,7 +6954,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -6838,6 +7000,13 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
+        _push(`<div class="pb-4"${
+          _scopeId
+        }><p${
+          _scopeId
+        }> Use height and width classes from <a href="https://tailwindcss.com/" class="text-sky-500 dark:text-sky-500"${
+          _scopeId
+        }>tailwindcss</a> for variable size components </p></div>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
           default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
@@ -6858,7 +7027,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -6924,7 +7093,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -6990,7 +7159,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -7056,7 +7225,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -7122,7 +7291,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -7188,7 +7357,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -7254,7 +7423,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -7320,7 +7489,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -7386,7 +7555,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -7452,7 +7621,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -7518,7 +7687,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -7584,7 +7753,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -7604,29 +7773,29 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }>On This Page</p><button${
           _scopeId
-        }> Default </button><button${
+        }>Default</button><button${
           _scopeId
-        }> Sizes </button><button${
+        }>Sizes</button><button${
           _scopeId
         }> Presence indicator </button><button${
           _scopeId
-        }> Circle </button><button${
+        }>Circle</button><button${
           _scopeId
-        }> Square </button><button${
+        }>Square</button><button${
           _scopeId
         }> Presence Ring </button><button${
           _scopeId
-        }> Color </button><button${
+        }>Color</button><button${
           _scopeId
-        }> Badge </button><button${
+        }>Badge</button><button${
           _scopeId
-        }> Shadows </button><button${
+        }>Shadows</button><button${
           _scopeId
         }>Group 1</button><button${
           _scopeId
         }>Group 2</button><button${
           _scopeId
-        }> Info </button><button${
+        }>Info</button><button${
           _scopeId
         }> Drop Down </button></div></div></div></div></div>`)
       } else {
@@ -7669,6 +7838,17 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     ]),
                     _: 1 /* STABLE */
                   }),
+                  __vite_ssr_import_36__.createVNode("div", { class: "pb-4" }, [
+                    __vite_ssr_import_36__.createVNode("p", null, [
+                      __vite_ssr_import_36__.createTextVNode(" In the fifth component "),
+                      __vite_ssr_import_36__.createVNode("a", {
+                        href: "https://avatars.dicebear.com/",
+                        target: "_blank",
+                        class: "text-sky-500"
+                      }, " DiceBear avatars "),
+                      __vite_ssr_import_36__.createTextVNode(" are used ")
+                    ])
+                  ]),
                   __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.createVNode(_component_AvatarDefault)
@@ -7683,7 +7863,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultAvatar'))
@@ -7722,6 +7902,16 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     ]),
                     _: 1 /* STABLE */
                   }),
+                  __vite_ssr_import_36__.createVNode("div", { class: "pb-4" }, [
+                    __vite_ssr_import_36__.createVNode("p", null, [
+                      __vite_ssr_import_36__.createTextVNode(" Use height and width classes from "),
+                      __vite_ssr_import_36__.createVNode("a", {
+                        href: "https://tailwindcss.com/",
+                        class: "text-sky-500 dark:text-sky-500"
+                      }, "tailwindcss"),
+                      __vite_ssr_import_36__.createTextVNode(" for variable size components ")
+                    ])
+                  ]),
                   __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.createVNode(_component_AvatarSize)
@@ -7736,7 +7926,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('AvatarSize'))
@@ -7789,7 +7979,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('AvatarIndicator'))
@@ -7842,7 +8032,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('AvatarCircle'))
@@ -7895,7 +8085,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('AvatarSquare'))
@@ -7948,7 +8138,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('AvatarPresenceRing'))
@@ -8001,7 +8191,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('AvatarColor'))
@@ -8054,7 +8244,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('AvatarBadge'))
@@ -8107,7 +8297,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('AvatarShadow'))
@@ -8160,7 +8350,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('AvatarGroup1'))
@@ -8213,7 +8403,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('AvatarGroup2'))
@@ -8266,7 +8456,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('AvatarInfo'))
@@ -8319,7 +8509,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('AvatarDropDown'))
@@ -8347,31 +8537,31 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     __vite_ssr_import_36__.createVNode("p", { class: "text-normal font-bold" }, "On This Page"),
                     __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('defaultAvatar'))
-                    }, " Default ", 8 /* PROPS */, ["onClick"]),
+                    }, "Default", 8 /* PROPS */, ["onClick"]),
                     __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('avatarSize'))
-                    }, " Sizes ", 8 /* PROPS */, ["onClick"]),
+                    }, "Sizes", 8 /* PROPS */, ["onClick"]),
                     __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('avatarWithIndicator'))
                     }, " Presence indicator ", 8 /* PROPS */, ["onClick"]),
                     __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('circleAvatar'))
-                    }, " Circle ", 8 /* PROPS */, ["onClick"]),
+                    }, "Circle", 8 /* PROPS */, ["onClick"]),
                     __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('squareAvatar'))
-                    }, " Square ", 8 /* PROPS */, ["onClick"]),
+                    }, "Square", 8 /* PROPS */, ["onClick"]),
                     __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('avatarWithRing'))
                     }, " Presence Ring ", 8 /* PROPS */, ["onClick"]),
                     __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('colorAvatar'))
-                    }, " Color ", 8 /* PROPS */, ["onClick"]),
+                    }, "Color", 8 /* PROPS */, ["onClick"]),
                     __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('badgeAvatar'))
-                    }, " Badge ", 8 /* PROPS */, ["onClick"]),
+                    }, "Badge", 8 /* PROPS */, ["onClick"]),
                     __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('shadowAvatar'))
-                    }, " Shadows ", 8 /* PROPS */, ["onClick"]),
+                    }, "Shadows", 8 /* PROPS */, ["onClick"]),
                     __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('group1'))
                     }, "Group 1", 8 /* PROPS */, ["onClick"]),
@@ -8380,7 +8570,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     }, "Group 2", 8 /* PROPS */, ["onClick"]),
                     __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('infoAvatar'))
-                    }, " Info ", 8 /* PROPS */, ["onClick"]),
+                    }, "Info", 8 /* PROPS */, ["onClick"]),
                     __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('dropdownAvatar'))
                     }, " Drop Down ", 8 /* PROPS */, ["onClick"])
@@ -10042,6 +10232,4529 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 
 
 // --------------------
+// Request: /pages/badge.vue?macro=true
+// Parents: 
+// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// Dependencies: 
+// - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
+// - /components/Headers/Heading.vue ($id_7aa6b9b6)
+// - /components/Headers/SubHeading.vue ($id_65fe66b1)
+// - /components/Utils/ShowCodeButton.vue ($id_b28ae97a)
+// - /components/Utils/HideCodeButton.vue ($id_2ed55d76)
+// - /components/Utils/ComponentPad.vue ($id_900fca01)
+// - /components/Badge/Default.vue ($id_81f2d59e)
+// - /components/Utils/CopyButton.vue ($id_07dc553f)
+// - /components/Badge/Snippets/default.vue ($id_e2a82a42)
+// - /components/Badge/Large.vue ($id_324bb3fe)
+// - /components/Badge/Snippets/Large.vue ($id_24bde5aa)
+// - /components/Badge/StateColor.vue ($id_6575bf2f)
+// - /components/Badge/Snippets/StateColor.vue ($id_91ccdfeb)
+// - /components/Badge/Outline.vue ($id_61b08d48)
+// - /components/Badge/Snippets/Outline.vue ($id_0de52721)
+// - /components/Badge/Pill.vue ($id_905286d2)
+// - /components/Badge/Snippets/Pill.vue ($id_6efedfa6)
+// - /components/Badge/PillOutline.vue ($id_d9d656b5)
+// - /components/Badge/Snippets/PillOutline.vue ($id_232186e7)
+// - /components/Badge/Rectangle.vue ($id_edfb2f3d)
+// - /components/Badge/Snippets/Rectangle.vue ($id_0a470201)
+// - /components/Badge/Cancel.vue ($id_abda55fa)
+// - /components/Badge/Snippets/Cancel.vue ($id_cd5366e1)
+// - /components/Badge/Link.vue ($id_d7b0cb41)
+// - /components/Badge/Snippets/Link.vue ($id_fb2cca49)
+// - /components/Badge/Size.vue ($id_bdac4bd2)
+// - /components/Badge/Snippets/Size.vue ($id_475d1751)
+// - /components/Badge/Positioned.vue ($id_988a469a)
+// - /components/Badge/Snippets/Positioned.vue ($id_6186acd3)
+// - /components/Badge/Text.vue ($id_f118c71a)
+// - /components/Badge/Snippets/Text.vue ($id_5ef597c3)
+// - /components/Badge/Icon.vue ($id_b55890d3)
+// - /components/Badge/Snippets/Icon.vue ($id_043e9904)
+// - /components/Alert/AlertInfo.vue ($id_df465372)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /pages/badge.vue?vue&type=style&index=0&lang.css ($id_1f0eb932)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_8d023e34 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/layout.mjs");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/components/Utils/ShowCodeButton.vue");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/components/Utils/HideCodeButton.vue");
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/components/Utils/ComponentPad.vue");
+
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/components/Badge/Default.vue");
+
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/components/Utils/CopyButton.vue");
+
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/components/Badge/Snippets/default.vue");
+
+const __vite_ssr_import_9__ = await __vite_ssr_import__("/components/Badge/Large.vue");
+
+const __vite_ssr_import_10__ = await __vite_ssr_import__("/components/Badge/Snippets/Large.vue");
+
+const __vite_ssr_import_11__ = await __vite_ssr_import__("/components/Badge/StateColor.vue");
+
+const __vite_ssr_import_12__ = await __vite_ssr_import__("/components/Badge/Snippets/StateColor.vue");
+
+const __vite_ssr_import_13__ = await __vite_ssr_import__("/components/Badge/Outline.vue");
+
+const __vite_ssr_import_14__ = await __vite_ssr_import__("/components/Badge/Snippets/Outline.vue");
+
+const __vite_ssr_import_15__ = await __vite_ssr_import__("/components/Badge/Pill.vue");
+
+const __vite_ssr_import_16__ = await __vite_ssr_import__("/components/Badge/Snippets/Pill.vue");
+
+const __vite_ssr_import_17__ = await __vite_ssr_import__("/components/Badge/PillOutline.vue");
+
+const __vite_ssr_import_18__ = await __vite_ssr_import__("/components/Badge/Snippets/PillOutline.vue");
+
+const __vite_ssr_import_19__ = await __vite_ssr_import__("/components/Badge/Rectangle.vue");
+
+const __vite_ssr_import_20__ = await __vite_ssr_import__("/components/Badge/Snippets/Rectangle.vue");
+
+const __vite_ssr_import_21__ = await __vite_ssr_import__("/components/Badge/Cancel.vue");
+
+const __vite_ssr_import_22__ = await __vite_ssr_import__("/components/Badge/Snippets/Cancel.vue");
+
+const __vite_ssr_import_23__ = await __vite_ssr_import__("/components/Badge/Link.vue");
+
+const __vite_ssr_import_24__ = await __vite_ssr_import__("/components/Badge/Snippets/Link.vue");
+
+const __vite_ssr_import_25__ = await __vite_ssr_import__("/components/Badge/Size.vue");
+
+const __vite_ssr_import_26__ = await __vite_ssr_import__("/components/Badge/Snippets/Size.vue");
+
+const __vite_ssr_import_27__ = await __vite_ssr_import__("/components/Badge/Positioned.vue");
+
+const __vite_ssr_import_28__ = await __vite_ssr_import__("/components/Badge/Snippets/Positioned.vue");
+
+const __vite_ssr_import_29__ = await __vite_ssr_import__("/components/Badge/Text.vue");
+
+const __vite_ssr_import_30__ = await __vite_ssr_import__("/components/Badge/Snippets/Text.vue");
+
+const __vite_ssr_import_31__ = await __vite_ssr_import__("/components/Badge/Icon.vue");
+
+const __vite_ssr_import_32__ = await __vite_ssr_import__("/components/Badge/Snippets/Icon.vue");
+
+
+const __vite_ssr_import_33__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
+
+const __vite_ssr_import_34__ = await __vite_ssr_import__("/components/Alert/AlertInfo.vue");
+
+const __vite_ssr_import_35__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
+
+const _sfc_main = {
+  metaInfo: {
+    title: "Alerts",
+  },
+  components: {
+    AlertInfo: __vite_ssr_import_34__.default,
+    Heading: __vite_ssr_import_35__.default,
+    SubHeading: __vite_ssr_import_33__.default,
+},
+  data() {
+    return {
+      layout: "custom",
+      default_badge: false,
+      large_badge: false,
+      outline_badge: false,
+      state_badge: false,
+      pill_badge: false,
+      pilloutline_badge: false,
+      rectangle_badge: false,
+      cancel_badge: false,
+      link_badge: false,
+      size_badge: false,
+      positioned_badge: false,
+      text_badge: false,
+      icon_badge: false,
+      // SCROLL
+      activeScrollSection: "",
+      sample: "",
+    };
+  },
+  methods: {
+    scrollToSection(section) {
+      this.activeScrollSection = section;
+      document.getElementById("alertContainer").scrollTo({
+        top: document.getElementById(`${section}`).offsetTop - 100,
+        behavior: "smooth",
+      });
+      // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+    copyToClipboard(id) {
+      this.$bus.$emit("showToastNotification")
+      this.$globalCopyFunc(id);
+    },
+
+  },
+};
+
+const __vite_ssr_import_36__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_37__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_NuxtLayout = __vite_ssr_import_0__.default
+  const _component_HeadersHeading = __vite_ssr_import_1__.default
+  const _component_HeadersSubHeading = __vite_ssr_import_2__.default
+  const _component_UtilsShowCodeButton = __vite_ssr_import_3__.default
+  const _component_UtilsHideCodeButton = __vite_ssr_import_4__.default
+  const _component_UtilsComponentPad = __vite_ssr_import_5__.default
+  const _component_BadgeDefault = __vite_ssr_import_6__.default
+  const _component_UtilsCopyButton = __vite_ssr_import_7__.default
+  const _component_BadgeSnippetsDefault = __vite_ssr_import_8__.default
+  const _component_BadgeLarge = __vite_ssr_import_9__.default
+  const _component_BadgeSnippetsLarge = __vite_ssr_import_10__.default
+  const _component_BadgeStateColor = __vite_ssr_import_11__.default
+  const _component_BadgeSnippetsStateColor = __vite_ssr_import_12__.default
+  const _component_BadgeOutline = __vite_ssr_import_13__.default
+  const _component_BadgeSnippetsOutline = __vite_ssr_import_14__.default
+  const _component_BadgePill = __vite_ssr_import_15__.default
+  const _component_BadgeSnippetsPill = __vite_ssr_import_16__.default
+  const _component_BadgePillOutline = __vite_ssr_import_17__.default
+  const _component_BadgeSnippetsPillOutline = __vite_ssr_import_18__.default
+  const _component_BadgeRectangle = __vite_ssr_import_19__.default
+  const _component_BadgeSnippetsRectangle = __vite_ssr_import_20__.default
+  const _component_BadgeCancel = __vite_ssr_import_21__.default
+  const _component_BadgeSnippetsCancel = __vite_ssr_import_22__.default
+  const _component_BadgeLink = __vite_ssr_import_23__.default
+  const _component_BadgeSnippetsLink = __vite_ssr_import_24__.default
+  const _component_BadgeSize = __vite_ssr_import_25__.default
+  const _component_BadgeSnippetsSize = __vite_ssr_import_26__.default
+  const _component_BadgePositioned = __vite_ssr_import_27__.default
+  const _component_BadgeSnippetsPositioned = __vite_ssr_import_28__.default
+  const _component_BadgeText = __vite_ssr_import_29__.default
+  const _component_BadgeSnippetsText = __vite_ssr_import_30__.default
+  const _component_BadgeIcon = __vite_ssr_import_31__.default
+  const _component_BadgeSnippetsIcon = __vite_ssr_import_32__.default
+
+  _push(__vite_ssr_import_37__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_36__.mergeProps({ name: $data.layout }, _attrs), {
+    default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<div class="flex p-4"${
+          _scopeId
+        }><!-- content --><div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar"${
+          _scopeId
+        }><div class="overflow-y-auto w-full px-4 pb-20" id="alertContainer"${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersHeading, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(` Badge `)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode(" Badge ")
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<div${
+          _scopeId
+        }><p class="text-base"${
+          _scopeId
+        }> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? </p></div><!-- Default Badge --><section id="defaultBadge" class="w-full"${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Default`)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("Default")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.default_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.default_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.default_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.default_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.default_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.default_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeDefault, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgeDefault)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.default_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('defaultBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsDefault, { id: "defaultBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End default Badge --><!-- Large Badge --><section id="largeBadge" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Large`)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("Large")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.large_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.large_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.large_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.large_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.large_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.large_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeLarge, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgeLarge)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.large_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('LargeBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsLarge, { id: "LargeBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Large Badge --><!-- State Badge --><section id="StateColor" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`State color`)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("State color")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.state_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.state_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.state_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.state_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.state_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.state_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeStateColor, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgeStateColor)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.state_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('StateBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsStateColor, { id: "StateBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End State Badge --><!-- Outline Badge --><section id="outlineBadge" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Outline `)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("Outline ")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.outline_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.outline_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.outline_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.outline_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.outline_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.outline_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeOutline, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgeOutline)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.outline_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('OutlineBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsOutline, { id: "OutlineBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Outline Badge --><!-- Pill Badge --><section id="pillBadge" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Pill `)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("Pill ")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.pill_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.pill_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.pill_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.pill_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.pill_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.pill_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgePill, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgePill)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.pill_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('PillBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsPill, { id: "PillBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Pill Badge --><!-- PillOutline Badge --><section id="pillBadgeOutline" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`PillOutline `)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("PillOutline ")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.pilloutline_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.pilloutline_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.pilloutline_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.pilloutline_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.pilloutline_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.pilloutline_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgePillOutline, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgePillOutline)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.pilloutline_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('PillOutlineBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsPillOutline, { id: "PillOutlineBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End PillOutline Badge --><!-- Rectangle Badge --><section id="rectangleBadge" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Rectangle `)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("Rectangle ")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.rectangle_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.rectangle_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.rectangle_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.rectangle_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.rectangle_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.rectangle_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeRectangle, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgeRectangle)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.rectangle_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('RectangleBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsRectangle, { id: "RectangleBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Rectangle Badge --><!-- Cancel Badge --><section id="badgeWithCancelButton" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`With cancel button`)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("With cancel button")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.cancel_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.cancel_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.cancel_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.cancel_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.cancel_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.cancel_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeCancel, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgeCancel)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.cancel_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('CancelBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsCancel, { id: "CancelBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Cancel Badge --><!-- Link Badge --><section id="badgeAsLink" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Badges as link`)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("Badges as link")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.link_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.link_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.link_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.link_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.link_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.link_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeLink, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgeLink)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.link_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('LinkBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsLink, { id: "LinkBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Link Badge --><!-- Size Badge --><section id="BadgeAsSizes" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Size`)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("Size")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.size_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.size_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.size_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.size_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.size_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.size_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSize, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgeSize)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.size_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('SizeBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsSize, { id: "SizeBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Size Badge --><!-- Positioned Badge --><section id="positionedBadge" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Positioned`)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("Positioned")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.positioned_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.positioned_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.positioned_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.positioned_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.positioned_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.positioned_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgePositioned, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgePositioned)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.positioned_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('PositionedBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsPositioned, { id: "PositionedBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Positioned Badge --><!-- Text Badge --><section id="textBadge" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Text`)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("Text")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.text_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.text_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.text_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.text_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.text_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.text_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeText, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgeText)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.text_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('TextBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsText, { id: "TextBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Text Badge --><!-- Icon Badge --><section id="iconBadge" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Icon`)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("Icon")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.icon_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.icon_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.icon_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.icon_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.icon_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.icon_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeIcon, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgeIcon)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.icon_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('IconBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsIcon, { id: "IconBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Icon Badge --></div></div><!-- right sidebar --><div class="hidden lg:block"${
+          _scopeId
+        }><div class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2"${
+          _scopeId
+        }><div class="overflow-y-auto"${
+          _scopeId
+        }><!-- <AlertInfo /> --><div class="flex flex-col justify-start items-end space-y-2"${
+          _scopeId
+        }><p class="text-normal font-bold"${
+          _scopeId
+        }>On This Page</p><button${
+          _scopeId
+        }> Default Badge </button><button${
+          _scopeId
+        }> Large Badge </button><button${
+          _scopeId
+        }> Badge State Color </button><button${
+          _scopeId
+        }> Outline Badge </button><button${
+          _scopeId
+        }> Pill Badge </button><button${
+          _scopeId
+        }> Pill Outline Badge </button><button${
+          _scopeId
+        }> Rectangle Badge </button><button class="text-right"${
+          _scopeId
+        }> Cancel Button </button><button${
+          _scopeId
+        }> Badge As Link </button><button${
+          _scopeId
+        }> Badge As Sizes </button><button${
+          _scopeId
+        }> Positioned badge </button><button${
+          _scopeId
+        }> Text Badge </button><button${
+          _scopeId
+        }> Icon Badge </button></div></div></div></div></div>`)
+      } else {
+        return [
+          __vite_ssr_import_36__.createVNode("div", { class: "flex p-4" }, [
+            __vite_ssr_import_36__.createCommentVNode(" content "),
+            __vite_ssr_import_36__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
+              __vite_ssr_import_36__.createVNode("div", {
+                class: "overflow-y-auto w-full px-4 pb-20",
+                id: "alertContainer"
+              }, [
+                __vite_ssr_import_36__.createVNode(_component_HeadersHeading, null, {
+                  default: __vite_ssr_import_36__.withCtx(() => [
+                    __vite_ssr_import_36__.createTextVNode(" Badge ")
+                  ]),
+                  _: 1 /* STABLE */
+                }),
+                __vite_ssr_import_36__.createVNode("div", null, [
+                  __vite_ssr_import_36__.createVNode("p", { class: "text-base" }, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" Default Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "defaultBadge",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Default")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.default_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.default_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.default_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgeDefault)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('defaultBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsDefault, { id: "defaultBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.default_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End default Badge "),
+                __vite_ssr_import_36__.createCommentVNode(" Large Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "largeBadge",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Large")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.large_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.large_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.large_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgeLarge)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('LargeBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsLarge, { id: "LargeBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.large_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End Large Badge "),
+                __vite_ssr_import_36__.createCommentVNode(" State Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "StateColor",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("State color")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.state_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.state_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.state_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgeStateColor)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('StateBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsStateColor, { id: "StateBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.state_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End State Badge "),
+                __vite_ssr_import_36__.createCommentVNode(" Outline Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "outlineBadge",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Outline ")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.outline_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.outline_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.outline_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgeOutline)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('OutlineBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsOutline, { id: "OutlineBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.outline_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End Outline Badge "),
+                __vite_ssr_import_36__.createCommentVNode(" Pill Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "pillBadge",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Pill ")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.pill_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.pill_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.pill_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgePill)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('PillBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsPill, { id: "PillBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.pill_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End Pill Badge "),
+                __vite_ssr_import_36__.createCommentVNode(" PillOutline Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "pillBadgeOutline",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("PillOutline ")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.pilloutline_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.pilloutline_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.pilloutline_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgePillOutline)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('PillOutlineBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsPillOutline, { id: "PillOutlineBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.pilloutline_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End PillOutline Badge "),
+                __vite_ssr_import_36__.createCommentVNode(" Rectangle Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "rectangleBadge",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Rectangle ")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.rectangle_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.rectangle_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.rectangle_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgeRectangle)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('RectangleBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsRectangle, { id: "RectangleBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.rectangle_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End Rectangle Badge "),
+                __vite_ssr_import_36__.createCommentVNode(" Cancel Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "badgeWithCancelButton",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("With cancel button")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.cancel_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.cancel_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.cancel_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgeCancel)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('CancelBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsCancel, { id: "CancelBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.cancel_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End Cancel Badge "),
+                __vite_ssr_import_36__.createCommentVNode(" Link Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "badgeAsLink",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Badges as link")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.link_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.link_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.link_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgeLink)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('LinkBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsLink, { id: "LinkBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.link_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End Link Badge "),
+                __vite_ssr_import_36__.createCommentVNode(" Size Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "BadgeAsSizes",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Size")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.size_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.size_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.size_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgeSize)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('SizeBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsSize, { id: "SizeBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.size_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End Size Badge "),
+                __vite_ssr_import_36__.createCommentVNode(" Positioned Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "positionedBadge",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Positioned")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.positioned_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.positioned_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.positioned_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgePositioned)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('PositionedBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsPositioned, { id: "PositionedBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.positioned_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End Positioned Badge "),
+                __vite_ssr_import_36__.createCommentVNode(" Text Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "textBadge",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Text")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.text_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.text_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.text_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgeText)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('TextBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsText, { id: "TextBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.text_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End Text Badge "),
+                __vite_ssr_import_36__.createCommentVNode(" Icon Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "iconBadge",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Icon")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.icon_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.icon_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.icon_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgeIcon)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('IconBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsIcon, { id: "IconBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.icon_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End Icon Badge ")
+              ])
+            ]),
+            __vite_ssr_import_36__.createCommentVNode(" right sidebar "),
+            __vite_ssr_import_36__.createVNode("div", { class: "hidden lg:block" }, [
+              __vite_ssr_import_36__.createVNode("div", { class: "w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2" }, [
+                __vite_ssr_import_36__.createVNode("div", { class: "overflow-y-auto" }, [
+                  __vite_ssr_import_36__.createCommentVNode(" <AlertInfo /> "),
+                  __vite_ssr_import_36__.createVNode("div", { class: "flex flex-col justify-start items-end space-y-2" }, [
+                    __vite_ssr_import_36__.createVNode("p", { class: "text-normal font-bold" }, "On This Page"),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('defaultBadge'))
+                    }, " Default Badge ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('largeBadge'))
+                    }, " Large Badge ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('StateColor'))
+                    }, " Badge State Color ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('outlineBadge'))
+                    }, " Outline Badge ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('pillBadge'))
+                    }, " Pill Badge ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('pillBadgeOutline'))
+                    }, " Pill Outline Badge ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('rectangleBadge'))
+                    }, " Rectangle Badge ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('badgeWithCancelButton')),
+                      class: "text-right"
+                    }, " Cancel Button ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('badgeAsLink'))
+                    }, " Badge As Link ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('BadgeAsSizes'))
+                    }, " Badge As Sizes ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('positionedBadge'))
+                    }, " Positioned badge ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('textBadge'))
+                    }, " Text Badge ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('iconBadge'))
+                    }, " Icon Badge ", 8 /* PROPS */, ["onClick"])
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+}
+
+const __vite_ssr_import_38__ = await __vite_ssr_import__("/pages/badge.vue?vue&type=style&index=0&lang.css");
+
+
+const __vite_ssr_import_39__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_39__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/badge.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_40__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/badge.vue"]])
+const meta = undefined
+Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
+}
+
+
+// --------------------
+// Request: /components/Badge/Default.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_81f2d59e = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      itmes: [
+        {
+          id: 1,
+          title: "Badge",
+          textColor: "text-white",
+          bgColor: "bg-gray-700",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 2,
+          title: "Primary",
+          textColor: "text-white",
+          bgColor: "bg-cyan-500",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 3,
+          title: "Ghost",
+          textColor: "text-gray-500",
+          bgColor: "bg-zinc-100",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 4,
+          title: "Light",
+          textColor: "text-gray-400",
+          bgColor: "bg-gray-100",
+          hoverTextColor: "",
+          hoverBgColor: "",
+          hoverShadowColor: "shadow-gray-200",
+        },
+        {
+          id: 5,
+          title: "Dark",
+          textColor: "text-white",
+          bgColor: "bg-gray-900",
+          hoverTextColor: "",
+          hoverBgColor: "",
+          hoverShadowColor: "shadow-gray-200",
+        },
+        {
+          id: 6,
+          title: "Disabled",
+          textColor: "text-gray-300",
+          bgColor: "bg-gray-100",
+          hoverTextColor: "",
+          hoverBgColor: "",
+          hoverShadowColor: "shadow-gray-200",
+        },
+      ],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
+    _push(`<span><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(`py-0.5 px-2 text-xs rounded-md mr-4 font-normal ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor}  ${item.bgColor}`)
+    }">${
+      __vite_ssr_import_1__.ssrInterpolate(item.title)
+    }</div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/Default.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Default.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/Snippets/default.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_e2a82a42 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+      <span class="mr-4 rounded-md bg-gray-700 py-0.5 px-2 text-xs font-normal text-white"> Badge </span>
+        <span class="mr-4 rounded-md bg-cyan-500 py-0.5 px-2 text-xs font-normal text-white"> Primary </span>
+        <span class="mr-4 rounded-md bg-zinc-100 py-0.5 px-2 text-xs font-normal text-gray-500"> Ghost </span>
+        <span class="mr-4 rounded-md bg-gray-100 py-0.5 px-2 text-xs font-normal text-gray-400"> Light </span>
+        <span class="mr-4 rounded-md bg-gray-900 py-0.5 px-2 text-xs font-normal text-white"> Dark </span>
+        <span class="mr-4 rounded-md bg-gray-100 py-0.5 px-2 text-xs font-normal text-gray-300"> Disabled </span>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/Snippets/default.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/default.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/Large.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_324bb3fe = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      itmes: [
+        {
+          id: 1,
+          title: "Badge",
+          textColor: "text-white",
+          bgColor: "bg-gray-700",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 2,
+          title: "Primary",
+          textColor: "text-white",
+          bgColor: "bg-cyan-500",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 3,
+          title: "Ghost",
+          textColor: "text-gray-500",
+          bgColor: "bg-zinc-100",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 4,
+          title: "Light",
+          textColor: "text-gray-400",
+          bgColor: "bg-gray-100",
+          hoverTextColor: "",
+          hoverBgColor: "bg-gray-300",
+          hoverShadowColor: "shadow-gray-200",
+        },
+        {
+          id: 5,
+          title: "Dark",
+          textColor: "text-white",
+          bgColor: "bg-gray-900",
+          hoverTextColor: "",
+          hoverBgColor: "bg-gray-300",
+          hoverShadowColor: "shadow-gray-200",
+        },
+        {
+          id: 6,
+          title: "Disabled",
+          textColor: "text-gray-300",
+          bgColor: "",
+          hoverTextColor: "",
+          hoverBgColor: "bg-gray-100",
+          hoverShadowColor: "shadow-gray-200",
+        },
+      ],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
+    _push(`<span><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(`py-0.5 px-2 text-sm rounded-md mr-4 font-normal ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor}  ${item.bgColor}`)
+    }">${
+      __vite_ssr_import_1__.ssrInterpolate(item.title)
+    }</div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/Large.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Large.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/Snippets/Large.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_24bde5aa = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+        <span class="mr-4 rounded-md bg-gray-700 py-0.5 px-2 text-sm font-normal text-white"> Badge </span>
+        <span class="mr-4 rounded-md bg-cyan-500 py-0.5 px-2 text-sm font-normal text-white"> Primary </span>
+        <span class="mr-4 rounded-md bg-zinc-100 py-0.5 px-2 text-sm font-normal text-gray-500"> Ghost </span>
+        <span class="mr-4 rounded-md bg-gray-100 py-0.5 px-2 text-sm font-normal text-gray-400"> Light </span>
+        <span class="mr-4 rounded-md bg-gray-900 py-0.5 px-2 text-sm font-normal text-white"> Dark </span>
+        <span class="mr-4 rounded-md bg-gray-100 py-0.5 px-2 text-sm font-normal text-gray-300"> Disabled </span>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/Snippets/Large.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Large.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/StateColor.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_6575bf2f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      itmes: [
+        {
+          id: 1,
+          title: "Info",
+          textColor: "text-sky-700",
+          bgColor: "bg-sky-100",
+          hoverTextColor: "hover:text-sky-800",
+          hoverBgColor: "hover:bg-sky-200",
+          hoverShadowColor: "",
+          outlineColor: "",
+        },
+        {
+          id: 2,
+          title: "Success",
+          textColor: "text-emerald-700",
+          bgColor: "bg-emerald-100",
+          hoverTextColor: "hover:text-emerald-800",
+          hoverBgColor: "hover:bg-emerald-200",
+        },
+        {
+          id: 3,
+          title: "Warning",
+          textColor: "text-amber-700",
+          bgColor: "bg-yellow-100",
+          hoverTextColor: "hover:text-amber-800",
+          hoverBgColor: "hover:bg-yellow-200",
+
+        },
+        {
+          id: 4,
+          title: "Error",
+          textColor: "text-rose-700",
+          bgColor: "bg-red-100",
+          hoverTextColor: "hover:text-rose-800",
+          hoverBgColor: "hover:bg-red-200",
+        },
+      ],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
+    _push(`<span><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(
+          `py-0.5 px-2 text-xs rounded-md mr-4 font-medium  ${
+            item.textColor
+          } ${item.hoverTextColor} ${item.bgColor} ${item.hoverBgColor}`
+        )
+    }">${
+      __vite_ssr_import_1__.ssrInterpolate(item.title)
+    }</div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/StateColor.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/StateColor.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/Snippets/StateColor.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_91ccdfeb = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+        <span class="mr-4 rounded-md py-0.5 px-2 text-sm font-medium text-sky-700 hover:text-sky-800 bg-sky-100 hover:bg-sky-200"> Info </span>
+        <span class="mr-4 rounded-md py-0.5 px-2 text-sm font-medium text-emerald-700 hover:text-emerald-800 bg-emerald-100 hover:bg-emerald-200"> Success </span>
+        <span class="mr-4 rounded-md py-0.5 px-2 text-sm font-medium text-amber-700 hover:text-amber-800 bg-amber-100 hover:bg-yellow-200"> Warning </span>
+        <span class="mr-4 rounded-md py-0.5 px-2 text-sm font-medium text-rose-700 hover:text-rose-800 bg-rose-100 hover:bg-rose-200"> Error </span>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/Snippets/StateColor.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/StateColor.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/Outline.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_61b08d48 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      itmes: [
+        {
+          id: 1,
+          title: "Badge",
+          borderColor:"border border-gray-700",
+          textColor: "text-gray-700",
+          bgColor: "",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 2,
+          title: "Primary",
+          borderColor:"border border-cyan-500",
+          textColor: "text-cyan-500",
+          bgColor: "",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 3,
+          title: "Ghost",
+          borderColor:"border border-gray-200",
+          textColor: "text-gray-300",
+          bgColor: "",
+          hoverTextColor: "hover:text-gray-500",
+          hoverBgColor: "",
+        },
+        {
+          id: 4,
+          title: "Light",
+          borderColor:"border border-gray-400",
+          textColor: "text-gray-400",
+          bgColor: "",
+          hoverTextColor: "",
+          hoverBgColor: "",
+          hoverShadowColor: "",
+        },
+        {
+          id: 5,
+          title: "Dark",
+          borderColor:"border border-gray-700",
+          textColor: "text-gray-900 dark:text-gray-700",
+          bgColor: "",
+          hoverTextColor: "",
+          hoverBgColor: "",
+          hoverShadowColor: "",
+        },
+        {
+          id: 6,
+          title: "Disabled",
+          borderColor:"border border-gray-300",
+          textColor: "text-gray-300",
+          bgColor: "",
+          hoverTextColor: "",
+          hoverBgColor: "",
+          hoverShadowColor: "shadow-gray-200",
+        },
+        {
+          id: 7,
+          title: "Info",
+          borderColor:"border border-sky-600",
+          textColor: "text-sky-600",
+          bgColor: "",
+          hoverTextColor: "",
+          hoverBgColor: "",
+          hoverShadowColor: "",
+          outlineColor: "",
+        },
+        {
+          id: 8,
+          title: "Success",
+          borderColor:"border border-emerald-600",
+          textColor: "text-emerald-600",
+          bgColor: "",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 9,
+          title: "Warning",
+          borderColor:"border border-amber-600",
+          textColor: "text-amber-600",
+          bgColor: "",
+          hoverTextColor: "",
+          hoverBgColor: "",
+
+        },
+        {
+          id: 10,
+          title: "Error",
+          borderColor:"border border-rose-600",
+          textColor: "text-rose-600",
+          bgColor: "",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+      ],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
+    _push(`<span><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(`py-0.5 px-2.5 text-xs rounded-md mr-4 font-medium ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor} ${item.borderColor} ${item.bgColor}`)
+    }">${
+      __vite_ssr_import_1__.ssrInterpolate(item.title)
+    }</div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/Outline.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Outline.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/Snippets/Outline.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_0de52721 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+       <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-gray-700 border border-gray-700"> Badge </span>
+        <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-cyan-500 border border-cyan-500"> Primary </span>
+        <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-gray-300 hover:text-gray-500 border border-gray-200"> Ghost </span>
+        <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-rose-700 border border-gray-400"> Light </span>
+        <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-gray-900 border border-gray-900"> Dark </span>
+        <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-gray-300 border border-gray-300"> Disabled </span>
+        <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-sky-600 border border-sky-600"> Info </span>
+        <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-emerald-600 border border-emerald-600"> Success </span>
+        <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-amber-600 border border-amber-600"> Warning </span>
+        <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-rose-600 border border-rose-600"> Error </span>        
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/Snippets/Outline.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Outline.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/Pill.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_905286d2 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      itmes: [
+        {
+          id: 1,
+          title: "Badge",
+          textColor: "text-white",
+          bgColor: "bg-gray-700",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 2,
+          title: "Primary",
+          textColor: "text-white",
+          bgColor: "bg-cyan-500",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 3,
+          title: "Ghost",
+          textColor: "text-gray-400",
+          bgColor: "bg-zinc-100",
+          hoverTextColor: "hover:text-gray-500",
+          hoverBgColor: "hover:bg-zinc-200",
+        },
+        {
+          id: 4,
+          title: "Light",
+          textColor: "text-gray-400",
+          bgColor: "bg-gray-100",
+          hoverTextColor: "",
+          hoverBgColor: "",
+          hoverShadowColor: "shadow-gray-200",
+        },
+        {
+          id: 5,
+          title: "Dark",
+          textColor: "text-white",
+          bgColor: "bg-gray-900",
+          hoverTextColor: "",
+          hoverBgColor: "hover:bg-gray-900",
+          hoverShadowColor: "shadow-gray-200",
+        },
+        {
+          id: 6,
+          title: "Disabled",
+          textColor: "text-gray-300",
+          bgColor: "",
+          hoverTextColor: "",
+          hoverBgColor: "bg-gray-100",
+          hoverShadowColor: "shadow-gray-200",
+        },
+        {
+          id: 7,
+          title: "Info",
+          textColor: "text-sky-700",
+          bgColor: "bg-sky-100",
+          hoverTextColor: "hover:text-sky-800",
+          hoverBgColor: "hover:bg-sky-200",
+          hoverShadowColor: "",
+          outlineColor: "",
+        },
+        {
+          id: 8,
+          title: "Success",
+          textColor: "text-emerald-700",
+          bgColor: "bg-emerald-100",
+          hoverTextColor: "hover:text-emerald-800",
+          hoverBgColor: "hover:bg-emerald-200",
+        },
+        {
+          id: 9,
+          title: "Warning",
+          textColor: "text-amber-700",
+          bgColor: "bg-yellow-100",
+          hoverTextColor: "hover:text-amber-800",
+          hoverBgColor: "hover:bg-yellow-200",
+
+        },
+        {
+          id: 10,
+          title: "Error",
+          textColor: "text-rose-700",
+          bgColor: "bg-red-100",
+          hoverTextColor: "hover:text-rose-800",
+          hoverBgColor: "hover:bg-red-200",
+        },
+      ],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
+    _push(`<span><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(`py-0.5 px-2.5 text-xs rounded-full mr-4 font-normal ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor} ${item.bgColor}`)
+    }">${
+      __vite_ssr_import_1__.ssrInterpolate(item.title)
+    }</div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/Pill.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Pill.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/Snippets/Pill.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_6efedfa6 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+        <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-white bg-gray-600"> Badge </span>
+        <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-white bg-cyan-500"> Primary </span>
+        <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-gray-400 bg-zinc-100 hover:text-gray-500 hover:bg-zinc-200"> Ghost </span>
+        <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-gray-400 bg-gray-100"> Light </span>
+        <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-white bg-gray-900"> Dark </span>
+        <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-gray-300 bg-gray-100"> Disabled </span>
+        <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-sky-700 bg-sky-100 hover:text-sky-800 hover:bg-sky-200"> Info </span>
+        <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-emerald-700 bg-emerald-100 hover:text-emerald-800 hover:bg-emerald-200"> Success </span>
+        <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-amber-700 bg-yellow-100 hover:text-amber-800 hover:bg-yellow-200"> Warning </span>
+        <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-rose-700 hover:text-rose-800 bg-red-100 hover:bg-red-200"> Error </span>    
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/Snippets/Pill.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Pill.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/PillOutline.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_d9d656b5 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      itmes: [
+        {
+          id: 1,
+          title: "Badge",
+          borderColor:"border border-gray-700",
+          textColor: "text-gray-700",
+          bgColor: "",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 2,
+          title: "Primary",
+          borderColor:"border border-cyan-500",
+          textColor: "text-cyan-500",
+          bgColor: "",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 3,
+          title: "Ghost",
+          borderColor:"border border-gray-200",
+          textColor: "text-gray-300",
+          bgColor: "",
+          hoverTextColor: "hover:text-gray-500",
+          hoverBgColor: "",
+        },
+        {
+          id: 4,
+          title: "Light",
+          borderColor:"border border-gray-400",
+          textColor: "text-gray-400",
+          bgColor: "",
+          hoverTextColor: "",
+          hoverBgColor: "",
+          hoverShadowColor: "",
+        },
+        {
+          id: 5,
+          title: "Dark",
+          borderColor:"border border-gray-900",
+          textColor: "text-gray-900",
+          bgColor: "",
+          hoverTextColor: "",
+          hoverBgColor: "",
+          hoverShadowColor: "",
+        },
+        {
+          id: 6,
+          title: "Disabled",
+          borderColor:"border border-gray-300",
+          textColor: "text-gray-300",
+          bgColor: "",
+          hoverTextColor: "",
+          hoverBgColor: "",
+          hoverShadowColor: "shadow-gray-200",
+        },
+        {
+          id: 7,
+          title: "Info",
+          borderColor:"border border-sky-600",
+          textColor: "text-sky-600",
+          bgColor: "",
+          hoverTextColor: "",
+          hoverBgColor: "",
+          hoverShadowColor: "",
+          outlineColor: "",
+        },
+        {
+          id: 8,
+          title: "Success",
+          borderColor:"border border-emerald-600",
+          textColor: "text-emerald-600",
+          bgColor: "",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 9,
+          title: "Warning",
+          borderColor:"border border-amber-600",
+          textColor: "text-amber-600",
+          bgColor: "",
+          hoverTextColor: "",
+          hoverBgColor: "",
+
+        },
+        {
+          id: 10,
+          title: "Error",
+          borderColor:"border border-amber-600",
+          textColor: "text-rose-600",
+          bgColor: "",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+      ],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
+    _push(`<span><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(`py-0.5 px-2.5 text-xs rounded-full mr-4 font-medium ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor} ${item.borderColor} ${item.bgColor}`)
+    }">${
+      __vite_ssr_import_1__.ssrInterpolate(item.title)
+    }</div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/PillOutline.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/PillOutline.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/Snippets/PillOutline.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_232186e7 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+    <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-gray-700 border border-gray-700"> Badge </span>
+    <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-cyan-500 border border-cyan-500"> Primary </span>
+    <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-gray-300 hover:text-gray-500 border border-gray-200"> Ghost </span>
+    <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-gray-400 border border-gray-400"> Light </span>
+    <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-gray-900 border border-gray-900"> Dark </span>
+    <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-gray-300 border border-gray-300"> Disabled </span>
+    <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-sky-600  border border-sky-600"> Info </span>
+    <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-emerald-600 border border-emerald-600"> Success </span>
+    <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-amber-600 border border-amber-600"> Warning </span>
+    <span class="mr-4 rounded-md py-0.5 px-2 text-xs font-medium text-rose-600 border border-amber-600"> Error </span>     
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/Snippets/PillOutline.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/PillOutline.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/Rectangle.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_edfb2f3d = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      itmes: [
+        {
+          id: 1,
+          title: "Badge",
+          textColor: "text-white",
+          bgColor: "bg-gray-700",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 2,
+          title: "Primary",
+          textColor: "text-white",
+          bgColor: "bg-cyan-500",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 3,
+          title: "Ghost",
+          textColor: "text-gray-500",
+          bgColor: "bg-zinc-100",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 4,
+          title: "Light",
+          textColor: "text-gray-400",
+          bgColor: "bg-gray-100",
+          hoverTextColor: "",
+          hoverBgColor: "bg-gray-300",
+          hoverShadowColor: "shadow-gray-200",
+        },
+        {
+          id: 5,
+          title: "Dark",
+          textColor: "text-white",
+          bgColor: "bg-gray-900",
+          hoverTextColor: "",
+          hoverBgColor: "",
+          hoverShadowColor: "shadow-gray-200",
+        },
+        {
+          id: 6,
+          title: "Disabled",
+          textColor: "text-gray-300",
+          bgColor: "",
+          hoverTextColor: "",
+          hoverBgColor: "bg-gray-100",
+          hoverShadowColor: "shadow-gray-200",
+        },
+        {
+          id: 7,
+          title: "Info",
+          textColor: "text-sky-700",
+          bgColor: "bg-sky-100",
+          hoverTextColor: "hover:text-sky-800",
+          hoverBgColor: "hover:bg-sky-200",
+          hoverShadowColor: "",
+          outlineColor: "",
+        },
+        {
+          id: 8,
+          title: "Success",
+          textColor: "text-emerald-700",
+          bgColor: "bg-emerald-100",
+          hoverTextColor: "hover:text-emerald-800",
+          hoverBgColor: "hover:bg-emerald-200",
+        },
+        {
+          id: 9,
+          title: "Warning",
+          textColor: "text-amber-700",
+          bgColor: "bg-yellow-100",
+          hoverTextColor: "hover:text-amber-800",
+          hoverBgColor: "hover:bg-yellow-200",
+
+        },
+        {
+          id: 10,
+          title: "Error",
+          textColor: "text-rose-700",
+          bgColor: "bg-red-100",
+          hoverTextColor: "hover:text-rose-800",
+          hoverBgColor: "hover:bg-red-200",
+        },
+      ],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap gap-2" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
+    _push(`<span><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(`flex items-center gap-2 py-1 px-3 text-xs rounded-sm font-normal ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor}  ${item.bgColor}`)
+    }"><div><svg class="h-1.5 w-1.5" clip-rule="evenodd" fill="currentColor" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="11.998" cy="11.998" fill-rule="nonzero" r="9.998"></circle></svg></div><div>${
+      __vite_ssr_import_1__.ssrInterpolate(item.title)
+    }</div></div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/Rectangle.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Rectangle.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/Snippets/Rectangle.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_0a470201 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+    <div class="flex flex-wrap p-4 space-x-4">
+    <!-- Default badge -->
+    <div class="flex items-center gap-2 rounded-sm py-1 px-3 text-xs font-normal text-white bg-gray-700">
+    <div><svg class="h-1.5 w-1.5" clip-rule="evenodd" fill="currentColor" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="11.998" cy="11.998" fill-rule="nonzero" r="9.998" /></svg></div>
+    <div>Badge</div>
+    </div>
+    <!-- Primary badge -->
+    <div class="flex items-center gap-2 rounded-sm py-1 px-3 text-xs font-normal text-white bg-cyan-500">
+    <div><svg class="h-1.5 w-1.5" clip-rule="evenodd" fill="currentColor" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="11.998" cy="11.998" fill-rule="nonzero" r="9.998" /></svg></div>
+    <div>Primary</div>
+    </div>
+    <!-- Ghost badge -->
+    <div class="flex items-center gap-2 rounded-sm py-1 px-3 text-xs font-normal text-gray-500 bg-zinc-100">
+    <div><svg class="h-1.5 w-1.5" clip-rule="evenodd" fill="currentColor" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="11.998" cy="11.998" fill-rule="nonzero" r="9.998" /></svg></div>
+    <div>Ghost</div>
+    </div>
+    <!-- Light badge -->
+    <div class="flex items-center gap-2 rounded-sm py-1 px-3 text-xs font-normal text-gray-400 bg-gray-100">
+    <div><svg class="h-1.5 w-1.5" clip-rule="evenodd" fill="currentColor" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="11.998" cy="11.998" fill-rule="nonzero" r="9.998" /></svg></div>
+    <div>Light</div>
+    </div>
+    <!-- Dark badge -->
+    <div class="flex items-center gap-2 rounded-sm py-1 px-3 text-xs font-normal text-gray-100 bg-gray-900">
+    <div><svg class="h-1.5 w-1.5" clip-rule="evenodd" fill="currentColor" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="11.998" cy="11.998" fill-rule="nonzero" r="9.998" /></svg></div>
+    <div>Dark</div>
+    </div>
+    <!-- Disabled badge -->
+    <div class="flex items-center gap-2 rounded-sm py-1 px-3 text-xs font-normal text-gray-100 bg-gray-300">
+    <div><svg class="h-1.5 w-1.5" clip-rule="evenodd" fill="currentColor" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="11.998" cy="11.998" fill-rule="nonzero" r="9.998" /></svg></div>
+    <div>Disabled</div>
+    </div>
+    <!-- Info badge -->
+    <div class="flex items-center gap-2 rounded-sm py-1 px-3 text-xs font-normal text-sky-700 bg-sky-100 hover:text-sky-800 hover:bg-sky-200">
+    <div><svg class="h-1.5 w-1.5" clip-rule="evenodd" fill="currentColor" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="11.998" cy="11.998" fill-rule="nonzero" r="9.998" /></svg></div>
+    <div>Info</div>
+    </div>
+    <!-- Success badge -->
+    <div class="flex items-center gap-2 rounded-sm py-1 px-3 text-xs font-normal text-emerald-700 bg-emerald-100 hover:text-emerald-800 hover:bg-emerald-200">
+    <div><svg class="h-1.5 w-1.5" clip-rule="evenodd" fill="currentColor" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="11.998" cy="11.998" fill-rule="nonzero" r="9.998" /></svg></div>
+    <div>Success</div>
+    </div>
+    <!-- Warning badge -->
+    <div class="flex items-center gap-2 rounded-sm py-1 px-3 text-xs font-normal text-amber-700 bg-yellow-100 hover:text-amber-800 hover:bg-yellow-200">
+    <div><svg class="h-1.5 w-1.5" clip-rule="evenodd" fill="currentColor" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="11.998" cy="11.998" fill-rule="nonzero" r="9.998" /></svg></div>
+    <div>Warning</div>
+    </div>
+    <!-- Error badge -->
+    <div class="flex items-center gap-2 rounded-sm py-1 px-3 text-xs font-normal text-rose-700 hover:text-rose-800 bg-red-100 hover:bg-red-200">
+    <div><svg class="h-1.5 w-1.5" clip-rule="evenodd" fill="currentColor" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="11.998" cy="11.998" fill-rule="nonzero" r="9.998" /></svg></div>
+    <div>Error</div>
+    </div>
+    </div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/Snippets/Rectangle.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Rectangle.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/Cancel.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_abda55fa = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      itmes: [
+        {
+          id: 1,
+          title: "Badge",
+          textColor: "text-white",
+          bgColor: "bg-gray-700",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 2,
+          title: "Primary",
+          textColor: "text-white",
+          bgColor: "bg-cyan-500",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        // {
+        //   id: 3,
+        //   title: "Ghost",
+        //   textColor: "text-gray-500",
+        //   bgColor: "bg-zinc-100",
+        //   hoverTextColor: "",
+        //   hoverBgColor: "",
+        // },
+        {
+          id: 4,
+          title: "Light",
+          textColor: "text-gray-500",
+          bgColor: "bg-zinc-100",
+          hoverTextColor: "",
+          hoverBgColor: "",
+          hoverShadowColor: "shadow-gray-200",
+        },
+        {
+          id: 5,
+          title: "Dark",
+          textColor: "text-white",
+          bgColor: "bg-gray-900",
+          hoverTextColor: "",
+          hoverBgColor: "",
+          hoverShadowColor: "shadow-gray-200",
+        },
+        {
+          id: 6,
+          title: "Disabled",
+          textColor: "text-gray-300",
+          bgColor: "",
+          hoverTextColor: "",
+          hoverBgColor: "bg-gray-100",
+          hoverShadowColor: "shadow-gray-200",
+        },
+        {
+          id: 7,
+          title: "Info",
+          textColor: "text-sky-700",
+          bgColor: "bg-sky-100",
+          hoverTextColor: "hover:text-sky-800",
+          hoverBgColor: "hover:bg-sky-200",
+          hoverShadowColor: "",
+          outlineColor: "",
+        },
+        {
+          id: 8,
+          title: "Success",
+          textColor: "text-emerald-700",
+          bgColor: "bg-emerald-100",
+          hoverTextColor: "hover:text-emerald-800",
+          hoverBgColor: "hover:bg-emerald-200",
+        },
+        {
+          id: 9,
+          title: "Warning",
+          textColor: "text-amber-700",
+          bgColor: "bg-yellow-100",
+          hoverTextColor: "hover:text-amber-800",
+          hoverBgColor: "hover:bg-yellow-200",
+
+        },
+        {
+          id: 10,
+          title: "Error",
+          textColor: "text-rose-700",
+          bgColor: "bg-red-100",
+          hoverTextColor: "hover:text-rose-800",
+          hoverBgColor: "hover:bg-red-200",
+        },
+      ],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap gap-4" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
+    _push(`<span><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(`py-1 px-3 gap-1 flex items-center justify-between text-xs rounded-md font-normal ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor}  ${item.bgColor}`)
+    }"><div>${
+      __vite_ssr_import_1__.ssrInterpolate(item.title)
+    }</div><div class="" type="button"><svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></div></div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/Cancel.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Cancel.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/Snippets/Cancel.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_cd5366e1 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+       <div class="flex flex-wrap p-4 space-x-4">
+    <!-- Default badge -->
+    <div class="py-0.5 px-2 flex items-center justify-between text-sm rounded-md font-normal gap-2 text-white bg-gray-700">
+    <div>Badge</div>
+    <div type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+    </div>
+    </div>
+    <!-- Primary badge -->
+    <div class="flex items-center gap-2 rounded-md py-1 px-3 text-xs font-normal text-white bg-cyan-500">
+    <div>Primary</div>
+    <div type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+    </div>
+    </div>
+    <!-- Light badge -->
+    <div class="flex items-center gap-2 rounded-md py-1 px-3 text-xs font-normal text-gray-400 bg-gray-100">
+    <div>Light</div>
+    <div type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+    </div>
+    </div>
+    <!-- Dark badge -->
+    <div class="flex items-center gap-2 rounded-md py-1 px-3 text-xs font-normal text-gray-100 bg-gray-900">
+    <div>Dark</div>
+    <div class="pl-1" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+        </svg>
+    </div>
+    </div>
+    <!-- Disabled badge -->
+    <div class="flex items-center gap-2 rounded-md py-1 px-3 text-xs font-normal text-gray-100 bg-gray-300">
+    <div>Disabled</div>
+    <div type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+    </div>
+    </div>
+    <!-- Info badge -->
+    <div class="flex items-center gap-2 rounded-md py-1 px-3 text-xs font-normal text-sky-700 bg-sky-100 hover:text-sky-800 hover:bg-sky-200">
+    <div>Info</div>
+    <div type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+    </div>
+    </div>
+    <!-- Success badge -->
+    <div class="flex items-center gap-2 rounded-md py-1 px-3 text-xs font-normal text-emerald-700 bg-emerald-100 hover:text-emerald-800 hover:bg-emerald-200">
+    <div>Success</div>
+    <div type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+    </div>
+    </div>
+    <!-- Warning badge -->
+    <div class="flex items-center gap-2 rounded-md py-1 px-3 text-xs font-normal text-amber-700 bg-yellow-100 hover:text-amber-800 hover:bg-yellow-200">
+    <div>Warning</div>
+    <div type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+    </div>
+    </div>
+    <!-- Error badge -->
+    <div class="flex items-center gap-2 rounded-md py-1 px-3 text-xs font-normal text-rose-700 hover:text-rose-800 bg-red-100 hover:bg-red-200">
+    <div>Error</div>
+    <div type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+    </div>
+    </div>
+    </div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/Snippets/Cancel.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Cancel.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/Link.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_d7b0cb41 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      itmes: [
+        {
+          id: 1,
+          title: "Badge",
+          textColor: "text-white",
+          bgColor: "bg-gray-700",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 2,
+          title: "Primary",
+          textColor: "text-white",
+          bgColor: "bg-cyan-500",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 3,
+          title: "Ghost",
+          textColor: "text-gray-500",
+          bgColor: "bg-zinc-100",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 4,
+          title: "Light",
+          textColor: "text-gray-400",
+          bgColor: "bg-gray-100",
+          hoverTextColor: "",
+          hoverBgColor: "bg-gray-300",
+          hoverShadowColor: "shadow-gray-200",
+        },
+        {
+          id: 5,
+          title: "Dark",
+          textColor: "text-white",
+          bgColor: "bg-gray-900",
+          hoverTextColor: "",
+          hoverBgColor: "bg-gray-300",
+          hoverShadowColor: "shadow-gray-200",
+        },
+        {
+          id: 6,
+          title: "Disabled",
+          textColor: "text-gray-300",
+          bgColor: "",
+          hoverTextColor: "",
+          hoverBgColor: "bg-gray-100",
+          hoverShadowColor: "shadow-gray-200",
+        },
+        {
+          id: 7,
+          title: "Info",
+          textColor: "text-sky-700",
+          bgColor: "bg-sky-100",
+          hoverTextColor: "",
+          hoverBgColor: "",
+          hoverShadowColor: "",
+          outlineColor: "",
+          icon:`<svg width="18" height="18" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 11.5V16.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 7.51L12.01 7.49889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+`
+},
+        {
+          id: 8,
+          title: "Success",
+          textColor: "text-emerald-700",
+          bgColor: "bg-emerald-100",
+          hoverTextColor: "",
+          hoverBgColor: "",
+          icon:`<svg width="18" height="18" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5 13L9 17L19 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+`,
+        },
+        {
+          id: 9,
+          title: "Warning",
+          textColor: "text-amber-700",
+          bgColor: "bg-yellow-100",
+          hoverTextColor: "",
+          hoverBgColor: "",
+          icon: `<svg width="16" height="16" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20.0429 21H3.95705C2.41902 21 1.45658 19.3364 2.22324 18.0031L10.2662 4.01533C11.0352 2.67792 12.9648 2.67791 13.7338 4.01532L21.7768 18.0031C22.5434 19.3364 21.581 21 20.0429 21Z" stroke="currentColor" stroke-linecap="round"/>
+<path d="M12 9V13" stroke="currentColor" stroke-linecap="round"/>
+<path d="M12 17.01L12.01 16.9989" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+`
+
+        },
+        {
+          id: 10,
+          title: "Error",
+          textColor: "text-rose-700",
+          bgColor: "bg-red-100",
+          hoverTextColor: "",
+          hoverBgColor: "",
+          icon: `<svg width="18" height="18" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.75827 17.2426L12.0009 12M17.2435 6.75736L12.0009 12M12.0009 12L6.75827 6.75736M12.0009 12L17.2435 17.2426" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+`
+        },
+      ],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap gap-4" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
+    _push(`<span><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(`py-0.5 px-2.5 flex items-center justify-between text-xs rounded-md font-normal hover:cursor-pointer ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor}  ${item.bgColor}`)
+    }"><a href="#">${
+      __vite_ssr_import_1__.ssrInterpolate(item.title)
+    }</a><div class="pl-1" type="button"><!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
+  <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+</svg> --><span>${
+      item.icon
+    }</span></div></div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/Link.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Link.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/Snippets/Link.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_fb2cca49 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+    <div class="flex flex-wrap p-4 space-x-4">
+    <!-- Default badge -->
+    <div class="flex items-center gap-2 rounded-md py-0.5 px-2.5 text-xs font-normal text-white bg-gray-700">
+    <a href="#">Badge</a>
+    </div>
+    <!-- Primary badge -->
+    <div class="flex items-center gap-2 rounded-md py-1 px-2.5 text-xs font-normal text-white bg-cyan-500">
+    <a href="#">Primary</a>
+    </div>
+    <!-- Ghost badge -->
+    <div class="flex items-center gap-2 rounded-md py-1 px-2.5 text-xs font-normal text-gray-500 bg-zinc-100">
+    <a href="#">Ghost</a>
+    </div>
+    <!-- Light badge -->
+    <div class="flex items-center gap-2 rounded-md py-1 px-2.5 text-xs font-normal text-gray-400 bg-gray-100">
+    <a href="#">Light</a>
+    </div>
+    <!-- Dark badge -->
+    <div class="flex items-center gap-2 rounded-md py-1 px-2.5 text-xs font-normal text-gray-100 bg-gray-900">
+    <a href="#">Dark</a>
+    <div class="pl-1" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+    </div>
+    </div>
+    <!-- Disabled badge -->
+    <div class="flex items-center gap-2 rounded-md py-1 px-2.5 text-xs font-normal text-gray-100 bg-gray-300">
+    <a href="#">Disabled</a>
+    </div>
+    <!-- Info badge -->
+    <div class="flex items-center gap-2 rounded-md py-1 px-2.5 text-xs font-normal text-sky-700 bg-sky-100">
+    <a href="#">Info</a>
+    <div type="button">
+        <svg width="18" height="18" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 11.5V16.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 7.51L12.01 7.49889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg>  
+    </div>
+    </div>
+    <!-- Success badge -->
+    <div class="flex items-center gap-2 rounded-md py-1 px-2.5 text-xs font-normal text-emerald-700 bg-emerald-100">
+    <a href="#">Success</a>
+    <div type="button">
+        <svg width="18" height="18" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 13L9 17L19 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg>    
+    </div>
+    </div>
+    <!-- Warning badge -->
+    <div class="flex items-center gap-2 rounded-md py-1 px-2.5 text-xs font-normal text-amber-700 bg-yellow-100">
+    <a href="#">Warning</a>
+    <div type="button">
+        <svg width="16" height="16" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20.0429 21H3.95705C2.41902 21 1.45658 19.3364 2.22324 18.0031L10.2662 4.01533C11.0352 2.67792 12.9648 2.67791 13.7338 4.01532L21.7768 18.0031C22.5434 19.3364 21.581 21 20.0429 21Z" stroke="currentColor" stroke-linecap="round"/><path d="M12 9V13" stroke="currentColor" stroke-linecap="round"/><path d="M12 17.01L12.01 16.9989" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    </div>
+    <!-- Error badge -->
+    <div class="flex items-center gap-2 rounded-md py-1 px-2.5 text-xs font-normal text-rose-700 bg-red-100">
+    <a href="#">Error</a>
+    <div type="button">
+        <svg width="18" height="18" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.75827 17.2426L12.0009 12M17.2435 6.75736L12.0009 12M12.0009 12L6.75827 6.75736M12.0009 12L17.2435 17.2426" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    </div>
+    </div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/Snippets/Link.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Link.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/Size.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_bdac4bd2 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      itmes: [
+        {
+          id: 1,
+          title: "Badge",
+          textColor: "text-white",
+          pad:"py-0.5 px-2",
+          textSize:"text-xxs",
+          bgColor: "bg-gray-700",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 2,
+          title: "Badge",
+          textColor: "text-white",
+          pad:"py-1 px-3",
+          textSize:"text-sm",
+          bgColor: "bg-gray-700",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 3,
+          title: "Badge",
+          textColor: "text-white",
+          pad:"py-1 px-4",
+          textSize:"text-base",
+          bgColor: "bg-gray-700",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 4,
+          title: "Badge",
+          textColor: "text-white",
+          pad:"py-1 px-4",
+          textSize:"text-xl",
+          bgColor: "bg-gray-700",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 5,
+          title: "Badge",
+          textColor: "text-white",
+          pad:"py-1 px-4",
+          textSize:"text-2xl",
+          bgColor: "bg-gray-700",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        
+      ],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap items-center" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
+    _push(`<span><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(`${item.pad} ${item.textSize} rounded-md mr-4 font-normal ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor}  ${item.bgColor}`)
+    }">${
+      __vite_ssr_import_1__.ssrInterpolate(item.title)
+    }</div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/Size.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Size.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/Snippets/Size.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_475d1751 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+    <div class="flex p-4">
+    <!-- xxs -->
+    <div class="flex flex-wrap items-center">
+    <span class="text-xxs mr-4 rounded-md bg-gray-700 py-0.5 px-2 font-normal text-white">Badge</span>
+    </div>
+    <!-- sm -->
+    <div class="flex flex-wrap items-center">
+    <span class="mr-4 rounded-md bg-gray-700 py-1 px-3 text-sm font-normal text-white">Badge</span>
+    </div>
+    <!-- base -->
+    <div class="flex flex-wrap items-center">
+    <span class="mr-4 rounded-md bg-gray-700 py-1 px-4 text-base font-normal text-white">Badge</span>
+    </div>
+    <!-- xl -->
+    <div class="flex flex-wrap items-center">
+    <span class="mr-4 rounded-md bg-gray-700 py-1 px-4 text-xl font-normal text-white">Badge</span>
+    </div>
+    <!-- 2xl -->
+    <div class="flex flex-wrap items-center">
+    <span class="mr-4 rounded-md bg-gray-700 py-1 px-4 text-2xl font-normal text-white">Badge</span>
+    </div>
+    </div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/Snippets/Size.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Size.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/Positioned.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_988a469a = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      itmes: [
+        {
+          id: 1,
+          title: "Inbox",
+          positionText: "",
+          textColor: "text-white",
+          bgColor: "bg-gray-700",
+          css: "py-0.5 px-1.5 -top-3 -right-2",
+          pad: "py-2 px-4",
+          PositionedStat: "99+",
+          textSize: "text-xs",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 2,
+          title: "Inbox",
+          positionText: "",
+          textColor: "text-white",
+          bgColor: "bg-gray-700",
+          pad: "py-2 px-3",
+          normalStat: "99+",
+          normalCss: "py-0.5 px-1.5",
+          textSize: "text-xs",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 3,
+          title: "Inbox",
+          textColor: "text-white",
+          bgColor: "bg-gray-700",
+          pad: "py-3 px-5",
+          css: "py-0.5 px-1.5 -top-3 -right-2",
+          PositionedStat: "99+",
+          textSize: "text-base",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 4,
+          title: "Inbox",
+          textColor: "text-white",
+          bgColor: "bg-gray-700",
+          pad: "py-3 px-4",
+          normalStat: "99+",
+          normalCss: "py-0.5 px-1.5",
+          textSize: "text-base",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+      ],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap items-center gap-4" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
+    _push(`<span><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(`relative ${item.pad} ${item.textSize} rounded-md font-semibold ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor}  ${item.bgColor}`)
+    }">${
+      __vite_ssr_import_1__.ssrInterpolate(item.title)
+    } <span class="${
+      __vite_ssr_import_1__.ssrRenderClass(`text-xxs bg-red-500 rounded-full ml-1 ${item.normalCss}`)
+    }">${
+      __vite_ssr_import_1__.ssrInterpolate(item.normalStat)
+    }</span><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(`absolute flex items-center text-xxs bg-red-500 rounded-full ${item.css}`)
+    }">${
+      __vite_ssr_import_1__.ssrInterpolate(item.PositionedStat)
+    }</div></div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/Positioned.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Positioned.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/Snippets/Positioned.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_6186acd3 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+        <div class="flex gap-4 p-4">
+        <!-- 1st -->
+        <div class="flex flex-wrap items-center gap-4">
+            <div class="relative rounded-md bg-gray-700 py-2 px-4 text-xs font-semibold text-white">
+            Inbox
+            <div class="text-xxs  absolute -top-3 -right-2 flex items-center rounded-full bg-red-500 py-0.5 px-1.5">99+</div>
+            </div>
+        </div>
+        <!-- 2nd -->
+        <div class="flex flex-wrap items-center gap-4">
+            <div class="relative rounded-md bg-gray-700 py-2 px-3 text-xs font-semibold text-white">
+            Inbox
+            <span class="text-xxs ml-1 rounded-full bg-red-500 py-0.5 px-1.5">99+</span>
+            </div>
+        </div>
+        <!-- 3rd -->
+        <div class="flex flex-wrap items-center gap-4">
+            <div class="relative rounded-md bg-gray-700 py-2 px-4 text-base font-semibold text-white">
+            Inbox
+            <div class="absolute -top-3 -right-2 flex items-center rounded-full bg-red-500 py-0.5 px-1.5 text-xxs">99+</div>
+            </div>
+        </div>
+        <!-- 4th -->
+        <div class="flex flex-wrap items-center gap-4">
+            <div class="relative rounded-md bg-gray-700 py-2 px-3 text-base font-semibold text-white">
+            Inbox
+            <span class="ml-1 rounded-full bg-red-500 py-0.5 px-1.5 text-xxs">99+</span>
+            </div>
+        </div>
+        </div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/Snippets/Positioned.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Positioned.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/Text.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_f118c71a = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      itmes: [
+        {
+          id: 1,
+          title: "New",
+          headingSize:"text-xs",
+          textColor: "text-white",
+          pad:"py-0.5 px-1.5",
+          textSize:"text-xxs",
+          bgColor: "bg-gray-700",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 2,
+          title: "New",
+          headingSize:"text-base",
+          textColor: "text-white",
+          pad:"py-0.5 px-2",
+          textSize:"text-xs",
+          bgColor: "bg-gray-700",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 3,
+          title: "New",
+          headingSize:"text-lg",
+          textColor: "text-white",
+          pad:"py-0.5 px-1.5",
+          textSize:"text-sm",
+          bgColor: "bg-gray-700",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 4,
+          title: "New",
+          headingSize:"text-2xl",
+          textColor: "text-white",
+          pad:"py-0.5 px-2",
+          textSize:"text-base",
+          bgColor: "bg-gray-700",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+        {
+          id: 5,
+          title: "New",
+          headingSize:"text-3xl",
+          textColor: "text-white",
+          pad:"py-0.5 px-3",
+          textSize:"text-base",
+          bgColor: "bg-gray-700",
+          hoverTextColor: "",
+          hoverBgColor: "",
+        },
+
+      ],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-col space-y-1 items-center justify-end" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
+    _push(`<span><div class="flex space-x-2 items-center justify-between"><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(`${item.headingSize} text-gray-700 font-medium`)
+    }">Heading</div><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(`${item.pad} ${item.textSize}  rounded-md mr-4 font-normal ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor}  ${item.bgColor}`)
+    }">${
+      __vite_ssr_import_1__.ssrInterpolate(item.title)
+    }</div></div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/Text.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Text.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/Snippets/Text.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_5ef597c3 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+    <div class="flex flex-col gap-3">
+    <!-- badge xxs -->
+    <div class="flex space-x-2 items-center">
+    <div class="text-xs font-medium text-gray-700">Heading</div>
+    <div class="text-xs py-0.5 px-1.5 bg-gray-700 text-white rounded-md font-normal">New</div>
+    </div>
+    <!-- badge xs -->
+    <div class="flex space-x-2 items-center">
+    <div class="text-base font-medium text-gray-700">Heading</div>
+    <div class="text-xs py-0.5 px-1.5 bg-gray-700 text-white rounded-md font-normal">New</div>
+    </div>
+    <!-- badge sm -->
+    <div class="flex space-x-2 items-center">
+    <div class="text-lg font-medium text-gray-700">Heading</div>
+    <div class="text-sm py-0.5 px-1.5 bg-gray-700 text-white rounded-md font-normal">New</div>
+    </div>
+    <!-- badge base -->
+    <div class="flex space-x-2 items-center">
+    <div class="text-2xl font-medium text-gray-700">Heading</div>
+    <div class="text-base py-0.5 px-1.5 bg-gray-700 text-white rounded-md font-normal">New</div>
+    </div>
+    <!-- badge base -->
+    <div class="flex space-x-2 items-center">
+    <div class="text-3xl font-medium text-gray-700">Heading</div>
+    <div class="text-base py-0.5 px-1.5 bg-gray-700 text-white rounded-md font-normal">New</div>
+    </div>
+    </div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/Snippets/Text.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Text.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/Icon.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_b55890d3 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      itmes: [
+        {
+          id: 1,
+          title: "24 hours ago",
+          textColor: "text-sky-700",
+          bgColor: "bg-sky-100",
+          hoverTextColor: "",
+          hoverBgColor: "",
+          hoverShadowColor: "",
+          outlineColor: "",
+          icon: `<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+</svg>
+`,
+        },
+        {
+          id: 2,
+          title: "Fork",
+          textColor: "text-gray-100",
+          bgColor: "bg-gray-700",
+          hoverTextColor: "",
+          hoverBgColor: "",
+          icon: `<svg width="14" height="14" stroke-width="2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+`,
+        },
+        {
+          id: 3,
+          title: "Follow",
+          textColor: "text-white",
+          bgColor: "bg-blue-400",
+          hoverTextColor: "",
+          hoverBgColor: "",
+          icon: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="14" height="14"><path fill="none" d="M0 0h24v24H0z"/><path d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z"/></svg>
+`,
+        },
+        {
+          id: 4,
+          title: "Working from home",
+          textColor: "text-white",
+          bgColor: "bg-black",
+          hoverTextColor: "",
+          hoverBgColor: "",
+          icon: `<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+  <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+</svg>
+`,
+        },
+      ],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap gap-4" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
+    _push(`<span><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(
+          `py-0.5 px-2 flex items-center space-x-1 justify-between text-xxs rounded-md font-normal hover:cursor-pointer ${
+            item.textColor
+          } ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${
+            item.hoverBgColor
+          }  ${item.bgColor}`
+        )
+    }"><div type="button"><span>${
+      item.icon
+    }</span></div><div class="font-medium">${
+      __vite_ssr_import_1__.ssrInterpolate(item.title)
+    }</div></div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/Icon.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Icon.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Badge/Snippets/Icon.vue
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_043e9904 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+    <div class="flex gap-3 p-4">
+    <div class="flex items-center space-x-1 rounded-md bg-sky-100 py-0.5 px-2 text-xs font-normal text-sky-700">
+    <div type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+        </svg>
+    </div>
+    <div class="font-medium">24 hours ago</div>
+    </div>
+    <!--  -->
+    <div class="flex items-center space-x-1 rounded-md bg-gray-700 py-0.5 px-2 text-xs font-normal text-gray-100">
+    <div type="button">
+        <svg width="14" height="14" stroke-width="2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+    </div>
+    <div class="font-medium">Fork</div>
+    </div>
+    <!--  -->
+    <div class="flex items-center space-x-1 rounded-md bg-blue-400 py-0.5 px-2 text-xs font-normal text-white">
+    <div type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="14" height="14"><path fill="none" d="M0 0h24v24H0z" /><path d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z" /></svg>
+    </div>
+    <div class="font-medium">Follow</div>
+    </div>
+    <!--  -->
+    <div class="flex items-center space-x-1 rounded-md y-0.5 px-2 text-xs font-normal text-white bg-black">
+    <div type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" /></svg>
+    </div>
+    <div class="font-medium">Working from home</div>
+    </div>
+    </div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Badge/Snippets/Icon.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Icon.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/badge.vue?vue&type=style&index=0&lang.css
+// Parents: 
+// - /pages/badge.vue?macro=true ($id_8d023e34)
+// - /pages/badge.vue ($id_f19d9a80)
+// Dependencies: 
+
+// --------------------
+const $id_1f0eb932 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
+}
+
+
+// --------------------
 // Request: /pages/index.vue?macro=true
 // Parents: 
 // - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
@@ -10708,6 +15421,21 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
+        _push(`<div class="pb-4"${
+          _scopeId
+        }><p${
+          _scopeId
+        }> I have used <a href="https://heroicons.com/" class="text-sky-700 dark:text-sky-500"${
+          _scopeId
+        }>heroicons</a> for this component. You can user any icon according to the constraints. I have provided with code snippet only for one component as rest of the components are same, just have different colors. All the components hvae <span class="text-sky-900 dark:text-sky-600"${
+          _scopeId
+        }>text-&#39;color&#39;-700</span> and <span class="text-sky-900 dark:text-sky-600"${
+          _scopeId
+        }>bg-&#39;color&#39;-100</span> for all the components. You can refer <a href="https://tailwindcss.com/docs/customizing-colors" class="text-sky-700 dark:text-sky-500"${
+          _scopeId
+        }>Tailwind colors</a> to experiment with different colors. <span class="text-sky-800 dark:text-sky-500 italic"${
+          _scopeId
+        }>Same goes for following components.</span></p></div>`)
         _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
           default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
@@ -10774,6 +15502,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
+        _push(`<div class="pb-4"${
+          _scopeId
+        }><p${
+          _scopeId
+        }> This component has a top border of 2px. You can always increase border size and can change color as mentioned in above component info. </p></div>`)
         _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
           default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
@@ -11145,6 +15878,26 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     ]),
                     _: 1 /* STABLE */
                   }),
+                  __vite_ssr_import_24__.createVNode("div", { class: "pb-4" }, [
+                    __vite_ssr_import_24__.createVNode("p", null, [
+                      __vite_ssr_import_24__.createTextVNode(" I have used "),
+                      __vite_ssr_import_24__.createVNode("a", {
+                        href: "https://heroicons.com/",
+                        class: "text-sky-700 dark:text-sky-500"
+                      }, "heroicons"),
+                      __vite_ssr_import_24__.createTextVNode(" for this component. You can user any icon according to the constraints. I have provided with code snippet only for one component as rest of the components are same, just have different colors. All the components hvae "),
+                      __vite_ssr_import_24__.createVNode("span", { class: "text-sky-900 dark:text-sky-600" }, "text-'color'-700"),
+                      __vite_ssr_import_24__.createTextVNode(" and "),
+                      __vite_ssr_import_24__.createVNode("span", { class: "text-sky-900 dark:text-sky-600" }, "bg-'color'-100"),
+                      __vite_ssr_import_24__.createTextVNode(" for all the components. You can refer "),
+                      __vite_ssr_import_24__.createVNode("a", {
+                        href: "https://tailwindcss.com/docs/customizing-colors",
+                        class: "text-sky-700 dark:text-sky-500"
+                      }, "Tailwind colors"),
+                      __vite_ssr_import_24__.createTextVNode(" to experiment with different colors. "),
+                      __vite_ssr_import_24__.createVNode("span", { class: "text-sky-800 dark:text-sky-500 italic" }, "Same goes for following components.")
+                    ])
+                  ]),
                   __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
                     default: __vite_ssr_import_24__.withCtx(() => [
                       __vite_ssr_import_24__.createVNode(_component_AlertWithIcon)
@@ -11198,6 +15951,9 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     ]),
                     _: 1 /* STABLE */
                   }),
+                  __vite_ssr_import_24__.createVNode("div", { class: "pb-4" }, [
+                    __vite_ssr_import_24__.createVNode("p", null, " This component has a top border of 2px. You can always increase border size and can change color as mentioned in above component info. ")
+                  ]),
                   __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
                     default: __vite_ssr_import_24__.withCtx(() => [
                       __vite_ssr_import_24__.createVNode(_component_AlertWithBorder)
@@ -11468,11 +16224,11 @@ const _sfc_main = {
     AlertInfo: __vite_ssr_import_34__.default,
     Heading: __vite_ssr_import_35__.default,
     SubHeading: __vite_ssr_import_33__.default,
-},
+  },
   data() {
     return {
       layout: "custom",
-   square_avatar: false,
+      square_avatar: false,
       presencering_avatar: false,
       circle_avatar: false,
       default_avatar: false,
@@ -11500,10 +16256,9 @@ const _sfc_main = {
       // this.$router.push(`/alerts/#${this.activeScrollSection}`)
     },
     copyToClipboard(id) {
-      this.$bus.$emit("showToastNotification")
+      this.$bus.$emit("showToastNotification");
       this.$globalCopyFunc(id);
     },
-
   },
 };
 
@@ -11613,6 +16368,13 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
+        _push(`<div class="pb-4"${
+          _scopeId
+        }><p${
+          _scopeId
+        }> In the fifth component <a href="https://avatars.dicebear.com/" target="_blank" class="text-sky-500"${
+          _scopeId
+        }> DiceBear avatars </a> are used </p></div>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
           default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
@@ -11633,7 +16395,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -11679,6 +16441,13 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
+        _push(`<div class="pb-4"${
+          _scopeId
+        }><p${
+          _scopeId
+        }> Use height and width classes from <a href="https://tailwindcss.com/" class="text-sky-500 dark:text-sky-500"${
+          _scopeId
+        }>tailwindcss</a> for variable size components </p></div>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
           default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
@@ -11699,7 +16468,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -11765,7 +16534,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -11831,7 +16600,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -11897,7 +16666,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -11963,7 +16732,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -12029,7 +16798,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -12095,7 +16864,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -12161,7 +16930,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -12227,7 +16996,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -12293,7 +17062,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -12359,7 +17128,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -12425,7 +17194,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><div${
           _scopeId
-        }> HTML </div><div${
+        }>HTML</div><div${
           _scopeId
         }>`)
         _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
@@ -12445,29 +17214,29 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }>On This Page</p><button${
           _scopeId
-        }> Default </button><button${
+        }>Default</button><button${
           _scopeId
-        }> Sizes </button><button${
+        }>Sizes</button><button${
           _scopeId
         }> Presence indicator </button><button${
           _scopeId
-        }> Circle </button><button${
+        }>Circle</button><button${
           _scopeId
-        }> Square </button><button${
+        }>Square</button><button${
           _scopeId
         }> Presence Ring </button><button${
           _scopeId
-        }> Color </button><button${
+        }>Color</button><button${
           _scopeId
-        }> Badge </button><button${
+        }>Badge</button><button${
           _scopeId
-        }> Shadows </button><button${
+        }>Shadows</button><button${
           _scopeId
         }>Group 1</button><button${
           _scopeId
         }>Group 2</button><button${
           _scopeId
-        }> Info </button><button${
+        }>Info</button><button${
           _scopeId
         }> Drop Down </button></div></div></div></div></div>`)
       } else {
@@ -12510,6 +17279,17 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     ]),
                     _: 1 /* STABLE */
                   }),
+                  __vite_ssr_import_36__.createVNode("div", { class: "pb-4" }, [
+                    __vite_ssr_import_36__.createVNode("p", null, [
+                      __vite_ssr_import_36__.createTextVNode(" In the fifth component "),
+                      __vite_ssr_import_36__.createVNode("a", {
+                        href: "https://avatars.dicebear.com/",
+                        target: "_blank",
+                        class: "text-sky-500"
+                      }, " DiceBear avatars "),
+                      __vite_ssr_import_36__.createTextVNode(" are used ")
+                    ])
+                  ]),
                   __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.createVNode(_component_AvatarDefault)
@@ -12524,7 +17304,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultAvatar'))
@@ -12563,6 +17343,16 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     ]),
                     _: 1 /* STABLE */
                   }),
+                  __vite_ssr_import_36__.createVNode("div", { class: "pb-4" }, [
+                    __vite_ssr_import_36__.createVNode("p", null, [
+                      __vite_ssr_import_36__.createTextVNode(" Use height and width classes from "),
+                      __vite_ssr_import_36__.createVNode("a", {
+                        href: "https://tailwindcss.com/",
+                        class: "text-sky-500 dark:text-sky-500"
+                      }, "tailwindcss"),
+                      __vite_ssr_import_36__.createTextVNode(" for variable size components ")
+                    ])
+                  ]),
                   __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.createVNode(_component_AvatarSize)
@@ -12577,7 +17367,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('AvatarSize'))
@@ -12630,7 +17420,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('AvatarIndicator'))
@@ -12683,7 +17473,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('AvatarCircle'))
@@ -12736,7 +17526,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('AvatarSquare'))
@@ -12789,7 +17579,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('AvatarPresenceRing'))
@@ -12842,7 +17632,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('AvatarColor'))
@@ -12895,7 +17685,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('AvatarBadge'))
@@ -12948,7 +17738,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('AvatarShadow'))
@@ -13001,7 +17791,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('AvatarGroup1'))
@@ -13054,7 +17844,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('AvatarGroup2'))
@@ -13107,7 +17897,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('AvatarInfo'))
@@ -13160,7 +17950,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     default: __vite_ssr_import_36__.withCtx(() => [
                       __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
                         __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, "HTML"),
                           __vite_ssr_import_36__.createVNode("div", null, [
                             __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('AvatarDropDown'))
@@ -13188,31 +17978,31 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     __vite_ssr_import_36__.createVNode("p", { class: "text-normal font-bold" }, "On This Page"),
                     __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('defaultAvatar'))
-                    }, " Default ", 8 /* PROPS */, ["onClick"]),
+                    }, "Default", 8 /* PROPS */, ["onClick"]),
                     __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('avatarSize'))
-                    }, " Sizes ", 8 /* PROPS */, ["onClick"]),
+                    }, "Sizes", 8 /* PROPS */, ["onClick"]),
                     __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('avatarWithIndicator'))
                     }, " Presence indicator ", 8 /* PROPS */, ["onClick"]),
                     __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('circleAvatar'))
-                    }, " Circle ", 8 /* PROPS */, ["onClick"]),
+                    }, "Circle", 8 /* PROPS */, ["onClick"]),
                     __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('squareAvatar'))
-                    }, " Square ", 8 /* PROPS */, ["onClick"]),
+                    }, "Square", 8 /* PROPS */, ["onClick"]),
                     __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('avatarWithRing'))
                     }, " Presence Ring ", 8 /* PROPS */, ["onClick"]),
                     __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('colorAvatar'))
-                    }, " Color ", 8 /* PROPS */, ["onClick"]),
+                    }, "Color", 8 /* PROPS */, ["onClick"]),
                     __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('badgeAvatar'))
-                    }, " Badge ", 8 /* PROPS */, ["onClick"]),
+                    }, "Badge", 8 /* PROPS */, ["onClick"]),
                     __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('shadowAvatar'))
-                    }, " Shadows ", 8 /* PROPS */, ["onClick"]),
+                    }, "Shadows", 8 /* PROPS */, ["onClick"]),
                     __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('group1'))
                     }, "Group 1", 8 /* PROPS */, ["onClick"]),
@@ -13221,7 +18011,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                     }, "Group 2", 8 /* PROPS */, ["onClick"]),
                     __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('infoAvatar'))
-                    }, " Info ", 8 /* PROPS */, ["onClick"]),
+                    }, "Info", 8 /* PROPS */, ["onClick"]),
                     __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('dropdownAvatar'))
                     }, " Drop Down ", 8 /* PROPS */, ["onClick"])
@@ -13251,6 +18041,1919 @@ _sfc_main.setup = (props, ctx) => {
 const __vite_ssr_import_40__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
 __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/avatar.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/badge.vue
+// Parents: 
+// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// Dependencies: 
+// - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
+// - /components/Headers/Heading.vue ($id_7aa6b9b6)
+// - /components/Headers/SubHeading.vue ($id_65fe66b1)
+// - /components/Utils/ShowCodeButton.vue ($id_b28ae97a)
+// - /components/Utils/HideCodeButton.vue ($id_2ed55d76)
+// - /components/Utils/ComponentPad.vue ($id_900fca01)
+// - /components/Badge/Default.vue ($id_81f2d59e)
+// - /components/Utils/CopyButton.vue ($id_07dc553f)
+// - /components/Badge/Snippets/default.vue ($id_e2a82a42)
+// - /components/Badge/Large.vue ($id_324bb3fe)
+// - /components/Badge/Snippets/Large.vue ($id_24bde5aa)
+// - /components/Badge/StateColor.vue ($id_6575bf2f)
+// - /components/Badge/Snippets/StateColor.vue ($id_91ccdfeb)
+// - /components/Badge/Outline.vue ($id_61b08d48)
+// - /components/Badge/Snippets/Outline.vue ($id_0de52721)
+// - /components/Badge/Pill.vue ($id_905286d2)
+// - /components/Badge/Snippets/Pill.vue ($id_6efedfa6)
+// - /components/Badge/PillOutline.vue ($id_d9d656b5)
+// - /components/Badge/Snippets/PillOutline.vue ($id_232186e7)
+// - /components/Badge/Rectangle.vue ($id_edfb2f3d)
+// - /components/Badge/Snippets/Rectangle.vue ($id_0a470201)
+// - /components/Badge/Cancel.vue ($id_abda55fa)
+// - /components/Badge/Snippets/Cancel.vue ($id_cd5366e1)
+// - /components/Badge/Link.vue ($id_d7b0cb41)
+// - /components/Badge/Snippets/Link.vue ($id_fb2cca49)
+// - /components/Badge/Size.vue ($id_bdac4bd2)
+// - /components/Badge/Snippets/Size.vue ($id_475d1751)
+// - /components/Badge/Positioned.vue ($id_988a469a)
+// - /components/Badge/Snippets/Positioned.vue ($id_6186acd3)
+// - /components/Badge/Text.vue ($id_f118c71a)
+// - /components/Badge/Snippets/Text.vue ($id_5ef597c3)
+// - /components/Badge/Icon.vue ($id_b55890d3)
+// - /components/Badge/Snippets/Icon.vue ($id_043e9904)
+// - /components/Alert/AlertInfo.vue ($id_df465372)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /pages/badge.vue?vue&type=style&index=0&lang.css ($id_1f0eb932)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_f19d9a80 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/layout.mjs");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/components/Utils/ShowCodeButton.vue");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/components/Utils/HideCodeButton.vue");
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/components/Utils/ComponentPad.vue");
+
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/components/Badge/Default.vue");
+
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/components/Utils/CopyButton.vue");
+
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/components/Badge/Snippets/default.vue");
+
+const __vite_ssr_import_9__ = await __vite_ssr_import__("/components/Badge/Large.vue");
+
+const __vite_ssr_import_10__ = await __vite_ssr_import__("/components/Badge/Snippets/Large.vue");
+
+const __vite_ssr_import_11__ = await __vite_ssr_import__("/components/Badge/StateColor.vue");
+
+const __vite_ssr_import_12__ = await __vite_ssr_import__("/components/Badge/Snippets/StateColor.vue");
+
+const __vite_ssr_import_13__ = await __vite_ssr_import__("/components/Badge/Outline.vue");
+
+const __vite_ssr_import_14__ = await __vite_ssr_import__("/components/Badge/Snippets/Outline.vue");
+
+const __vite_ssr_import_15__ = await __vite_ssr_import__("/components/Badge/Pill.vue");
+
+const __vite_ssr_import_16__ = await __vite_ssr_import__("/components/Badge/Snippets/Pill.vue");
+
+const __vite_ssr_import_17__ = await __vite_ssr_import__("/components/Badge/PillOutline.vue");
+
+const __vite_ssr_import_18__ = await __vite_ssr_import__("/components/Badge/Snippets/PillOutline.vue");
+
+const __vite_ssr_import_19__ = await __vite_ssr_import__("/components/Badge/Rectangle.vue");
+
+const __vite_ssr_import_20__ = await __vite_ssr_import__("/components/Badge/Snippets/Rectangle.vue");
+
+const __vite_ssr_import_21__ = await __vite_ssr_import__("/components/Badge/Cancel.vue");
+
+const __vite_ssr_import_22__ = await __vite_ssr_import__("/components/Badge/Snippets/Cancel.vue");
+
+const __vite_ssr_import_23__ = await __vite_ssr_import__("/components/Badge/Link.vue");
+
+const __vite_ssr_import_24__ = await __vite_ssr_import__("/components/Badge/Snippets/Link.vue");
+
+const __vite_ssr_import_25__ = await __vite_ssr_import__("/components/Badge/Size.vue");
+
+const __vite_ssr_import_26__ = await __vite_ssr_import__("/components/Badge/Snippets/Size.vue");
+
+const __vite_ssr_import_27__ = await __vite_ssr_import__("/components/Badge/Positioned.vue");
+
+const __vite_ssr_import_28__ = await __vite_ssr_import__("/components/Badge/Snippets/Positioned.vue");
+
+const __vite_ssr_import_29__ = await __vite_ssr_import__("/components/Badge/Text.vue");
+
+const __vite_ssr_import_30__ = await __vite_ssr_import__("/components/Badge/Snippets/Text.vue");
+
+const __vite_ssr_import_31__ = await __vite_ssr_import__("/components/Badge/Icon.vue");
+
+const __vite_ssr_import_32__ = await __vite_ssr_import__("/components/Badge/Snippets/Icon.vue");
+
+
+const __vite_ssr_import_33__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
+
+const __vite_ssr_import_34__ = await __vite_ssr_import__("/components/Alert/AlertInfo.vue");
+
+const __vite_ssr_import_35__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
+
+const _sfc_main = {
+  metaInfo: {
+    title: "Alerts",
+  },
+  components: {
+    AlertInfo: __vite_ssr_import_34__.default,
+    Heading: __vite_ssr_import_35__.default,
+    SubHeading: __vite_ssr_import_33__.default,
+},
+  data() {
+    return {
+      layout: "custom",
+      default_badge: false,
+      large_badge: false,
+      outline_badge: false,
+      state_badge: false,
+      pill_badge: false,
+      pilloutline_badge: false,
+      rectangle_badge: false,
+      cancel_badge: false,
+      link_badge: false,
+      size_badge: false,
+      positioned_badge: false,
+      text_badge: false,
+      icon_badge: false,
+      // SCROLL
+      activeScrollSection: "",
+      sample: "",
+    };
+  },
+  methods: {
+    scrollToSection(section) {
+      this.activeScrollSection = section;
+      document.getElementById("alertContainer").scrollTo({
+        top: document.getElementById(`${section}`).offsetTop - 100,
+        behavior: "smooth",
+      });
+      // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+    copyToClipboard(id) {
+      this.$bus.$emit("showToastNotification")
+      this.$globalCopyFunc(id);
+    },
+
+  },
+};
+
+const __vite_ssr_import_36__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_37__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_NuxtLayout = __vite_ssr_import_0__.default
+  const _component_HeadersHeading = __vite_ssr_import_1__.default
+  const _component_HeadersSubHeading = __vite_ssr_import_2__.default
+  const _component_UtilsShowCodeButton = __vite_ssr_import_3__.default
+  const _component_UtilsHideCodeButton = __vite_ssr_import_4__.default
+  const _component_UtilsComponentPad = __vite_ssr_import_5__.default
+  const _component_BadgeDefault = __vite_ssr_import_6__.default
+  const _component_UtilsCopyButton = __vite_ssr_import_7__.default
+  const _component_BadgeSnippetsDefault = __vite_ssr_import_8__.default
+  const _component_BadgeLarge = __vite_ssr_import_9__.default
+  const _component_BadgeSnippetsLarge = __vite_ssr_import_10__.default
+  const _component_BadgeStateColor = __vite_ssr_import_11__.default
+  const _component_BadgeSnippetsStateColor = __vite_ssr_import_12__.default
+  const _component_BadgeOutline = __vite_ssr_import_13__.default
+  const _component_BadgeSnippetsOutline = __vite_ssr_import_14__.default
+  const _component_BadgePill = __vite_ssr_import_15__.default
+  const _component_BadgeSnippetsPill = __vite_ssr_import_16__.default
+  const _component_BadgePillOutline = __vite_ssr_import_17__.default
+  const _component_BadgeSnippetsPillOutline = __vite_ssr_import_18__.default
+  const _component_BadgeRectangle = __vite_ssr_import_19__.default
+  const _component_BadgeSnippetsRectangle = __vite_ssr_import_20__.default
+  const _component_BadgeCancel = __vite_ssr_import_21__.default
+  const _component_BadgeSnippetsCancel = __vite_ssr_import_22__.default
+  const _component_BadgeLink = __vite_ssr_import_23__.default
+  const _component_BadgeSnippetsLink = __vite_ssr_import_24__.default
+  const _component_BadgeSize = __vite_ssr_import_25__.default
+  const _component_BadgeSnippetsSize = __vite_ssr_import_26__.default
+  const _component_BadgePositioned = __vite_ssr_import_27__.default
+  const _component_BadgeSnippetsPositioned = __vite_ssr_import_28__.default
+  const _component_BadgeText = __vite_ssr_import_29__.default
+  const _component_BadgeSnippetsText = __vite_ssr_import_30__.default
+  const _component_BadgeIcon = __vite_ssr_import_31__.default
+  const _component_BadgeSnippetsIcon = __vite_ssr_import_32__.default
+
+  _push(__vite_ssr_import_37__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_36__.mergeProps({ name: $data.layout }, _attrs), {
+    default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<div class="flex p-4"${
+          _scopeId
+        }><!-- content --><div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar"${
+          _scopeId
+        }><div class="overflow-y-auto w-full px-4 pb-20" id="alertContainer"${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersHeading, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(` Badge `)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode(" Badge ")
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<div${
+          _scopeId
+        }><p class="text-base"${
+          _scopeId
+        }> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? </p></div><!-- Default Badge --><section id="defaultBadge" class="w-full"${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Default`)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("Default")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.default_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.default_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.default_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.default_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.default_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.default_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeDefault, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgeDefault)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.default_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('defaultBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsDefault, { id: "defaultBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End default Badge --><!-- Large Badge --><section id="largeBadge" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Large`)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("Large")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.large_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.large_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.large_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.large_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.large_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.large_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeLarge, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgeLarge)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.large_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('LargeBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsLarge, { id: "LargeBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Large Badge --><!-- State Badge --><section id="StateColor" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`State color`)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("State color")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.state_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.state_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.state_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.state_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.state_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.state_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeStateColor, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgeStateColor)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.state_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('StateBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsStateColor, { id: "StateBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End State Badge --><!-- Outline Badge --><section id="outlineBadge" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Outline `)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("Outline ")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.outline_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.outline_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.outline_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.outline_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.outline_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.outline_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeOutline, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgeOutline)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.outline_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('OutlineBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsOutline, { id: "OutlineBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Outline Badge --><!-- Pill Badge --><section id="pillBadge" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Pill `)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("Pill ")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.pill_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.pill_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.pill_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.pill_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.pill_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.pill_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgePill, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgePill)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.pill_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('PillBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsPill, { id: "PillBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Pill Badge --><!-- PillOutline Badge --><section id="pillBadgeOutline" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`PillOutline `)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("PillOutline ")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.pilloutline_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.pilloutline_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.pilloutline_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.pilloutline_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.pilloutline_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.pilloutline_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgePillOutline, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgePillOutline)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.pilloutline_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('PillOutlineBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsPillOutline, { id: "PillOutlineBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End PillOutline Badge --><!-- Rectangle Badge --><section id="rectangleBadge" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Rectangle `)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("Rectangle ")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.rectangle_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.rectangle_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.rectangle_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.rectangle_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.rectangle_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.rectangle_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeRectangle, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgeRectangle)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.rectangle_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('RectangleBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsRectangle, { id: "RectangleBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Rectangle Badge --><!-- Cancel Badge --><section id="badgeWithCancelButton" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`With cancel button`)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("With cancel button")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.cancel_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.cancel_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.cancel_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.cancel_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.cancel_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.cancel_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeCancel, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgeCancel)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.cancel_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('CancelBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsCancel, { id: "CancelBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Cancel Badge --><!-- Link Badge --><section id="badgeAsLink" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Badges as link`)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("Badges as link")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.link_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.link_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.link_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.link_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.link_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.link_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeLink, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgeLink)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.link_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('LinkBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsLink, { id: "LinkBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Link Badge --><!-- Size Badge --><section id="BadgeAsSizes" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Size`)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("Size")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.size_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.size_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.size_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.size_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.size_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.size_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSize, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgeSize)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.size_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('SizeBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsSize, { id: "SizeBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Size Badge --><!-- Positioned Badge --><section id="positionedBadge" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Positioned`)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("Positioned")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.positioned_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.positioned_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.positioned_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.positioned_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.positioned_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.positioned_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgePositioned, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgePositioned)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.positioned_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('PositionedBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsPositioned, { id: "PositionedBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Positioned Badge --><!-- Text Badge --><section id="textBadge" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Text`)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("Text")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.text_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.text_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.text_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.text_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.text_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.text_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeText, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgeText)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.text_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('TextBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsText, { id: "TextBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Text Badge --><!-- Icon Badge --><section id="iconBadge" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Icon`)
+            } else {
+              return [
+                __vite_ssr_import_36__.createTextVNode("Icon")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.icon_badge) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.icon_badge = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.icon_badge = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.icon_badge)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.icon_badge = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.icon_badge = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeIcon, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_36__.createVNode(_component_BadgeIcon)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_37__.ssrRenderStyle(($data.icon_badge) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('IconBadge'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_BadgeSnippetsIcon, { id: "IconBadge" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Icon Badge --></div></div><!-- right sidebar --><div class="hidden lg:block"${
+          _scopeId
+        }><div class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2"${
+          _scopeId
+        }><div class="overflow-y-auto"${
+          _scopeId
+        }><!-- <AlertInfo /> --><div class="flex flex-col justify-start items-end space-y-2"${
+          _scopeId
+        }><p class="text-normal font-bold"${
+          _scopeId
+        }>On This Page</p><button${
+          _scopeId
+        }> Default Badge </button><button${
+          _scopeId
+        }> Large Badge </button><button${
+          _scopeId
+        }> Badge State Color </button><button${
+          _scopeId
+        }> Outline Badge </button><button${
+          _scopeId
+        }> Pill Badge </button><button${
+          _scopeId
+        }> Pill Outline Badge </button><button${
+          _scopeId
+        }> Rectangle Badge </button><button class="text-right"${
+          _scopeId
+        }> Cancel Button </button><button${
+          _scopeId
+        }> Badge As Link </button><button${
+          _scopeId
+        }> Badge As Sizes </button><button${
+          _scopeId
+        }> Positioned badge </button><button${
+          _scopeId
+        }> Text Badge </button><button${
+          _scopeId
+        }> Icon Badge </button></div></div></div></div></div>`)
+      } else {
+        return [
+          __vite_ssr_import_36__.createVNode("div", { class: "flex p-4" }, [
+            __vite_ssr_import_36__.createCommentVNode(" content "),
+            __vite_ssr_import_36__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
+              __vite_ssr_import_36__.createVNode("div", {
+                class: "overflow-y-auto w-full px-4 pb-20",
+                id: "alertContainer"
+              }, [
+                __vite_ssr_import_36__.createVNode(_component_HeadersHeading, null, {
+                  default: __vite_ssr_import_36__.withCtx(() => [
+                    __vite_ssr_import_36__.createTextVNode(" Badge ")
+                  ]),
+                  _: 1 /* STABLE */
+                }),
+                __vite_ssr_import_36__.createVNode("div", null, [
+                  __vite_ssr_import_36__.createVNode("p", { class: "text-base" }, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" Default Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "defaultBadge",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Default")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.default_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.default_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.default_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgeDefault)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('defaultBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsDefault, { id: "defaultBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.default_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End default Badge "),
+                __vite_ssr_import_36__.createCommentVNode(" Large Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "largeBadge",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Large")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.large_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.large_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.large_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgeLarge)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('LargeBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsLarge, { id: "LargeBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.large_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End Large Badge "),
+                __vite_ssr_import_36__.createCommentVNode(" State Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "StateColor",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("State color")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.state_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.state_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.state_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgeStateColor)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('StateBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsStateColor, { id: "StateBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.state_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End State Badge "),
+                __vite_ssr_import_36__.createCommentVNode(" Outline Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "outlineBadge",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Outline ")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.outline_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.outline_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.outline_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgeOutline)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('OutlineBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsOutline, { id: "OutlineBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.outline_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End Outline Badge "),
+                __vite_ssr_import_36__.createCommentVNode(" Pill Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "pillBadge",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Pill ")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.pill_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.pill_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.pill_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgePill)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('PillBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsPill, { id: "PillBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.pill_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End Pill Badge "),
+                __vite_ssr_import_36__.createCommentVNode(" PillOutline Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "pillBadgeOutline",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("PillOutline ")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.pilloutline_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.pilloutline_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.pilloutline_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgePillOutline)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('PillOutlineBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsPillOutline, { id: "PillOutlineBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.pilloutline_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End PillOutline Badge "),
+                __vite_ssr_import_36__.createCommentVNode(" Rectangle Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "rectangleBadge",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Rectangle ")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.rectangle_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.rectangle_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.rectangle_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgeRectangle)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('RectangleBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsRectangle, { id: "RectangleBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.rectangle_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End Rectangle Badge "),
+                __vite_ssr_import_36__.createCommentVNode(" Cancel Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "badgeWithCancelButton",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("With cancel button")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.cancel_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.cancel_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.cancel_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgeCancel)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('CancelBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsCancel, { id: "CancelBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.cancel_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End Cancel Badge "),
+                __vite_ssr_import_36__.createCommentVNode(" Link Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "badgeAsLink",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Badges as link")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.link_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.link_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.link_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgeLink)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('LinkBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsLink, { id: "LinkBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.link_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End Link Badge "),
+                __vite_ssr_import_36__.createCommentVNode(" Size Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "BadgeAsSizes",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Size")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.size_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.size_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.size_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgeSize)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('SizeBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsSize, { id: "SizeBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.size_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End Size Badge "),
+                __vite_ssr_import_36__.createCommentVNode(" Positioned Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "positionedBadge",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Positioned")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.positioned_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.positioned_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.positioned_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgePositioned)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('PositionedBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsPositioned, { id: "PositionedBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.positioned_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End Positioned Badge "),
+                __vite_ssr_import_36__.createCommentVNode(" Text Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "textBadge",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Text")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.text_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.text_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.text_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgeText)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('TextBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsText, { id: "TextBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.text_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End Text Badge "),
+                __vite_ssr_import_36__.createCommentVNode(" Icon Badge "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "iconBadge",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Icon")
+                    ]),
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.icon_badge)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.icon_badge = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.icon_badge = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_BadgeIcon)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('IconBadge'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_36__.createVNode(_component_BadgeSnippetsIcon, { id: "IconBadge" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_36__.vShow, $data.icon_badge]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_36__.createCommentVNode(" End Icon Badge ")
+              ])
+            ]),
+            __vite_ssr_import_36__.createCommentVNode(" right sidebar "),
+            __vite_ssr_import_36__.createVNode("div", { class: "hidden lg:block" }, [
+              __vite_ssr_import_36__.createVNode("div", { class: "w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2" }, [
+                __vite_ssr_import_36__.createVNode("div", { class: "overflow-y-auto" }, [
+                  __vite_ssr_import_36__.createCommentVNode(" <AlertInfo /> "),
+                  __vite_ssr_import_36__.createVNode("div", { class: "flex flex-col justify-start items-end space-y-2" }, [
+                    __vite_ssr_import_36__.createVNode("p", { class: "text-normal font-bold" }, "On This Page"),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('defaultBadge'))
+                    }, " Default Badge ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('largeBadge'))
+                    }, " Large Badge ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('StateColor'))
+                    }, " Badge State Color ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('outlineBadge'))
+                    }, " Outline Badge ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('pillBadge'))
+                    }, " Pill Badge ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('pillBadgeOutline'))
+                    }, " Pill Outline Badge ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('rectangleBadge'))
+                    }, " Rectangle Badge ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('badgeWithCancelButton')),
+                      class: "text-right"
+                    }, " Cancel Button ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('badgeAsLink'))
+                    }, " Badge As Link ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('BadgeAsSizes'))
+                    }, " Badge As Sizes ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('positionedBadge'))
+                    }, " Positioned badge ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('textBadge'))
+                    }, " Text Badge ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_36__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('iconBadge'))
+                    }, " Icon Badge ", 8 /* PROPS */, ["onClick"])
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+}
+
+const __vite_ssr_import_38__ = await __vite_ssr_import__("/pages/badge.vue?vue&type=style&index=0&lang.css");
+
+
+const __vite_ssr_import_39__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_39__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/badge.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_40__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/badge.vue"]]);
 }
 
 
@@ -14384,11 +21087,40 @@ const __modules__ = {
   "/components/Avatar/DropDown.vue": $id_3ff2427c,
   "/components/Avatar/Snippets/DropDown.vue": $id_44182734,
   "/pages/avatar.vue?vue&type=style&index=0&lang.css": $id_cb98b284,
+  "/pages/badge.vue?macro=true": $id_8d023e34,
+  "/components/Badge/Default.vue": $id_81f2d59e,
+  "/components/Badge/Snippets/default.vue": $id_e2a82a42,
+  "/components/Badge/Large.vue": $id_324bb3fe,
+  "/components/Badge/Snippets/Large.vue": $id_24bde5aa,
+  "/components/Badge/StateColor.vue": $id_6575bf2f,
+  "/components/Badge/Snippets/StateColor.vue": $id_91ccdfeb,
+  "/components/Badge/Outline.vue": $id_61b08d48,
+  "/components/Badge/Snippets/Outline.vue": $id_0de52721,
+  "/components/Badge/Pill.vue": $id_905286d2,
+  "/components/Badge/Snippets/Pill.vue": $id_6efedfa6,
+  "/components/Badge/PillOutline.vue": $id_d9d656b5,
+  "/components/Badge/Snippets/PillOutline.vue": $id_232186e7,
+  "/components/Badge/Rectangle.vue": $id_edfb2f3d,
+  "/components/Badge/Snippets/Rectangle.vue": $id_0a470201,
+  "/components/Badge/Cancel.vue": $id_abda55fa,
+  "/components/Badge/Snippets/Cancel.vue": $id_cd5366e1,
+  "/components/Badge/Link.vue": $id_d7b0cb41,
+  "/components/Badge/Snippets/Link.vue": $id_fb2cca49,
+  "/components/Badge/Size.vue": $id_bdac4bd2,
+  "/components/Badge/Snippets/Size.vue": $id_475d1751,
+  "/components/Badge/Positioned.vue": $id_988a469a,
+  "/components/Badge/Snippets/Positioned.vue": $id_6186acd3,
+  "/components/Badge/Text.vue": $id_f118c71a,
+  "/components/Badge/Snippets/Text.vue": $id_5ef597c3,
+  "/components/Badge/Icon.vue": $id_b55890d3,
+  "/components/Badge/Snippets/Icon.vue": $id_043e9904,
+  "/pages/badge.vue?vue&type=style&index=0&lang.css": $id_1f0eb932,
   "/pages/index.vue?macro=true": $id_5dd70240,
   "/pages/index.vue?vue&type=style&index=0&lang.css": $id_0b423cc4,
   "/pages/About.vue": $id_4fd34246,
   "/pages/alerts.vue": $id_392b88d4,
   "/pages/avatar.vue": $id_96dc5723,
+  "/pages/badge.vue": $id_f19d9a80,
   "/pages/index.vue": $id_cca58e97,
   "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/router.options.mjs": $id_2a66e4bb,
   "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/middleware.mjs": $id_9707a1d9,

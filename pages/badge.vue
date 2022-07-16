@@ -4,7 +4,7 @@
       <!-- content -->
       <div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar">
         <div class="overflow-y-auto w-full px-4 pb-20" id="alertContainer">
-          <HeadersHeading> Avatar </HeadersHeading>
+          <HeadersHeading> Badge  </HeadersHeading>
           <div>
             <p class="text-base">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -13,516 +13,488 @@
               impedit dolore aliquam?
             </p>
           </div>
-          <!-- Default avatar -->
-          <section id="defaultAvatar" class="w-full">
+          <!-- Default Badge -->
+          <section id="defaultBadge" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>Default</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_avatar"
-                  @click="default_avatar = true"
+                  v-if="!default_badge"
+                  @click="default_badge = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_avatar = false"
+                  @click="default_badge = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
-            <div class="pb-4">
-              <p>
-                In the fifth component
-                <a href="https://avatars.dicebear.com/" target="_blank" class="text-sky-500"> DiceBear avatars </a>
-                are used
-              </p>
-            </div>
             <UtilsComponentPad>
-              <AvatarDefault />
+              <BadgeDefault />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div
-                v-show="default_avatar"
-                class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"
-              >
+              <div v-show="default_badge" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
-                  <div>HTML</div>
+                  <div>
+                    HTML
+                  </div>
                   <div>
                     <UtilsCopyButton
-                      @click="copyToClipboard('defaultAvatar')"
-                    ></UtilsCopyButton>
+                    @click="copyToClipboard('defaultBadge')"
+                  ></UtilsCopyButton>
                   </div>
                 </div>
-                <AvatarSnippetsDefault id="defaultAvatar" />
+                <BadgeSnippetsDefault id="defaultBadge" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
-          <!-- End default avatar -->
-          <!-- sizes avatar -->
-          <section id="avatarSize" class="w-full">
+          <!-- End default Badge -->
+          <!-- Large Badge -->
+          <section id="largeBadge" class="w-full">
             <HeadersSubHeading>
-              <template v-slot:subHeader>Sizes</template>
+              <template v-slot:subHeader>Large</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!size_avatar"
-                  @click="size_avatar = true"
+                  v-if="!large_badge"
+                  @click="large_badge = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="size_avatar = false"
+                  @click="large_badge = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
-               <div class="pb-4">
-              <p>
-                Use height and width classes from
-                <a href="https://tailwindcss.com/" class="text-sky-500 dark:text-sky-500"
-                  >tailwindcss</a
-                >
-                for variable size components
-              </p>
-            </div>
             <UtilsComponentPad>
-              <AvatarSize />
+              <BadgeLarge />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div
-                v-show="size_avatar"
-                class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"
-              >
+              <div v-show="large_badge" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
-                  <div>HTML</div>
+                  <div>
+                    HTML
+                  </div>
                   <div>
                     <UtilsCopyButton
-                      @click="copyToClipboard('AvatarSize')"
-                    ></UtilsCopyButton>
+                    @click="copyToClipboard('LargeBadge')"
+                  ></UtilsCopyButton>
                   </div>
                 </div>
-                <AvatarSnippetsSize id="AvatarSize" />
+                <BadgeSnippetsLarge id="LargeBadge" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
-          <!-- End sizes avatar -->
-          <!-- Presence Indicator avatar -->
-          <section id="avatarWithIndicator" class="w-full">
+          <!-- End Large Badge -->
+          <!-- State Badge -->
+          <section id="StateColor" class="w-full">
             <HeadersSubHeading>
-              <template v-slot:subHeader>Presence Indicator</template>
+              <template v-slot:subHeader>State color</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!presence_avatar"
-                  @click="presence_avatar = true"
+                  v-if="!state_badge"
+                  @click="state_badge = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="presence_avatar = false"
+                  @click="state_badge = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <AvatarPresence />
+              <BadgeStateColor />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div
-                v-show="presence_avatar"
-                class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"
-              >
+              <div v-show="state_badge" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
-                  <div>HTML</div>
+                  <div>
+                    HTML
+                  </div>
                   <div>
                     <UtilsCopyButton
-                      @click="copyToClipboard('AvatarIndicator')"
-                    ></UtilsCopyButton>
+                    @click="copyToClipboard('StateBadge')"
+                  ></UtilsCopyButton>
                   </div>
                 </div>
-                <AvatarSnippetsPresence id="AvatarIndicator" />
+                <BadgeSnippetsStateColor id="StateBadge" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
-          <!-- End presence indicator avatar -->
-          <!-- Circle avatar -->
-          <section id="circleAvatar" class="w-full">
+          <!-- End State Badge -->
+          <!-- Outline Badge -->
+          <section id="outlineBadge" class="w-full">
             <HeadersSubHeading>
-              <template v-slot:subHeader>Circle</template>
+              <template v-slot:subHeader>Outline </template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!circle_avatar"
-                  @click="circle_avatar = true"
+                  v-if="!outline_badge"
+                  @click="outline_badge = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="circle_avatar = false"
+                  @click="outline_badge = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <AvatarCircle />
+              <BadgeOutline />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div
-                v-show="circle_avatar"
-                class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"
-              >
+              <div v-show="outline_badge" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
-                  <div>HTML</div>
+                  <div>
+                    HTML
+                  </div>
                   <div>
                     <UtilsCopyButton
-                      @click="copyToClipboard('AvatarCircle')"
-                    ></UtilsCopyButton>
+                    @click="copyToClipboard('OutlineBadge')"
+                  ></UtilsCopyButton>
                   </div>
                 </div>
-                <AvatarSnippetsCircle id="AvatarCircle" />
+                <BadgeSnippetsOutline id="OutlineBadge" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
-          <!-- End Circle avatar -->
-          <!-- Square avatar -->
-          <section id="squareAvatar" class="w-full">
+          <!-- End Outline Badge -->
+          <!-- Pill Badge -->
+          <section id="pillBadge" class="w-full">
             <HeadersSubHeading>
-              <template v-slot:subHeader>Square</template>
+              <template v-slot:subHeader>Pill </template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!square_avatar"
-                  @click="square_avatar = true"
+                  v-if="!pill_badge"
+                  @click="pill_badge = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="square_avatar = false"
+                  @click="pill_badge = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <AvatarSquare />
+              <BadgePill />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div
-                v-show="square_avatar"
-                class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"
-              >
+              <div v-show="pill_badge" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
-                  <div>HTML</div>
+                  <div>
+                    HTML
+                  </div>
                   <div>
                     <UtilsCopyButton
-                      @click="copyToClipboard('AvatarSquare')"
-                    ></UtilsCopyButton>
+                    @click="copyToClipboard('PillBadge')"
+                  ></UtilsCopyButton>
                   </div>
                 </div>
-                <AvatarSnippetsSquare id="AvatarSquare" />
+                <BadgeSnippetsPill id="PillBadge" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
-          <!-- End Square avatar -->
-          <!-- PresenceRing avatar -->
-          <section id="avatarWithRing" class="w-full">
+          <!-- End Pill Badge -->
+          <!-- PillOutline Badge -->
+          <section id="pillBadgeOutline" class="w-full">
             <HeadersSubHeading>
-              <template v-slot:subHeader>Presence Ring</template>
+              <template v-slot:subHeader>PillOutline </template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!presencering_avatar"
-                  @click="presencering_avatar = true"
+                  v-if="!pilloutline_badge"
+                  @click="pilloutline_badge = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="presencering_avatar = false"
+                  @click="pilloutline_badge = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <AvatarPresenceRing />
+              <BadgePillOutline />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div
-                v-show="presencering_avatar"
-                class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"
-              >
+              <div v-show="pilloutline_badge" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
-                  <div>HTML</div>
+                  <div>
+                    HTML
+                  </div>
                   <div>
                     <UtilsCopyButton
-                      @click="copyToClipboard('AvatarPresenceRing')"
-                    ></UtilsCopyButton>
+                    @click="copyToClipboard('PillOutlineBadge')"
+                  ></UtilsCopyButton>
                   </div>
                 </div>
-                <AvatarSnippetsPresenceRing id="AvatarPresenceRing" />
+                <BadgeSnippetsPillOutline id="PillOutlineBadge" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
-          <!-- End Presence Ring avatar -->
-          <!-- Color avatar -->
-          <section id="colorAvatar" class="w-full">
+          <!-- End PillOutline Badge -->
+          <!-- Rectangle Badge -->
+          <section id="rectangleBadge" class="w-full">
             <HeadersSubHeading>
-              <template v-slot:subHeader>Color</template>
+              <template v-slot:subHeader>Rectangle </template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!color_avatar"
-                  @click="color_avatar = true"
+                  v-if="!rectangle_badge"
+                  @click="rectangle_badge = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="color_avatar = false"
+                  @click="rectangle_badge = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <AvatarColor />
+              <BadgeRectangle />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div
-                v-show="color_avatar"
-                class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"
-              >
+              <div v-show="rectangle_badge" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
-                  <div>HTML</div>
+                  <div>
+                    HTML
+                  </div>
                   <div>
                     <UtilsCopyButton
-                      @click="copyToClipboard('AvatarColor')"
-                    ></UtilsCopyButton>
+                    @click="copyToClipboard('RectangleBadge')"
+                  ></UtilsCopyButton>
                   </div>
                 </div>
-                <AvatarSnippetsColor id="AvatarColor" />
+                <BadgeSnippetsRectangle id="RectangleBadge" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
-          <!-- End Color avatar -->
-          <!-- Badge avatar -->
-          <section id="badgeAvatar" class="w-full">
+          <!-- End Rectangle Badge -->
+          <!-- Cancel Badge -->
+          <section id="badgeWithCancelButton" class="w-full">
             <HeadersSubHeading>
-              <template v-slot:subHeader>Badge</template>
+              <template v-slot:subHeader>With cancel button</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!badge_avatar"
-                  @click="badge_avatar = true"
+                  v-if="!cancel_badge"
+                  @click="cancel_badge = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="badge_avatar = false"
+                  @click="cancel_badge = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <AvatarBadge />
+              <BadgeCancel />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div
-                v-show="badge_avatar"
-                class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"
-              >
+              <div v-show="cancel_badge" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
-                  <div>HTML</div>
+                  <div>
+                    HTML
+                  </div>
                   <div>
                     <UtilsCopyButton
-                      @click="copyToClipboard('AvatarBadge')"
-                    ></UtilsCopyButton>
+                    @click="copyToClipboard('CancelBadge')"
+                  ></UtilsCopyButton>
                   </div>
                 </div>
-                <AvatarSnippetsBadge id="AvatarBadge" />
+                <BadgeSnippetsCancel id="CancelBadge" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
-          <!-- End Badge avatar -->
-          <!-- Shadow avatar -->
-          <section id="shadowAvatar" class="w-full">
+          <!-- End Cancel Badge -->
+          <!-- Link Badge -->
+          <section id="badgeAsLink" class="w-full">
             <HeadersSubHeading>
-              <template v-slot:subHeader>Shadow</template>
+              <template v-slot:subHeader>Badges as link</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!shadow_avatar"
-                  @click="shadow_avatar = true"
+                  v-if="!link_badge"
+                  @click="link_badge = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="shadow_avatar = false"
+                  @click="link_badge = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <AvatarShadow />
+              <BadgeLink />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div
-                v-show="shadow_avatar"
-                class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"
-              >
+              <div v-show="link_badge" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
-                  <div>HTML</div>
+                  <div>
+                    HTML
+                  </div>
                   <div>
                     <UtilsCopyButton
-                      @click="copyToClipboard('AvatarShadow')"
-                    ></UtilsCopyButton>
+                    @click="copyToClipboard('LinkBadge')"
+                  ></UtilsCopyButton>
                   </div>
                 </div>
-                <AvatarSnippetsShadow id="AvatarShadow" />
+                <BadgeSnippetsLink id="LinkBadge" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
-          <!-- End Shadow avatar -->
-          <!-- Group1 avatar -->
-          <section id="group1" class="w-full">
+          <!-- End Link Badge -->
+          <!-- Size Badge -->
+          <section id="BadgeAsSizes" class="w-full">
             <HeadersSubHeading>
-              <template v-slot:subHeader>Group1</template>
+              <template v-slot:subHeader>Size</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!group1_avatar"
-                  @click="group1_avatar = true"
+                  v-if="!size_badge"
+                  @click="size_badge = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="group1_avatar = false"
+                  @click="size_badge = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <AvatarGroup1 />
+              <BadgeSize />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div
-                v-show="group1_avatar"
-                class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"
-              >
+              <div v-show="size_badge" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
-                  <div>HTML</div>
+                  <div>
+                    HTML
+                  </div>
                   <div>
                     <UtilsCopyButton
-                      @click="copyToClipboard('AvatarGroup1')"
-                    ></UtilsCopyButton>
+                    @click="copyToClipboard('SizeBadge')"
+                  ></UtilsCopyButton>
                   </div>
                 </div>
-                <AvatarSnippetsGroup1 id="AvatarGroup1" />
+                <BadgeSnippetsSize id="SizeBadge" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
-          <!-- End Group1 avatar -->
-          <!-- Group2 avatar -->
-          <section id="group2" class="w-full">
+          <!-- End Size Badge -->
+          <!-- Positioned Badge -->
+          <section id="positionedBadge" class="w-full">
             <HeadersSubHeading>
-              <template v-slot:subHeader>Group2</template>
+              <template v-slot:subHeader>Positioned</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!group2_avatar"
-                  @click="group2_avatar = true"
+                  v-if="!positioned_badge"
+                  @click="positioned_badge = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="group2_avatar = false"
+                  @click="positioned_badge = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <AvatarGroup2 />
+              <BadgePositioned />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div
-                v-show="group2_avatar"
-                class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"
-              >
+              <div v-show="positioned_badge" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
-                  <div>HTML</div>
+                  <div>
+                    HTML
+                  </div>
                   <div>
                     <UtilsCopyButton
-                      @click="copyToClipboard('AvatarGroup2')"
-                    ></UtilsCopyButton>
+                    @click="copyToClipboard('PositionedBadge')"
+                  ></UtilsCopyButton>
                   </div>
                 </div>
-                <AvatarSnippetsGroup2 id="AvatarGroup2" />
+                <BadgeSnippetsPositioned id="PositionedBadge" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
-          <!-- End Group2 avatar -->
-          <!-- Info avatar -->
-          <section id="infoAvatar" class="w-full">
+          <!-- End Positioned Badge -->
+          <!-- Text Badge -->
+          <section id="textBadge" class="w-full">
             <HeadersSubHeading>
-              <template v-slot:subHeader>Info</template>
+              <template v-slot:subHeader>Text</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!info_avatar"
-                  @click="info_avatar = true"
+                  v-if="!text_badge"
+                  @click="text_badge = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="info_avatar = false"
+                  @click="text_badge = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <AvatarInfo />
+              <BadgeText />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div
-                v-show="info_avatar"
-                class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"
-              >
+              <div v-show="text_badge" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
-                  <div>HTML</div>
+                  <div>
+                    HTML
+                  </div>
                   <div>
                     <UtilsCopyButton
-                      @click="copyToClipboard('AvatarInfo')"
-                    ></UtilsCopyButton>
+                    @click="copyToClipboard('TextBadge')"
+                  ></UtilsCopyButton>
                   </div>
                 </div>
-                <AvatarSnippetsInfo id="AvatarInfo" />
+                <BadgeSnippetsText id="TextBadge" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
-          <!-- End Info avatar -->
-          <!-- DropDown avatar -->
-          <section id="dropdownAvatar" class="w-full">
+          <!-- End Text Badge -->
+          <!-- Icon Badge -->
+          <section id="iconBadge" class="w-full">
             <HeadersSubHeading>
-              <template v-slot:subHeader>Drop Down</template>
+              <template v-slot:subHeader>Icon</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!dropdown_avatar"
-                  @click="dropdown_avatar = true"
+                  v-if="!icon_badge"
+                  @click="icon_badge = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="dropdown_avatar = false"
+                  @click="icon_badge = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <AvatarDropDown />
+              <BadgeIcon />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div
-                v-show="dropdown_avatar"
-                class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"
-              >
+              <div v-show="icon_badge" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
-                  <div>HTML</div>
+                  <div>
+                    HTML
+                  </div>
                   <div>
                     <UtilsCopyButton
-                      @click="copyToClipboard('AvatarDropDown')"
-                    ></UtilsCopyButton>
+                    @click="copyToClipboard('IconBadge')"
+                  ></UtilsCopyButton>
                   </div>
                 </div>
-                <AvatarSnippetsDropDown id="AvatarDropDown" />
+                <BadgeSnippetsIcon id="IconBadge" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
-          <!-- End DropDown avatar -->
+          <!-- End Icon Badge -->
+
         </div>
       </div>
       <!-- right sidebar -->
@@ -531,28 +503,48 @@
           class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2"
         >
           <div class="overflow-y-auto">
-            <!-- <AvatartInfo /> -->
+            <!-- <AlertInfo /> -->
             <div class="flex flex-col justify-start items-end space-y-2">
               <p class="text-normal font-bold">On This Page</p>
-              <button @click="scrollToSection('defaultAvatar')">Default</button>
-              <button @click="scrollToSection('avatarSize')">Sizes</button>
-              <button @click="scrollToSection('avatarWithIndicator')">
-                Presence indicator
+              <button @click="scrollToSection('defaultBadge')">
+                Default Badge
               </button>
-              <button @click="scrollToSection('circleAvatar')">Circle</button>
-              <button @click="scrollToSection('squareAvatar')">Square</button>
-              <button @click="scrollToSection('avatarWithRing')">
-                Presence Ring
+              <button @click="scrollToSection('largeBadge')">
+                Large Badge
               </button>
-              <button @click="scrollToSection('colorAvatar')">Color</button>
-              <button @click="scrollToSection('badgeAvatar')">Badge</button>
-              <button @click="scrollToSection('shadowAvatar')">Shadows</button>
-              <button @click="scrollToSection('group1')">Group 1</button>
-              <button @click="scrollToSection('group2')">Group 2</button>
-              <button @click="scrollToSection('infoAvatar')">Info</button>
-              <button @click="scrollToSection('dropdownAvatar')">
-                Drop Down
+              <button @click="scrollToSection('StateColor')">
+                Badge State Color
               </button>
+              <button @click="scrollToSection('outlineBadge')">
+                Outline Badge
+              </button>
+              <button @click="scrollToSection('pillBadge')">
+                Pill Badge
+              </button>
+              <button @click="scrollToSection('pillBadgeOutline')">
+                Pill Outline Badge 
+              </button>
+              <button @click="scrollToSection('rectangleBadge')">
+                Rectangle Badge 
+              </button>
+              <button @click="scrollToSection('badgeWithCancelButton')" class="text-right">
+                Cancel Button
+              </button>
+              <button @click="scrollToSection('badgeAsLink')">
+                Badge As Link 
+              </button>
+              <button @click="scrollToSection('BadgeAsSizes')">
+                Badge As Sizes
+              </button>
+              <button @click="scrollToSection('positionedBadge')">
+                Positioned badge
+              </button>
+              <button @click="scrollToSection('textBadge')">
+                Text Badge
+              </button>
+              <button @click="scrollToSection('iconBadge')">
+                Icon Badge
+              </button>            
             </div>
           </div>
         </div>
@@ -573,23 +565,23 @@ export default {
     AlertInfo,
     Heading,
     SubHeading,
-  },
+},
   data() {
     return {
       layout: "custom",
-      square_avatar: false,
-      presencering_avatar: false,
-      circle_avatar: false,
-      default_avatar: false,
-      size_avatar: false,
-      presence_avatar: false,
-      color_avatar: false,
-      badge_avatar: false,
-      shadow_avatar: false,
-      group1_avatar: false,
-      group2_avatar: false,
-      info_avatar: false,
-      dropdown_avatar: false,
+      default_badge: false,
+      large_badge: false,
+      outline_badge: false,
+      state_badge: false,
+      pill_badge: false,
+      pilloutline_badge: false,
+      rectangle_badge: false,
+      cancel_badge: false,
+      link_badge: false,
+      size_badge: false,
+      positioned_badge: false,
+      text_badge: false,
+      icon_badge: false,
       // SCROLL
       activeScrollSection: "",
       sample: "",
@@ -605,9 +597,10 @@ export default {
       // this.$router.push(`/alerts/#${this.activeScrollSection}`)
     },
     copyToClipboard(id) {
-      this.$bus.$emit("showToastNotification");
+      this.$bus.$emit("showToastNotification")
       this.$globalCopyFunc(id);
     },
+
   },
 };
 </script>
@@ -616,4 +609,5 @@ export default {
 .home-links a {
   margin-right: 1rem;
 }
+
 </style>

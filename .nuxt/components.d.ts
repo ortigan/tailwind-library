@@ -25,6 +25,19 @@ declare module 'vue' {
     'AvatarSize': typeof import("../components/Avatar/Size.vue")['default'],
     'AvatarSquare': typeof import("../components/Avatar/Square.vue")['default'],
     'CodeHighlight': typeof import("../components/CodeSnippet/CodeHighlight.vue")['default'],
+    'BadgeCancel': typeof import("../components/Badge/Cancel.vue")['default'],
+    'BadgeDefault': typeof import("../components/Badge/Default.vue")['default'],
+    'BadgeIcon': typeof import("../components/Badge/Icon.vue")['default'],
+    'BadgeLarge': typeof import("../components/Badge/Large.vue")['default'],
+    'BadgeLink': typeof import("../components/Badge/Link.vue")['default'],
+    'BadgeOutline': typeof import("../components/Badge/Outline.vue")['default'],
+    'BadgePill': typeof import("../components/Badge/Pill.vue")['default'],
+    'BadgePillOutline': typeof import("../components/Badge/PillOutline.vue")['default'],
+    'BadgePositioned': typeof import("../components/Badge/Positioned.vue")['default'],
+    'BadgeRectangle': typeof import("../components/Badge/Rectangle.vue")['default'],
+    'BadgeSize': typeof import("../components/Badge/Size.vue")['default'],
+    'BadgeStateColor': typeof import("../components/Badge/StateColor.vue")['default'],
+    'BadgeText': typeof import("../components/Badge/Text.vue")['default'],
     'HeadersHeading': typeof import("../components/Headers/Heading.vue")['default'],
     'HeadersSubHeading': typeof import("../components/Headers/SubHeading.vue")['default'],
     'NavigationMenuItems': typeof import("../components/Navigation/MenuItems.js")['default'],
@@ -53,6 +66,19 @@ declare module 'vue' {
     'AvatarSnippetsShadow': typeof import("../components/Avatar/Snippets/Shadow.vue")['default'],
     'AvatarSnippetsSize': typeof import("../components/Avatar/Snippets/Size.vue")['default'],
     'AvatarSnippetsSquare': typeof import("../components/Avatar/Snippets/Square.vue")['default'],
+    'BadgeSnippetsCancel': typeof import("../components/Badge/Snippets/Cancel.vue")['default'],
+    'BadgeSnippetsDefault': typeof import("../components/Badge/Snippets/default.vue")['default'],
+    'BadgeSnippetsIcon': typeof import("../components/Badge/Snippets/Icon.vue")['default'],
+    'BadgeSnippetsLarge': typeof import("../components/Badge/Snippets/Large.vue")['default'],
+    'BadgeSnippetsLink': typeof import("../components/Badge/Snippets/Link.vue")['default'],
+    'BadgeSnippetsOutline': typeof import("../components/Badge/Snippets/Outline.vue")['default'],
+    'BadgeSnippetsPill': typeof import("../components/Badge/Snippets/Pill.vue")['default'],
+    'BadgeSnippetsPillOutline': typeof import("../components/Badge/Snippets/PillOutline.vue")['default'],
+    'BadgeSnippetsPositioned': typeof import("../components/Badge/Snippets/Positioned.vue")['default'],
+    'BadgeSnippetsRectangle': typeof import("../components/Badge/Snippets/Rectangle.vue")['default'],
+    'BadgeSnippetsSize': typeof import("../components/Badge/Snippets/Size.vue")['default'],
+    'BadgeSnippetsStateColor': typeof import("../components/Badge/Snippets/StateColor.vue")['default'],
+    'BadgeSnippetsText': typeof import("../components/Badge/Snippets/Text.vue")['default'],
     'NuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default'],
     'NuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/layout")['default'],
     'NuxtErrorBoundary': typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default'],
@@ -83,6 +109,19 @@ declare module 'vue' {
     'LazyAvatarSize': typeof import("../components/Avatar/Size.vue")['default'],
     'LazyAvatarSquare': typeof import("../components/Avatar/Square.vue")['default'],
     'LazyCodeHighlight': typeof import("../components/CodeSnippet/CodeHighlight.vue")['default'],
+    'LazyBadgeCancel': typeof import("../components/Badge/Cancel.vue")['default'],
+    'LazyBadgeDefault': typeof import("../components/Badge/Default.vue")['default'],
+    'LazyBadgeIcon': typeof import("../components/Badge/Icon.vue")['default'],
+    'LazyBadgeLarge': typeof import("../components/Badge/Large.vue")['default'],
+    'LazyBadgeLink': typeof import("../components/Badge/Link.vue")['default'],
+    'LazyBadgeOutline': typeof import("../components/Badge/Outline.vue")['default'],
+    'LazyBadgePill': typeof import("../components/Badge/Pill.vue")['default'],
+    'LazyBadgePillOutline': typeof import("../components/Badge/PillOutline.vue")['default'],
+    'LazyBadgePositioned': typeof import("../components/Badge/Positioned.vue")['default'],
+    'LazyBadgeRectangle': typeof import("../components/Badge/Rectangle.vue")['default'],
+    'LazyBadgeSize': typeof import("../components/Badge/Size.vue")['default'],
+    'LazyBadgeStateColor': typeof import("../components/Badge/StateColor.vue")['default'],
+    'LazyBadgeText': typeof import("../components/Badge/Text.vue")['default'],
     'LazyHeadersHeading': typeof import("../components/Headers/Heading.vue")['default'],
     'LazyHeadersSubHeading': typeof import("../components/Headers/SubHeading.vue")['default'],
     'LazyNavigationMenuItems': typeof import("../components/Navigation/MenuItems.js")['default'],
@@ -111,6 +150,19 @@ declare module 'vue' {
     'LazyAvatarSnippetsShadow': typeof import("../components/Avatar/Snippets/Shadow.vue")['default'],
     'LazyAvatarSnippetsSize': typeof import("../components/Avatar/Snippets/Size.vue")['default'],
     'LazyAvatarSnippetsSquare': typeof import("../components/Avatar/Snippets/Square.vue")['default'],
+    'LazyBadgeSnippetsCancel': typeof import("../components/Badge/Snippets/Cancel.vue")['default'],
+    'LazyBadgeSnippetsDefault': typeof import("../components/Badge/Snippets/default.vue")['default'],
+    'LazyBadgeSnippetsIcon': typeof import("../components/Badge/Snippets/Icon.vue")['default'],
+    'LazyBadgeSnippetsLarge': typeof import("../components/Badge/Snippets/Large.vue")['default'],
+    'LazyBadgeSnippetsLink': typeof import("../components/Badge/Snippets/Link.vue")['default'],
+    'LazyBadgeSnippetsOutline': typeof import("../components/Badge/Snippets/Outline.vue")['default'],
+    'LazyBadgeSnippetsPill': typeof import("../components/Badge/Snippets/Pill.vue")['default'],
+    'LazyBadgeSnippetsPillOutline': typeof import("../components/Badge/Snippets/PillOutline.vue")['default'],
+    'LazyBadgeSnippetsPositioned': typeof import("../components/Badge/Snippets/Positioned.vue")['default'],
+    'LazyBadgeSnippetsRectangle': typeof import("../components/Badge/Snippets/Rectangle.vue")['default'],
+    'LazyBadgeSnippetsSize': typeof import("../components/Badge/Snippets/Size.vue")['default'],
+    'LazyBadgeSnippetsStateColor': typeof import("../components/Badge/Snippets/StateColor.vue")['default'],
+    'LazyBadgeSnippetsText': typeof import("../components/Badge/Snippets/Text.vue")['default'],
     'LazyNuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default'],
     'LazyNuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/layout")['default'],
     'LazyNuxtErrorBoundary': typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default'],
@@ -143,6 +195,19 @@ export const AvatarShadow: typeof import("../components/Avatar/Shadow.vue")['def
 export const AvatarSize: typeof import("../components/Avatar/Size.vue")['default']
 export const AvatarSquare: typeof import("../components/Avatar/Square.vue")['default']
 export const CodeHighlight: typeof import("../components/CodeSnippet/CodeHighlight.vue")['default']
+export const BadgeCancel: typeof import("../components/Badge/Cancel.vue")['default']
+export const BadgeDefault: typeof import("../components/Badge/Default.vue")['default']
+export const BadgeIcon: typeof import("../components/Badge/Icon.vue")['default']
+export const BadgeLarge: typeof import("../components/Badge/Large.vue")['default']
+export const BadgeLink: typeof import("../components/Badge/Link.vue")['default']
+export const BadgeOutline: typeof import("../components/Badge/Outline.vue")['default']
+export const BadgePill: typeof import("../components/Badge/Pill.vue")['default']
+export const BadgePillOutline: typeof import("../components/Badge/PillOutline.vue")['default']
+export const BadgePositioned: typeof import("../components/Badge/Positioned.vue")['default']
+export const BadgeRectangle: typeof import("../components/Badge/Rectangle.vue")['default']
+export const BadgeSize: typeof import("../components/Badge/Size.vue")['default']
+export const BadgeStateColor: typeof import("../components/Badge/StateColor.vue")['default']
+export const BadgeText: typeof import("../components/Badge/Text.vue")['default']
 export const HeadersHeading: typeof import("../components/Headers/Heading.vue")['default']
 export const HeadersSubHeading: typeof import("../components/Headers/SubHeading.vue")['default']
 export const NavigationMenuItems: typeof import("../components/Navigation/MenuItems.js")['default']
@@ -171,6 +236,19 @@ export const AvatarSnippetsPresenceRing: typeof import("../components/Avatar/Sni
 export const AvatarSnippetsShadow: typeof import("../components/Avatar/Snippets/Shadow.vue")['default']
 export const AvatarSnippetsSize: typeof import("../components/Avatar/Snippets/Size.vue")['default']
 export const AvatarSnippetsSquare: typeof import("../components/Avatar/Snippets/Square.vue")['default']
+export const BadgeSnippetsCancel: typeof import("../components/Badge/Snippets/Cancel.vue")['default']
+export const BadgeSnippetsDefault: typeof import("../components/Badge/Snippets/default.vue")['default']
+export const BadgeSnippetsIcon: typeof import("../components/Badge/Snippets/Icon.vue")['default']
+export const BadgeSnippetsLarge: typeof import("../components/Badge/Snippets/Large.vue")['default']
+export const BadgeSnippetsLink: typeof import("../components/Badge/Snippets/Link.vue")['default']
+export const BadgeSnippetsOutline: typeof import("../components/Badge/Snippets/Outline.vue")['default']
+export const BadgeSnippetsPill: typeof import("../components/Badge/Snippets/Pill.vue")['default']
+export const BadgeSnippetsPillOutline: typeof import("../components/Badge/Snippets/PillOutline.vue")['default']
+export const BadgeSnippetsPositioned: typeof import("../components/Badge/Snippets/Positioned.vue")['default']
+export const BadgeSnippetsRectangle: typeof import("../components/Badge/Snippets/Rectangle.vue")['default']
+export const BadgeSnippetsSize: typeof import("../components/Badge/Snippets/Size.vue")['default']
+export const BadgeSnippetsStateColor: typeof import("../components/Badge/Snippets/StateColor.vue")['default']
+export const BadgeSnippetsText: typeof import("../components/Badge/Snippets/Text.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
 export const NuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/layout")['default']
 export const NuxtErrorBoundary: typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default']
@@ -201,6 +279,19 @@ export const LazyAvatarShadow: typeof import("../components/Avatar/Shadow.vue")[
 export const LazyAvatarSize: typeof import("../components/Avatar/Size.vue")['default']
 export const LazyAvatarSquare: typeof import("../components/Avatar/Square.vue")['default']
 export const LazyCodeHighlight: typeof import("../components/CodeSnippet/CodeHighlight.vue")['default']
+export const LazyBadgeCancel: typeof import("../components/Badge/Cancel.vue")['default']
+export const LazyBadgeDefault: typeof import("../components/Badge/Default.vue")['default']
+export const LazyBadgeIcon: typeof import("../components/Badge/Icon.vue")['default']
+export const LazyBadgeLarge: typeof import("../components/Badge/Large.vue")['default']
+export const LazyBadgeLink: typeof import("../components/Badge/Link.vue")['default']
+export const LazyBadgeOutline: typeof import("../components/Badge/Outline.vue")['default']
+export const LazyBadgePill: typeof import("../components/Badge/Pill.vue")['default']
+export const LazyBadgePillOutline: typeof import("../components/Badge/PillOutline.vue")['default']
+export const LazyBadgePositioned: typeof import("../components/Badge/Positioned.vue")['default']
+export const LazyBadgeRectangle: typeof import("../components/Badge/Rectangle.vue")['default']
+export const LazyBadgeSize: typeof import("../components/Badge/Size.vue")['default']
+export const LazyBadgeStateColor: typeof import("../components/Badge/StateColor.vue")['default']
+export const LazyBadgeText: typeof import("../components/Badge/Text.vue")['default']
 export const LazyHeadersHeading: typeof import("../components/Headers/Heading.vue")['default']
 export const LazyHeadersSubHeading: typeof import("../components/Headers/SubHeading.vue")['default']
 export const LazyNavigationMenuItems: typeof import("../components/Navigation/MenuItems.js")['default']
@@ -229,6 +320,19 @@ export const LazyAvatarSnippetsPresenceRing: typeof import("../components/Avatar
 export const LazyAvatarSnippetsShadow: typeof import("../components/Avatar/Snippets/Shadow.vue")['default']
 export const LazyAvatarSnippetsSize: typeof import("../components/Avatar/Snippets/Size.vue")['default']
 export const LazyAvatarSnippetsSquare: typeof import("../components/Avatar/Snippets/Square.vue")['default']
+export const LazyBadgeSnippetsCancel: typeof import("../components/Badge/Snippets/Cancel.vue")['default']
+export const LazyBadgeSnippetsDefault: typeof import("../components/Badge/Snippets/default.vue")['default']
+export const LazyBadgeSnippetsIcon: typeof import("../components/Badge/Snippets/Icon.vue")['default']
+export const LazyBadgeSnippetsLarge: typeof import("../components/Badge/Snippets/Large.vue")['default']
+export const LazyBadgeSnippetsLink: typeof import("../components/Badge/Snippets/Link.vue")['default']
+export const LazyBadgeSnippetsOutline: typeof import("../components/Badge/Snippets/Outline.vue")['default']
+export const LazyBadgeSnippetsPill: typeof import("../components/Badge/Snippets/Pill.vue")['default']
+export const LazyBadgeSnippetsPillOutline: typeof import("../components/Badge/Snippets/PillOutline.vue")['default']
+export const LazyBadgeSnippetsPositioned: typeof import("../components/Badge/Snippets/Positioned.vue")['default']
+export const LazyBadgeSnippetsRectangle: typeof import("../components/Badge/Snippets/Rectangle.vue")['default']
+export const LazyBadgeSnippetsSize: typeof import("../components/Badge/Snippets/Size.vue")['default']
+export const LazyBadgeSnippetsStateColor: typeof import("../components/Badge/Snippets/StateColor.vue")['default']
+export const LazyBadgeSnippetsText: typeof import("../components/Badge/Snippets/Text.vue")['default']
 export const LazyNuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
 export const LazyNuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/layout")['default']
 export const LazyNuxtErrorBoundary: typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default']

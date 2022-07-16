@@ -176,6 +176,30 @@
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
+            <div class="pb-4">
+              <p>
+                I have used
+                <a href="https://heroicons.com/" class="text-sky-700 dark:text-sky-500"
+                  >heroicons</a
+                >
+                for this component. You can user any icon according to the
+                constraints. I have provided with code snippet only for one
+                component as rest of the components are same, just have
+                different colors. All the components hvae
+                <span class="text-sky-900 dark:text-sky-600">text-'color'-700</span> and
+                <span class="text-sky-900 dark:text-sky-600">bg-'color'-100</span> for all the
+                components. You can refer
+                <a
+                  href="https://tailwindcss.com/docs/customizing-colors"
+                  class="text-sky-700 dark:text-sky-500"
+                  >Tailwind colors</a
+                >
+                to experiment with different colors.
+                <span class="text-sky-800 dark:text-sky-500 italic"
+                  >Same goes for following components.</span
+                >
+              </p>
+            </div>
             <UtilsComponentPad>
               <AlertWithIcon />
             </UtilsComponentPad>
@@ -213,6 +237,13 @@
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
+              <div class="pb-4">
+              <p>
+                This component has a top border of 2px. You can always increase
+                border size and can change color as mentioned in above component
+                info.
+              </p>
+            </div>
             <UtilsComponentPad>
               <AlertWithBorder />
             </UtilsComponentPad>
