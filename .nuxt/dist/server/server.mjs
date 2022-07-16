@@ -211,6 +211,26 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /components/BreadCrumb/Separator.vue ($id_92fc7fca)
 // - /components/BreadCrumb/Snippets/Separator.vue ($id_0d2381a1)
 // - /pages/breadcrumb.vue?macro=true ($id_2daed590)
+// - /components/Button/Default.vue ($id_4ed8d246)
+// - /components/Button/Snippets/Default.vue ($id_b4af2396)
+// - /components/Button/Outline.vue ($id_fa764bca)
+// - /components/Button/Snippets/Outline.vue ($id_eebbab81)
+// - /components/Button/StateColor.vue ($id_bb5459bb)
+// - /components/Button/Snippets/StateColor.vue ($id_ed9f041d)
+// - /components/Button/Size.vue ($id_e153cb94)
+// - /components/Button/Snippets/Size.vue ($id_917e3c8e)
+// - /components/Button/DualIcon.vue ($id_6879b767)
+// - /components/Button/Snippets/DualIcon.vue ($id_81899cd7)
+// - /components/Button/LightColor.vue ($id_07b3cc08)
+// - /components/Button/Snippets/LightColor.vue ($id_6cd68d69)
+// - /components/Button/DarkColor.vue ($id_c288ee0d)
+// - /components/Button/Snippets/DarkColor.vue ($id_84298af9)
+// - /components/Button/ColoredShadow.vue ($id_289dc474)
+// - /components/Button/Snippets/ColoredShadow.vue ($id_40c240a6)
+// - /components/Button/Gradient.vue ($id_66639e42)
+// - /components/Button/Snippets/Gradient.vue ($id_b99ef559)
+// - /components/Button/Appsmith.vue ($id_f75a09c9)
+// - /components/Button/Snippets/Appsmith.vue ($id_1c421991)
 // - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
 // - /pages/index.vue?macro=true ($id_5dd70240)
 // - /pages/About.vue ($id_4fd34246)
@@ -1675,7 +1695,7 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.cs
 
 // --------------------
 const $id_f75548e1 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap\");\n/*! tailwindcss v3.1.6 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[multiple],[type=date],[type=datetime-local],[type=email],[type=month],[type=number],[type=password],[type=search],[type=tel],[type=text],[type=time],[type=url],[type=week],select,textarea{--tw-shadow:0 0 #0000;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;border-color:#6b7280;border-radius:0;border-width:1px;font-size:1rem;line-height:1.5rem;padding:.5rem .75rem}[multiple]:focus,[type=date]:focus,[type=datetime-local]:focus,[type=email]:focus,[type=month]:focus,[type=number]:focus,[type=password]:focus,[type=search]:focus,[type=tel]:focus,[type=text]:focus,[type=time]:focus,[type=url]:focus,[type=week]:focus,select:focus,textarea:focus{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);border-color:#2563eb;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);outline:2px solid transparent;outline-offset:2px}input::-moz-placeholder,textarea::-moz-placeholder{color:#6b7280;opacity:1}input::placeholder,textarea::placeholder{color:#6b7280;opacity:1}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-date-and-time-value{min-height:1.5em}::-webkit-datetime-edit,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-meridiem-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-year-field{padding-bottom:0;padding-top:0}select{color-adjust:exact;background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3E%3C/svg%3E\");background-position:right .5rem center;background-repeat:no-repeat;background-size:1.5em 1.5em;padding-right:2.5rem;-webkit-print-color-adjust:exact;print-color-adjust:exact}[multiple]{color-adjust:unset;background-image:none;background-position:0 0;background-repeat:unset;background-size:initial;padding-right:.75rem;-webkit-print-color-adjust:unset;print-color-adjust:unset}[type=checkbox],[type=radio]{color-adjust:exact;--tw-shadow:0 0 #0000;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;background-origin:border-box;border-color:#6b7280;border-width:1px;color:#2563eb;display:inline-block;flex-shrink:0;height:1rem;padding:0;-webkit-print-color-adjust:exact;print-color-adjust:exact;-webkit-user-select:none;-moz-user-select:none;user-select:none;vertical-align:middle;width:1rem}[type=checkbox]{border-radius:0}[type=radio]{border-radius:100%}[type=checkbox]:focus,[type=radio]:focus{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:2px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);outline:2px solid transparent;outline-offset:2px}[type=checkbox]:checked,[type=radio]:checked{background-color:currentColor;background-position:50%;background-repeat:no-repeat;background-size:100% 100%;border-color:transparent}[type=checkbox]:checked{background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.207 4.793a1 1 0 0 1 0 1.414l-5 5a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L6.5 9.086l4.293-4.293a1 1 0 0 1 1.414 0z'/%3E%3C/svg%3E\")}[type=radio]:checked{background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='8' cy='8' r='3'/%3E%3C/svg%3E\")}[type=checkbox]:checked:focus,[type=checkbox]:checked:hover,[type=radio]:checked:focus,[type=radio]:checked:hover{background-color:currentColor;border-color:transparent}[type=checkbox]:indeterminate{background-color:currentColor;background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3E%3Cpath stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3E%3C/svg%3E\");background-position:50%;background-repeat:no-repeat;background-size:100% 100%;border-color:transparent}[type=checkbox]:indeterminate:focus,[type=checkbox]:indeterminate:hover{background-color:currentColor;border-color:transparent}[type=file]{background:unset;border-color:inherit;border-radius:0;border-width:0;font-size:unset;line-height:inherit;padding:0}[type=file]:focus{outline:1px solid ButtonText;outline:1px auto -webkit-focus-ring-color}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.container{margin-left:auto;margin-right:auto;padding-left:.5rem;padding-right:.5rem;width:100%}@media (min-width:340px){.container{max-width:340px}}@media (min-width:640px){.container{max-width:640px;padding-left:1rem;padding-right:1rem}}@media (min-width:768px){.container{max-width:768px;padding-left:1rem;padding-right:1rem}}@media (min-width:1024px){.container{max-width:1024px;padding-left:2rem;padding-right:2rem}}@media (min-width:1280px){.container{max-width:1280px;padding-left:3rem;padding-right:3rem}}@media (min-width:1536px){.container{max-width:1536px;padding-left:3rem;padding-right:3rem}}.absolute{position:absolute}.relative{position:relative}.top-4{top:1rem}.right-4{right:1rem}.-right-2{right:-.5rem}.-top-2{top:-.5rem}.-bottom-2{bottom:-.5rem}.-right-1{right:-.25rem}.-bottom-1{bottom:-.25rem}.-right-3{right:-.75rem}.right-0{right:0}.top-0{top:0}.bottom-0{bottom:0}.-right-0{right:0}.-top-0{top:0}.-bottom-0{bottom:0}.-top-1{top:-.25rem}.-top-3{top:-.75rem}.mt-6{margin-top:1.5rem}.mt-4{margin-top:1rem}.ml-2{margin-left:.5rem}.mr-4{margin-right:1rem}.ml-1{margin-left:.25rem}.mr-1{margin-right:.25rem}.mt-12{margin-top:3rem}.flex{display:flex}.table{display:table}.contents{display:contents}.hidden{display:none}.h-28{height:7rem}.h-6{height:1.5rem}.h-16{height:4rem}.h-screen{height:100vh}.h-5{height:1.25rem}.h-10{height:2.5rem}.h-full{height:100%}.h-4{height:1rem}.h-9{height:2.25rem}.h-3{height:.75rem}.h-8{height:2rem}.h-2\\.5{height:.625rem}.h-2{height:.5rem}.h-12{height:3rem}.h-14{height:3.5rem}.h-3\\.5{height:.875rem}.h-20{height:5rem}.h-11{height:2.75rem}.h-1\\.5{height:.375rem}.h-1{height:.25rem}.min-h-screen{min-height:100vh}.w-full{width:100%}.w-56{width:14rem}.w-44{width:11rem}.w-40{width:10rem}.w-fit{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.w-5{width:1.25rem}.w-6{width:1.5rem}.w-10{width:2.5rem}.w-4{width:1rem}.w-9{width:2.25rem}.w-3{width:.75rem}.w-8{width:2rem}.w-2\\.5{width:.625rem}.w-2{width:.5rem}.w-12{width:3rem}.w-14{width:3.5rem}.w-3\\.5{width:.875rem}.w-16{width:4rem}.w-20{width:5rem}.w-1\\/3{width:33.333333%}.w-11{width:2.75rem}.w-1\\.5{width:.375rem}.w-1{width:.25rem}.flex-1{flex:1 1 0%}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-4{gap:1rem}.gap-1{gap:.25rem}.gap-2{gap:.5rem}.gap-3{gap:.75rem}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.5rem*var(--tw-space-y-reverse));margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)))}.space-x-5>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.25rem*var(--tw-space-x-reverse))}.space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1rem*var(--tw-space-x-reverse))}.space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.5rem*var(--tw-space-x-reverse))}.space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.25rem*var(--tw-space-y-reverse));margin-top:calc(.25rem*(1 - var(--tw-space-y-reverse)))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1rem*var(--tw-space-y-reverse));margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)))}.space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.5rem*var(--tw-space-x-reverse))}.space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1.5rem*var(--tw-space-y-reverse));margin-top:calc(1.5rem*(1 - var(--tw-space-y-reverse)))}.-space-x-3>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(-.75rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(-.75rem*var(--tw-space-x-reverse))}.space-x-1>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.25rem*var(--tw-space-x-reverse))}.overflow-y-auto{overflow-y:auto}.overflow-y-hidden{overflow-y:hidden}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-2xl{border-radius:1rem}.rounded-md{border-radius:.375rem}.rounded-sm{border-radius:.125rem}.rounded-xl{border-radius:.75rem}.rounded{border-radius:.25rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-l-2{border-left-width:2px}.border-t-2{border-top-width:2px}.border-dashed{border-style:dashed}.border-neutral-700{--tw-border-opacity:1;border-color:rgb(64 64 64/var(--tw-border-opacity))}.border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81/var(--tw-border-opacity))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219/var(--tw-border-opacity))}.border-gray-900{--tw-border-opacity:1;border-color:rgb(17 24 39/var(--tw-border-opacity))}.border-sky-700{--tw-border-opacity:1;border-color:rgb(3 105 161/var(--tw-border-opacity))}.border-emerald-700{--tw-border-opacity:1;border-color:rgb(4 120 87/var(--tw-border-opacity))}.border-amber-700{--tw-border-opacity:1;border-color:rgb(180 83 9/var(--tw-border-opacity))}.border-rose-700{--tw-border-opacity:1;border-color:rgb(190 18 60/var(--tw-border-opacity))}.border-slate-900{--tw-border-opacity:1;border-color:rgb(15 23 42/var(--tw-border-opacity))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255/var(--tw-border-opacity))}.border-gray-400{--tw-border-opacity:1;border-color:rgb(156 163 175/var(--tw-border-opacity))}.border-cyan-500{--tw-border-opacity:1;border-color:rgb(6 182 212/var(--tw-border-opacity))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235/var(--tw-border-opacity))}.border-sky-600{--tw-border-opacity:1;border-color:rgb(2 132 199/var(--tw-border-opacity))}.border-emerald-600{--tw-border-opacity:1;border-color:rgb(5 150 105/var(--tw-border-opacity))}.border-amber-600{--tw-border-opacity:1;border-color:rgb(217 119 6/var(--tw-border-opacity))}.border-rose-600{--tw-border-opacity:1;border-color:rgb(225 29 72/var(--tw-border-opacity))}.border-gray-600{--tw-border-opacity:1;border-color:rgb(75 85 99/var(--tw-border-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity))}.bg-neutral-50{--tw-bg-opacity:1;background-color:rgb(250 250 250/var(--tw-bg-opacity))}.bg-\\[\\#0A0C25\\]{--tw-bg-opacity:1;background-color:rgb(10 12 37/var(--tw-bg-opacity))}.bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.bg-zinc-100{--tw-bg-opacity:1;background-color:rgb(244 244 245/var(--tw-bg-opacity))}.bg-rose-100{--tw-bg-opacity:1;background-color:rgb(255 228 230/var(--tw-bg-opacity))}.bg-sky-100{--tw-bg-opacity:1;background-color:rgb(224 242 254/var(--tw-bg-opacity))}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229/var(--tw-bg-opacity))}.bg-amber-100{--tw-bg-opacity:1;background-color:rgb(254 243 199/var(--tw-bg-opacity))}.bg-yellow-400{--tw-bg-opacity:1;background-color:rgb(250 204 21/var(--tw-bg-opacity))}.bg-cyan-600{--tw-bg-opacity:1;background-color:rgb(8 145 178/var(--tw-bg-opacity))}.bg-violet-500{--tw-bg-opacity:1;background-color:rgb(139 92 246/var(--tw-bg-opacity))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254/var(--tw-bg-opacity))}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246/var(--tw-bg-opacity))}.bg-pink-300{--tw-bg-opacity:1;background-color:rgb(249 168 212/var(--tw-bg-opacity))}.bg-rose-500{--tw-bg-opacity:1;background-color:rgb(244 63 94/var(--tw-bg-opacity))}.bg-gray-500{--tw-bg-opacity:1;background-color:rgb(107 114 128/var(--tw-bg-opacity))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94/var(--tw-bg-opacity))}.bg-cyan-500{--tw-bg-opacity:1;background-color:rgb(6 182 212/var(--tw-bg-opacity))}.bg-yellow-500{--tw-bg-opacity:1;background-color:rgb(234 179 8/var(--tw-bg-opacity))}.bg-green-400{--tw-bg-opacity:1;background-color:rgb(74 222 128/var(--tw-bg-opacity))}.bg-purple-400{--tw-bg-opacity:1;background-color:rgb(192 132 252/var(--tw-bg-opacity))}.bg-indigo-300{--tw-bg-opacity:1;background-color:rgb(165 180 252/var(--tw-bg-opacity))}.bg-red-400{--tw-bg-opacity:1;background-color:rgb(248 113 113/var(--tw-bg-opacity))}.bg-fuchsia-600{--tw-bg-opacity:1;background-color:rgb(192 38 211/var(--tw-bg-opacity))}.bg-sky-400{--tw-bg-opacity:1;background-color:rgb(56 189 248/var(--tw-bg-opacity))}.bg-amber-400{--tw-bg-opacity:1;background-color:rgb(251 191 36/var(--tw-bg-opacity))}.bg-teal-400{--tw-bg-opacity:1;background-color:rgb(45 212 191/var(--tw-bg-opacity))}.bg-red-500{--tw-bg-opacity:1;background-color:rgb(239 68 68/var(--tw-bg-opacity))}.bg-sky-300{--tw-bg-opacity:1;background-color:rgb(125 211 252/var(--tw-bg-opacity))}.bg-yellow-200{--tw-bg-opacity:1;background-color:rgb(254 240 138/var(--tw-bg-opacity))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity))}.bg-gray-400{--tw-bg-opacity:1;background-color:rgb(156 163 175/var(--tw-bg-opacity))}.bg-blue-400{--tw-bg-opacity:1;background-color:rgb(96 165 250/var(--tw-bg-opacity))}.bg-teal-300{--tw-bg-opacity:1;background-color:rgb(94 234 212/var(--tw-bg-opacity))}.bg-emerald-400{--tw-bg-opacity:1;background-color:rgb(52 211 153/var(--tw-bg-opacity))}.bg-amber-300{--tw-bg-opacity:1;background-color:rgb(252 211 77/var(--tw-bg-opacity))}.bg-rose-300{--tw-bg-opacity:1;background-color:rgb(253 164 175/var(--tw-bg-opacity))}.bg-red-300{--tw-bg-opacity:1;background-color:rgb(252 165 165/var(--tw-bg-opacity))}.bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.bg-yellow-100{--tw-bg-opacity:1;background-color:rgb(254 249 195/var(--tw-bg-opacity))}.bg-red-100{--tw-bg-opacity:1;background-color:rgb(254 226 226/var(--tw-bg-opacity))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity))}.bg-gray-300{--tw-bg-opacity:1;background-color:rgb(209 213 219/var(--tw-bg-opacity))}.bg-gray-600{--tw-bg-opacity:1;background-color:rgb(75 85 99/var(--tw-bg-opacity))}.object-cover{-o-object-fit:cover;object-fit:cover}.p-4{padding:1rem}.p-0\\.5{padding:.125rem}.p-0{padding:0}.p-1{padding:.25rem}.p-1\\.5{padding:.375rem}.py-1{padding-bottom:.25rem;padding-top:.25rem}.px-4{padding-left:1rem;padding-right:1rem}.px-2{padding-left:.5rem;padding-right:.5rem}.py-2{padding-bottom:.5rem;padding-top:.5rem}.px-1{padding-left:.25rem;padding-right:.25rem}.px-0\\.5{padding-left:.125rem;padding-right:.125rem}.px-0{padding-left:0;padding-right:0}.px-3{padding-left:.75rem;padding-right:.75rem}.py-0\\.5{padding-bottom:.125rem;padding-top:.125rem}.py-0{padding-bottom:0;padding-top:0}.px-2\\.5{padding-left:.625rem;padding-right:.625rem}.px-1\\.5{padding-left:.375rem;padding-right:.375rem}.py-3{padding-bottom:.75rem;padding-top:.75rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.py-10{padding-bottom:2.5rem;padding-top:2.5rem}.px-10{padding-left:2.5rem;padding-right:2.5rem}.pl-4{padding-left:1rem}.pr-12{padding-right:3rem}.pb-20{padding-bottom:5rem}.pt-2{padding-top:.5rem}.pb-4{padding-bottom:1rem}.pt-1{padding-top:.25rem}.pl-1{padding-left:.25rem}.text-right{text-align:right}.text-xs{font-size:.75rem}.text-base{font-size:1rem}.text-sm{font-size:.875rem}.text-7xl{font-size:5rem}.text-xxs{font-size:.7rem}.text-xl{font-size:1.25rem}.text-2xl{font-size:1.5rem}.text-lg{font-size:1.125rem}.text-3xl{font-size:1.875rem}.font-semibold{font-weight:600}.font-normal{font-weight:400}.font-thin{font-weight:100}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-light{font-weight:300}.uppercase{text-transform:uppercase}.italic{font-style:italic}.tracking-tight{letter-spacing:-.025em}.tracking-tighter{letter-spacing:-.05em}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85/var(--tw-text-opacity))}.text-sky-700{--tw-text-opacity:1;color:rgb(3 105 161/var(--tw-text-opacity))}.text-sky-900{--tw-text-opacity:1;color:rgb(12 74 110/var(--tw-text-opacity))}.text-sky-800{--tw-text-opacity:1;color:rgb(7 89 133/var(--tw-text-opacity))}.text-sky-500{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.text-zinc-400{--tw-text-opacity:1;color:rgb(161 161 170/var(--tw-text-opacity))}.text-rose-700{--tw-text-opacity:1;color:rgb(190 18 60/var(--tw-text-opacity))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87/var(--tw-text-opacity))}.text-amber-700{--tw-text-opacity:1;color:rgb(180 83 9/var(--tw-text-opacity))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216/var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94/var(--tw-text-opacity))}.text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.text-cyan-500{--tw-text-opacity:1;color:rgb(6 182 212/var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.text-sky-600{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105/var(--tw-text-opacity))}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6/var(--tw-text-opacity))}.text-rose-600{--tw-text-opacity:1;color:rgb(225 29 72/var(--tw-text-opacity))}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.text-blue-500{--tw-text-opacity:1;color:rgb(59 130 246/var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.shadow-lg,.shadow-md{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color)}.shadow-gray-300{--tw-shadow-color:#d1d5db;--tw-shadow:var(--tw-shadow-colored)}.shadow-gray-400{--tw-shadow-color:#9ca3af;--tw-shadow:var(--tw-shadow-colored)}.shadow-blue-300{--tw-shadow-color:#93c5fd;--tw-shadow:var(--tw-shadow-colored)}.shadow-red-300{--tw-shadow-color:#fca5a5;--tw-shadow:var(--tw-shadow-colored)}.shadow-gray-200{--tw-shadow-color:#e5e7eb;--tw-shadow:var(--tw-shadow-colored)}.outline{outline-style:solid}.ring-2{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.ring,.ring-2{box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.ring{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.ring-indigo-400{--tw-ring-opacity:1;--tw-ring-color:rgb(129 140 248/var(--tw-ring-opacity))}.ring-green-300{--tw-ring-opacity:1;--tw-ring-color:rgb(134 239 172/var(--tw-ring-opacity))}.ring-red-300{--tw-ring-opacity:1;--tw-ring-color:rgb(252 165 165/var(--tw-ring-opacity))}.ring-sky-300{--tw-ring-opacity:1;--tw-ring-color:rgb(125 211 252/var(--tw-ring-opacity))}.ring-emerald-400{--tw-ring-opacity:1;--tw-ring-color:rgb(52 211 153/var(--tw-ring-opacity))}.ring-blue-300{--tw-ring-opacity:1;--tw-ring-color:rgb(147 197 253/var(--tw-ring-opacity))}.ring-red-400{--tw-ring-opacity:1;--tw-ring-color:rgb(248 113 113/var(--tw-ring-opacity))}.ring-green-400{--tw-ring-opacity:1;--tw-ring-color:rgb(74 222 128/var(--tw-ring-opacity))}.transition{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-all{transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}html{font-family:\"Inter\",sans-serif;font-family:\"Montserrat\",sans-serif}::-webkit-scrollbar{height:12px;width:5px}::-webkit-scrollbar-track{border:1px solid #8c8c8c;border-radius:10px}::-webkit-scrollbar-thumb{background:#848484;border-radius:10px}::-webkit-scrollbar-thumb:hover{background:#909090}.no-scrollbar::-webkit-scrollbar{display:none}.no-scrollbar{-ms-overflow-style:none;scrollbar-width:none}pre[class*=language-]{border-radius:10px!important;font-size:.9rem;margin:.5em 0;overflow:auto;padding:1em}.light pre[class*=language-]{background:#f5f5f5!important;padding:1.5rem}.dark pre[class*=language-]{background:#171717!important;padding:1.5rem}.fadeSnippet-enter-active{-webkit-animation:fade-in .2s;animation:fade-in .2s}.fadeSnippet-leave-active{-webkit-animation:fade-out .2s;animation:fade-out .2s}@-webkit-keyframes fade-in{0%{transform:translateY(10px)}to{transform:translateY(0)}}@keyframes fade-in{0%{transform:translateY(10px)}to{transform:translateY(0)}}@-webkit-keyframes fade-out{0%{transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}@keyframes fade-out{0%{transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}.hover\\:mr-2:hover{margin-right:.5rem}.hover\\:h-10:hover{height:2.5rem}.hover\\:w-10:hover{width:2.5rem}.hover\\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\\:cursor-pointer:hover{cursor:pointer}.hover\\:bg-gray-200:hover{--tw-bg-opacity:1;background-color:rgb(229 231 235/var(--tw-bg-opacity))}.hover\\:bg-blue-200:hover{--tw-bg-opacity:1;background-color:rgb(191 219 254/var(--tw-bg-opacity))}.hover\\:bg-gray-800:hover{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.hover\\:bg-indigo-200:hover{--tw-bg-opacity:1;background-color:rgb(199 210 254/var(--tw-bg-opacity))}.hover\\:bg-sky-200:hover{--tw-bg-opacity:1;background-color:rgb(186 230 253/var(--tw-bg-opacity))}.hover\\:bg-teal-200:hover{--tw-bg-opacity:1;background-color:rgb(153 246 228/var(--tw-bg-opacity))}.hover\\:bg-rose-200:hover{--tw-bg-opacity:1;background-color:rgb(254 205 211/var(--tw-bg-opacity))}.hover\\:bg-red-200:hover{--tw-bg-opacity:1;background-color:rgb(254 202 202/var(--tw-bg-opacity))}.hover\\:bg-emerald-200:hover{--tw-bg-opacity:1;background-color:rgb(167 243 208/var(--tw-bg-opacity))}.hover\\:bg-yellow-200:hover{--tw-bg-opacity:1;background-color:rgb(254 240 138/var(--tw-bg-opacity))}.hover\\:bg-zinc-200:hover{--tw-bg-opacity:1;background-color:rgb(228 228 231/var(--tw-bg-opacity))}.hover\\:bg-gray-900:hover{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.hover\\:text-sky-800:hover{--tw-text-opacity:1;color:rgb(7 89 133/var(--tw-text-opacity))}.hover\\:text-emerald-800:hover{--tw-text-opacity:1;color:rgb(6 95 70/var(--tw-text-opacity))}.hover\\:text-amber-800:hover{--tw-text-opacity:1;color:rgb(146 64 14/var(--tw-text-opacity))}.hover\\:text-rose-800:hover{--tw-text-opacity:1;color:rgb(159 18 57/var(--tw-text-opacity))}.hover\\:text-gray-500:hover{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.hover\\:shadow-none:hover{--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.dark .dark\\:border-gray-900{--tw-border-opacity:1;border-color:rgb(17 24 39/var(--tw-border-opacity))}.dark .dark\\:border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55/var(--tw-border-opacity))}.dark .dark\\:border-\\[\\#2D2D2D\\]{--tw-border-opacity:1;border-color:rgb(45 45 45/var(--tw-border-opacity))}.dark .dark\\:border-b-\\[\\#2D2D2D\\]{--tw-border-opacity:1;border-bottom-color:rgb(45 45 45/var(--tw-border-opacity))}.dark .dark\\:bg-neutral-800{--tw-bg-opacity:1;background-color:rgb(38 38 38/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#212121\\]{--tw-bg-opacity:1;background-color:rgb(33 33 33/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#121212\\]{--tw-bg-opacity:1;background-color:rgb(18 18 18/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-800{--tw-bg-opacity:1;background-color:rgb(39 39 42/var(--tw-bg-opacity))}.dark .dark\\:bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity))}.dark .dark\\:text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.dark .dark\\:text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.dark .dark\\:text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.dark .dark\\:text-sky-500{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.dark .dark\\:text-sky-600{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.dark .dark\\:text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.dark .dark\\:text-zinc-400{--tw-text-opacity:1;color:rgb(161 161 170/var(--tw-text-opacity))}.dark .dark\\:text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.dark .dark\\:text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.dark .dark\\:text-sky-400{--tw-text-opacity:1;color:rgb(56 189 248/var(--tw-text-opacity))}.dark .dark\\:text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.dark .dark\\:text-neutral-200{--tw-text-opacity:1;color:rgb(229 229 229/var(--tw-text-opacity))}.dark .dark\\:text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity))}.dark .dark\\:text-zinc-200{--tw-text-opacity:1;color:rgb(228 228 231/var(--tw-text-opacity))}.dark .dark\\:text-zinc-100{--tw-text-opacity:1;color:rgb(244 244 245/var(--tw-text-opacity))}@media (min-width:768px){.md\\:block{display:block}.md\\:px-24{padding-left:6rem;padding-right:6rem}}@media (min-width:1024px){.lg\\:block{display:block}}";
+__vite_ssr_exports__.default = "@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap\");\n/*! tailwindcss v3.1.6 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[multiple],[type=date],[type=datetime-local],[type=email],[type=month],[type=number],[type=password],[type=search],[type=tel],[type=text],[type=time],[type=url],[type=week],select,textarea{--tw-shadow:0 0 #0000;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;border-color:#6b7280;border-radius:0;border-width:1px;font-size:1rem;line-height:1.5rem;padding:.5rem .75rem}[multiple]:focus,[type=date]:focus,[type=datetime-local]:focus,[type=email]:focus,[type=month]:focus,[type=number]:focus,[type=password]:focus,[type=search]:focus,[type=tel]:focus,[type=text]:focus,[type=time]:focus,[type=url]:focus,[type=week]:focus,select:focus,textarea:focus{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);border-color:#2563eb;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);outline:2px solid transparent;outline-offset:2px}input::-moz-placeholder,textarea::-moz-placeholder{color:#6b7280;opacity:1}input::placeholder,textarea::placeholder{color:#6b7280;opacity:1}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-date-and-time-value{min-height:1.5em}::-webkit-datetime-edit,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-meridiem-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-year-field{padding-bottom:0;padding-top:0}select{color-adjust:exact;background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3E%3C/svg%3E\");background-position:right .5rem center;background-repeat:no-repeat;background-size:1.5em 1.5em;padding-right:2.5rem;-webkit-print-color-adjust:exact;print-color-adjust:exact}[multiple]{color-adjust:unset;background-image:none;background-position:0 0;background-repeat:unset;background-size:initial;padding-right:.75rem;-webkit-print-color-adjust:unset;print-color-adjust:unset}[type=checkbox],[type=radio]{color-adjust:exact;--tw-shadow:0 0 #0000;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;background-origin:border-box;border-color:#6b7280;border-width:1px;color:#2563eb;display:inline-block;flex-shrink:0;height:1rem;padding:0;-webkit-print-color-adjust:exact;print-color-adjust:exact;-webkit-user-select:none;-moz-user-select:none;user-select:none;vertical-align:middle;width:1rem}[type=checkbox]{border-radius:0}[type=radio]{border-radius:100%}[type=checkbox]:focus,[type=radio]:focus{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:2px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);outline:2px solid transparent;outline-offset:2px}[type=checkbox]:checked,[type=radio]:checked{background-color:currentColor;background-position:50%;background-repeat:no-repeat;background-size:100% 100%;border-color:transparent}[type=checkbox]:checked{background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.207 4.793a1 1 0 0 1 0 1.414l-5 5a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L6.5 9.086l4.293-4.293a1 1 0 0 1 1.414 0z'/%3E%3C/svg%3E\")}[type=radio]:checked{background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='8' cy='8' r='3'/%3E%3C/svg%3E\")}[type=checkbox]:checked:focus,[type=checkbox]:checked:hover,[type=radio]:checked:focus,[type=radio]:checked:hover{background-color:currentColor;border-color:transparent}[type=checkbox]:indeterminate{background-color:currentColor;background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3E%3Cpath stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3E%3C/svg%3E\");background-position:50%;background-repeat:no-repeat;background-size:100% 100%;border-color:transparent}[type=checkbox]:indeterminate:focus,[type=checkbox]:indeterminate:hover{background-color:currentColor;border-color:transparent}[type=file]{background:unset;border-color:inherit;border-radius:0;border-width:0;font-size:unset;line-height:inherit;padding:0}[type=file]:focus{outline:1px solid ButtonText;outline:1px auto -webkit-focus-ring-color}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.container{margin-left:auto;margin-right:auto;padding-left:.5rem;padding-right:.5rem;width:100%}@media (min-width:340px){.container{max-width:340px}}@media (min-width:640px){.container{max-width:640px;padding-left:1rem;padding-right:1rem}}@media (min-width:768px){.container{max-width:768px;padding-left:1rem;padding-right:1rem}}@media (min-width:1024px){.container{max-width:1024px;padding-left:2rem;padding-right:2rem}}@media (min-width:1280px){.container{max-width:1280px;padding-left:3rem;padding-right:3rem}}@media (min-width:1536px){.container{max-width:1536px;padding-left:3rem;padding-right:3rem}}.absolute{position:absolute}.relative{position:relative}.top-4{top:1rem}.right-4{right:1rem}.-right-2{right:-.5rem}.-top-2{top:-.5rem}.-bottom-2{bottom:-.5rem}.-right-1{right:-.25rem}.-bottom-1{bottom:-.25rem}.-right-3{right:-.75rem}.right-0{right:0}.top-0{top:0}.bottom-0{bottom:0}.-right-0{right:0}.-top-0{top:0}.-bottom-0{bottom:0}.-top-1{top:-.25rem}.-top-3{top:-.75rem}.mt-6{margin-top:1.5rem}.mt-4{margin-top:1rem}.ml-2{margin-left:.5rem}.mr-4{margin-right:1rem}.ml-1{margin-left:.25rem}.mr-1{margin-right:.25rem}.mt-12{margin-top:3rem}.mr-2{margin-right:.5rem}.mb-2{margin-bottom:.5rem}.flex{display:flex}.table{display:table}.contents{display:contents}.hidden{display:none}.h-28{height:7rem}.h-6{height:1.5rem}.h-16{height:4rem}.h-screen{height:100vh}.h-5{height:1.25rem}.h-10{height:2.5rem}.h-full{height:100%}.h-4{height:1rem}.h-9{height:2.25rem}.h-3{height:.75rem}.h-8{height:2rem}.h-2\\.5{height:.625rem}.h-2{height:.5rem}.h-12{height:3rem}.h-14{height:3.5rem}.h-3\\.5{height:.875rem}.h-20{height:5rem}.h-11{height:2.75rem}.h-1\\.5{height:.375rem}.h-1{height:.25rem}.min-h-screen{min-height:100vh}.w-full{width:100%}.w-56{width:14rem}.w-44{width:11rem}.w-40{width:10rem}.w-fit{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.w-5{width:1.25rem}.w-6{width:1.5rem}.w-10{width:2.5rem}.w-4{width:1rem}.w-9{width:2.25rem}.w-3{width:.75rem}.w-8{width:2rem}.w-2\\.5{width:.625rem}.w-2{width:.5rem}.w-12{width:3rem}.w-14{width:3.5rem}.w-3\\.5{width:.875rem}.w-16{width:4rem}.w-20{width:5rem}.w-1\\/3{width:33.333333%}.w-11{width:2.75rem}.w-1\\.5{width:.375rem}.w-1{width:.25rem}.flex-1{flex:1 1 0%}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.justify-around{justify-content:space-around}.gap-4{gap:1rem}.gap-1{gap:.25rem}.gap-2{gap:.5rem}.gap-3{gap:.75rem}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.5rem*var(--tw-space-y-reverse));margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)))}.space-x-5>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.25rem*var(--tw-space-x-reverse))}.space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1rem*var(--tw-space-x-reverse))}.space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.5rem*var(--tw-space-x-reverse))}.space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.25rem*var(--tw-space-y-reverse));margin-top:calc(.25rem*(1 - var(--tw-space-y-reverse)))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1rem*var(--tw-space-y-reverse));margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)))}.space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.5rem*var(--tw-space-x-reverse))}.space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1.5rem*var(--tw-space-y-reverse));margin-top:calc(1.5rem*(1 - var(--tw-space-y-reverse)))}.-space-x-3>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(-.75rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(-.75rem*var(--tw-space-x-reverse))}.space-x-1>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.25rem*var(--tw-space-x-reverse))}.overflow-y-auto{overflow-y:auto}.overflow-y-hidden{overflow-y:hidden}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-2xl{border-radius:1rem}.rounded-md{border-radius:.375rem}.rounded-sm{border-radius:.125rem}.rounded-xl{border-radius:.75rem}.rounded{border-radius:.25rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-l-2{border-left-width:2px}.border-t-2{border-top-width:2px}.border-dashed{border-style:dashed}.border-neutral-700{--tw-border-opacity:1;border-color:rgb(64 64 64/var(--tw-border-opacity))}.border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81/var(--tw-border-opacity))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219/var(--tw-border-opacity))}.border-gray-900{--tw-border-opacity:1;border-color:rgb(17 24 39/var(--tw-border-opacity))}.border-sky-700{--tw-border-opacity:1;border-color:rgb(3 105 161/var(--tw-border-opacity))}.border-emerald-700{--tw-border-opacity:1;border-color:rgb(4 120 87/var(--tw-border-opacity))}.border-amber-700{--tw-border-opacity:1;border-color:rgb(180 83 9/var(--tw-border-opacity))}.border-rose-700{--tw-border-opacity:1;border-color:rgb(190 18 60/var(--tw-border-opacity))}.border-slate-900{--tw-border-opacity:1;border-color:rgb(15 23 42/var(--tw-border-opacity))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255/var(--tw-border-opacity))}.border-gray-400{--tw-border-opacity:1;border-color:rgb(156 163 175/var(--tw-border-opacity))}.border-cyan-500{--tw-border-opacity:1;border-color:rgb(6 182 212/var(--tw-border-opacity))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235/var(--tw-border-opacity))}.border-sky-600{--tw-border-opacity:1;border-color:rgb(2 132 199/var(--tw-border-opacity))}.border-emerald-600{--tw-border-opacity:1;border-color:rgb(5 150 105/var(--tw-border-opacity))}.border-amber-600{--tw-border-opacity:1;border-color:rgb(217 119 6/var(--tw-border-opacity))}.border-rose-600{--tw-border-opacity:1;border-color:rgb(225 29 72/var(--tw-border-opacity))}.border-gray-600{--tw-border-opacity:1;border-color:rgb(75 85 99/var(--tw-border-opacity))}.border-pink-500{--tw-border-opacity:1;border-color:rgb(236 72 153/var(--tw-border-opacity))}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246/var(--tw-border-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity))}.bg-neutral-50{--tw-bg-opacity:1;background-color:rgb(250 250 250/var(--tw-bg-opacity))}.bg-\\[\\#0A0C25\\]{--tw-bg-opacity:1;background-color:rgb(10 12 37/var(--tw-bg-opacity))}.bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.bg-zinc-100{--tw-bg-opacity:1;background-color:rgb(244 244 245/var(--tw-bg-opacity))}.bg-rose-100{--tw-bg-opacity:1;background-color:rgb(255 228 230/var(--tw-bg-opacity))}.bg-sky-100{--tw-bg-opacity:1;background-color:rgb(224 242 254/var(--tw-bg-opacity))}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229/var(--tw-bg-opacity))}.bg-amber-100{--tw-bg-opacity:1;background-color:rgb(254 243 199/var(--tw-bg-opacity))}.bg-yellow-400{--tw-bg-opacity:1;background-color:rgb(250 204 21/var(--tw-bg-opacity))}.bg-cyan-600{--tw-bg-opacity:1;background-color:rgb(8 145 178/var(--tw-bg-opacity))}.bg-violet-500{--tw-bg-opacity:1;background-color:rgb(139 92 246/var(--tw-bg-opacity))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254/var(--tw-bg-opacity))}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246/var(--tw-bg-opacity))}.bg-pink-300{--tw-bg-opacity:1;background-color:rgb(249 168 212/var(--tw-bg-opacity))}.bg-rose-500{--tw-bg-opacity:1;background-color:rgb(244 63 94/var(--tw-bg-opacity))}.bg-gray-500{--tw-bg-opacity:1;background-color:rgb(107 114 128/var(--tw-bg-opacity))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94/var(--tw-bg-opacity))}.bg-cyan-500{--tw-bg-opacity:1;background-color:rgb(6 182 212/var(--tw-bg-opacity))}.bg-yellow-500{--tw-bg-opacity:1;background-color:rgb(234 179 8/var(--tw-bg-opacity))}.bg-green-400{--tw-bg-opacity:1;background-color:rgb(74 222 128/var(--tw-bg-opacity))}.bg-purple-400{--tw-bg-opacity:1;background-color:rgb(192 132 252/var(--tw-bg-opacity))}.bg-indigo-300{--tw-bg-opacity:1;background-color:rgb(165 180 252/var(--tw-bg-opacity))}.bg-red-400{--tw-bg-opacity:1;background-color:rgb(248 113 113/var(--tw-bg-opacity))}.bg-fuchsia-600{--tw-bg-opacity:1;background-color:rgb(192 38 211/var(--tw-bg-opacity))}.bg-sky-400{--tw-bg-opacity:1;background-color:rgb(56 189 248/var(--tw-bg-opacity))}.bg-amber-400{--tw-bg-opacity:1;background-color:rgb(251 191 36/var(--tw-bg-opacity))}.bg-teal-400{--tw-bg-opacity:1;background-color:rgb(45 212 191/var(--tw-bg-opacity))}.bg-red-500{--tw-bg-opacity:1;background-color:rgb(239 68 68/var(--tw-bg-opacity))}.bg-sky-300{--tw-bg-opacity:1;background-color:rgb(125 211 252/var(--tw-bg-opacity))}.bg-yellow-200{--tw-bg-opacity:1;background-color:rgb(254 240 138/var(--tw-bg-opacity))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity))}.bg-gray-400{--tw-bg-opacity:1;background-color:rgb(156 163 175/var(--tw-bg-opacity))}.bg-blue-400{--tw-bg-opacity:1;background-color:rgb(96 165 250/var(--tw-bg-opacity))}.bg-teal-300{--tw-bg-opacity:1;background-color:rgb(94 234 212/var(--tw-bg-opacity))}.bg-emerald-400{--tw-bg-opacity:1;background-color:rgb(52 211 153/var(--tw-bg-opacity))}.bg-amber-300{--tw-bg-opacity:1;background-color:rgb(252 211 77/var(--tw-bg-opacity))}.bg-rose-300{--tw-bg-opacity:1;background-color:rgb(253 164 175/var(--tw-bg-opacity))}.bg-red-300{--tw-bg-opacity:1;background-color:rgb(252 165 165/var(--tw-bg-opacity))}.bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.bg-yellow-100{--tw-bg-opacity:1;background-color:rgb(254 249 195/var(--tw-bg-opacity))}.bg-red-100{--tw-bg-opacity:1;background-color:rgb(254 226 226/var(--tw-bg-opacity))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity))}.bg-gray-300{--tw-bg-opacity:1;background-color:rgb(209 213 219/var(--tw-bg-opacity))}.bg-gray-600{--tw-bg-opacity:1;background-color:rgb(75 85 99/var(--tw-bg-opacity))}.bg-\\[\\#ff6d2d\\]{--tw-bg-opacity:1;background-color:rgb(255 109 45/var(--tw-bg-opacity))}.bg-slate-600{--tw-bg-opacity:1;background-color:rgb(71 85 105/var(--tw-bg-opacity))}.bg-zinc-600{--tw-bg-opacity:1;background-color:rgb(82 82 91/var(--tw-bg-opacity))}.bg-neutral-600{--tw-bg-opacity:1;background-color:rgb(82 82 82/var(--tw-bg-opacity))}.bg-stone-600{--tw-bg-opacity:1;background-color:rgb(87 83 78/var(--tw-bg-opacity))}.bg-red-600{--tw-bg-opacity:1;background-color:rgb(220 38 38/var(--tw-bg-opacity))}.bg-orange-600{--tw-bg-opacity:1;background-color:rgb(234 88 12/var(--tw-bg-opacity))}.bg-amber-600{--tw-bg-opacity:1;background-color:rgb(217 119 6/var(--tw-bg-opacity))}.bg-yellow-600{--tw-bg-opacity:1;background-color:rgb(202 138 4/var(--tw-bg-opacity))}.bg-lime-600{--tw-bg-opacity:1;background-color:rgb(101 163 13/var(--tw-bg-opacity))}.bg-green-600{--tw-bg-opacity:1;background-color:rgb(22 163 74/var(--tw-bg-opacity))}.bg-emerald-600{--tw-bg-opacity:1;background-color:rgb(5 150 105/var(--tw-bg-opacity))}.bg-teal-600{--tw-bg-opacity:1;background-color:rgb(13 148 136/var(--tw-bg-opacity))}.bg-sky-600{--tw-bg-opacity:1;background-color:rgb(2 132 199/var(--tw-bg-opacity))}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235/var(--tw-bg-opacity))}.bg-indigo-600{--tw-bg-opacity:1;background-color:rgb(79 70 229/var(--tw-bg-opacity))}.bg-violet-600{--tw-bg-opacity:1;background-color:rgb(124 58 237/var(--tw-bg-opacity))}.bg-pink-600{--tw-bg-opacity:1;background-color:rgb(219 39 119/var(--tw-bg-opacity))}.bg-rose-600{--tw-bg-opacity:1;background-color:rgb(225 29 72/var(--tw-bg-opacity))}.bg-slate-400{--tw-bg-opacity:1;background-color:rgb(148 163 184/var(--tw-bg-opacity))}.bg-zinc-400{--tw-bg-opacity:1;background-color:rgb(161 161 170/var(--tw-bg-opacity))}.bg-neutral-400{--tw-bg-opacity:1;background-color:rgb(163 163 163/var(--tw-bg-opacity))}.bg-stone-400{--tw-bg-opacity:1;background-color:rgb(168 162 158/var(--tw-bg-opacity))}.bg-orange-400{--tw-bg-opacity:1;background-color:rgb(251 146 60/var(--tw-bg-opacity))}.bg-yellow-300{--tw-bg-opacity:1;background-color:rgb(253 224 71/var(--tw-bg-opacity))}.bg-lime-400{--tw-bg-opacity:1;background-color:rgb(163 230 53/var(--tw-bg-opacity))}.bg-cyan-400{--tw-bg-opacity:1;background-color:rgb(34 211 238/var(--tw-bg-opacity))}.bg-indigo-400{--tw-bg-opacity:1;background-color:rgb(129 140 248/var(--tw-bg-opacity))}.bg-violet-400{--tw-bg-opacity:1;background-color:rgb(167 139 250/var(--tw-bg-opacity))}.bg-fuchsia-400{--tw-bg-opacity:1;background-color:rgb(232 121 249/var(--tw-bg-opacity))}.bg-pink-400{--tw-bg-opacity:1;background-color:rgb(244 114 182/var(--tw-bg-opacity))}.bg-rose-400{--tw-bg-opacity:1;background-color:rgb(251 113 133/var(--tw-bg-opacity))}.bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right,var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.from-sky-400{--tw-gradient-from:#38bdf8;--tw-gradient-to:rgba(56,189,248,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-rose-400{--tw-gradient-from:#fb7185;--tw-gradient-to:rgba(251,113,133,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-emerald-400{--tw-gradient-from:#34d399;--tw-gradient-to:rgba(52,211,153,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-amber-400{--tw-gradient-from:#fbbf24;--tw-gradient-to:rgba(251,191,36,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-fuchsia-400{--tw-gradient-from:#e879f9;--tw-gradient-to:rgba(232,121,249,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-blue-500{--tw-gradient-from:#3b82f6;--tw-gradient-to:rgba(59,130,246,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-pink-600{--tw-gradient-from:#db2777;--tw-gradient-to:rgba(219,39,119,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-neutral-200{--tw-gradient-from:#e5e5e5;--tw-gradient-to:hsla(0,0%,90%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-red-300{--tw-gradient-from:#fca5a5;--tw-gradient-to:hsla(0,94%,82%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.via-sky-500{--tw-gradient-to:rgba(14,165,233,0);--tw-gradient-stops:var(--tw-gradient-from),#0ea5e9,var(--tw-gradient-to)}.via-rose-500{--tw-gradient-to:rgba(244,63,94,0);--tw-gradient-stops:var(--tw-gradient-from),#f43f5e,var(--tw-gradient-to)}.via-emerald-500{--tw-gradient-to:rgba(16,185,129,0);--tw-gradient-stops:var(--tw-gradient-from),#10b981,var(--tw-gradient-to)}.via-amber-500{--tw-gradient-to:rgba(245,158,11,0);--tw-gradient-stops:var(--tw-gradient-from),#f59e0b,var(--tw-gradient-to)}.via-fuchsia-500{--tw-gradient-to:rgba(217,70,239,0);--tw-gradient-stops:var(--tw-gradient-from),#d946ef,var(--tw-gradient-to)}.via-purple-400{--tw-gradient-to:rgba(192,132,252,0);--tw-gradient-stops:var(--tw-gradient-from),#c084fc,var(--tw-gradient-to)}.to-sky-600{--tw-gradient-to:#0284c7}.to-rose-600{--tw-gradient-to:#e11d48}.to-emerald-600{--tw-gradient-to:#059669}.to-amber-600{--tw-gradient-to:#d97706}.to-fuchsia-600{--tw-gradient-to:#c026d3}.to-sky-300{--tw-gradient-to:#7dd3fc}.to-indigo-300{--tw-gradient-to:#a5b4fc}.to-teal-400{--tw-gradient-to:#2dd4bf}.to-rose-500{--tw-gradient-to:#f43f5e}.object-cover{-o-object-fit:cover;object-fit:cover}.p-4{padding:1rem}.p-0\\.5{padding:.125rem}.p-0{padding:0}.p-1{padding:.25rem}.p-1\\.5{padding:.375rem}.py-1{padding-bottom:.25rem;padding-top:.25rem}.px-4{padding-left:1rem;padding-right:1rem}.px-2{padding-left:.5rem;padding-right:.5rem}.py-2{padding-bottom:.5rem;padding-top:.5rem}.px-1{padding-left:.25rem;padding-right:.25rem}.px-0\\.5{padding-left:.125rem;padding-right:.125rem}.px-0{padding-left:0;padding-right:0}.px-3{padding-left:.75rem;padding-right:.75rem}.py-0\\.5{padding-bottom:.125rem;padding-top:.125rem}.py-0{padding-bottom:0;padding-top:0}.px-2\\.5{padding-left:.625rem;padding-right:.625rem}.px-1\\.5{padding-left:.375rem;padding-right:.375rem}.py-3{padding-bottom:.75rem;padding-top:.75rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.py-10{padding-bottom:2.5rem;padding-top:2.5rem}.px-10{padding-left:2.5rem;padding-right:2.5rem}.px-8{padding-left:2rem;padding-right:2rem}.py-3\\.5{padding-bottom:.875rem;padding-top:.875rem}.py-1\\.5{padding-bottom:.375rem;padding-top:.375rem}.px-7{padding-left:1.75rem;padding-right:1.75rem}.px-9{padding-left:2.25rem;padding-right:2.25rem}.py-4{padding-bottom:1rem;padding-top:1rem}.pl-4{padding-left:1rem}.pr-12{padding-right:3rem}.pb-20{padding-bottom:5rem}.pt-2{padding-top:.5rem}.pb-4{padding-bottom:1rem}.pt-1{padding-top:.25rem}.pl-1{padding-left:.25rem}.text-center{text-align:center}.text-right{text-align:right}.text-xs{font-size:.75rem}.text-base{font-size:1rem}.text-sm{font-size:.875rem}.text-7xl{font-size:5rem}.text-xxs{font-size:.7rem}.text-xl{font-size:1.25rem}.text-2xl{font-size:1.5rem}.text-lg{font-size:1.125rem}.text-3xl{font-size:1.875rem}.font-semibold{font-weight:600}.font-normal{font-weight:400}.font-thin{font-weight:100}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-light{font-weight:300}.uppercase{text-transform:uppercase}.italic{font-style:italic}.tracking-tight{letter-spacing:-.025em}.tracking-tighter{letter-spacing:-.05em}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85/var(--tw-text-opacity))}.text-sky-700{--tw-text-opacity:1;color:rgb(3 105 161/var(--tw-text-opacity))}.text-sky-900{--tw-text-opacity:1;color:rgb(12 74 110/var(--tw-text-opacity))}.text-sky-800{--tw-text-opacity:1;color:rgb(7 89 133/var(--tw-text-opacity))}.text-sky-500{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.text-zinc-400{--tw-text-opacity:1;color:rgb(161 161 170/var(--tw-text-opacity))}.text-rose-700{--tw-text-opacity:1;color:rgb(190 18 60/var(--tw-text-opacity))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87/var(--tw-text-opacity))}.text-amber-700{--tw-text-opacity:1;color:rgb(180 83 9/var(--tw-text-opacity))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216/var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94/var(--tw-text-opacity))}.text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.text-cyan-500{--tw-text-opacity:1;color:rgb(6 182 212/var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.text-sky-600{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105/var(--tw-text-opacity))}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6/var(--tw-text-opacity))}.text-rose-600{--tw-text-opacity:1;color:rgb(225 29 72/var(--tw-text-opacity))}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.text-blue-500{--tw-text-opacity:1;color:rgb(59 130 246/var(--tw-text-opacity))}.text-pink-500{--tw-text-opacity:1;color:rgb(236 72 153/var(--tw-text-opacity))}.text-cyan-700{--tw-text-opacity:1;color:rgb(14 116 144/var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.no-underline{-webkit-text-decoration-line:none;text-decoration-line:none}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.shadow-lg,.shadow-md{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color)}.shadow{--tw-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-gray-300{--tw-shadow-color:#d1d5db;--tw-shadow:var(--tw-shadow-colored)}.shadow-gray-400{--tw-shadow-color:#9ca3af;--tw-shadow:var(--tw-shadow-colored)}.shadow-blue-300{--tw-shadow-color:#93c5fd;--tw-shadow:var(--tw-shadow-colored)}.shadow-red-300{--tw-shadow-color:#fca5a5;--tw-shadow:var(--tw-shadow-colored)}.shadow-gray-200{--tw-shadow-color:#e5e7eb;--tw-shadow:var(--tw-shadow-colored)}.shadow-sky-500\\/50{--tw-shadow-color:rgba(14,165,233,.5);--tw-shadow:var(--tw-shadow-colored)}.shadow-rose-500\\/40{--tw-shadow-color:rgba(244,63,94,.4);--tw-shadow:var(--tw-shadow-colored)}.shadow-emerald-500\\/50{--tw-shadow-color:rgba(16,185,129,.5);--tw-shadow:var(--tw-shadow-colored)}.shadow-amber-500\\/50{--tw-shadow-color:rgba(245,158,11,.5);--tw-shadow:var(--tw-shadow-colored)}.shadow-fuchsia-500\\/50{--tw-shadow-color:rgba(217,70,239,.5);--tw-shadow:var(--tw-shadow-colored)}.outline{outline-style:solid}.ring-2{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.ring,.ring-2{box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.ring{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.ring-indigo-400{--tw-ring-opacity:1;--tw-ring-color:rgb(129 140 248/var(--tw-ring-opacity))}.ring-green-300{--tw-ring-opacity:1;--tw-ring-color:rgb(134 239 172/var(--tw-ring-opacity))}.ring-red-300{--tw-ring-opacity:1;--tw-ring-color:rgb(252 165 165/var(--tw-ring-opacity))}.ring-sky-300{--tw-ring-opacity:1;--tw-ring-color:rgb(125 211 252/var(--tw-ring-opacity))}.ring-emerald-400{--tw-ring-opacity:1;--tw-ring-color:rgb(52 211 153/var(--tw-ring-opacity))}.ring-blue-300{--tw-ring-opacity:1;--tw-ring-color:rgb(147 197 253/var(--tw-ring-opacity))}.ring-red-400{--tw-ring-opacity:1;--tw-ring-color:rgb(248 113 113/var(--tw-ring-opacity))}.ring-green-400{--tw-ring-opacity:1;--tw-ring-color:rgb(74 222 128/var(--tw-ring-opacity))}.transition{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-all{transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}html{font-family:\"Inter\",sans-serif;font-family:\"Montserrat\",sans-serif}::-webkit-scrollbar{height:12px;width:5px}::-webkit-scrollbar-track{border:1px solid #8c8c8c;border-radius:10px}::-webkit-scrollbar-thumb{background:#848484;border-radius:10px}::-webkit-scrollbar-thumb:hover{background:#909090}.no-scrollbar::-webkit-scrollbar{display:none}.no-scrollbar{-ms-overflow-style:none;scrollbar-width:none}pre[class*=language-]{border-radius:10px!important;font-size:.9rem;margin:.5em 0;overflow:auto;padding:1em}.light pre[class*=language-]{background:#f5f5f5!important;padding:1.5rem}.dark pre[class*=language-]{background:#171717!important;padding:1.5rem}.fadeSnippet-enter-active{-webkit-animation:fade-in .2s;animation:fade-in .2s}.fadeSnippet-leave-active{-webkit-animation:fade-out .2s;animation:fade-out .2s}@-webkit-keyframes fade-in{0%{transform:translateY(10px)}to{transform:translateY(0)}}@keyframes fade-in{0%{transform:translateY(10px)}to{transform:translateY(0)}}@-webkit-keyframes fade-out{0%{transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}@keyframes fade-out{0%{transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}.hover\\:mr-2:hover{margin-right:.5rem}.hover\\:h-10:hover{height:2.5rem}.hover\\:w-10:hover{width:2.5rem}.hover\\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\\:cursor-pointer:hover{cursor:pointer}.hover\\:cursor-default:hover{cursor:default}.hover\\:border-2:hover{border-width:2px}.hover\\:border:hover{border-width:1px}.hover\\:border-\\[\\#ff6d2d\\]:hover{--tw-border-opacity:1;border-color:rgb(255 109 45/var(--tw-border-opacity))}.hover\\:border-gray-500:hover{--tw-border-opacity:1;border-color:rgb(107 114 128/var(--tw-border-opacity))}.hover\\:border-blue-500:hover{--tw-border-opacity:1;border-color:rgb(59 130 246/var(--tw-border-opacity))}.hover\\:bg-gray-200:hover{--tw-bg-opacity:1;background-color:rgb(229 231 235/var(--tw-bg-opacity))}.hover\\:bg-blue-200:hover{--tw-bg-opacity:1;background-color:rgb(191 219 254/var(--tw-bg-opacity))}.hover\\:bg-gray-800:hover{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.hover\\:bg-indigo-200:hover{--tw-bg-opacity:1;background-color:rgb(199 210 254/var(--tw-bg-opacity))}.hover\\:bg-sky-200:hover{--tw-bg-opacity:1;background-color:rgb(186 230 253/var(--tw-bg-opacity))}.hover\\:bg-teal-200:hover{--tw-bg-opacity:1;background-color:rgb(153 246 228/var(--tw-bg-opacity))}.hover\\:bg-rose-200:hover{--tw-bg-opacity:1;background-color:rgb(254 205 211/var(--tw-bg-opacity))}.hover\\:bg-red-200:hover{--tw-bg-opacity:1;background-color:rgb(254 202 202/var(--tw-bg-opacity))}.hover\\:bg-emerald-200:hover{--tw-bg-opacity:1;background-color:rgb(167 243 208/var(--tw-bg-opacity))}.hover\\:bg-yellow-200:hover{--tw-bg-opacity:1;background-color:rgb(254 240 138/var(--tw-bg-opacity))}.hover\\:bg-zinc-200:hover{--tw-bg-opacity:1;background-color:rgb(228 228 231/var(--tw-bg-opacity))}.hover\\:bg-gray-900:hover{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.hover\\:bg-\\[\\#FAF5ED\\]:hover{--tw-bg-opacity:1;background-color:rgb(250 245 237/var(--tw-bg-opacity))}.hover\\:bg-pink-500:hover{--tw-bg-opacity:1;background-color:rgb(236 72 153/var(--tw-bg-opacity))}.hover\\:bg-gray-300:hover{--tw-bg-opacity:1;background-color:rgb(209 213 219/var(--tw-bg-opacity))}.hover\\:bg-green-400:hover{--tw-bg-opacity:1;background-color:rgb(74 222 128/var(--tw-bg-opacity))}.hover\\:bg-cyan-400:hover{--tw-bg-opacity:1;background-color:rgb(34 211 238/var(--tw-bg-opacity))}.hover\\:bg-gray-700:hover{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.hover\\:bg-cyan-500:hover{--tw-bg-opacity:1;background-color:rgb(6 182 212/var(--tw-bg-opacity))}.hover\\:bg-amber-200:hover{--tw-bg-opacity:1;background-color:rgb(253 230 138/var(--tw-bg-opacity))}.hover\\:bg-gradient-to-r:hover{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.hover\\:text-sky-800:hover{--tw-text-opacity:1;color:rgb(7 89 133/var(--tw-text-opacity))}.hover\\:text-emerald-800:hover{--tw-text-opacity:1;color:rgb(6 95 70/var(--tw-text-opacity))}.hover\\:text-amber-800:hover{--tw-text-opacity:1;color:rgb(146 64 14/var(--tw-text-opacity))}.hover\\:text-rose-800:hover{--tw-text-opacity:1;color:rgb(159 18 57/var(--tw-text-opacity))}.hover\\:text-gray-500:hover{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.hover\\:text-\\[\\#ff6d2d\\]:hover{--tw-text-opacity:1;color:rgb(255 109 45/var(--tw-text-opacity))}.hover\\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.hover\\:text-gray-400:hover{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.hover\\:text-blue-800:hover{--tw-text-opacity:1;color:rgb(30 64 175/var(--tw-text-opacity))}.hover\\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline}.hover\\:shadow-none:hover{--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.hover\\:shadow-gray-200:hover{--tw-shadow-color:#e5e7eb;--tw-shadow:var(--tw-shadow-colored)}.hover\\:shadow-cyan-200:hover{--tw-shadow-color:#a5f3fc;--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:border-gray-900{--tw-border-opacity:1;border-color:rgb(17 24 39/var(--tw-border-opacity))}.dark .dark\\:border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55/var(--tw-border-opacity))}.dark .dark\\:border-\\[\\#2D2D2D\\]{--tw-border-opacity:1;border-color:rgb(45 45 45/var(--tw-border-opacity))}.dark .dark\\:border-b-\\[\\#2D2D2D\\]{--tw-border-opacity:1;border-bottom-color:rgb(45 45 45/var(--tw-border-opacity))}.dark .dark\\:bg-neutral-800{--tw-bg-opacity:1;background-color:rgb(38 38 38/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#212121\\]{--tw-bg-opacity:1;background-color:rgb(33 33 33/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#121212\\]{--tw-bg-opacity:1;background-color:rgb(18 18 18/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-800{--tw-bg-opacity:1;background-color:rgb(39 39 42/var(--tw-bg-opacity))}.dark .dark\\:bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity))}.dark .dark\\:from-neutral-50{--tw-gradient-from:#fafafa;--tw-gradient-to:hsla(0,0%,98%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.dark .dark\\:to-neutral-500{--tw-gradient-to:#737373}.dark .dark\\:text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.dark .dark\\:text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.dark .dark\\:text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.dark .dark\\:text-sky-500{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.dark .dark\\:text-sky-600{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.dark .dark\\:text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.dark .dark\\:text-zinc-400{--tw-text-opacity:1;color:rgb(161 161 170/var(--tw-text-opacity))}.dark .dark\\:text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.dark .dark\\:text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.dark .dark\\:text-sky-400{--tw-text-opacity:1;color:rgb(56 189 248/var(--tw-text-opacity))}.dark .dark\\:text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.dark .dark\\:text-neutral-200{--tw-text-opacity:1;color:rgb(229 229 229/var(--tw-text-opacity))}.dark .dark\\:text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity))}.dark .dark\\:text-zinc-200{--tw-text-opacity:1;color:rgb(228 228 231/var(--tw-text-opacity))}.dark .dark\\:text-zinc-100{--tw-text-opacity:1;color:rgb(244 244 245/var(--tw-text-opacity))}.dark .dark\\:shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.dark .dark\\:shadow-sky-800\\/80{--tw-shadow-color:rgba(7,89,133,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-rose-800\\/80{--tw-shadow-color:rgba(159,18,57,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-emerald-800\\/80{--tw-shadow-color:rgba(6,95,70,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-amber-800\\/80{--tw-shadow-color:rgba(146,64,14,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-fuchsia-800\\/80{--tw-shadow-color:rgba(134,25,143,.8);--tw-shadow:var(--tw-shadow-colored)}@media (min-width:768px){.md\\:block{display:block}.md\\:px-24{padding-left:6rem;padding-right:6rem}}@media (min-width:1024px){.lg\\:block{display:block}}";
 }
 
 
@@ -3087,6 +3107,26 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // - /components/BreadCrumb/Separator.vue ($id_92fc7fca)
 // - /components/BreadCrumb/Snippets/Separator.vue ($id_0d2381a1)
 // - /pages/breadcrumb.vue?macro=true ($id_2daed590)
+// - /components/Button/Default.vue ($id_4ed8d246)
+// - /components/Button/Snippets/Default.vue ($id_b4af2396)
+// - /components/Button/Outline.vue ($id_fa764bca)
+// - /components/Button/Snippets/Outline.vue ($id_eebbab81)
+// - /components/Button/StateColor.vue ($id_bb5459bb)
+// - /components/Button/Snippets/StateColor.vue ($id_ed9f041d)
+// - /components/Button/Size.vue ($id_e153cb94)
+// - /components/Button/Snippets/Size.vue ($id_917e3c8e)
+// - /components/Button/DualIcon.vue ($id_6879b767)
+// - /components/Button/Snippets/DualIcon.vue ($id_81899cd7)
+// - /components/Button/LightColor.vue ($id_07b3cc08)
+// - /components/Button/Snippets/LightColor.vue ($id_6cd68d69)
+// - /components/Button/DarkColor.vue ($id_c288ee0d)
+// - /components/Button/Snippets/DarkColor.vue ($id_84298af9)
+// - /components/Button/ColoredShadow.vue ($id_289dc474)
+// - /components/Button/Snippets/ColoredShadow.vue ($id_40c240a6)
+// - /components/Button/Gradient.vue ($id_66639e42)
+// - /components/Button/Snippets/Gradient.vue ($id_b99ef559)
+// - /components/Button/Appsmith.vue ($id_f75a09c9)
+// - /components/Button/Snippets/Appsmith.vue ($id_1c421991)
 // - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
 // - /pages/index.vue?macro=true ($id_5dd70240)
 // - /pages/About.vue ($id_4fd34246)
@@ -3219,6 +3259,26 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
 // - /components/BreadCrumb/Separator.vue ($id_92fc7fca)
 // - /components/BreadCrumb/Snippets/Separator.vue ($id_0d2381a1)
 // - /pages/breadcrumb.vue?macro=true ($id_2daed590)
+// - /components/Button/Default.vue ($id_4ed8d246)
+// - /components/Button/Snippets/Default.vue ($id_b4af2396)
+// - /components/Button/Outline.vue ($id_fa764bca)
+// - /components/Button/Snippets/Outline.vue ($id_eebbab81)
+// - /components/Button/StateColor.vue ($id_bb5459bb)
+// - /components/Button/Snippets/StateColor.vue ($id_ed9f041d)
+// - /components/Button/Size.vue ($id_e153cb94)
+// - /components/Button/Snippets/Size.vue ($id_917e3c8e)
+// - /components/Button/DualIcon.vue ($id_6879b767)
+// - /components/Button/Snippets/DualIcon.vue ($id_81899cd7)
+// - /components/Button/LightColor.vue ($id_07b3cc08)
+// - /components/Button/Snippets/LightColor.vue ($id_6cd68d69)
+// - /components/Button/DarkColor.vue ($id_c288ee0d)
+// - /components/Button/Snippets/DarkColor.vue ($id_84298af9)
+// - /components/Button/ColoredShadow.vue ($id_289dc474)
+// - /components/Button/Snippets/ColoredShadow.vue ($id_40c240a6)
+// - /components/Button/Gradient.vue ($id_66639e42)
+// - /components/Button/Snippets/Gradient.vue ($id_b99ef559)
+// - /components/Button/Appsmith.vue ($id_f75a09c9)
+// - /components/Button/Snippets/Appsmith.vue ($id_1c421991)
 // - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
 // - /pages/index.vue?macro=true ($id_5dd70240)
 // - /pages/About.vue ($id_4fd34246)
@@ -5360,9 +5420,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // Request: /components/Alert/DefaultAlert.vue
 // Parents: 
 // - /pages/alerts.vue?macro=true ($id_07053f14)
-// - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
 // - /pages/alerts.vue ($id_392b88d4)
-// - /pages/buttons.vue ($id_e983a7e3)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -5487,9 +5545,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_m
 // Request: /components/Alert/Snippets/DefaultAlert.vue
 // Parents: 
 // - /pages/alerts.vue?macro=true ($id_07053f14)
-// - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
 // - /pages/alerts.vue ($id_392b88d4)
-// - /pages/buttons.vue ($id_e983a7e3)
 // Dependencies: 
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -17304,9 +17360,27 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // - /components/Utils/ShowCodeButton.vue ($id_b28ae97a)
 // - /components/Utils/HideCodeButton.vue ($id_2ed55d76)
 // - /components/Utils/ComponentPad.vue ($id_900fca01)
-// - /components/Alert/DefaultAlert.vue ($id_7cd7150c)
+// - /components/Button/Default.vue ($id_4ed8d246)
 // - /components/Utils/CopyButton.vue ($id_07dc553f)
-// - /components/Alert/Snippets/DefaultAlert.vue ($id_09a6c81e)
+// - /components/Button/Snippets/Default.vue ($id_b4af2396)
+// - /components/Button/Outline.vue ($id_fa764bca)
+// - /components/Button/Snippets/Outline.vue ($id_eebbab81)
+// - /components/Button/StateColor.vue ($id_bb5459bb)
+// - /components/Button/Snippets/StateColor.vue ($id_ed9f041d)
+// - /components/Button/Size.vue ($id_e153cb94)
+// - /components/Button/Snippets/Size.vue ($id_917e3c8e)
+// - /components/Button/DualIcon.vue ($id_6879b767)
+// - /components/Button/Snippets/DualIcon.vue ($id_81899cd7)
+// - /components/Button/LightColor.vue ($id_07b3cc08)
+// - /components/Button/Snippets/LightColor.vue ($id_6cd68d69)
+// - /components/Button/DarkColor.vue ($id_c288ee0d)
+// - /components/Button/Snippets/DarkColor.vue ($id_84298af9)
+// - /components/Button/ColoredShadow.vue ($id_289dc474)
+// - /components/Button/Snippets/ColoredShadow.vue ($id_40c240a6)
+// - /components/Button/Gradient.vue ($id_66639e42)
+// - /components/Button/Snippets/Gradient.vue ($id_b99ef559)
+// - /components/Button/Appsmith.vue ($id_f75a09c9)
+// - /components/Button/Snippets/Appsmith.vue ($id_1c421991)
 // - /components/Alert/AlertInfo.vue ($id_df465372)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -17326,38 +17400,77 @@ const __vite_ssr_import_4__ = await __vite_ssr_import__("/components/Utils/HideC
 
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/components/Utils/ComponentPad.vue");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/components/Alert/DefaultAlert.vue");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/components/Button/Default.vue");
 
 const __vite_ssr_import_7__ = await __vite_ssr_import__("/components/Utils/CopyButton.vue");
 
-const __vite_ssr_import_8__ = await __vite_ssr_import__("/components/Alert/Snippets/DefaultAlert.vue");
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/components/Button/Snippets/Default.vue");
+
+const __vite_ssr_import_9__ = await __vite_ssr_import__("/components/Button/Outline.vue");
+
+const __vite_ssr_import_10__ = await __vite_ssr_import__("/components/Button/Snippets/Outline.vue");
+
+const __vite_ssr_import_11__ = await __vite_ssr_import__("/components/Button/StateColor.vue");
+
+const __vite_ssr_import_12__ = await __vite_ssr_import__("/components/Button/Snippets/StateColor.vue");
+
+const __vite_ssr_import_13__ = await __vite_ssr_import__("/components/Button/Size.vue");
+
+const __vite_ssr_import_14__ = await __vite_ssr_import__("/components/Button/Snippets/Size.vue");
+
+const __vite_ssr_import_15__ = await __vite_ssr_import__("/components/Button/DualIcon.vue");
+
+const __vite_ssr_import_16__ = await __vite_ssr_import__("/components/Button/Snippets/DualIcon.vue");
+
+const __vite_ssr_import_17__ = await __vite_ssr_import__("/components/Button/LightColor.vue");
+
+const __vite_ssr_import_18__ = await __vite_ssr_import__("/components/Button/Snippets/LightColor.vue");
+
+const __vite_ssr_import_19__ = await __vite_ssr_import__("/components/Button/DarkColor.vue");
+
+const __vite_ssr_import_20__ = await __vite_ssr_import__("/components/Button/Snippets/DarkColor.vue");
+
+const __vite_ssr_import_21__ = await __vite_ssr_import__("/components/Button/ColoredShadow.vue");
+
+const __vite_ssr_import_22__ = await __vite_ssr_import__("/components/Button/Snippets/ColoredShadow.vue");
+
+const __vite_ssr_import_23__ = await __vite_ssr_import__("/components/Button/Gradient.vue");
+
+const __vite_ssr_import_24__ = await __vite_ssr_import__("/components/Button/Snippets/Gradient.vue");
+
+const __vite_ssr_import_25__ = await __vite_ssr_import__("/components/Button/Appsmith.vue");
+
+const __vite_ssr_import_26__ = await __vite_ssr_import__("/components/Button/Snippets/Appsmith.vue");
 
 
-const __vite_ssr_import_9__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
+const __vite_ssr_import_27__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
 
-const __vite_ssr_import_10__ = await __vite_ssr_import__("/components/Alert/AlertInfo.vue");
+const __vite_ssr_import_28__ = await __vite_ssr_import__("/components/Alert/AlertInfo.vue");
 
-const __vite_ssr_import_11__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
+const __vite_ssr_import_29__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
 
 const _sfc_main = {
   metaInfo: {
     title: "Alerts",
   },
   components: {
-    AlertInfo: __vite_ssr_import_10__.default,
-    Heading: __vite_ssr_import_11__.default,
-    SubHeading: __vite_ssr_import_9__.default,
+    AlertInfo: __vite_ssr_import_28__.default,
+    Heading: __vite_ssr_import_29__.default,
+    SubHeading: __vite_ssr_import_27__.default,
 },
   data() {
     return {
       layout: "custom",
-      default_alert: false,
-      statecolor_alert: false,
-      with_button: false,
-      alert_wlink: false,
-      alert_wicon: false,
-      alert_wborder: false,
-      alert_wleftborder: false,
+ default_btn: false,
+      outline_btn: false,
+      statecolor_btn: false,
+      size_btn: false,
+      dual_icon_btn: false,
+      light_color_btn: false,
+      dark_color_btn: false,
+      gradient_btn: false,
+      colored_shadow_btn: false,
+      appsmith_btn: false,  
       // SCROLL
       activeScrollSection: "",
       sample: "",
@@ -17380,9 +17493,9 @@ const _sfc_main = {
   },
 };
 
-const __vite_ssr_import_12__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_30__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_13__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+const __vite_ssr_import_31__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
@@ -17392,12 +17505,30 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   const _component_UtilsShowCodeButton = __vite_ssr_import_3__.default
   const _component_UtilsHideCodeButton = __vite_ssr_import_4__.default
   const _component_UtilsComponentPad = __vite_ssr_import_5__.default
-  const _component_AlertDefaultAlert = __vite_ssr_import_6__.default
+  const _component_ButtonDefault = __vite_ssr_import_6__.default
   const _component_UtilsCopyButton = __vite_ssr_import_7__.default
-  const _component_AlertSnippetsDefaultAlert = __vite_ssr_import_8__.default
+  const _component_ButtonSnippetsDefault = __vite_ssr_import_8__.default
+  const _component_ButtonOutline = __vite_ssr_import_9__.default
+  const _component_ButtonSnippetsOutline = __vite_ssr_import_10__.default
+  const _component_ButtonStateColor = __vite_ssr_import_11__.default
+  const _component_ButtonSnippetsStateColor = __vite_ssr_import_12__.default
+  const _component_ButtonSize = __vite_ssr_import_13__.default
+  const _component_ButtonSnippetsSize = __vite_ssr_import_14__.default
+  const _component_ButtonDualIcon = __vite_ssr_import_15__.default
+  const _component_ButtonSnippetsDualIcon = __vite_ssr_import_16__.default
+  const _component_ButtonLightColor = __vite_ssr_import_17__.default
+  const _component_ButtonSnippetsLightColor = __vite_ssr_import_18__.default
+  const _component_ButtonDarkColor = __vite_ssr_import_19__.default
+  const _component_ButtonSnippetsDarkColor = __vite_ssr_import_20__.default
+  const _component_ButtonColoredShadow = __vite_ssr_import_21__.default
+  const _component_ButtonSnippetsColoredShadow = __vite_ssr_import_22__.default
+  const _component_ButtonGradient = __vite_ssr_import_23__.default
+  const _component_ButtonSnippetsGradient = __vite_ssr_import_24__.default
+  const _component_ButtonAppsmith = __vite_ssr_import_25__.default
+  const _component_ButtonSnippetsAppsmith = __vite_ssr_import_26__.default
 
-  _push(__vite_ssr_import_13__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_12__.mergeProps({ name: $data.layout }, _attrs), {
-    default: __vite_ssr_import_12__.withCtx((_, _push, _parent, _scopeId) => {
+  _push(__vite_ssr_import_31__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_30__.mergeProps({ name: $data.layout }, _attrs), {
+    default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
         _push(`<div class="flex p-4"${
           _scopeId
@@ -17406,13 +17537,13 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }><div class="overflow-y-auto w-full px-4 pb-20" id="alertContainer"${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_13__.ssrRenderComponent(_component_HeadersHeading, null, {
-          default: __vite_ssr_import_12__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_HeadersHeading, null, {
+          default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(` Button `)
             } else {
               return [
-                __vite_ssr_import_12__.createTextVNode(" Button ")
+                __vite_ssr_import_30__.createTextVNode(" Button ")
               ]
             }
           }),
@@ -17422,60 +17553,60 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><p class="text-base"${
           _scopeId
-        }> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? </p></div><!-- Default alert --><section id="defaultAlert" class="w-full"${
+        }> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? </p></div><!-- Default Button --><section id="defaultButton" class="w-full"${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_13__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_12__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(`Default alert`)
+              _push(`Default`)
             } else {
               return [
-                __vite_ssr_import_12__.createTextVNode("Default alert")
+                __vite_ssr_import_30__.createTextVNode("Default")
               ]
             }
           }),
-          code: __vite_ssr_import_12__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_alert) {
-                _push(__vite_ssr_import_13__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_alert = true)
+              if (!$data.default_btn) {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.default_btn = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_13__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_alert = false)
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.default_btn = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_alert)
-                  ? (__vite_ssr_import_12__.openBlock(), __vite_ssr_import_12__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.default_btn)
+                  ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_alert = true)
+                      onClick: $event => ($data.default_btn = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_12__.openBlock(), __vite_ssr_import_12__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_alert = false)
+                      onClick: $event => ($data.default_btn = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_13__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_12__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_13__.ssrRenderComponent(_component_AlertDefaultAlert, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonDefault, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_12__.createVNode(_component_AlertDefaultAlert)
+                __vite_ssr_import_30__.createVNode(_component_ButtonDefault)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_13__.ssrRenderStyle(($data.default_alert) ? null : { display: "none" })
+          __vite_ssr_import_31__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -17485,12 +17616,606 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_13__.ssrRenderComponent(_component_UtilsCopyButton, {
-          onClick: $event => ($options.copyToClipboard('defaultAlertComp'))
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('defaultButton'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_13__.ssrRenderComponent(_component_AlertSnippetsDefaultAlert, { id: "defaultAlertComp" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End default alert --></div></div><!-- right sidebar --><div class="hidden lg:block"${
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultButton" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End default Button --><!-- Outline Button --><section id="outlineButton" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Outline`)
+            } else {
+              return [
+                __vite_ssr_import_30__.createTextVNode("Outline")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.outline_btn) {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.outline_btn = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.outline_btn = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.outline_btn)
+                  ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.outline_btn = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.outline_btn = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonOutline, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_30__.createVNode(_component_ButtonOutline)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_31__.ssrRenderStyle(($data.outline_btn) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('OutlineButton'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonSnippetsOutline, { id: "OutlineButton" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Outline Button --><!-- StateColor Button --><section id="stateColor" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`State Color`)
+            } else {
+              return [
+                __vite_ssr_import_30__.createTextVNode("State Color")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.statecolor_btn) {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.statecolor_btn = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.statecolor_btn = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.statecolor_btn)
+                  ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.statecolor_btn = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.statecolor_btn = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonStateColor, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_30__.createVNode(_component_ButtonStateColor)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_31__.ssrRenderStyle(($data.statecolor_btn) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('StateColorButton'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonSnippetsStateColor, { id: "StateColorButton" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End StateColor Button --><!-- Size Button --><section id="sizeButton" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Size`)
+            } else {
+              return [
+                __vite_ssr_import_30__.createTextVNode("Size")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.size_btn) {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.size_btn = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.size_btn = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.size_btn)
+                  ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.size_btn = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.size_btn = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonSize, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_30__.createVNode(_component_ButtonSize)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_31__.ssrRenderStyle(($data.size_btn) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('SizeButton'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonSnippetsSize, { id: "SizeButton" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Size Button --><!-- DualIcon Button --><section id="dualIcon" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Dual Icon`)
+            } else {
+              return [
+                __vite_ssr_import_30__.createTextVNode("Dual Icon")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.dual_icon_btn) {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.dual_icon_btn = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.dual_icon_btn = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.dual_icon_btn)
+                  ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.dual_icon_btn = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.dual_icon_btn = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonDualIcon, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_30__.createVNode(_component_ButtonDualIcon)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_31__.ssrRenderStyle(($data.dual_icon_btn) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('DualIconButton'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonSnippetsDualIcon, { id: "DualIconButton" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End DualIcon Button --><!-- LightColor Button --><section id="lightColor" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Light color`)
+            } else {
+              return [
+                __vite_ssr_import_30__.createTextVNode("Light color")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.light_color_btn) {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.light_color_btn = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.light_color_btn = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.light_color_btn)
+                  ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.light_color_btn = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.light_color_btn = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonLightColor, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_30__.createVNode(_component_ButtonLightColor)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_31__.ssrRenderStyle(($data.light_color_btn) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('LightColorButton'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonSnippetsLightColor, { id: "LightColorButton" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End LightColor Button --><!-- Dark Color Button --><section id="darkColor" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Dark color`)
+            } else {
+              return [
+                __vite_ssr_import_30__.createTextVNode("Dark color")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.dark_color_btn) {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.dark_color_btn = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.dark_color_btn = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.dark_color_btn)
+                  ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.dark_color_btn = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.dark_color_btn = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonDarkColor, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_30__.createVNode(_component_ButtonDarkColor)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_31__.ssrRenderStyle(($data.dark_color_btn) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('DarkColorButton'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonSnippetsDarkColor, { id: "DarkColorButton" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End DarkColor Button --><!-- ColoredShadow Button --><section id="coloredShadowBtn" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Colored shadow`)
+            } else {
+              return [
+                __vite_ssr_import_30__.createTextVNode("Colored shadow")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.colored_shadow_btn) {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.colored_shadow_btn = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.colored_shadow_btn = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.colored_shadow_btn)
+                  ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.colored_shadow_btn = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.colored_shadow_btn = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonColoredShadow, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_30__.createVNode(_component_ButtonColoredShadow)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_31__.ssrRenderStyle(($data.colored_shadow_btn) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('ColoredShadowButton'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonSnippetsColoredShadow, { id: "ColoredShadowButton" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End ColoredShadow Button --><!-- Gradient Button --><section id="gradientBtn" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Gradient`)
+            } else {
+              return [
+                __vite_ssr_import_30__.createTextVNode("Gradient")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.gradient_btn) {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.gradient_btn = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.gradient_btn = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.gradient_btn)
+                  ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.gradient_btn = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.gradient_btn = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonGradient, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_30__.createVNode(_component_ButtonGradient)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_31__.ssrRenderStyle(($data.gradient_btn) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('GradientButton'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonSnippetsGradient, { id: "GradientButton" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Gradient Button --><!-- Appsmith Button --><section id="appsmithButton" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Appsmith`)
+            } else {
+              return [
+                __vite_ssr_import_30__.createTextVNode("Appsmith")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.appsmith_btn) {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.appsmith_btn = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.appsmith_btn = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.appsmith_btn)
+                  ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.appsmith_btn = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.appsmith_btn = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonAppsmith, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_30__.createVNode(_component_ButtonAppsmith)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_31__.ssrRenderStyle(($data.appsmith_btn) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('AppsmithButton'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonSnippetsAppsmith, { id: "AppsmithButton" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Appsmith Button --></div></div><!-- right sidebar --><div class="hidden lg:block"${
           _scopeId
         }><div class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2"${
           _scopeId
@@ -17502,121 +18227,613 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }>On This Page</p><button${
           _scopeId
-        }> Default Alert </button><button${
+        }> Default </button><button${
           _scopeId
-        }> State Color Alert </button><button${
+        }> Outline </button><button${
           _scopeId
-        }> With Button Alert </button><button${
+        }> State Color </button><button${
           _scopeId
-        }> Alert With Link </button><button${
+        }> Size </button><button${
           _scopeId
-        }> Alert With Icon </button><button${
+        }> Dual Icon </button><button${
           _scopeId
-        }> Alert With Border </button><button class="flex flex-row"${
+        }> Light Color </button><button${
           _scopeId
-        }> Alert With Left-Border </button></div></div></div></div></div>`)
+        }> Dark Color </button><button class="text-right"${
+          _scopeId
+        }> Colored shadow </button><button${
+          _scopeId
+        }> Gradient buttons </button><button${
+          _scopeId
+        }> Appsmith </button></div></div></div></div></div>`)
       } else {
         return [
-          __vite_ssr_import_12__.createVNode("div", { class: "flex p-4" }, [
-            __vite_ssr_import_12__.createCommentVNode(" content "),
-            __vite_ssr_import_12__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
-              __vite_ssr_import_12__.createVNode("div", {
+          __vite_ssr_import_30__.createVNode("div", { class: "flex p-4" }, [
+            __vite_ssr_import_30__.createCommentVNode(" content "),
+            __vite_ssr_import_30__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
+              __vite_ssr_import_30__.createVNode("div", {
                 class: "overflow-y-auto w-full px-4 pb-20",
                 id: "alertContainer"
               }, [
-                __vite_ssr_import_12__.createVNode(_component_HeadersHeading, null, {
-                  default: __vite_ssr_import_12__.withCtx(() => [
-                    __vite_ssr_import_12__.createTextVNode(" Button ")
+                __vite_ssr_import_30__.createVNode(_component_HeadersHeading, null, {
+                  default: __vite_ssr_import_30__.withCtx(() => [
+                    __vite_ssr_import_30__.createTextVNode(" Button ")
                   ]),
                   _: 1 /* STABLE */
                 }),
-                __vite_ssr_import_12__.createVNode("div", null, [
-                  __vite_ssr_import_12__.createVNode("p", { class: "text-base" }, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? ")
+                __vite_ssr_import_30__.createVNode("div", null, [
+                  __vite_ssr_import_30__.createVNode("p", { class: "text-base" }, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? ")
                 ]),
-                __vite_ssr_import_12__.createCommentVNode(" Default alert "),
-                __vite_ssr_import_12__.createVNode("section", {
-                  id: "defaultAlert",
+                __vite_ssr_import_30__.createCommentVNode(" Default Button "),
+                __vite_ssr_import_30__.createVNode("section", {
+                  id: "defaultButton",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_12__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_12__.withCtx(() => [
-                      __vite_ssr_import_12__.createTextVNode("Default alert")
+                  __vite_ssr_import_30__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createTextVNode("Default")
                     ]),
-                    code: __vite_ssr_import_12__.withCtx(() => [
-                      (!$data.default_alert)
-                        ? (__vite_ssr_import_12__.openBlock(), __vite_ssr_import_12__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_30__.withCtx(() => [
+                      (!$data.default_btn)
+                        ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_alert = true)
+                            onClick: $event => ($data.default_btn = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_12__.openBlock(), __vite_ssr_import_12__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_alert = false)
+                            onClick: $event => ($data.default_btn = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_12__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_12__.withCtx(() => [
-                      __vite_ssr_import_12__.createVNode(_component_AlertDefaultAlert)
+                  __vite_ssr_import_30__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createVNode(_component_ButtonDefault)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_12__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_12__.createVNode(__vite_ssr_import_12__.Transition, {
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_30__.createVNode(__vite_ssr_import_30__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_12__.withCtx(() => [
-                      __vite_ssr_import_12__.withDirectives(__vite_ssr_import_12__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_12__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_12__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_12__.createVNode("div", null, [
-                            __vite_ssr_import_12__.createVNode(_component_UtilsCopyButton, {
-                              onClick: $event => ($options.copyToClipboard('defaultAlertComp'))
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.withDirectives(__vite_ssr_import_30__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_30__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_30__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_30__.createVNode("div", null, [
+                            __vite_ssr_import_30__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('defaultButton'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_12__.createVNode(_component_AlertSnippetsDefaultAlert, { id: "defaultAlertComp" })
+                        __vite_ssr_import_30__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultButton" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_12__.vShow, $data.default_alert]
+                        [__vite_ssr_import_30__.vShow, $data.default_btn]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_12__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_12__.createCommentVNode(" End default alert ")
+                __vite_ssr_import_30__.createCommentVNode(" End default Button "),
+                __vite_ssr_import_30__.createCommentVNode(" Outline Button "),
+                __vite_ssr_import_30__.createVNode("section", {
+                  id: "outlineButton",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_30__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createTextVNode("Outline")
+                    ]),
+                    code: __vite_ssr_import_30__.withCtx(() => [
+                      (!$data.outline_btn)
+                        ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.outline_btn = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.outline_btn = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createVNode(_component_ButtonOutline)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_30__.createVNode(__vite_ssr_import_30__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.withDirectives(__vite_ssr_import_30__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_30__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_30__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_30__.createVNode("div", null, [
+                            __vite_ssr_import_30__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('OutlineButton'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_30__.createVNode(_component_ButtonSnippetsOutline, { id: "OutlineButton" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_30__.vShow, $data.outline_btn]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_30__.createCommentVNode(" End Outline Button "),
+                __vite_ssr_import_30__.createCommentVNode(" StateColor Button "),
+                __vite_ssr_import_30__.createVNode("section", {
+                  id: "stateColor",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_30__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createTextVNode("State Color")
+                    ]),
+                    code: __vite_ssr_import_30__.withCtx(() => [
+                      (!$data.statecolor_btn)
+                        ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.statecolor_btn = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.statecolor_btn = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createVNode(_component_ButtonStateColor)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_30__.createVNode(__vite_ssr_import_30__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.withDirectives(__vite_ssr_import_30__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_30__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_30__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_30__.createVNode("div", null, [
+                            __vite_ssr_import_30__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('StateColorButton'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_30__.createVNode(_component_ButtonSnippetsStateColor, { id: "StateColorButton" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_30__.vShow, $data.statecolor_btn]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_30__.createCommentVNode(" End StateColor Button "),
+                __vite_ssr_import_30__.createCommentVNode(" Size Button "),
+                __vite_ssr_import_30__.createVNode("section", {
+                  id: "sizeButton",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_30__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createTextVNode("Size")
+                    ]),
+                    code: __vite_ssr_import_30__.withCtx(() => [
+                      (!$data.size_btn)
+                        ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.size_btn = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.size_btn = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createVNode(_component_ButtonSize)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_30__.createVNode(__vite_ssr_import_30__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.withDirectives(__vite_ssr_import_30__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_30__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_30__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_30__.createVNode("div", null, [
+                            __vite_ssr_import_30__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('SizeButton'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_30__.createVNode(_component_ButtonSnippetsSize, { id: "SizeButton" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_30__.vShow, $data.size_btn]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_30__.createCommentVNode(" End Size Button "),
+                __vite_ssr_import_30__.createCommentVNode(" DualIcon Button "),
+                __vite_ssr_import_30__.createVNode("section", {
+                  id: "dualIcon",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_30__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createTextVNode("Dual Icon")
+                    ]),
+                    code: __vite_ssr_import_30__.withCtx(() => [
+                      (!$data.dual_icon_btn)
+                        ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.dual_icon_btn = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.dual_icon_btn = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createVNode(_component_ButtonDualIcon)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_30__.createVNode(__vite_ssr_import_30__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.withDirectives(__vite_ssr_import_30__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_30__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_30__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_30__.createVNode("div", null, [
+                            __vite_ssr_import_30__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('DualIconButton'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_30__.createVNode(_component_ButtonSnippetsDualIcon, { id: "DualIconButton" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_30__.vShow, $data.dual_icon_btn]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_30__.createCommentVNode(" End DualIcon Button "),
+                __vite_ssr_import_30__.createCommentVNode(" LightColor Button "),
+                __vite_ssr_import_30__.createVNode("section", {
+                  id: "lightColor",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_30__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createTextVNode("Light color")
+                    ]),
+                    code: __vite_ssr_import_30__.withCtx(() => [
+                      (!$data.light_color_btn)
+                        ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.light_color_btn = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.light_color_btn = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createVNode(_component_ButtonLightColor)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_30__.createVNode(__vite_ssr_import_30__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.withDirectives(__vite_ssr_import_30__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_30__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_30__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_30__.createVNode("div", null, [
+                            __vite_ssr_import_30__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('LightColorButton'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_30__.createVNode(_component_ButtonSnippetsLightColor, { id: "LightColorButton" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_30__.vShow, $data.light_color_btn]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_30__.createCommentVNode(" End LightColor Button "),
+                __vite_ssr_import_30__.createCommentVNode(" Dark Color Button "),
+                __vite_ssr_import_30__.createVNode("section", {
+                  id: "darkColor",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_30__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createTextVNode("Dark color")
+                    ]),
+                    code: __vite_ssr_import_30__.withCtx(() => [
+                      (!$data.dark_color_btn)
+                        ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.dark_color_btn = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.dark_color_btn = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createVNode(_component_ButtonDarkColor)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_30__.createVNode(__vite_ssr_import_30__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.withDirectives(__vite_ssr_import_30__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_30__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_30__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_30__.createVNode("div", null, [
+                            __vite_ssr_import_30__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('DarkColorButton'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_30__.createVNode(_component_ButtonSnippetsDarkColor, { id: "DarkColorButton" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_30__.vShow, $data.dark_color_btn]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_30__.createCommentVNode(" End DarkColor Button "),
+                __vite_ssr_import_30__.createCommentVNode(" ColoredShadow Button "),
+                __vite_ssr_import_30__.createVNode("section", {
+                  id: "coloredShadowBtn",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_30__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createTextVNode("Colored shadow")
+                    ]),
+                    code: __vite_ssr_import_30__.withCtx(() => [
+                      (!$data.colored_shadow_btn)
+                        ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.colored_shadow_btn = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.colored_shadow_btn = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createVNode(_component_ButtonColoredShadow)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_30__.createVNode(__vite_ssr_import_30__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.withDirectives(__vite_ssr_import_30__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_30__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_30__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_30__.createVNode("div", null, [
+                            __vite_ssr_import_30__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('ColoredShadowButton'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_30__.createVNode(_component_ButtonSnippetsColoredShadow, { id: "ColoredShadowButton" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_30__.vShow, $data.colored_shadow_btn]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_30__.createCommentVNode(" End ColoredShadow Button "),
+                __vite_ssr_import_30__.createCommentVNode(" Gradient Button "),
+                __vite_ssr_import_30__.createVNode("section", {
+                  id: "gradientBtn",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_30__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createTextVNode("Gradient")
+                    ]),
+                    code: __vite_ssr_import_30__.withCtx(() => [
+                      (!$data.gradient_btn)
+                        ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.gradient_btn = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.gradient_btn = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createVNode(_component_ButtonGradient)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_30__.createVNode(__vite_ssr_import_30__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.withDirectives(__vite_ssr_import_30__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_30__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_30__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_30__.createVNode("div", null, [
+                            __vite_ssr_import_30__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('GradientButton'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_30__.createVNode(_component_ButtonSnippetsGradient, { id: "GradientButton" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_30__.vShow, $data.gradient_btn]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_30__.createCommentVNode(" End Gradient Button "),
+                __vite_ssr_import_30__.createCommentVNode(" Appsmith Button "),
+                __vite_ssr_import_30__.createVNode("section", {
+                  id: "appsmithButton",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_30__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createTextVNode("Appsmith")
+                    ]),
+                    code: __vite_ssr_import_30__.withCtx(() => [
+                      (!$data.appsmith_btn)
+                        ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.appsmith_btn = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.appsmith_btn = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createVNode(_component_ButtonAppsmith)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_30__.createVNode(__vite_ssr_import_30__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.withDirectives(__vite_ssr_import_30__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_30__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_30__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_30__.createVNode("div", null, [
+                            __vite_ssr_import_30__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('AppsmithButton'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_30__.createVNode(_component_ButtonSnippetsAppsmith, { id: "AppsmithButton" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_30__.vShow, $data.appsmith_btn]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_30__.createCommentVNode(" End Appsmith Button ")
               ])
             ]),
-            __vite_ssr_import_12__.createCommentVNode(" right sidebar "),
-            __vite_ssr_import_12__.createVNode("div", { class: "hidden lg:block" }, [
-              __vite_ssr_import_12__.createVNode("div", { class: "w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2" }, [
-                __vite_ssr_import_12__.createVNode("div", { class: "overflow-y-auto" }, [
-                  __vite_ssr_import_12__.createCommentVNode(" <AlertInfo /> "),
-                  __vite_ssr_import_12__.createVNode("div", { class: "flex flex-col justify-start items-end space-y-2" }, [
-                    __vite_ssr_import_12__.createVNode("p", { class: "text-normal font-bold" }, "On This Page"),
-                    __vite_ssr_import_12__.createVNode("button", {
-                      onClick: $event => ($options.scrollToSection('defaultAlert'))
-                    }, " Default Alert ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_12__.createVNode("button", {
-                      onClick: $event => ($options.scrollToSection('stateColorAlert'))
-                    }, " State Color Alert ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_12__.createVNode("button", {
-                      onClick: $event => ($options.scrollToSection('withBtnAlert'))
-                    }, " With Button Alert ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_12__.createVNode("button", {
-                      onClick: $event => ($options.scrollToSection('withLink'))
-                    }, " Alert With Link ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_12__.createVNode("button", {
-                      onClick: $event => ($options.scrollToSection('alertWithIcon'))
-                    }, " Alert With Icon ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_12__.createVNode("button", {
-                      onClick: $event => ($options.scrollToSection('alertWithBorder'))
-                    }, " Alert With Border ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_12__.createVNode("button", {
-                      onClick: $event => ($options.scrollToSection('borderLeft')),
-                      class: "flex flex-row"
-                    }, " Alert With Left-Border ", 8 /* PROPS */, ["onClick"])
+            __vite_ssr_import_30__.createCommentVNode(" right sidebar "),
+            __vite_ssr_import_30__.createVNode("div", { class: "hidden lg:block" }, [
+              __vite_ssr_import_30__.createVNode("div", { class: "w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2" }, [
+                __vite_ssr_import_30__.createVNode("div", { class: "overflow-y-auto" }, [
+                  __vite_ssr_import_30__.createCommentVNode(" <AlertInfo /> "),
+                  __vite_ssr_import_30__.createVNode("div", { class: "flex flex-col justify-start items-end space-y-2" }, [
+                    __vite_ssr_import_30__.createVNode("p", { class: "text-normal font-bold" }, "On This Page"),
+                    __vite_ssr_import_30__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('defaultButton'))
+                    }, " Default ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_30__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('outlineButton'))
+                    }, " Outline ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_30__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('stateColor'))
+                    }, " State Color ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_30__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('sizeButton'))
+                    }, " Size ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_30__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('dualIcon'))
+                    }, " Dual Icon ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_30__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('lightColor'))
+                    }, " Light Color ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_30__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('darkColor'))
+                    }, " Dark Color ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_30__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('coloredShadowBtn')),
+                      class: "text-right"
+                    }, " Colored shadow ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_30__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('gradientBtn'))
+                    }, " Gradient buttons ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_30__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('appsmithButton'))
+                    }, " Appsmith ", 8 /* PROPS */, ["onClick"])
                   ])
                 ])
               ])
@@ -17629,22 +18846,1837 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   }, _parent))
 }
 
-const __vite_ssr_import_14__ = await __vite_ssr_import__("/pages/buttons.vue?vue&type=style&index=0&lang.css");
+const __vite_ssr_import_32__ = await __vite_ssr_import__("/pages/buttons.vue?vue&type=style&index=0&lang.css");
 
 
-const __vite_ssr_import_15__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_33__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_15__.useSSRContext()
+  const ssrContext = __vite_ssr_import_33__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/buttons.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_16__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_34__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_16__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/buttons.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_34__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/buttons.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
+}
+
+
+// --------------------
+// Request: /components/Button/Default.vue
+// Parents: 
+// - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/buttons.vue ($id_e983a7e3)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_4ed8d246 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+    data(){
+    return {
+        itmes:[
+            {
+                id: 1,
+                title: "Button",
+                textColor: "text-white",
+                bgColor: "bg-gray-700",
+                hoverTextColor:"",
+                hoverBgColor:"",
+                hoverShadowColor:"hover:shadow-gray-200",
+
+            },
+            {
+                id: 2,
+                title: "Primary",
+                textColor: "text-white",
+                bgColor: "bg-cyan-500",
+                hoverTextColor:"",
+                hoverBgColor:"",
+
+            },
+            {
+                id: 3,
+                title: "Alternate",
+                textColor: "text-pink-500",
+                bgColor: "",
+                hoverTextColor:"hover:text-white",
+                hoverBgColor:"hover:bg-pink-500",
+                border: "border border-pink-500",
+
+            },
+                {
+                    id: 4,
+                    title: "Ghost",
+                    textColor: "text-gray-500",
+                    bgColor: "bg-white",
+                    hoverTextColor:"",
+                    hoverBgColor:"hover:bg-gray-300",
+                    hoverShadowColor:"hover:shadow-gray-200",
+    
+                },
+                {
+                    id: 5,
+                    title: "Light",
+                    textColor: "text-gray-500",
+                    bgColor: "bg-gray-100",
+                    hoverTextColor:"",
+                    hoverBgColor:"hover:bg-gray-200",
+                    hoverShadowColor:"shadow-gray-200",
+    
+                },
+                {
+                    id: 6,
+                    title: "Dark",
+                    textColor: "text-white",
+                    bgColor: "bg-gray-900",
+                    hoverTextColor:"",
+                    hoverBgColor:"",
+                    hoverShadowColor:"shadow-gray-200",
+    
+                },
+                {
+                    id: 6,
+                    title: "Disabled",
+                    textColor: "text-gray-300",
+                    bgColor: "",
+                    hoverTextColor:"",
+                    hoverBgColor:"bg-gray-100",
+                    hoverShadowColor:"shadow-gray-200 hover:cursor-default",
+    
+                },
+                {
+                    id: 6,
+                    title: "Link",
+                    textColor: "text-blue-500",
+                    bgColor: "",
+                    hoverTextColor:"",
+                    hoverBgColor:"hover:underline",
+                    hoverShadowColor:"",
+    
+                },
+    ]
+}
+}
+}
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
+    _push(`<span><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(`px-5 py-2 text-xs rounded-lg hover:cursor-pointer mr-2 font-semibold ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor} ${item.bgColor}`)
+    }">${
+      __vite_ssr_import_1__.ssrInterpolate(item.title)
+    }</div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Button/Default.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Default.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Button/Snippets/Default.vue
+// Parents: 
+// - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/buttons.vue ($id_e983a7e3)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_b4af2396 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+  <button class="mr-2 rounded-lg bg-gray-700 px-5 py-2 text-xs font-semibold text-white hover:cursor-pointer">Button</button>
+  <button class="mr-2 rounded-lg bg-cyan-500 px-5 py-2 text-xs font-semibold text-white hover:cursor-pointer">Primary</button>
+  <button class="mr-2 rounded-lg border border-pink-500 px-5 py-2 text-xs font-semibold text-pink-500 hover:cursor-pointer hover:bg-pink-500 hover:text-white">Alternate</button>
+  <button class="mr-2 rounded-lg px-5 py-2 text-xs font-semibold text-gray-500 hover:cursor-pointer hover:bg-gray-300 hover:shadow-gray-200">Ghost</button>
+  <button class="mr-2 rounded-lg bg-gray-100 px-5 py-2 text-xs font-semibold text-gray-500 shadow-gray-200 hover:cursor-pointer hover:bg-gray-200">Light</button>
+  <button class="mr-2 rounded-lg bg-gray-900 px-5 py-2 text-xs font-semibold text-white hover:cursor-pointer">Dark</button>
+  <button class="mr-2 rounded-lg bg-gray-100 px-5 py-2 text-xs font-semibold text-gray-300 hover:cursor-pointer">Disabled</button>
+  <button class="mr-2 rounded-lg px-5 py-2 text-xs font-semibold text-blue-500 hover:cursor-pointer hover:underline">Link</button>
+
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Button/Snippets/Default.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/Default.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Button/Outline.vue
+// Parents: 
+// - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/buttons.vue ($id_e983a7e3)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_fa764bca = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+    data(){
+    return {
+        itmes:[
+            {
+                id: 1,
+                title: "Button",
+                textColor: "text-gray-700",
+                bgColor: "",
+                hoverTextColor:"hover:text-white",
+                hoverBgColor:"hover:bg-gray-700",
+                hoverShadowColor:"hover:shadow-gray-200",
+                outlineColor:"border-2 border-gray-700"
+
+            },
+            {
+                id: 2,
+                title: "Primary",
+                textColor: "text-cyan-500",
+                bgColor: "",
+                hoverTextColor:"hover:text-white",
+                hoverBgColor:"hover:bg-cyan-500",
+                outlineColor:"border-2 border-cyan-500"
+
+            },
+            {
+                id: 3,
+                title: "Thin",
+                textColor: "font-normal text-pink-500",
+                bgColor: "",
+                hoverTextColor:"hover:text-white",
+                hoverBgColor:"hover:bg-pink-500",
+                border: "border",
+                outlineColor:"border border-pink-500"
+
+            },
+                {
+                    id: 4,
+                    title: "Ghost",
+                    textColor: "text-gray-500",
+                    bgColor: "bg-white",
+                    hoverTextColor:"",
+                    hoverBgColor:"",
+                    hoverShadowColor:"hover:shadow-gray-200",
+                    hoverOutlineColor:"hover:border hover:border-gray-500"
+    
+                },
+                {
+                    id: 5,
+                    title: "Light",
+                    textColor: "text-gray-200",
+                    bgColor: "",
+                    hoverTextColor:"hover:text-gray-400",
+                    hoverBgColor:"hover:bg-gray-200",
+                    hoverShadowColor:"shadow-gray-200",
+                    outlineColor:"border-2 border-gray-200"
+    
+                },
+                {
+                    id: 6,
+                    title: "Dark",
+                    textColor: "text-gray-900",
+                    bgColor: "",
+                    hoverTextColor:"hover:text-white",
+                    hoverBgColor:"hover:bg-gray-900",
+                    hoverShadowColor:"shadow-gray-200",
+                    outlineColor:"border-2 border-gray-900"
+    
+                },
+                {
+                    id: 6,
+                    title: "Disabled",
+                    textColor: "text-gray-300",
+                    bgColor: "",
+                    hoverTextColor:"",
+                    hoverBgColor:"",
+                    hoverShadowColor:"shadow-gray-200",
+                    outlineColor:"border-2 border-gray-100"
+    
+                },
+                {
+                    id: 6,
+                    title: "Link",
+                    textColor: "text-blue-500",
+                    bgColor: "",
+                    hoverTextColor:"",
+                    hoverBgColor:"",
+                    hoverShadowColor:"",
+                    hoverLink:"no-underline hover:underline",
+                    hoverOutlineColor:"hover:border hover:border-blue-500"
+    
+                },
+    ]
+}
+}
+}
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
+    _push(`<span><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(`px-5 py-2 text-xs rounded-lg mr-2 mb-2 font-semibold ${item.textColor} ${item.hoverTextColor} ${item.bgColor} ${item.hoverBgColor} ${item.outlineColor} ${item.outlineColor} ${item.hoverOutlineColor}`)
+    }">${
+      __vite_ssr_import_1__.ssrInterpolate(item.title)
+    }</div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Button/Outline.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Outline.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Button/Snippets/Outline.vue
+// Parents: 
+// - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/buttons.vue ($id_e983a7e3)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_eebbab81 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+  <button class="mr-2 mb-2 rounded-lg border-2 border-gray-700 px-5 py-2 text-xs font-semibold text-gray-700 hover:cursor-pointer hover:bg-gray-700 hover:text-white hover:shadow-gray-200">Button</button>
+  <button class="mr-2 mb-2 rounded-lg border-2 border-cyan-500 px-5 py-2 text-xs font-semibold text-cyan-700 hover:cursor-pointer hover:bg-cyan-500 hover:text-white hover:shadow-cyan-200">Primary</button>
+  <button class="mr-2 mb-2 rounded-lg border border-pink-500 px-5 py-2 text-xs font-normal text-pink-500 hover:cursor-pointer hover:bg-pink-500 hover:text-white">Thin</button>
+  <button class="mr-2 mb-2 rounded-lg px-5 py-2 text-xs font-semibold text-gray-500 hover:cursor-pointer hover:border hover:border-gray-500">Ghost</button>
+  <button class="mr-2 mb-2 rounded-lg border-2 border-gray-200 px-5 py-2 text-xs font-semibold text-gray-200 hover:cursor-pointer hover:bg-gray-200 hover:text-gray-400">Light</button>
+  <button class="mr-2 mb-2 rounded-lg border-2 border-gray-900 px-5 py-2 text-xs font-semibold text-gray-900 hover:cursor-pointer hover:bg-gray-900 hover:text-white">Dark</button>
+  <button class="disabled mr-2 mb-2 rounded-lg border-2 border-gray-100 px-5 py-2 text-xs font-semibold text-gray-300">Disabled</button>
+  <button class="mr-2 mb-2 rounded-lg px-5 py-2 text-xs font-semibold text-blue-500 hover:border-2 hover:border-blue-500">Link</button>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Button/Snippets/Outline.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/Outline.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Button/StateColor.vue
+// Parents: 
+// - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/buttons.vue ($id_e983a7e3)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_bb5459bb = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      itmes: [
+        {
+          id: 1,
+          title: "Info",
+          textColor: "text-blue-700",
+          bgColor: "bg-blue-100",
+          hoverTextColor: "hover:text-blue-800",
+          hoverBgColor: "hover:bg-blue-200",
+          hoverShadowColor: "",
+          outlineColor: "",
+        },
+        {
+          id: 2,
+          title: "Success",
+          textColor: "text-emerald-700",
+          bgColor: "bg-emerald-100",
+          hoverTextColor: "hover:text-emerald-800",
+          hoverBgColor: "hover:bg-emerald-200",
+        },
+        {
+          id: 3,
+          title: "Warning",
+          textColor: "text-amber-700",
+          bgColor: "bg-yellow-100",
+          hoverTextColor: "hover:text-amber-800",
+          hoverBgColor: "hover:bg-yellow-200",
+
+        },
+        {
+          id: 4,
+          title: "Error",
+          textColor: "text-rose-700",
+          bgColor: "bg-red-100",
+          hoverTextColor: "hover:text-rose-800",
+          hoverBgColor: "hover:bg-red-200",
+        },
+      ],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
+    _push(`<span><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(
+          `px-5 py-2 text-xs rounded-lg mr-2 mb-2 font-semibold  ${
+            item.textColor
+          } ${item.hoverTextColor} ${item.bgColor} ${item.hoverBgColor}`
+        )
+    }">${
+      __vite_ssr_import_1__.ssrInterpolate(item.title)
+    }</div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Button/StateColor.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/StateColor.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Button/Snippets/StateColor.vue
+// Parents: 
+// - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/buttons.vue ($id_e983a7e3)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_ed9f041d = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+  <button class="mr-2 rounded-lg bg-blue-100 px-5 py-2 text-xs font-semibold text-blue-700 hover:bg-blue-200 hover:text-blue-800">Button</button>
+  <button class="mr-2 rounded-lg bg-emerald-100 px-5 py-2 text-xs font-semibold text-emerald-700 hover:bg-emerald-200 hover:text-emerald-800">Success</button>
+  <button class="mr-2 rounded-lg bg-amber-100 px-5 py-2 text-xs font-semibold text-amber-700 hover:bg-amber-200 hover:text-amber-800">Warning</button>
+  <button class="mr-2 rounded-lg bg-rose-100 px-5 py-2 text-xs font-semibold text-rose-700 hover:bg-rose-200 hover:text-rose-800">Error</button>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Button/Snippets/StateColor.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/StateColor.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Button/Size.vue
+// Parents: 
+// - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/buttons.vue ($id_e983a7e3)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_e153cb94 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+    data(){
+    return {
+        itmes:[
+            {
+                id: 1,
+                title: "Small",
+                textColor: "text-white",
+                bgColor: "bg-gray-800",
+                hoverTextColor:"hover:text-white",
+                hoverBgColor:"",
+                hoverShadowColor:"",
+                outlineColor:"",
+                size:"px-3 py-1",
+                textSize: "text-xxs"
+
+            },
+            {
+                id: 2,
+                title: "Base",
+                textColor: "text-white",
+                bgColor: "bg-gray-800",
+                hoverTextColor:"hover:text-white",
+                hoverBgColor:"",
+                hoverShadowColor:"",
+                outlineColor:"",
+                size:"px-5 py-2",
+                textSize: "text-xs"
+
+            },
+            {
+                id: 3,
+                title: "Medium",
+                textColor: "text-white",
+                bgColor: "bg-gray-800",
+                hoverTextColor:"hover:text-white",
+                hoverBgColor:"",
+                hoverShadowColor:"",
+                outlineColor:"",
+                size:"px-7 py-3",
+                textSize: "text-md"
+
+            },
+            {
+                id: 4,
+                title: "Large",
+                textColor: "text-white",
+                bgColor: "bg-gray-800",
+                hoverTextColor:"hover:text-white",
+                hoverBgColor:"",
+                hoverShadowColor:"",
+                outlineColor:"",
+                size:"px-9 py-4",
+                textSize: "text-lg"
+
+            },           
+                
+    ]
+}
+}
+}
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap justify-center items-center" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
+    _push(`<span><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(`rounded-lg mr-2 mb-2 font-semibold cursor-pointer ${item.textColor} ${item.hoverTextColor} ${item.bgColor} ${item.hoverBgColor} ${item.size} ${item.textSize}`)
+    }">${
+      __vite_ssr_import_1__.ssrInterpolate(item.title)
+    }</div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Button/Size.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Size.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Button/Snippets/Size.vue
+// Parents: 
+// - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/buttons.vue ($id_e983a7e3)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_917e3c8e = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+  <button class="text-xxs mr-2 rounded-lg bg-gray-800 px-3 py-1 font-semibold text-white cursor-pointer">Small</button>
+  <button class="mr-2 rounded-lg bg-gray-800 px-5 py-2 text-xs font-semibold text-white cursor-pointer">Base</button>
+  <button class="text-md mr-2 rounded-lg bg-gray-800 px-7 py-3 font-semibold text-white cursor-pointer">Medium</button>
+  <button class="mr-2 rounded-lg bg-gray-800 px-9 py-4 text-lg font-semibold text-white cursor-pointer">Large</button>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Button/Snippets/Size.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/Size.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Button/DualIcon.vue
+// Parents: 
+// - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/buttons.vue ($id_e983a7e3)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_6879b767 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+    data(){
+    return {
+        itmes:[
+            {
+                id: 1,
+                title: "Clone",
+                textColor: "text-white",
+                bgColor: "bg-green-500",
+                hoverTextColor:"",
+                hoverBgColor:"hover:bg-green-400",
+                hoverShadowColor:"hover:shadow-gray-200",
+
+            },
+            {
+                id: 2,
+                title: "Download",
+                textColor: "text-white",
+                bgColor: "bg-cyan-500",
+                hoverTextColor:"hover:bg-cyan-400",
+                hoverBgColor:"",
+
+            },
+            
+    ]
+}
+}
+}
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
+    _push(`<span><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(`flex justify-around items-center space-x-2 px-4 py-2 text-sm rounded-lg mr-2 font-semibold ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor}  ${item.bgColor}`)
+    }"><div><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></div><div>${
+      __vite_ssr_import_1__.ssrInterpolate(item.title)
+    }</div><div><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></div></div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Button/DualIcon.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/DualIcon.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Button/Snippets/DualIcon.vue
+// Parents: 
+// - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/buttons.vue ($id_e983a7e3)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_81899cd7 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+    <!-- Clone -->
+    <div class="flex">
+    <div class="mr-2 flex items-center space-x-2 rounded-lg px-4 py-2 text-sm font-semibold bg-green-500 text-white hover:bg-green-400">
+    <div><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" /></svg></div>
+    <div>Clone</div>
+    <div><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" /></svg></div>
+    </div>
+    </div>
+    <!-- Download -->
+    <div class="flex">
+    <div class="mr-2 flex items-center space-x-2 rounded-lg px-4 py-2 text-sm font-semibold bg-cyan-500 text-white hover:bg-cyan-400">
+    <div><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" /></svg></div>
+    <div>Download</div>
+    <div><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" /></svg></div>
+    </div>
+    </div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Button/Snippets/DualIcon.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/DualIcon.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Button/LightColor.vue
+// Parents: 
+// - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/buttons.vue ($id_e983a7e3)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_07b3cc08 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+    data(){
+    return {
+        itmes:[
+            // {
+            //     id: 1,
+            //     title: "Slate",
+            //     textColor: "text-white",
+            //     bgColor: "bg-slate-400",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            {
+                id: 2,
+                title: "Gray",
+                textColor: "text-white",
+                bgColor: "bg-gray-400",
+                hoverTextColor:"",
+                hoverBgColor:"",
+
+            },
+            // {
+            //     id: 3,
+            //     title: "Zinc",
+            //     textColor: "text-white",
+            //     bgColor: "bg-zinc-400",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            // {
+            //     id: 4,
+            //     title: "Neutral",
+            //     textColor: "text-white",
+            //     bgColor: "bg-neutral-400",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            // {
+            //     id: 5,
+            //     title: "Stone",
+            //     textColor: "text-white",
+            //     bgColor: "bg-stone-400",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            {
+                id: 6,
+                title: "Red",
+                textColor: "text-white",
+                bgColor: "bg-red-400",
+                hoverTextColor:"",
+                hoverBgColor:"",
+
+            },
+            {
+                id: 7,
+                title: "Orange",
+                textColor: "text-white",
+                bgColor: "bg-orange-400",
+                hoverTextColor:"",
+                hoverBgColor:"",
+
+            },
+            // {
+            //     id: 8,
+            //     title: "Amber",
+            //     textColor: "text-white",
+            //     bgColor: "bg-amber-400",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            {
+                id: 9,
+                title: "Yellow",
+                textColor: "text-white",
+                bgColor: "bg-yellow-300",
+                hoverTextColor:"",
+                hoverBgColor:"",
+
+            },
+            // {
+            //     id: 10,
+            //     title: "Lime",
+            //     textColor: "text-white",
+            //     bgColor: "bg-lime-400",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            {
+                id: 11,
+                title: "Green",
+                textColor: "text-white",
+                bgColor: "bg-green-400",
+                hoverTextColor:"",
+                hoverBgColor:"",
+
+            },
+            // {
+            //     id: 12,
+            //     title: "Emerald",
+            //     textColor: "text-white",
+            //     bgColor: "bg-emerald-400",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            // {
+            //     id: 13,
+            //     title: "Teal",
+            //     textColor: "text-white",
+            //     bgColor: "bg-teal-400",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            {
+                id: 14,
+                title: "Cyan",
+                textColor: "text-white",
+                bgColor: "bg-cyan-400",
+                hoverTextColor:"",
+                hoverBgColor:"",
+
+            },
+            // {
+            //     id: 15,
+            //     title: "Sky",
+            //     textColor: "text-white",
+            //     bgColor: "bg-sky-400",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            // {
+            //     id: 16,
+            //     title: "Blue",
+            //     textColor: "text-white",
+            //     bgColor: "bg-blue-400",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            // {
+            //     id: 17,
+            //     title: "Indigo",
+            //     textColor: "text-white",
+            //     bgColor: "bg-indigo-400",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            {
+                id: 18,
+                title: "Violet",
+                textColor: "text-white",
+                bgColor: "bg-violet-400",
+                hoverTextColor:"",
+                hoverBgColor:"",
+
+            },
+            // {
+            //     id: 19,
+            //     title: "Fuchsia",
+            //     textColor: "text-white",
+            //     bgColor: "bg-fuchsia-400",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+            // },
+            {
+                id: 20,
+                title: "Pink",
+                textColor: "text-white",
+                bgColor: "bg-pink-400",
+                hoverTextColor:"",
+                hoverBgColor:"",
+
+            },
+            // {
+            //     id: 21,
+            //     title: "Rose",
+            //     textColor: "text-white",
+            //     bgColor: "bg-rose-400",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            
+    ]
+}
+}
+}
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
+    _push(`<span><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(`px-5 py-2 text-xs rounded-lg mr-2 mb-2 font-semibold ${item.textColor} ${item.bgColor}`)
+    }">${
+      __vite_ssr_import_1__.ssrInterpolate(item.title)
+    }</div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Button/LightColor.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/LightColor.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Button/Snippets/LightColor.vue
+// Parents: 
+// - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/buttons.vue ($id_e983a7e3)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_6cd68d69 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+  <button class="text-xs mr-2 rounded-lg bg-gray-400 px-5 py-2 font-semibold text-white cursor-pointer">Gray</button>
+  <button class="text-xs mr-2 rounded-lg bg-red-400 px-5 py-2 font-semibold text-white cursor-pointer">Red</button>
+  <button class="text-xs mr-2 rounded-lg bg-orange-400 px-5 py-2 font-semibold text-white cursor-pointer">Orange</button>
+  <button class="text-xs mr-2 rounded-lg bg-yellow-400 px-5 py-2 font-semibold text-white cursor-pointer">Yellow</button>
+  <button class="text-xs mr-2 rounded-lg bg-green-400 px-5 py-2 font-semibold text-white cursor-pointer">Green</button>
+  <button class="text-xs mr-2 rounded-lg bg-cyan-400 px-5 py-2 font-semibold text-white cursor-pointer">Cyan</button>
+  <button class="text-xs mr-2 rounded-lg bg-violet-400 px-5 py-2 font-semibold text-white cursor-pointer">Violet</button>
+  <button class="text-xs mr-2 rounded-lg bg-pink-400 px-5 py-2 font-semibold text-white cursor-pointer">Pink</button>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Button/Snippets/LightColor.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/LightColor.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Button/DarkColor.vue
+// Parents: 
+// - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/buttons.vue ($id_e983a7e3)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_c288ee0d = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+    data(){
+    return {
+        itmes:[
+            // {
+            //     id: 1,
+            //     title: "Slate",
+            //     textColor: "text-white",
+            //     bgColor: "bg-slate-600",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            {
+                id: 2,
+                title: "Gray",
+                textColor: "text-white",
+                bgColor: "bg-gray-600",
+                hoverTextColor:"",
+                hoverBgColor:"",
+
+            },
+            // {
+            //     id: 3,
+            //     title: "Zinc",
+            //     textColor: "text-white",
+            //     bgColor: "bg-zinc-600",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            // {
+            //     id: 4,
+            //     title: "Neutral",
+            //     textColor: "text-white",
+            //     bgColor: "bg-neutral-600",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            // {
+            //     id: 5,
+            //     title: "Stone",
+            //     textColor: "text-white",
+            //     bgColor: "bg-stone-600",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            {
+                id: 6,
+                title: "Red",
+                textColor: "text-white",
+                bgColor: "bg-red-600",
+                hoverTextColor:"",
+                hoverBgColor:"",
+
+            },
+            {
+                id: 7,
+                title: "Orange",
+                textColor: "text-white",
+                bgColor: "bg-orange-600",
+                hoverTextColor:"",
+                hoverBgColor:"",
+
+            },
+            // {
+            //     id: 8,
+            //     title: "Amber",
+            //     textColor: "text-white",
+            //     bgColor: "bg-amber-600",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            {
+                id: 9,
+                title: "Yellow",
+                textColor: "text-white",
+                bgColor: "bg-yellow-600",
+                hoverTextColor:"",
+                hoverBgColor:"",
+
+            },
+            // {
+            //     id: 10,
+            //     title: "Lime",
+            //     textColor: "text-white",
+            //     bgColor: "bg-lime-600",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            {
+                id: 11,
+                title: "Green",
+                textColor: "text-white",
+                bgColor: "bg-green-600",
+                hoverTextColor:"",
+                hoverBgColor:"",
+
+            },
+            // {
+            //     id: 12,
+            //     title: "Emerald",
+            //     textColor: "text-white",
+            //     bgColor: "bg-emerald-600",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            // {
+            //     id: 13,
+            //     title: "Teal",
+            //     textColor: "text-white",
+            //     bgColor: "bg-teal-600",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            {
+                id: 14,
+                title: "Cyan",
+                textColor: "text-white",
+                bgColor: "bg-cyan-600",
+                hoverTextColor:"",
+                hoverBgColor:"",
+
+            },
+            // {
+            //     id: 15,
+            //     title: "Sky",
+            //     textColor: "text-white",
+            //     bgColor: "bg-sky-600",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            // {
+            //     id: 16,
+            //     title: "Blue",
+            //     textColor: "text-white",
+            //     bgColor: "bg-blue-600",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            // {
+            //     id: 17,
+            //     title: "Indigo",
+            //     textColor: "text-white",
+            //     bgColor: "bg-indigo-600",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            {
+                id: 18,
+                title: "Violet",
+                textColor: "text-white",
+                bgColor: "bg-violet-600",
+                hoverTextColor:"",
+                hoverBgColor:"",
+
+            },
+            // {
+            //     id: 19,
+            //     title: "Fuchsia",
+            //     textColor: "text-white",
+            //     bgColor: "bg-fuchsia-600",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            {
+                id: 20,
+                title: "Pink",
+                textColor: "text-white",
+                bgColor: "bg-pink-600",
+                hoverTextColor:"",
+                hoverBgColor:"",
+
+            },
+            // {
+            //     id: 21,
+            //     title: "Rose",
+            //     textColor: "text-white",
+            //     bgColor: "bg-rose-600",
+            //     hoverTextColor:"",
+            //     hoverBgColor:"",
+
+            // },
+            
+    ]
+}
+}
+}
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
+    _push(`<span><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(`px-5 py-2 text-xs rounded-lg mr-2 mb-2 font-semibold ${item.textColor} ${item.bgColor}`)
+    }">${
+      __vite_ssr_import_1__.ssrInterpolate(item.title)
+    }</div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Button/DarkColor.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/DarkColor.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Button/Snippets/DarkColor.vue
+// Parents: 
+// - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/buttons.vue ($id_e983a7e3)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_84298af9 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+  <button class="text-xs mr-2 rounded-lg bg-gray-600 px-5 py-2 font-semibold text-white cursor-pointer">Gray</button>
+  <button class="text-xs mr-2 rounded-lg bg-red-600 px-5 py-2 font-semibold text-white cursor-pointer">Red</button>
+  <button class="text-xs mr-2 rounded-lg bg-orange-600 px-5 py-2 font-semibold text-white cursor-pointer">Orange</button>
+  <button class="text-xs mr-2 rounded-lg bg-yellow-600 px-5 py-2 font-semibold text-white cursor-pointer">Yellow</button>
+  <button class="text-xs mr-2 rounded-lg bg-green-600 px-5 py-2 font-semibold text-white cursor-pointer">Green</button>
+  <button class="text-xs mr-2 rounded-lg bg-cyan-600 px-5 py-2 font-semibold text-white cursor-pointer">Cyan</button>
+  <button class="text-xs mr-2 rounded-lg bg-violet-600 px-5 py-2 font-semibold text-white cursor-pointer">Violet</button>
+  <button class="text-xs mr-2 rounded-lg bg-pink-600 px-5 py-2 font-semibold text-white cursor-pointer">Pink</button>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Button/Snippets/DarkColor.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/DarkColor.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Button/ColoredShadow.vue
+// Parents: 
+// - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/buttons.vue ($id_e983a7e3)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_289dc474 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      itmes: [
+        {
+          id: 1,
+          title: "Sky",
+css:"rounded-lg bg-gradient-to-br from-sky-400 via-sky-500 to-sky-600 px-5 py-1.5 text-xs font-medium text-white shadow-lg shadow-sky-500/50 hover:bg-gradient-to-r dark:shadow-lg dark:shadow-sky-800/80",
+        },
+        {
+          id: 2,
+          title: "Rose",
+css:"rounded-lg bg-gradient-to-br from-rose-400 via-rose-500 to-rose-600 px-5 py-1.5 text-xs font-medium text-white shadow-lg shadow-rose-500/40 hover:bg-gradient-to-r dark:shadow-lg dark:shadow-rose-800/80",
+        },
+        {
+          id: 3,
+          title: "Emerald",
+css:"rounded-lg bg-gradient-to-br from-emerald-400 via-emerald-500 to-emerald-600 px-5 py-1.5 text-center text-xs font-medium text-white shadow-lg shadow-emerald-500/50 hover:bg-gradient-to-r dark:shadow-lg dark:shadow-emerald-800/80",
+
+
+        },
+        {
+          id: 4,
+          title: "Amber",
+css:"rounded-lg bg-gradient-to-br from-amber-400 via-amber-500 to-amber-600 px-5 py-1.5 text-center text-xs font-medium text-white shadow-lg shadow-amber-500/50 hover:bg-gradient-to-r dark:shadow-lg dark:shadow-amber-800/80",
+        },
+        {
+          id: 5,
+          title: "Fuchsia",
+css:"rounded-lg bg-gradient-to-br from-fuchsia-400 via-fuchsia-500 to-fuchsia-600 px-5 py-1.5 text-center text-xs font-medium text-white shadow-lg shadow-fuchsia-500/50 hover:bg-gradient-to-r dark:shadow-lg dark:shadow-fuchsia-800/80",
+        },
+      ],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
+    _push(`<span><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(
+          ` text-xs rounded-lg mr-2 mb-2 font-semibold ${item.css}  ${
+            item.textColor
+          } `
+        )
+    }">${
+      __vite_ssr_import_1__.ssrInterpolate(item.title)
+    }</div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Button/ColoredShadow.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/ColoredShadow.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Button/Snippets/ColoredShadow.vue
+// Parents: 
+// - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/buttons.vue ($id_e983a7e3)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_40c240a6 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+    <div class="flex flex-wrap p-4">
+        <div class="mr-2 mb-2 rounded-lg bg-gradient-to-br from-sky-400 via-sky-500 to-sky-600 px-5 py-1.5 text-xs font-medium text-white shadow-lg shadow-sky-500/50 hover:bg-gradient-to-r dark:shadow-lg dark:shadow-sky-800/80">Sky</div>
+        <div class="mr-2 mb-2 rounded-lg bg-gradient-to-br from-rose-400 via-rose-500 to-rose-600 px-5 py-1.5 text-xs font-medium text-white shadow-lg shadow-rose-500/40 hover:bg-gradient-to-r dark:shadow-lg dark:shadow-rose-800/80">Rose</div>
+        <div class="mr-2 mb-2 rounded-lg bg-gradient-to-br from-emerald-400 via-emerald-500 to-emerald-600 px-5 py-1.5 text-center text-xs font-medium text-white shadow-lg shadow-emerald-500/50 hover:bg-gradient-to-r dark:shadow-lg dark:shadow-emerald-800/80">Emerald</div>
+        <div class="mr-2 mb-2 rounded-lg bg-gradient-to-br from-amber-400 via-amber-500 to-amber-600 px-5 py-1.5 text-center text-xs font-medium text-white shadow-lg shadow-amber-500/50 hover:bg-gradient-to-r dark:shadow-lg dark:shadow-amber-800/80">Amber</div>
+        <div class="mr-2 mb-2 rounded-lg bg-gradient-to-br from-fuchsia-400 via-fuchsia-500 to-fuchsia-600 px-5 py-1.5 text-center text-xs font-medium text-white shadow-lg shadow-fuchsia-500/50 hover:bg-gradient-to-r dark:shadow-lg dark:shadow-fuchsia-800/80">Fuchsia</div>
+    </div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Button/Snippets/ColoredShadow.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/ColoredShadow.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Button/Gradient.vue
+// Parents: 
+// - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/buttons.vue ($id_e983a7e3)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_66639e42 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      itmes: [
+        {
+          id: 1,
+          title: "Blue to sky",
+css:"bg-gradient-to-r from-blue-500 to-sky-300 text-white",
+        },
+        {
+          id: 2,
+          title: "Pink to indigo",
+css:"bg-gradient-to-br from-pink-600 via-purple-400 to-indigo-300 text-white",
+        },
+        {
+          id: 3,
+          title: "Emerald to teal",
+css:"bg-gradient-to-r from-emerald-400 to-teal-400 text-white",
+
+
+        },
+        {
+          id: 4,
+          title: "Neutral & white",
+css:"bg-gradient-to-r from-neutral-200 dark:from-neutral-50 dark:to-neutral-500 text-black",
+        },
+        {
+          id: 5,
+          title: "Red to rose",
+css:"bg-gradient-to-r from-red-300 to-rose-500 text-white",
+        },
+      ],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
+    _push(`<span><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(
+          `px-5 py-2 text-xs rounded-lg mr-2 mb-2 font-semibold ${item.css}  ${
+            item.textColor
+          } `
+        )
+    }">${
+      __vite_ssr_import_1__.ssrInterpolate(item.title)
+    }</div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Button/Gradient.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Gradient.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Button/Snippets/Gradient.vue
+// Parents: 
+// - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/buttons.vue ($id_e983a7e3)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_b99ef559 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+    <div class="flex flex-wrap p-4">
+        <div class="mr-2 mb-2 rounded-lg bg-gradient-to-r from-blue-500 to-sky-300 px-5 py-2 text-xs font-semibold text-white">Blue to sky</div>
+        <div class="mr-2 mb-2 rounded-lg bg-gradient-to-br from-pink-600 via-purple-400 to-indigo-300 px-5 py-2 text-xs font-semibold text-white">Pink to indigo</div>
+        <div class="mr-2 mb-2 rounded-lg bg-gradient-to-r from-emerald-400 to-teal-400 px-5 py-2 text-xs font-semibold text-white">Emerald to teal</div>
+        <div class="mr-2 mb-2 rounded-lg bg-gradient-to-r from-neutral-200 px-5 py-2 text-xs font-semibold text-black dark:from-neutral-50 dark:to-neutral-500">Neutral & white</div>
+        <div class="mr-2 mb-2 rounded-lg bg-gradient-to-r from-red-300 to-rose-500 px-5 py-2 text-xs font-semibold text-white">Red to rose</div>
+    </div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Button/Snippets/Gradient.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/Gradient.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Button/Appsmith.vue
+// Parents: 
+// - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/buttons.vue ($id_e983a7e3)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_f75a09c9 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+    data(){
+    return {
+        itmes:[
+            
+    ]
+}
+}
+}
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap" }, _attrs))}><!--  --><div class="px-8 py-3.5 hover:border-2 hover:border-[#ff6d2d] bg-[#ff6d2d] hover:bg-[#FAF5ED] font-bold hover:text-[#ff6d2d] rounded"> Try cloud </div></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Button/Appsmith.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Appsmith.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Button/Snippets/Appsmith.vue
+// Parents: 
+// - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/buttons.vue ($id_e983a7e3)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_1c421991 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+<button class="rounded bg-[#ff6d2d] px-8 py-3.5 font-bold hover:border-2 hover:border-[#ff6d2d] hover:bg-[#FAF5ED] hover:text-[#ff6d2d]">Try cloud</button>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Button/Snippets/Appsmith.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/Appsmith.vue"]]);
 }
 
 
@@ -23989,9 +27021,27 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_28__.default(_sfc_
 // - /components/Utils/ShowCodeButton.vue ($id_b28ae97a)
 // - /components/Utils/HideCodeButton.vue ($id_2ed55d76)
 // - /components/Utils/ComponentPad.vue ($id_900fca01)
-// - /components/Alert/DefaultAlert.vue ($id_7cd7150c)
+// - /components/Button/Default.vue ($id_4ed8d246)
 // - /components/Utils/CopyButton.vue ($id_07dc553f)
-// - /components/Alert/Snippets/DefaultAlert.vue ($id_09a6c81e)
+// - /components/Button/Snippets/Default.vue ($id_b4af2396)
+// - /components/Button/Outline.vue ($id_fa764bca)
+// - /components/Button/Snippets/Outline.vue ($id_eebbab81)
+// - /components/Button/StateColor.vue ($id_bb5459bb)
+// - /components/Button/Snippets/StateColor.vue ($id_ed9f041d)
+// - /components/Button/Size.vue ($id_e153cb94)
+// - /components/Button/Snippets/Size.vue ($id_917e3c8e)
+// - /components/Button/DualIcon.vue ($id_6879b767)
+// - /components/Button/Snippets/DualIcon.vue ($id_81899cd7)
+// - /components/Button/LightColor.vue ($id_07b3cc08)
+// - /components/Button/Snippets/LightColor.vue ($id_6cd68d69)
+// - /components/Button/DarkColor.vue ($id_c288ee0d)
+// - /components/Button/Snippets/DarkColor.vue ($id_84298af9)
+// - /components/Button/ColoredShadow.vue ($id_289dc474)
+// - /components/Button/Snippets/ColoredShadow.vue ($id_40c240a6)
+// - /components/Button/Gradient.vue ($id_66639e42)
+// - /components/Button/Snippets/Gradient.vue ($id_b99ef559)
+// - /components/Button/Appsmith.vue ($id_f75a09c9)
+// - /components/Button/Snippets/Appsmith.vue ($id_1c421991)
 // - /components/Alert/AlertInfo.vue ($id_df465372)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -24011,38 +27061,77 @@ const __vite_ssr_import_4__ = await __vite_ssr_import__("/components/Utils/HideC
 
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/components/Utils/ComponentPad.vue");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/components/Alert/DefaultAlert.vue");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/components/Button/Default.vue");
 
 const __vite_ssr_import_7__ = await __vite_ssr_import__("/components/Utils/CopyButton.vue");
 
-const __vite_ssr_import_8__ = await __vite_ssr_import__("/components/Alert/Snippets/DefaultAlert.vue");
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/components/Button/Snippets/Default.vue");
+
+const __vite_ssr_import_9__ = await __vite_ssr_import__("/components/Button/Outline.vue");
+
+const __vite_ssr_import_10__ = await __vite_ssr_import__("/components/Button/Snippets/Outline.vue");
+
+const __vite_ssr_import_11__ = await __vite_ssr_import__("/components/Button/StateColor.vue");
+
+const __vite_ssr_import_12__ = await __vite_ssr_import__("/components/Button/Snippets/StateColor.vue");
+
+const __vite_ssr_import_13__ = await __vite_ssr_import__("/components/Button/Size.vue");
+
+const __vite_ssr_import_14__ = await __vite_ssr_import__("/components/Button/Snippets/Size.vue");
+
+const __vite_ssr_import_15__ = await __vite_ssr_import__("/components/Button/DualIcon.vue");
+
+const __vite_ssr_import_16__ = await __vite_ssr_import__("/components/Button/Snippets/DualIcon.vue");
+
+const __vite_ssr_import_17__ = await __vite_ssr_import__("/components/Button/LightColor.vue");
+
+const __vite_ssr_import_18__ = await __vite_ssr_import__("/components/Button/Snippets/LightColor.vue");
+
+const __vite_ssr_import_19__ = await __vite_ssr_import__("/components/Button/DarkColor.vue");
+
+const __vite_ssr_import_20__ = await __vite_ssr_import__("/components/Button/Snippets/DarkColor.vue");
+
+const __vite_ssr_import_21__ = await __vite_ssr_import__("/components/Button/ColoredShadow.vue");
+
+const __vite_ssr_import_22__ = await __vite_ssr_import__("/components/Button/Snippets/ColoredShadow.vue");
+
+const __vite_ssr_import_23__ = await __vite_ssr_import__("/components/Button/Gradient.vue");
+
+const __vite_ssr_import_24__ = await __vite_ssr_import__("/components/Button/Snippets/Gradient.vue");
+
+const __vite_ssr_import_25__ = await __vite_ssr_import__("/components/Button/Appsmith.vue");
+
+const __vite_ssr_import_26__ = await __vite_ssr_import__("/components/Button/Snippets/Appsmith.vue");
 
 
-const __vite_ssr_import_9__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
+const __vite_ssr_import_27__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
 
-const __vite_ssr_import_10__ = await __vite_ssr_import__("/components/Alert/AlertInfo.vue");
+const __vite_ssr_import_28__ = await __vite_ssr_import__("/components/Alert/AlertInfo.vue");
 
-const __vite_ssr_import_11__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
+const __vite_ssr_import_29__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
 
 const _sfc_main = {
   metaInfo: {
     title: "Alerts",
   },
   components: {
-    AlertInfo: __vite_ssr_import_10__.default,
-    Heading: __vite_ssr_import_11__.default,
-    SubHeading: __vite_ssr_import_9__.default,
+    AlertInfo: __vite_ssr_import_28__.default,
+    Heading: __vite_ssr_import_29__.default,
+    SubHeading: __vite_ssr_import_27__.default,
 },
   data() {
     return {
       layout: "custom",
-      default_alert: false,
-      statecolor_alert: false,
-      with_button: false,
-      alert_wlink: false,
-      alert_wicon: false,
-      alert_wborder: false,
-      alert_wleftborder: false,
+ default_btn: false,
+      outline_btn: false,
+      statecolor_btn: false,
+      size_btn: false,
+      dual_icon_btn: false,
+      light_color_btn: false,
+      dark_color_btn: false,
+      gradient_btn: false,
+      colored_shadow_btn: false,
+      appsmith_btn: false,  
       // SCROLL
       activeScrollSection: "",
       sample: "",
@@ -24065,9 +27154,9 @@ const _sfc_main = {
   },
 };
 
-const __vite_ssr_import_12__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_30__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_13__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+const __vite_ssr_import_31__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
@@ -24077,12 +27166,30 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   const _component_UtilsShowCodeButton = __vite_ssr_import_3__.default
   const _component_UtilsHideCodeButton = __vite_ssr_import_4__.default
   const _component_UtilsComponentPad = __vite_ssr_import_5__.default
-  const _component_AlertDefaultAlert = __vite_ssr_import_6__.default
+  const _component_ButtonDefault = __vite_ssr_import_6__.default
   const _component_UtilsCopyButton = __vite_ssr_import_7__.default
-  const _component_AlertSnippetsDefaultAlert = __vite_ssr_import_8__.default
+  const _component_ButtonSnippetsDefault = __vite_ssr_import_8__.default
+  const _component_ButtonOutline = __vite_ssr_import_9__.default
+  const _component_ButtonSnippetsOutline = __vite_ssr_import_10__.default
+  const _component_ButtonStateColor = __vite_ssr_import_11__.default
+  const _component_ButtonSnippetsStateColor = __vite_ssr_import_12__.default
+  const _component_ButtonSize = __vite_ssr_import_13__.default
+  const _component_ButtonSnippetsSize = __vite_ssr_import_14__.default
+  const _component_ButtonDualIcon = __vite_ssr_import_15__.default
+  const _component_ButtonSnippetsDualIcon = __vite_ssr_import_16__.default
+  const _component_ButtonLightColor = __vite_ssr_import_17__.default
+  const _component_ButtonSnippetsLightColor = __vite_ssr_import_18__.default
+  const _component_ButtonDarkColor = __vite_ssr_import_19__.default
+  const _component_ButtonSnippetsDarkColor = __vite_ssr_import_20__.default
+  const _component_ButtonColoredShadow = __vite_ssr_import_21__.default
+  const _component_ButtonSnippetsColoredShadow = __vite_ssr_import_22__.default
+  const _component_ButtonGradient = __vite_ssr_import_23__.default
+  const _component_ButtonSnippetsGradient = __vite_ssr_import_24__.default
+  const _component_ButtonAppsmith = __vite_ssr_import_25__.default
+  const _component_ButtonSnippetsAppsmith = __vite_ssr_import_26__.default
 
-  _push(__vite_ssr_import_13__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_12__.mergeProps({ name: $data.layout }, _attrs), {
-    default: __vite_ssr_import_12__.withCtx((_, _push, _parent, _scopeId) => {
+  _push(__vite_ssr_import_31__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_30__.mergeProps({ name: $data.layout }, _attrs), {
+    default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
         _push(`<div class="flex p-4"${
           _scopeId
@@ -24091,13 +27198,13 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }><div class="overflow-y-auto w-full px-4 pb-20" id="alertContainer"${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_13__.ssrRenderComponent(_component_HeadersHeading, null, {
-          default: __vite_ssr_import_12__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_HeadersHeading, null, {
+          default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(` Button `)
             } else {
               return [
-                __vite_ssr_import_12__.createTextVNode(" Button ")
+                __vite_ssr_import_30__.createTextVNode(" Button ")
               ]
             }
           }),
@@ -24107,60 +27214,60 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><p class="text-base"${
           _scopeId
-        }> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? </p></div><!-- Default alert --><section id="defaultAlert" class="w-full"${
+        }> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? </p></div><!-- Default Button --><section id="defaultButton" class="w-full"${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_13__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_12__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(`Default alert`)
+              _push(`Default`)
             } else {
               return [
-                __vite_ssr_import_12__.createTextVNode("Default alert")
+                __vite_ssr_import_30__.createTextVNode("Default")
               ]
             }
           }),
-          code: __vite_ssr_import_12__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_alert) {
-                _push(__vite_ssr_import_13__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_alert = true)
+              if (!$data.default_btn) {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.default_btn = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_13__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_alert = false)
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.default_btn = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_alert)
-                  ? (__vite_ssr_import_12__.openBlock(), __vite_ssr_import_12__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.default_btn)
+                  ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_alert = true)
+                      onClick: $event => ($data.default_btn = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_12__.openBlock(), __vite_ssr_import_12__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_alert = false)
+                      onClick: $event => ($data.default_btn = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_13__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_12__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_13__.ssrRenderComponent(_component_AlertDefaultAlert, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonDefault, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_12__.createVNode(_component_AlertDefaultAlert)
+                __vite_ssr_import_30__.createVNode(_component_ButtonDefault)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_13__.ssrRenderStyle(($data.default_alert) ? null : { display: "none" })
+          __vite_ssr_import_31__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -24170,12 +27277,606 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_13__.ssrRenderComponent(_component_UtilsCopyButton, {
-          onClick: $event => ($options.copyToClipboard('defaultAlertComp'))
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('defaultButton'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_13__.ssrRenderComponent(_component_AlertSnippetsDefaultAlert, { id: "defaultAlertComp" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End default alert --></div></div><!-- right sidebar --><div class="hidden lg:block"${
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultButton" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End default Button --><!-- Outline Button --><section id="outlineButton" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Outline`)
+            } else {
+              return [
+                __vite_ssr_import_30__.createTextVNode("Outline")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.outline_btn) {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.outline_btn = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.outline_btn = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.outline_btn)
+                  ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.outline_btn = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.outline_btn = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonOutline, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_30__.createVNode(_component_ButtonOutline)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_31__.ssrRenderStyle(($data.outline_btn) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('OutlineButton'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonSnippetsOutline, { id: "OutlineButton" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Outline Button --><!-- StateColor Button --><section id="stateColor" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`State Color`)
+            } else {
+              return [
+                __vite_ssr_import_30__.createTextVNode("State Color")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.statecolor_btn) {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.statecolor_btn = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.statecolor_btn = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.statecolor_btn)
+                  ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.statecolor_btn = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.statecolor_btn = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonStateColor, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_30__.createVNode(_component_ButtonStateColor)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_31__.ssrRenderStyle(($data.statecolor_btn) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('StateColorButton'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonSnippetsStateColor, { id: "StateColorButton" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End StateColor Button --><!-- Size Button --><section id="sizeButton" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Size`)
+            } else {
+              return [
+                __vite_ssr_import_30__.createTextVNode("Size")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.size_btn) {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.size_btn = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.size_btn = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.size_btn)
+                  ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.size_btn = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.size_btn = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonSize, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_30__.createVNode(_component_ButtonSize)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_31__.ssrRenderStyle(($data.size_btn) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('SizeButton'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonSnippetsSize, { id: "SizeButton" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Size Button --><!-- DualIcon Button --><section id="dualIcon" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Dual Icon`)
+            } else {
+              return [
+                __vite_ssr_import_30__.createTextVNode("Dual Icon")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.dual_icon_btn) {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.dual_icon_btn = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.dual_icon_btn = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.dual_icon_btn)
+                  ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.dual_icon_btn = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.dual_icon_btn = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonDualIcon, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_30__.createVNode(_component_ButtonDualIcon)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_31__.ssrRenderStyle(($data.dual_icon_btn) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('DualIconButton'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonSnippetsDualIcon, { id: "DualIconButton" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End DualIcon Button --><!-- LightColor Button --><section id="lightColor" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Light color`)
+            } else {
+              return [
+                __vite_ssr_import_30__.createTextVNode("Light color")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.light_color_btn) {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.light_color_btn = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.light_color_btn = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.light_color_btn)
+                  ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.light_color_btn = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.light_color_btn = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonLightColor, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_30__.createVNode(_component_ButtonLightColor)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_31__.ssrRenderStyle(($data.light_color_btn) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('LightColorButton'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonSnippetsLightColor, { id: "LightColorButton" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End LightColor Button --><!-- Dark Color Button --><section id="darkColor" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Dark color`)
+            } else {
+              return [
+                __vite_ssr_import_30__.createTextVNode("Dark color")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.dark_color_btn) {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.dark_color_btn = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.dark_color_btn = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.dark_color_btn)
+                  ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.dark_color_btn = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.dark_color_btn = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonDarkColor, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_30__.createVNode(_component_ButtonDarkColor)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_31__.ssrRenderStyle(($data.dark_color_btn) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('DarkColorButton'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonSnippetsDarkColor, { id: "DarkColorButton" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End DarkColor Button --><!-- ColoredShadow Button --><section id="coloredShadowBtn" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Colored shadow`)
+            } else {
+              return [
+                __vite_ssr_import_30__.createTextVNode("Colored shadow")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.colored_shadow_btn) {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.colored_shadow_btn = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.colored_shadow_btn = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.colored_shadow_btn)
+                  ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.colored_shadow_btn = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.colored_shadow_btn = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonColoredShadow, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_30__.createVNode(_component_ButtonColoredShadow)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_31__.ssrRenderStyle(($data.colored_shadow_btn) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('ColoredShadowButton'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonSnippetsColoredShadow, { id: "ColoredShadowButton" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End ColoredShadow Button --><!-- Gradient Button --><section id="gradientBtn" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Gradient`)
+            } else {
+              return [
+                __vite_ssr_import_30__.createTextVNode("Gradient")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.gradient_btn) {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.gradient_btn = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.gradient_btn = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.gradient_btn)
+                  ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.gradient_btn = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.gradient_btn = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonGradient, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_30__.createVNode(_component_ButtonGradient)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_31__.ssrRenderStyle(($data.gradient_btn) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('GradientButton'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonSnippetsGradient, { id: "GradientButton" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Gradient Button --><!-- Appsmith Button --><section id="appsmithButton" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Appsmith`)
+            } else {
+              return [
+                __vite_ssr_import_30__.createTextVNode("Appsmith")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.appsmith_btn) {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.appsmith_btn = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.appsmith_btn = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.appsmith_btn)
+                  ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.appsmith_btn = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.appsmith_btn = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonAppsmith, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_30__.createVNode(_component_ButtonAppsmith)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_31__.ssrRenderStyle(($data.appsmith_btn) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('AppsmithButton'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_31__.ssrRenderComponent(_component_ButtonSnippetsAppsmith, { id: "AppsmithButton" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Appsmith Button --></div></div><!-- right sidebar --><div class="hidden lg:block"${
           _scopeId
         }><div class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2"${
           _scopeId
@@ -24187,121 +27888,613 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }>On This Page</p><button${
           _scopeId
-        }> Default Alert </button><button${
+        }> Default </button><button${
           _scopeId
-        }> State Color Alert </button><button${
+        }> Outline </button><button${
           _scopeId
-        }> With Button Alert </button><button${
+        }> State Color </button><button${
           _scopeId
-        }> Alert With Link </button><button${
+        }> Size </button><button${
           _scopeId
-        }> Alert With Icon </button><button${
+        }> Dual Icon </button><button${
           _scopeId
-        }> Alert With Border </button><button class="flex flex-row"${
+        }> Light Color </button><button${
           _scopeId
-        }> Alert With Left-Border </button></div></div></div></div></div>`)
+        }> Dark Color </button><button class="text-right"${
+          _scopeId
+        }> Colored shadow </button><button${
+          _scopeId
+        }> Gradient buttons </button><button${
+          _scopeId
+        }> Appsmith </button></div></div></div></div></div>`)
       } else {
         return [
-          __vite_ssr_import_12__.createVNode("div", { class: "flex p-4" }, [
-            __vite_ssr_import_12__.createCommentVNode(" content "),
-            __vite_ssr_import_12__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
-              __vite_ssr_import_12__.createVNode("div", {
+          __vite_ssr_import_30__.createVNode("div", { class: "flex p-4" }, [
+            __vite_ssr_import_30__.createCommentVNode(" content "),
+            __vite_ssr_import_30__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
+              __vite_ssr_import_30__.createVNode("div", {
                 class: "overflow-y-auto w-full px-4 pb-20",
                 id: "alertContainer"
               }, [
-                __vite_ssr_import_12__.createVNode(_component_HeadersHeading, null, {
-                  default: __vite_ssr_import_12__.withCtx(() => [
-                    __vite_ssr_import_12__.createTextVNode(" Button ")
+                __vite_ssr_import_30__.createVNode(_component_HeadersHeading, null, {
+                  default: __vite_ssr_import_30__.withCtx(() => [
+                    __vite_ssr_import_30__.createTextVNode(" Button ")
                   ]),
                   _: 1 /* STABLE */
                 }),
-                __vite_ssr_import_12__.createVNode("div", null, [
-                  __vite_ssr_import_12__.createVNode("p", { class: "text-base" }, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? ")
+                __vite_ssr_import_30__.createVNode("div", null, [
+                  __vite_ssr_import_30__.createVNode("p", { class: "text-base" }, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? ")
                 ]),
-                __vite_ssr_import_12__.createCommentVNode(" Default alert "),
-                __vite_ssr_import_12__.createVNode("section", {
-                  id: "defaultAlert",
+                __vite_ssr_import_30__.createCommentVNode(" Default Button "),
+                __vite_ssr_import_30__.createVNode("section", {
+                  id: "defaultButton",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_12__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_12__.withCtx(() => [
-                      __vite_ssr_import_12__.createTextVNode("Default alert")
+                  __vite_ssr_import_30__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createTextVNode("Default")
                     ]),
-                    code: __vite_ssr_import_12__.withCtx(() => [
-                      (!$data.default_alert)
-                        ? (__vite_ssr_import_12__.openBlock(), __vite_ssr_import_12__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_30__.withCtx(() => [
+                      (!$data.default_btn)
+                        ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_alert = true)
+                            onClick: $event => ($data.default_btn = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_12__.openBlock(), __vite_ssr_import_12__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_alert = false)
+                            onClick: $event => ($data.default_btn = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_12__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_12__.withCtx(() => [
-                      __vite_ssr_import_12__.createVNode(_component_AlertDefaultAlert)
+                  __vite_ssr_import_30__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createVNode(_component_ButtonDefault)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_12__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_12__.createVNode(__vite_ssr_import_12__.Transition, {
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_30__.createVNode(__vite_ssr_import_30__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_12__.withCtx(() => [
-                      __vite_ssr_import_12__.withDirectives(__vite_ssr_import_12__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_12__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_12__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_12__.createVNode("div", null, [
-                            __vite_ssr_import_12__.createVNode(_component_UtilsCopyButton, {
-                              onClick: $event => ($options.copyToClipboard('defaultAlertComp'))
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.withDirectives(__vite_ssr_import_30__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_30__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_30__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_30__.createVNode("div", null, [
+                            __vite_ssr_import_30__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('defaultButton'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_12__.createVNode(_component_AlertSnippetsDefaultAlert, { id: "defaultAlertComp" })
+                        __vite_ssr_import_30__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultButton" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_12__.vShow, $data.default_alert]
+                        [__vite_ssr_import_30__.vShow, $data.default_btn]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_12__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_12__.createCommentVNode(" End default alert ")
+                __vite_ssr_import_30__.createCommentVNode(" End default Button "),
+                __vite_ssr_import_30__.createCommentVNode(" Outline Button "),
+                __vite_ssr_import_30__.createVNode("section", {
+                  id: "outlineButton",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_30__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createTextVNode("Outline")
+                    ]),
+                    code: __vite_ssr_import_30__.withCtx(() => [
+                      (!$data.outline_btn)
+                        ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.outline_btn = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.outline_btn = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createVNode(_component_ButtonOutline)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_30__.createVNode(__vite_ssr_import_30__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.withDirectives(__vite_ssr_import_30__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_30__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_30__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_30__.createVNode("div", null, [
+                            __vite_ssr_import_30__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('OutlineButton'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_30__.createVNode(_component_ButtonSnippetsOutline, { id: "OutlineButton" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_30__.vShow, $data.outline_btn]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_30__.createCommentVNode(" End Outline Button "),
+                __vite_ssr_import_30__.createCommentVNode(" StateColor Button "),
+                __vite_ssr_import_30__.createVNode("section", {
+                  id: "stateColor",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_30__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createTextVNode("State Color")
+                    ]),
+                    code: __vite_ssr_import_30__.withCtx(() => [
+                      (!$data.statecolor_btn)
+                        ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.statecolor_btn = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.statecolor_btn = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createVNode(_component_ButtonStateColor)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_30__.createVNode(__vite_ssr_import_30__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.withDirectives(__vite_ssr_import_30__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_30__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_30__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_30__.createVNode("div", null, [
+                            __vite_ssr_import_30__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('StateColorButton'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_30__.createVNode(_component_ButtonSnippetsStateColor, { id: "StateColorButton" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_30__.vShow, $data.statecolor_btn]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_30__.createCommentVNode(" End StateColor Button "),
+                __vite_ssr_import_30__.createCommentVNode(" Size Button "),
+                __vite_ssr_import_30__.createVNode("section", {
+                  id: "sizeButton",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_30__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createTextVNode("Size")
+                    ]),
+                    code: __vite_ssr_import_30__.withCtx(() => [
+                      (!$data.size_btn)
+                        ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.size_btn = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.size_btn = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createVNode(_component_ButtonSize)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_30__.createVNode(__vite_ssr_import_30__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.withDirectives(__vite_ssr_import_30__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_30__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_30__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_30__.createVNode("div", null, [
+                            __vite_ssr_import_30__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('SizeButton'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_30__.createVNode(_component_ButtonSnippetsSize, { id: "SizeButton" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_30__.vShow, $data.size_btn]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_30__.createCommentVNode(" End Size Button "),
+                __vite_ssr_import_30__.createCommentVNode(" DualIcon Button "),
+                __vite_ssr_import_30__.createVNode("section", {
+                  id: "dualIcon",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_30__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createTextVNode("Dual Icon")
+                    ]),
+                    code: __vite_ssr_import_30__.withCtx(() => [
+                      (!$data.dual_icon_btn)
+                        ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.dual_icon_btn = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.dual_icon_btn = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createVNode(_component_ButtonDualIcon)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_30__.createVNode(__vite_ssr_import_30__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.withDirectives(__vite_ssr_import_30__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_30__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_30__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_30__.createVNode("div", null, [
+                            __vite_ssr_import_30__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('DualIconButton'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_30__.createVNode(_component_ButtonSnippetsDualIcon, { id: "DualIconButton" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_30__.vShow, $data.dual_icon_btn]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_30__.createCommentVNode(" End DualIcon Button "),
+                __vite_ssr_import_30__.createCommentVNode(" LightColor Button "),
+                __vite_ssr_import_30__.createVNode("section", {
+                  id: "lightColor",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_30__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createTextVNode("Light color")
+                    ]),
+                    code: __vite_ssr_import_30__.withCtx(() => [
+                      (!$data.light_color_btn)
+                        ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.light_color_btn = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.light_color_btn = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createVNode(_component_ButtonLightColor)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_30__.createVNode(__vite_ssr_import_30__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.withDirectives(__vite_ssr_import_30__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_30__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_30__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_30__.createVNode("div", null, [
+                            __vite_ssr_import_30__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('LightColorButton'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_30__.createVNode(_component_ButtonSnippetsLightColor, { id: "LightColorButton" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_30__.vShow, $data.light_color_btn]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_30__.createCommentVNode(" End LightColor Button "),
+                __vite_ssr_import_30__.createCommentVNode(" Dark Color Button "),
+                __vite_ssr_import_30__.createVNode("section", {
+                  id: "darkColor",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_30__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createTextVNode("Dark color")
+                    ]),
+                    code: __vite_ssr_import_30__.withCtx(() => [
+                      (!$data.dark_color_btn)
+                        ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.dark_color_btn = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.dark_color_btn = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createVNode(_component_ButtonDarkColor)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_30__.createVNode(__vite_ssr_import_30__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.withDirectives(__vite_ssr_import_30__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_30__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_30__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_30__.createVNode("div", null, [
+                            __vite_ssr_import_30__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('DarkColorButton'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_30__.createVNode(_component_ButtonSnippetsDarkColor, { id: "DarkColorButton" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_30__.vShow, $data.dark_color_btn]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_30__.createCommentVNode(" End DarkColor Button "),
+                __vite_ssr_import_30__.createCommentVNode(" ColoredShadow Button "),
+                __vite_ssr_import_30__.createVNode("section", {
+                  id: "coloredShadowBtn",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_30__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createTextVNode("Colored shadow")
+                    ]),
+                    code: __vite_ssr_import_30__.withCtx(() => [
+                      (!$data.colored_shadow_btn)
+                        ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.colored_shadow_btn = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.colored_shadow_btn = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createVNode(_component_ButtonColoredShadow)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_30__.createVNode(__vite_ssr_import_30__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.withDirectives(__vite_ssr_import_30__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_30__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_30__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_30__.createVNode("div", null, [
+                            __vite_ssr_import_30__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('ColoredShadowButton'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_30__.createVNode(_component_ButtonSnippetsColoredShadow, { id: "ColoredShadowButton" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_30__.vShow, $data.colored_shadow_btn]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_30__.createCommentVNode(" End ColoredShadow Button "),
+                __vite_ssr_import_30__.createCommentVNode(" Gradient Button "),
+                __vite_ssr_import_30__.createVNode("section", {
+                  id: "gradientBtn",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_30__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createTextVNode("Gradient")
+                    ]),
+                    code: __vite_ssr_import_30__.withCtx(() => [
+                      (!$data.gradient_btn)
+                        ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.gradient_btn = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.gradient_btn = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createVNode(_component_ButtonGradient)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_30__.createVNode(__vite_ssr_import_30__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.withDirectives(__vite_ssr_import_30__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_30__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_30__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_30__.createVNode("div", null, [
+                            __vite_ssr_import_30__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('GradientButton'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_30__.createVNode(_component_ButtonSnippetsGradient, { id: "GradientButton" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_30__.vShow, $data.gradient_btn]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_30__.createCommentVNode(" End Gradient Button "),
+                __vite_ssr_import_30__.createCommentVNode(" Appsmith Button "),
+                __vite_ssr_import_30__.createVNode("section", {
+                  id: "appsmithButton",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_30__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createTextVNode("Appsmith")
+                    ]),
+                    code: __vite_ssr_import_30__.withCtx(() => [
+                      (!$data.appsmith_btn)
+                        ? (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.appsmith_btn = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_30__.openBlock(), __vite_ssr_import_30__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.appsmith_btn = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.createVNode(_component_ButtonAppsmith)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_30__.createVNode(__vite_ssr_import_30__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_30__.withCtx(() => [
+                      __vite_ssr_import_30__.withDirectives(__vite_ssr_import_30__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_30__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_30__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_30__.createVNode("div", null, [
+                            __vite_ssr_import_30__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('AppsmithButton'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_30__.createVNode(_component_ButtonSnippetsAppsmith, { id: "AppsmithButton" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_30__.vShow, $data.appsmith_btn]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_30__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_30__.createCommentVNode(" End Appsmith Button ")
               ])
             ]),
-            __vite_ssr_import_12__.createCommentVNode(" right sidebar "),
-            __vite_ssr_import_12__.createVNode("div", { class: "hidden lg:block" }, [
-              __vite_ssr_import_12__.createVNode("div", { class: "w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2" }, [
-                __vite_ssr_import_12__.createVNode("div", { class: "overflow-y-auto" }, [
-                  __vite_ssr_import_12__.createCommentVNode(" <AlertInfo /> "),
-                  __vite_ssr_import_12__.createVNode("div", { class: "flex flex-col justify-start items-end space-y-2" }, [
-                    __vite_ssr_import_12__.createVNode("p", { class: "text-normal font-bold" }, "On This Page"),
-                    __vite_ssr_import_12__.createVNode("button", {
-                      onClick: $event => ($options.scrollToSection('defaultAlert'))
-                    }, " Default Alert ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_12__.createVNode("button", {
-                      onClick: $event => ($options.scrollToSection('stateColorAlert'))
-                    }, " State Color Alert ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_12__.createVNode("button", {
-                      onClick: $event => ($options.scrollToSection('withBtnAlert'))
-                    }, " With Button Alert ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_12__.createVNode("button", {
-                      onClick: $event => ($options.scrollToSection('withLink'))
-                    }, " Alert With Link ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_12__.createVNode("button", {
-                      onClick: $event => ($options.scrollToSection('alertWithIcon'))
-                    }, " Alert With Icon ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_12__.createVNode("button", {
-                      onClick: $event => ($options.scrollToSection('alertWithBorder'))
-                    }, " Alert With Border ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_12__.createVNode("button", {
-                      onClick: $event => ($options.scrollToSection('borderLeft')),
-                      class: "flex flex-row"
-                    }, " Alert With Left-Border ", 8 /* PROPS */, ["onClick"])
+            __vite_ssr_import_30__.createCommentVNode(" right sidebar "),
+            __vite_ssr_import_30__.createVNode("div", { class: "hidden lg:block" }, [
+              __vite_ssr_import_30__.createVNode("div", { class: "w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2" }, [
+                __vite_ssr_import_30__.createVNode("div", { class: "overflow-y-auto" }, [
+                  __vite_ssr_import_30__.createCommentVNode(" <AlertInfo /> "),
+                  __vite_ssr_import_30__.createVNode("div", { class: "flex flex-col justify-start items-end space-y-2" }, [
+                    __vite_ssr_import_30__.createVNode("p", { class: "text-normal font-bold" }, "On This Page"),
+                    __vite_ssr_import_30__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('defaultButton'))
+                    }, " Default ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_30__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('outlineButton'))
+                    }, " Outline ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_30__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('stateColor'))
+                    }, " State Color ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_30__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('sizeButton'))
+                    }, " Size ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_30__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('dualIcon'))
+                    }, " Dual Icon ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_30__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('lightColor'))
+                    }, " Light Color ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_30__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('darkColor'))
+                    }, " Dark Color ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_30__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('coloredShadowBtn')),
+                      class: "text-right"
+                    }, " Colored shadow ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_30__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('gradientBtn'))
+                    }, " Gradient buttons ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_30__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('appsmithButton'))
+                    }, " Appsmith ", 8 /* PROPS */, ["onClick"])
                   ])
                 ])
               ])
@@ -24314,20 +28507,20 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   }, _parent))
 }
 
-const __vite_ssr_import_14__ = await __vite_ssr_import__("/pages/buttons.vue?vue&type=style&index=0&lang.css");
+const __vite_ssr_import_32__ = await __vite_ssr_import__("/pages/buttons.vue?vue&type=style&index=0&lang.css");
 
 
-const __vite_ssr_import_15__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_33__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_15__.useSSRContext()
+  const ssrContext = __vite_ssr_import_33__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/buttons.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_16__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_34__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_16__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/buttons.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_34__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/buttons.vue"]]);
 }
 
 
@@ -25506,6 +29699,26 @@ const __modules__ = {
   "/components/BreadCrumb/Snippets/Separator.vue": $id_0d2381a1,
   "/pages/breadcrumb.vue?vue&type=style&index=0&lang.css": $id_013bbbc5,
   "/pages/buttons.vue?macro=true": $id_a1b3dbc1,
+  "/components/Button/Default.vue": $id_4ed8d246,
+  "/components/Button/Snippets/Default.vue": $id_b4af2396,
+  "/components/Button/Outline.vue": $id_fa764bca,
+  "/components/Button/Snippets/Outline.vue": $id_eebbab81,
+  "/components/Button/StateColor.vue": $id_bb5459bb,
+  "/components/Button/Snippets/StateColor.vue": $id_ed9f041d,
+  "/components/Button/Size.vue": $id_e153cb94,
+  "/components/Button/Snippets/Size.vue": $id_917e3c8e,
+  "/components/Button/DualIcon.vue": $id_6879b767,
+  "/components/Button/Snippets/DualIcon.vue": $id_81899cd7,
+  "/components/Button/LightColor.vue": $id_07b3cc08,
+  "/components/Button/Snippets/LightColor.vue": $id_6cd68d69,
+  "/components/Button/DarkColor.vue": $id_c288ee0d,
+  "/components/Button/Snippets/DarkColor.vue": $id_84298af9,
+  "/components/Button/ColoredShadow.vue": $id_289dc474,
+  "/components/Button/Snippets/ColoredShadow.vue": $id_40c240a6,
+  "/components/Button/Gradient.vue": $id_66639e42,
+  "/components/Button/Snippets/Gradient.vue": $id_b99ef559,
+  "/components/Button/Appsmith.vue": $id_f75a09c9,
+  "/components/Button/Snippets/Appsmith.vue": $id_1c421991,
   "/pages/buttons.vue?vue&type=style&index=0&lang.css": $id_c6a52c9a,
   "/pages/index.vue?macro=true": $id_5dd70240,
   "/pages/index.vue?vue&type=style&index=0&lang.css": $id_0b423cc4,
