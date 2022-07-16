@@ -19,12 +19,12 @@
               <template v-slot:subHeader>Default alert</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_alertt"
-                  @click="default_alertt = true"
+                  v-if="!default_alert"
+                  @click="default_alert = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_alertt = false"
+                  @click="default_alert = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
@@ -33,7 +33,7 @@
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_alertt" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="default_alert" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
@@ -44,24 +44,24 @@
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <DefaultAlertCodeSnippet id="defaultAlertComp" />
+                <AlertSnippetsDefaultAlert id="defaultAlertComp" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
-          <!--  -->
+          <!-- End default alert -->
           <!-- stateColorAlert -->
           <section id="stateColorAlert  " class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>State color alert</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!statecolor_alertt"
-                  @click="statecolor_alertt = true"
+                  v-if="!statecolor_alert"
+                  @click="statecolor_alert = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="statecolor_alertt = false"
+                  @click="statecolor_alert = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
@@ -70,7 +70,7 @@
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="statecolor_alertt" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="statecolor_alert" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
@@ -81,61 +81,98 @@
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <StateAlertCodeSnippet id="stateColorAlertComp" />
+                <AlertSnippetsStateAlert id="stateColorAlertComp" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
-          <!--  -->
-           <!-- stateColorAlert -->
-          <section id="stateColorAlert  " class="w-full">
+          <!-- End state color alert -->
+           <!-- With button alert start -->
+          <section id="withBtnAlert" class="w-full">
             <HeadersSubHeading>
-              <template v-slot:subHeader>Border alert</template>
+              <template v-slot:subHeader>With button alert</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!alert_wborder"
-                  @click="alert_wborder = true"
+                  v-if="!with_button"
+                  @click="with_button = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="alert_wborder = false"
+                  @click="with_button = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <AlertWithButtonAlert />
+              <AlertWithButton />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="alert_wborder" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="with_button" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
                   </div>
                   <div>
                     <UtilsCopyButton
-                    @click="copyToClipboard('alertWithBorder')"
+                    @click="copyToClipboard('alertWithButton')"
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <AlertSnippetsWithButtonAlertCodeSnippet id="alertWithBorder" />
+                <AlertSnippetsWithButton id="alertWithButton" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
-          <!--  -->
-           <!-- alertWithIcon -->
-          <section id="stateColorAlert  " class="w-full">
+          <!-- End with button alert -->
+           <!-- With Link alert -->
+          <section id="withLink" class="w-full">
+            <HeadersSubHeading>
+              <template v-slot:subHeader>With Link</template>
+              <template v-slot:code>
+                <UtilsShowCodeButton
+                  v-if="!alert_wlink"
+                  @click="alert_wlink = true"
+                ></UtilsShowCodeButton>
+                <UtilsHideCodeButton
+                  v-else
+                  @click="alert_wlink = false"
+                ></UtilsHideCodeButton>
+              </template>
+            </HeadersSubHeading>
+            <UtilsComponentPad>
+              <AlertWithLink />
+            </UtilsComponentPad>
+            <!-- code snippet -->
+            <transition name="fadeSnippet">
+              <div v-show="alert_wlink" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+                <div class="flex justify-between px-2 pt-2">
+                  <div>
+                    HTML
+                  </div>
+                  <div>
+                    <UtilsCopyButton
+                    @click="copyToClipboard('alertWithLink')"
+                  ></UtilsCopyButton>
+                  </div>
+                </div>
+                <AlertSnippetsWithLink id="alertWithLink" />
+              </div>
+            </transition>
+            <!-- code snippet end -->
+          </section>
+          <!-- End with link alert -->
+           <!-- alert With Icon -->
+          <section id="stateColorAlert" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>Alert with Icon</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!alert_wborder"
-                  @click="alert_wborder = true"
+                  v-if="!alert_wicon"
+                  @click="alert_wicon = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="alert_wborder = false"
+                  @click="alert_wicon = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
@@ -144,7 +181,7 @@
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="alert_wborder" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="alert_wicon" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
@@ -160,7 +197,81 @@
             </transition>
             <!-- code snippet end -->
           </section>
-          <!--  -->
+          <!-- End with icon alert -->
+           <!-- alert With border -->
+          <section id="alertWithBorder" class="w-full">
+            <HeadersSubHeading>
+              <template v-slot:subHeader>With Border</template>
+              <template v-slot:code>
+                <UtilsShowCodeButton
+                  v-if="!alert_wborder"
+                  @click="alert_wborder = true"
+                ></UtilsShowCodeButton>
+                <UtilsHideCodeButton
+                  v-else
+                  @click="alert_wborder = false"
+                ></UtilsHideCodeButton>
+              </template>
+            </HeadersSubHeading>
+            <UtilsComponentPad>
+              <AlertWithBorder />
+            </UtilsComponentPad>
+            <!-- code snippet -->
+            <transition name="fadeSnippet">
+              <div v-show="alert_wborder" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+                <div class="flex justify-between px-2 pt-2">
+                  <div>
+                    HTML
+                  </div>
+                  <div>
+                    <UtilsCopyButton
+                    @click="copyToClipboard('alertWithIcon')"
+                  ></UtilsCopyButton>
+                  </div>
+                </div>
+                <AlertSnippetsWithBorder id="alertWithIcon" />
+              </div>
+            </transition>
+            <!-- code snippet end -->
+          </section>
+          <!-- End with border alert -->
+           <!-- alert With left border -->
+          <section id="borderLeft" class="w-full">
+            <HeadersSubHeading>
+              <template v-slot:subHeader>With Left Border</template>
+              <template v-slot:code>
+                <UtilsShowCodeButton
+                  v-if="!alert_wleftborder"
+                  @click="alert_wleftborder = true"
+                ></UtilsShowCodeButton>
+                <UtilsHideCodeButton
+                  v-else
+                  @click="alert_wleftborder = false"
+                ></UtilsHideCodeButton>
+              </template>
+            </HeadersSubHeading>
+            <UtilsComponentPad>
+              <AlertBorderLeft />
+            </UtilsComponentPad>
+            <!-- code snippet -->
+            <transition name="fadeSnippet">
+              <div v-show="alert_wleftborder" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+                <div class="flex justify-between px-2 pt-2">
+                  <div>
+                    HTML
+                  </div>
+                  <div>
+                    <UtilsCopyButton
+                    @click="copyToClipboard('alertBorderLeft')"
+                  ></UtilsCopyButton>
+                  </div>
+                </div>
+                <AlertSnippetsBorderLeft id="alertBorderLeft" />
+              </div>
+            </transition>
+            <!-- code snippet end -->
+          </section>
+          <!-- End with left border alert -->
         </div>
       </div>
       <!-- right sidebar -->
@@ -181,7 +292,7 @@
               <button @click="scrollToSection('withBtnAlert')">
                 With Button Alert
               </button>
-              <button @click="scrollToSection('alertWithLink')">
+              <button @click="scrollToSection('withLink')">
                 Alert With Link
               </button>
               <button @click="scrollToSection('alertWithIcon')">
@@ -220,9 +331,9 @@ export default {
   data() {
     return {
       layout: "custom",
-      default_alertt: false,
-      statecolor_alertt: false,
-      with_btn_alertt: false,
+      default_alert: false,
+      statecolor_alert: false,
+      with_button: false,
       alert_wlink: false,
       alert_wicon: false,
       alert_wborder: false,

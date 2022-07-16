@@ -3,12 +3,13 @@
     <div class="flex relative">
       <!-- content -->
       <div class="flex-1 w-full flex justify-center items-center h-screen">
-        <div class="font-medium text-7xl">
-          <span class="font-light"> AIR </span> COMPONENTS
-        </div>
+        <div class="font-medium flex flex-col w-full text-7xl">
+          <div>Tailwind</div>
+          <div>for your next project</div>
+      <div class="w-fit text-base text-white bg-[#0A0C25]">
+        <nuxt-link to="/alerts"> Get started </nuxt-link>
       </div>
-      <div class="absolute bottom-5 right-5">
-        <nuxt-link to="/alerts"> Get started >>> </nuxt-link>
+        </div>
       </div>
       <!-- right sidebar -->
     </div>

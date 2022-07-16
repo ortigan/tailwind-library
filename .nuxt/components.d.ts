@@ -3,30 +3,30 @@ declare module 'vue' {
   export interface GlobalComponents {
     'Footer': typeof import("../components/Footer.vue")['default'],
     'Header': typeof import("../components/Header.vue")['default'],
-    'CodeHighlight': typeof import("../components/CodeSnippet/CodeHighlight.vue")['default'],
     'AlertInfo': typeof import("../components/Alert/AlertInfo.vue")['default'],
     'AlertWithLink': typeof import("../components/Alert/AlertWithLink.vue")['default'],
-    'AlertBorderAccent': typeof import("../components/Alert/BorderAccent.vue")['default'],
-    'AlertBorderAlert': typeof import("../components/Alert/BorderAlert.vue")['default'],
+    'AlertBorderLeft': typeof import("../components/Alert/BorderLeft.vue")['default'],
     'AlertDefaultAlert': typeof import("../components/Alert/DefaultAlert.vue")['default'],
     'AlertStateAlert': typeof import("../components/Alert/StateAlert.vue")['default'],
-    'AlertWithButtonAlert': typeof import("../components/Alert/WithButtonAlert.vue")['default'],
+    'AlertWithBorder': typeof import("../components/Alert/WithBorder.vue")['default'],
+    'AlertWithButton': typeof import("../components/Alert/WithButton.vue")['default'],
     'AlertWithIcon': typeof import("../components/Alert/WithIcon.vue")['default'],
-    'NavigationMenuItems': typeof import("../components/Navigation/MenuItems.js")['default'],
+    'CodeHighlight': typeof import("../components/CodeSnippet/CodeHighlight.vue")['default'],
     'HeadersHeading': typeof import("../components/Headers/Heading.vue")['default'],
     'HeadersSubHeading': typeof import("../components/Headers/SubHeading.vue")['default'],
+    'NavigationMenuItems': typeof import("../components/Navigation/MenuItems.js")['default'],
     'UtilsComponentPad': typeof import("../components/Utils/ComponentPad.vue")['default'],
     'UtilsCopyButton': typeof import("../components/Utils/CopyButton.vue")['default'],
     'UtilsHideCodeButton': typeof import("../components/Utils/HideCodeButton.vue")['default'],
     'UtilsShowCodeButton': typeof import("../components/Utils/ShowCodeButton.vue")['default'],
     'UtilsToast': typeof import("../components/Utils/Toast.vue")['default'],
-    'AlertWithLinkCodeSnippet': typeof import("../components/Alert/Snippets/AlertWithLinkCodeSnippet.vue")['default'],
-    'AlertSnippetsBorderAccentCodeSnippet': typeof import("../components/Alert/Snippets/BorderAccentCodeSnippet.vue")['default'],
-    'AlertSnippetsBorderAlertCodeSnippet': typeof import("../components/Alert/Snippets/BorderAlertCodeSnippet.vue")['default'],
-    'AlertSnippetsDefaultAlertCodeSnippet': typeof import("../components/Alert/Snippets/DefaultAlertCodeSnippet.vue")['default'],
-    'AlertSnippetsStateAlertCodeSnippet': typeof import("../components/Alert/Snippets/StateAlertCodeSnippet.vue")['default'],
-    'AlertSnippetsWithButtonAlertCodeSnippet': typeof import("../components/Alert/Snippets/WithButtonAlertCodeSnippet.vue")['default'],
+    'AlertSnippetsBorderLeft': typeof import("../components/Alert/Snippets/BorderLeft.vue")['default'],
+    'AlertSnippetsDefaultAlert': typeof import("../components/Alert/Snippets/DefaultAlert.vue")['default'],
+    'AlertSnippetsStateAlert': typeof import("../components/Alert/Snippets/StateAlert.vue")['default'],
+    'AlertSnippetsWithBorder': typeof import("../components/Alert/Snippets/WithBorder.vue")['default'],
+    'AlertSnippetsWithButton': typeof import("../components/Alert/Snippets/WithButton.vue")['default'],
     'AlertSnippetsWithIcon': typeof import("../components/Alert/Snippets/WithIcon.vue")['default'],
+    'AlertSnippetsWithLink': typeof import("../components/Alert/Snippets/WithLink.vue")['default'],
     'NuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default'],
     'NuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/layout")['default'],
     'NuxtErrorBoundary': typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default'],
@@ -35,30 +35,30 @@ declare module 'vue' {
     'NuxtLink': typeof import("../node_modules/nuxt/dist/app/components/nuxt-link")['default']
     'LazyFooter': typeof import("../components/Footer.vue")['default'],
     'LazyHeader': typeof import("../components/Header.vue")['default'],
-    'LazyCodeHighlight': typeof import("../components/CodeSnippet/CodeHighlight.vue")['default'],
     'LazyAlertInfo': typeof import("../components/Alert/AlertInfo.vue")['default'],
     'LazyAlertWithLink': typeof import("../components/Alert/AlertWithLink.vue")['default'],
-    'LazyAlertBorderAccent': typeof import("../components/Alert/BorderAccent.vue")['default'],
-    'LazyAlertBorderAlert': typeof import("../components/Alert/BorderAlert.vue")['default'],
+    'LazyAlertBorderLeft': typeof import("../components/Alert/BorderLeft.vue")['default'],
     'LazyAlertDefaultAlert': typeof import("../components/Alert/DefaultAlert.vue")['default'],
     'LazyAlertStateAlert': typeof import("../components/Alert/StateAlert.vue")['default'],
-    'LazyAlertWithButtonAlert': typeof import("../components/Alert/WithButtonAlert.vue")['default'],
+    'LazyAlertWithBorder': typeof import("../components/Alert/WithBorder.vue")['default'],
+    'LazyAlertWithButton': typeof import("../components/Alert/WithButton.vue")['default'],
     'LazyAlertWithIcon': typeof import("../components/Alert/WithIcon.vue")['default'],
-    'LazyNavigationMenuItems': typeof import("../components/Navigation/MenuItems.js")['default'],
+    'LazyCodeHighlight': typeof import("../components/CodeSnippet/CodeHighlight.vue")['default'],
     'LazyHeadersHeading': typeof import("../components/Headers/Heading.vue")['default'],
     'LazyHeadersSubHeading': typeof import("../components/Headers/SubHeading.vue")['default'],
+    'LazyNavigationMenuItems': typeof import("../components/Navigation/MenuItems.js")['default'],
     'LazyUtilsComponentPad': typeof import("../components/Utils/ComponentPad.vue")['default'],
     'LazyUtilsCopyButton': typeof import("../components/Utils/CopyButton.vue")['default'],
     'LazyUtilsHideCodeButton': typeof import("../components/Utils/HideCodeButton.vue")['default'],
     'LazyUtilsShowCodeButton': typeof import("../components/Utils/ShowCodeButton.vue")['default'],
     'LazyUtilsToast': typeof import("../components/Utils/Toast.vue")['default'],
-    'LazyAlertWithLinkCodeSnippet': typeof import("../components/Alert/Snippets/AlertWithLinkCodeSnippet.vue")['default'],
-    'LazyAlertSnippetsBorderAccentCodeSnippet': typeof import("../components/Alert/Snippets/BorderAccentCodeSnippet.vue")['default'],
-    'LazyAlertSnippetsBorderAlertCodeSnippet': typeof import("../components/Alert/Snippets/BorderAlertCodeSnippet.vue")['default'],
-    'LazyAlertSnippetsDefaultAlertCodeSnippet': typeof import("../components/Alert/Snippets/DefaultAlertCodeSnippet.vue")['default'],
-    'LazyAlertSnippetsStateAlertCodeSnippet': typeof import("../components/Alert/Snippets/StateAlertCodeSnippet.vue")['default'],
-    'LazyAlertSnippetsWithButtonAlertCodeSnippet': typeof import("../components/Alert/Snippets/WithButtonAlertCodeSnippet.vue")['default'],
+    'LazyAlertSnippetsBorderLeft': typeof import("../components/Alert/Snippets/BorderLeft.vue")['default'],
+    'LazyAlertSnippetsDefaultAlert': typeof import("../components/Alert/Snippets/DefaultAlert.vue")['default'],
+    'LazyAlertSnippetsStateAlert': typeof import("../components/Alert/Snippets/StateAlert.vue")['default'],
+    'LazyAlertSnippetsWithBorder': typeof import("../components/Alert/Snippets/WithBorder.vue")['default'],
+    'LazyAlertSnippetsWithButton': typeof import("../components/Alert/Snippets/WithButton.vue")['default'],
     'LazyAlertSnippetsWithIcon': typeof import("../components/Alert/Snippets/WithIcon.vue")['default'],
+    'LazyAlertSnippetsWithLink': typeof import("../components/Alert/Snippets/WithLink.vue")['default'],
     'LazyNuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default'],
     'LazyNuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/layout")['default'],
     'LazyNuxtErrorBoundary': typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default'],
@@ -69,30 +69,30 @@ declare module 'vue' {
 }
 export const Footer: typeof import("../components/Footer.vue")['default']
 export const Header: typeof import("../components/Header.vue")['default']
-export const CodeHighlight: typeof import("../components/CodeSnippet/CodeHighlight.vue")['default']
 export const AlertInfo: typeof import("../components/Alert/AlertInfo.vue")['default']
 export const AlertWithLink: typeof import("../components/Alert/AlertWithLink.vue")['default']
-export const AlertBorderAccent: typeof import("../components/Alert/BorderAccent.vue")['default']
-export const AlertBorderAlert: typeof import("../components/Alert/BorderAlert.vue")['default']
+export const AlertBorderLeft: typeof import("../components/Alert/BorderLeft.vue")['default']
 export const AlertDefaultAlert: typeof import("../components/Alert/DefaultAlert.vue")['default']
 export const AlertStateAlert: typeof import("../components/Alert/StateAlert.vue")['default']
-export const AlertWithButtonAlert: typeof import("../components/Alert/WithButtonAlert.vue")['default']
+export const AlertWithBorder: typeof import("../components/Alert/WithBorder.vue")['default']
+export const AlertWithButton: typeof import("../components/Alert/WithButton.vue")['default']
 export const AlertWithIcon: typeof import("../components/Alert/WithIcon.vue")['default']
-export const NavigationMenuItems: typeof import("../components/Navigation/MenuItems.js")['default']
+export const CodeHighlight: typeof import("../components/CodeSnippet/CodeHighlight.vue")['default']
 export const HeadersHeading: typeof import("../components/Headers/Heading.vue")['default']
 export const HeadersSubHeading: typeof import("../components/Headers/SubHeading.vue")['default']
+export const NavigationMenuItems: typeof import("../components/Navigation/MenuItems.js")['default']
 export const UtilsComponentPad: typeof import("../components/Utils/ComponentPad.vue")['default']
 export const UtilsCopyButton: typeof import("../components/Utils/CopyButton.vue")['default']
 export const UtilsHideCodeButton: typeof import("../components/Utils/HideCodeButton.vue")['default']
 export const UtilsShowCodeButton: typeof import("../components/Utils/ShowCodeButton.vue")['default']
 export const UtilsToast: typeof import("../components/Utils/Toast.vue")['default']
-export const AlertWithLinkCodeSnippet: typeof import("../components/Alert/Snippets/AlertWithLinkCodeSnippet.vue")['default']
-export const AlertSnippetsBorderAccentCodeSnippet: typeof import("../components/Alert/Snippets/BorderAccentCodeSnippet.vue")['default']
-export const AlertSnippetsBorderAlertCodeSnippet: typeof import("../components/Alert/Snippets/BorderAlertCodeSnippet.vue")['default']
-export const AlertSnippetsDefaultAlertCodeSnippet: typeof import("../components/Alert/Snippets/DefaultAlertCodeSnippet.vue")['default']
-export const AlertSnippetsStateAlertCodeSnippet: typeof import("../components/Alert/Snippets/StateAlertCodeSnippet.vue")['default']
-export const AlertSnippetsWithButtonAlertCodeSnippet: typeof import("../components/Alert/Snippets/WithButtonAlertCodeSnippet.vue")['default']
+export const AlertSnippetsBorderLeft: typeof import("../components/Alert/Snippets/BorderLeft.vue")['default']
+export const AlertSnippetsDefaultAlert: typeof import("../components/Alert/Snippets/DefaultAlert.vue")['default']
+export const AlertSnippetsStateAlert: typeof import("../components/Alert/Snippets/StateAlert.vue")['default']
+export const AlertSnippetsWithBorder: typeof import("../components/Alert/Snippets/WithBorder.vue")['default']
+export const AlertSnippetsWithButton: typeof import("../components/Alert/Snippets/WithButton.vue")['default']
 export const AlertSnippetsWithIcon: typeof import("../components/Alert/Snippets/WithIcon.vue")['default']
+export const AlertSnippetsWithLink: typeof import("../components/Alert/Snippets/WithLink.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
 export const NuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/layout")['default']
 export const NuxtErrorBoundary: typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default']
@@ -101,30 +101,30 @@ export const ServerPlaceholder: typeof import("../node_modules/nuxt/dist/app/com
 export const NuxtLink: typeof import("../node_modules/nuxt/dist/app/components/nuxt-link")['default']
 export const LazyFooter: typeof import("../components/Footer.vue")['default']
 export const LazyHeader: typeof import("../components/Header.vue")['default']
-export const LazyCodeHighlight: typeof import("../components/CodeSnippet/CodeHighlight.vue")['default']
 export const LazyAlertInfo: typeof import("../components/Alert/AlertInfo.vue")['default']
 export const LazyAlertWithLink: typeof import("../components/Alert/AlertWithLink.vue")['default']
-export const LazyAlertBorderAccent: typeof import("../components/Alert/BorderAccent.vue")['default']
-export const LazyAlertBorderAlert: typeof import("../components/Alert/BorderAlert.vue")['default']
+export const LazyAlertBorderLeft: typeof import("../components/Alert/BorderLeft.vue")['default']
 export const LazyAlertDefaultAlert: typeof import("../components/Alert/DefaultAlert.vue")['default']
 export const LazyAlertStateAlert: typeof import("../components/Alert/StateAlert.vue")['default']
-export const LazyAlertWithButtonAlert: typeof import("../components/Alert/WithButtonAlert.vue")['default']
+export const LazyAlertWithBorder: typeof import("../components/Alert/WithBorder.vue")['default']
+export const LazyAlertWithButton: typeof import("../components/Alert/WithButton.vue")['default']
 export const LazyAlertWithIcon: typeof import("../components/Alert/WithIcon.vue")['default']
-export const LazyNavigationMenuItems: typeof import("../components/Navigation/MenuItems.js")['default']
+export const LazyCodeHighlight: typeof import("../components/CodeSnippet/CodeHighlight.vue")['default']
 export const LazyHeadersHeading: typeof import("../components/Headers/Heading.vue")['default']
 export const LazyHeadersSubHeading: typeof import("../components/Headers/SubHeading.vue")['default']
+export const LazyNavigationMenuItems: typeof import("../components/Navigation/MenuItems.js")['default']
 export const LazyUtilsComponentPad: typeof import("../components/Utils/ComponentPad.vue")['default']
 export const LazyUtilsCopyButton: typeof import("../components/Utils/CopyButton.vue")['default']
 export const LazyUtilsHideCodeButton: typeof import("../components/Utils/HideCodeButton.vue")['default']
 export const LazyUtilsShowCodeButton: typeof import("../components/Utils/ShowCodeButton.vue")['default']
 export const LazyUtilsToast: typeof import("../components/Utils/Toast.vue")['default']
-export const LazyAlertWithLinkCodeSnippet: typeof import("../components/Alert/Snippets/AlertWithLinkCodeSnippet.vue")['default']
-export const LazyAlertSnippetsBorderAccentCodeSnippet: typeof import("../components/Alert/Snippets/BorderAccentCodeSnippet.vue")['default']
-export const LazyAlertSnippetsBorderAlertCodeSnippet: typeof import("../components/Alert/Snippets/BorderAlertCodeSnippet.vue")['default']
-export const LazyAlertSnippetsDefaultAlertCodeSnippet: typeof import("../components/Alert/Snippets/DefaultAlertCodeSnippet.vue")['default']
-export const LazyAlertSnippetsStateAlertCodeSnippet: typeof import("../components/Alert/Snippets/StateAlertCodeSnippet.vue")['default']
-export const LazyAlertSnippetsWithButtonAlertCodeSnippet: typeof import("../components/Alert/Snippets/WithButtonAlertCodeSnippet.vue")['default']
+export const LazyAlertSnippetsBorderLeft: typeof import("../components/Alert/Snippets/BorderLeft.vue")['default']
+export const LazyAlertSnippetsDefaultAlert: typeof import("../components/Alert/Snippets/DefaultAlert.vue")['default']
+export const LazyAlertSnippetsStateAlert: typeof import("../components/Alert/Snippets/StateAlert.vue")['default']
+export const LazyAlertSnippetsWithBorder: typeof import("../components/Alert/Snippets/WithBorder.vue")['default']
+export const LazyAlertSnippetsWithButton: typeof import("../components/Alert/Snippets/WithButton.vue")['default']
 export const LazyAlertSnippetsWithIcon: typeof import("../components/Alert/Snippets/WithIcon.vue")['default']
+export const LazyAlertSnippetsWithLink: typeof import("../components/Alert/Snippets/WithLink.vue")['default']
 export const LazyNuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
 export const LazyNuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/layout")['default']
 export const LazyNuxtErrorBoundary: typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default']
