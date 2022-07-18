@@ -12,6 +12,10 @@ export default {
     "pages/breadcrumb.vue?vue&type=style&index=0&lang.css",
     "pages/buttons.vue?vue&type=style&index=0&lang.css",
     "pages/index.vue?vue&type=style&index=0&lang.css",
+    "pages/pagination.vue?vue&type=style&index=0&lang.css",
+    "pages/rating.vue?vue&type=style&index=0&lang.css",
+    "pages/sidebar.vue?vue&type=style&index=0&lang.css",
+    "pages/toast.vue?vue&type=style&index=0&lang.css",
     "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=true&lang.css",
     "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=true&lang.css",
     "node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=true&lang.css"
@@ -28,6 +32,10 @@ export default {
     "pages/breadcrumb.vue?vue&type=style&index=0&lang.css",
     "pages/buttons.vue?vue&type=style&index=0&lang.css",
     "pages/index.vue?vue&type=style&index=0&lang.css",
+    "pages/pagination.vue?vue&type=style&index=0&lang.css",
+    "pages/rating.vue?vue&type=style&index=0&lang.css",
+    "pages/sidebar.vue?vue&type=style&index=0&lang.css",
+    "pages/toast.vue?vue&type=style&index=0&lang.css",
     "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=true&lang.css",
     "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=true&lang.css",
     "node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=true&lang.css"
