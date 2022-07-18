@@ -4938,6 +4938,8 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_m
 // - /components/Header.vue ($id_4e284fc3)
 // - /layouts/custom.vue ($id_d158cf1f)
 // - /layouts/full.vue ($id_2ca7d6cb)
+// - /pages/index.vue?macro=true ($id_5dd70240)
+// - /pages/index.vue ($id_cca58e97)
 // Dependencies: 
 // - /node_modules/pinia/dist/pinia.mjs ($id_b1920624)
 // --------------------
@@ -20853,6 +20855,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
+// - /store/index.js ($id_3135ce2a)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /pages/index.vue?vue&type=style&index=0&lang.css ($id_0b423cc4)
@@ -20863,51 +20866,65 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
 
+
+  const __vite_ssr_import_2__ = await __vite_ssr_import__("/store/index.js");
+
 const _sfc_main = {
-  __name: 'index',
-  setup(__props, { expose }) {
-  expose();
-
-const layout = "full"
-
-const __returned__ = { layout }
-Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
-return __returned__
+data() {
+    return {
+      theme: "",
+      store: __vite_ssr_import_2__.useStore(),
+      layout: 'full'
+    };
+  },
 }
 
-}
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   const _component_NuxtLayout = __vite_ssr_import_0__.default
   const _component_nuxt_link = __vite_ssr_import_1__.default
 
-  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_2__.mergeProps({ name: $setup.layout }, _attrs), {
-    default: __vite_ssr_import_2__.withCtx((_, _push, _parent, _scopeId) => {
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_3__.mergeProps({ name: $data.layout }, _attrs), {
+    default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
         _push(`<div class="flex relative"${
           _scopeId
-        }><!-- content --><div class="flex-1 w-full flex justify-center items-center h-screen"${
+        }><!-- content --><div class="flex-1 font-primary w-full flex justify-center -mt-20 items-center h-screen"${
           _scopeId
         }><div class="font-medium flex flex-col w-full text-7xl"${
           _scopeId
-        }><div${
+        }><div class="flex"${
           _scopeId
-        }>Tailwind</div><div${
+        }><div class="mr-4"${
+          _scopeId
+        }>Tailwind</div><div class="rotate-2 relative border border-white px-4"${
+          _scopeId
+        }><span class="border border-white bg-[#0A0C25] h-5 w-5 absolute -left-2 -top-2"${
+          _scopeId
+        }></span> <span class="border border-white bg-[#0A0C25] h-5 w-5 absolute -right-2 -top-2"${
+          _scopeId
+        }></span><span class="border border-white bg-[#0A0C25] h-5 w-5 absolute -left-2 -bottom-2"${
+          _scopeId
+        }></span><span class="border border-white bg-[#0A0C25] h-5 w-5 absolute -right-2 -bottom-2"${
+          _scopeId
+        }></span> Components</div></div><div${
           _scopeId
         }>for your next project</div><div class="w-fit text-base text-white bg-[#0A0C25]"${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_3__.ssrRenderComponent(_component_nuxt_link, { to: "/alerts" }, {
-          default: __vite_ssr_import_2__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_4__.ssrRenderComponent(_component_nuxt_link, { to: "/alerts" }, {
+          default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(` Get started `)
             } else {
               return [
-                __vite_ssr_import_2__.createTextVNode(" Get started ")
+                __vite_ssr_import_3__.createTextVNode(" Get started ")
               ]
             }
           }),
@@ -20916,23 +20933,33 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         _push(`</div></div></div><!-- right sidebar --></div>`)
       } else {
         return [
-          __vite_ssr_import_2__.createVNode("div", { class: "flex relative" }, [
-            __vite_ssr_import_2__.createCommentVNode(" content "),
-            __vite_ssr_import_2__.createVNode("div", { class: "flex-1 w-full flex justify-center items-center h-screen" }, [
-              __vite_ssr_import_2__.createVNode("div", { class: "font-medium flex flex-col w-full text-7xl" }, [
-                __vite_ssr_import_2__.createVNode("div", null, "Tailwind"),
-                __vite_ssr_import_2__.createVNode("div", null, "for your next project"),
-                __vite_ssr_import_2__.createVNode("div", { class: "w-fit text-base text-white bg-[#0A0C25]" }, [
-                  __vite_ssr_import_2__.createVNode(_component_nuxt_link, { to: "/alerts" }, {
-                    default: __vite_ssr_import_2__.withCtx(() => [
-                      __vite_ssr_import_2__.createTextVNode(" Get started ")
+          __vite_ssr_import_3__.createVNode("div", { class: "flex relative" }, [
+            __vite_ssr_import_3__.createCommentVNode(" content "),
+            __vite_ssr_import_3__.createVNode("div", { class: "flex-1 font-primary w-full flex justify-center -mt-20 items-center h-screen" }, [
+              __vite_ssr_import_3__.createVNode("div", { class: "font-medium flex flex-col w-full text-7xl" }, [
+                __vite_ssr_import_3__.createVNode("div", { class: "flex" }, [
+                  __vite_ssr_import_3__.createVNode("div", { class: "mr-4" }, "Tailwind"),
+                  __vite_ssr_import_3__.createVNode("div", { class: "rotate-2 relative border border-white px-4" }, [
+                    __vite_ssr_import_3__.createVNode("span", { class: "border border-white bg-[#0A0C25] h-5 w-5 absolute -left-2 -top-2" }),
+                    __vite_ssr_import_3__.createTextVNode(),
+                    __vite_ssr_import_3__.createVNode("span", { class: "border border-white bg-[#0A0C25] h-5 w-5 absolute -right-2 -top-2" }),
+                    __vite_ssr_import_3__.createVNode("span", { class: "border border-white bg-[#0A0C25] h-5 w-5 absolute -left-2 -bottom-2" }),
+                    __vite_ssr_import_3__.createVNode("span", { class: "border border-white bg-[#0A0C25] h-5 w-5 absolute -right-2 -bottom-2" }),
+                    __vite_ssr_import_3__.createTextVNode(" Components")
+                  ])
+                ]),
+                __vite_ssr_import_3__.createVNode("div", null, "for your next project"),
+                __vite_ssr_import_3__.createVNode("div", { class: "w-fit text-base text-white bg-[#0A0C25]" }, [
+                  __vite_ssr_import_3__.createVNode(_component_nuxt_link, { to: "/alerts" }, {
+                    default: __vite_ssr_import_3__.withCtx(() => [
+                      __vite_ssr_import_3__.createTextVNode(" Get started ")
                     ]),
                     _: 1 /* STABLE */
                   })
                 ])
               ])
             ]),
-            __vite_ssr_import_2__.createCommentVNode(" right sidebar ")
+            __vite_ssr_import_3__.createCommentVNode(" right sidebar ")
           ])
         ]
       }
@@ -20941,20 +20968,20 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   }, _parent))
 }
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/pages/index.vue?vue&type=style&index=0&lang.css");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/pages/index.vue?vue&type=style&index=0&lang.css");
 
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_5__.useSSRContext()
+  const ssrContext = __vite_ssr_import_6__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/index.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/index.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_7__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/index.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -32299,6 +32326,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_34__.default(_sfc_
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
+// - /store/index.js ($id_3135ce2a)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /pages/index.vue?vue&type=style&index=0&lang.css ($id_0b423cc4)
@@ -32309,51 +32337,65 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
 
+
+  const __vite_ssr_import_2__ = await __vite_ssr_import__("/store/index.js");
+
 const _sfc_main = {
-  __name: 'index',
-  setup(__props, { expose }) {
-  expose();
-
-const layout = "full"
-
-const __returned__ = { layout }
-Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
-return __returned__
+data() {
+    return {
+      theme: "",
+      store: __vite_ssr_import_2__.useStore(),
+      layout: 'full'
+    };
+  },
 }
 
-}
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   const _component_NuxtLayout = __vite_ssr_import_0__.default
   const _component_nuxt_link = __vite_ssr_import_1__.default
 
-  _push(__vite_ssr_import_3__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_2__.mergeProps({ name: $setup.layout }, _attrs), {
-    default: __vite_ssr_import_2__.withCtx((_, _push, _parent, _scopeId) => {
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_3__.mergeProps({ name: $data.layout }, _attrs), {
+    default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
         _push(`<div class="flex relative"${
           _scopeId
-        }><!-- content --><div class="flex-1 w-full flex justify-center items-center h-screen"${
+        }><!-- content --><div class="flex-1 font-primary w-full flex justify-center -mt-20 items-center h-screen"${
           _scopeId
         }><div class="font-medium flex flex-col w-full text-7xl"${
           _scopeId
-        }><div${
+        }><div class="flex"${
           _scopeId
-        }>Tailwind</div><div${
+        }><div class="mr-4"${
+          _scopeId
+        }>Tailwind</div><div class="rotate-2 relative border border-white px-4"${
+          _scopeId
+        }><span class="border border-white bg-[#0A0C25] h-5 w-5 absolute -left-2 -top-2"${
+          _scopeId
+        }></span> <span class="border border-white bg-[#0A0C25] h-5 w-5 absolute -right-2 -top-2"${
+          _scopeId
+        }></span><span class="border border-white bg-[#0A0C25] h-5 w-5 absolute -left-2 -bottom-2"${
+          _scopeId
+        }></span><span class="border border-white bg-[#0A0C25] h-5 w-5 absolute -right-2 -bottom-2"${
+          _scopeId
+        }></span> Components</div></div><div${
           _scopeId
         }>for your next project</div><div class="w-fit text-base text-white bg-[#0A0C25]"${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_3__.ssrRenderComponent(_component_nuxt_link, { to: "/alerts" }, {
-          default: __vite_ssr_import_2__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_4__.ssrRenderComponent(_component_nuxt_link, { to: "/alerts" }, {
+          default: __vite_ssr_import_3__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(` Get started `)
             } else {
               return [
-                __vite_ssr_import_2__.createTextVNode(" Get started ")
+                __vite_ssr_import_3__.createTextVNode(" Get started ")
               ]
             }
           }),
@@ -32362,23 +32404,33 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         _push(`</div></div></div><!-- right sidebar --></div>`)
       } else {
         return [
-          __vite_ssr_import_2__.createVNode("div", { class: "flex relative" }, [
-            __vite_ssr_import_2__.createCommentVNode(" content "),
-            __vite_ssr_import_2__.createVNode("div", { class: "flex-1 w-full flex justify-center items-center h-screen" }, [
-              __vite_ssr_import_2__.createVNode("div", { class: "font-medium flex flex-col w-full text-7xl" }, [
-                __vite_ssr_import_2__.createVNode("div", null, "Tailwind"),
-                __vite_ssr_import_2__.createVNode("div", null, "for your next project"),
-                __vite_ssr_import_2__.createVNode("div", { class: "w-fit text-base text-white bg-[#0A0C25]" }, [
-                  __vite_ssr_import_2__.createVNode(_component_nuxt_link, { to: "/alerts" }, {
-                    default: __vite_ssr_import_2__.withCtx(() => [
-                      __vite_ssr_import_2__.createTextVNode(" Get started ")
+          __vite_ssr_import_3__.createVNode("div", { class: "flex relative" }, [
+            __vite_ssr_import_3__.createCommentVNode(" content "),
+            __vite_ssr_import_3__.createVNode("div", { class: "flex-1 font-primary w-full flex justify-center -mt-20 items-center h-screen" }, [
+              __vite_ssr_import_3__.createVNode("div", { class: "font-medium flex flex-col w-full text-7xl" }, [
+                __vite_ssr_import_3__.createVNode("div", { class: "flex" }, [
+                  __vite_ssr_import_3__.createVNode("div", { class: "mr-4" }, "Tailwind"),
+                  __vite_ssr_import_3__.createVNode("div", { class: "rotate-2 relative border border-white px-4" }, [
+                    __vite_ssr_import_3__.createVNode("span", { class: "border border-white bg-[#0A0C25] h-5 w-5 absolute -left-2 -top-2" }),
+                    __vite_ssr_import_3__.createTextVNode(),
+                    __vite_ssr_import_3__.createVNode("span", { class: "border border-white bg-[#0A0C25] h-5 w-5 absolute -right-2 -top-2" }),
+                    __vite_ssr_import_3__.createVNode("span", { class: "border border-white bg-[#0A0C25] h-5 w-5 absolute -left-2 -bottom-2" }),
+                    __vite_ssr_import_3__.createVNode("span", { class: "border border-white bg-[#0A0C25] h-5 w-5 absolute -right-2 -bottom-2" }),
+                    __vite_ssr_import_3__.createTextVNode(" Components")
+                  ])
+                ]),
+                __vite_ssr_import_3__.createVNode("div", null, "for your next project"),
+                __vite_ssr_import_3__.createVNode("div", { class: "w-fit text-base text-white bg-[#0A0C25]" }, [
+                  __vite_ssr_import_3__.createVNode(_component_nuxt_link, { to: "/alerts" }, {
+                    default: __vite_ssr_import_3__.withCtx(() => [
+                      __vite_ssr_import_3__.createTextVNode(" Get started ")
                     ]),
                     _: 1 /* STABLE */
                   })
                 ])
               ])
             ]),
-            __vite_ssr_import_2__.createCommentVNode(" right sidebar ")
+            __vite_ssr_import_3__.createCommentVNode(" right sidebar ")
           ])
         ]
       }
@@ -32387,20 +32439,20 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   }, _parent))
 }
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/pages/index.vue?vue&type=style&index=0&lang.css");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/pages/index.vue?vue&type=style&index=0&lang.css");
 
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_5__.useSSRContext()
+  const ssrContext = __vite_ssr_import_6__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/index.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_7__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/index.vue"]]);
 }
 
 
