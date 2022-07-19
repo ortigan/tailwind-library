@@ -24,6 +24,13 @@ declare module 'vue' {
     'AvatarShadow': typeof import("../components/Avatar/Shadow.vue")['default'],
     'AvatarSize': typeof import("../components/Avatar/Size.vue")['default'],
     'AvatarSquare': typeof import("../components/Avatar/Square.vue")['default'],
+    'BreadCrumbAlignment': typeof import("../components/BreadCrumb/Alignment.vue")['default'],
+    'BreadCrumbArrow': typeof import("../components/BreadCrumb/Arrow.vue")['default'],
+    'BreadCrumbDefault': typeof import("../components/BreadCrumb/Default.vue")['default'],
+    'BreadCrumbIcon': typeof import("../components/BreadCrumb/Icon.vue")['default'],
+    'BreadCrumbOutline': typeof import("../components/BreadCrumb/Outline.vue")['default'],
+    'BreadCrumbSeparator': typeof import("../components/BreadCrumb/Separator.vue")['default'],
+    'BreadCrumbSolid': typeof import("../components/BreadCrumb/Solid.vue")['default'],
     'BadgeCancel': typeof import("../components/Badge/Cancel.vue")['default'],
     'BadgeDefault': typeof import("../components/Badge/Default.vue")['default'],
     'BadgeIcon': typeof import("../components/Badge/Icon.vue")['default'],
@@ -37,14 +44,6 @@ declare module 'vue' {
     'BadgeSize': typeof import("../components/Badge/Size.vue")['default'],
     'BadgeStateColor': typeof import("../components/Badge/StateColor.vue")['default'],
     'BadgeText': typeof import("../components/Badge/Text.vue")['default'],
-    'BreadCrumbAlignment': typeof import("../components/BreadCrumb/Alignment.vue")['default'],
-    'BreadCrumbArrow': typeof import("../components/BreadCrumb/Arrow.vue")['default'],
-    'BreadCrumbDefault': typeof import("../components/BreadCrumb/Default.vue")['default'],
-    'BreadCrumbIcon': typeof import("../components/BreadCrumb/Icon.vue")['default'],
-    'BreadCrumbOutline': typeof import("../components/BreadCrumb/Outline.vue")['default'],
-    'BreadCrumbSeparator': typeof import("../components/BreadCrumb/Separator.vue")['default'],
-    'BreadCrumbSolid': typeof import("../components/BreadCrumb/Solid.vue")['default'],
-    'CodeHighlight': typeof import("../components/CodeSnippet/CodeHighlight.vue")['default'],
     'ButtonAppsmith': typeof import("../components/Button/Appsmith.vue")['default'],
     'ButtonBlockButtons': typeof import("../components/Button/BlockButtons.vue")['default'],
     'ButtonInfo': typeof import("../components/Button/ButtonInfo.vue")['default'],
@@ -57,6 +56,11 @@ declare module 'vue' {
     'ButtonOutline': typeof import("../components/Button/Outline.vue")['default'],
     'ButtonSize': typeof import("../components/Button/Size.vue")['default'],
     'ButtonStateColor': typeof import("../components/Button/StateColor.vue")['default'],
+    'ButtonGroupDefault': typeof import("../components/ButtonGroup/Default.vue")['default'],
+    'ButtonGroupIcon': typeof import("../components/ButtonGroup/Icon.vue")['default'],
+    'ButtonGroupOutline': typeof import("../components/ButtonGroup/Outline.vue")['default'],
+    'ButtonGroupOutlineIcon': typeof import("../components/ButtonGroup/OutlineIcon.vue")['default'],
+    'CodeHighlight': typeof import("../components/CodeSnippet/CodeHighlight.vue")['default'],
     'FooterAppsmith': typeof import("../components/Footer/Appsmith.vue")['default'],
     'FooterDefault': typeof import("../components/Footer/Default.vue")['default'],
     'FooterInfo': typeof import("../components/Footer/FooterInfo.vue")['default'],
@@ -65,15 +69,15 @@ declare module 'vue' {
     'HeadersHeading': typeof import("../components/Headers/Heading.vue")['default'],
     'HeadersSubHeading': typeof import("../components/Headers/SubHeading.vue")['default'],
     'NavigationMenuItems': typeof import("../components/Navigation/MenuItems.js")['default'],
+    'PaginationDefault': typeof import("../components/Pagination/Default.vue")['default'],
+    'PaginationInfo': typeof import("../components/Pagination/PaginationInfo.vue")['default'],
+    'PaginationWithArrow': typeof import("../components/Pagination/WithArrow.vue")['default'],
     'RatingDefault': typeof import("../components/Rating/Default.vue")['default'],
     'RatingHeart': typeof import("../components/Rating/Heart.vue")['default'],
     'RatingImdb': typeof import("../components/Rating/Imdb.vue")['default'],
     'RatingOurCard': typeof import("../components/Rating/OurCard.vue")['default'],
     'RatingSmiley': typeof import("../components/Rating/Smiley.vue")['default'],
     'RatingYesOrNo': typeof import("../components/Rating/YesOrNo.vue")['default'],
-    'PaginationDefault': typeof import("../components/Pagination/Default.vue")['default'],
-    'PaginationInfo': typeof import("../components/Pagination/PaginationInfo.vue")['default'],
-    'PaginationWithArrow': typeof import("../components/Pagination/WithArrow.vue")['default'],
     'SidebarDefault': typeof import("../components/Sidebar/Default.vue")['default'],
     'SidebarSectioned': typeof import("../components/Sidebar/Sectioned.vue")['default'],
     'SidebarSeparator': typeof import("../components/Sidebar/Separator.vue")['default'],
@@ -110,19 +114,6 @@ declare module 'vue' {
     'AvatarSnippetsShadow': typeof import("../components/Avatar/Snippets/Shadow.vue")['default'],
     'AvatarSnippetsSize': typeof import("../components/Avatar/Snippets/Size.vue")['default'],
     'AvatarSnippetsSquare': typeof import("../components/Avatar/Snippets/Square.vue")['default'],
-    'BadgeSnippetsCancel': typeof import("../components/Badge/Snippets/Cancel.vue")['default'],
-    'BadgeSnippetsDefault': typeof import("../components/Badge/Snippets/default.vue")['default'],
-    'BadgeSnippetsIcon': typeof import("../components/Badge/Snippets/Icon.vue")['default'],
-    'BadgeSnippetsLarge': typeof import("../components/Badge/Snippets/Large.vue")['default'],
-    'BadgeSnippetsLink': typeof import("../components/Badge/Snippets/Link.vue")['default'],
-    'BadgeSnippetsOutline': typeof import("../components/Badge/Snippets/Outline.vue")['default'],
-    'BadgeSnippetsPill': typeof import("../components/Badge/Snippets/Pill.vue")['default'],
-    'BadgeSnippetsPillOutline': typeof import("../components/Badge/Snippets/PillOutline.vue")['default'],
-    'BadgeSnippetsPositioned': typeof import("../components/Badge/Snippets/Positioned.vue")['default'],
-    'BadgeSnippetsRectangle': typeof import("../components/Badge/Snippets/Rectangle.vue")['default'],
-    'BadgeSnippetsSize': typeof import("../components/Badge/Snippets/Size.vue")['default'],
-    'BadgeSnippetsStateColor': typeof import("../components/Badge/Snippets/StateColor.vue")['default'],
-    'BadgeSnippetsText': typeof import("../components/Badge/Snippets/Text.vue")['default'],
     'BreadCrumbSnippetsAlignment': typeof import("../components/BreadCrumb/Snippets/Alignment.vue")['default'],
     'BreadCrumbSnippetsArrow': typeof import("../components/BreadCrumb/Snippets/Arrow.vue")['default'],
     'BreadCrumbSnippetsDefault': typeof import("../components/BreadCrumb/Snippets/Default.vue")['default'],
@@ -141,18 +132,35 @@ declare module 'vue' {
     'ButtonSnippetsOutline': typeof import("../components/Button/Snippets/Outline.vue")['default'],
     'ButtonSnippetsSize': typeof import("../components/Button/Snippets/Size.vue")['default'],
     'ButtonSnippetsStateColor': typeof import("../components/Button/Snippets/StateColor.vue")['default'],
+    'BadgeSnippetsCancel': typeof import("../components/Badge/Snippets/Cancel.vue")['default'],
+    'BadgeSnippetsDefault': typeof import("../components/Badge/Snippets/default.vue")['default'],
+    'BadgeSnippetsIcon': typeof import("../components/Badge/Snippets/Icon.vue")['default'],
+    'BadgeSnippetsLarge': typeof import("../components/Badge/Snippets/Large.vue")['default'],
+    'BadgeSnippetsLink': typeof import("../components/Badge/Snippets/Link.vue")['default'],
+    'BadgeSnippetsOutline': typeof import("../components/Badge/Snippets/Outline.vue")['default'],
+    'BadgeSnippetsPill': typeof import("../components/Badge/Snippets/Pill.vue")['default'],
+    'BadgeSnippetsPillOutline': typeof import("../components/Badge/Snippets/PillOutline.vue")['default'],
+    'BadgeSnippetsPositioned': typeof import("../components/Badge/Snippets/Positioned.vue")['default'],
+    'BadgeSnippetsRectangle': typeof import("../components/Badge/Snippets/Rectangle.vue")['default'],
+    'BadgeSnippetsSize': typeof import("../components/Badge/Snippets/Size.vue")['default'],
+    'BadgeSnippetsStateColor': typeof import("../components/Badge/Snippets/StateColor.vue")['default'],
+    'BadgeSnippetsText': typeof import("../components/Badge/Snippets/Text.vue")['default'],
+    'ButtonGroupSnippetsDefault': typeof import("../components/ButtonGroup/Snippets/Default.vue")['default'],
+    'ButtonGroupSnippetsIcon': typeof import("../components/ButtonGroup/Snippets/Icon.vue")['default'],
+    'ButtonGroupSnippetsOutline': typeof import("../components/ButtonGroup/Snippets/Outline.vue")['default'],
+    'ButtonGroupSnippetsOutlineIcon': typeof import("../components/ButtonGroup/Snippets/OutlineIcon.vue")['default'],
     'FooterSnippetsAppsmith': typeof import("../components/Footer/Snippets/Appsmith.vue")['default'],
     'FooterSnippetsDefault': typeof import("../components/Footer/Snippets/Default.vue")['default'],
     'FooterSnippetsLogoSection': typeof import("../components/Footer/Snippets/LogoSection.vue")['default'],
     'FooterSnippetsTwoRow': typeof import("../components/Footer/Snippets/TwoRow.vue")['default'],
+    'PaginationSnippetsDefault': typeof import("../components/Pagination/Snippets/Default.vue")['default'],
+    'PaginationSnippetsWithArrow': typeof import("../components/Pagination/Snippets/WithArrow.vue")['default'],
     'RatingSnippetsDefault': typeof import("../components/Rating/Snippets/Default.vue")['default'],
     'RatingSnippetsHeart': typeof import("../components/Rating/Snippets/Heart.vue")['default'],
     'RatingSnippetsImdb': typeof import("../components/Rating/Snippets/Imdb.vue")['default'],
     'RatingSnippetsOurCard': typeof import("../components/Rating/Snippets/OurCard.vue")['default'],
     'RatingSnippetsSmiley': typeof import("../components/Rating/Snippets/Smiley.vue")['default'],
     'RatingSnippetsYesOrNo': typeof import("../components/Rating/Snippets/YesOrNo.vue")['default'],
-    'PaginationSnippetsDefault': typeof import("../components/Pagination/Snippets/Default.vue")['default'],
-    'PaginationSnippetsWithArrow': typeof import("../components/Pagination/Snippets/WithArrow.vue")['default'],
     'SidebarSnippetsDefault': typeof import("../components/Sidebar/Snippets/Default.vue")['default'],
     'SidebarSnippetsSectioned': typeof import("../components/Sidebar/Snippets/Sectioned.vue")['default'],
     'SidebarSnippetsSeparator': typeof import("../components/Sidebar/Snippets/Separator.vue")['default'],
@@ -191,6 +199,13 @@ declare module 'vue' {
     'LazyAvatarShadow': typeof import("../components/Avatar/Shadow.vue")['default'],
     'LazyAvatarSize': typeof import("../components/Avatar/Size.vue")['default'],
     'LazyAvatarSquare': typeof import("../components/Avatar/Square.vue")['default'],
+    'LazyBreadCrumbAlignment': typeof import("../components/BreadCrumb/Alignment.vue")['default'],
+    'LazyBreadCrumbArrow': typeof import("../components/BreadCrumb/Arrow.vue")['default'],
+    'LazyBreadCrumbDefault': typeof import("../components/BreadCrumb/Default.vue")['default'],
+    'LazyBreadCrumbIcon': typeof import("../components/BreadCrumb/Icon.vue")['default'],
+    'LazyBreadCrumbOutline': typeof import("../components/BreadCrumb/Outline.vue")['default'],
+    'LazyBreadCrumbSeparator': typeof import("../components/BreadCrumb/Separator.vue")['default'],
+    'LazyBreadCrumbSolid': typeof import("../components/BreadCrumb/Solid.vue")['default'],
     'LazyBadgeCancel': typeof import("../components/Badge/Cancel.vue")['default'],
     'LazyBadgeDefault': typeof import("../components/Badge/Default.vue")['default'],
     'LazyBadgeIcon': typeof import("../components/Badge/Icon.vue")['default'],
@@ -204,14 +219,6 @@ declare module 'vue' {
     'LazyBadgeSize': typeof import("../components/Badge/Size.vue")['default'],
     'LazyBadgeStateColor': typeof import("../components/Badge/StateColor.vue")['default'],
     'LazyBadgeText': typeof import("../components/Badge/Text.vue")['default'],
-    'LazyBreadCrumbAlignment': typeof import("../components/BreadCrumb/Alignment.vue")['default'],
-    'LazyBreadCrumbArrow': typeof import("../components/BreadCrumb/Arrow.vue")['default'],
-    'LazyBreadCrumbDefault': typeof import("../components/BreadCrumb/Default.vue")['default'],
-    'LazyBreadCrumbIcon': typeof import("../components/BreadCrumb/Icon.vue")['default'],
-    'LazyBreadCrumbOutline': typeof import("../components/BreadCrumb/Outline.vue")['default'],
-    'LazyBreadCrumbSeparator': typeof import("../components/BreadCrumb/Separator.vue")['default'],
-    'LazyBreadCrumbSolid': typeof import("../components/BreadCrumb/Solid.vue")['default'],
-    'LazyCodeHighlight': typeof import("../components/CodeSnippet/CodeHighlight.vue")['default'],
     'LazyButtonAppsmith': typeof import("../components/Button/Appsmith.vue")['default'],
     'LazyButtonBlockButtons': typeof import("../components/Button/BlockButtons.vue")['default'],
     'LazyButtonInfo': typeof import("../components/Button/ButtonInfo.vue")['default'],
@@ -224,6 +231,11 @@ declare module 'vue' {
     'LazyButtonOutline': typeof import("../components/Button/Outline.vue")['default'],
     'LazyButtonSize': typeof import("../components/Button/Size.vue")['default'],
     'LazyButtonStateColor': typeof import("../components/Button/StateColor.vue")['default'],
+    'LazyButtonGroupDefault': typeof import("../components/ButtonGroup/Default.vue")['default'],
+    'LazyButtonGroupIcon': typeof import("../components/ButtonGroup/Icon.vue")['default'],
+    'LazyButtonGroupOutline': typeof import("../components/ButtonGroup/Outline.vue")['default'],
+    'LazyButtonGroupOutlineIcon': typeof import("../components/ButtonGroup/OutlineIcon.vue")['default'],
+    'LazyCodeHighlight': typeof import("../components/CodeSnippet/CodeHighlight.vue")['default'],
     'LazyFooterAppsmith': typeof import("../components/Footer/Appsmith.vue")['default'],
     'LazyFooterDefault': typeof import("../components/Footer/Default.vue")['default'],
     'LazyFooterInfo': typeof import("../components/Footer/FooterInfo.vue")['default'],
@@ -232,15 +244,15 @@ declare module 'vue' {
     'LazyHeadersHeading': typeof import("../components/Headers/Heading.vue")['default'],
     'LazyHeadersSubHeading': typeof import("../components/Headers/SubHeading.vue")['default'],
     'LazyNavigationMenuItems': typeof import("../components/Navigation/MenuItems.js")['default'],
+    'LazyPaginationDefault': typeof import("../components/Pagination/Default.vue")['default'],
+    'LazyPaginationInfo': typeof import("../components/Pagination/PaginationInfo.vue")['default'],
+    'LazyPaginationWithArrow': typeof import("../components/Pagination/WithArrow.vue")['default'],
     'LazyRatingDefault': typeof import("../components/Rating/Default.vue")['default'],
     'LazyRatingHeart': typeof import("../components/Rating/Heart.vue")['default'],
     'LazyRatingImdb': typeof import("../components/Rating/Imdb.vue")['default'],
     'LazyRatingOurCard': typeof import("../components/Rating/OurCard.vue")['default'],
     'LazyRatingSmiley': typeof import("../components/Rating/Smiley.vue")['default'],
     'LazyRatingYesOrNo': typeof import("../components/Rating/YesOrNo.vue")['default'],
-    'LazyPaginationDefault': typeof import("../components/Pagination/Default.vue")['default'],
-    'LazyPaginationInfo': typeof import("../components/Pagination/PaginationInfo.vue")['default'],
-    'LazyPaginationWithArrow': typeof import("../components/Pagination/WithArrow.vue")['default'],
     'LazySidebarDefault': typeof import("../components/Sidebar/Default.vue")['default'],
     'LazySidebarSectioned': typeof import("../components/Sidebar/Sectioned.vue")['default'],
     'LazySidebarSeparator': typeof import("../components/Sidebar/Separator.vue")['default'],
@@ -277,19 +289,6 @@ declare module 'vue' {
     'LazyAvatarSnippetsShadow': typeof import("../components/Avatar/Snippets/Shadow.vue")['default'],
     'LazyAvatarSnippetsSize': typeof import("../components/Avatar/Snippets/Size.vue")['default'],
     'LazyAvatarSnippetsSquare': typeof import("../components/Avatar/Snippets/Square.vue")['default'],
-    'LazyBadgeSnippetsCancel': typeof import("../components/Badge/Snippets/Cancel.vue")['default'],
-    'LazyBadgeSnippetsDefault': typeof import("../components/Badge/Snippets/default.vue")['default'],
-    'LazyBadgeSnippetsIcon': typeof import("../components/Badge/Snippets/Icon.vue")['default'],
-    'LazyBadgeSnippetsLarge': typeof import("../components/Badge/Snippets/Large.vue")['default'],
-    'LazyBadgeSnippetsLink': typeof import("../components/Badge/Snippets/Link.vue")['default'],
-    'LazyBadgeSnippetsOutline': typeof import("../components/Badge/Snippets/Outline.vue")['default'],
-    'LazyBadgeSnippetsPill': typeof import("../components/Badge/Snippets/Pill.vue")['default'],
-    'LazyBadgeSnippetsPillOutline': typeof import("../components/Badge/Snippets/PillOutline.vue")['default'],
-    'LazyBadgeSnippetsPositioned': typeof import("../components/Badge/Snippets/Positioned.vue")['default'],
-    'LazyBadgeSnippetsRectangle': typeof import("../components/Badge/Snippets/Rectangle.vue")['default'],
-    'LazyBadgeSnippetsSize': typeof import("../components/Badge/Snippets/Size.vue")['default'],
-    'LazyBadgeSnippetsStateColor': typeof import("../components/Badge/Snippets/StateColor.vue")['default'],
-    'LazyBadgeSnippetsText': typeof import("../components/Badge/Snippets/Text.vue")['default'],
     'LazyBreadCrumbSnippetsAlignment': typeof import("../components/BreadCrumb/Snippets/Alignment.vue")['default'],
     'LazyBreadCrumbSnippetsArrow': typeof import("../components/BreadCrumb/Snippets/Arrow.vue")['default'],
     'LazyBreadCrumbSnippetsDefault': typeof import("../components/BreadCrumb/Snippets/Default.vue")['default'],
@@ -308,18 +307,35 @@ declare module 'vue' {
     'LazyButtonSnippetsOutline': typeof import("../components/Button/Snippets/Outline.vue")['default'],
     'LazyButtonSnippetsSize': typeof import("../components/Button/Snippets/Size.vue")['default'],
     'LazyButtonSnippetsStateColor': typeof import("../components/Button/Snippets/StateColor.vue")['default'],
+    'LazyBadgeSnippetsCancel': typeof import("../components/Badge/Snippets/Cancel.vue")['default'],
+    'LazyBadgeSnippetsDefault': typeof import("../components/Badge/Snippets/default.vue")['default'],
+    'LazyBadgeSnippetsIcon': typeof import("../components/Badge/Snippets/Icon.vue")['default'],
+    'LazyBadgeSnippetsLarge': typeof import("../components/Badge/Snippets/Large.vue")['default'],
+    'LazyBadgeSnippetsLink': typeof import("../components/Badge/Snippets/Link.vue")['default'],
+    'LazyBadgeSnippetsOutline': typeof import("../components/Badge/Snippets/Outline.vue")['default'],
+    'LazyBadgeSnippetsPill': typeof import("../components/Badge/Snippets/Pill.vue")['default'],
+    'LazyBadgeSnippetsPillOutline': typeof import("../components/Badge/Snippets/PillOutline.vue")['default'],
+    'LazyBadgeSnippetsPositioned': typeof import("../components/Badge/Snippets/Positioned.vue")['default'],
+    'LazyBadgeSnippetsRectangle': typeof import("../components/Badge/Snippets/Rectangle.vue")['default'],
+    'LazyBadgeSnippetsSize': typeof import("../components/Badge/Snippets/Size.vue")['default'],
+    'LazyBadgeSnippetsStateColor': typeof import("../components/Badge/Snippets/StateColor.vue")['default'],
+    'LazyBadgeSnippetsText': typeof import("../components/Badge/Snippets/Text.vue")['default'],
+    'LazyButtonGroupSnippetsDefault': typeof import("../components/ButtonGroup/Snippets/Default.vue")['default'],
+    'LazyButtonGroupSnippetsIcon': typeof import("../components/ButtonGroup/Snippets/Icon.vue")['default'],
+    'LazyButtonGroupSnippetsOutline': typeof import("../components/ButtonGroup/Snippets/Outline.vue")['default'],
+    'LazyButtonGroupSnippetsOutlineIcon': typeof import("../components/ButtonGroup/Snippets/OutlineIcon.vue")['default'],
     'LazyFooterSnippetsAppsmith': typeof import("../components/Footer/Snippets/Appsmith.vue")['default'],
     'LazyFooterSnippetsDefault': typeof import("../components/Footer/Snippets/Default.vue")['default'],
     'LazyFooterSnippetsLogoSection': typeof import("../components/Footer/Snippets/LogoSection.vue")['default'],
     'LazyFooterSnippetsTwoRow': typeof import("../components/Footer/Snippets/TwoRow.vue")['default'],
+    'LazyPaginationSnippetsDefault': typeof import("../components/Pagination/Snippets/Default.vue")['default'],
+    'LazyPaginationSnippetsWithArrow': typeof import("../components/Pagination/Snippets/WithArrow.vue")['default'],
     'LazyRatingSnippetsDefault': typeof import("../components/Rating/Snippets/Default.vue")['default'],
     'LazyRatingSnippetsHeart': typeof import("../components/Rating/Snippets/Heart.vue")['default'],
     'LazyRatingSnippetsImdb': typeof import("../components/Rating/Snippets/Imdb.vue")['default'],
     'LazyRatingSnippetsOurCard': typeof import("../components/Rating/Snippets/OurCard.vue")['default'],
     'LazyRatingSnippetsSmiley': typeof import("../components/Rating/Snippets/Smiley.vue")['default'],
     'LazyRatingSnippetsYesOrNo': typeof import("../components/Rating/Snippets/YesOrNo.vue")['default'],
-    'LazyPaginationSnippetsDefault': typeof import("../components/Pagination/Snippets/Default.vue")['default'],
-    'LazyPaginationSnippetsWithArrow': typeof import("../components/Pagination/Snippets/WithArrow.vue")['default'],
     'LazySidebarSnippetsDefault': typeof import("../components/Sidebar/Snippets/Default.vue")['default'],
     'LazySidebarSnippetsSectioned': typeof import("../components/Sidebar/Snippets/Sectioned.vue")['default'],
     'LazySidebarSnippetsSeparator': typeof import("../components/Sidebar/Snippets/Separator.vue")['default'],
@@ -360,6 +376,13 @@ export const AvatarPresenceRing: typeof import("../components/Avatar/PresenceRin
 export const AvatarShadow: typeof import("../components/Avatar/Shadow.vue")['default']
 export const AvatarSize: typeof import("../components/Avatar/Size.vue")['default']
 export const AvatarSquare: typeof import("../components/Avatar/Square.vue")['default']
+export const BreadCrumbAlignment: typeof import("../components/BreadCrumb/Alignment.vue")['default']
+export const BreadCrumbArrow: typeof import("../components/BreadCrumb/Arrow.vue")['default']
+export const BreadCrumbDefault: typeof import("../components/BreadCrumb/Default.vue")['default']
+export const BreadCrumbIcon: typeof import("../components/BreadCrumb/Icon.vue")['default']
+export const BreadCrumbOutline: typeof import("../components/BreadCrumb/Outline.vue")['default']
+export const BreadCrumbSeparator: typeof import("../components/BreadCrumb/Separator.vue")['default']
+export const BreadCrumbSolid: typeof import("../components/BreadCrumb/Solid.vue")['default']
 export const BadgeCancel: typeof import("../components/Badge/Cancel.vue")['default']
 export const BadgeDefault: typeof import("../components/Badge/Default.vue")['default']
 export const BadgeIcon: typeof import("../components/Badge/Icon.vue")['default']
@@ -373,14 +396,6 @@ export const BadgeRectangle: typeof import("../components/Badge/Rectangle.vue")[
 export const BadgeSize: typeof import("../components/Badge/Size.vue")['default']
 export const BadgeStateColor: typeof import("../components/Badge/StateColor.vue")['default']
 export const BadgeText: typeof import("../components/Badge/Text.vue")['default']
-export const BreadCrumbAlignment: typeof import("../components/BreadCrumb/Alignment.vue")['default']
-export const BreadCrumbArrow: typeof import("../components/BreadCrumb/Arrow.vue")['default']
-export const BreadCrumbDefault: typeof import("../components/BreadCrumb/Default.vue")['default']
-export const BreadCrumbIcon: typeof import("../components/BreadCrumb/Icon.vue")['default']
-export const BreadCrumbOutline: typeof import("../components/BreadCrumb/Outline.vue")['default']
-export const BreadCrumbSeparator: typeof import("../components/BreadCrumb/Separator.vue")['default']
-export const BreadCrumbSolid: typeof import("../components/BreadCrumb/Solid.vue")['default']
-export const CodeHighlight: typeof import("../components/CodeSnippet/CodeHighlight.vue")['default']
 export const ButtonAppsmith: typeof import("../components/Button/Appsmith.vue")['default']
 export const ButtonBlockButtons: typeof import("../components/Button/BlockButtons.vue")['default']
 export const ButtonInfo: typeof import("../components/Button/ButtonInfo.vue")['default']
@@ -393,6 +408,11 @@ export const ButtonLightColor: typeof import("../components/Button/LightColor.vu
 export const ButtonOutline: typeof import("../components/Button/Outline.vue")['default']
 export const ButtonSize: typeof import("../components/Button/Size.vue")['default']
 export const ButtonStateColor: typeof import("../components/Button/StateColor.vue")['default']
+export const ButtonGroupDefault: typeof import("../components/ButtonGroup/Default.vue")['default']
+export const ButtonGroupIcon: typeof import("../components/ButtonGroup/Icon.vue")['default']
+export const ButtonGroupOutline: typeof import("../components/ButtonGroup/Outline.vue")['default']
+export const ButtonGroupOutlineIcon: typeof import("../components/ButtonGroup/OutlineIcon.vue")['default']
+export const CodeHighlight: typeof import("../components/CodeSnippet/CodeHighlight.vue")['default']
 export const FooterAppsmith: typeof import("../components/Footer/Appsmith.vue")['default']
 export const FooterDefault: typeof import("../components/Footer/Default.vue")['default']
 export const FooterInfo: typeof import("../components/Footer/FooterInfo.vue")['default']
@@ -401,15 +421,15 @@ export const FooterTwoRow: typeof import("../components/Footer/TwoRow.vue")['def
 export const HeadersHeading: typeof import("../components/Headers/Heading.vue")['default']
 export const HeadersSubHeading: typeof import("../components/Headers/SubHeading.vue")['default']
 export const NavigationMenuItems: typeof import("../components/Navigation/MenuItems.js")['default']
+export const PaginationDefault: typeof import("../components/Pagination/Default.vue")['default']
+export const PaginationInfo: typeof import("../components/Pagination/PaginationInfo.vue")['default']
+export const PaginationWithArrow: typeof import("../components/Pagination/WithArrow.vue")['default']
 export const RatingDefault: typeof import("../components/Rating/Default.vue")['default']
 export const RatingHeart: typeof import("../components/Rating/Heart.vue")['default']
 export const RatingImdb: typeof import("../components/Rating/Imdb.vue")['default']
 export const RatingOurCard: typeof import("../components/Rating/OurCard.vue")['default']
 export const RatingSmiley: typeof import("../components/Rating/Smiley.vue")['default']
 export const RatingYesOrNo: typeof import("../components/Rating/YesOrNo.vue")['default']
-export const PaginationDefault: typeof import("../components/Pagination/Default.vue")['default']
-export const PaginationInfo: typeof import("../components/Pagination/PaginationInfo.vue")['default']
-export const PaginationWithArrow: typeof import("../components/Pagination/WithArrow.vue")['default']
 export const SidebarDefault: typeof import("../components/Sidebar/Default.vue")['default']
 export const SidebarSectioned: typeof import("../components/Sidebar/Sectioned.vue")['default']
 export const SidebarSeparator: typeof import("../components/Sidebar/Separator.vue")['default']
@@ -446,19 +466,6 @@ export const AvatarSnippetsPresenceRing: typeof import("../components/Avatar/Sni
 export const AvatarSnippetsShadow: typeof import("../components/Avatar/Snippets/Shadow.vue")['default']
 export const AvatarSnippetsSize: typeof import("../components/Avatar/Snippets/Size.vue")['default']
 export const AvatarSnippetsSquare: typeof import("../components/Avatar/Snippets/Square.vue")['default']
-export const BadgeSnippetsCancel: typeof import("../components/Badge/Snippets/Cancel.vue")['default']
-export const BadgeSnippetsDefault: typeof import("../components/Badge/Snippets/default.vue")['default']
-export const BadgeSnippetsIcon: typeof import("../components/Badge/Snippets/Icon.vue")['default']
-export const BadgeSnippetsLarge: typeof import("../components/Badge/Snippets/Large.vue")['default']
-export const BadgeSnippetsLink: typeof import("../components/Badge/Snippets/Link.vue")['default']
-export const BadgeSnippetsOutline: typeof import("../components/Badge/Snippets/Outline.vue")['default']
-export const BadgeSnippetsPill: typeof import("../components/Badge/Snippets/Pill.vue")['default']
-export const BadgeSnippetsPillOutline: typeof import("../components/Badge/Snippets/PillOutline.vue")['default']
-export const BadgeSnippetsPositioned: typeof import("../components/Badge/Snippets/Positioned.vue")['default']
-export const BadgeSnippetsRectangle: typeof import("../components/Badge/Snippets/Rectangle.vue")['default']
-export const BadgeSnippetsSize: typeof import("../components/Badge/Snippets/Size.vue")['default']
-export const BadgeSnippetsStateColor: typeof import("../components/Badge/Snippets/StateColor.vue")['default']
-export const BadgeSnippetsText: typeof import("../components/Badge/Snippets/Text.vue")['default']
 export const BreadCrumbSnippetsAlignment: typeof import("../components/BreadCrumb/Snippets/Alignment.vue")['default']
 export const BreadCrumbSnippetsArrow: typeof import("../components/BreadCrumb/Snippets/Arrow.vue")['default']
 export const BreadCrumbSnippetsDefault: typeof import("../components/BreadCrumb/Snippets/Default.vue")['default']
@@ -477,18 +484,35 @@ export const ButtonSnippetsLightColor: typeof import("../components/Button/Snipp
 export const ButtonSnippetsOutline: typeof import("../components/Button/Snippets/Outline.vue")['default']
 export const ButtonSnippetsSize: typeof import("../components/Button/Snippets/Size.vue")['default']
 export const ButtonSnippetsStateColor: typeof import("../components/Button/Snippets/StateColor.vue")['default']
+export const BadgeSnippetsCancel: typeof import("../components/Badge/Snippets/Cancel.vue")['default']
+export const BadgeSnippetsDefault: typeof import("../components/Badge/Snippets/default.vue")['default']
+export const BadgeSnippetsIcon: typeof import("../components/Badge/Snippets/Icon.vue")['default']
+export const BadgeSnippetsLarge: typeof import("../components/Badge/Snippets/Large.vue")['default']
+export const BadgeSnippetsLink: typeof import("../components/Badge/Snippets/Link.vue")['default']
+export const BadgeSnippetsOutline: typeof import("../components/Badge/Snippets/Outline.vue")['default']
+export const BadgeSnippetsPill: typeof import("../components/Badge/Snippets/Pill.vue")['default']
+export const BadgeSnippetsPillOutline: typeof import("../components/Badge/Snippets/PillOutline.vue")['default']
+export const BadgeSnippetsPositioned: typeof import("../components/Badge/Snippets/Positioned.vue")['default']
+export const BadgeSnippetsRectangle: typeof import("../components/Badge/Snippets/Rectangle.vue")['default']
+export const BadgeSnippetsSize: typeof import("../components/Badge/Snippets/Size.vue")['default']
+export const BadgeSnippetsStateColor: typeof import("../components/Badge/Snippets/StateColor.vue")['default']
+export const BadgeSnippetsText: typeof import("../components/Badge/Snippets/Text.vue")['default']
+export const ButtonGroupSnippetsDefault: typeof import("../components/ButtonGroup/Snippets/Default.vue")['default']
+export const ButtonGroupSnippetsIcon: typeof import("../components/ButtonGroup/Snippets/Icon.vue")['default']
+export const ButtonGroupSnippetsOutline: typeof import("../components/ButtonGroup/Snippets/Outline.vue")['default']
+export const ButtonGroupSnippetsOutlineIcon: typeof import("../components/ButtonGroup/Snippets/OutlineIcon.vue")['default']
 export const FooterSnippetsAppsmith: typeof import("../components/Footer/Snippets/Appsmith.vue")['default']
 export const FooterSnippetsDefault: typeof import("../components/Footer/Snippets/Default.vue")['default']
 export const FooterSnippetsLogoSection: typeof import("../components/Footer/Snippets/LogoSection.vue")['default']
 export const FooterSnippetsTwoRow: typeof import("../components/Footer/Snippets/TwoRow.vue")['default']
+export const PaginationSnippetsDefault: typeof import("../components/Pagination/Snippets/Default.vue")['default']
+export const PaginationSnippetsWithArrow: typeof import("../components/Pagination/Snippets/WithArrow.vue")['default']
 export const RatingSnippetsDefault: typeof import("../components/Rating/Snippets/Default.vue")['default']
 export const RatingSnippetsHeart: typeof import("../components/Rating/Snippets/Heart.vue")['default']
 export const RatingSnippetsImdb: typeof import("../components/Rating/Snippets/Imdb.vue")['default']
 export const RatingSnippetsOurCard: typeof import("../components/Rating/Snippets/OurCard.vue")['default']
 export const RatingSnippetsSmiley: typeof import("../components/Rating/Snippets/Smiley.vue")['default']
 export const RatingSnippetsYesOrNo: typeof import("../components/Rating/Snippets/YesOrNo.vue")['default']
-export const PaginationSnippetsDefault: typeof import("../components/Pagination/Snippets/Default.vue")['default']
-export const PaginationSnippetsWithArrow: typeof import("../components/Pagination/Snippets/WithArrow.vue")['default']
 export const SidebarSnippetsDefault: typeof import("../components/Sidebar/Snippets/Default.vue")['default']
 export const SidebarSnippetsSectioned: typeof import("../components/Sidebar/Snippets/Sectioned.vue")['default']
 export const SidebarSnippetsSeparator: typeof import("../components/Sidebar/Snippets/Separator.vue")['default']
@@ -527,6 +551,13 @@ export const LazyAvatarPresenceRing: typeof import("../components/Avatar/Presenc
 export const LazyAvatarShadow: typeof import("../components/Avatar/Shadow.vue")['default']
 export const LazyAvatarSize: typeof import("../components/Avatar/Size.vue")['default']
 export const LazyAvatarSquare: typeof import("../components/Avatar/Square.vue")['default']
+export const LazyBreadCrumbAlignment: typeof import("../components/BreadCrumb/Alignment.vue")['default']
+export const LazyBreadCrumbArrow: typeof import("../components/BreadCrumb/Arrow.vue")['default']
+export const LazyBreadCrumbDefault: typeof import("../components/BreadCrumb/Default.vue")['default']
+export const LazyBreadCrumbIcon: typeof import("../components/BreadCrumb/Icon.vue")['default']
+export const LazyBreadCrumbOutline: typeof import("../components/BreadCrumb/Outline.vue")['default']
+export const LazyBreadCrumbSeparator: typeof import("../components/BreadCrumb/Separator.vue")['default']
+export const LazyBreadCrumbSolid: typeof import("../components/BreadCrumb/Solid.vue")['default']
 export const LazyBadgeCancel: typeof import("../components/Badge/Cancel.vue")['default']
 export const LazyBadgeDefault: typeof import("../components/Badge/Default.vue")['default']
 export const LazyBadgeIcon: typeof import("../components/Badge/Icon.vue")['default']
@@ -540,14 +571,6 @@ export const LazyBadgeRectangle: typeof import("../components/Badge/Rectangle.vu
 export const LazyBadgeSize: typeof import("../components/Badge/Size.vue")['default']
 export const LazyBadgeStateColor: typeof import("../components/Badge/StateColor.vue")['default']
 export const LazyBadgeText: typeof import("../components/Badge/Text.vue")['default']
-export const LazyBreadCrumbAlignment: typeof import("../components/BreadCrumb/Alignment.vue")['default']
-export const LazyBreadCrumbArrow: typeof import("../components/BreadCrumb/Arrow.vue")['default']
-export const LazyBreadCrumbDefault: typeof import("../components/BreadCrumb/Default.vue")['default']
-export const LazyBreadCrumbIcon: typeof import("../components/BreadCrumb/Icon.vue")['default']
-export const LazyBreadCrumbOutline: typeof import("../components/BreadCrumb/Outline.vue")['default']
-export const LazyBreadCrumbSeparator: typeof import("../components/BreadCrumb/Separator.vue")['default']
-export const LazyBreadCrumbSolid: typeof import("../components/BreadCrumb/Solid.vue")['default']
-export const LazyCodeHighlight: typeof import("../components/CodeSnippet/CodeHighlight.vue")['default']
 export const LazyButtonAppsmith: typeof import("../components/Button/Appsmith.vue")['default']
 export const LazyButtonBlockButtons: typeof import("../components/Button/BlockButtons.vue")['default']
 export const LazyButtonInfo: typeof import("../components/Button/ButtonInfo.vue")['default']
@@ -560,6 +583,11 @@ export const LazyButtonLightColor: typeof import("../components/Button/LightColo
 export const LazyButtonOutline: typeof import("../components/Button/Outline.vue")['default']
 export const LazyButtonSize: typeof import("../components/Button/Size.vue")['default']
 export const LazyButtonStateColor: typeof import("../components/Button/StateColor.vue")['default']
+export const LazyButtonGroupDefault: typeof import("../components/ButtonGroup/Default.vue")['default']
+export const LazyButtonGroupIcon: typeof import("../components/ButtonGroup/Icon.vue")['default']
+export const LazyButtonGroupOutline: typeof import("../components/ButtonGroup/Outline.vue")['default']
+export const LazyButtonGroupOutlineIcon: typeof import("../components/ButtonGroup/OutlineIcon.vue")['default']
+export const LazyCodeHighlight: typeof import("../components/CodeSnippet/CodeHighlight.vue")['default']
 export const LazyFooterAppsmith: typeof import("../components/Footer/Appsmith.vue")['default']
 export const LazyFooterDefault: typeof import("../components/Footer/Default.vue")['default']
 export const LazyFooterInfo: typeof import("../components/Footer/FooterInfo.vue")['default']
@@ -568,15 +596,15 @@ export const LazyFooterTwoRow: typeof import("../components/Footer/TwoRow.vue")[
 export const LazyHeadersHeading: typeof import("../components/Headers/Heading.vue")['default']
 export const LazyHeadersSubHeading: typeof import("../components/Headers/SubHeading.vue")['default']
 export const LazyNavigationMenuItems: typeof import("../components/Navigation/MenuItems.js")['default']
+export const LazyPaginationDefault: typeof import("../components/Pagination/Default.vue")['default']
+export const LazyPaginationInfo: typeof import("../components/Pagination/PaginationInfo.vue")['default']
+export const LazyPaginationWithArrow: typeof import("../components/Pagination/WithArrow.vue")['default']
 export const LazyRatingDefault: typeof import("../components/Rating/Default.vue")['default']
 export const LazyRatingHeart: typeof import("../components/Rating/Heart.vue")['default']
 export const LazyRatingImdb: typeof import("../components/Rating/Imdb.vue")['default']
 export const LazyRatingOurCard: typeof import("../components/Rating/OurCard.vue")['default']
 export const LazyRatingSmiley: typeof import("../components/Rating/Smiley.vue")['default']
 export const LazyRatingYesOrNo: typeof import("../components/Rating/YesOrNo.vue")['default']
-export const LazyPaginationDefault: typeof import("../components/Pagination/Default.vue")['default']
-export const LazyPaginationInfo: typeof import("../components/Pagination/PaginationInfo.vue")['default']
-export const LazyPaginationWithArrow: typeof import("../components/Pagination/WithArrow.vue")['default']
 export const LazySidebarDefault: typeof import("../components/Sidebar/Default.vue")['default']
 export const LazySidebarSectioned: typeof import("../components/Sidebar/Sectioned.vue")['default']
 export const LazySidebarSeparator: typeof import("../components/Sidebar/Separator.vue")['default']
@@ -613,19 +641,6 @@ export const LazyAvatarSnippetsPresenceRing: typeof import("../components/Avatar
 export const LazyAvatarSnippetsShadow: typeof import("../components/Avatar/Snippets/Shadow.vue")['default']
 export const LazyAvatarSnippetsSize: typeof import("../components/Avatar/Snippets/Size.vue")['default']
 export const LazyAvatarSnippetsSquare: typeof import("../components/Avatar/Snippets/Square.vue")['default']
-export const LazyBadgeSnippetsCancel: typeof import("../components/Badge/Snippets/Cancel.vue")['default']
-export const LazyBadgeSnippetsDefault: typeof import("../components/Badge/Snippets/default.vue")['default']
-export const LazyBadgeSnippetsIcon: typeof import("../components/Badge/Snippets/Icon.vue")['default']
-export const LazyBadgeSnippetsLarge: typeof import("../components/Badge/Snippets/Large.vue")['default']
-export const LazyBadgeSnippetsLink: typeof import("../components/Badge/Snippets/Link.vue")['default']
-export const LazyBadgeSnippetsOutline: typeof import("../components/Badge/Snippets/Outline.vue")['default']
-export const LazyBadgeSnippetsPill: typeof import("../components/Badge/Snippets/Pill.vue")['default']
-export const LazyBadgeSnippetsPillOutline: typeof import("../components/Badge/Snippets/PillOutline.vue")['default']
-export const LazyBadgeSnippetsPositioned: typeof import("../components/Badge/Snippets/Positioned.vue")['default']
-export const LazyBadgeSnippetsRectangle: typeof import("../components/Badge/Snippets/Rectangle.vue")['default']
-export const LazyBadgeSnippetsSize: typeof import("../components/Badge/Snippets/Size.vue")['default']
-export const LazyBadgeSnippetsStateColor: typeof import("../components/Badge/Snippets/StateColor.vue")['default']
-export const LazyBadgeSnippetsText: typeof import("../components/Badge/Snippets/Text.vue")['default']
 export const LazyBreadCrumbSnippetsAlignment: typeof import("../components/BreadCrumb/Snippets/Alignment.vue")['default']
 export const LazyBreadCrumbSnippetsArrow: typeof import("../components/BreadCrumb/Snippets/Arrow.vue")['default']
 export const LazyBreadCrumbSnippetsDefault: typeof import("../components/BreadCrumb/Snippets/Default.vue")['default']
@@ -644,18 +659,35 @@ export const LazyButtonSnippetsLightColor: typeof import("../components/Button/S
 export const LazyButtonSnippetsOutline: typeof import("../components/Button/Snippets/Outline.vue")['default']
 export const LazyButtonSnippetsSize: typeof import("../components/Button/Snippets/Size.vue")['default']
 export const LazyButtonSnippetsStateColor: typeof import("../components/Button/Snippets/StateColor.vue")['default']
+export const LazyBadgeSnippetsCancel: typeof import("../components/Badge/Snippets/Cancel.vue")['default']
+export const LazyBadgeSnippetsDefault: typeof import("../components/Badge/Snippets/default.vue")['default']
+export const LazyBadgeSnippetsIcon: typeof import("../components/Badge/Snippets/Icon.vue")['default']
+export const LazyBadgeSnippetsLarge: typeof import("../components/Badge/Snippets/Large.vue")['default']
+export const LazyBadgeSnippetsLink: typeof import("../components/Badge/Snippets/Link.vue")['default']
+export const LazyBadgeSnippetsOutline: typeof import("../components/Badge/Snippets/Outline.vue")['default']
+export const LazyBadgeSnippetsPill: typeof import("../components/Badge/Snippets/Pill.vue")['default']
+export const LazyBadgeSnippetsPillOutline: typeof import("../components/Badge/Snippets/PillOutline.vue")['default']
+export const LazyBadgeSnippetsPositioned: typeof import("../components/Badge/Snippets/Positioned.vue")['default']
+export const LazyBadgeSnippetsRectangle: typeof import("../components/Badge/Snippets/Rectangle.vue")['default']
+export const LazyBadgeSnippetsSize: typeof import("../components/Badge/Snippets/Size.vue")['default']
+export const LazyBadgeSnippetsStateColor: typeof import("../components/Badge/Snippets/StateColor.vue")['default']
+export const LazyBadgeSnippetsText: typeof import("../components/Badge/Snippets/Text.vue")['default']
+export const LazyButtonGroupSnippetsDefault: typeof import("../components/ButtonGroup/Snippets/Default.vue")['default']
+export const LazyButtonGroupSnippetsIcon: typeof import("../components/ButtonGroup/Snippets/Icon.vue")['default']
+export const LazyButtonGroupSnippetsOutline: typeof import("../components/ButtonGroup/Snippets/Outline.vue")['default']
+export const LazyButtonGroupSnippetsOutlineIcon: typeof import("../components/ButtonGroup/Snippets/OutlineIcon.vue")['default']
 export const LazyFooterSnippetsAppsmith: typeof import("../components/Footer/Snippets/Appsmith.vue")['default']
 export const LazyFooterSnippetsDefault: typeof import("../components/Footer/Snippets/Default.vue")['default']
 export const LazyFooterSnippetsLogoSection: typeof import("../components/Footer/Snippets/LogoSection.vue")['default']
 export const LazyFooterSnippetsTwoRow: typeof import("../components/Footer/Snippets/TwoRow.vue")['default']
+export const LazyPaginationSnippetsDefault: typeof import("../components/Pagination/Snippets/Default.vue")['default']
+export const LazyPaginationSnippetsWithArrow: typeof import("../components/Pagination/Snippets/WithArrow.vue")['default']
 export const LazyRatingSnippetsDefault: typeof import("../components/Rating/Snippets/Default.vue")['default']
 export const LazyRatingSnippetsHeart: typeof import("../components/Rating/Snippets/Heart.vue")['default']
 export const LazyRatingSnippetsImdb: typeof import("../components/Rating/Snippets/Imdb.vue")['default']
 export const LazyRatingSnippetsOurCard: typeof import("../components/Rating/Snippets/OurCard.vue")['default']
 export const LazyRatingSnippetsSmiley: typeof import("../components/Rating/Snippets/Smiley.vue")['default']
 export const LazyRatingSnippetsYesOrNo: typeof import("../components/Rating/Snippets/YesOrNo.vue")['default']
-export const LazyPaginationSnippetsDefault: typeof import("../components/Pagination/Snippets/Default.vue")['default']
-export const LazyPaginationSnippetsWithArrow: typeof import("../components/Pagination/Snippets/WithArrow.vue")['default']
 export const LazySidebarSnippetsDefault: typeof import("../components/Sidebar/Snippets/Default.vue")['default']
 export const LazySidebarSnippetsSectioned: typeof import("../components/Sidebar/Snippets/Sectioned.vue")['default']
 export const LazySidebarSnippetsSeparator: typeof import("../components/Sidebar/Snippets/Separator.vue")['default']
