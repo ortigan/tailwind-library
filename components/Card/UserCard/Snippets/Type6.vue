@@ -1,5 +1,16 @@
 <template>
-<pre><code class="language-markup"><script type="prism-html-markup">
+  <pre>
+<code class="language-markup">
+  {{code}}
+</code>
+</pre>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      code: `
 <div class="group flex h-full w-96 flex-col rounded-3xl bg-white p-4 text-gray-400 shadow-lg">
   <div class="flex justify-between">
     <div>
@@ -27,11 +38,10 @@
     <div class="flex items-center justify-center"><div class="text-tiny rounded-lg bg-teal-400 px-4 py-2 font-semibold text-white hover:bg-teal-500">Button</div></div>
   </div>
 </div>
-</script></code></pre>
-</template>
-
-<script>
-export default {};
+    `,
+    };
+  },
+};
 </script>
 
 <style></style>

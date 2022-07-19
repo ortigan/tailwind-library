@@ -1,5 +1,16 @@
 <template>
-<pre><code class="language-markup"><script type="prism-html-markup">
+  <pre>
+<code class="language-markup">
+  {{code}}
+</code>
+</pre>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      code: `
 <!-- Code for Type 1 card with CTA -->
 <div class="w-64 rounded-lg bg-gray-100 p-6 text-gray-700 shadow-lg hover:shadow-none">
   <div class="flex w-full flex-col">
@@ -27,12 +38,8 @@
     <div><button class="mt-6 rounded-md bg-gray-100 px-5 py-2 text-sm font-medium text-gray-700">Button</button></div>
   </div>
 </div>
-
-</script></code></pre>
-</template>
-
-<script>
-export default {};
+    `,
+    };
+  },
+};
 </script>
-
-<style></style>

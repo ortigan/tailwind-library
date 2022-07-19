@@ -1,5 +1,16 @@
 <template>
-<pre><code class="language-markup"><script type="prism-html-markup">
+  <pre>
+<code class="language-markup">
+  {{code}}
+</code>
+</pre>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      code: `
 <div class="group flex w-96 flex-col rounded-2xl bg-white px-6 pt-8 pb-6 shadow-lg">
   <div class="flex space-x-4">
     <div class="h-16 w-16 overflow-hidden rounded-lg"><img src="https://res.cloudinary.com/pranav1421/image/upload/v1651820943/Tailwind-Component-library/Human%20avatar/pexels-sound-on-3760857_hujrch.jpg" alt="" class="h-full w-full rounded-lg object-cover group-hover:scale-110" /></div>
@@ -33,11 +44,10 @@
     <div class="text-tiny text-cyan-800">Message</div>
   </div>
 </div>
-</script></code></pre>
-</template>
-
-<script>
-export default {};
+    `,
+    };
+  },
+};
 </script>
 
 <style></style>

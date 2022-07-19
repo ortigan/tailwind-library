@@ -1,5 +1,16 @@
 <template>
-<pre><code class="language-markup"><script type="prism-html-markup">
+  <pre>
+<code class="language-markup">
+  {{code}}
+</code>
+</pre>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      code: `
 <div class="hover:shadow-3xl group relative h-full w-80 overflow-hidden rounded-xl text-gray-50 shadow-lg">
   <div class="z-20 h-96 w-full"><img src="https://res.cloudinary.com/pranav1421/image/upload/v1652079979/Tailwind-Component-library/Human%20avatar/payton-tuttle-RFFR1JjkJx8-unsplash_wglk5e.jpg" alt="" class="h-full w-full object-cover transition-all duration-100 ease-in group-hover:scale-110" /></div>
   <div class="absolute top-0 z-40 flex h-full w-full flex-col justify-end">
@@ -25,11 +36,10 @@
     </div>
   </div>
 </div>
-</script></code></pre>
-</template>
-
-<script>
-export default {};
+    `,
+    };
+  },
+};
 </script>
 
 <style></style>

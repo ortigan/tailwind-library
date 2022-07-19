@@ -1,5 +1,16 @@
 <template>
-<pre><code class="language-markup"><script type="prism-html-markup">
+  <pre>
+<code class="language-markup">
+  {{code}}
+</code>
+</pre>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      code: `
 <div class="hover:shadow-3xl group flex h-96 w-72 flex-col space-y-2 overflow-hidden rounded-xl bg-white text-gray-700 shadow-lg">
   <div class="z-20 h-1/2 w-full"><img src="https://res.cloudinary.com/pranav1421/image/upload/v1652079979/Tailwind-Component-library/Human%20avatar/payton-tuttle-RFFR1JjkJx8-unsplash_wglk5e.jpg" alt="" class="h-full w-full rounded-xl object-cover transition-all duration-100 ease-in group-hover:scale-110" /></div>
   <div class="flex h-1/2 w-full flex-col items-center overflow-hidden rounded-xl">
@@ -26,11 +37,10 @@
   </div>
   <div class="flex w-full justify-center bg-black py-3 font-semibold tracking-tight text-gray-100">View profile</div>
 </div>
-</script></code></pre>
-</template>
-
-<script>
-export default {};
+    `,
+    };
+  },
+};
 </script>
 
 <style></style>

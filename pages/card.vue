@@ -13,18 +13,18 @@
               impedit dolore aliquam?
             </p>
           </div>
-          <!-- Default Button -->
-          <section id="defaultButton" class="w-full">
+          <!-- Default card -->
+          <section id="defaultCard" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>Default</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_btn"
-                  @click="default_btn = true"
+                  v-if="!default_card"
+                  @click="default_card = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_btn = false"
+                  @click="default_card = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
@@ -33,7 +33,7 @@
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_btn" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="default_card" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
@@ -44,24 +44,24 @@
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <ButtonSnippetsDefault id="defaultCard" />
+                <CardSnippetsDefault id="defaultCard" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
           <!-- End default Card -->
           <!-- Cta Button -->
-          <section id="defaultButton" class="w-full">
+          <section id="cardWithCta" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>CTA</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_btn"
-                  @click="default_btn = true"
+                  v-if="!cta_card"
+                  @click="cta_card = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_btn = false"
+                  @click="cta_card = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
@@ -70,7 +70,7 @@
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_btn" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="cta_card" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
@@ -81,24 +81,24 @@
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <ButtonSnippetsDefault id="defaultCta" />
+                <CardSnippetsCta id="defaultCta" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
           <!-- End Cta Card -->
           <!-- Link Button -->
-          <section id="defaultButton" class="w-full">
+          <section id="cardWithLink" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>Link</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_btn"
-                  @click="default_btn = true"
+                  v-if="!link_card"
+                  @click="link_card = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_btn = false"
+                  @click="link_card = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
@@ -107,7 +107,7 @@
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_btn" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="link_card" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
@@ -118,24 +118,24 @@
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <ButtonSnippetsDefault id="defaultLink" />
+                <CardSnippetsLink id="defaultLink" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
           <!-- End Link Card -->
           <!-- DefaultUser Button -->
-          <section id="defaultButton" class="w-full">
+          <section id="defaultUserCard" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>Default User</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_btn"
-                  @click="default_btn = true"
+                  v-if="!default_user_card"
+                  @click="default_user_card = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_btn = false"
+                  @click="default_user_card = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
@@ -144,7 +144,7 @@
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_btn" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="default_user_card" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
@@ -155,24 +155,24 @@
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <ButtonSnippetsDefault id="defaultDefaultUser" />
+                <CardUserCardSnippetsDefaultUser id="defaultDefaultUser" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
           <!-- End DefaultUser Card -->
           <!-- Type1 Button -->
-          <section id="defaultButton" class="w-full">
+          <section id="type1" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>User card <span class="font-normal text-gray-400">type 1</span></template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_btn"
-                  @click="default_btn = true"
+                  v-if="!user_card1"
+                  @click="user_card1 = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_btn = false"
+                  @click="user_card1 = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
@@ -181,7 +181,7 @@
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_btn" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="user_card1" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
@@ -192,24 +192,24 @@
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <ButtonSnippetsDefault id="defaultType1" />
+                <CardUserCardSnippetsType1 id="defaultType1" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
           <!-- End Type1 Card -->
           <!-- Type2 Button -->
-          <section id="defaultButton" class="w-full">
+          <section id="type2" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>User card <span class="font-normal text-gray-400">type 2</span></template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_btn"
-                  @click="default_btn = true"
+                  v-if="!user_card2"
+                  @click="user_card2 = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_btn = false"
+                  @click="user_card2 = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
@@ -218,7 +218,7 @@
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_btn" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="user_card2" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
@@ -229,24 +229,24 @@
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <ButtonSnippetsDefault id="defaultType2" />
+                <CardUserCardSnippetsType2 id="defaultType2" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
           <!-- End Type2 Card -->
           <!-- Type3 Button -->
-          <section id="defaultButton" class="w-full">
+          <section id="type3" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>User card <span class="font-normal text-gray-400">type 3</span></template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_btn"
-                  @click="default_btn = true"
+                  v-if="!user_card3"
+                  @click="user_card3 = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_btn = false"
+                  @click="user_card3 = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
@@ -255,7 +255,7 @@
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_btn" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="user_card3" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
@@ -266,24 +266,24 @@
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <ButtonSnippetsDefault id="defaultType3" />
+                <CardUserCardSnippetsType3 id="defaultType3" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
           <!-- End Type3 Card -->
           <!-- Type4 Button -->
-          <section id="defaultButton" class="w-full">
+          <section id="type4" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>User card <span class="font-normal text-gray-400">type 4</span></template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_btn"
-                  @click="default_btn = true"
+                  v-if="!user_card4"
+                  @click="user_card4 = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_btn = false"
+                  @click="user_card4 = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
@@ -292,7 +292,7 @@
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_btn" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="user_card4" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
@@ -303,24 +303,24 @@
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <ButtonSnippetsDefault id="defaultType4" />
+                <CardUserCardSnippetsType4 id="defaultType4" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
           <!-- End Type4 Card -->
           <!-- Type5 Button -->
-          <section id="defaultButton" class="w-full">
+          <section id="type5" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>User card <span class="font-normal text-gray-400">type 5</span></template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_btn"
-                  @click="default_btn = true"
+                  v-if="!user_card5"
+                  @click="user_card5 = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_btn = false"
+                  @click="user_card5 = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
@@ -329,7 +329,7 @@
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_btn" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="user_card5" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
@@ -340,24 +340,24 @@
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <ButtonSnippetsDefault id="defaultType5" />
+                <CardUserCardSnippetsType5 id="defaultType5" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
           <!-- End Type5 Card -->
           <!-- Type6 Button -->
-          <section id="defaultButton" class="w-full">
+          <section id="type6" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>User card <span class="font-normal text-gray-400">type 6</span></template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_btn"
-                  @click="default_btn = true"
+                  v-if="!user_card6"
+                  @click="user_card6 = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_btn = false"
+                  @click="user_card6 = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
@@ -366,7 +366,7 @@
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_btn" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="user_card6" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
@@ -377,24 +377,24 @@
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <ButtonSnippetsDefault id="defaultType6" />
+                <CardUserCardSnippetsType6 id="defaultType6" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
           <!-- End Type6 Card -->
           <!-- Type7 Button -->
-          <section id="defaultButton" class="w-full">
+          <section id="type7" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>User card <span class="font-normal text-gray-400">type 7</span></template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_btn"
-                  @click="default_btn = true"
+                  v-if="!user_card7"
+                  @click="user_card7 = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_btn = false"
+                  @click="user_card7 = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
@@ -403,7 +403,7 @@
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_btn" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="user_card7" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
@@ -414,24 +414,24 @@
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <ButtonSnippetsDefault id="defaultType7" />
+                <CardUserCardSnippetsType7 id="defaultType7" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
           <!-- End Type7 Card -->
           <!-- Type8 Button -->
-          <section id="defaultButton" class="w-full">
+          <section id="type8" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>User card <span class="font-normal text-gray-400">type 8</span></template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_btn"
-                  @click="default_btn = true"
+                  v-if="!user_card8"
+                  @click="user_card8 = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_btn = false"
+                  @click="user_card8 = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
@@ -440,7 +440,7 @@
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_btn" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="user_card8" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
@@ -451,24 +451,24 @@
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <ButtonSnippetsDefault id="defaultType8" />
+                <CardUserCardSnippetsType8 id="defaultType8" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
           <!-- End Type8 Card -->
           <!-- Type9 Button -->
-          <section id="defaultButton" class="w-full">
+          <section id="type9" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>User card <span class="font-normal text-gray-400">type 9</span></template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_btn"
-                  @click="default_btn = true"
+                  v-if="!user_card9"
+                  @click="user_card9 = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_btn = false"
+                  @click="user_card9 = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
@@ -477,7 +477,7 @@
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_btn" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="user_card9" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
@@ -488,7 +488,7 @@
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <ButtonSnippetsDefault id="defaultType9" />
+                <CardUserCardSnippetsType9 id="defaultType9" />
               </div>
             </transition>
             <!-- code snippet end -->
@@ -570,16 +570,19 @@ export default {
   data() {
     return {
       layout: "custom",
- default_btn: false,
-      outline_btn: false,
-      statecolor_btn: false,
-      size_btn: false,
-      dual_icon_btn: false,
-      light_color_btn: false,
-      dark_color_btn: false,
-      gradient_btn: false,
-      colored_shadow_btn: false,
-      appsmith_btn: false,  
+ default_card: false,
+      cta_card: false,
+      link_card: false,
+      default_user_card: false,
+      user_card1: false,
+      user_card2: false,
+      user_card3: false,
+      user_card4: false,
+      user_card5: false,
+      user_card6: false,
+      user_card7: false,
+      user_card8: false,
+      user_card9: false,
       // SCROLL
       activeScrollSection: "",
       sample: "",

@@ -1,5 +1,16 @@
 <template>
-<pre><code class="language-markup"><script type="prism-html-markup">
+  <pre>
+<code class="language-markup">
+  {{code}}
+</code>
+</pre>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      code: `
 <div class="group group relative flex w-96 flex-col items-center justify-center rounded-2xl bg-white px-6 pt-8 pb-6 shadow-lg">
   <div class="flex w-full items-center justify-center">
     <div class="absolute -top-8 flex h-16 w-16 justify-center overflow-hidden rounded-full"><img src="https://res.cloudinary.com/pranav1421/image/upload/v1651821816/Tailwind-Component-library/Human%20avatar/pexels-andrea-piacquadio-3767410_kur6zy.jpg" alt="" class="rounded-full shadow-md group-hover:scale-110" /></div>
@@ -32,11 +43,10 @@
     </div>
   </div>
 </div>
-</script></code></pre>
-</template>
-
-<script>
-export default {};
+    `,
+    };
+  },
+};
 </script>
 
 <style></style>

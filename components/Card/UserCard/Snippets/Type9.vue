@@ -1,5 +1,16 @@
 <template>
-<pre><code class="language-markup"><script type="prism-html-markup">
+  <pre>
+<code class="language-markup">
+  {{code}}
+</code>
+</pre>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      code: `
 <div class="flex w-full items-center justify-center">
   <span v-for="(item, index) in items" :key="index" class="h-full w-full">
     <div class="w-96 group flex space-x-4 rounded-xl bg-white px-6 py-6 shadow-lg">
@@ -48,11 +59,10 @@
     </div>
   </span>
 </div>
-</script></code></pre>
-</template>
-
-<script>
-export default {};
+    `,
+    };
+  },
+};
 </script>
 
 <style></style>

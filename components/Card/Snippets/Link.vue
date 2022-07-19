@@ -1,5 +1,16 @@
 <template>
-<pre><code class="language-markup"><script type="prism-html-markup">
+  <pre>
+<code class="language-markup">
+  {{code}}
+</code>
+</pre>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      code: `
 <!-- Code for Type 1 Card with link -->
 <div class="w-64 rounded-lg bg-gray-100 p-6 text-gray-700 shadow-lg hover:shadow-none">
   <div class="flex w-full flex-col">
@@ -44,12 +55,11 @@
       <a href="#" class="text-sm text-sky-300">Another link</a>
     </div>
   </div>
-</div>
-</script></code></pre>
-</template>
-
-<script>
-export default {};
+</div> 
+    `,
+    };
+  },
+};
 </script>
 
-<style></style>
+

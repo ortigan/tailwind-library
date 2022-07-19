@@ -242,18 +242,31 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /components/Button/Snippets/Appsmith.vue ($id_1c421991)
 // - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
 // - /components/Card/Cta.vue ($id_fef392b5)
+// - /components/Card/Snippets/Default.vue ($id_08579acc)
 // - /components/Card/Default.vue ($id_27a792e0)
+// - /components/Card/Snippets/Cta.vue ($id_5bb25128)
 // - /components/Card/Link.vue ($id_a60fbbe0)
+// - /components/Card/Snippets/Link.vue ($id_1edc5e9d)
 // - /components/Card/UserCard/DefaultUser.vue ($id_9fd50ff9)
+// - /components/Card/UserCard/Snippets/DefaultUser.vue ($id_deb973b7)
 // - /components/Card/UserCard/Type1.vue ($id_0b67519c)
+// - /components/Card/UserCard/Snippets/Type1.vue ($id_11a7cb07)
 // - /components/Card/UserCard/Type2.vue ($id_43067e4e)
+// - /components/Card/UserCard/Snippets/Type2.vue ($id_f81e226e)
 // - /components/Card/UserCard/Type3.vue ($id_e5981a7d)
+// - /components/Card/UserCard/Snippets/Type3.vue ($id_0831fcb6)
 // - /components/Card/UserCard/Type4.vue ($id_64395255)
+// - /components/Card/UserCard/Snippets/Type4.vue ($id_874dfe6a)
 // - /components/Card/UserCard/Type5.vue ($id_fcbfd7af)
+// - /components/Card/UserCard/Snippets/Type5.vue ($id_a4f84abf)
 // - /components/Card/UserCard/Type6.vue ($id_e9e13ad0)
+// - /components/Card/UserCard/Snippets/Type6.vue ($id_c2232a00)
 // - /components/Card/UserCard/Type7.vue ($id_5c0e462a)
+// - /components/Card/UserCard/Snippets/Type7.vue ($id_16a308fb)
 // - /components/Card/UserCard/Type8.vue ($id_d5a96e56)
+// - /components/Card/UserCard/Snippets/Type8.vue ($id_18be2a98)
 // - /components/Card/UserCard/Type9.vue ($id_90990b5e)
+// - /components/Card/UserCard/Snippets/Type9.vue ($id_d7012042)
 // - /pages/card.vue?macro=true ($id_41d6da7a)
 // - /components/Dropdown/Default.vue ($id_c3d83ef0)
 // - /components/Dropdown/Heading.vue ($id_75b558fd)
@@ -3303,18 +3316,31 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // - /components/Button/Snippets/Appsmith.vue ($id_1c421991)
 // - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
 // - /components/Card/Cta.vue ($id_fef392b5)
+// - /components/Card/Snippets/Default.vue ($id_08579acc)
 // - /components/Card/Default.vue ($id_27a792e0)
+// - /components/Card/Snippets/Cta.vue ($id_5bb25128)
 // - /components/Card/Link.vue ($id_a60fbbe0)
+// - /components/Card/Snippets/Link.vue ($id_1edc5e9d)
 // - /components/Card/UserCard/DefaultUser.vue ($id_9fd50ff9)
+// - /components/Card/UserCard/Snippets/DefaultUser.vue ($id_deb973b7)
 // - /components/Card/UserCard/Type1.vue ($id_0b67519c)
+// - /components/Card/UserCard/Snippets/Type1.vue ($id_11a7cb07)
 // - /components/Card/UserCard/Type2.vue ($id_43067e4e)
+// - /components/Card/UserCard/Snippets/Type2.vue ($id_f81e226e)
 // - /components/Card/UserCard/Type3.vue ($id_e5981a7d)
+// - /components/Card/UserCard/Snippets/Type3.vue ($id_0831fcb6)
 // - /components/Card/UserCard/Type4.vue ($id_64395255)
+// - /components/Card/UserCard/Snippets/Type4.vue ($id_874dfe6a)
 // - /components/Card/UserCard/Type5.vue ($id_fcbfd7af)
+// - /components/Card/UserCard/Snippets/Type5.vue ($id_a4f84abf)
 // - /components/Card/UserCard/Type6.vue ($id_e9e13ad0)
+// - /components/Card/UserCard/Snippets/Type6.vue ($id_c2232a00)
 // - /components/Card/UserCard/Type7.vue ($id_5c0e462a)
+// - /components/Card/UserCard/Snippets/Type7.vue ($id_16a308fb)
 // - /components/Card/UserCard/Type8.vue ($id_d5a96e56)
+// - /components/Card/UserCard/Snippets/Type8.vue ($id_18be2a98)
 // - /components/Card/UserCard/Type9.vue ($id_90990b5e)
+// - /components/Card/UserCard/Snippets/Type9.vue ($id_d7012042)
 // - /pages/card.vue?macro=true ($id_41d6da7a)
 // - /components/Dropdown/Default.vue ($id_c3d83ef0)
 // - /components/Dropdown/Heading.vue ($id_75b558fd)
@@ -3529,18 +3555,31 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
 // - /components/Button/Snippets/Appsmith.vue ($id_1c421991)
 // - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
 // - /components/Card/Cta.vue ($id_fef392b5)
+// - /components/Card/Snippets/Default.vue ($id_08579acc)
 // - /components/Card/Default.vue ($id_27a792e0)
+// - /components/Card/Snippets/Cta.vue ($id_5bb25128)
 // - /components/Card/Link.vue ($id_a60fbbe0)
+// - /components/Card/Snippets/Link.vue ($id_1edc5e9d)
 // - /components/Card/UserCard/DefaultUser.vue ($id_9fd50ff9)
+// - /components/Card/UserCard/Snippets/DefaultUser.vue ($id_deb973b7)
 // - /components/Card/UserCard/Type1.vue ($id_0b67519c)
+// - /components/Card/UserCard/Snippets/Type1.vue ($id_11a7cb07)
 // - /components/Card/UserCard/Type2.vue ($id_43067e4e)
+// - /components/Card/UserCard/Snippets/Type2.vue ($id_f81e226e)
 // - /components/Card/UserCard/Type3.vue ($id_e5981a7d)
+// - /components/Card/UserCard/Snippets/Type3.vue ($id_0831fcb6)
 // - /components/Card/UserCard/Type4.vue ($id_64395255)
+// - /components/Card/UserCard/Snippets/Type4.vue ($id_874dfe6a)
 // - /components/Card/UserCard/Type5.vue ($id_fcbfd7af)
+// - /components/Card/UserCard/Snippets/Type5.vue ($id_a4f84abf)
 // - /components/Card/UserCard/Type6.vue ($id_e9e13ad0)
+// - /components/Card/UserCard/Snippets/Type6.vue ($id_c2232a00)
 // - /components/Card/UserCard/Type7.vue ($id_5c0e462a)
+// - /components/Card/UserCard/Snippets/Type7.vue ($id_16a308fb)
 // - /components/Card/UserCard/Type8.vue ($id_d5a96e56)
+// - /components/Card/UserCard/Snippets/Type8.vue ($id_18be2a98)
 // - /components/Card/UserCard/Type9.vue ($id_90990b5e)
+// - /components/Card/UserCard/Snippets/Type9.vue ($id_d7012042)
 // - /pages/card.vue?macro=true ($id_41d6da7a)
 // - /components/Dropdown/Default.vue ($id_c3d83ef0)
 // - /components/Dropdown/Heading.vue ($id_75b558fd)
@@ -20569,9 +20608,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // Request: /components/Button/Snippets/Default.vue
 // Parents: 
 // - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
-// - /pages/card.vue?macro=true ($id_41d6da7a)
 // - /pages/buttons.vue ($id_e983a7e3)
-// - /pages/card.vue ($id_0473ca70)
 // Dependencies: 
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -22276,19 +22313,31 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // - /components/Utils/ComponentPad.vue ($id_900fca01)
 // - /components/Card/Cta.vue ($id_fef392b5)
 // - /components/Utils/CopyButton.vue ($id_07dc553f)
-// - /components/Button/Snippets/Default.vue ($id_b4af2396)
+// - /components/Card/Snippets/Default.vue ($id_08579acc)
 // - /components/Card/Default.vue ($id_27a792e0)
+// - /components/Card/Snippets/Cta.vue ($id_5bb25128)
 // - /components/Card/Link.vue ($id_a60fbbe0)
+// - /components/Card/Snippets/Link.vue ($id_1edc5e9d)
 // - /components/Card/UserCard/DefaultUser.vue ($id_9fd50ff9)
+// - /components/Card/UserCard/Snippets/DefaultUser.vue ($id_deb973b7)
 // - /components/Card/UserCard/Type1.vue ($id_0b67519c)
+// - /components/Card/UserCard/Snippets/Type1.vue ($id_11a7cb07)
 // - /components/Card/UserCard/Type2.vue ($id_43067e4e)
+// - /components/Card/UserCard/Snippets/Type2.vue ($id_f81e226e)
 // - /components/Card/UserCard/Type3.vue ($id_e5981a7d)
+// - /components/Card/UserCard/Snippets/Type3.vue ($id_0831fcb6)
 // - /components/Card/UserCard/Type4.vue ($id_64395255)
+// - /components/Card/UserCard/Snippets/Type4.vue ($id_874dfe6a)
 // - /components/Card/UserCard/Type5.vue ($id_fcbfd7af)
+// - /components/Card/UserCard/Snippets/Type5.vue ($id_a4f84abf)
 // - /components/Card/UserCard/Type6.vue ($id_e9e13ad0)
+// - /components/Card/UserCard/Snippets/Type6.vue ($id_c2232a00)
 // - /components/Card/UserCard/Type7.vue ($id_5c0e462a)
+// - /components/Card/UserCard/Snippets/Type7.vue ($id_16a308fb)
 // - /components/Card/UserCard/Type8.vue ($id_d5a96e56)
+// - /components/Card/UserCard/Snippets/Type8.vue ($id_18be2a98)
 // - /components/Card/UserCard/Type9.vue ($id_90990b5e)
+// - /components/Card/UserCard/Snippets/Type9.vue ($id_d7012042)
 // - /components/Alert/AlertInfo.vue ($id_df465372)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -22312,61 +22361,88 @@ const __vite_ssr_import_6__ = await __vite_ssr_import__("/components/Card/Cta.vu
 
 const __vite_ssr_import_7__ = await __vite_ssr_import__("/components/Utils/CopyButton.vue");
 
-const __vite_ssr_import_8__ = await __vite_ssr_import__("/components/Button/Snippets/Default.vue");
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/components/Card/Snippets/Default.vue");
 
 const __vite_ssr_import_9__ = await __vite_ssr_import__("/components/Card/Default.vue");
 
-const __vite_ssr_import_10__ = await __vite_ssr_import__("/components/Card/Link.vue");
+const __vite_ssr_import_10__ = await __vite_ssr_import__("/components/Card/Snippets/Cta.vue");
 
-const __vite_ssr_import_11__ = await __vite_ssr_import__("/components/Card/UserCard/DefaultUser.vue");
+const __vite_ssr_import_11__ = await __vite_ssr_import__("/components/Card/Link.vue");
 
-const __vite_ssr_import_12__ = await __vite_ssr_import__("/components/Card/UserCard/Type1.vue");
+const __vite_ssr_import_12__ = await __vite_ssr_import__("/components/Card/Snippets/Link.vue");
 
-const __vite_ssr_import_13__ = await __vite_ssr_import__("/components/Card/UserCard/Type2.vue");
+const __vite_ssr_import_13__ = await __vite_ssr_import__("/components/Card/UserCard/DefaultUser.vue");
 
-const __vite_ssr_import_14__ = await __vite_ssr_import__("/components/Card/UserCard/Type3.vue");
+const __vite_ssr_import_14__ = await __vite_ssr_import__("/components/Card/UserCard/Snippets/DefaultUser.vue");
 
-const __vite_ssr_import_15__ = await __vite_ssr_import__("/components/Card/UserCard/Type4.vue");
+const __vite_ssr_import_15__ = await __vite_ssr_import__("/components/Card/UserCard/Type1.vue");
 
-const __vite_ssr_import_16__ = await __vite_ssr_import__("/components/Card/UserCard/Type5.vue");
+const __vite_ssr_import_16__ = await __vite_ssr_import__("/components/Card/UserCard/Snippets/Type1.vue");
 
-const __vite_ssr_import_17__ = await __vite_ssr_import__("/components/Card/UserCard/Type6.vue");
+const __vite_ssr_import_17__ = await __vite_ssr_import__("/components/Card/UserCard/Type2.vue");
 
-const __vite_ssr_import_18__ = await __vite_ssr_import__("/components/Card/UserCard/Type7.vue");
+const __vite_ssr_import_18__ = await __vite_ssr_import__("/components/Card/UserCard/Snippets/Type2.vue");
 
-const __vite_ssr_import_19__ = await __vite_ssr_import__("/components/Card/UserCard/Type8.vue");
+const __vite_ssr_import_19__ = await __vite_ssr_import__("/components/Card/UserCard/Type3.vue");
 
-const __vite_ssr_import_20__ = await __vite_ssr_import__("/components/Card/UserCard/Type9.vue");
+const __vite_ssr_import_20__ = await __vite_ssr_import__("/components/Card/UserCard/Snippets/Type3.vue");
+
+const __vite_ssr_import_21__ = await __vite_ssr_import__("/components/Card/UserCard/Type4.vue");
+
+const __vite_ssr_import_22__ = await __vite_ssr_import__("/components/Card/UserCard/Snippets/Type4.vue");
+
+const __vite_ssr_import_23__ = await __vite_ssr_import__("/components/Card/UserCard/Type5.vue");
+
+const __vite_ssr_import_24__ = await __vite_ssr_import__("/components/Card/UserCard/Snippets/Type5.vue");
+
+const __vite_ssr_import_25__ = await __vite_ssr_import__("/components/Card/UserCard/Type6.vue");
+
+const __vite_ssr_import_26__ = await __vite_ssr_import__("/components/Card/UserCard/Snippets/Type6.vue");
+
+const __vite_ssr_import_27__ = await __vite_ssr_import__("/components/Card/UserCard/Type7.vue");
+
+const __vite_ssr_import_28__ = await __vite_ssr_import__("/components/Card/UserCard/Snippets/Type7.vue");
+
+const __vite_ssr_import_29__ = await __vite_ssr_import__("/components/Card/UserCard/Type8.vue");
+
+const __vite_ssr_import_30__ = await __vite_ssr_import__("/components/Card/UserCard/Snippets/Type8.vue");
+
+const __vite_ssr_import_31__ = await __vite_ssr_import__("/components/Card/UserCard/Type9.vue");
+
+const __vite_ssr_import_32__ = await __vite_ssr_import__("/components/Card/UserCard/Snippets/Type9.vue");
 
 
-const __vite_ssr_import_21__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
+const __vite_ssr_import_33__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
 
-const __vite_ssr_import_22__ = await __vite_ssr_import__("/components/Alert/AlertInfo.vue");
+const __vite_ssr_import_34__ = await __vite_ssr_import__("/components/Alert/AlertInfo.vue");
 
-const __vite_ssr_import_23__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
+const __vite_ssr_import_35__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
 
 const _sfc_main = {
   metaInfo: {
     title: "Alerts",
   },
   components: {
-    AlertInfo: __vite_ssr_import_22__.default,
-    Heading: __vite_ssr_import_23__.default,
-    SubHeading: __vite_ssr_import_21__.default,
+    AlertInfo: __vite_ssr_import_34__.default,
+    Heading: __vite_ssr_import_35__.default,
+    SubHeading: __vite_ssr_import_33__.default,
 },
   data() {
     return {
       layout: "custom",
- default_btn: false,
-      outline_btn: false,
-      statecolor_btn: false,
-      size_btn: false,
-      dual_icon_btn: false,
-      light_color_btn: false,
-      dark_color_btn: false,
-      gradient_btn: false,
-      colored_shadow_btn: false,
-      appsmith_btn: false,  
+ default_card: false,
+      cta_card: false,
+      link_card: false,
+      default_user_card: false,
+      user_card1: false,
+      user_card2: false,
+      user_card3: false,
+      user_card4: false,
+      user_card5: false,
+      user_card6: false,
+      user_card7: false,
+      user_card8: false,
+      user_card9: false,
       // SCROLL
       activeScrollSection: "",
       sample: "",
@@ -22389,9 +22465,9 @@ const _sfc_main = {
   },
 };
 
-const __vite_ssr_import_24__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_36__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_25__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+const __vite_ssr_import_37__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
@@ -22403,22 +22479,34 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   const _component_UtilsComponentPad = __vite_ssr_import_5__.default
   const _component_CardCta = __vite_ssr_import_6__.default
   const _component_UtilsCopyButton = __vite_ssr_import_7__.default
-  const _component_ButtonSnippetsDefault = __vite_ssr_import_8__.default
+  const _component_CardSnippetsDefault = __vite_ssr_import_8__.default
   const _component_CardDefault = __vite_ssr_import_9__.default
-  const _component_CardLink = __vite_ssr_import_10__.default
-  const _component_CardUserCardDefaultUser = __vite_ssr_import_11__.default
-  const _component_CardUserCardType1 = __vite_ssr_import_12__.default
-  const _component_CardUserCardType2 = __vite_ssr_import_13__.default
-  const _component_CardUserCardType3 = __vite_ssr_import_14__.default
-  const _component_CardUserCardType4 = __vite_ssr_import_15__.default
-  const _component_CardUserCardType5 = __vite_ssr_import_16__.default
-  const _component_CardUserCardType6 = __vite_ssr_import_17__.default
-  const _component_CardUserCardType7 = __vite_ssr_import_18__.default
-  const _component_CardUserCardType8 = __vite_ssr_import_19__.default
-  const _component_CardUserCardType9 = __vite_ssr_import_20__.default
+  const _component_CardSnippetsCta = __vite_ssr_import_10__.default
+  const _component_CardLink = __vite_ssr_import_11__.default
+  const _component_CardSnippetsLink = __vite_ssr_import_12__.default
+  const _component_CardUserCardDefaultUser = __vite_ssr_import_13__.default
+  const _component_CardUserCardSnippetsDefaultUser = __vite_ssr_import_14__.default
+  const _component_CardUserCardType1 = __vite_ssr_import_15__.default
+  const _component_CardUserCardSnippetsType1 = __vite_ssr_import_16__.default
+  const _component_CardUserCardType2 = __vite_ssr_import_17__.default
+  const _component_CardUserCardSnippetsType2 = __vite_ssr_import_18__.default
+  const _component_CardUserCardType3 = __vite_ssr_import_19__.default
+  const _component_CardUserCardSnippetsType3 = __vite_ssr_import_20__.default
+  const _component_CardUserCardType4 = __vite_ssr_import_21__.default
+  const _component_CardUserCardSnippetsType4 = __vite_ssr_import_22__.default
+  const _component_CardUserCardType5 = __vite_ssr_import_23__.default
+  const _component_CardUserCardSnippetsType5 = __vite_ssr_import_24__.default
+  const _component_CardUserCardType6 = __vite_ssr_import_25__.default
+  const _component_CardUserCardSnippetsType6 = __vite_ssr_import_26__.default
+  const _component_CardUserCardType7 = __vite_ssr_import_27__.default
+  const _component_CardUserCardSnippetsType7 = __vite_ssr_import_28__.default
+  const _component_CardUserCardType8 = __vite_ssr_import_29__.default
+  const _component_CardUserCardSnippetsType8 = __vite_ssr_import_30__.default
+  const _component_CardUserCardType9 = __vite_ssr_import_31__.default
+  const _component_CardUserCardSnippetsType9 = __vite_ssr_import_32__.default
 
-  _push(__vite_ssr_import_25__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_24__.mergeProps({ name: $data.layout }, _attrs), {
-    default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+  _push(__vite_ssr_import_37__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_36__.mergeProps({ name: $data.layout }, _attrs), {
+    default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
         _push(`<div class="flex p-4"${
           _scopeId
@@ -22427,13 +22515,13 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }><div class="overflow-y-auto w-full px-4 pb-20" id="alertContainer"${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersHeading, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersHeading, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(` Button `)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode(" Button ")
+                __vite_ssr_import_36__.createTextVNode(" Button ")
               ]
             }
           }),
@@ -22443,60 +22531,60 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><p class="text-base"${
           _scopeId
-        }> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? </p></div><!-- Default Button --><section id="defaultButton" class="w-full"${
+        }> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? </p></div><!-- Default card --><section id="defaultCard" class="w-full"${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`Default`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("Default")
+                __vite_ssr_import_36__.createTextVNode("Default")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.default_card) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.default_card = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.default_card = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.default_card)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.default_card = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.default_card = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardCta, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardCta, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardCta)
+                __vite_ssr_import_36__.createVNode(_component_CardCta)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.default_card) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -22506,63 +22594,63 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultCard'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultCard" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End default Card --><!-- Cta Button --><section id="defaultButton" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardSnippetsDefault, { id: "defaultCard" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End default Card --><!-- Cta Button --><section id="cardWithCta" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`CTA`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("CTA")
+                __vite_ssr_import_36__.createTextVNode("CTA")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.cta_card) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.cta_card = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.cta_card = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.cta_card)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.cta_card = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.cta_card = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardDefault, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardDefault, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardDefault)
+                __vite_ssr_import_36__.createVNode(_component_CardDefault)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.cta_card) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -22572,63 +22660,63 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultCta'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultCta" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End Cta Card --><!-- Link Button --><section id="defaultButton" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardSnippetsCta, { id: "defaultCta" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Cta Card --><!-- Link Button --><section id="cardWithLink" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`Link`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("Link")
+                __vite_ssr_import_36__.createTextVNode("Link")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.link_card) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.link_card = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.link_card = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.link_card)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.link_card = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.link_card = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardLink, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardLink, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardLink)
+                __vite_ssr_import_36__.createVNode(_component_CardLink)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.link_card) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -22638,63 +22726,63 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultLink'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultLink" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End Link Card --><!-- DefaultUser Button --><section id="defaultButton" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardSnippetsLink, { id: "defaultLink" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Link Card --><!-- DefaultUser Button --><section id="defaultUserCard" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`Default User`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("Default User")
+                __vite_ssr_import_36__.createTextVNode("Default User")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.default_user_card) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.default_user_card = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.default_user_card = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.default_user_card)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.default_user_card = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.default_user_card = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardUserCardDefaultUser, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardDefaultUser, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardUserCardDefaultUser)
+                __vite_ssr_import_36__.createVNode(_component_CardUserCardDefaultUser)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.default_user_card) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -22704,64 +22792,64 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultDefaultUser'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultDefaultUser" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End DefaultUser Card --><!-- Type1 Button --><section id="defaultButton" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardSnippetsDefaultUser, { id: "defaultDefaultUser" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End DefaultUser Card --><!-- Type1 Button --><section id="type1" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`User card <span class="font-normal text-gray-400"${_scopeId}>type 1</span>`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("User card "),
-                __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 1")
+                __vite_ssr_import_36__.createTextVNode("User card "),
+                __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 1")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.user_card1) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.user_card1 = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.user_card1 = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.user_card1)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.user_card1 = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.user_card1 = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardUserCardType1, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardType1, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardUserCardType1)
+                __vite_ssr_import_36__.createVNode(_component_CardUserCardType1)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.user_card1) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -22771,64 +22859,64 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultType1'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultType1" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End Type1 Card --><!-- Type2 Button --><section id="defaultButton" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardSnippetsType1, { id: "defaultType1" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Type1 Card --><!-- Type2 Button --><section id="type2" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`User card <span class="font-normal text-gray-400"${_scopeId}>type 2</span>`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("User card "),
-                __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 2")
+                __vite_ssr_import_36__.createTextVNode("User card "),
+                __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 2")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.user_card2) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.user_card2 = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.user_card2 = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.user_card2)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.user_card2 = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.user_card2 = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardUserCardType2, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardType2, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardUserCardType2)
+                __vite_ssr_import_36__.createVNode(_component_CardUserCardType2)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.user_card2) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -22838,64 +22926,64 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultType2'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultType2" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End Type2 Card --><!-- Type3 Button --><section id="defaultButton" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardSnippetsType2, { id: "defaultType2" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Type2 Card --><!-- Type3 Button --><section id="type3" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`User card <span class="font-normal text-gray-400"${_scopeId}>type 3</span>`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("User card "),
-                __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 3")
+                __vite_ssr_import_36__.createTextVNode("User card "),
+                __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 3")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.user_card3) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.user_card3 = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.user_card3 = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.user_card3)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.user_card3 = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.user_card3 = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardUserCardType3, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardType3, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardUserCardType3)
+                __vite_ssr_import_36__.createVNode(_component_CardUserCardType3)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.user_card3) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -22905,64 +22993,64 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultType3'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultType3" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End Type3 Card --><!-- Type4 Button --><section id="defaultButton" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardSnippetsType3, { id: "defaultType3" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Type3 Card --><!-- Type4 Button --><section id="type4" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`User card <span class="font-normal text-gray-400"${_scopeId}>type 4</span>`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("User card "),
-                __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 4")
+                __vite_ssr_import_36__.createTextVNode("User card "),
+                __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 4")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.user_card4) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.user_card4 = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.user_card4 = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.user_card4)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.user_card4 = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.user_card4 = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardUserCardType4, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardType4, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardUserCardType4)
+                __vite_ssr_import_36__.createVNode(_component_CardUserCardType4)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.user_card4) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -22972,64 +23060,64 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultType4'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultType4" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End Type4 Card --><!-- Type5 Button --><section id="defaultButton" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardSnippetsType4, { id: "defaultType4" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Type4 Card --><!-- Type5 Button --><section id="type5" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`User card <span class="font-normal text-gray-400"${_scopeId}>type 5</span>`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("User card "),
-                __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 5")
+                __vite_ssr_import_36__.createTextVNode("User card "),
+                __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 5")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.user_card5) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.user_card5 = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.user_card5 = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.user_card5)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.user_card5 = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.user_card5 = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardUserCardType5, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardType5, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardUserCardType5)
+                __vite_ssr_import_36__.createVNode(_component_CardUserCardType5)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.user_card5) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -23039,64 +23127,64 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultType5'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultType5" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End Type5 Card --><!-- Type6 Button --><section id="defaultButton" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardSnippetsType5, { id: "defaultType5" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Type5 Card --><!-- Type6 Button --><section id="type6" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`User card <span class="font-normal text-gray-400"${_scopeId}>type 6</span>`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("User card "),
-                __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 6")
+                __vite_ssr_import_36__.createTextVNode("User card "),
+                __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 6")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.user_card6) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.user_card6 = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.user_card6 = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.user_card6)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.user_card6 = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.user_card6 = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardUserCardType6, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardType6, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardUserCardType6)
+                __vite_ssr_import_36__.createVNode(_component_CardUserCardType6)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.user_card6) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -23106,64 +23194,64 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultType6'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultType6" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End Type6 Card --><!-- Type7 Button --><section id="defaultButton" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardSnippetsType6, { id: "defaultType6" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Type6 Card --><!-- Type7 Button --><section id="type7" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`User card <span class="font-normal text-gray-400"${_scopeId}>type 7</span>`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("User card "),
-                __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 7")
+                __vite_ssr_import_36__.createTextVNode("User card "),
+                __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 7")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.user_card7) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.user_card7 = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.user_card7 = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.user_card7)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.user_card7 = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.user_card7 = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardUserCardType7, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardType7, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardUserCardType7)
+                __vite_ssr_import_36__.createVNode(_component_CardUserCardType7)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.user_card7) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -23173,64 +23261,64 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultType7'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultType7" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End Type7 Card --><!-- Type8 Button --><section id="defaultButton" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardSnippetsType7, { id: "defaultType7" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Type7 Card --><!-- Type8 Button --><section id="type8" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`User card <span class="font-normal text-gray-400"${_scopeId}>type 8</span>`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("User card "),
-                __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 8")
+                __vite_ssr_import_36__.createTextVNode("User card "),
+                __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 8")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.user_card8) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.user_card8 = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.user_card8 = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.user_card8)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.user_card8 = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.user_card8 = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardUserCardType8, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardType8, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardUserCardType8)
+                __vite_ssr_import_36__.createVNode(_component_CardUserCardType8)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.user_card8) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -23240,64 +23328,64 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultType8'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultType8" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End Type8 Card --><!-- Type9 Button --><section id="defaultButton" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardSnippetsType8, { id: "defaultType8" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Type8 Card --><!-- Type9 Button --><section id="type9" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`User card <span class="font-normal text-gray-400"${_scopeId}>type 9</span>`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("User card "),
-                __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 9")
+                __vite_ssr_import_36__.createTextVNode("User card "),
+                __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 9")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.user_card9) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.user_card9 = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.user_card9 = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.user_card9)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.user_card9 = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.user_card9 = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardUserCardType9, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardType9, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardUserCardType9)
+                __vite_ssr_import_36__.createVNode(_component_CardUserCardType9)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.user_card9) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -23307,11 +23395,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultType9'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultType9" }, null, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardSnippetsType9, { id: "defaultType9" }, null, _parent, _scopeId))
         _push(`</div><!-- code snippet end --></section><!-- End Type9 Card --></div></div><!-- right sidebar --><div class="hidden lg:block"${
           _scopeId
         }><div class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2"${
@@ -23351,766 +23439,766 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> Type 9 </button></div></div></div></div></div>`)
       } else {
         return [
-          __vite_ssr_import_24__.createVNode("div", { class: "flex p-4" }, [
-            __vite_ssr_import_24__.createCommentVNode(" content "),
-            __vite_ssr_import_24__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
-              __vite_ssr_import_24__.createVNode("div", {
+          __vite_ssr_import_36__.createVNode("div", { class: "flex p-4" }, [
+            __vite_ssr_import_36__.createCommentVNode(" content "),
+            __vite_ssr_import_36__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
+              __vite_ssr_import_36__.createVNode("div", {
                 class: "overflow-y-auto w-full px-4 pb-20",
                 id: "alertContainer"
               }, [
-                __vite_ssr_import_24__.createVNode(_component_HeadersHeading, null, {
-                  default: __vite_ssr_import_24__.withCtx(() => [
-                    __vite_ssr_import_24__.createTextVNode(" Button ")
+                __vite_ssr_import_36__.createVNode(_component_HeadersHeading, null, {
+                  default: __vite_ssr_import_36__.withCtx(() => [
+                    __vite_ssr_import_36__.createTextVNode(" Button ")
                   ]),
                   _: 1 /* STABLE */
                 }),
-                __vite_ssr_import_24__.createVNode("div", null, [
-                  __vite_ssr_import_24__.createVNode("p", { class: "text-base" }, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? ")
+                __vite_ssr_import_36__.createVNode("div", null, [
+                  __vite_ssr_import_36__.createVNode("p", { class: "text-base" }, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" Default Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" Default card "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "defaultCard",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("Default")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Default")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.default_card)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.default_card = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.default_card = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardCta)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardCta)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultCard'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultCard" })
+                        __vite_ssr_import_36__.createVNode(_component_CardSnippetsDefault, { id: "defaultCard" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.default_card]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End default Card "),
-                __vite_ssr_import_24__.createCommentVNode(" Cta Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" End default Card "),
+                __vite_ssr_import_36__.createCommentVNode(" Cta Button "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "cardWithCta",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("CTA")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("CTA")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.cta_card)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.cta_card = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.cta_card = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardDefault)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardDefault)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultCta'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultCta" })
+                        __vite_ssr_import_36__.createVNode(_component_CardSnippetsCta, { id: "defaultCta" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.cta_card]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End Cta Card "),
-                __vite_ssr_import_24__.createCommentVNode(" Link Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" End Cta Card "),
+                __vite_ssr_import_36__.createCommentVNode(" Link Button "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "cardWithLink",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("Link")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Link")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.link_card)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.link_card = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.link_card = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardLink)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardLink)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultLink'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultLink" })
+                        __vite_ssr_import_36__.createVNode(_component_CardSnippetsLink, { id: "defaultLink" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.link_card]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End Link Card "),
-                __vite_ssr_import_24__.createCommentVNode(" DefaultUser Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" End Link Card "),
+                __vite_ssr_import_36__.createCommentVNode(" DefaultUser Button "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "defaultUserCard",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("Default User")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Default User")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.default_user_card)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.default_user_card = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.default_user_card = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardUserCardDefaultUser)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardUserCardDefaultUser)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultDefaultUser'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultDefaultUser" })
+                        __vite_ssr_import_36__.createVNode(_component_CardUserCardSnippetsDefaultUser, { id: "defaultDefaultUser" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.default_user_card]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End DefaultUser Card "),
-                __vite_ssr_import_24__.createCommentVNode(" Type1 Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" End DefaultUser Card "),
+                __vite_ssr_import_36__.createCommentVNode(" Type1 Button "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "type1",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("User card "),
-                      __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 1")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("User card "),
+                      __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 1")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.user_card1)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.user_card1 = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.user_card1 = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardUserCardType1)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardUserCardType1)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultType1'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultType1" })
+                        __vite_ssr_import_36__.createVNode(_component_CardUserCardSnippetsType1, { id: "defaultType1" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.user_card1]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End Type1 Card "),
-                __vite_ssr_import_24__.createCommentVNode(" Type2 Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" End Type1 Card "),
+                __vite_ssr_import_36__.createCommentVNode(" Type2 Button "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "type2",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("User card "),
-                      __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 2")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("User card "),
+                      __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 2")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.user_card2)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.user_card2 = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.user_card2 = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardUserCardType2)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardUserCardType2)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultType2'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultType2" })
+                        __vite_ssr_import_36__.createVNode(_component_CardUserCardSnippetsType2, { id: "defaultType2" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.user_card2]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End Type2 Card "),
-                __vite_ssr_import_24__.createCommentVNode(" Type3 Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" End Type2 Card "),
+                __vite_ssr_import_36__.createCommentVNode(" Type3 Button "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "type3",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("User card "),
-                      __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 3")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("User card "),
+                      __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 3")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.user_card3)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.user_card3 = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.user_card3 = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardUserCardType3)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardUserCardType3)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultType3'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultType3" })
+                        __vite_ssr_import_36__.createVNode(_component_CardUserCardSnippetsType3, { id: "defaultType3" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.user_card3]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End Type3 Card "),
-                __vite_ssr_import_24__.createCommentVNode(" Type4 Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" End Type3 Card "),
+                __vite_ssr_import_36__.createCommentVNode(" Type4 Button "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "type4",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("User card "),
-                      __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 4")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("User card "),
+                      __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 4")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.user_card4)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.user_card4 = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.user_card4 = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardUserCardType4)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardUserCardType4)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultType4'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultType4" })
+                        __vite_ssr_import_36__.createVNode(_component_CardUserCardSnippetsType4, { id: "defaultType4" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.user_card4]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End Type4 Card "),
-                __vite_ssr_import_24__.createCommentVNode(" Type5 Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" End Type4 Card "),
+                __vite_ssr_import_36__.createCommentVNode(" Type5 Button "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "type5",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("User card "),
-                      __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 5")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("User card "),
+                      __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 5")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.user_card5)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.user_card5 = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.user_card5 = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardUserCardType5)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardUserCardType5)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultType5'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultType5" })
+                        __vite_ssr_import_36__.createVNode(_component_CardUserCardSnippetsType5, { id: "defaultType5" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.user_card5]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End Type5 Card "),
-                __vite_ssr_import_24__.createCommentVNode(" Type6 Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" End Type5 Card "),
+                __vite_ssr_import_36__.createCommentVNode(" Type6 Button "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "type6",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("User card "),
-                      __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 6")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("User card "),
+                      __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 6")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.user_card6)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.user_card6 = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.user_card6 = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardUserCardType6)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardUserCardType6)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultType6'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultType6" })
+                        __vite_ssr_import_36__.createVNode(_component_CardUserCardSnippetsType6, { id: "defaultType6" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.user_card6]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End Type6 Card "),
-                __vite_ssr_import_24__.createCommentVNode(" Type7 Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" End Type6 Card "),
+                __vite_ssr_import_36__.createCommentVNode(" Type7 Button "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "type7",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("User card "),
-                      __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 7")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("User card "),
+                      __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 7")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.user_card7)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.user_card7 = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.user_card7 = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardUserCardType7)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardUserCardType7)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultType7'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultType7" })
+                        __vite_ssr_import_36__.createVNode(_component_CardUserCardSnippetsType7, { id: "defaultType7" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.user_card7]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End Type7 Card "),
-                __vite_ssr_import_24__.createCommentVNode(" Type8 Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" End Type7 Card "),
+                __vite_ssr_import_36__.createCommentVNode(" Type8 Button "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "type8",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("User card "),
-                      __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 8")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("User card "),
+                      __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 8")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.user_card8)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.user_card8 = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.user_card8 = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardUserCardType8)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardUserCardType8)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultType8'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultType8" })
+                        __vite_ssr_import_36__.createVNode(_component_CardUserCardSnippetsType8, { id: "defaultType8" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.user_card8]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End Type8 Card "),
-                __vite_ssr_import_24__.createCommentVNode(" Type9 Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" End Type8 Card "),
+                __vite_ssr_import_36__.createCommentVNode(" Type9 Button "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "type9",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("User card "),
-                      __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 9")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("User card "),
+                      __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 9")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.user_card9)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.user_card9 = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.user_card9 = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardUserCardType9)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardUserCardType9)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultType9'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultType9" })
+                        __vite_ssr_import_36__.createVNode(_component_CardUserCardSnippetsType9, { id: "defaultType9" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.user_card9]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End Type9 Card ")
+                __vite_ssr_import_36__.createCommentVNode(" End Type9 Card ")
               ])
             ]),
-            __vite_ssr_import_24__.createCommentVNode(" right sidebar "),
-            __vite_ssr_import_24__.createVNode("div", { class: "hidden lg:block" }, [
-              __vite_ssr_import_24__.createVNode("div", { class: "w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2" }, [
-                __vite_ssr_import_24__.createVNode("div", { class: "overflow-y-auto" }, [
-                  __vite_ssr_import_24__.createCommentVNode(" <AlertInfo /> "),
-                  __vite_ssr_import_24__.createVNode("div", { class: "flex flex-col justify-start items-end space-y-2" }, [
-                    __vite_ssr_import_24__.createVNode("p", { class: "text-normal font-bold" }, "On This Page"),
-                    __vite_ssr_import_24__.createVNode("button", {
+            __vite_ssr_import_36__.createCommentVNode(" right sidebar "),
+            __vite_ssr_import_36__.createVNode("div", { class: "hidden lg:block" }, [
+              __vite_ssr_import_36__.createVNode("div", { class: "w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2" }, [
+                __vite_ssr_import_36__.createVNode("div", { class: "overflow-y-auto" }, [
+                  __vite_ssr_import_36__.createCommentVNode(" <AlertInfo /> "),
+                  __vite_ssr_import_36__.createVNode("div", { class: "flex flex-col justify-start items-end space-y-2" }, [
+                    __vite_ssr_import_36__.createVNode("p", { class: "text-normal font-bold" }, "On This Page"),
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('defaultCard'))
                     }, " Card ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_24__.createVNode("button", {
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('cardWithCta'))
                     }, " CTA ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_24__.createVNode("button", {
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('cardWithLink'))
                     }, " Link ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_24__.createVNode("button", {
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('defaultUserCard'))
                     }, " User Card ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_24__.createVNode("button", {
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('type1'))
                     }, " Type 1 ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_24__.createVNode("button", {
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('type2'))
                     }, " Type 2 ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_24__.createVNode("button", {
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('type3'))
                     }, " Type 3 ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_24__.createVNode("button", {
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('type4'))
                     }, " Type 4 ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_24__.createVNode("button", {
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('type5'))
                     }, " Type 5 ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_24__.createVNode("button", {
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('type6'))
                     }, " Type 6 ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_24__.createVNode("button", {
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('type7'))
                     }, " Type 7 ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_24__.createVNode("button", {
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('type8'))
                     }, " Type 8 ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_24__.createVNode("button", {
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('type9'))
                     }, " Type 9 ", 8 /* PROPS */, ["onClick"])
                   ])
@@ -24125,20 +24213,20 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   }, _parent))
 }
 
-const __vite_ssr_import_26__ = await __vite_ssr_import__("/pages/card.vue?vue&type=style&index=0&lang.css");
+const __vite_ssr_import_38__ = await __vite_ssr_import__("/pages/card.vue?vue&type=style&index=0&lang.css");
 
 
-const __vite_ssr_import_27__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_39__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_27__.useSSRContext()
+  const ssrContext = __vite_ssr_import_39__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/card.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_28__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_40__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_28__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/card.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/card.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -24245,6 +24333,86 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 
 
 // --------------------
+// Request: /components/Card/Snippets/Default.vue
+// Parents: 
+// - /pages/card.vue?macro=true ($id_41d6da7a)
+// - /pages/card.vue ($id_0473ca70)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_08579acc = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+<!-- Code for Type 1 Default Card -->
+<div class="flex w-full items-center justify-center space-x-6">
+  <div class="w-64 rounded-lg bg-gray-100 p-6 text-gray-700 shadow-lg hover:shadow-none">
+    <div class="flex w-full flex-col">
+      <div class="text-2xl font-semibold">Default card title</div>
+      <div class="py-4 text-sm font-semibold">Type 1</div>
+      <div class="mt-2 text-sm"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, consequuntur suscipit nesciunt laudantium eius veritatis at facere soluta mollitia velit.</p></div>
+    </div>
+  </div>
+</div>
+<!-- Code for Type 2 Default Card -->
+<div class="flex w-full items-center justify-center space-x-6">
+  <div class="w-64 rounded-lg p-6 text-gray-700 dark:text-gray-500 border border-gray-700 dark:border-gray-500 shadow-lg hover:shadow-none">
+    <div class="flex w-full flex-col">
+      <div class="text-2xl font-semibold">Default card title</div>
+      <div class="py-4 text-sm font-semibold">Type 2</div>
+      <div class="mt-2 text-sm"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, consequuntur suscipit nesciunt laudantium eius veritatis at facere soluta mollitia velit.</p></div>
+    </div>
+  </div>
+</div>
+<!-- Code for Type 3 Default Card -->
+<div class="flex w-full items-center justify-center space-x-6">
+  <div class="w-64 rounded-lg p-6 text-gray-100 bg-gray-700 border border-gray-700 shadow-lg hover:text-gray-200 hover:bg-gray-800 hover:shadow-none">
+    <div class="flex w-full flex-col">
+      <div class="text-2xl font-semibold">Default card title</div>
+      <div class="py-4 text-sm font-semibold">Type 2</div>
+      <div class="mt-2 text-sm"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, consequuntur suscipit nesciunt laudantium eius veritatis at facere soluta mollitia velit.</p></div>
+    </div>
+  </div>
+</div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Card/Snippets/Default.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/Snippets/Default.vue"]]);
+}
+
+
+// --------------------
 // Request: /components/Card/Default.vue
 // Parents: 
 // - /pages/card.vue?macro=true ($id_41d6da7a)
@@ -24334,6 +24502,83 @@ _sfc_main.setup = (props, ctx) => {
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
 __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/Default.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Card/Snippets/Cta.vue
+// Parents: 
+// - /pages/card.vue?macro=true ($id_41d6da7a)
+// - /pages/card.vue ($id_0473ca70)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_5bb25128 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+<!-- Code for Type 1 card with CTA -->
+<div class="w-64 rounded-lg bg-gray-100 p-6 text-gray-700 shadow-lg hover:shadow-none">
+  <div class="flex w-full flex-col">
+    <div class="text-2xl font-semibold">Default card title</div>
+    <div class="py-4 text-sm font-semibold">Type 1</div>
+    <div class="mt-2 text-sm"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores.</p></div>
+    <div><button class="mt-6 rounded-md bg-gray-700 px-5 py-2 text-sm font-medium text-gray-100">Button</button></div>
+  </div>
+</div>
+<!-- Code for Type 2 card with CTA -->
+<div class="w-64 rounded-lg border border-gray-700 dark:border-gray-500 p-6 text-gray-700 dark:text-gray-500 hover:shadow-none">
+  <div class="flex w-full flex-col">
+    <div class="text-2xl font-semibold">Default card title</div>
+    <div class="py-4 text-sm font-semibold">Type 2</div>
+    <div class="mt-2 text-sm"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores.</p></div>
+    <div><button class="mt-6 rounded-md border border-gray-700 dark:border-gray-500 px-5 py-2 text-sm font-medium text-gray-700 dark:text-gray-500">Button</button></div>
+  </div>
+</div>
+<!-- Code for Type 3 card with CTA -->
+<div class="w-64 rounded-lg bg-gray-700 p-6 text-gray-100 shadow-lg hover:bg-gray-800 hover:text-gray-200 hover:shadow-none">
+  <div class="flex w-full flex-col">
+    <div class="text-2xl font-semibold">Default card title</div>
+    <div class="py-4 text-sm font-semibold">Type 3</div>
+    <div class="mt-2 text-sm"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores.</p></div>
+    <div><button class="mt-6 rounded-md bg-gray-100 px-5 py-2 text-sm font-medium text-gray-700">Button</button></div>
+  </div>
+</div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Card/Snippets/Cta.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/Snippets/Cta.vue"]]);
 }
 
 
@@ -24455,6 +24700,101 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 
 
 // --------------------
+// Request: /components/Card/Snippets/Link.vue
+// Parents: 
+// - /pages/card.vue?macro=true ($id_41d6da7a)
+// - /pages/card.vue ($id_0473ca70)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_1edc5e9d = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+<!-- Code for Type 1 Card with link -->
+<div class="w-64 rounded-lg bg-gray-100 p-6 text-gray-700 shadow-lg hover:shadow-none">
+  <div class="flex w-full flex-col">
+    <div class="text-2xl font-semibold">Default card title</div>
+    <div class="py-4 text-sm font-semibold">Type 1</div>
+    <div class="mt-2 text-sm">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores.</p>
+      <div class="text-sky-500"><a href="#">Card link</a></div>
+    </div>
+    <div class="mt-6 flex items-center space-x-2">
+      <div><button class="rounded-md bg-gray-700 px-5 py-2 text-sm font-medium text-gray-100">Button</button></div>
+      <a href="#" class="text-sm text-sky-500">Another link</a>
+    </div>
+  </div>
+</div>
+<!-- Code for Type 2 Card with link -->
+<div class="w-64 rounded-lg border border-gray-700 p-6 text-gray-700 hover:shadow-none dark:text-gray-500">
+  <div class="flex w-full flex-col">
+    <div class="text-2xl font-semibold">Default card title</div>
+    <div class="py-4 text-sm font-semibold">Type 2</div>
+    <div class="mt-2 text-sm">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores.</p>
+      <div class="text-sky-500"><a href="#">Card link</a></div>
+    </div>
+    <div class="mt-6 flex items-center space-x-2">
+      <div><button class="rounded-md border border-gray-700 px-5 py-2 text-sm font-medium text-gray-700 dark:border-gray-500 dark:text-gray-500">Button</button></div>
+      <a href="#" class="text-sm text-sky-500">Another link</a>
+    </div>
+  </div>
+</div>
+<!-- Code for Type 3 Card with link -->
+<div class="w-64 rounded-lg bg-gray-700 p-6 text-gray-100 shadow-lg hover:bg-gray-800 hover:text-gray-200 hover:shadow-none">
+  <div class="flex w-full flex-col">
+    <div class="text-2xl font-semibold">Default card title</div>
+    <div class="py-4 text-sm font-semibold">Type 3</div>
+    <div class="mt-2 text-sm">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores.</p>
+      <div class="text-sky-300"><a href="#">Card link</a></div>
+    </div>
+    <div class="mt-6 flex items-center space-x-2">
+      <div><button class="rounded-md bg-gray-100 px-5 py-2 text-sm font-medium text-gray-700">Button</button></div>
+      <a href="#" class="text-sm text-sky-300">Another link</a>
+    </div>
+  </div>
+</div> 
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Card/Snippets/Link.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/Snippets/Link.vue"]]);
+}
+
+
+// --------------------
 // Request: /components/Card/UserCard/DefaultUser.vue
 // Parents: 
 // - /pages/card.vue?macro=true ($id_41d6da7a)
@@ -24553,6 +24893,80 @@ _sfc_main.setup = (props, ctx) => {
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
 __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/DefaultUser.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Card/UserCard/Snippets/DefaultUser.vue
+// Parents: 
+// - /pages/card.vue?macro=true ($id_41d6da7a)
+// - /pages/card.vue ($id_0473ca70)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_deb973b7 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+<!-- Code for 1st card -->
+<div class="w-64 rounded-xl bg-white p-4 text-gray-700 shadow-lg hover:shadow-inner">
+  <div class="flex w-full flex-col items-center justify-center">
+    <div class="flex h-16 w-16 justify-center overflow-hidden rounded-full text-2xl font-semibold"><img src="https://res.cloudinary.com/pranav1421/image/upload/v1652079933/Tailwind-Component-library/Human%20avatar/yash-mevawala-_hQfqHt0MTg-unsplash_u87uhe.jpg" alt="" class="h-full w-full rounded-full object-cover hover:scale-105" /></div>
+    <div class="flex justify-center text-base font-semibold">Elvis ray</div>
+    <div class="text-xxs flex justify-center font-semibold text-gray-700">Software developer</div>
+  </div>
+</div>
+<!-- Code for 2nd card -->
+<div class="w-64 rounded-xl border border-gray-700 bg-white p-4 text-gray-700 hover:shadow-inner">
+  <div class="flex w-full flex-col items-center justify-center">
+    <div class="flex h-16 w-16 justify-center overflow-hidden rounded-full text-2xl font-semibold"><img src="https://res.cloudinary.com/pranav1421/image/upload/v1652079933/Tailwind-Component-library/Human%20avatar/yash-mevawala-_hQfqHt0MTg-unsplash_u87uhe.jpg" alt="" class="h-full w-full rounded-full object-cover hover:scale-105" /></div>
+    <div class="flex justify-center text-base font-semibold">Elvis ray</div>
+    <div class="text-xxs flex justify-center font-semibold text-gray-700">Product manager</div>
+  </div>
+</div>
+<!-- Code for 3rd Card -->
+<div class="w-64 rounded-xl bg-gray-700 p-4 font-normal text-gray-100 shadow-lg hover:bg-gray-800 hover:shadow-inner">
+  <div class="flex w-full flex-col items-center justify-center">
+    <div class="flex h-16 w-16 justify-center overflow-hidden rounded-full text-2xl font-semibold"><img src="https://res.cloudinary.com/pranav1421/image/upload/v1651821859/Tailwind-Component-library/Human%20avatar/pexels-pixabay-220453_ndnfc1.jpg" alt="" class="h-full w-full rounded-full object-cover hover:scale-105" /></div>
+    <div class="flex justify-center text-base font-semibold">John smith</div>
+    <div class="text-xxs flex justify-center font-normal text-gray-100">Backend developer</div>
+  </div>
+</div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Card/UserCard/Snippets/DefaultUser.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/DefaultUser.vue"]]);
 }
 
 
@@ -24669,6 +25083,92 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 
 
 // --------------------
+// Request: /components/Card/UserCard/Snippets/Type1.vue
+// Parents: 
+// - /pages/card.vue?macro=true ($id_41d6da7a)
+// - /pages/card.vue ($id_0473ca70)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_11a7cb07 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+<!-- Code for 1st Card -->
+<div class="w-72 rounded-xl bg-white p-4 text-gray-700 shadow-lg hover:shadow-inner">
+  <div class="flex w-full flex-col items-center justify-center">
+    <div class="flex h-20 w-20 justify-center overflow-hidden rounded-full text-2xl font-semibold"><img src="https://res.cloudinary.com/pranav1421/image/upload/v1652079933/Tailwind-Component-library/Human%20avatar/yash-mevawala-_hQfqHt0MTg-unsplash_u87uhe.jpg" alt="" class="h-full w-full rounded-full object-cover hover:scale-105" /></div>
+    <div class="flex justify-center pt-2 text-base font-semibold">Elvis ray</div>
+    <div class="text-xxs flex justify-center font-semibold text-gray-700">Ux designer</div>
+    <div class="flex items-center space-x-1 pt-4">
+      <div class="rounded-lg bg-gray-800 px-5 py-2 text-xs font-semibold text-gray-100 hover:bg-gray-900">View profile</div>
+      <div class="rounded-lg border border-gray-800 px-5 py-2 text-xs font-semibold hover:bg-gray-50">Message</div>
+    </div>
+  </div>
+</div>
+<!-- Code for 2nd Card -->
+<div class="w-72 rounded-xl border border-gray-800 bg-white p-4 text-gray-700">
+  <div class="flex w-full flex-col items-center justify-center">
+    <div class="flex h-20 w-20 justify-center overflow-hidden rounded-full text-2xl font-semibold"><img src="https://res.cloudinary.com/pranav1421/image/upload/v1652079933/Tailwind-Component-library/Human%20avatar/yash-mevawala-_hQfqHt0MTg-unsplash_u87uhe.jpg" alt="" class="h-full w-full rounded-full object-cover hover:scale-105" /></div>
+    <div class="flex justify-center pt-2 text-base font-semibold">Elvis ray</div>
+    <div class="text-xxs flex justify-center font-semibold text-gray-700">HR</div>
+    <div class="flex items-center space-x-1 pt-4">
+      <div class="rounded-lg bg-gray-800 px-5 py-2 text-xs font-semibold text-gray-100 hover:bg-gray-900">View profile</div>
+      <div class="rounded-lg border border-gray-800 px-5 py-2 text-xs font-semibold hover:bg-gray-50">Message</div>
+    </div>
+  </div>
+</div>
+<!-- Code for 3rd Card -->
+<div class="undefined undefined w-full rounded-xl bg-gray-700 p-4 font-normal text-gray-100 shadow-lg hover:bg-gray-800 hover:shadow-inner">
+  <div class="flex w-full flex-col items-center justify-center">
+    <div class="flex h-20 w-20 justify-center overflow-hidden rounded-full text-2xl font-semibold"><img src="https://res.cloudinary.com/pranav1421/image/upload/v1652163780/Tailwind-Component-library/Human%20avatar/pexels-mart-production-9558758_d7nfoq.jpg" alt="" class="h-full w-full rounded-full object-cover hover:scale-105" /></div>
+    <div class="flex justify-center pt-2 text-base font-semibold">John smith</div>
+    <div class="text-xxs flex justify-center font-normal text-gray-100">Development lead</div>
+    <div class="flex items-center space-x-1 pt-4">
+      <div class="rounded-lg bg-gray-100 px-5 py-2 text-xs font-semibold text-gray-700 hover:bg-gray-200">View profile</div>
+      <div class="rounded-lg border border-gray-100 px-5 py-2 text-xs font-semibold hover:bg-gray-800">Message</div>
+    </div>
+  </div>
+</div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Card/UserCard/Snippets/Type1.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type1.vue"]]);
+}
+
+
+// --------------------
 // Request: /components/Card/UserCard/Type2.vue
 // Parents: 
 // - /pages/card.vue?macro=true ($id_41d6da7a)
@@ -24733,6 +25233,70 @@ _sfc_main.setup = (props, ctx) => {
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
 __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Type2.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Card/UserCard/Snippets/Type2.vue
+// Parents: 
+// - /pages/card.vue?macro=true ($id_41d6da7a)
+// - /pages/card.vue ($id_0473ca70)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_f81e226e = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+<div class="w-80 rounded-xl bg-white p-4 text-gray-700 shadow-lg hover:shadow-inner">
+  <div class="flex w-full flex-row items-center justify-between">
+    <div class="flex flex-row items-center justify-start space-x-2">
+      <div class="flex h-20 w-20 justify-center overflow-hidden rounded-full text-2xl font-semibold"><img src="https://res.cloudinary.com/pranav1421/image/upload/v1652079933/Tailwind-Component-library/Human%20avatar/yash-mevawala-_hQfqHt0MTg-unsplash_u87uhe.jpg" alt="" class="h-full w-full rounded-full object-cover hover:scale-105" /></div>
+      <div class="flex flex-col">
+        <div class="flex justify-center pt-2 text-base font-semibold">Elvis ray</div>
+        <div class="text-xxs flex justify-center font-semibold text-gray-500">UX designer</div>
+      </div>
+    </div>
+    <div class="flex items-center hover:cursor-pointer">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1" class="h-6 w-6 text-gray-700"><path stroke-linecap="round" stroke-linejoin="round" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path></svg>
+    </div>
+  </div>
+</div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Card/UserCard/Snippets/Type2.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type2.vue"]]);
 }
 
 
@@ -24810,6 +25374,81 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 
 
 // --------------------
+// Request: /components/Card/UserCard/Snippets/Type3.vue
+// Parents: 
+// - /pages/card.vue?macro=true ($id_41d6da7a)
+// - /pages/card.vue ($id_0473ca70)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_0831fcb6 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+<div class="hover:shadow-3xl group relative h-full w-80 overflow-hidden rounded-xl text-gray-50 shadow-lg">
+  <div class="z-20 h-96 w-full"><img src="https://res.cloudinary.com/pranav1421/image/upload/v1652079979/Tailwind-Component-library/Human%20avatar/payton-tuttle-RFFR1JjkJx8-unsplash_wglk5e.jpg" alt="" class="h-full w-full object-cover transition-all duration-100 ease-in group-hover:scale-110" /></div>
+  <div class="absolute top-0 z-40 flex h-full w-full flex-col justify-end">
+    <div class="-mb-40 transition-all duration-200 ease-in group-hover:-translate-y-40">
+      <div class="flex w-full flex-col items-center justify-center bg-black/70 p-4">
+        <div class="text-lg text-gray-50">Raja Rabish</div>
+        <div class="text-xxs font-normal text-gray-50">Devops engineer</div>
+        <div class="flex space-x-2 pt-2">
+          <div>
+            <svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 17V13.5V10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M11 17V13.75M11 10V13.75M11 13.75C11 10 17 10 17 13.75V17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 7.01L7.01 6.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+          <div>
+            <svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z" stroke="currentColor" stroke-width="1.5"></path><path d="M17.5 6.51L17.51 6.49889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+          <div>
+            <svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M11 21C11 18 11 15 11 12C11 9.8125 11.5 8 15 8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 13H11H15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+          <div>
+            <svg width="18" height="18" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23 3.01006C23 3.01006 20.9821 4.20217 19.86 4.54006C19.2577 3.84757 18.4573 3.35675 17.567 3.13398C16.6767 2.91122 15.7395 2.96725 14.8821 3.29451C14.0247 3.62177 13.2884 4.20446 12.773 4.96377C12.2575 5.72309 11.9877 6.62239 12 7.54006V8.54006C10.2426 8.58562 8.50127 8.19587 6.93101 7.4055C5.36074 6.61513 4.01032 5.44869 3 4.01006C3 4.01006 -1 13.0101 8 17.0101C5.94053 18.408 3.48716 19.109 1 19.0101C10 24.0101 21 19.0101 21 7.51006C20.9991 7.23151 20.9723 6.95365 20.92 6.68006C21.9406 5.67355 23 3.01006 23 3.01006Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Card/UserCard/Snippets/Type3.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type3.vue"]]);
+}
+
+
+// --------------------
 // Request: /components/Card/UserCard/Type4.vue
 // Parents: 
 // - /pages/card.vue?macro=true ($id_41d6da7a)
@@ -24882,6 +25521,82 @@ _sfc_main.setup = (props, ctx) => {
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
 __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Type4.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Card/UserCard/Snippets/Type4.vue
+// Parents: 
+// - /pages/card.vue?macro=true ($id_41d6da7a)
+// - /pages/card.vue ($id_0473ca70)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_874dfe6a = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+<div class="hover:shadow-3xl group flex h-96 w-72 flex-col space-y-2 overflow-hidden rounded-xl bg-white text-gray-700 shadow-lg">
+  <div class="z-20 h-1/2 w-full"><img src="https://res.cloudinary.com/pranav1421/image/upload/v1652079979/Tailwind-Component-library/Human%20avatar/payton-tuttle-RFFR1JjkJx8-unsplash_wglk5e.jpg" alt="" class="h-full w-full rounded-xl object-cover transition-all duration-100 ease-in group-hover:scale-110" /></div>
+  <div class="flex h-1/2 w-full flex-col items-center overflow-hidden rounded-xl">
+    <div class="text-2xl font-semibold text-gray-700">Vibhavari Jain</div>
+    <div class="text-xxs font-normal text-gray-700">Devops engineer</div>
+    <div class="mt-2 text-base font-normal text-gray-700">Harvard University</div>
+    <div class="mt-4 flex items-center justify-center space-x-2">
+      <div>
+        <svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 17V13.5V10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M11 17V13.75M11 10V13.75M11 13.75C11 10 17 10 17 13.75V17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 7.01L7.01 6.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </div>
+      <div>
+        <svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z" stroke="currentColor" stroke-width="1.5"></path><path d="M17.5 6.51L17.51 6.49889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </div>
+      <div>
+        <svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M11 21C11 18 11 15 11 12C11 9.8125 11.5 8 15 8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 13H11H15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </div>
+      <div>
+        <svg width="18" height="18" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23 3.01006C23 3.01006 20.9821 4.20217 19.86 4.54006C19.2577 3.84757 18.4573 3.35675 17.567 3.13398C16.6767 2.91122 15.7395 2.96725 14.8821 3.29451C14.0247 3.62177 13.2884 4.20446 12.773 4.96377C12.2575 5.72309 11.9877 6.62239 12 7.54006V8.54006C10.2426 8.58562 8.50127 8.19587 6.93101 7.4055C5.36074 6.61513 4.01032 5.44869 3 4.01006C3 4.01006 -1 13.0101 8 17.0101C5.94053 18.408 3.48716 19.109 1 19.0101C10 24.0101 21 19.0101 21 7.51006C20.9991 7.23151 20.9723 6.95365 20.92 6.68006C21.9406 5.67355 23 3.01006 23 3.01006Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </div>
+      <div>
+        <svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16.6726 20.8435C15.5 14 12.5 8.00003 8.5 2.62964" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2.06653 10.8406C6.00004 11 15.2829 10.5 19.1415 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21.9677 12.81C15.3438 10.8407 7.50002 14.0001 5.23145 19.3613" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </div>
+    </div>
+  </div>
+  <div class="flex w-full justify-center bg-black py-3 font-semibold tracking-tight text-gray-100">View profile</div>
+</div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Card/UserCard/Snippets/Type4.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type4.vue"]]);
 }
 
 
@@ -24966,6 +25681,85 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 
 
 // --------------------
+// Request: /components/Card/UserCard/Snippets/Type5.vue
+// Parents: 
+// - /pages/card.vue?macro=true ($id_41d6da7a)
+// - /pages/card.vue ($id_0473ca70)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_a4f84abf = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+<div class="hover:shadow-3xl undefined undefined undefined group group flex h-full w-72 flex-col overflow-hidden rounded-3xl bg-white text-gray-700 shadow-lg">
+  <div class="h-1/3 w-full bg-indigo-400 py-4">
+    <div class="flex justify-between p-4">
+      <div class="font-medium text-white">Profile</div>
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="h-6 w-6 cursor-pointer text-white"><path stroke-linecap="round" stroke-linejoin="round" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"></path></svg>
+      </div>
+    </div>
+  </div>
+  <div class="flex h-full justify-center rounded-3xl bg-white">
+    <div class="h-24 w-24 -translate-y-12 overflow-hidden rounded-full bg-indigo-200 p-0.5"><img src="https://res.cloudinary.com/pranav1421/image/upload/v1652250432/Tailwind-Component-library/Human%20avatar/IMG_6355_xcaeag.png" alt="" class="h-full w-full object-cover group-hover:scale-110" /></div>
+  </div>
+  <div class="-mb-16 flex -translate-y-20 justify-between rounded-3xl px-4">
+    <div class="flex flex-col items-center">
+      <div class="text-xs font-semibold text-gray-500">Posts</div>
+      <div class="font-bold">41</div>
+    </div>
+    <div class="flex flex-col items-center">
+      <div class="text-xs font-semibold text-gray-500">Followers</div>
+      <div class="font-bold">289</div>
+    </div>
+  </div>
+  <div class="flex w-full -translate-y-5 flex-col justify-between overflow-hidden rounded-xl">
+    <div class="flex w-full flex-col items-center justify-between rounded-xl px-4">
+      <div class="text-2xl font-semibold tracking-tighter text-gray-700">Charles Green</div>
+      <div class="text-xxs font-normal text-gray-700">Product photographer</div>
+    </div>
+  </div>
+</div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Card/UserCard/Snippets/Type5.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type5.vue"]]);
+}
+
+
+// --------------------
 // Request: /components/Card/UserCard/Type6.vue
 // Parents: 
 // - /pages/card.vue?macro=true ($id_41d6da7a)
@@ -25022,6 +25816,83 @@ _sfc_main.setup = (props, ctx) => {
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
 __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Type6.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Card/UserCard/Snippets/Type6.vue
+// Parents: 
+// - /pages/card.vue?macro=true ($id_41d6da7a)
+// - /pages/card.vue ($id_0473ca70)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_c2232a00 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+<div class="group flex h-full w-96 flex-col rounded-3xl bg-white p-4 text-gray-400 shadow-lg">
+  <div class="flex justify-between">
+    <div>
+      <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-gray-500"><path d="M18.5 12H6M6 12L12 6M6 12L12 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+    </div>
+    <div class="flex cursor-pointer items-center justify-center text-xs text-teal-400">Edit profile</div>
+  </div>
+  <div class="flex items-center space-x-4 px-3 pt-6">
+    <div class="h-24 w-24 overflow-hidden rounded-3xl bg-teal-300"><img src="https://avatars.dicebear.com/api/micah/helosdh1.svg" alt="" class="h-full w-full object-cover group-hover:scale-105" /></div>
+    <div>
+      <div class="text-lg font-bold text-gray-700">Helen Joe</div>
+      <div class="text-xxs text-gray-500">@helenjoe</div>
+      <div class="text-tiny pt-2 text-gray-500">Animator | Illustrator</div>
+    </div>
+  </div>
+  <div class="flex justify-between px-3 pt-6">
+    <div class="flex flex-col items-center">
+      <div class="text-xs font-medium text-gray-500">Posts</div>
+      <div class="text-tiny font-bold text-gray-700">41</div>
+    </div>
+    <div class="flex flex-col items-center">
+      <div class="text-xs font-medium text-gray-500">Ratings</div>
+      <div class="text-tiny font-bold text-gray-700">4.0</div>
+    </div>
+    <div class="flex items-center justify-center"><div class="text-tiny rounded-lg bg-teal-400 px-4 py-2 font-semibold text-white hover:bg-teal-500">Button</div></div>
+  </div>
+</div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Card/UserCard/Snippets/Type6.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type6.vue"]]);
 }
 
 
@@ -25086,6 +25957,89 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 
 
 // --------------------
+// Request: /components/Card/UserCard/Snippets/Type7.vue
+// Parents: 
+// - /pages/card.vue?macro=true ($id_41d6da7a)
+// - /pages/card.vue ($id_0473ca70)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_16a308fb = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+<div class="group flex w-96 flex-col rounded-2xl bg-white px-6 pt-8 pb-6 shadow-lg">
+  <div class="flex space-x-4">
+    <div class="h-16 w-16 overflow-hidden rounded-lg"><img src="https://res.cloudinary.com/pranav1421/image/upload/v1651820943/Tailwind-Component-library/Human%20avatar/pexels-sound-on-3760857_hujrch.jpg" alt="" class="h-full w-full rounded-lg object-cover group-hover:scale-110" /></div>
+    <div class="flex flex-col">
+      <div class="text-lg font-bold text-cyan-800">Geneva Soto</div>
+      <div class="flex items-center space-x-1">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" class="h-5 w-5 text-cyan-800">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+          </svg>
+        </div>
+        <div class="text-tiny text-cyan-800">Maharashtra,India</div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-8 flex items-center justify-center space-x-1 rounded-lg bg-cyan-800 py-2 hover:bg-cyan-900">
+    <div>
+      <svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-white">
+        <path d="M17 10H20M23 10H20M20 10V7M20 10V13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M1 20V19C1 15.134 4.13401 12 8 12V12C11.866 12 15 15.134 15 19V20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M8 12C10.2091 12 12 10.2091 12 8C12 5.79086 10.2091 4 8 4C5.79086 4 4 5.79086 4 8C4 10.2091 5.79086 12 8 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+    </div>
+    <div class="text-tiny text-white">Add friend</div>
+  </div>
+  <div class="mt-2 flex items-center justify-center space-x-2 rounded-lg border border-cyan-800 py-2">
+    <div>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="h-5 w-5 text-cyan-800"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+    </div>
+    <div class="text-tiny text-cyan-800">Message</div>
+  </div>
+</div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Card/UserCard/Snippets/Type7.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type7.vue"]]);
+}
+
+
+// --------------------
 // Request: /components/Card/UserCard/Type8.vue
 // Parents: 
 // - /pages/card.vue?macro=true ($id_41d6da7a)
@@ -25138,6 +26092,88 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 
 
 // --------------------
+// Request: /components/Card/UserCard/Snippets/Type8.vue
+// Parents: 
+// - /pages/card.vue?macro=true ($id_41d6da7a)
+// - /pages/card.vue ($id_0473ca70)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_18be2a98 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+<div class="group group relative flex w-96 flex-col items-center justify-center rounded-2xl bg-white px-6 pt-8 pb-6 shadow-lg">
+  <div class="flex w-full items-center justify-center">
+    <div class="absolute -top-8 flex h-16 w-16 justify-center overflow-hidden rounded-full"><img src="https://res.cloudinary.com/pranav1421/image/upload/v1651821816/Tailwind-Component-library/Human%20avatar/pexels-andrea-piacquadio-3767410_kur6zy.jpg" alt="" class="rounded-full shadow-md group-hover:scale-110" /></div>
+  </div>
+  <div class="text-lg font-bold text-gray-700">Claire M. Giles</div>
+  <div class="text-xxs flex text-gray-600">
+    <div class="flex">
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="h-4 w-4 text-gray-600"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+      </div>
+      <div>Sydney,Australia</div>
+    </div>
+  </div>
+  <div class="mt-4 text-center text-xs text-gray-700">Clair is a Australia bases Ux designer and front-end developer. She loves building new websites and design creative web pages</div>
+  <div class="mt-2 flex space-x-1 text-gray-100">
+    <div class="rounded-full bg-gray-700 p-1">
+      <svg width="16" height="16" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+    </div>
+    <div class="rounded-full bg-gray-700 p-1">
+      <svg width="16" height="16" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23 3.01006C23 3.01006 20.9821 4.20217 19.86 4.54006C19.2577 3.84757 18.4573 3.35675 17.567 3.13398C16.6767 2.91122 15.7395 2.96725 14.8821 3.29451C14.0247 3.62177 13.2884 4.20446 12.773 4.96377C12.2575 5.72309 11.9877 6.62239 12 7.54006V8.54006C10.2426 8.58562 8.50127 8.19587 6.93101 7.4055C5.36074 6.61513 4.01032 5.44869 3 4.01006C3 4.01006 -1 13.0101 8 17.0101C5.94053 18.408 3.48716 19.109 1 19.0101C10 24.0101 21 19.0101 21 7.51006C20.9991 7.23151 20.9723 6.95365 20.92 6.68006C21.9406 5.67355 23 3.01006 23 3.01006Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+    </div>
+    <div class="rounded-full bg-gray-700 p-1">
+      <svg width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19 15V21H5V15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16 17L8 17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M15.9126 14.6633L8.0874 13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16.7127 12.3809L9.46228 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M18.1728 10.6423L12.0444 5.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M20.0338 8.80409L15.1085 2.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+    </div>
+    <div class="rounded-full bg-gray-700 p-1">
+      <svg width="16" height="16" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 17V13.5V10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M11 17V13.75M11 10V13.75M11 13.75C11 10 17 10 17 13.75V17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 7.01L7.01 6.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+    </div>
+    <div class="rounded-full bg-gray-700 p-1">
+      <svg width="16" height="16" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 9V15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 15V9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 21V15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 3V9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 15L3 9L12 3L21 9L12 15Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 21L3 15L12 9L21 15L12 21Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+    </div>
+  </div>
+</div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Card/UserCard/Snippets/Type8.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type8.vue"]]);
+}
+
+
+// --------------------
 // Request: /components/Card/UserCard/Type9.vue
 // Parents: 
 // - /pages/card.vue?macro=true ($id_41d6da7a)
@@ -25182,6 +26218,104 @@ _sfc_main.setup = (props, ctx) => {
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
 __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Type9.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Card/UserCard/Snippets/Type9.vue
+// Parents: 
+// - /pages/card.vue?macro=true ($id_41d6da7a)
+// - /pages/card.vue ($id_0473ca70)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_d7012042 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+<div class="flex w-full items-center justify-center">
+  <span v-for="(item, index) in items" :key="index" class="h-full w-full">
+    <div class="w-96 group flex space-x-4 rounded-xl bg-white px-6 py-6 shadow-lg">
+      <!-- img -->
+      <div class="h-40 w-56 overflow-hidden rounded-xl">
+        <img class="h-full w-full rounded-xl object-cover group-hover:scale-105" src="https://res.cloudinary.com/pranav1421/image/upload/v1652079979/Tailwind-Component-library/Human%20avatar/payton-tuttle-RFFR1JjkJx8-unsplash_wglk5e.jpg" alt="" />
+      </div>
+      <!-- side content -->
+      <div class="flex w-full flex-col justify-between">
+        <div>
+          <div class="flex justify-between">
+            <div class="font-bold text-gray-700">Louis Royce</div>
+            <div class="flex items-center justify-center">
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-yellow-300" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+              </div>
+              <div class="font-semibold text-gray-700">4.5</div>
+            </div>
+          </div>
+          <!-- bio -->
+          <div class="text-xs text-gray-700">Looking for entry level full stack developer job</div>
+        </div>
+        <!-- tags -->
+        <div>
+          <div class="text-xxs flex space-x-1 pb-3 font-semibold text-gray-700">
+            <div class="rounded-lg bg-gray-100 px-2.5 py-1">Vue</div>
+            <div class="rounded-lg bg-gray-100 px-2.5 py-1">Laravel</div>
+            <div class="rounded-lg bg-gray-100 px-2.5 py-1">Tailwind</div>
+          </div>
+          <div class="flex items-center justify-between">
+            <div class="item-center flex justify-center space-x-1">
+              <div class="rounded-full text-gray-700">
+                <svg width="16" height="16" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </div>
+              <div class="text-xxs text-gray-700 hover:cursor-pointer">Github</div>
+            </div>
+            <div class="text-xxs rounded-lg bg-pink-600 px-3 py-1.5 font-semibold text-pink-100">View profile</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </span>
+</div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Card/UserCard/Snippets/Type9.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type9.vue"]]);
 }
 
 
@@ -40968,19 +42102,31 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_34__.default(_sfc_
 // - /components/Utils/ComponentPad.vue ($id_900fca01)
 // - /components/Card/Cta.vue ($id_fef392b5)
 // - /components/Utils/CopyButton.vue ($id_07dc553f)
-// - /components/Button/Snippets/Default.vue ($id_b4af2396)
+// - /components/Card/Snippets/Default.vue ($id_08579acc)
 // - /components/Card/Default.vue ($id_27a792e0)
+// - /components/Card/Snippets/Cta.vue ($id_5bb25128)
 // - /components/Card/Link.vue ($id_a60fbbe0)
+// - /components/Card/Snippets/Link.vue ($id_1edc5e9d)
 // - /components/Card/UserCard/DefaultUser.vue ($id_9fd50ff9)
+// - /components/Card/UserCard/Snippets/DefaultUser.vue ($id_deb973b7)
 // - /components/Card/UserCard/Type1.vue ($id_0b67519c)
+// - /components/Card/UserCard/Snippets/Type1.vue ($id_11a7cb07)
 // - /components/Card/UserCard/Type2.vue ($id_43067e4e)
+// - /components/Card/UserCard/Snippets/Type2.vue ($id_f81e226e)
 // - /components/Card/UserCard/Type3.vue ($id_e5981a7d)
+// - /components/Card/UserCard/Snippets/Type3.vue ($id_0831fcb6)
 // - /components/Card/UserCard/Type4.vue ($id_64395255)
+// - /components/Card/UserCard/Snippets/Type4.vue ($id_874dfe6a)
 // - /components/Card/UserCard/Type5.vue ($id_fcbfd7af)
+// - /components/Card/UserCard/Snippets/Type5.vue ($id_a4f84abf)
 // - /components/Card/UserCard/Type6.vue ($id_e9e13ad0)
+// - /components/Card/UserCard/Snippets/Type6.vue ($id_c2232a00)
 // - /components/Card/UserCard/Type7.vue ($id_5c0e462a)
+// - /components/Card/UserCard/Snippets/Type7.vue ($id_16a308fb)
 // - /components/Card/UserCard/Type8.vue ($id_d5a96e56)
+// - /components/Card/UserCard/Snippets/Type8.vue ($id_18be2a98)
 // - /components/Card/UserCard/Type9.vue ($id_90990b5e)
+// - /components/Card/UserCard/Snippets/Type9.vue ($id_d7012042)
 // - /components/Alert/AlertInfo.vue ($id_df465372)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -41004,61 +42150,88 @@ const __vite_ssr_import_6__ = await __vite_ssr_import__("/components/Card/Cta.vu
 
 const __vite_ssr_import_7__ = await __vite_ssr_import__("/components/Utils/CopyButton.vue");
 
-const __vite_ssr_import_8__ = await __vite_ssr_import__("/components/Button/Snippets/Default.vue");
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/components/Card/Snippets/Default.vue");
 
 const __vite_ssr_import_9__ = await __vite_ssr_import__("/components/Card/Default.vue");
 
-const __vite_ssr_import_10__ = await __vite_ssr_import__("/components/Card/Link.vue");
+const __vite_ssr_import_10__ = await __vite_ssr_import__("/components/Card/Snippets/Cta.vue");
 
-const __vite_ssr_import_11__ = await __vite_ssr_import__("/components/Card/UserCard/DefaultUser.vue");
+const __vite_ssr_import_11__ = await __vite_ssr_import__("/components/Card/Link.vue");
 
-const __vite_ssr_import_12__ = await __vite_ssr_import__("/components/Card/UserCard/Type1.vue");
+const __vite_ssr_import_12__ = await __vite_ssr_import__("/components/Card/Snippets/Link.vue");
 
-const __vite_ssr_import_13__ = await __vite_ssr_import__("/components/Card/UserCard/Type2.vue");
+const __vite_ssr_import_13__ = await __vite_ssr_import__("/components/Card/UserCard/DefaultUser.vue");
 
-const __vite_ssr_import_14__ = await __vite_ssr_import__("/components/Card/UserCard/Type3.vue");
+const __vite_ssr_import_14__ = await __vite_ssr_import__("/components/Card/UserCard/Snippets/DefaultUser.vue");
 
-const __vite_ssr_import_15__ = await __vite_ssr_import__("/components/Card/UserCard/Type4.vue");
+const __vite_ssr_import_15__ = await __vite_ssr_import__("/components/Card/UserCard/Type1.vue");
 
-const __vite_ssr_import_16__ = await __vite_ssr_import__("/components/Card/UserCard/Type5.vue");
+const __vite_ssr_import_16__ = await __vite_ssr_import__("/components/Card/UserCard/Snippets/Type1.vue");
 
-const __vite_ssr_import_17__ = await __vite_ssr_import__("/components/Card/UserCard/Type6.vue");
+const __vite_ssr_import_17__ = await __vite_ssr_import__("/components/Card/UserCard/Type2.vue");
 
-const __vite_ssr_import_18__ = await __vite_ssr_import__("/components/Card/UserCard/Type7.vue");
+const __vite_ssr_import_18__ = await __vite_ssr_import__("/components/Card/UserCard/Snippets/Type2.vue");
 
-const __vite_ssr_import_19__ = await __vite_ssr_import__("/components/Card/UserCard/Type8.vue");
+const __vite_ssr_import_19__ = await __vite_ssr_import__("/components/Card/UserCard/Type3.vue");
 
-const __vite_ssr_import_20__ = await __vite_ssr_import__("/components/Card/UserCard/Type9.vue");
+const __vite_ssr_import_20__ = await __vite_ssr_import__("/components/Card/UserCard/Snippets/Type3.vue");
+
+const __vite_ssr_import_21__ = await __vite_ssr_import__("/components/Card/UserCard/Type4.vue");
+
+const __vite_ssr_import_22__ = await __vite_ssr_import__("/components/Card/UserCard/Snippets/Type4.vue");
+
+const __vite_ssr_import_23__ = await __vite_ssr_import__("/components/Card/UserCard/Type5.vue");
+
+const __vite_ssr_import_24__ = await __vite_ssr_import__("/components/Card/UserCard/Snippets/Type5.vue");
+
+const __vite_ssr_import_25__ = await __vite_ssr_import__("/components/Card/UserCard/Type6.vue");
+
+const __vite_ssr_import_26__ = await __vite_ssr_import__("/components/Card/UserCard/Snippets/Type6.vue");
+
+const __vite_ssr_import_27__ = await __vite_ssr_import__("/components/Card/UserCard/Type7.vue");
+
+const __vite_ssr_import_28__ = await __vite_ssr_import__("/components/Card/UserCard/Snippets/Type7.vue");
+
+const __vite_ssr_import_29__ = await __vite_ssr_import__("/components/Card/UserCard/Type8.vue");
+
+const __vite_ssr_import_30__ = await __vite_ssr_import__("/components/Card/UserCard/Snippets/Type8.vue");
+
+const __vite_ssr_import_31__ = await __vite_ssr_import__("/components/Card/UserCard/Type9.vue");
+
+const __vite_ssr_import_32__ = await __vite_ssr_import__("/components/Card/UserCard/Snippets/Type9.vue");
 
 
-const __vite_ssr_import_21__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
+const __vite_ssr_import_33__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
 
-const __vite_ssr_import_22__ = await __vite_ssr_import__("/components/Alert/AlertInfo.vue");
+const __vite_ssr_import_34__ = await __vite_ssr_import__("/components/Alert/AlertInfo.vue");
 
-const __vite_ssr_import_23__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
+const __vite_ssr_import_35__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
 
 const _sfc_main = {
   metaInfo: {
     title: "Alerts",
   },
   components: {
-    AlertInfo: __vite_ssr_import_22__.default,
-    Heading: __vite_ssr_import_23__.default,
-    SubHeading: __vite_ssr_import_21__.default,
+    AlertInfo: __vite_ssr_import_34__.default,
+    Heading: __vite_ssr_import_35__.default,
+    SubHeading: __vite_ssr_import_33__.default,
 },
   data() {
     return {
       layout: "custom",
- default_btn: false,
-      outline_btn: false,
-      statecolor_btn: false,
-      size_btn: false,
-      dual_icon_btn: false,
-      light_color_btn: false,
-      dark_color_btn: false,
-      gradient_btn: false,
-      colored_shadow_btn: false,
-      appsmith_btn: false,  
+ default_card: false,
+      cta_card: false,
+      link_card: false,
+      default_user_card: false,
+      user_card1: false,
+      user_card2: false,
+      user_card3: false,
+      user_card4: false,
+      user_card5: false,
+      user_card6: false,
+      user_card7: false,
+      user_card8: false,
+      user_card9: false,
       // SCROLL
       activeScrollSection: "",
       sample: "",
@@ -41081,9 +42254,9 @@ const _sfc_main = {
   },
 };
 
-const __vite_ssr_import_24__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_36__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_25__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+const __vite_ssr_import_37__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
@@ -41095,22 +42268,34 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   const _component_UtilsComponentPad = __vite_ssr_import_5__.default
   const _component_CardCta = __vite_ssr_import_6__.default
   const _component_UtilsCopyButton = __vite_ssr_import_7__.default
-  const _component_ButtonSnippetsDefault = __vite_ssr_import_8__.default
+  const _component_CardSnippetsDefault = __vite_ssr_import_8__.default
   const _component_CardDefault = __vite_ssr_import_9__.default
-  const _component_CardLink = __vite_ssr_import_10__.default
-  const _component_CardUserCardDefaultUser = __vite_ssr_import_11__.default
-  const _component_CardUserCardType1 = __vite_ssr_import_12__.default
-  const _component_CardUserCardType2 = __vite_ssr_import_13__.default
-  const _component_CardUserCardType3 = __vite_ssr_import_14__.default
-  const _component_CardUserCardType4 = __vite_ssr_import_15__.default
-  const _component_CardUserCardType5 = __vite_ssr_import_16__.default
-  const _component_CardUserCardType6 = __vite_ssr_import_17__.default
-  const _component_CardUserCardType7 = __vite_ssr_import_18__.default
-  const _component_CardUserCardType8 = __vite_ssr_import_19__.default
-  const _component_CardUserCardType9 = __vite_ssr_import_20__.default
+  const _component_CardSnippetsCta = __vite_ssr_import_10__.default
+  const _component_CardLink = __vite_ssr_import_11__.default
+  const _component_CardSnippetsLink = __vite_ssr_import_12__.default
+  const _component_CardUserCardDefaultUser = __vite_ssr_import_13__.default
+  const _component_CardUserCardSnippetsDefaultUser = __vite_ssr_import_14__.default
+  const _component_CardUserCardType1 = __vite_ssr_import_15__.default
+  const _component_CardUserCardSnippetsType1 = __vite_ssr_import_16__.default
+  const _component_CardUserCardType2 = __vite_ssr_import_17__.default
+  const _component_CardUserCardSnippetsType2 = __vite_ssr_import_18__.default
+  const _component_CardUserCardType3 = __vite_ssr_import_19__.default
+  const _component_CardUserCardSnippetsType3 = __vite_ssr_import_20__.default
+  const _component_CardUserCardType4 = __vite_ssr_import_21__.default
+  const _component_CardUserCardSnippetsType4 = __vite_ssr_import_22__.default
+  const _component_CardUserCardType5 = __vite_ssr_import_23__.default
+  const _component_CardUserCardSnippetsType5 = __vite_ssr_import_24__.default
+  const _component_CardUserCardType6 = __vite_ssr_import_25__.default
+  const _component_CardUserCardSnippetsType6 = __vite_ssr_import_26__.default
+  const _component_CardUserCardType7 = __vite_ssr_import_27__.default
+  const _component_CardUserCardSnippetsType7 = __vite_ssr_import_28__.default
+  const _component_CardUserCardType8 = __vite_ssr_import_29__.default
+  const _component_CardUserCardSnippetsType8 = __vite_ssr_import_30__.default
+  const _component_CardUserCardType9 = __vite_ssr_import_31__.default
+  const _component_CardUserCardSnippetsType9 = __vite_ssr_import_32__.default
 
-  _push(__vite_ssr_import_25__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_24__.mergeProps({ name: $data.layout }, _attrs), {
-    default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+  _push(__vite_ssr_import_37__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_36__.mergeProps({ name: $data.layout }, _attrs), {
+    default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
         _push(`<div class="flex p-4"${
           _scopeId
@@ -41119,13 +42304,13 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }><div class="overflow-y-auto w-full px-4 pb-20" id="alertContainer"${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersHeading, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersHeading, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(` Button `)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode(" Button ")
+                __vite_ssr_import_36__.createTextVNode(" Button ")
               ]
             }
           }),
@@ -41135,60 +42320,60 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }><p class="text-base"${
           _scopeId
-        }> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? </p></div><!-- Default Button --><section id="defaultButton" class="w-full"${
+        }> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? </p></div><!-- Default card --><section id="defaultCard" class="w-full"${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`Default`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("Default")
+                __vite_ssr_import_36__.createTextVNode("Default")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.default_card) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.default_card = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.default_card = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.default_card)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.default_card = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.default_card = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardCta, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardCta, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardCta)
+                __vite_ssr_import_36__.createVNode(_component_CardCta)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.default_card) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -41198,63 +42383,63 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultCard'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultCard" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End default Card --><!-- Cta Button --><section id="defaultButton" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardSnippetsDefault, { id: "defaultCard" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End default Card --><!-- Cta Button --><section id="cardWithCta" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`CTA`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("CTA")
+                __vite_ssr_import_36__.createTextVNode("CTA")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.cta_card) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.cta_card = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.cta_card = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.cta_card)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.cta_card = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.cta_card = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardDefault, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardDefault, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardDefault)
+                __vite_ssr_import_36__.createVNode(_component_CardDefault)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.cta_card) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -41264,63 +42449,63 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultCta'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultCta" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End Cta Card --><!-- Link Button --><section id="defaultButton" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardSnippetsCta, { id: "defaultCta" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Cta Card --><!-- Link Button --><section id="cardWithLink" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`Link`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("Link")
+                __vite_ssr_import_36__.createTextVNode("Link")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.link_card) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.link_card = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.link_card = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.link_card)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.link_card = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.link_card = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardLink, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardLink, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardLink)
+                __vite_ssr_import_36__.createVNode(_component_CardLink)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.link_card) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -41330,63 +42515,63 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultLink'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultLink" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End Link Card --><!-- DefaultUser Button --><section id="defaultButton" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardSnippetsLink, { id: "defaultLink" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Link Card --><!-- DefaultUser Button --><section id="defaultUserCard" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`Default User`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("Default User")
+                __vite_ssr_import_36__.createTextVNode("Default User")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.default_user_card) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.default_user_card = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.default_user_card = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.default_user_card)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.default_user_card = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.default_user_card = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardUserCardDefaultUser, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardDefaultUser, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardUserCardDefaultUser)
+                __vite_ssr_import_36__.createVNode(_component_CardUserCardDefaultUser)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.default_user_card) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -41396,64 +42581,64 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultDefaultUser'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultDefaultUser" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End DefaultUser Card --><!-- Type1 Button --><section id="defaultButton" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardSnippetsDefaultUser, { id: "defaultDefaultUser" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End DefaultUser Card --><!-- Type1 Button --><section id="type1" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`User card <span class="font-normal text-gray-400"${_scopeId}>type 1</span>`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("User card "),
-                __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 1")
+                __vite_ssr_import_36__.createTextVNode("User card "),
+                __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 1")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.user_card1) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.user_card1 = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.user_card1 = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.user_card1)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.user_card1 = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.user_card1 = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardUserCardType1, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardType1, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardUserCardType1)
+                __vite_ssr_import_36__.createVNode(_component_CardUserCardType1)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.user_card1) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -41463,64 +42648,64 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultType1'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultType1" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End Type1 Card --><!-- Type2 Button --><section id="defaultButton" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardSnippetsType1, { id: "defaultType1" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Type1 Card --><!-- Type2 Button --><section id="type2" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`User card <span class="font-normal text-gray-400"${_scopeId}>type 2</span>`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("User card "),
-                __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 2")
+                __vite_ssr_import_36__.createTextVNode("User card "),
+                __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 2")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.user_card2) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.user_card2 = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.user_card2 = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.user_card2)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.user_card2 = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.user_card2 = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardUserCardType2, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardType2, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardUserCardType2)
+                __vite_ssr_import_36__.createVNode(_component_CardUserCardType2)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.user_card2) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -41530,64 +42715,64 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultType2'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultType2" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End Type2 Card --><!-- Type3 Button --><section id="defaultButton" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardSnippetsType2, { id: "defaultType2" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Type2 Card --><!-- Type3 Button --><section id="type3" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`User card <span class="font-normal text-gray-400"${_scopeId}>type 3</span>`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("User card "),
-                __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 3")
+                __vite_ssr_import_36__.createTextVNode("User card "),
+                __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 3")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.user_card3) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.user_card3 = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.user_card3 = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.user_card3)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.user_card3 = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.user_card3 = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardUserCardType3, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardType3, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardUserCardType3)
+                __vite_ssr_import_36__.createVNode(_component_CardUserCardType3)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.user_card3) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -41597,64 +42782,64 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultType3'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultType3" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End Type3 Card --><!-- Type4 Button --><section id="defaultButton" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardSnippetsType3, { id: "defaultType3" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Type3 Card --><!-- Type4 Button --><section id="type4" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`User card <span class="font-normal text-gray-400"${_scopeId}>type 4</span>`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("User card "),
-                __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 4")
+                __vite_ssr_import_36__.createTextVNode("User card "),
+                __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 4")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.user_card4) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.user_card4 = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.user_card4 = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.user_card4)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.user_card4 = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.user_card4 = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardUserCardType4, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardType4, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardUserCardType4)
+                __vite_ssr_import_36__.createVNode(_component_CardUserCardType4)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.user_card4) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -41664,64 +42849,64 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultType4'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultType4" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End Type4 Card --><!-- Type5 Button --><section id="defaultButton" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardSnippetsType4, { id: "defaultType4" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Type4 Card --><!-- Type5 Button --><section id="type5" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`User card <span class="font-normal text-gray-400"${_scopeId}>type 5</span>`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("User card "),
-                __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 5")
+                __vite_ssr_import_36__.createTextVNode("User card "),
+                __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 5")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.user_card5) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.user_card5 = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.user_card5 = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.user_card5)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.user_card5 = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.user_card5 = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardUserCardType5, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardType5, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardUserCardType5)
+                __vite_ssr_import_36__.createVNode(_component_CardUserCardType5)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.user_card5) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -41731,64 +42916,64 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultType5'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultType5" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End Type5 Card --><!-- Type6 Button --><section id="defaultButton" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardSnippetsType5, { id: "defaultType5" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Type5 Card --><!-- Type6 Button --><section id="type6" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`User card <span class="font-normal text-gray-400"${_scopeId}>type 6</span>`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("User card "),
-                __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 6")
+                __vite_ssr_import_36__.createTextVNode("User card "),
+                __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 6")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.user_card6) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.user_card6 = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.user_card6 = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.user_card6)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.user_card6 = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.user_card6 = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardUserCardType6, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardType6, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardUserCardType6)
+                __vite_ssr_import_36__.createVNode(_component_CardUserCardType6)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.user_card6) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -41798,64 +42983,64 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultType6'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultType6" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End Type6 Card --><!-- Type7 Button --><section id="defaultButton" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardSnippetsType6, { id: "defaultType6" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Type6 Card --><!-- Type7 Button --><section id="type7" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`User card <span class="font-normal text-gray-400"${_scopeId}>type 7</span>`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("User card "),
-                __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 7")
+                __vite_ssr_import_36__.createTextVNode("User card "),
+                __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 7")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.user_card7) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.user_card7 = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.user_card7 = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.user_card7)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.user_card7 = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.user_card7 = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardUserCardType7, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardType7, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardUserCardType7)
+                __vite_ssr_import_36__.createVNode(_component_CardUserCardType7)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.user_card7) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -41865,64 +43050,64 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultType7'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultType7" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End Type7 Card --><!-- Type8 Button --><section id="defaultButton" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardSnippetsType7, { id: "defaultType7" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Type7 Card --><!-- Type8 Button --><section id="type8" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`User card <span class="font-normal text-gray-400"${_scopeId}>type 8</span>`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("User card "),
-                __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 8")
+                __vite_ssr_import_36__.createTextVNode("User card "),
+                __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 8")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.user_card8) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.user_card8 = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.user_card8 = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.user_card8)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.user_card8 = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.user_card8 = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardUserCardType8, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardType8, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardUserCardType8)
+                __vite_ssr_import_36__.createVNode(_component_CardUserCardType8)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.user_card8) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -41932,64 +43117,64 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultType8'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultType8" }, null, _parent, _scopeId))
-        _push(`</div><!-- code snippet end --></section><!-- End Type8 Card --><!-- Type9 Button --><section id="defaultButton" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardSnippetsType8, { id: "defaultType8" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End Type8 Card --><!-- Type9 Button --><section id="type9" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`User card <span class="font-normal text-gray-400"${_scopeId}>type 9</span>`)
             } else {
               return [
-                __vite_ssr_import_24__.createTextVNode("User card "),
-                __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 9")
+                __vite_ssr_import_36__.createTextVNode("User card "),
+                __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 9")
               ]
             }
           }),
-          code: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              if (!$data.default_btn) {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsShowCodeButton, {
-                  onClick: $event => ($data.default_btn = true)
+              if (!$data.user_card9) {
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.user_card9 = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsHideCodeButton, {
-                  onClick: $event => ($data.default_btn = false)
+                _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.user_card9 = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
-                (!$data.default_btn)
-                  ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                (!$data.user_card9)
+                  ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
-                      onClick: $event => ($data.default_btn = true)
+                      onClick: $event => ($data.user_card9 = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
-                      onClick: $event => ($data.default_btn = false)
+                      onClick: $event => ($data.user_card9 = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_24__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_36__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_25__.ssrRenderComponent(_component_CardUserCardType9, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardType9, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_24__.createVNode(_component_CardUserCardType9)
+                __vite_ssr_import_36__.createVNode(_component_CardUserCardType9)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_25__.ssrRenderStyle(($data.default_btn) ? null : { display: "none" })
+          __vite_ssr_import_37__.ssrRenderStyle(($data.user_card9) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -41999,11 +43184,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultType9'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_25__.ssrRenderComponent(_component_ButtonSnippetsDefault, { id: "defaultType9" }, null, _parent, _scopeId))
+        _push(__vite_ssr_import_37__.ssrRenderComponent(_component_CardUserCardSnippetsType9, { id: "defaultType9" }, null, _parent, _scopeId))
         _push(`</div><!-- code snippet end --></section><!-- End Type9 Card --></div></div><!-- right sidebar --><div class="hidden lg:block"${
           _scopeId
         }><div class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2"${
@@ -42043,766 +43228,766 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> Type 9 </button></div></div></div></div></div>`)
       } else {
         return [
-          __vite_ssr_import_24__.createVNode("div", { class: "flex p-4" }, [
-            __vite_ssr_import_24__.createCommentVNode(" content "),
-            __vite_ssr_import_24__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
-              __vite_ssr_import_24__.createVNode("div", {
+          __vite_ssr_import_36__.createVNode("div", { class: "flex p-4" }, [
+            __vite_ssr_import_36__.createCommentVNode(" content "),
+            __vite_ssr_import_36__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
+              __vite_ssr_import_36__.createVNode("div", {
                 class: "overflow-y-auto w-full px-4 pb-20",
                 id: "alertContainer"
               }, [
-                __vite_ssr_import_24__.createVNode(_component_HeadersHeading, null, {
-                  default: __vite_ssr_import_24__.withCtx(() => [
-                    __vite_ssr_import_24__.createTextVNode(" Button ")
+                __vite_ssr_import_36__.createVNode(_component_HeadersHeading, null, {
+                  default: __vite_ssr_import_36__.withCtx(() => [
+                    __vite_ssr_import_36__.createTextVNode(" Button ")
                   ]),
                   _: 1 /* STABLE */
                 }),
-                __vite_ssr_import_24__.createVNode("div", null, [
-                  __vite_ssr_import_24__.createVNode("p", { class: "text-base" }, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? ")
+                __vite_ssr_import_36__.createVNode("div", null, [
+                  __vite_ssr_import_36__.createVNode("p", { class: "text-base" }, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" Default Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" Default card "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "defaultCard",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("Default")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Default")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.default_card)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.default_card = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.default_card = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardCta)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardCta)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultCard'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultCard" })
+                        __vite_ssr_import_36__.createVNode(_component_CardSnippetsDefault, { id: "defaultCard" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.default_card]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End default Card "),
-                __vite_ssr_import_24__.createCommentVNode(" Cta Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" End default Card "),
+                __vite_ssr_import_36__.createCommentVNode(" Cta Button "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "cardWithCta",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("CTA")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("CTA")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.cta_card)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.cta_card = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.cta_card = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardDefault)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardDefault)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultCta'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultCta" })
+                        __vite_ssr_import_36__.createVNode(_component_CardSnippetsCta, { id: "defaultCta" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.cta_card]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End Cta Card "),
-                __vite_ssr_import_24__.createCommentVNode(" Link Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" End Cta Card "),
+                __vite_ssr_import_36__.createCommentVNode(" Link Button "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "cardWithLink",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("Link")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Link")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.link_card)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.link_card = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.link_card = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardLink)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardLink)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultLink'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultLink" })
+                        __vite_ssr_import_36__.createVNode(_component_CardSnippetsLink, { id: "defaultLink" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.link_card]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End Link Card "),
-                __vite_ssr_import_24__.createCommentVNode(" DefaultUser Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" End Link Card "),
+                __vite_ssr_import_36__.createCommentVNode(" DefaultUser Button "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "defaultUserCard",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("Default User")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("Default User")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.default_user_card)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.default_user_card = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.default_user_card = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardUserCardDefaultUser)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardUserCardDefaultUser)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultDefaultUser'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultDefaultUser" })
+                        __vite_ssr_import_36__.createVNode(_component_CardUserCardSnippetsDefaultUser, { id: "defaultDefaultUser" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.default_user_card]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End DefaultUser Card "),
-                __vite_ssr_import_24__.createCommentVNode(" Type1 Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" End DefaultUser Card "),
+                __vite_ssr_import_36__.createCommentVNode(" Type1 Button "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "type1",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("User card "),
-                      __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 1")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("User card "),
+                      __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 1")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.user_card1)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.user_card1 = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.user_card1 = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardUserCardType1)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardUserCardType1)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultType1'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultType1" })
+                        __vite_ssr_import_36__.createVNode(_component_CardUserCardSnippetsType1, { id: "defaultType1" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.user_card1]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End Type1 Card "),
-                __vite_ssr_import_24__.createCommentVNode(" Type2 Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" End Type1 Card "),
+                __vite_ssr_import_36__.createCommentVNode(" Type2 Button "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "type2",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("User card "),
-                      __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 2")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("User card "),
+                      __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 2")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.user_card2)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.user_card2 = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.user_card2 = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardUserCardType2)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardUserCardType2)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultType2'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultType2" })
+                        __vite_ssr_import_36__.createVNode(_component_CardUserCardSnippetsType2, { id: "defaultType2" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.user_card2]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End Type2 Card "),
-                __vite_ssr_import_24__.createCommentVNode(" Type3 Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" End Type2 Card "),
+                __vite_ssr_import_36__.createCommentVNode(" Type3 Button "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "type3",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("User card "),
-                      __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 3")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("User card "),
+                      __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 3")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.user_card3)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.user_card3 = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.user_card3 = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardUserCardType3)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardUserCardType3)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultType3'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultType3" })
+                        __vite_ssr_import_36__.createVNode(_component_CardUserCardSnippetsType3, { id: "defaultType3" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.user_card3]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End Type3 Card "),
-                __vite_ssr_import_24__.createCommentVNode(" Type4 Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" End Type3 Card "),
+                __vite_ssr_import_36__.createCommentVNode(" Type4 Button "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "type4",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("User card "),
-                      __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 4")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("User card "),
+                      __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 4")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.user_card4)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.user_card4 = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.user_card4 = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardUserCardType4)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardUserCardType4)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultType4'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultType4" })
+                        __vite_ssr_import_36__.createVNode(_component_CardUserCardSnippetsType4, { id: "defaultType4" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.user_card4]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End Type4 Card "),
-                __vite_ssr_import_24__.createCommentVNode(" Type5 Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" End Type4 Card "),
+                __vite_ssr_import_36__.createCommentVNode(" Type5 Button "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "type5",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("User card "),
-                      __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 5")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("User card "),
+                      __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 5")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.user_card5)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.user_card5 = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.user_card5 = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardUserCardType5)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardUserCardType5)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultType5'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultType5" })
+                        __vite_ssr_import_36__.createVNode(_component_CardUserCardSnippetsType5, { id: "defaultType5" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.user_card5]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End Type5 Card "),
-                __vite_ssr_import_24__.createCommentVNode(" Type6 Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" End Type5 Card "),
+                __vite_ssr_import_36__.createCommentVNode(" Type6 Button "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "type6",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("User card "),
-                      __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 6")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("User card "),
+                      __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 6")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.user_card6)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.user_card6 = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.user_card6 = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardUserCardType6)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardUserCardType6)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultType6'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultType6" })
+                        __vite_ssr_import_36__.createVNode(_component_CardUserCardSnippetsType6, { id: "defaultType6" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.user_card6]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End Type6 Card "),
-                __vite_ssr_import_24__.createCommentVNode(" Type7 Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" End Type6 Card "),
+                __vite_ssr_import_36__.createCommentVNode(" Type7 Button "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "type7",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("User card "),
-                      __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 7")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("User card "),
+                      __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 7")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.user_card7)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.user_card7 = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.user_card7 = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardUserCardType7)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardUserCardType7)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultType7'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultType7" })
+                        __vite_ssr_import_36__.createVNode(_component_CardUserCardSnippetsType7, { id: "defaultType7" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.user_card7]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End Type7 Card "),
-                __vite_ssr_import_24__.createCommentVNode(" Type8 Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" End Type7 Card "),
+                __vite_ssr_import_36__.createCommentVNode(" Type8 Button "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "type8",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("User card "),
-                      __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 8")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("User card "),
+                      __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 8")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.user_card8)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.user_card8 = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.user_card8 = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardUserCardType8)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardUserCardType8)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultType8'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultType8" })
+                        __vite_ssr_import_36__.createVNode(_component_CardUserCardSnippetsType8, { id: "defaultType8" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.user_card8]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End Type8 Card "),
-                __vite_ssr_import_24__.createCommentVNode(" Type9 Button "),
-                __vite_ssr_import_24__.createVNode("section", {
-                  id: "defaultButton",
+                __vite_ssr_import_36__.createCommentVNode(" End Type8 Card "),
+                __vite_ssr_import_36__.createCommentVNode(" Type9 Button "),
+                __vite_ssr_import_36__.createVNode("section", {
+                  id: "type9",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_24__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createTextVNode("User card "),
-                      __vite_ssr_import_24__.createVNode("span", { class: "font-normal text-gray-400" }, "type 9")
+                  __vite_ssr_import_36__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createTextVNode("User card "),
+                      __vite_ssr_import_36__.createVNode("span", { class: "font-normal text-gray-400" }, "type 9")
                     ]),
-                    code: __vite_ssr_import_24__.withCtx(() => [
-                      (!$data.default_btn)
-                        ? (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsShowCodeButton, {
+                    code: __vite_ssr_import_36__.withCtx(() => [
+                      (!$data.user_card9)
+                        ? (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
-                            onClick: $event => ($data.default_btn = true)
+                            onClick: $event => ($data.user_card9 = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_24__.openBlock(), __vite_ssr_import_24__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_36__.openBlock(), __vite_ssr_import_36__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
-                            onClick: $event => ($data.default_btn = false)
+                            onClick: $event => ($data.user_card9 = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.createVNode(_component_CardUserCardType9)
+                  __vite_ssr_import_36__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.createVNode(_component_CardUserCardType9)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_24__.createVNode(__vite_ssr_import_24__.Transition, {
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_36__.createVNode(__vite_ssr_import_36__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_24__.withCtx(() => [
-                      __vite_ssr_import_24__.withDirectives(__vite_ssr_import_24__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_24__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_24__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_24__.createVNode("div", null, [
-                            __vite_ssr_import_24__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_36__.withCtx(() => [
+                      __vite_ssr_import_36__.withDirectives(__vite_ssr_import_36__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_36__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_36__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_36__.createVNode("div", null, [
+                            __vite_ssr_import_36__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultType9'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_24__.createVNode(_component_ButtonSnippetsDefault, { id: "defaultType9" })
+                        __vite_ssr_import_36__.createVNode(_component_CardUserCardSnippetsType9, { id: "defaultType9" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_24__.vShow, $data.default_btn]
+                        [__vite_ssr_import_36__.vShow, $data.user_card9]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_24__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_36__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_24__.createCommentVNode(" End Type9 Card ")
+                __vite_ssr_import_36__.createCommentVNode(" End Type9 Card ")
               ])
             ]),
-            __vite_ssr_import_24__.createCommentVNode(" right sidebar "),
-            __vite_ssr_import_24__.createVNode("div", { class: "hidden lg:block" }, [
-              __vite_ssr_import_24__.createVNode("div", { class: "w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2" }, [
-                __vite_ssr_import_24__.createVNode("div", { class: "overflow-y-auto" }, [
-                  __vite_ssr_import_24__.createCommentVNode(" <AlertInfo /> "),
-                  __vite_ssr_import_24__.createVNode("div", { class: "flex flex-col justify-start items-end space-y-2" }, [
-                    __vite_ssr_import_24__.createVNode("p", { class: "text-normal font-bold" }, "On This Page"),
-                    __vite_ssr_import_24__.createVNode("button", {
+            __vite_ssr_import_36__.createCommentVNode(" right sidebar "),
+            __vite_ssr_import_36__.createVNode("div", { class: "hidden lg:block" }, [
+              __vite_ssr_import_36__.createVNode("div", { class: "w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2" }, [
+                __vite_ssr_import_36__.createVNode("div", { class: "overflow-y-auto" }, [
+                  __vite_ssr_import_36__.createCommentVNode(" <AlertInfo /> "),
+                  __vite_ssr_import_36__.createVNode("div", { class: "flex flex-col justify-start items-end space-y-2" }, [
+                    __vite_ssr_import_36__.createVNode("p", { class: "text-normal font-bold" }, "On This Page"),
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('defaultCard'))
                     }, " Card ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_24__.createVNode("button", {
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('cardWithCta'))
                     }, " CTA ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_24__.createVNode("button", {
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('cardWithLink'))
                     }, " Link ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_24__.createVNode("button", {
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('defaultUserCard'))
                     }, " User Card ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_24__.createVNode("button", {
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('type1'))
                     }, " Type 1 ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_24__.createVNode("button", {
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('type2'))
                     }, " Type 2 ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_24__.createVNode("button", {
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('type3'))
                     }, " Type 3 ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_24__.createVNode("button", {
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('type4'))
                     }, " Type 4 ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_24__.createVNode("button", {
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('type5'))
                     }, " Type 5 ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_24__.createVNode("button", {
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('type6'))
                     }, " Type 6 ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_24__.createVNode("button", {
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('type7'))
                     }, " Type 7 ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_24__.createVNode("button", {
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('type8'))
                     }, " Type 8 ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_24__.createVNode("button", {
+                    __vite_ssr_import_36__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('type9'))
                     }, " Type 9 ", 8 /* PROPS */, ["onClick"])
                   ])
@@ -42817,20 +44002,20 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   }, _parent))
 }
 
-const __vite_ssr_import_26__ = await __vite_ssr_import__("/pages/card.vue?vue&type=style&index=0&lang.css");
+const __vite_ssr_import_38__ = await __vite_ssr_import__("/pages/card.vue?vue&type=style&index=0&lang.css");
 
 
-const __vite_ssr_import_27__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_39__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_27__.useSSRContext()
+  const ssrContext = __vite_ssr_import_39__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/card.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_28__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_40__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_28__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/card.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/card.vue"]]);
 }
 
 
@@ -47901,18 +49086,31 @@ const __modules__ = {
   "/pages/buttons.vue?vue&type=style&index=0&lang.css": $id_c6a52c9a,
   "/pages/card.vue?macro=true": $id_41d6da7a,
   "/components/Card/Cta.vue": $id_fef392b5,
+  "/components/Card/Snippets/Default.vue": $id_08579acc,
   "/components/Card/Default.vue": $id_27a792e0,
+  "/components/Card/Snippets/Cta.vue": $id_5bb25128,
   "/components/Card/Link.vue": $id_a60fbbe0,
+  "/components/Card/Snippets/Link.vue": $id_1edc5e9d,
   "/components/Card/UserCard/DefaultUser.vue": $id_9fd50ff9,
+  "/components/Card/UserCard/Snippets/DefaultUser.vue": $id_deb973b7,
   "/components/Card/UserCard/Type1.vue": $id_0b67519c,
+  "/components/Card/UserCard/Snippets/Type1.vue": $id_11a7cb07,
   "/components/Card/UserCard/Type2.vue": $id_43067e4e,
+  "/components/Card/UserCard/Snippets/Type2.vue": $id_f81e226e,
   "/components/Card/UserCard/Type3.vue": $id_e5981a7d,
+  "/components/Card/UserCard/Snippets/Type3.vue": $id_0831fcb6,
   "/components/Card/UserCard/Type4.vue": $id_64395255,
+  "/components/Card/UserCard/Snippets/Type4.vue": $id_874dfe6a,
   "/components/Card/UserCard/Type5.vue": $id_fcbfd7af,
+  "/components/Card/UserCard/Snippets/Type5.vue": $id_a4f84abf,
   "/components/Card/UserCard/Type6.vue": $id_e9e13ad0,
+  "/components/Card/UserCard/Snippets/Type6.vue": $id_c2232a00,
   "/components/Card/UserCard/Type7.vue": $id_5c0e462a,
+  "/components/Card/UserCard/Snippets/Type7.vue": $id_16a308fb,
   "/components/Card/UserCard/Type8.vue": $id_d5a96e56,
+  "/components/Card/UserCard/Snippets/Type8.vue": $id_18be2a98,
   "/components/Card/UserCard/Type9.vue": $id_90990b5e,
+  "/components/Card/UserCard/Snippets/Type9.vue": $id_d7012042,
   "/pages/card.vue?vue&type=style&index=0&lang.css": $id_d8083b2a,
   "/pages/dropdown.vue?macro=true": $id_65100fe4,
   "/components/Dropdown/Default.vue": $id_c3d83ef0,
