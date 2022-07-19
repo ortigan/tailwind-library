@@ -118,7 +118,7 @@
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <FooterSnippetsWFooterTwoRow id="footerWith2rowsComp" />
+                <FooterSnippetsTwoRow id="footerWith2rowsComp" />
               </div>
             </transition>
             <!-- code snippet end -->
