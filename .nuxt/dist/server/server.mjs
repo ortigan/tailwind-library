@@ -232,6 +232,30 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /components/Button/Appsmith.vue ($id_f75a09c9)
 // - /components/Button/Snippets/Appsmith.vue ($id_1c421991)
 // - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /components/Dropdown/WithIcon.vue ($id_25e5868a)
+// - /components/Dropdown/NoIcon.vue ($id_a35d6fb5)
+// - /components/Dropdown/OnlyHeading.vue ($id_f6e3029f)
+// - /components/Dropdown/Snippets/WithIcon.vue ($id_7970dc7e)
+// - /components/Dropdown/Profile.vue ($id_18f6de88)
+// - /components/Dropdown/Snippets/Profile.vue ($id_e2fa14a4)
+// - /components/Dropdown/Default.vue ($id_c3d83ef0)
+// - /components/Dropdown/Snippets/Default.vue ($id_9db601bc)
+// - /pages/dropdown.vue?macro=true ($id_65100fe4)
+// - /components/Footer/Default.vue ($id_b6595b4c)
+// - /components/Footer/Snippets/Default.vue ($id_66157248)
+// - /components/Footer/LogoSection.vue ($id_3461c3e2)
+// - /components/Footer/Snippets/LogoSection.vue ($id_6e695b56)
+// - /components/Footer/TwoRow.vue ($id_02bc8559)
+// - /components/Footer/Appsmith.vue ($id_9584eb63)
+// - /components/Footer/Snippets/Appsmith.vue ($id_cdef03de)
+// - /pages/footer.vue?macro=true ($id_d8cb473d)
+// - /components/Form/Element.vue ($id_fe902f47)
+// - /components/Form/Snippets/Element.vue ($id_12fc440f)
+// - /components/Form/Default.vue ($id_61ae43aa)
+// - /components/Form/Snippets/Default.vue ($id_e1db028d)
+// - /components/Form/Floatinglabel.vue ($id_32b65436)
+// - /components/Form/Snippets/Floatinglabel.vue ($id_d523dc38)
+// - /pages/form.vue?macro=true ($id_bbef9a8f)
 // - /pages/index.vue?macro=true ($id_5dd70240)
 // - /components/Pagination/Default.vue ($id_9750b4c7)
 // - /components/Pagination/Snippets/Default.vue ($id_bbb8613e)
@@ -277,6 +301,9 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /pages/badge.vue ($id_f19d9a80)
 // - /pages/breadcrumb.vue ($id_76db04e5)
 // - /pages/buttons.vue ($id_e983a7e3)
+// - /pages/dropdown.vue ($id_d20fd50f)
+// - /pages/footer.vue ($id_a531a593)
+// - /pages/form.vue ($id_821dc3e3)
 // - /pages/index.vue ($id_cca58e97)
 // - /pages/pagination.vue ($id_ff91d3a4)
 // - /pages/rating.vue ($id_55a204e0)
@@ -1737,7 +1764,7 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.cs
 
 // --------------------
 const $id_f75548e1 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap\");\n/*! tailwindcss v3.1.6 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[multiple],[type=date],[type=datetime-local],[type=email],[type=month],[type=number],[type=password],[type=search],[type=tel],[type=text],[type=time],[type=url],[type=week],select,textarea{--tw-shadow:0 0 #0000;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;border-color:#6b7280;border-radius:0;border-width:1px;font-size:1rem;line-height:1.5rem;padding:.5rem .75rem}[multiple]:focus,[type=date]:focus,[type=datetime-local]:focus,[type=email]:focus,[type=month]:focus,[type=number]:focus,[type=password]:focus,[type=search]:focus,[type=tel]:focus,[type=text]:focus,[type=time]:focus,[type=url]:focus,[type=week]:focus,select:focus,textarea:focus{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);border-color:#2563eb;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);outline:2px solid transparent;outline-offset:2px}input::-moz-placeholder,textarea::-moz-placeholder{color:#6b7280;opacity:1}input::placeholder,textarea::placeholder{color:#6b7280;opacity:1}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-date-and-time-value{min-height:1.5em}::-webkit-datetime-edit,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-meridiem-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-year-field{padding-bottom:0;padding-top:0}select{color-adjust:exact;background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3E%3C/svg%3E\");background-position:right .5rem center;background-repeat:no-repeat;background-size:1.5em 1.5em;padding-right:2.5rem;-webkit-print-color-adjust:exact;print-color-adjust:exact}[multiple]{color-adjust:unset;background-image:none;background-position:0 0;background-repeat:unset;background-size:initial;padding-right:.75rem;-webkit-print-color-adjust:unset;print-color-adjust:unset}[type=checkbox],[type=radio]{color-adjust:exact;--tw-shadow:0 0 #0000;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;background-origin:border-box;border-color:#6b7280;border-width:1px;color:#2563eb;display:inline-block;flex-shrink:0;height:1rem;padding:0;-webkit-print-color-adjust:exact;print-color-adjust:exact;-webkit-user-select:none;-moz-user-select:none;user-select:none;vertical-align:middle;width:1rem}[type=checkbox]{border-radius:0}[type=radio]{border-radius:100%}[type=checkbox]:focus,[type=radio]:focus{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:2px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);outline:2px solid transparent;outline-offset:2px}[type=checkbox]:checked,[type=radio]:checked{background-color:currentColor;background-position:50%;background-repeat:no-repeat;background-size:100% 100%;border-color:transparent}[type=checkbox]:checked{background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.207 4.793a1 1 0 0 1 0 1.414l-5 5a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L6.5 9.086l4.293-4.293a1 1 0 0 1 1.414 0z'/%3E%3C/svg%3E\")}[type=radio]:checked{background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='8' cy='8' r='3'/%3E%3C/svg%3E\")}[type=checkbox]:checked:focus,[type=checkbox]:checked:hover,[type=radio]:checked:focus,[type=radio]:checked:hover{background-color:currentColor;border-color:transparent}[type=checkbox]:indeterminate{background-color:currentColor;background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3E%3Cpath stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3E%3C/svg%3E\");background-position:50%;background-repeat:no-repeat;background-size:100% 100%;border-color:transparent}[type=checkbox]:indeterminate:focus,[type=checkbox]:indeterminate:hover{background-color:currentColor;border-color:transparent}[type=file]{background:unset;border-color:inherit;border-radius:0;border-width:0;font-size:unset;line-height:inherit;padding:0}[type=file]:focus{outline:1px solid ButtonText;outline:1px auto -webkit-focus-ring-color}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.container{margin-left:auto;margin-right:auto;padding-left:.5rem;padding-right:.5rem;width:100%}@media (min-width:340px){.container{max-width:340px}}@media (min-width:640px){.container{max-width:640px;padding-left:1rem;padding-right:1rem}}@media (min-width:768px){.container{max-width:768px;padding-left:1rem;padding-right:1rem}}@media (min-width:1024px){.container{max-width:1024px;padding-left:2rem;padding-right:2rem}}@media (min-width:1280px){.container{max-width:1280px;padding-left:3rem;padding-right:3rem}}@media (min-width:1536px){.container{max-width:1536px;padding-left:3rem;padding-right:3rem}}.absolute{position:absolute}.relative{position:relative}.top-4{top:1rem}.right-4{right:1rem}.-left-2{left:-.5rem}.-top-2{top:-.5rem}.-right-2{right:-.5rem}.-bottom-2{bottom:-.5rem}.-right-1{right:-.25rem}.-bottom-1{bottom:-.25rem}.-right-3{right:-.75rem}.right-0{right:0}.top-0{top:0}.bottom-0{bottom:0}.-right-0{right:0}.-top-0{top:0}.-bottom-0{bottom:0}.-top-1{top:-.25rem}.-top-3{top:-.75rem}.-top-20{top:-5rem}.col-span-2{grid-column:span 2/span 2}.-my-10{margin-bottom:-2.5rem;margin-top:-2.5rem}.my-4{margin-bottom:1rem;margin-top:1rem}.mt-6{margin-top:1.5rem}.mt-4{margin-top:1rem}.-mt-20{margin-top:-5rem}.mr-4{margin-right:1rem}.ml-2{margin-left:.5rem}.ml-1{margin-left:.25rem}.mr-1{margin-right:.25rem}.mr-2{margin-right:.5rem}.mb-2{margin-bottom:.5rem}.mb-1{margin-bottom:.25rem}.mt-12{margin-top:3rem}.-ml-20{margin-left:-5rem}.mt-8{margin-top:2rem}.mt-10{margin-top:2.5rem}.mt-28{margin-top:7rem}.mt-2{margin-top:.5rem}.flex{display:flex}.inline-flex{display:inline-flex}.table{display:table}.grid{display:grid}.contents{display:contents}.hidden{display:none}.h-28{height:7rem}.h-6{height:1.5rem}.h-16{height:4rem}.h-screen{height:100vh}.h-5{height:1.25rem}.h-10{height:2.5rem}.h-full{height:100%}.h-4{height:1rem}.h-9{height:2.25rem}.h-3{height:.75rem}.h-8{height:2rem}.h-2\\.5{height:.625rem}.h-2{height:.5rem}.h-12{height:3rem}.h-14{height:3.5rem}.h-3\\.5{height:.875rem}.h-20{height:5rem}.h-11{height:2.75rem}.h-1\\.5{height:.375rem}.h-1{height:.25rem}.h-1\\/2{height:50%}.h-36{height:9rem}.h-64{height:16rem}.h-96{height:24rem}.min-h-screen{min-height:100vh}.w-full{width:100%}.w-56{width:14rem}.w-44{width:11rem}.w-40{width:10rem}.w-5{width:1.25rem}.w-fit{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.w-6{width:1.5rem}.w-10{width:2.5rem}.w-4{width:1rem}.w-9{width:2.25rem}.w-3{width:.75rem}.w-8{width:2rem}.w-2\\.5{width:.625rem}.w-2{width:.5rem}.w-12{width:3rem}.w-14{width:3.5rem}.w-3\\.5{width:.875rem}.w-16{width:4rem}.w-20{width:5rem}.w-1\\/3{width:33.333333%}.w-11{width:2.75rem}.w-1\\.5{width:.375rem}.w-1{width:.25rem}.w-1\\/2{width:50%}.w-36{width:9rem}.w-96{width:24rem}.w-72{width:18rem}.w-60{width:15rem}.w-64{width:16rem}.w-24{width:6rem}.flex-1{flex:1 1 0%}.rotate-2{--tw-rotate:2deg}.rotate-2,.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.justify-around{justify-content:space-around}.gap-4{gap:1rem}.gap-1{gap:.25rem}.gap-2{gap:.5rem}.gap-3{gap:.75rem}.gap-y-6{row-gap:1.5rem}.gap-y-8{row-gap:2rem}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.5rem*var(--tw-space-y-reverse));margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)))}.space-x-5>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.25rem*var(--tw-space-x-reverse))}.space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1rem*var(--tw-space-x-reverse))}.space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.5rem*var(--tw-space-x-reverse))}.space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.25rem*var(--tw-space-y-reverse));margin-top:calc(.25rem*(1 - var(--tw-space-y-reverse)))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1rem*var(--tw-space-y-reverse));margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)))}.space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.5rem*var(--tw-space-x-reverse))}.space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1.5rem*var(--tw-space-y-reverse));margin-top:calc(1.5rem*(1 - var(--tw-space-y-reverse)))}.-space-x-3>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(-.75rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(-.75rem*var(--tw-space-x-reverse))}.space-x-1>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.25rem*var(--tw-space-x-reverse))}.-space-x-px>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(-1px*(1 - var(--tw-space-x-reverse)));margin-right:calc(-1px*var(--tw-space-x-reverse))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.75rem*var(--tw-space-y-reverse));margin-top:calc(.75rem*(1 - var(--tw-space-y-reverse)))}.-space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(-.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(-.5rem*var(--tw-space-x-reverse))}.overflow-y-auto{overflow-y:auto}.overflow-y-hidden{overflow-y:hidden}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-2xl{border-radius:1rem}.rounded-md{border-radius:.375rem}.rounded-sm{border-radius:.125rem}.rounded{border-radius:.25rem}.rounded-xl{border-radius:.75rem}.rounded-l-lg{border-bottom-left-radius:.5rem;border-top-left-radius:.5rem}.rounded-r-lg{border-bottom-right-radius:.5rem;border-top-right-radius:.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-l-2{border-left-width:2px}.border-t-2{border-top-width:2px}.border-t{border-top-width:1px}.border-dashed{border-style:dashed}.border-neutral-700{--tw-border-opacity:1;border-color:rgb(64 64 64/var(--tw-border-opacity))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255/var(--tw-border-opacity))}.border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81/var(--tw-border-opacity))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219/var(--tw-border-opacity))}.border-gray-900{--tw-border-opacity:1;border-color:rgb(17 24 39/var(--tw-border-opacity))}.border-sky-700{--tw-border-opacity:1;border-color:rgb(3 105 161/var(--tw-border-opacity))}.border-emerald-700{--tw-border-opacity:1;border-color:rgb(4 120 87/var(--tw-border-opacity))}.border-amber-700{--tw-border-opacity:1;border-color:rgb(180 83 9/var(--tw-border-opacity))}.border-rose-700{--tw-border-opacity:1;border-color:rgb(190 18 60/var(--tw-border-opacity))}.border-slate-900{--tw-border-opacity:1;border-color:rgb(15 23 42/var(--tw-border-opacity))}.border-gray-400{--tw-border-opacity:1;border-color:rgb(156 163 175/var(--tw-border-opacity))}.border-cyan-500{--tw-border-opacity:1;border-color:rgb(6 182 212/var(--tw-border-opacity))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235/var(--tw-border-opacity))}.border-sky-600{--tw-border-opacity:1;border-color:rgb(2 132 199/var(--tw-border-opacity))}.border-emerald-600{--tw-border-opacity:1;border-color:rgb(5 150 105/var(--tw-border-opacity))}.border-amber-600{--tw-border-opacity:1;border-color:rgb(217 119 6/var(--tw-border-opacity))}.border-rose-600{--tw-border-opacity:1;border-color:rgb(225 29 72/var(--tw-border-opacity))}.border-gray-600{--tw-border-opacity:1;border-color:rgb(75 85 99/var(--tw-border-opacity))}.border-pink-500{--tw-border-opacity:1;border-color:rgb(236 72 153/var(--tw-border-opacity))}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246/var(--tw-border-opacity))}.border-black{--tw-border-opacity:1;border-color:rgb(0 0 0/var(--tw-border-opacity))}.border-green-200{--tw-border-opacity:1;border-color:rgb(187 247 208/var(--tw-border-opacity))}.border-sky-200{--tw-border-opacity:1;border-color:rgb(186 230 253/var(--tw-border-opacity))}.border-yellow-200{--tw-border-opacity:1;border-color:rgb(254 240 138/var(--tw-border-opacity))}.border-red-200{--tw-border-opacity:1;border-color:rgb(254 202 202/var(--tw-border-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity))}.bg-neutral-50{--tw-bg-opacity:1;background-color:rgb(250 250 250/var(--tw-bg-opacity))}.bg-\\[\\#0A0C25\\]{--tw-bg-opacity:1;background-color:rgb(10 12 37/var(--tw-bg-opacity))}.bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.bg-zinc-100{--tw-bg-opacity:1;background-color:rgb(244 244 245/var(--tw-bg-opacity))}.bg-sky-100{--tw-bg-opacity:1;background-color:rgb(224 242 254/var(--tw-bg-opacity))}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229/var(--tw-bg-opacity))}.bg-amber-100{--tw-bg-opacity:1;background-color:rgb(254 243 199/var(--tw-bg-opacity))}.bg-rose-100{--tw-bg-opacity:1;background-color:rgb(255 228 230/var(--tw-bg-opacity))}.bg-yellow-400{--tw-bg-opacity:1;background-color:rgb(250 204 21/var(--tw-bg-opacity))}.bg-cyan-600{--tw-bg-opacity:1;background-color:rgb(8 145 178/var(--tw-bg-opacity))}.bg-violet-500{--tw-bg-opacity:1;background-color:rgb(139 92 246/var(--tw-bg-opacity))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254/var(--tw-bg-opacity))}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246/var(--tw-bg-opacity))}.bg-pink-300{--tw-bg-opacity:1;background-color:rgb(249 168 212/var(--tw-bg-opacity))}.bg-rose-500{--tw-bg-opacity:1;background-color:rgb(244 63 94/var(--tw-bg-opacity))}.bg-gray-500{--tw-bg-opacity:1;background-color:rgb(107 114 128/var(--tw-bg-opacity))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94/var(--tw-bg-opacity))}.bg-cyan-500{--tw-bg-opacity:1;background-color:rgb(6 182 212/var(--tw-bg-opacity))}.bg-yellow-500{--tw-bg-opacity:1;background-color:rgb(234 179 8/var(--tw-bg-opacity))}.bg-green-400{--tw-bg-opacity:1;background-color:rgb(74 222 128/var(--tw-bg-opacity))}.bg-purple-400{--tw-bg-opacity:1;background-color:rgb(192 132 252/var(--tw-bg-opacity))}.bg-indigo-300{--tw-bg-opacity:1;background-color:rgb(165 180 252/var(--tw-bg-opacity))}.bg-red-400{--tw-bg-opacity:1;background-color:rgb(248 113 113/var(--tw-bg-opacity))}.bg-fuchsia-600{--tw-bg-opacity:1;background-color:rgb(192 38 211/var(--tw-bg-opacity))}.bg-sky-400{--tw-bg-opacity:1;background-color:rgb(56 189 248/var(--tw-bg-opacity))}.bg-amber-400{--tw-bg-opacity:1;background-color:rgb(251 191 36/var(--tw-bg-opacity))}.bg-teal-400{--tw-bg-opacity:1;background-color:rgb(45 212 191/var(--tw-bg-opacity))}.bg-red-500{--tw-bg-opacity:1;background-color:rgb(239 68 68/var(--tw-bg-opacity))}.bg-sky-300{--tw-bg-opacity:1;background-color:rgb(125 211 252/var(--tw-bg-opacity))}.bg-yellow-200{--tw-bg-opacity:1;background-color:rgb(254 240 138/var(--tw-bg-opacity))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity))}.bg-gray-400{--tw-bg-opacity:1;background-color:rgb(156 163 175/var(--tw-bg-opacity))}.bg-blue-400{--tw-bg-opacity:1;background-color:rgb(96 165 250/var(--tw-bg-opacity))}.bg-teal-300{--tw-bg-opacity:1;background-color:rgb(94 234 212/var(--tw-bg-opacity))}.bg-emerald-400{--tw-bg-opacity:1;background-color:rgb(52 211 153/var(--tw-bg-opacity))}.bg-amber-300{--tw-bg-opacity:1;background-color:rgb(252 211 77/var(--tw-bg-opacity))}.bg-rose-300{--tw-bg-opacity:1;background-color:rgb(253 164 175/var(--tw-bg-opacity))}.bg-red-300{--tw-bg-opacity:1;background-color:rgb(252 165 165/var(--tw-bg-opacity))}.bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.bg-yellow-100{--tw-bg-opacity:1;background-color:rgb(254 249 195/var(--tw-bg-opacity))}.bg-red-100{--tw-bg-opacity:1;background-color:rgb(254 226 226/var(--tw-bg-opacity))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity))}.bg-gray-300{--tw-bg-opacity:1;background-color:rgb(209 213 219/var(--tw-bg-opacity))}.bg-gray-600{--tw-bg-opacity:1;background-color:rgb(75 85 99/var(--tw-bg-opacity))}.bg-\\[\\#ff6d2d\\]{--tw-bg-opacity:1;background-color:rgb(255 109 45/var(--tw-bg-opacity))}.bg-slate-600{--tw-bg-opacity:1;background-color:rgb(71 85 105/var(--tw-bg-opacity))}.bg-zinc-600{--tw-bg-opacity:1;background-color:rgb(82 82 91/var(--tw-bg-opacity))}.bg-neutral-600{--tw-bg-opacity:1;background-color:rgb(82 82 82/var(--tw-bg-opacity))}.bg-stone-600{--tw-bg-opacity:1;background-color:rgb(87 83 78/var(--tw-bg-opacity))}.bg-red-600{--tw-bg-opacity:1;background-color:rgb(220 38 38/var(--tw-bg-opacity))}.bg-orange-600{--tw-bg-opacity:1;background-color:rgb(234 88 12/var(--tw-bg-opacity))}.bg-amber-600{--tw-bg-opacity:1;background-color:rgb(217 119 6/var(--tw-bg-opacity))}.bg-yellow-600{--tw-bg-opacity:1;background-color:rgb(202 138 4/var(--tw-bg-opacity))}.bg-lime-600{--tw-bg-opacity:1;background-color:rgb(101 163 13/var(--tw-bg-opacity))}.bg-green-600{--tw-bg-opacity:1;background-color:rgb(22 163 74/var(--tw-bg-opacity))}.bg-emerald-600{--tw-bg-opacity:1;background-color:rgb(5 150 105/var(--tw-bg-opacity))}.bg-teal-600{--tw-bg-opacity:1;background-color:rgb(13 148 136/var(--tw-bg-opacity))}.bg-sky-600{--tw-bg-opacity:1;background-color:rgb(2 132 199/var(--tw-bg-opacity))}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235/var(--tw-bg-opacity))}.bg-indigo-600{--tw-bg-opacity:1;background-color:rgb(79 70 229/var(--tw-bg-opacity))}.bg-violet-600{--tw-bg-opacity:1;background-color:rgb(124 58 237/var(--tw-bg-opacity))}.bg-pink-600{--tw-bg-opacity:1;background-color:rgb(219 39 119/var(--tw-bg-opacity))}.bg-rose-600{--tw-bg-opacity:1;background-color:rgb(225 29 72/var(--tw-bg-opacity))}.bg-slate-400{--tw-bg-opacity:1;background-color:rgb(148 163 184/var(--tw-bg-opacity))}.bg-zinc-400{--tw-bg-opacity:1;background-color:rgb(161 161 170/var(--tw-bg-opacity))}.bg-neutral-400{--tw-bg-opacity:1;background-color:rgb(163 163 163/var(--tw-bg-opacity))}.bg-stone-400{--tw-bg-opacity:1;background-color:rgb(168 162 158/var(--tw-bg-opacity))}.bg-orange-400{--tw-bg-opacity:1;background-color:rgb(251 146 60/var(--tw-bg-opacity))}.bg-yellow-300{--tw-bg-opacity:1;background-color:rgb(253 224 71/var(--tw-bg-opacity))}.bg-lime-400{--tw-bg-opacity:1;background-color:rgb(163 230 53/var(--tw-bg-opacity))}.bg-cyan-400{--tw-bg-opacity:1;background-color:rgb(34 211 238/var(--tw-bg-opacity))}.bg-indigo-400{--tw-bg-opacity:1;background-color:rgb(129 140 248/var(--tw-bg-opacity))}.bg-violet-400{--tw-bg-opacity:1;background-color:rgb(167 139 250/var(--tw-bg-opacity))}.bg-fuchsia-400{--tw-bg-opacity:1;background-color:rgb(232 121 249/var(--tw-bg-opacity))}.bg-pink-400{--tw-bg-opacity:1;background-color:rgb(244 114 182/var(--tw-bg-opacity))}.bg-rose-400{--tw-bg-opacity:1;background-color:rgb(251 113 133/var(--tw-bg-opacity))}.bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.bg-\\[\\#FAF5ED\\]{--tw-bg-opacity:1;background-color:rgb(250 245 237/var(--tw-bg-opacity))}.bg-blue-50{--tw-bg-opacity:1;background-color:rgb(239 246 255/var(--tw-bg-opacity))}.bg-neutral-700{--tw-bg-opacity:1;background-color:rgb(64 64 64/var(--tw-bg-opacity))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249/var(--tw-bg-opacity))}.bg-green-100{--tw-bg-opacity:1;background-color:rgb(220 252 231/var(--tw-bg-opacity))}.bg-sky-500{--tw-bg-opacity:1;background-color:rgb(14 165 233/var(--tw-bg-opacity))}.bg-opacity-70{--tw-bg-opacity:0.7}.bg-gradient-to-br{background-image:linear-gradient(to bottom right,var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.from-sky-400{--tw-gradient-from:#38bdf8;--tw-gradient-to:rgba(56,189,248,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-rose-400{--tw-gradient-from:#fb7185;--tw-gradient-to:rgba(251,113,133,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-emerald-400{--tw-gradient-from:#34d399;--tw-gradient-to:rgba(52,211,153,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-amber-400{--tw-gradient-from:#fbbf24;--tw-gradient-to:rgba(251,191,36,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-fuchsia-400{--tw-gradient-from:#e879f9;--tw-gradient-to:rgba(232,121,249,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-blue-500{--tw-gradient-from:#3b82f6;--tw-gradient-to:rgba(59,130,246,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-pink-600{--tw-gradient-from:#db2777;--tw-gradient-to:rgba(219,39,119,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-neutral-200{--tw-gradient-from:#e5e5e5;--tw-gradient-to:hsla(0,0%,90%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-red-300{--tw-gradient-from:#fca5a5;--tw-gradient-to:hsla(0,94%,82%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.via-sky-500{--tw-gradient-to:rgba(14,165,233,0);--tw-gradient-stops:var(--tw-gradient-from),#0ea5e9,var(--tw-gradient-to)}.via-rose-500{--tw-gradient-to:rgba(244,63,94,0);--tw-gradient-stops:var(--tw-gradient-from),#f43f5e,var(--tw-gradient-to)}.via-emerald-500{--tw-gradient-to:rgba(16,185,129,0);--tw-gradient-stops:var(--tw-gradient-from),#10b981,var(--tw-gradient-to)}.via-amber-500{--tw-gradient-to:rgba(245,158,11,0);--tw-gradient-stops:var(--tw-gradient-from),#f59e0b,var(--tw-gradient-to)}.via-fuchsia-500{--tw-gradient-to:rgba(217,70,239,0);--tw-gradient-stops:var(--tw-gradient-from),#d946ef,var(--tw-gradient-to)}.via-purple-400{--tw-gradient-to:rgba(192,132,252,0);--tw-gradient-stops:var(--tw-gradient-from),#c084fc,var(--tw-gradient-to)}.to-sky-600{--tw-gradient-to:#0284c7}.to-rose-600{--tw-gradient-to:#e11d48}.to-emerald-600{--tw-gradient-to:#059669}.to-amber-600{--tw-gradient-to:#d97706}.to-fuchsia-600{--tw-gradient-to:#c026d3}.to-sky-300{--tw-gradient-to:#7dd3fc}.to-indigo-300{--tw-gradient-to:#a5b4fc}.to-teal-400{--tw-gradient-to:#2dd4bf}.to-rose-500{--tw-gradient-to:#f43f5e}.bg-clip-padding{background-clip:padding-box}.object-cover{-o-object-fit:cover;object-fit:cover}.p-4{padding:1rem}.p-0\\.5{padding:.125rem}.p-0{padding:0}.p-2{padding:.5rem}.p-1\\.5{padding:.375rem}.p-1{padding:.25rem}.py-1{padding-bottom:.25rem;padding-top:.25rem}.px-4{padding-left:1rem;padding-right:1rem}.px-2{padding-left:.5rem;padding-right:.5rem}.py-2{padding-bottom:.5rem;padding-top:.5rem}.px-1{padding-left:.25rem;padding-right:.25rem}.px-0\\.5{padding-left:.125rem;padding-right:.125rem}.px-0{padding-left:0;padding-right:0}.px-3{padding-left:.75rem;padding-right:.75rem}.py-0\\.5{padding-bottom:.125rem;padding-top:.125rem}.py-0{padding-bottom:0;padding-top:0}.px-2\\.5{padding-left:.625rem;padding-right:.625rem}.px-1\\.5{padding-left:.375rem;padding-right:.375rem}.py-3{padding-bottom:.75rem;padding-top:.75rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-3\\.5{padding-bottom:.875rem;padding-top:.875rem}.py-1\\.5{padding-bottom:.375rem;padding-top:.375rem}.px-7{padding-left:1.75rem;padding-right:1.75rem}.px-9{padding-left:2.25rem;padding-right:2.25rem}.py-4{padding-bottom:1rem;padding-top:1rem}.py-6{padding-bottom:1.5rem;padding-top:1.5rem}.py-5{padding-bottom:1.25rem;padding-top:1.25rem}.py-2\\.5{padding-bottom:.625rem;padding-top:.625rem}.py-10{padding-bottom:2.5rem;padding-top:2.5rem}.px-10{padding-left:2.5rem;padding-right:2.5rem}.pl-4{padding-left:1rem}.pr-12{padding-right:3rem}.pb-20{padding-bottom:5rem}.pt-2{padding-top:.5rem}.pb-4{padding-bottom:1rem}.pt-1{padding-top:.25rem}.pl-1{padding-left:.25rem}.pt-10{padding-top:2.5rem}.pl-6{padding-left:1.5rem}.pt-4{padding-top:1rem}.pl-8{padding-left:2rem}.pb-6{padding-bottom:1.5rem}.text-center{text-align:center}.text-right{text-align:right}.font-primary{font-family:Inter}.text-xs{font-size:.75rem}.text-base{font-size:1rem}.text-sm{font-size:.875rem}.text-7xl{font-size:5rem}.text-xxs{font-size:.7rem}.text-xl{font-size:1.25rem}.text-2xl{font-size:1.5rem}.text-lg{font-size:1.125rem}.text-3xl{font-size:1.875rem}.text-5xl{font-size:3rem}.font-semibold{font-weight:600}.font-normal{font-weight:400}.font-thin{font-weight:100}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-light{font-weight:300}.uppercase{text-transform:uppercase}.italic{font-style:italic}.tracking-tight{letter-spacing:-.025em}.tracking-tighter{letter-spacing:-.05em}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85/var(--tw-text-opacity))}.text-sky-700{--tw-text-opacity:1;color:rgb(3 105 161/var(--tw-text-opacity))}.text-sky-900{--tw-text-opacity:1;color:rgb(12 74 110/var(--tw-text-opacity))}.text-sky-800{--tw-text-opacity:1;color:rgb(7 89 133/var(--tw-text-opacity))}.text-sky-500{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.text-zinc-400{--tw-text-opacity:1;color:rgb(161 161 170/var(--tw-text-opacity))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87/var(--tw-text-opacity))}.text-amber-700{--tw-text-opacity:1;color:rgb(180 83 9/var(--tw-text-opacity))}.text-rose-700{--tw-text-opacity:1;color:rgb(190 18 60/var(--tw-text-opacity))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216/var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94/var(--tw-text-opacity))}.text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.text-cyan-500{--tw-text-opacity:1;color:rgb(6 182 212/var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.text-sky-600{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105/var(--tw-text-opacity))}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6/var(--tw-text-opacity))}.text-rose-600{--tw-text-opacity:1;color:rgb(225 29 72/var(--tw-text-opacity))}.text-pink-500{--tw-text-opacity:1;color:rgb(236 72 153/var(--tw-text-opacity))}.text-blue-500{--tw-text-opacity:1;color:rgb(59 130 246/var(--tw-text-opacity))}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.text-\\[\\#2a2f3d\\]{--tw-text-opacity:1;color:rgb(42 47 61/var(--tw-text-opacity))}.text-\\[\\#ff6d2d\\]{--tw-text-opacity:1;color:rgb(255 109 45/var(--tw-text-opacity))}.text-yellow-400{--tw-text-opacity:1;color:rgb(250 204 21/var(--tw-text-opacity))}.text-pink-600{--tw-text-opacity:1;color:rgb(219 39 119/var(--tw-text-opacity))}.text-neutral-400{--tw-text-opacity:1;color:rgb(163 163 163/var(--tw-text-opacity))}.text-green-50{--tw-text-opacity:1;color:rgb(240 253 244/var(--tw-text-opacity))}.text-yellow-500{--tw-text-opacity:1;color:rgb(234 179 8/var(--tw-text-opacity))}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68/var(--tw-text-opacity))}.text-sky-50{--tw-text-opacity:1;color:rgb(240 249 255/var(--tw-text-opacity))}.text-yellow-50{--tw-text-opacity:1;color:rgb(254 252 232/var(--tw-text-opacity))}.text-red-50{--tw-text-opacity:1;color:rgb(254 242 242/var(--tw-text-opacity))}.text-cyan-700{--tw-text-opacity:1;color:rgb(14 116 144/var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.no-underline{-webkit-text-decoration-line:none;text-decoration-line:none}.shadow{--tw-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color)}.shadow,.shadow-lg{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.shadow-md{--tw-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-gray-300{--tw-shadow-color:#d1d5db;--tw-shadow:var(--tw-shadow-colored)}.shadow-gray-400{--tw-shadow-color:#9ca3af;--tw-shadow:var(--tw-shadow-colored)}.shadow-blue-300{--tw-shadow-color:#93c5fd;--tw-shadow:var(--tw-shadow-colored)}.shadow-red-300{--tw-shadow-color:#fca5a5;--tw-shadow:var(--tw-shadow-colored)}.shadow-gray-200{--tw-shadow-color:#e5e7eb;--tw-shadow:var(--tw-shadow-colored)}.shadow-sky-500\\/50{--tw-shadow-color:rgba(14,165,233,.5);--tw-shadow:var(--tw-shadow-colored)}.shadow-rose-500\\/40{--tw-shadow-color:rgba(244,63,94,.4);--tw-shadow:var(--tw-shadow-colored)}.shadow-emerald-500\\/50{--tw-shadow-color:rgba(16,185,129,.5);--tw-shadow:var(--tw-shadow-colored)}.shadow-amber-500\\/50{--tw-shadow-color:rgba(245,158,11,.5);--tw-shadow:var(--tw-shadow-colored)}.shadow-fuchsia-500\\/50{--tw-shadow-color:rgba(217,70,239,.5);--tw-shadow:var(--tw-shadow-colored)}.outline{outline-style:solid}.ring-2{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.ring,.ring-2{box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.ring{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.ring-indigo-400{--tw-ring-opacity:1;--tw-ring-color:rgb(129 140 248/var(--tw-ring-opacity))}.ring-green-300{--tw-ring-opacity:1;--tw-ring-color:rgb(134 239 172/var(--tw-ring-opacity))}.ring-red-300{--tw-ring-opacity:1;--tw-ring-color:rgb(252 165 165/var(--tw-ring-opacity))}.ring-sky-300{--tw-ring-opacity:1;--tw-ring-color:rgb(125 211 252/var(--tw-ring-opacity))}.ring-emerald-400{--tw-ring-opacity:1;--tw-ring-color:rgb(52 211 153/var(--tw-ring-opacity))}.ring-blue-300{--tw-ring-opacity:1;--tw-ring-color:rgb(147 197 253/var(--tw-ring-opacity))}.ring-red-400{--tw-ring-opacity:1;--tw-ring-color:rgb(248 113 113/var(--tw-ring-opacity))}.ring-green-400{--tw-ring-opacity:1;--tw-ring-color:rgb(74 222 128/var(--tw-ring-opacity))}.ring-white{--tw-ring-opacity:1;--tw-ring-color:rgb(255 255 255/var(--tw-ring-opacity))}.transition{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-all{transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}html{font-family:\"Inter\",sans-serif;font-family:\"Montserrat\",sans-serif}::-webkit-scrollbar{height:12px;width:5px}::-webkit-scrollbar-track{border:1px solid #8c8c8c;border-radius:10px}::-webkit-scrollbar-thumb{background:#848484;border-radius:10px}::-webkit-scrollbar-thumb:hover{background:#909090}.no-scrollbar::-webkit-scrollbar{display:none}.no-scrollbar{-ms-overflow-style:none;scrollbar-width:none}pre[class*=language-]{border-radius:10px!important;font-size:.9rem;margin:.5em 0;overflow:auto;padding:1em}.light pre[class*=language-]{background:#f5f5f5!important;padding:1.5rem}.dark pre[class*=language-]{background:#171717!important;padding:1.5rem}.fadeSnippet-enter-active{-webkit-animation:fade-in .2s;animation:fade-in .2s}.fadeSnippet-leave-active{-webkit-animation:fade-out .2s;animation:fade-out .2s}@-webkit-keyframes fade-in{0%{transform:translateY(10px)}to{transform:translateY(0)}}@keyframes fade-in{0%{transform:translateY(10px)}to{transform:translateY(0)}}@-webkit-keyframes fade-out{0%{transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}@keyframes fade-out{0%{transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}.hover\\:mr-2:hover{margin-right:.5rem}.hover\\:h-10:hover{height:2.5rem}.hover\\:w-10:hover{width:2.5rem}.hover\\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\\:cursor-pointer:hover{cursor:pointer}.hover\\:cursor-default:hover{cursor:default}.hover\\:border-2:hover{border-width:2px}.hover\\:border:hover{border-width:1px}.hover\\:border-\\[\\#ff6d2d\\]:hover{--tw-border-opacity:1;border-color:rgb(255 109 45/var(--tw-border-opacity))}.hover\\:border-gray-500:hover{--tw-border-opacity:1;border-color:rgb(107 114 128/var(--tw-border-opacity))}.hover\\:border-blue-500:hover{--tw-border-opacity:1;border-color:rgb(59 130 246/var(--tw-border-opacity))}.hover\\:bg-gray-200:hover{--tw-bg-opacity:1;background-color:rgb(229 231 235/var(--tw-bg-opacity))}.hover\\:bg-blue-200:hover{--tw-bg-opacity:1;background-color:rgb(191 219 254/var(--tw-bg-opacity))}.hover\\:bg-gray-800:hover{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.hover\\:bg-indigo-200:hover{--tw-bg-opacity:1;background-color:rgb(199 210 254/var(--tw-bg-opacity))}.hover\\:bg-sky-200:hover{--tw-bg-opacity:1;background-color:rgb(186 230 253/var(--tw-bg-opacity))}.hover\\:bg-teal-200:hover{--tw-bg-opacity:1;background-color:rgb(153 246 228/var(--tw-bg-opacity))}.hover\\:bg-rose-200:hover{--tw-bg-opacity:1;background-color:rgb(254 205 211/var(--tw-bg-opacity))}.hover\\:bg-red-200:hover{--tw-bg-opacity:1;background-color:rgb(254 202 202/var(--tw-bg-opacity))}.hover\\:bg-emerald-200:hover{--tw-bg-opacity:1;background-color:rgb(167 243 208/var(--tw-bg-opacity))}.hover\\:bg-yellow-200:hover{--tw-bg-opacity:1;background-color:rgb(254 240 138/var(--tw-bg-opacity))}.hover\\:bg-zinc-200:hover{--tw-bg-opacity:1;background-color:rgb(228 228 231/var(--tw-bg-opacity))}.hover\\:bg-gray-900:hover{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.hover\\:bg-\\[\\#FAF5ED\\]:hover{--tw-bg-opacity:1;background-color:rgb(250 245 237/var(--tw-bg-opacity))}.hover\\:bg-pink-500:hover{--tw-bg-opacity:1;background-color:rgb(236 72 153/var(--tw-bg-opacity))}.hover\\:bg-gray-300:hover{--tw-bg-opacity:1;background-color:rgb(209 213 219/var(--tw-bg-opacity))}.hover\\:bg-green-400:hover{--tw-bg-opacity:1;background-color:rgb(74 222 128/var(--tw-bg-opacity))}.hover\\:bg-cyan-400:hover{--tw-bg-opacity:1;background-color:rgb(34 211 238/var(--tw-bg-opacity))}.hover\\:bg-gray-700:hover{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.hover\\:bg-cyan-500:hover{--tw-bg-opacity:1;background-color:rgb(6 182 212/var(--tw-bg-opacity))}.hover\\:bg-gray-50:hover{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity))}.hover\\:bg-blue-100:hover{--tw-bg-opacity:1;background-color:rgb(219 234 254/var(--tw-bg-opacity))}.hover\\:bg-green-100:hover{--tw-bg-opacity:1;background-color:rgb(220 252 231/var(--tw-bg-opacity))}.hover\\:bg-sky-100:hover{--tw-bg-opacity:1;background-color:rgb(224 242 254/var(--tw-bg-opacity))}.hover\\:bg-yellow-100:hover{--tw-bg-opacity:1;background-color:rgb(254 249 195/var(--tw-bg-opacity))}.hover\\:bg-red-100:hover{--tw-bg-opacity:1;background-color:rgb(254 226 226/var(--tw-bg-opacity))}.hover\\:bg-red-400:hover{--tw-bg-opacity:1;background-color:rgb(248 113 113/var(--tw-bg-opacity))}.hover\\:bg-blue-600:hover{--tw-bg-opacity:1;background-color:rgb(37 99 235/var(--tw-bg-opacity))}.hover\\:bg-amber-200:hover{--tw-bg-opacity:1;background-color:rgb(253 230 138/var(--tw-bg-opacity))}.hover\\:bg-gradient-to-r:hover{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.hover\\:pl-0\\.5:hover{padding-left:.125rem}.hover\\:pl-0:hover{padding-left:0}.hover\\:font-semibold:hover{font-weight:600}.hover\\:text-sky-800:hover{--tw-text-opacity:1;color:rgb(7 89 133/var(--tw-text-opacity))}.hover\\:text-emerald-800:hover{--tw-text-opacity:1;color:rgb(6 95 70/var(--tw-text-opacity))}.hover\\:text-amber-800:hover{--tw-text-opacity:1;color:rgb(146 64 14/var(--tw-text-opacity))}.hover\\:text-rose-800:hover{--tw-text-opacity:1;color:rgb(159 18 57/var(--tw-text-opacity))}.hover\\:text-gray-500:hover{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.hover\\:text-\\[\\#ff6d2d\\]:hover{--tw-text-opacity:1;color:rgb(255 109 45/var(--tw-text-opacity))}.hover\\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.hover\\:text-gray-400:hover{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.hover\\:text-blue-800:hover{--tw-text-opacity:1;color:rgb(30 64 175/var(--tw-text-opacity))}.hover\\:text-gray-700:hover{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.hover\\:text-blue-700:hover{--tw-text-opacity:1;color:rgb(29 78 216/var(--tw-text-opacity))}.hover\\:text-green-600:hover{--tw-text-opacity:1;color:rgb(22 163 74/var(--tw-text-opacity))}.hover\\:text-sky-600:hover{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.hover\\:text-yellow-600:hover{--tw-text-opacity:1;color:rgb(202 138 4/var(--tw-text-opacity))}.hover\\:text-red-600:hover{--tw-text-opacity:1;color:rgb(220 38 38/var(--tw-text-opacity))}.hover\\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline}.hover\\:shadow-none:hover{--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.hover\\:shadow-gray-200:hover{--tw-shadow-color:#e5e7eb;--tw-shadow:var(--tw-shadow-colored)}.hover\\:shadow-cyan-200:hover{--tw-shadow-color:#a5f3fc;--tw-shadow:var(--tw-shadow-colored)}.group:hover .group-hover\\:scale-110{--tw-scale-x:1.1;--tw-scale-y:1.1;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\\:underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.dark .dark\\:border-gray-900{--tw-border-opacity:1;border-color:rgb(17 24 39/var(--tw-border-opacity))}.dark .dark\\:border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55/var(--tw-border-opacity))}.dark .dark\\:border-zinc-700{--tw-border-opacity:1;border-color:rgb(63 63 70/var(--tw-border-opacity))}.dark .dark\\:border-gray-400{--tw-border-opacity:1;border-color:rgb(156 163 175/var(--tw-border-opacity))}.dark .dark\\:border-black{--tw-border-opacity:1;border-color:rgb(0 0 0/var(--tw-border-opacity))}.dark .dark\\:border-\\[\\#2D2D2D\\]{--tw-border-opacity:1;border-color:rgb(45 45 45/var(--tw-border-opacity))}.dark .dark\\:border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81/var(--tw-border-opacity))}.dark .dark\\:border-b-\\[\\#2D2D2D\\]{--tw-border-opacity:1;border-bottom-color:rgb(45 45 45/var(--tw-border-opacity))}.dark .dark\\:bg-neutral-800{--tw-bg-opacity:1;background-color:rgb(38 38 38/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#212121\\]{--tw-bg-opacity:1;background-color:rgb(33 33 33/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#121212\\]{--tw-bg-opacity:1;background-color:rgb(18 18 18/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-800{--tw-bg-opacity:1;background-color:rgb(39 39 42/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-700{--tw-bg-opacity:1;background-color:rgb(63 63 70/var(--tw-bg-opacity))}.dark .dark\\:bg-neutral-700{--tw-bg-opacity:1;background-color:rgb(64 64 64/var(--tw-bg-opacity))}.dark .dark\\:bg-neutral-600{--tw-bg-opacity:1;background-color:rgb(82 82 82/var(--tw-bg-opacity))}.dark .dark\\:bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity))}.dark .dark\\:from-neutral-50{--tw-gradient-from:#fafafa;--tw-gradient-to:hsla(0,0%,98%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.dark .dark\\:to-neutral-500{--tw-gradient-to:#737373}.dark .dark\\:text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.dark .dark\\:text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.dark .dark\\:text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.dark .dark\\:text-sky-500{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.dark .dark\\:text-sky-600{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.dark .dark\\:text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.dark .dark\\:text-zinc-400{--tw-text-opacity:1;color:rgb(161 161 170/var(--tw-text-opacity))}.dark .dark\\:text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.dark .dark\\:text-zinc-200{--tw-text-opacity:1;color:rgb(228 228 231/var(--tw-text-opacity))}.dark .dark\\:text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.dark .dark\\:text-sky-400{--tw-text-opacity:1;color:rgb(56 189 248/var(--tw-text-opacity))}.dark .dark\\:text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.dark .dark\\:text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216/var(--tw-text-opacity))}.dark .dark\\:text-neutral-500{--tw-text-opacity:1;color:rgb(115 115 115/var(--tw-text-opacity))}.dark .dark\\:text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235/var(--tw-text-opacity))}.dark .dark\\:text-neutral-400{--tw-text-opacity:1;color:rgb(163 163 163/var(--tw-text-opacity))}.dark .dark\\:text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.dark .dark\\:text-neutral-200{--tw-text-opacity:1;color:rgb(229 229 229/var(--tw-text-opacity))}.dark .dark\\:text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity))}.dark .dark\\:shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.dark .dark\\:shadow-sky-800\\/80{--tw-shadow-color:rgba(7,89,133,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-rose-800\\/80{--tw-shadow-color:rgba(159,18,57,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-emerald-800\\/80{--tw-shadow-color:rgba(6,95,70,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-amber-800\\/80{--tw-shadow-color:rgba(146,64,14,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-fuchsia-800\\/80{--tw-shadow-color:rgba(134,25,143,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:hover\\:bg-zinc-700:hover{--tw-bg-opacity:1;background-color:rgb(63 63 70/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-gray-700:hover{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}@media (min-width:640px){.sm\\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}}@media (min-width:768px){.md\\:block{display:block}.md\\:h-full{height:100%}.md\\:w-full{width:100%}.md\\:grid-cols-5{grid-template-columns:repeat(5,minmax(0,1fr))}.md\\:grid-cols-6{grid-template-columns:repeat(6,minmax(0,1fr))}.md\\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.md\\:flex-row{flex-direction:row}.md\\:items-center{align-items:center}.md\\:px-24{padding-left:6rem;padding-right:6rem}.md\\:px-4{padding-left:1rem;padding-right:1rem}.md\\:text-sm{font-size:.875rem}}@media (min-width:1024px){.lg\\:block{display:block}.lg\\:flex-row{flex-direction:row}}";
+__vite_ssr_exports__.default = "@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap\");\n/*! tailwindcss v3.1.6 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[multiple],[type=date],[type=datetime-local],[type=email],[type=month],[type=number],[type=password],[type=search],[type=tel],[type=text],[type=time],[type=url],[type=week],select,textarea{--tw-shadow:0 0 #0000;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;border-color:#6b7280;border-radius:0;border-width:1px;font-size:1rem;line-height:1.5rem;padding:.5rem .75rem}[multiple]:focus,[type=date]:focus,[type=datetime-local]:focus,[type=email]:focus,[type=month]:focus,[type=number]:focus,[type=password]:focus,[type=search]:focus,[type=tel]:focus,[type=text]:focus,[type=time]:focus,[type=url]:focus,[type=week]:focus,select:focus,textarea:focus{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);border-color:#2563eb;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);outline:2px solid transparent;outline-offset:2px}input::-moz-placeholder,textarea::-moz-placeholder{color:#6b7280;opacity:1}input::placeholder,textarea::placeholder{color:#6b7280;opacity:1}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-date-and-time-value{min-height:1.5em}::-webkit-datetime-edit,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-meridiem-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-year-field{padding-bottom:0;padding-top:0}select{color-adjust:exact;background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3E%3C/svg%3E\");background-position:right .5rem center;background-repeat:no-repeat;background-size:1.5em 1.5em;padding-right:2.5rem;-webkit-print-color-adjust:exact;print-color-adjust:exact}[multiple]{color-adjust:unset;background-image:none;background-position:0 0;background-repeat:unset;background-size:initial;padding-right:.75rem;-webkit-print-color-adjust:unset;print-color-adjust:unset}[type=checkbox],[type=radio]{color-adjust:exact;--tw-shadow:0 0 #0000;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;background-origin:border-box;border-color:#6b7280;border-width:1px;color:#2563eb;display:inline-block;flex-shrink:0;height:1rem;padding:0;-webkit-print-color-adjust:exact;print-color-adjust:exact;-webkit-user-select:none;-moz-user-select:none;user-select:none;vertical-align:middle;width:1rem}[type=checkbox]{border-radius:0}[type=radio]{border-radius:100%}[type=checkbox]:focus,[type=radio]:focus{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:2px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);outline:2px solid transparent;outline-offset:2px}[type=checkbox]:checked,[type=radio]:checked{background-color:currentColor;background-position:50%;background-repeat:no-repeat;background-size:100% 100%;border-color:transparent}[type=checkbox]:checked{background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.207 4.793a1 1 0 0 1 0 1.414l-5 5a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L6.5 9.086l4.293-4.293a1 1 0 0 1 1.414 0z'/%3E%3C/svg%3E\")}[type=radio]:checked{background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='8' cy='8' r='3'/%3E%3C/svg%3E\")}[type=checkbox]:checked:focus,[type=checkbox]:checked:hover,[type=radio]:checked:focus,[type=radio]:checked:hover{background-color:currentColor;border-color:transparent}[type=checkbox]:indeterminate{background-color:currentColor;background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3E%3Cpath stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3E%3C/svg%3E\");background-position:50%;background-repeat:no-repeat;background-size:100% 100%;border-color:transparent}[type=checkbox]:indeterminate:focus,[type=checkbox]:indeterminate:hover{background-color:currentColor;border-color:transparent}[type=file]{background:unset;border-color:inherit;border-radius:0;border-width:0;font-size:unset;line-height:inherit;padding:0}[type=file]:focus{outline:1px solid ButtonText;outline:1px auto -webkit-focus-ring-color}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.container{margin-left:auto;margin-right:auto;padding-left:.5rem;padding-right:.5rem;width:100%}@media (min-width:340px){.container{max-width:340px}}@media (min-width:640px){.container{max-width:640px;padding-left:1rem;padding-right:1rem}}@media (min-width:768px){.container{max-width:768px;padding-left:1rem;padding-right:1rem}}@media (min-width:1024px){.container{max-width:1024px;padding-left:2rem;padding-right:2rem}}@media (min-width:1280px){.container{max-width:1280px;padding-left:3rem;padding-right:3rem}}@media (min-width:1536px){.container{max-width:1536px;padding-left:3rem;padding-right:3rem}}.absolute{position:absolute}.relative{position:relative}.top-4{top:1rem}.right-4{right:1rem}.-left-2{left:-.5rem}.-top-2{top:-.5rem}.-right-2{right:-.5rem}.-bottom-2{bottom:-.5rem}.-right-1{right:-.25rem}.-bottom-1{bottom:-.25rem}.-right-3{right:-.75rem}.right-0{right:0}.top-0{top:0}.bottom-0{bottom:0}.-right-0{right:0}.-top-0{top:0}.-bottom-0{bottom:0}.-top-1{top:-.25rem}.-top-3{top:-.75rem}.left-0{left:0}.-top-20{top:-5rem}.col-span-2{grid-column:span 2/span 2}.-my-10{margin-bottom:-2.5rem;margin-top:-2.5rem}.my-4{margin-bottom:1rem;margin-top:1rem}.mt-6{margin-top:1.5rem}.mt-4{margin-top:1rem}.-mt-20{margin-top:-5rem}.mr-4{margin-right:1rem}.ml-2{margin-left:.5rem}.ml-1{margin-left:.25rem}.mr-1{margin-right:.25rem}.mr-2{margin-right:.5rem}.mb-2{margin-bottom:.5rem}.ml-4{margin-left:1rem}.mb-1{margin-bottom:.25rem}.mt-12{margin-top:3rem}.mt-1{margin-top:.25rem}.-ml-20{margin-left:-5rem}.mt-8{margin-top:2rem}.mt-10{margin-top:2.5rem}.mt-28{margin-top:7rem}.mt-2{margin-top:.5rem}.block{display:block}.flex{display:flex}.inline-flex{display:inline-flex}.table{display:table}.grid{display:grid}.contents{display:contents}.hidden{display:none}.h-28{height:7rem}.h-6{height:1.5rem}.h-16{height:4rem}.h-screen{height:100vh}.h-5{height:1.25rem}.h-10{height:2.5rem}.h-full{height:100%}.h-4{height:1rem}.h-9{height:2.25rem}.h-3{height:.75rem}.h-8{height:2rem}.h-2\\.5{height:.625rem}.h-2{height:.5rem}.h-12{height:3rem}.h-14{height:3.5rem}.h-3\\.5{height:.875rem}.h-20{height:5rem}.h-11{height:2.75rem}.h-1\\.5{height:.375rem}.h-1{height:.25rem}.h-48{height:12rem}.h-7{height:1.75rem}.h-1\\/2{height:50%}.h-36{height:9rem}.h-64{height:16rem}.h-96{height:24rem}.min-h-screen{min-height:100vh}.w-full{width:100%}.w-56{width:14rem}.w-44{width:11rem}.w-40{width:10rem}.w-5{width:1.25rem}.w-fit{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.w-6{width:1.5rem}.w-10{width:2.5rem}.w-4{width:1rem}.w-9{width:2.25rem}.w-3{width:.75rem}.w-8{width:2rem}.w-2\\.5{width:.625rem}.w-2{width:.5rem}.w-12{width:3rem}.w-14{width:3.5rem}.w-3\\.5{width:.875rem}.w-16{width:4rem}.w-20{width:5rem}.w-1\\/3{width:33.333333%}.w-11{width:2.75rem}.w-1\\.5{width:.375rem}.w-1{width:.25rem}.w-3\\/4{width:75%}.w-24{width:6rem}.w-28{width:7rem}.w-7{width:1.75rem}.w-1\\/2{width:50%}.w-2\\/3{width:66.666667%}.w-1\\/4{width:25%}.w-36{width:9rem}.w-96{width:24rem}.w-72{width:18rem}.w-60{width:15rem}.w-64{width:16rem}.flex-1{flex:1 1 0%}.rotate-2{--tw-rotate:2deg}.rotate-2,.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.cursor-text{cursor:text}.grid-flow-row{grid-auto-flow:row}.grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.justify-around{justify-content:space-around}.gap-4{gap:1rem}.gap-1{gap:.25rem}.gap-2{gap:.5rem}.gap-3{gap:.75rem}.gap-y-6{row-gap:1.5rem}.gap-y-8{row-gap:2rem}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.5rem*var(--tw-space-y-reverse));margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)))}.space-x-5>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.25rem*var(--tw-space-x-reverse))}.space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1rem*var(--tw-space-x-reverse))}.space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.5rem*var(--tw-space-x-reverse))}.space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.25rem*var(--tw-space-y-reverse));margin-top:calc(.25rem*(1 - var(--tw-space-y-reverse)))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1rem*var(--tw-space-y-reverse));margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)))}.space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.5rem*var(--tw-space-x-reverse))}.space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1.5rem*var(--tw-space-y-reverse));margin-top:calc(1.5rem*(1 - var(--tw-space-y-reverse)))}.-space-x-3>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(-.75rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(-.75rem*var(--tw-space-x-reverse))}.space-x-1>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.25rem*var(--tw-space-x-reverse))}.-space-x-px>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(-1px*(1 - var(--tw-space-x-reverse)));margin-right:calc(-1px*var(--tw-space-x-reverse))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.75rem*var(--tw-space-y-reverse));margin-top:calc(.75rem*(1 - var(--tw-space-y-reverse)))}.-space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(-.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(-.5rem*var(--tw-space-x-reverse))}.divide-y>:not([hidden])~:not([hidden]){--tw-divide-y-reverse:0;border-bottom-width:calc(1px*var(--tw-divide-y-reverse));border-top-width:calc(1px*(1 - var(--tw-divide-y-reverse)))}.divide-gray-700>:not([hidden])~:not([hidden]){--tw-divide-opacity:1;border-color:rgb(55 65 81/var(--tw-divide-opacity))}.divide-neutral-700>:not([hidden])~:not([hidden]){--tw-divide-opacity:1;border-color:rgb(64 64 64/var(--tw-divide-opacity))}.overflow-hidden{overflow:hidden}.overflow-y-auto{overflow-y:auto}.overflow-y-hidden{overflow-y:hidden}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-2xl{border-radius:1rem}.rounded-md{border-radius:.375rem}.rounded-sm{border-radius:.125rem}.rounded{border-radius:.25rem}.rounded-xl{border-radius:.75rem}.rounded-l-lg{border-bottom-left-radius:.5rem;border-top-left-radius:.5rem}.rounded-r-lg{border-bottom-right-radius:.5rem;border-top-right-radius:.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-0{border-width:0}.border-b{border-bottom-width:1px}.border-l-2{border-left-width:2px}.border-t-2{border-top-width:2px}.border-t{border-top-width:1px}.border-b-2{border-bottom-width:2px}.border-dashed{border-style:dashed}.border-neutral-700{--tw-border-opacity:1;border-color:rgb(64 64 64/var(--tw-border-opacity))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255/var(--tw-border-opacity))}.border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81/var(--tw-border-opacity))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219/var(--tw-border-opacity))}.border-gray-900{--tw-border-opacity:1;border-color:rgb(17 24 39/var(--tw-border-opacity))}.border-sky-700{--tw-border-opacity:1;border-color:rgb(3 105 161/var(--tw-border-opacity))}.border-emerald-700{--tw-border-opacity:1;border-color:rgb(4 120 87/var(--tw-border-opacity))}.border-amber-700{--tw-border-opacity:1;border-color:rgb(180 83 9/var(--tw-border-opacity))}.border-rose-700{--tw-border-opacity:1;border-color:rgb(190 18 60/var(--tw-border-opacity))}.border-slate-900{--tw-border-opacity:1;border-color:rgb(15 23 42/var(--tw-border-opacity))}.border-gray-400{--tw-border-opacity:1;border-color:rgb(156 163 175/var(--tw-border-opacity))}.border-cyan-500{--tw-border-opacity:1;border-color:rgb(6 182 212/var(--tw-border-opacity))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235/var(--tw-border-opacity))}.border-sky-600{--tw-border-opacity:1;border-color:rgb(2 132 199/var(--tw-border-opacity))}.border-emerald-600{--tw-border-opacity:1;border-color:rgb(5 150 105/var(--tw-border-opacity))}.border-amber-600{--tw-border-opacity:1;border-color:rgb(217 119 6/var(--tw-border-opacity))}.border-rose-600{--tw-border-opacity:1;border-color:rgb(225 29 72/var(--tw-border-opacity))}.border-gray-600{--tw-border-opacity:1;border-color:rgb(75 85 99/var(--tw-border-opacity))}.border-pink-500{--tw-border-opacity:1;border-color:rgb(236 72 153/var(--tw-border-opacity))}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246/var(--tw-border-opacity))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240/var(--tw-border-opacity))}.border-slate-600{--tw-border-opacity:1;border-color:rgb(71 85 105/var(--tw-border-opacity))}.border-black{--tw-border-opacity:1;border-color:rgb(0 0 0/var(--tw-border-opacity))}.border-green-200{--tw-border-opacity:1;border-color:rgb(187 247 208/var(--tw-border-opacity))}.border-sky-200{--tw-border-opacity:1;border-color:rgb(186 230 253/var(--tw-border-opacity))}.border-yellow-200{--tw-border-opacity:1;border-color:rgb(254 240 138/var(--tw-border-opacity))}.border-red-200{--tw-border-opacity:1;border-color:rgb(254 202 202/var(--tw-border-opacity))}.border-b-gray-300{--tw-border-opacity:1;border-bottom-color:rgb(209 213 219/var(--tw-border-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity))}.bg-neutral-50{--tw-bg-opacity:1;background-color:rgb(250 250 250/var(--tw-bg-opacity))}.bg-\\[\\#0A0C25\\]{--tw-bg-opacity:1;background-color:rgb(10 12 37/var(--tw-bg-opacity))}.bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.bg-zinc-100{--tw-bg-opacity:1;background-color:rgb(244 244 245/var(--tw-bg-opacity))}.bg-sky-100{--tw-bg-opacity:1;background-color:rgb(224 242 254/var(--tw-bg-opacity))}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229/var(--tw-bg-opacity))}.bg-amber-100{--tw-bg-opacity:1;background-color:rgb(254 243 199/var(--tw-bg-opacity))}.bg-rose-100{--tw-bg-opacity:1;background-color:rgb(255 228 230/var(--tw-bg-opacity))}.bg-yellow-400{--tw-bg-opacity:1;background-color:rgb(250 204 21/var(--tw-bg-opacity))}.bg-cyan-600{--tw-bg-opacity:1;background-color:rgb(8 145 178/var(--tw-bg-opacity))}.bg-violet-500{--tw-bg-opacity:1;background-color:rgb(139 92 246/var(--tw-bg-opacity))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254/var(--tw-bg-opacity))}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246/var(--tw-bg-opacity))}.bg-pink-300{--tw-bg-opacity:1;background-color:rgb(249 168 212/var(--tw-bg-opacity))}.bg-rose-500{--tw-bg-opacity:1;background-color:rgb(244 63 94/var(--tw-bg-opacity))}.bg-gray-500{--tw-bg-opacity:1;background-color:rgb(107 114 128/var(--tw-bg-opacity))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94/var(--tw-bg-opacity))}.bg-cyan-500{--tw-bg-opacity:1;background-color:rgb(6 182 212/var(--tw-bg-opacity))}.bg-yellow-500{--tw-bg-opacity:1;background-color:rgb(234 179 8/var(--tw-bg-opacity))}.bg-green-400{--tw-bg-opacity:1;background-color:rgb(74 222 128/var(--tw-bg-opacity))}.bg-purple-400{--tw-bg-opacity:1;background-color:rgb(192 132 252/var(--tw-bg-opacity))}.bg-indigo-300{--tw-bg-opacity:1;background-color:rgb(165 180 252/var(--tw-bg-opacity))}.bg-red-400{--tw-bg-opacity:1;background-color:rgb(248 113 113/var(--tw-bg-opacity))}.bg-fuchsia-600{--tw-bg-opacity:1;background-color:rgb(192 38 211/var(--tw-bg-opacity))}.bg-sky-400{--tw-bg-opacity:1;background-color:rgb(56 189 248/var(--tw-bg-opacity))}.bg-amber-400{--tw-bg-opacity:1;background-color:rgb(251 191 36/var(--tw-bg-opacity))}.bg-teal-400{--tw-bg-opacity:1;background-color:rgb(45 212 191/var(--tw-bg-opacity))}.bg-red-500{--tw-bg-opacity:1;background-color:rgb(239 68 68/var(--tw-bg-opacity))}.bg-sky-300{--tw-bg-opacity:1;background-color:rgb(125 211 252/var(--tw-bg-opacity))}.bg-yellow-200{--tw-bg-opacity:1;background-color:rgb(254 240 138/var(--tw-bg-opacity))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity))}.bg-gray-400{--tw-bg-opacity:1;background-color:rgb(156 163 175/var(--tw-bg-opacity))}.bg-blue-400{--tw-bg-opacity:1;background-color:rgb(96 165 250/var(--tw-bg-opacity))}.bg-teal-300{--tw-bg-opacity:1;background-color:rgb(94 234 212/var(--tw-bg-opacity))}.bg-emerald-400{--tw-bg-opacity:1;background-color:rgb(52 211 153/var(--tw-bg-opacity))}.bg-amber-300{--tw-bg-opacity:1;background-color:rgb(252 211 77/var(--tw-bg-opacity))}.bg-rose-300{--tw-bg-opacity:1;background-color:rgb(253 164 175/var(--tw-bg-opacity))}.bg-red-300{--tw-bg-opacity:1;background-color:rgb(252 165 165/var(--tw-bg-opacity))}.bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.bg-yellow-100{--tw-bg-opacity:1;background-color:rgb(254 249 195/var(--tw-bg-opacity))}.bg-red-100{--tw-bg-opacity:1;background-color:rgb(254 226 226/var(--tw-bg-opacity))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity))}.bg-gray-300{--tw-bg-opacity:1;background-color:rgb(209 213 219/var(--tw-bg-opacity))}.bg-gray-600{--tw-bg-opacity:1;background-color:rgb(75 85 99/var(--tw-bg-opacity))}.bg-\\[\\#ff6d2d\\]{--tw-bg-opacity:1;background-color:rgb(255 109 45/var(--tw-bg-opacity))}.bg-slate-600{--tw-bg-opacity:1;background-color:rgb(71 85 105/var(--tw-bg-opacity))}.bg-zinc-600{--tw-bg-opacity:1;background-color:rgb(82 82 91/var(--tw-bg-opacity))}.bg-neutral-600{--tw-bg-opacity:1;background-color:rgb(82 82 82/var(--tw-bg-opacity))}.bg-stone-600{--tw-bg-opacity:1;background-color:rgb(87 83 78/var(--tw-bg-opacity))}.bg-red-600{--tw-bg-opacity:1;background-color:rgb(220 38 38/var(--tw-bg-opacity))}.bg-orange-600{--tw-bg-opacity:1;background-color:rgb(234 88 12/var(--tw-bg-opacity))}.bg-amber-600{--tw-bg-opacity:1;background-color:rgb(217 119 6/var(--tw-bg-opacity))}.bg-yellow-600{--tw-bg-opacity:1;background-color:rgb(202 138 4/var(--tw-bg-opacity))}.bg-lime-600{--tw-bg-opacity:1;background-color:rgb(101 163 13/var(--tw-bg-opacity))}.bg-green-600{--tw-bg-opacity:1;background-color:rgb(22 163 74/var(--tw-bg-opacity))}.bg-emerald-600{--tw-bg-opacity:1;background-color:rgb(5 150 105/var(--tw-bg-opacity))}.bg-teal-600{--tw-bg-opacity:1;background-color:rgb(13 148 136/var(--tw-bg-opacity))}.bg-sky-600{--tw-bg-opacity:1;background-color:rgb(2 132 199/var(--tw-bg-opacity))}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235/var(--tw-bg-opacity))}.bg-indigo-600{--tw-bg-opacity:1;background-color:rgb(79 70 229/var(--tw-bg-opacity))}.bg-violet-600{--tw-bg-opacity:1;background-color:rgb(124 58 237/var(--tw-bg-opacity))}.bg-pink-600{--tw-bg-opacity:1;background-color:rgb(219 39 119/var(--tw-bg-opacity))}.bg-rose-600{--tw-bg-opacity:1;background-color:rgb(225 29 72/var(--tw-bg-opacity))}.bg-slate-400{--tw-bg-opacity:1;background-color:rgb(148 163 184/var(--tw-bg-opacity))}.bg-zinc-400{--tw-bg-opacity:1;background-color:rgb(161 161 170/var(--tw-bg-opacity))}.bg-neutral-400{--tw-bg-opacity:1;background-color:rgb(163 163 163/var(--tw-bg-opacity))}.bg-stone-400{--tw-bg-opacity:1;background-color:rgb(168 162 158/var(--tw-bg-opacity))}.bg-orange-400{--tw-bg-opacity:1;background-color:rgb(251 146 60/var(--tw-bg-opacity))}.bg-yellow-300{--tw-bg-opacity:1;background-color:rgb(253 224 71/var(--tw-bg-opacity))}.bg-lime-400{--tw-bg-opacity:1;background-color:rgb(163 230 53/var(--tw-bg-opacity))}.bg-cyan-400{--tw-bg-opacity:1;background-color:rgb(34 211 238/var(--tw-bg-opacity))}.bg-indigo-400{--tw-bg-opacity:1;background-color:rgb(129 140 248/var(--tw-bg-opacity))}.bg-violet-400{--tw-bg-opacity:1;background-color:rgb(167 139 250/var(--tw-bg-opacity))}.bg-fuchsia-400{--tw-bg-opacity:1;background-color:rgb(232 121 249/var(--tw-bg-opacity))}.bg-pink-400{--tw-bg-opacity:1;background-color:rgb(244 114 182/var(--tw-bg-opacity))}.bg-rose-400{--tw-bg-opacity:1;background-color:rgb(251 113 133/var(--tw-bg-opacity))}.bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.bg-slate-300{--tw-bg-opacity:1;background-color:rgb(203 213 225/var(--tw-bg-opacity))}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240/var(--tw-bg-opacity))}.bg-neutral-100{--tw-bg-opacity:1;background-color:rgb(245 245 245/var(--tw-bg-opacity))}.bg-\\[\\#FAF5ED\\]{--tw-bg-opacity:1;background-color:rgb(250 245 237/var(--tw-bg-opacity))}.bg-sky-500{--tw-bg-opacity:1;background-color:rgb(14 165 233/var(--tw-bg-opacity))}.bg-blue-50{--tw-bg-opacity:1;background-color:rgb(239 246 255/var(--tw-bg-opacity))}.bg-neutral-700{--tw-bg-opacity:1;background-color:rgb(64 64 64/var(--tw-bg-opacity))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249/var(--tw-bg-opacity))}.bg-green-100{--tw-bg-opacity:1;background-color:rgb(220 252 231/var(--tw-bg-opacity))}.bg-opacity-70{--tw-bg-opacity:0.7}.bg-gradient-to-br{background-image:linear-gradient(to bottom right,var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.from-sky-400{--tw-gradient-from:#38bdf8;--tw-gradient-to:rgba(56,189,248,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-rose-400{--tw-gradient-from:#fb7185;--tw-gradient-to:rgba(251,113,133,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-emerald-400{--tw-gradient-from:#34d399;--tw-gradient-to:rgba(52,211,153,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-amber-400{--tw-gradient-from:#fbbf24;--tw-gradient-to:rgba(251,191,36,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-fuchsia-400{--tw-gradient-from:#e879f9;--tw-gradient-to:rgba(232,121,249,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-blue-500{--tw-gradient-from:#3b82f6;--tw-gradient-to:rgba(59,130,246,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-pink-600{--tw-gradient-from:#db2777;--tw-gradient-to:rgba(219,39,119,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-neutral-200{--tw-gradient-from:#e5e5e5;--tw-gradient-to:hsla(0,0%,90%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-red-300{--tw-gradient-from:#fca5a5;--tw-gradient-to:hsla(0,94%,82%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.via-sky-500{--tw-gradient-to:rgba(14,165,233,0);--tw-gradient-stops:var(--tw-gradient-from),#0ea5e9,var(--tw-gradient-to)}.via-rose-500{--tw-gradient-to:rgba(244,63,94,0);--tw-gradient-stops:var(--tw-gradient-from),#f43f5e,var(--tw-gradient-to)}.via-emerald-500{--tw-gradient-to:rgba(16,185,129,0);--tw-gradient-stops:var(--tw-gradient-from),#10b981,var(--tw-gradient-to)}.via-amber-500{--tw-gradient-to:rgba(245,158,11,0);--tw-gradient-stops:var(--tw-gradient-from),#f59e0b,var(--tw-gradient-to)}.via-fuchsia-500{--tw-gradient-to:rgba(217,70,239,0);--tw-gradient-stops:var(--tw-gradient-from),#d946ef,var(--tw-gradient-to)}.via-purple-400{--tw-gradient-to:rgba(192,132,252,0);--tw-gradient-stops:var(--tw-gradient-from),#c084fc,var(--tw-gradient-to)}.to-sky-600{--tw-gradient-to:#0284c7}.to-rose-600{--tw-gradient-to:#e11d48}.to-emerald-600{--tw-gradient-to:#059669}.to-amber-600{--tw-gradient-to:#d97706}.to-fuchsia-600{--tw-gradient-to:#c026d3}.to-sky-300{--tw-gradient-to:#7dd3fc}.to-indigo-300{--tw-gradient-to:#a5b4fc}.to-teal-400{--tw-gradient-to:#2dd4bf}.to-rose-500{--tw-gradient-to:#f43f5e}.bg-clip-padding{background-clip:padding-box}.object-cover{-o-object-fit:cover;object-fit:cover}.p-4{padding:1rem}.p-0\\.5{padding:.125rem}.p-0{padding:0}.p-6{padding:1.5rem}.p-3{padding:.75rem}.p-2{padding:.5rem}.p-1\\.5{padding:.375rem}.p-1{padding:.25rem}.py-1{padding-bottom:.25rem;padding-top:.25rem}.px-4{padding-left:1rem;padding-right:1rem}.px-2{padding-left:.5rem;padding-right:.5rem}.py-2{padding-bottom:.5rem;padding-top:.5rem}.px-1{padding-left:.25rem;padding-right:.25rem}.px-0\\.5{padding-left:.125rem;padding-right:.125rem}.px-0{padding-left:0;padding-right:0}.px-3{padding-left:.75rem;padding-right:.75rem}.py-0\\.5{padding-bottom:.125rem;padding-top:.125rem}.py-0{padding-bottom:0;padding-top:0}.px-2\\.5{padding-left:.625rem;padding-right:.625rem}.px-1\\.5{padding-left:.375rem;padding-right:.375rem}.py-3{padding-bottom:.75rem;padding-top:.75rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-3\\.5{padding-bottom:.875rem;padding-top:.875rem}.py-1\\.5{padding-bottom:.375rem;padding-top:.375rem}.px-7{padding-left:1.75rem;padding-right:1.75rem}.px-9{padding-left:2.25rem;padding-right:2.25rem}.py-4{padding-bottom:1rem;padding-top:1rem}.py-6{padding-bottom:1.5rem;padding-top:1.5rem}.py-8{padding-bottom:2rem;padding-top:2rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-5{padding-bottom:1.25rem;padding-top:1.25rem}.py-2\\.5{padding-bottom:.625rem;padding-top:.625rem}.py-10{padding-bottom:2.5rem;padding-top:2.5rem}.px-10{padding-left:2.5rem;padding-right:2.5rem}.pl-4{padding-left:1rem}.pr-12{padding-right:3rem}.pb-20{padding-bottom:5rem}.pt-2{padding-top:.5rem}.pb-4{padding-bottom:1rem}.pt-1{padding-top:.25rem}.pl-1{padding-left:.25rem}.pt-10{padding-top:2.5rem}.pl-6{padding-left:1.5rem}.pt-4{padding-top:1rem}.pl-8{padding-left:2rem}.pb-6{padding-bottom:1.5rem}.text-center{text-align:center}.text-right{text-align:right}.font-primary{font-family:Inter}.text-xs{font-size:.75rem}.text-base{font-size:1rem}.text-sm{font-size:.875rem}.text-7xl{font-size:5rem}.text-xxs{font-size:.7rem}.text-xl{font-size:1.25rem}.text-2xl{font-size:1.5rem}.text-lg{font-size:1.125rem}.text-3xl{font-size:1.875rem}.text-5xl{font-size:3rem}.font-semibold{font-weight:600}.font-normal{font-weight:400}.font-thin{font-weight:100}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-light{font-weight:300}.uppercase{text-transform:uppercase}.italic{font-style:italic}.tracking-tight{letter-spacing:-.025em}.tracking-tighter{letter-spacing:-.05em}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85/var(--tw-text-opacity))}.text-sky-700{--tw-text-opacity:1;color:rgb(3 105 161/var(--tw-text-opacity))}.text-sky-900{--tw-text-opacity:1;color:rgb(12 74 110/var(--tw-text-opacity))}.text-sky-800{--tw-text-opacity:1;color:rgb(7 89 133/var(--tw-text-opacity))}.text-sky-500{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.text-zinc-400{--tw-text-opacity:1;color:rgb(161 161 170/var(--tw-text-opacity))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87/var(--tw-text-opacity))}.text-amber-700{--tw-text-opacity:1;color:rgb(180 83 9/var(--tw-text-opacity))}.text-rose-700{--tw-text-opacity:1;color:rgb(190 18 60/var(--tw-text-opacity))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216/var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94/var(--tw-text-opacity))}.text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.text-cyan-500{--tw-text-opacity:1;color:rgb(6 182 212/var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.text-sky-600{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105/var(--tw-text-opacity))}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6/var(--tw-text-opacity))}.text-rose-600{--tw-text-opacity:1;color:rgb(225 29 72/var(--tw-text-opacity))}.text-pink-500{--tw-text-opacity:1;color:rgb(236 72 153/var(--tw-text-opacity))}.text-blue-500{--tw-text-opacity:1;color:rgb(59 130 246/var(--tw-text-opacity))}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184/var(--tw-text-opacity))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105/var(--tw-text-opacity))}.text-indigo-600{--tw-text-opacity:1;color:rgb(79 70 229/var(--tw-text-opacity))}.text-neutral-500{--tw-text-opacity:1;color:rgb(115 115 115/var(--tw-text-opacity))}.text-neutral-400{--tw-text-opacity:1;color:rgb(163 163 163/var(--tw-text-opacity))}.text-pink-600{--tw-text-opacity:1;color:rgb(219 39 119/var(--tw-text-opacity))}.text-\\[\\#2a2f3d\\]{--tw-text-opacity:1;color:rgb(42 47 61/var(--tw-text-opacity))}.text-\\[\\#ff6d2d\\]{--tw-text-opacity:1;color:rgb(255 109 45/var(--tw-text-opacity))}.text-yellow-400{--tw-text-opacity:1;color:rgb(250 204 21/var(--tw-text-opacity))}.text-green-50{--tw-text-opacity:1;color:rgb(240 253 244/var(--tw-text-opacity))}.text-yellow-500{--tw-text-opacity:1;color:rgb(234 179 8/var(--tw-text-opacity))}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68/var(--tw-text-opacity))}.text-sky-50{--tw-text-opacity:1;color:rgb(240 249 255/var(--tw-text-opacity))}.text-yellow-50{--tw-text-opacity:1;color:rgb(254 252 232/var(--tw-text-opacity))}.text-red-50{--tw-text-opacity:1;color:rgb(254 242 242/var(--tw-text-opacity))}.text-cyan-700{--tw-text-opacity:1;color:rgb(14 116 144/var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.no-underline{-webkit-text-decoration-line:none;text-decoration-line:none}.shadow{--tw-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color)}.shadow,.shadow-lg{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.shadow-md{--tw-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-gray-300{--tw-shadow-color:#d1d5db;--tw-shadow:var(--tw-shadow-colored)}.shadow-gray-400{--tw-shadow-color:#9ca3af;--tw-shadow:var(--tw-shadow-colored)}.shadow-blue-300{--tw-shadow-color:#93c5fd;--tw-shadow:var(--tw-shadow-colored)}.shadow-red-300{--tw-shadow-color:#fca5a5;--tw-shadow:var(--tw-shadow-colored)}.shadow-gray-200{--tw-shadow-color:#e5e7eb;--tw-shadow:var(--tw-shadow-colored)}.shadow-sky-500\\/50{--tw-shadow-color:rgba(14,165,233,.5);--tw-shadow:var(--tw-shadow-colored)}.shadow-rose-500\\/40{--tw-shadow-color:rgba(244,63,94,.4);--tw-shadow:var(--tw-shadow-colored)}.shadow-emerald-500\\/50{--tw-shadow-color:rgba(16,185,129,.5);--tw-shadow:var(--tw-shadow-colored)}.shadow-amber-500\\/50{--tw-shadow-color:rgba(245,158,11,.5);--tw-shadow:var(--tw-shadow-colored)}.shadow-fuchsia-500\\/50{--tw-shadow-color:rgba(217,70,239,.5);--tw-shadow:var(--tw-shadow-colored)}.outline{outline-style:solid}.ring-2{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.ring,.ring-2{box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.ring{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.ring-indigo-400{--tw-ring-opacity:1;--tw-ring-color:rgb(129 140 248/var(--tw-ring-opacity))}.ring-green-300{--tw-ring-opacity:1;--tw-ring-color:rgb(134 239 172/var(--tw-ring-opacity))}.ring-red-300{--tw-ring-opacity:1;--tw-ring-color:rgb(252 165 165/var(--tw-ring-opacity))}.ring-sky-300{--tw-ring-opacity:1;--tw-ring-color:rgb(125 211 252/var(--tw-ring-opacity))}.ring-emerald-400{--tw-ring-opacity:1;--tw-ring-color:rgb(52 211 153/var(--tw-ring-opacity))}.ring-blue-300{--tw-ring-opacity:1;--tw-ring-color:rgb(147 197 253/var(--tw-ring-opacity))}.ring-red-400{--tw-ring-opacity:1;--tw-ring-color:rgb(248 113 113/var(--tw-ring-opacity))}.ring-green-400{--tw-ring-opacity:1;--tw-ring-color:rgb(74 222 128/var(--tw-ring-opacity))}.ring-pink-600{--tw-ring-opacity:1;--tw-ring-color:rgb(219 39 119/var(--tw-ring-opacity))}.ring-white{--tw-ring-opacity:1;--tw-ring-color:rgb(255 255 255/var(--tw-ring-opacity))}.transition{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-all{transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,-webkit-text-decoration-color;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,-webkit-text-decoration-color;transition-timing-function:cubic-bezier(.4,0,.2,1)}.delay-200{transition-delay:.2s}.duration-300{transition-duration:.3s}html{font-family:\"Inter\",sans-serif;font-family:\"Montserrat\",sans-serif}::-webkit-scrollbar{height:12px;width:5px}::-webkit-scrollbar-track{border:1px solid #8c8c8c;border-radius:10px}::-webkit-scrollbar-thumb{background:#848484;border-radius:10px}::-webkit-scrollbar-thumb:hover{background:#909090}.no-scrollbar::-webkit-scrollbar{display:none}.no-scrollbar{-ms-overflow-style:none;scrollbar-width:none}pre[class*=language-]{border-radius:10px!important;font-size:.9rem;margin:.5em 0;overflow:auto;padding:1em}.light pre[class*=language-]{background:#f5f5f5!important;padding:1.5rem}.dark pre[class*=language-]{background:#171717!important;padding:1.5rem}.fadeSnippet-enter-active{-webkit-animation:fade-in .2s;animation:fade-in .2s}.fadeSnippet-leave-active{-webkit-animation:fade-out .2s;animation:fade-out .2s}@-webkit-keyframes fade-in{0%{transform:translateY(10px)}to{transform:translateY(0)}}@keyframes fade-in{0%{transform:translateY(10px)}to{transform:translateY(0)}}@-webkit-keyframes fade-out{0%{transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}@keyframes fade-out{0%{transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}.hover\\:mr-2:hover{margin-right:.5rem}.hover\\:h-10:hover{height:2.5rem}.hover\\:w-10:hover{width:2.5rem}.hover\\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\\:cursor-pointer:hover{cursor:pointer}.hover\\:cursor-default:hover{cursor:default}.hover\\:border-2:hover{border-width:2px}.hover\\:border:hover{border-width:1px}.hover\\:border-\\[\\#ff6d2d\\]:hover{--tw-border-opacity:1;border-color:rgb(255 109 45/var(--tw-border-opacity))}.hover\\:border-gray-500:hover{--tw-border-opacity:1;border-color:rgb(107 114 128/var(--tw-border-opacity))}.hover\\:border-blue-500:hover{--tw-border-opacity:1;border-color:rgb(59 130 246/var(--tw-border-opacity))}.hover\\:bg-gray-200:hover{--tw-bg-opacity:1;background-color:rgb(229 231 235/var(--tw-bg-opacity))}.hover\\:bg-blue-200:hover{--tw-bg-opacity:1;background-color:rgb(191 219 254/var(--tw-bg-opacity))}.hover\\:bg-gray-800:hover{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.hover\\:bg-indigo-200:hover{--tw-bg-opacity:1;background-color:rgb(199 210 254/var(--tw-bg-opacity))}.hover\\:bg-sky-200:hover{--tw-bg-opacity:1;background-color:rgb(186 230 253/var(--tw-bg-opacity))}.hover\\:bg-teal-200:hover{--tw-bg-opacity:1;background-color:rgb(153 246 228/var(--tw-bg-opacity))}.hover\\:bg-rose-200:hover{--tw-bg-opacity:1;background-color:rgb(254 205 211/var(--tw-bg-opacity))}.hover\\:bg-red-200:hover{--tw-bg-opacity:1;background-color:rgb(254 202 202/var(--tw-bg-opacity))}.hover\\:bg-emerald-200:hover{--tw-bg-opacity:1;background-color:rgb(167 243 208/var(--tw-bg-opacity))}.hover\\:bg-yellow-200:hover{--tw-bg-opacity:1;background-color:rgb(254 240 138/var(--tw-bg-opacity))}.hover\\:bg-zinc-200:hover{--tw-bg-opacity:1;background-color:rgb(228 228 231/var(--tw-bg-opacity))}.hover\\:bg-gray-900:hover{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.hover\\:bg-\\[\\#FAF5ED\\]:hover{--tw-bg-opacity:1;background-color:rgb(250 245 237/var(--tw-bg-opacity))}.hover\\:bg-pink-500:hover{--tw-bg-opacity:1;background-color:rgb(236 72 153/var(--tw-bg-opacity))}.hover\\:bg-gray-300:hover{--tw-bg-opacity:1;background-color:rgb(209 213 219/var(--tw-bg-opacity))}.hover\\:bg-green-400:hover{--tw-bg-opacity:1;background-color:rgb(74 222 128/var(--tw-bg-opacity))}.hover\\:bg-cyan-400:hover{--tw-bg-opacity:1;background-color:rgb(34 211 238/var(--tw-bg-opacity))}.hover\\:bg-gray-700:hover{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.hover\\:bg-cyan-500:hover{--tw-bg-opacity:1;background-color:rgb(6 182 212/var(--tw-bg-opacity))}.hover\\:bg-sky-600:hover{--tw-bg-opacity:1;background-color:rgb(2 132 199/var(--tw-bg-opacity))}.hover\\:bg-gray-50:hover{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity))}.hover\\:bg-blue-100:hover{--tw-bg-opacity:1;background-color:rgb(219 234 254/var(--tw-bg-opacity))}.hover\\:bg-green-100:hover{--tw-bg-opacity:1;background-color:rgb(220 252 231/var(--tw-bg-opacity))}.hover\\:bg-sky-100:hover{--tw-bg-opacity:1;background-color:rgb(224 242 254/var(--tw-bg-opacity))}.hover\\:bg-yellow-100:hover{--tw-bg-opacity:1;background-color:rgb(254 249 195/var(--tw-bg-opacity))}.hover\\:bg-red-100:hover{--tw-bg-opacity:1;background-color:rgb(254 226 226/var(--tw-bg-opacity))}.hover\\:bg-red-400:hover{--tw-bg-opacity:1;background-color:rgb(248 113 113/var(--tw-bg-opacity))}.hover\\:bg-blue-600:hover{--tw-bg-opacity:1;background-color:rgb(37 99 235/var(--tw-bg-opacity))}.hover\\:bg-amber-200:hover{--tw-bg-opacity:1;background-color:rgb(253 230 138/var(--tw-bg-opacity))}.hover\\:bg-gradient-to-r:hover{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.hover\\:pl-0\\.5:hover{padding-left:.125rem}.hover\\:pl-0:hover{padding-left:0}.hover\\:font-semibold:hover{font-weight:600}.hover\\:text-sky-800:hover{--tw-text-opacity:1;color:rgb(7 89 133/var(--tw-text-opacity))}.hover\\:text-emerald-800:hover{--tw-text-opacity:1;color:rgb(6 95 70/var(--tw-text-opacity))}.hover\\:text-amber-800:hover{--tw-text-opacity:1;color:rgb(146 64 14/var(--tw-text-opacity))}.hover\\:text-rose-800:hover{--tw-text-opacity:1;color:rgb(159 18 57/var(--tw-text-opacity))}.hover\\:text-gray-500:hover{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.hover\\:text-\\[\\#ff6d2d\\]:hover{--tw-text-opacity:1;color:rgb(255 109 45/var(--tw-text-opacity))}.hover\\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.hover\\:text-gray-400:hover{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.hover\\:text-blue-800:hover{--tw-text-opacity:1;color:rgb(30 64 175/var(--tw-text-opacity))}.hover\\:text-gray-700:hover{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.hover\\:text-gray-50:hover{--tw-text-opacity:1;color:rgb(249 250 251/var(--tw-text-opacity))}.hover\\:text-blue-700:hover{--tw-text-opacity:1;color:rgb(29 78 216/var(--tw-text-opacity))}.hover\\:text-green-600:hover{--tw-text-opacity:1;color:rgb(22 163 74/var(--tw-text-opacity))}.hover\\:text-sky-600:hover{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.hover\\:text-yellow-600:hover{--tw-text-opacity:1;color:rgb(202 138 4/var(--tw-text-opacity))}.hover\\:text-red-600:hover{--tw-text-opacity:1;color:rgb(220 38 38/var(--tw-text-opacity))}.hover\\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline}.hover\\:shadow-none:hover{--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.hover\\:shadow-gray-200:hover{--tw-shadow-color:#e5e7eb;--tw-shadow:var(--tw-shadow-colored)}.hover\\:shadow-cyan-200:hover{--tw-shadow-color:#a5f3fc;--tw-shadow:var(--tw-shadow-colored)}.focus\\:border-sky-500:focus{--tw-border-opacity:1;border-color:rgb(14 165 233/var(--tw-border-opacity))}.focus\\:border-b-sky-500:focus{--tw-border-opacity:1;border-bottom-color:rgb(14 165 233/var(--tw-border-opacity))}.focus\\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\\:ring-0:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.group:hover .group-hover\\:scale-110{--tw-scale-x:1.1;--tw-scale-y:1.1;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\\:underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.peer:focus~.peer-focus\\:-top-2{top:-.5rem}.peer:focus~.peer-focus\\:text-xxs{font-size:.7rem}.peer:focus~.peer-focus\\:text-sky-600{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.dark .dark\\:border-0{border-width:0}.dark .dark\\:border-gray-900{--tw-border-opacity:1;border-color:rgb(17 24 39/var(--tw-border-opacity))}.dark .dark\\:border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55/var(--tw-border-opacity))}.dark .dark\\:border-gray-500{--tw-border-opacity:1;border-color:rgb(107 114 128/var(--tw-border-opacity))}.dark .dark\\:border-zinc-700{--tw-border-opacity:1;border-color:rgb(63 63 70/var(--tw-border-opacity))}.dark .dark\\:border-gray-400{--tw-border-opacity:1;border-color:rgb(156 163 175/var(--tw-border-opacity))}.dark .dark\\:border-black{--tw-border-opacity:1;border-color:rgb(0 0 0/var(--tw-border-opacity))}.dark .dark\\:border-\\[\\#2D2D2D\\]{--tw-border-opacity:1;border-color:rgb(45 45 45/var(--tw-border-opacity))}.dark .dark\\:border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81/var(--tw-border-opacity))}.dark .dark\\:border-b-\\[\\#2D2D2D\\]{--tw-border-opacity:1;border-bottom-color:rgb(45 45 45/var(--tw-border-opacity))}.dark .dark\\:border-b-gray-500{--tw-border-opacity:1;border-bottom-color:rgb(107 114 128/var(--tw-border-opacity))}.dark .dark\\:bg-neutral-800{--tw-bg-opacity:1;background-color:rgb(38 38 38/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#212121\\]{--tw-bg-opacity:1;background-color:rgb(33 33 33/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#121212\\]{--tw-bg-opacity:1;background-color:rgb(18 18 18/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-800{--tw-bg-opacity:1;background-color:rgb(39 39 42/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-500{--tw-bg-opacity:1;background-color:rgb(107 114 128/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-300{--tw-bg-opacity:1;background-color:rgb(209 213 219/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-900{--tw-bg-opacity:1;background-color:rgb(24 24 27/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.dark .dark\\:bg-sky-600{--tw-bg-opacity:1;background-color:rgb(2 132 199/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-700{--tw-bg-opacity:1;background-color:rgb(63 63 70/var(--tw-bg-opacity))}.dark .dark\\:bg-neutral-700{--tw-bg-opacity:1;background-color:rgb(64 64 64/var(--tw-bg-opacity))}.dark .dark\\:bg-neutral-600{--tw-bg-opacity:1;background-color:rgb(82 82 82/var(--tw-bg-opacity))}.dark .dark\\:bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity))}.dark .dark\\:from-neutral-50{--tw-gradient-from:#fafafa;--tw-gradient-to:hsla(0,0%,98%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.dark .dark\\:to-neutral-500{--tw-gradient-to:#737373}.dark .dark\\:text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.dark .dark\\:text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.dark .dark\\:text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.dark .dark\\:text-sky-500{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.dark .dark\\:text-sky-600{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.dark .dark\\:text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.dark .dark\\:text-zinc-400{--tw-text-opacity:1;color:rgb(161 161 170/var(--tw-text-opacity))}.dark .dark\\:text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.dark .dark\\:text-zinc-200{--tw-text-opacity:1;color:rgb(228 228 231/var(--tw-text-opacity))}.dark .dark\\:text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.dark .dark\\:text-sky-400{--tw-text-opacity:1;color:rgb(56 189 248/var(--tw-text-opacity))}.dark .dark\\:text-slate-200{--tw-text-opacity:1;color:rgb(226 232 240/var(--tw-text-opacity))}.dark .dark\\:text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.dark .dark\\:text-gray-50{--tw-text-opacity:1;color:rgb(249 250 251/var(--tw-text-opacity))}.dark .dark\\:text-blue-50{--tw-text-opacity:1;color:rgb(239 246 255/var(--tw-text-opacity))}.dark .dark\\:text-zinc-500{--tw-text-opacity:1;color:rgb(113 113 122/var(--tw-text-opacity))}.dark .dark\\:text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216/var(--tw-text-opacity))}.dark .dark\\:text-neutral-500{--tw-text-opacity:1;color:rgb(115 115 115/var(--tw-text-opacity))}.dark .dark\\:text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235/var(--tw-text-opacity))}.dark .dark\\:text-neutral-400{--tw-text-opacity:1;color:rgb(163 163 163/var(--tw-text-opacity))}.dark .dark\\:text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.dark .dark\\:text-neutral-200{--tw-text-opacity:1;color:rgb(229 229 229/var(--tw-text-opacity))}.dark .dark\\:text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity))}.dark .dark\\:shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.dark .dark\\:shadow-sky-800\\/80{--tw-shadow-color:rgba(7,89,133,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-rose-800\\/80{--tw-shadow-color:rgba(159,18,57,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-emerald-800\\/80{--tw-shadow-color:rgba(6,95,70,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-amber-800\\/80{--tw-shadow-color:rgba(146,64,14,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-fuchsia-800\\/80{--tw-shadow-color:rgba(134,25,143,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:hover\\:bg-sky-500:hover{--tw-bg-opacity:1;background-color:rgb(14 165 233/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-zinc-700:hover{--tw-bg-opacity:1;background-color:rgb(63 63 70/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-gray-700:hover{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.dark .dark\\:hover\\:text-gray-100:hover{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}@media (min-width:640px){.sm\\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}}@media (min-width:768px){.md\\:block{display:block}.md\\:h-full{height:100%}.md\\:w-full{width:100%}.md\\:grid-cols-5{grid-template-columns:repeat(5,minmax(0,1fr))}.md\\:grid-cols-6{grid-template-columns:repeat(6,minmax(0,1fr))}.md\\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.md\\:flex-row{flex-direction:row}.md\\:items-center{align-items:center}.md\\:px-24{padding-left:6rem;padding-right:6rem}.md\\:px-4{padding-left:1rem;padding-right:1rem}.md\\:text-sm{font-size:.875rem}}@media (min-width:1024px){.lg\\:block{display:block}.lg\\:flex-row{flex-direction:row}}";
 }
 
 
@@ -2896,6 +2923,9 @@ Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, confi
 // - /pages/badge.vue?macro=true ($id_8d023e34)
 // - /pages/breadcrumb.vue?macro=true ($id_2daed590)
 // - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/dropdown.vue?macro=true ($id_65100fe4)
+// - /pages/footer.vue?macro=true ($id_d8cb473d)
+// - /pages/form.vue?macro=true ($id_bbef9a8f)
 // - /pages/index.vue?macro=true ($id_5dd70240)
 // - /pages/pagination.vue?macro=true ($id_aace4ffb)
 // - /pages/rating.vue?macro=true ($id_5fdad06e)
@@ -2907,6 +2937,9 @@ Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, confi
 // - /pages/badge.vue ($id_f19d9a80)
 // - /pages/breadcrumb.vue ($id_76db04e5)
 // - /pages/buttons.vue ($id_e983a7e3)
+// - /pages/dropdown.vue ($id_d20fd50f)
+// - /pages/footer.vue ($id_a531a593)
+// - /pages/form.vue ($id_821dc3e3)
 // - /pages/index.vue ($id_cca58e97)
 // - /pages/pagination.vue ($id_ff91d3a4)
 // - /pages/rating.vue ($id_55a204e0)
@@ -2926,15 +2959,21 @@ const __vite_ssr_import_4__ = await __vite_ssr_import__("/pages/breadcrumb.vue?m
 
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/pages/buttons.vue?macro=true");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/pages/index.vue?macro=true");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/pages/dropdown.vue?macro=true");
 
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/pages/pagination.vue?macro=true");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/pages/footer.vue?macro=true");
 
-const __vite_ssr_import_8__ = await __vite_ssr_import__("/pages/rating.vue?macro=true");
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/pages/form.vue?macro=true");
 
-const __vite_ssr_import_9__ = await __vite_ssr_import__("/pages/sidebar.vue?macro=true");
+const __vite_ssr_import_9__ = await __vite_ssr_import__("/pages/index.vue?macro=true");
 
-const __vite_ssr_import_10__ = await __vite_ssr_import__("/pages/toast.vue?macro=true");
+const __vite_ssr_import_10__ = await __vite_ssr_import__("/pages/pagination.vue?macro=true");
+
+const __vite_ssr_import_11__ = await __vite_ssr_import__("/pages/rating.vue?macro=true");
+
+const __vite_ssr_import_12__ = await __vite_ssr_import__("/pages/sidebar.vue?macro=true");
+
+const __vite_ssr_import_13__ = await __vite_ssr_import__("/pages/toast.vue?macro=true");
 
 __vite_ssr_exports__.default = [
   {
@@ -2992,12 +3031,39 @@ __vite_ssr_exports__.default = [
     component: () => __vite_ssr_dynamic_import__('/pages/buttons.vue')
   },
   {
+    name: "dropdown",
+    path: "/dropdown",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/dropdown.vue",
+    children: [],
+    meta: __vite_ssr_import_6__.meta,
+    alias: __vite_ssr_import_6__.meta?.alias || [],
+    component: () => __vite_ssr_dynamic_import__('/pages/dropdown.vue')
+  },
+  {
+    name: "footer",
+    path: "/footer",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/footer.vue",
+    children: [],
+    meta: __vite_ssr_import_7__.meta,
+    alias: __vite_ssr_import_7__.meta?.alias || [],
+    component: () => __vite_ssr_dynamic_import__('/pages/footer.vue')
+  },
+  {
+    name: "form",
+    path: "/form",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/form.vue",
+    children: [],
+    meta: __vite_ssr_import_8__.meta,
+    alias: __vite_ssr_import_8__.meta?.alias || [],
+    component: () => __vite_ssr_dynamic_import__('/pages/form.vue')
+  },
+  {
     name: "index",
     path: "/",
     file: "D:/ortigan/tailwind-library-nuxt/pages/index.vue",
     children: [],
-    meta: __vite_ssr_import_6__.meta,
-    alias: __vite_ssr_import_6__.meta?.alias || [],
+    meta: __vite_ssr_import_9__.meta,
+    alias: __vite_ssr_import_9__.meta?.alias || [],
     component: () => __vite_ssr_dynamic_import__('/pages/index.vue')
   },
   {
@@ -3005,8 +3071,8 @@ __vite_ssr_exports__.default = [
     path: "/pagination",
     file: "D:/ortigan/tailwind-library-nuxt/pages/pagination.vue",
     children: [],
-    meta: __vite_ssr_import_7__.meta,
-    alias: __vite_ssr_import_7__.meta?.alias || [],
+    meta: __vite_ssr_import_10__.meta,
+    alias: __vite_ssr_import_10__.meta?.alias || [],
     component: () => __vite_ssr_dynamic_import__('/pages/pagination.vue')
   },
   {
@@ -3014,8 +3080,8 @@ __vite_ssr_exports__.default = [
     path: "/rating",
     file: "D:/ortigan/tailwind-library-nuxt/pages/rating.vue",
     children: [],
-    meta: __vite_ssr_import_8__.meta,
-    alias: __vite_ssr_import_8__.meta?.alias || [],
+    meta: __vite_ssr_import_11__.meta,
+    alias: __vite_ssr_import_11__.meta?.alias || [],
     component: () => __vite_ssr_dynamic_import__('/pages/rating.vue')
   },
   {
@@ -3023,8 +3089,8 @@ __vite_ssr_exports__.default = [
     path: "/sidebar",
     file: "D:/ortigan/tailwind-library-nuxt/pages/sidebar.vue",
     children: [],
-    meta: __vite_ssr_import_9__.meta,
-    alias: __vite_ssr_import_9__.meta?.alias || [],
+    meta: __vite_ssr_import_12__.meta,
+    alias: __vite_ssr_import_12__.meta?.alias || [],
     component: () => __vite_ssr_dynamic_import__('/pages/sidebar.vue')
   },
   {
@@ -3032,8 +3098,8 @@ __vite_ssr_exports__.default = [
     path: "/toast",
     file: "D:/ortigan/tailwind-library-nuxt/pages/toast.vue",
     children: [],
-    meta: __vite_ssr_import_10__.meta,
-    alias: __vite_ssr_import_10__.meta?.alias || [],
+    meta: __vite_ssr_import_13__.meta,
+    alias: __vite_ssr_import_13__.meta?.alias || [],
     component: () => __vite_ssr_dynamic_import__('/pages/toast.vue')
   }
 ];
@@ -3222,6 +3288,30 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // - /components/Button/Appsmith.vue ($id_f75a09c9)
 // - /components/Button/Snippets/Appsmith.vue ($id_1c421991)
 // - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /components/Dropdown/WithIcon.vue ($id_25e5868a)
+// - /components/Dropdown/NoIcon.vue ($id_a35d6fb5)
+// - /components/Dropdown/OnlyHeading.vue ($id_f6e3029f)
+// - /components/Dropdown/Snippets/WithIcon.vue ($id_7970dc7e)
+// - /components/Dropdown/Profile.vue ($id_18f6de88)
+// - /components/Dropdown/Snippets/Profile.vue ($id_e2fa14a4)
+// - /components/Dropdown/Default.vue ($id_c3d83ef0)
+// - /components/Dropdown/Snippets/Default.vue ($id_9db601bc)
+// - /pages/dropdown.vue?macro=true ($id_65100fe4)
+// - /components/Footer/Default.vue ($id_b6595b4c)
+// - /components/Footer/Snippets/Default.vue ($id_66157248)
+// - /components/Footer/LogoSection.vue ($id_3461c3e2)
+// - /components/Footer/Snippets/LogoSection.vue ($id_6e695b56)
+// - /components/Footer/TwoRow.vue ($id_02bc8559)
+// - /components/Footer/Appsmith.vue ($id_9584eb63)
+// - /components/Footer/Snippets/Appsmith.vue ($id_cdef03de)
+// - /pages/footer.vue?macro=true ($id_d8cb473d)
+// - /components/Form/Element.vue ($id_fe902f47)
+// - /components/Form/Snippets/Element.vue ($id_12fc440f)
+// - /components/Form/Default.vue ($id_61ae43aa)
+// - /components/Form/Snippets/Default.vue ($id_e1db028d)
+// - /components/Form/Floatinglabel.vue ($id_32b65436)
+// - /components/Form/Snippets/Floatinglabel.vue ($id_d523dc38)
+// - /pages/form.vue?macro=true ($id_bbef9a8f)
 // - /pages/index.vue?macro=true ($id_5dd70240)
 // - /components/Pagination/Default.vue ($id_9750b4c7)
 // - /components/Pagination/Snippets/Default.vue ($id_bbb8613e)
@@ -3267,6 +3357,9 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // - /pages/badge.vue ($id_f19d9a80)
 // - /pages/breadcrumb.vue ($id_76db04e5)
 // - /pages/buttons.vue ($id_e983a7e3)
+// - /pages/dropdown.vue ($id_d20fd50f)
+// - /pages/footer.vue ($id_a531a593)
+// - /pages/form.vue ($id_821dc3e3)
 // - /pages/index.vue ($id_cca58e97)
 // - /pages/pagination.vue ($id_ff91d3a4)
 // - /pages/rating.vue ($id_55a204e0)
@@ -3416,6 +3509,30 @@ import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/vue/server-rendere
 // - /components/Button/Appsmith.vue ($id_f75a09c9)
 // - /components/Button/Snippets/Appsmith.vue ($id_1c421991)
 // - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /components/Dropdown/WithIcon.vue ($id_25e5868a)
+// - /components/Dropdown/NoIcon.vue ($id_a35d6fb5)
+// - /components/Dropdown/OnlyHeading.vue ($id_f6e3029f)
+// - /components/Dropdown/Snippets/WithIcon.vue ($id_7970dc7e)
+// - /components/Dropdown/Profile.vue ($id_18f6de88)
+// - /components/Dropdown/Snippets/Profile.vue ($id_e2fa14a4)
+// - /components/Dropdown/Default.vue ($id_c3d83ef0)
+// - /components/Dropdown/Snippets/Default.vue ($id_9db601bc)
+// - /pages/dropdown.vue?macro=true ($id_65100fe4)
+// - /components/Footer/Default.vue ($id_b6595b4c)
+// - /components/Footer/Snippets/Default.vue ($id_66157248)
+// - /components/Footer/LogoSection.vue ($id_3461c3e2)
+// - /components/Footer/Snippets/LogoSection.vue ($id_6e695b56)
+// - /components/Footer/TwoRow.vue ($id_02bc8559)
+// - /components/Footer/Appsmith.vue ($id_9584eb63)
+// - /components/Footer/Snippets/Appsmith.vue ($id_cdef03de)
+// - /pages/footer.vue?macro=true ($id_d8cb473d)
+// - /components/Form/Element.vue ($id_fe902f47)
+// - /components/Form/Snippets/Element.vue ($id_12fc440f)
+// - /components/Form/Default.vue ($id_61ae43aa)
+// - /components/Form/Snippets/Default.vue ($id_e1db028d)
+// - /components/Form/Floatinglabel.vue ($id_32b65436)
+// - /components/Form/Snippets/Floatinglabel.vue ($id_d523dc38)
+// - /pages/form.vue?macro=true ($id_bbef9a8f)
 // - /pages/index.vue?macro=true ($id_5dd70240)
 // - /components/Pagination/Default.vue ($id_9750b4c7)
 // - /components/Pagination/Snippets/Default.vue ($id_bbb8613e)
@@ -3461,6 +3578,9 @@ import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/vue/server-rendere
 // - /pages/badge.vue ($id_f19d9a80)
 // - /pages/breadcrumb.vue ($id_76db04e5)
 // - /pages/buttons.vue ($id_e983a7e3)
+// - /pages/dropdown.vue ($id_d20fd50f)
+// - /pages/footer.vue ($id_a531a593)
+// - /pages/form.vue ($id_821dc3e3)
 // - /pages/index.vue ($id_cca58e97)
 // - /pages/pagination.vue ($id_ff91d3a4)
 // - /pages/rating.vue ($id_55a204e0)
@@ -4656,6 +4776,9 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // - /pages/badge.vue?macro=true ($id_8d023e34)
 // - /pages/breadcrumb.vue?macro=true ($id_2daed590)
 // - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/dropdown.vue?macro=true ($id_65100fe4)
+// - /pages/footer.vue?macro=true ($id_d8cb473d)
+// - /pages/form.vue?macro=true ($id_bbef9a8f)
 // - /pages/index.vue?macro=true ($id_5dd70240)
 // - /pages/pagination.vue?macro=true ($id_aace4ffb)
 // - /pages/rating.vue?macro=true ($id_5fdad06e)
@@ -4666,6 +4789,9 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // - /pages/badge.vue ($id_f19d9a80)
 // - /pages/breadcrumb.vue ($id_76db04e5)
 // - /pages/buttons.vue ($id_e983a7e3)
+// - /pages/dropdown.vue ($id_d20fd50f)
+// - /pages/footer.vue ($id_a531a593)
+// - /pages/form.vue ($id_821dc3e3)
 // - /pages/index.vue ($id_cca58e97)
 // - /pages/pagination.vue ($id_ff91d3a4)
 // - /pages/rating.vue ($id_55a204e0)
@@ -5368,6 +5494,9 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}.bgGradient{back
 // - /pages/badge.vue?macro=true ($id_8d023e34)
 // - /pages/breadcrumb.vue?macro=true ($id_2daed590)
 // - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/dropdown.vue?macro=true ($id_65100fe4)
+// - /pages/footer.vue?macro=true ($id_d8cb473d)
+// - /pages/form.vue?macro=true ($id_bbef9a8f)
 // - /pages/pagination.vue?macro=true ($id_aace4ffb)
 // - /pages/rating.vue?macro=true ($id_5fdad06e)
 // - /pages/sidebar.vue?macro=true ($id_3f4c97d9)
@@ -5377,6 +5506,9 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}.bgGradient{back
 // - /pages/badge.vue ($id_f19d9a80)
 // - /pages/breadcrumb.vue ($id_76db04e5)
 // - /pages/buttons.vue ($id_e983a7e3)
+// - /pages/dropdown.vue ($id_d20fd50f)
+// - /pages/footer.vue ($id_a531a593)
+// - /pages/form.vue ($id_821dc3e3)
 // - /pages/pagination.vue ($id_ff91d3a4)
 // - /pages/rating.vue ($id_55a204e0)
 // - /pages/sidebar.vue ($id_1d8aa2b9)
@@ -5424,6 +5556,9 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_m
 // - /pages/badge.vue?macro=true ($id_8d023e34)
 // - /pages/breadcrumb.vue?macro=true ($id_2daed590)
 // - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/dropdown.vue?macro=true ($id_65100fe4)
+// - /pages/footer.vue?macro=true ($id_d8cb473d)
+// - /pages/form.vue?macro=true ($id_bbef9a8f)
 // - /pages/pagination.vue?macro=true ($id_aace4ffb)
 // - /pages/rating.vue?macro=true ($id_5fdad06e)
 // - /pages/sidebar.vue?macro=true ($id_3f4c97d9)
@@ -5433,6 +5568,9 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_m
 // - /pages/badge.vue ($id_f19d9a80)
 // - /pages/breadcrumb.vue ($id_76db04e5)
 // - /pages/buttons.vue ($id_e983a7e3)
+// - /pages/dropdown.vue ($id_d20fd50f)
+// - /pages/footer.vue ($id_a531a593)
+// - /pages/form.vue ($id_821dc3e3)
 // - /pages/pagination.vue ($id_ff91d3a4)
 // - /pages/rating.vue ($id_55a204e0)
 // - /pages/sidebar.vue ($id_1d8aa2b9)
@@ -5484,6 +5622,9 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // - /pages/badge.vue?macro=true ($id_8d023e34)
 // - /pages/breadcrumb.vue?macro=true ($id_2daed590)
 // - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/dropdown.vue?macro=true ($id_65100fe4)
+// - /pages/footer.vue?macro=true ($id_d8cb473d)
+// - /pages/form.vue?macro=true ($id_bbef9a8f)
 // - /pages/pagination.vue?macro=true ($id_aace4ffb)
 // - /pages/rating.vue?macro=true ($id_5fdad06e)
 // - /pages/sidebar.vue?macro=true ($id_3f4c97d9)
@@ -5493,6 +5634,9 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // - /pages/badge.vue ($id_f19d9a80)
 // - /pages/breadcrumb.vue ($id_76db04e5)
 // - /pages/buttons.vue ($id_e983a7e3)
+// - /pages/dropdown.vue ($id_d20fd50f)
+// - /pages/footer.vue ($id_a531a593)
+// - /pages/form.vue ($id_821dc3e3)
 // - /pages/pagination.vue ($id_ff91d3a4)
 // - /pages/rating.vue ($id_55a204e0)
 // - /pages/sidebar.vue ($id_1d8aa2b9)
@@ -5540,6 +5684,9 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // - /pages/badge.vue?macro=true ($id_8d023e34)
 // - /pages/breadcrumb.vue?macro=true ($id_2daed590)
 // - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/dropdown.vue?macro=true ($id_65100fe4)
+// - /pages/footer.vue?macro=true ($id_d8cb473d)
+// - /pages/form.vue?macro=true ($id_bbef9a8f)
 // - /pages/pagination.vue?macro=true ($id_aace4ffb)
 // - /pages/rating.vue?macro=true ($id_5fdad06e)
 // - /pages/sidebar.vue?macro=true ($id_3f4c97d9)
@@ -5549,6 +5696,9 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // - /pages/badge.vue ($id_f19d9a80)
 // - /pages/breadcrumb.vue ($id_76db04e5)
 // - /pages/buttons.vue ($id_e983a7e3)
+// - /pages/dropdown.vue ($id_d20fd50f)
+// - /pages/footer.vue ($id_a531a593)
+// - /pages/form.vue ($id_821dc3e3)
 // - /pages/pagination.vue ($id_ff91d3a4)
 // - /pages/rating.vue ($id_55a204e0)
 // - /pages/sidebar.vue ($id_1d8aa2b9)
@@ -5596,6 +5746,9 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // - /pages/badge.vue?macro=true ($id_8d023e34)
 // - /pages/breadcrumb.vue?macro=true ($id_2daed590)
 // - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/dropdown.vue?macro=true ($id_65100fe4)
+// - /pages/footer.vue?macro=true ($id_d8cb473d)
+// - /pages/form.vue?macro=true ($id_bbef9a8f)
 // - /pages/pagination.vue?macro=true ($id_aace4ffb)
 // - /pages/rating.vue?macro=true ($id_5fdad06e)
 // - /pages/sidebar.vue?macro=true ($id_3f4c97d9)
@@ -5605,6 +5758,9 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // - /pages/badge.vue ($id_f19d9a80)
 // - /pages/breadcrumb.vue ($id_76db04e5)
 // - /pages/buttons.vue ($id_e983a7e3)
+// - /pages/dropdown.vue ($id_d20fd50f)
+// - /pages/footer.vue ($id_a531a593)
+// - /pages/form.vue ($id_821dc3e3)
 // - /pages/pagination.vue ($id_ff91d3a4)
 // - /pages/rating.vue ($id_55a204e0)
 // - /pages/sidebar.vue ($id_1d8aa2b9)
@@ -5731,6 +5887,9 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // - /pages/badge.vue?macro=true ($id_8d023e34)
 // - /pages/breadcrumb.vue?macro=true ($id_2daed590)
 // - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/dropdown.vue?macro=true ($id_65100fe4)
+// - /pages/footer.vue?macro=true ($id_d8cb473d)
+// - /pages/form.vue?macro=true ($id_bbef9a8f)
 // - /pages/pagination.vue?macro=true ($id_aace4ffb)
 // - /pages/rating.vue?macro=true ($id_5fdad06e)
 // - /pages/sidebar.vue?macro=true ($id_3f4c97d9)
@@ -5740,6 +5899,9 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // - /pages/badge.vue ($id_f19d9a80)
 // - /pages/breadcrumb.vue ($id_76db04e5)
 // - /pages/buttons.vue ($id_e983a7e3)
+// - /pages/dropdown.vue ($id_d20fd50f)
+// - /pages/footer.vue ($id_a531a593)
+// - /pages/form.vue ($id_821dc3e3)
 // - /pages/pagination.vue ($id_ff91d3a4)
 // - /pages/rating.vue ($id_55a204e0)
 // - /pages/sidebar.vue ($id_1d8aa2b9)
@@ -6966,6 +7128,9 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_m
 // - /pages/badge.vue?macro=true ($id_8d023e34)
 // - /pages/breadcrumb.vue?macro=true ($id_2daed590)
 // - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
+// - /pages/dropdown.vue?macro=true ($id_65100fe4)
+// - /pages/footer.vue?macro=true ($id_d8cb473d)
+// - /pages/form.vue?macro=true ($id_bbef9a8f)
 // - /pages/pagination.vue?macro=true ($id_aace4ffb)
 // - /pages/rating.vue?macro=true ($id_5fdad06e)
 // - /pages/sidebar.vue?macro=true ($id_3f4c97d9)
@@ -6975,6 +7140,9 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_m
 // - /pages/badge.vue ($id_f19d9a80)
 // - /pages/breadcrumb.vue ($id_76db04e5)
 // - /pages/buttons.vue ($id_e983a7e3)
+// - /pages/dropdown.vue ($id_d20fd50f)
+// - /pages/footer.vue ($id_a531a593)
+// - /pages/form.vue ($id_821dc3e3)
 // - /pages/pagination.vue ($id_ff91d3a4)
 // - /pages/rating.vue ($id_55a204e0)
 // - /pages/sidebar.vue ($id_1d8aa2b9)
@@ -20938,6 +21106,3636 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 
 
 // --------------------
+// Request: /pages/dropdown.vue?macro=true
+// Parents: 
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
+// Dependencies: 
+// - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
+// - /components/Headers/Heading.vue ($id_7aa6b9b6)
+// - /components/Headers/SubHeading.vue ($id_65fe66b1)
+// - /components/Utils/ShowCodeButton.vue ($id_b28ae97a)
+// - /components/Utils/HideCodeButton.vue ($id_2ed55d76)
+// - /components/Utils/ComponentPad.vue ($id_900fca01)
+// - /components/Dropdown/WithIcon.vue ($id_25e5868a)
+// - /components/Dropdown/NoIcon.vue ($id_a35d6fb5)
+// - /components/Dropdown/OnlyHeading.vue ($id_f6e3029f)
+// - /components/Utils/CopyButton.vue ($id_07dc553f)
+// - /components/Dropdown/Snippets/WithIcon.vue ($id_7970dc7e)
+// - /components/Dropdown/Profile.vue ($id_18f6de88)
+// - /components/Dropdown/Snippets/Profile.vue ($id_e2fa14a4)
+// - /components/Dropdown/Default.vue ($id_c3d83ef0)
+// - /components/Dropdown/Snippets/Default.vue ($id_9db601bc)
+// - /components/Alert/AlertInfo.vue ($id_df465372)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /pages/dropdown.vue?vue&type=style&index=0&lang.css ($id_4d87771c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_65100fe4 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/layout.mjs");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/components/Utils/ShowCodeButton.vue");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/components/Utils/HideCodeButton.vue");
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/components/Utils/ComponentPad.vue");
+
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/components/Dropdown/WithIcon.vue");
+
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/components/Dropdown/NoIcon.vue");
+
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/components/Dropdown/OnlyHeading.vue");
+
+const __vite_ssr_import_9__ = await __vite_ssr_import__("/components/Utils/CopyButton.vue");
+
+const __vite_ssr_import_10__ = await __vite_ssr_import__("/components/Dropdown/Snippets/WithIcon.vue");
+
+const __vite_ssr_import_11__ = await __vite_ssr_import__("/components/Dropdown/Profile.vue");
+
+const __vite_ssr_import_12__ = await __vite_ssr_import__("/components/Dropdown/Snippets/Profile.vue");
+
+const __vite_ssr_import_13__ = await __vite_ssr_import__("/components/Dropdown/Default.vue");
+
+const __vite_ssr_import_14__ = await __vite_ssr_import__("/components/Dropdown/Snippets/Default.vue");
+
+
+const __vite_ssr_import_15__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
+
+const __vite_ssr_import_16__ = await __vite_ssr_import__("/components/Alert/AlertInfo.vue");
+
+const __vite_ssr_import_17__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
+
+const _sfc_main = {
+  metaInfo: {
+    title: "Rating",
+  },
+  components: {
+    Heading: __vite_ssr_import_17__.default,
+    SubHeading: __vite_ssr_import_15__.default,
+},
+  data() {
+    return {
+      layout: "custom",
+      
+      // SCROLL
+      activeScrollSection: "",
+      sample: "",
+    };
+  },
+  methods: {
+    scrollToSection(section) {
+      this.activeScrollSection = section;
+      document.getElementById("dropdownContainer").scrollTo({
+        top: document.getElementById(`${section}`).offsetTop - 100,
+        behavior: "smooth",
+      });
+      // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+    copyToClipboard(id) {
+      this.$bus.$emit("showToastNotification")
+      this.$globalCopyFunc(id);
+    },
+
+  },
+};
+
+const __vite_ssr_import_18__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_19__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_NuxtLayout = __vite_ssr_import_0__.default
+  const _component_HeadersHeading = __vite_ssr_import_1__.default
+  const _component_HeadersSubHeading = __vite_ssr_import_2__.default
+  const _component_UtilsShowCodeButton = __vite_ssr_import_3__.default
+  const _component_UtilsHideCodeButton = __vite_ssr_import_4__.default
+  const _component_UtilsComponentPad = __vite_ssr_import_5__.default
+  const _component_DropdownWithIcon = __vite_ssr_import_6__.default
+  const _component_DropdownNoIcon = __vite_ssr_import_7__.default
+  const _component_DropdownOnlyHeading = __vite_ssr_import_8__.default
+  const _component_UtilsCopyButton = __vite_ssr_import_9__.default
+  const _component_DropdownSnippetsWithIcon = __vite_ssr_import_10__.default
+  const _component_DropdownProfile = __vite_ssr_import_11__.default
+  const _component_DropdownSnippetsProfile = __vite_ssr_import_12__.default
+  const _component_DropdownDefault = __vite_ssr_import_13__.default
+  const _component_DropdownSnippetsDefault = __vite_ssr_import_14__.default
+
+  _push(__vite_ssr_import_19__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_18__.mergeProps({ name: $data.layout }, _attrs), {
+    default: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<div class="flex p-4"${
+          _scopeId
+        }><!-- content --><div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar"${
+          _scopeId
+        }><div class="overflow-y-auto w-full px-4 pb-20" id="dropdownContainer"${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_HeadersHeading, null, {
+          default: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(` Dropdown `)
+            } else {
+              return [
+                __vite_ssr_import_18__.createTextVNode(" Dropdown ")
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<div${
+          _scopeId
+        }><p class="text-base"${
+          _scopeId
+        }> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? </p></div><!-- start --><section id="iconFirstDropdown" class="w-full"${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Default`)
+            } else {
+              return [
+                __vite_ssr_import_18__.createTextVNode("Default")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!_ctx.default_footer) {
+                _push(__vite_ssr_import_19__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => (_ctx.default_footer = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_19__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => (_ctx.default_footer = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!_ctx.default_footer)
+                  ? (__vite_ssr_import_18__.openBlock(), __vite_ssr_import_18__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => (_ctx.default_footer = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_18__.openBlock(), __vite_ssr_import_18__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => (_ctx.default_footer = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`<div class="grid gri-flow-col grid-cols-3 gap-4 w-full"${
+                _scopeId
+              }><div${
+                _scopeId
+              }>`)
+              _push(__vite_ssr_import_19__.ssrRenderComponent(_component_DropdownWithIcon, null, null, _parent, _scopeId))
+              _push(`</div><div${_scopeId}>`)
+              _push(__vite_ssr_import_19__.ssrRenderComponent(_component_DropdownNoIcon, null, null, _parent, _scopeId))
+              _push(`</div><div${_scopeId}>`)
+              _push(__vite_ssr_import_19__.ssrRenderComponent(_component_DropdownOnlyHeading, null, null, _parent, _scopeId))
+              _push(`</div></div>`)
+            } else {
+              return [
+                __vite_ssr_import_18__.createVNode("div", { class: "grid gri-flow-col grid-cols-3 gap-4 w-full" }, [
+                  __vite_ssr_import_18__.createVNode("div", null, [
+                    __vite_ssr_import_18__.createVNode(_component_DropdownWithIcon)
+                  ]),
+                  __vite_ssr_import_18__.createVNode("div", null, [
+                    __vite_ssr_import_18__.createVNode(_component_DropdownNoIcon)
+                  ]),
+                  __vite_ssr_import_18__.createVNode("div", null, [
+                    __vite_ssr_import_18__.createVNode(_component_DropdownOnlyHeading)
+                  ])
+                ])
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_19__.ssrRenderStyle((_ctx.default_footer) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('iconFirstDropdownComp'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_DropdownSnippetsWithIcon, { id: "iconFirstDropdownComp" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End  --><!-- start --><section id="profileDropdown" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Default`)
+            } else {
+              return [
+                __vite_ssr_import_18__.createTextVNode("Default")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!_ctx.default_footer) {
+                _push(__vite_ssr_import_19__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => (_ctx.default_footer = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_19__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => (_ctx.default_footer = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!_ctx.default_footer)
+                  ? (__vite_ssr_import_18__.openBlock(), __vite_ssr_import_18__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => (_ctx.default_footer = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_18__.openBlock(), __vite_ssr_import_18__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => (_ctx.default_footer = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_19__.ssrRenderComponent(_component_DropdownProfile, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_18__.createVNode(_component_DropdownProfile)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_19__.ssrRenderStyle((_ctx.default_footer) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('profileDropdownComp'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_DropdownSnippetsProfile, { id: "profileDropdownComp" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End  --><!-- start --><section id="ytDropdown" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Default`)
+            } else {
+              return [
+                __vite_ssr_import_18__.createTextVNode("Default")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!_ctx.default_footer) {
+                _push(__vite_ssr_import_19__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => (_ctx.default_footer = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_19__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => (_ctx.default_footer = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!_ctx.default_footer)
+                  ? (__vite_ssr_import_18__.openBlock(), __vite_ssr_import_18__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => (_ctx.default_footer = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_18__.openBlock(), __vite_ssr_import_18__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => (_ctx.default_footer = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_19__.ssrRenderComponent(_component_DropdownDefault, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_18__.createVNode(_component_DropdownDefault)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_19__.ssrRenderStyle((_ctx.default_footer) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('ytDropdownComp'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_DropdownSnippetsDefault, { id: "ytDropdownComp" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End  --></div></div><!-- right sidebar --><div class="hidden lg:block"${
+          _scopeId
+        }><div class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2"${
+          _scopeId
+        }><div class="overflow-y-auto"${
+          _scopeId
+        }><!-- <AlertInfo /> --><div class="flex flex-col justify-start items-end space-y-2"${
+          _scopeId
+        }><p class="text-normal font-bold"${
+          _scopeId
+        }>On This Page</p><button${
+          _scopeId
+        }> Icon First Dropdown </button><button${
+          _scopeId
+        }> Profile Dropdown </button><button${
+          _scopeId
+        }> Youtube Dropdown </button></div></div></div></div></div>`)
+      } else {
+        return [
+          __vite_ssr_import_18__.createVNode("div", { class: "flex p-4" }, [
+            __vite_ssr_import_18__.createCommentVNode(" content "),
+            __vite_ssr_import_18__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
+              __vite_ssr_import_18__.createVNode("div", {
+                class: "overflow-y-auto w-full px-4 pb-20",
+                id: "dropdownContainer"
+              }, [
+                __vite_ssr_import_18__.createVNode(_component_HeadersHeading, null, {
+                  default: __vite_ssr_import_18__.withCtx(() => [
+                    __vite_ssr_import_18__.createTextVNode(" Dropdown ")
+                  ]),
+                  _: 1 /* STABLE */
+                }),
+                __vite_ssr_import_18__.createVNode("div", null, [
+                  __vite_ssr_import_18__.createVNode("p", { class: "text-base" }, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? ")
+                ]),
+                __vite_ssr_import_18__.createCommentVNode(" start "),
+                __vite_ssr_import_18__.createVNode("section", {
+                  id: "iconFirstDropdown",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_18__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_18__.withCtx(() => [
+                      __vite_ssr_import_18__.createTextVNode("Default")
+                    ]),
+                    code: __vite_ssr_import_18__.withCtx(() => [
+                      (!_ctx.default_footer)
+                        ? (__vite_ssr_import_18__.openBlock(), __vite_ssr_import_18__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => (_ctx.default_footer = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_18__.openBlock(), __vite_ssr_import_18__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => (_ctx.default_footer = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_18__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_18__.withCtx(() => [
+                      __vite_ssr_import_18__.createVNode("div", { class: "grid gri-flow-col grid-cols-3 gap-4 w-full" }, [
+                        __vite_ssr_import_18__.createVNode("div", null, [
+                          __vite_ssr_import_18__.createVNode(_component_DropdownWithIcon)
+                        ]),
+                        __vite_ssr_import_18__.createVNode("div", null, [
+                          __vite_ssr_import_18__.createVNode(_component_DropdownNoIcon)
+                        ]),
+                        __vite_ssr_import_18__.createVNode("div", null, [
+                          __vite_ssr_import_18__.createVNode(_component_DropdownOnlyHeading)
+                        ])
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_18__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_18__.createVNode(__vite_ssr_import_18__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_18__.withCtx(() => [
+                      __vite_ssr_import_18__.withDirectives(__vite_ssr_import_18__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_18__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_18__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_18__.createVNode("div", null, [
+                            __vite_ssr_import_18__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('iconFirstDropdownComp'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_18__.createVNode(_component_DropdownSnippetsWithIcon, { id: "iconFirstDropdownComp" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_18__.vShow, _ctx.default_footer]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_18__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_18__.createCommentVNode(" End  "),
+                __vite_ssr_import_18__.createCommentVNode(" start "),
+                __vite_ssr_import_18__.createVNode("section", {
+                  id: "profileDropdown",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_18__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_18__.withCtx(() => [
+                      __vite_ssr_import_18__.createTextVNode("Default")
+                    ]),
+                    code: __vite_ssr_import_18__.withCtx(() => [
+                      (!_ctx.default_footer)
+                        ? (__vite_ssr_import_18__.openBlock(), __vite_ssr_import_18__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => (_ctx.default_footer = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_18__.openBlock(), __vite_ssr_import_18__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => (_ctx.default_footer = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_18__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_18__.withCtx(() => [
+                      __vite_ssr_import_18__.createVNode(_component_DropdownProfile)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_18__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_18__.createVNode(__vite_ssr_import_18__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_18__.withCtx(() => [
+                      __vite_ssr_import_18__.withDirectives(__vite_ssr_import_18__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_18__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_18__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_18__.createVNode("div", null, [
+                            __vite_ssr_import_18__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('profileDropdownComp'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_18__.createVNode(_component_DropdownSnippetsProfile, { id: "profileDropdownComp" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_18__.vShow, _ctx.default_footer]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_18__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_18__.createCommentVNode(" End  "),
+                __vite_ssr_import_18__.createCommentVNode(" start "),
+                __vite_ssr_import_18__.createVNode("section", {
+                  id: "ytDropdown",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_18__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_18__.withCtx(() => [
+                      __vite_ssr_import_18__.createTextVNode("Default")
+                    ]),
+                    code: __vite_ssr_import_18__.withCtx(() => [
+                      (!_ctx.default_footer)
+                        ? (__vite_ssr_import_18__.openBlock(), __vite_ssr_import_18__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => (_ctx.default_footer = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_18__.openBlock(), __vite_ssr_import_18__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => (_ctx.default_footer = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_18__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_18__.withCtx(() => [
+                      __vite_ssr_import_18__.createVNode(_component_DropdownDefault)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_18__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_18__.createVNode(__vite_ssr_import_18__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_18__.withCtx(() => [
+                      __vite_ssr_import_18__.withDirectives(__vite_ssr_import_18__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_18__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_18__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_18__.createVNode("div", null, [
+                            __vite_ssr_import_18__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('ytDropdownComp'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_18__.createVNode(_component_DropdownSnippetsDefault, { id: "ytDropdownComp" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_18__.vShow, _ctx.default_footer]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_18__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_18__.createCommentVNode(" End  ")
+              ])
+            ]),
+            __vite_ssr_import_18__.createCommentVNode(" right sidebar "),
+            __vite_ssr_import_18__.createVNode("div", { class: "hidden lg:block" }, [
+              __vite_ssr_import_18__.createVNode("div", { class: "w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2" }, [
+                __vite_ssr_import_18__.createVNode("div", { class: "overflow-y-auto" }, [
+                  __vite_ssr_import_18__.createCommentVNode(" <AlertInfo /> "),
+                  __vite_ssr_import_18__.createVNode("div", { class: "flex flex-col justify-start items-end space-y-2" }, [
+                    __vite_ssr_import_18__.createVNode("p", { class: "text-normal font-bold" }, "On This Page"),
+                    __vite_ssr_import_18__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('iconFirstDropdown'))
+                    }, " Icon First Dropdown ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_18__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('profileDropdown'))
+                    }, " Profile Dropdown ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_18__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('ytDropdown'))
+                    }, " Youtube Dropdown ", 8 /* PROPS */, ["onClick"])
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+}
+
+const __vite_ssr_import_20__ = await __vite_ssr_import__("/pages/dropdown.vue?vue&type=style&index=0&lang.css");
+
+
+const __vite_ssr_import_21__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_21__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/dropdown.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_22__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/dropdown.vue"]])
+const meta = undefined
+Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
+}
+
+
+// --------------------
+// Request: /components/Dropdown/WithIcon.vue
+// Parents: 
+// - /pages/dropdown.vue?macro=true ($id_65100fe4)
+// - /pages/dropdown.vue ($id_d20fd50f)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /components/Dropdown/WithIcon.vue?vue&type=style&index=0&lang.css ($id_aeb6b10f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_25e5868a = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      isOpen: false,
+      items: [
+        {
+          id: 1,
+          type: "Default",
+          textColor: "text-gray-400",
+          bgColor: "bg-white dark:bg-gray-800",
+          bgColor2: "bg-white dark:bg-gray-800",
+          textColor2: "text-slate-600 dark:text-gray-400",
+          textColor3: "text-slate-700 dark:text-gray-500",
+          border: "border-1",
+          borderColor: "border-slate-600",
+          textColorActive: "text-slate-600 dark:text-gray-50",
+          bgColorActive: "bg-white dark:bg-gray-800",
+          divider: "divide-neutral-700 ",
+        },
+      ],
+      menuitems: [
+        {
+          id: 1,
+          title: "Discover",
+          descr: "A marketplace for digital assets",
+          leftimg:
+            "https://res.cloudinary.com/ortigan/image/upload/v1654687343/high-resolution-cube-3d-purple-box-18_jqtmkq.png",
+        },
+        {
+          id: 2,
+          title: "Graphics",
+          descr: "Icons, Illustrations, Patterns, Textures...",
+          leftimg:
+            "https://res.cloudinary.com/ortigan/image/upload/v1654687958/Group_61_lelqjz.png",
+        },
+        {
+          id: 3,
+          title: "Fonts",
+          descr: "Display, Script, Sans, Serif, Serif...",
+          leftimg:
+            "https://res.cloudinary.com/ortigan/image/upload/v1654688097/F_zoensv.png",
+        },
+      ],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full flex flex-col space-y-4" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.items, (item, index) => {
+    _push(`<span><div class="w-full"><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(`w-full ${item.bgColor2} rounded-lg`)
+    }"><div class=""><div class="${
+      __vite_ssr_import_1__.ssrRenderClass([
+                $data.isOpen
+                  ? `p-4 text-sm transition-all delay-200 ${item.textColorActive} ${
+                      item.bgColorActive
+                    } flex flex-row rounded-lg space-x-4 overflow-hidden cursor-pointer`
+                  : `p-4 text-sm ${item.textColor} ${
+                      item.bgColor
+                    } flex flex-row rounded-lg space-x-4 overflow-hidden cursor-pointer`
+              , "w-full"])
+    }"><div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg></div><div class="font-medium w-full">${
+      __vite_ssr_import_1__.ssrInterpolate(item.type)
+    } Notification</div></div><div>`)
+    if ($data.isOpen) {
+      _push(`<span class="h-full w-full shadow grid grid-flow-row grid-cols-1 justify-between"><!--[-->`)
+      __vite_ssr_import_1__.ssrRenderList($data.menuitems, (menuitem, index) => {
+        _push(`<span><div class="w-full flex flex-row justify-between items-center p-4"><div class=""><div class="h-14 w-14 bg-neutral-100 dark:bg-gray-300 rounded-xl overflow-hidden flex justify-center items-center"><img${
+          __vite_ssr_import_1__.ssrRenderAttr("src", menuitem.leftimg)
+        } alt="" class="object-cover h-7 w-7"></div></div><div class="flex flex-col space-y-2 w-3/4"><p class="" class="${
+          __vite_ssr_import_1__.ssrRenderClass([`${item.bgColor2} ${item.textColor2} font-bold`, ""])
+        }">${
+          __vite_ssr_import_1__.ssrInterpolate(menuitem.title)
+        }</p><p class="${
+          __vite_ssr_import_1__.ssrRenderClass([`${item.bgColor3} ${item.textColor3}`, "text-sm"])
+        }">${
+          __vite_ssr_import_1__.ssrInterpolate(menuitem.descr)
+        }</p></div></div></span>`)
+      })
+      _push(`<!--]--></span>`)
+    } else {
+      _push(`<!---->`)
+    }
+    _push(`</div></div></div></div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/Dropdown/WithIcon.vue?vue&type=style&index=0&lang.css");
+
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Dropdown/WithIcon.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Dropdown/WithIcon.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Dropdown/WithIcon.vue?vue&type=style&index=0&lang.css
+// Parents: 
+// - /components/Dropdown/WithIcon.vue ($id_25e5868a)
+// Dependencies: 
+
+// --------------------
+const $id_aeb6b10f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = "";
+}
+
+
+// --------------------
+// Request: /components/Dropdown/NoIcon.vue
+// Parents: 
+// - /pages/dropdown.vue?macro=true ($id_65100fe4)
+// - /pages/dropdown.vue ($id_d20fd50f)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_a35d6fb5 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+     data() {
+    return {
+      isOpen: false,
+      items: [
+        {
+          id: 1,
+         type: "Default",
+          textColor: "text-gray-400",
+          bgColor: "bg-white dark:bg-gray-800",
+          bgColor2: "bg-white dark:bg-gray-800",
+          textColor2: "text-slate-600 dark:text-gray-400",
+          textColor3: "text-slate-700 dark:text-gray-500",
+          border: "border-1",
+          borderColor: "border-slate-600",
+          textColorActive: "text-slate-600 dark:text-gray-50",
+          bgColorActive: "bg-white dark:bg-gray-800",
+          divider: "divide-neutral-700 ",
+        },
+      ],
+      menuitems:[
+          {
+              id: 1,
+              title: "Discover",
+              descr: "A marketplace for digital assets",
+              leftimg: "https://res.cloudinary.com/ortigan/image/upload/v1654687343/high-resolution-cube-3d-purple-box-18_jqtmkq.png",
+              
+          },
+          {
+              id: 2,
+              title: "Graphics",
+              descr: "Icons, Illustrations, Patterns, Textures...",
+              leftimg: "https://res.cloudinary.com/ortigan/image/upload/v1654687958/Group_61_lelqjz.png",
+             
+          },
+          {
+              id: 3,
+              title: "Fonts",
+              descr: "Display, Script, Sans, Serif, Serif...",
+              leftimg: "https://res.cloudinary.com/ortigan/image/upload/v1654688097/F_zoensv.png",
+             
+          },
+      ]
+    };
+  },
+}
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full flex flex-col space-y-4" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.items, (item, index) => {
+    _push(`<span><div><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(`w-full ${item.bgColor2} rounded-lg`)
+    }"><div class=""><div role="accordion" class="${
+      __vite_ssr_import_1__.ssrRenderClass(
+            $data.isOpen
+              ? `p-4 text-sm ${item.textColorActive} ${item.bgColorActive} flex flex-row rounded-lg space-x-4 overflow-hidden cursor-pointer`
+              : `p-4 text-sm ${item.textColor} ${item.bgColor} flex flex-row rounded-lg space-x-4 overflow-hidden cursor-pointer`
+          )
+    }"><div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg></div><div class="font-medium">${
+      __vite_ssr_import_1__.ssrInterpolate(item.type)
+    } Notification</div></div><div><span class="${
+      __vite_ssr_import_1__.ssrRenderClass([$data.isOpen ? `d-block ${item.divider}` : 'hidden', "h-full w-full shadow grid grid-flow-row grid-cols-1 justify-between"])
+    }"><!--[-->`)
+    __vite_ssr_import_1__.ssrRenderList($data.menuitems, (menuitem, index) => {
+      _push(`<span><div class="flex flex-row justify-between items-center p-4 ml-4"><div class="flex flex-col space-y-2"><p class="" class="${
+        __vite_ssr_import_1__.ssrRenderClass([`${item.bgColor2} ${item.textColor2} font-bold`, ""])
+      }">${
+        __vite_ssr_import_1__.ssrInterpolate(menuitem.title)
+      }</p><p class="${
+        __vite_ssr_import_1__.ssrRenderClass([`${item.bgColor3} ${item.textColor3}`, "text-sm"])
+      }">${
+        __vite_ssr_import_1__.ssrInterpolate(menuitem.descr)
+      }</p></div></div></span>`)
+    })
+    _push(`<!--]--></span></div></div></div></div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Dropdown/NoIcon.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Dropdown/NoIcon.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Dropdown/OnlyHeading.vue
+// Parents: 
+// - /pages/dropdown.vue?macro=true ($id_65100fe4)
+// - /pages/dropdown.vue ($id_d20fd50f)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_f6e3029f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+     data() {
+    return {
+      isOpen: false,
+      items: [
+        {
+          id: 1,
+          type: "Default",
+          textColor: "text-gray-400",
+          bgColor: "bg-white dark:bg-gray-800",
+          bgColor2: "bg-white dark:bg-gray-800",
+          textColor2: "text-slate-600 dark:text-gray-400",
+          textColor3: "text-slate-700 dark:text-gray-500",
+          border: "border-1",
+          borderColor: "border-slate-600",
+          textColorActive: "text-slate-600 dark:text-gray-50",
+          bgColorActive: "bg-white dark:bg-gray-800",
+          divider: "divide-neutral-700 ",
+        },
+      ],
+      menuitems:[
+          {
+              id: 1,
+              title: "Discover",
+              descr: "A marketplace for digital assets",
+              leftimg: "https://res.cloudinary.com/ortigan/image/upload/v1654687343/high-resolution-cube-3d-purple-box-18_jqtmkq.png",
+              
+          },
+          {
+              id: 2,
+              title: "Graphics",
+              descr: "Icons, Illustrations, Patterns, Textures...",
+              leftimg: "https://res.cloudinary.com/ortigan/image/upload/v1654687958/Group_61_lelqjz.png",
+             
+          },
+          {
+              id: 3,
+              title: "Fonts",
+              descr: "Display, Script, Sans, Serif, Serif...",
+              leftimg: "https://res.cloudinary.com/ortigan/image/upload/v1654688097/F_zoensv.png",
+             
+          },
+      ]
+    };
+  },
+}
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full flex flex-col space-y-4" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.items, (item, index) => {
+    _push(`<span><div><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(`w-full ${item.bgColor2} rounded-lg`)
+    }"><div class=""><div role="accordion" class="${
+      __vite_ssr_import_1__.ssrRenderClass(
+            $data.isOpen
+              ? `p-4 text-sm ${item.textColorActive} ${item.bgColorActive} flex flex-row rounded-lg space-x-4 overflow-hidden cursor-pointer`
+              : `p-4 text-sm ${item.textColor} ${item.bgColor} flex flex-row rounded-lg space-x-4 overflow-hidden cursor-pointer`
+          )
+    }"><div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg></div><div class="font-medium">${
+      __vite_ssr_import_1__.ssrInterpolate(item.type)
+    } Notification</div></div><div><span class="${
+      __vite_ssr_import_1__.ssrRenderClass([$data.isOpen ? `d-block ${item.divider}` : 'hidden', "h-full w-full shadow grid grid-flow-row grid-cols-1 justify-between"])
+    }"><!--[-->`)
+    __vite_ssr_import_1__.ssrRenderList($data.menuitems, (menuitem, index) => {
+      _push(`<span><div class="flex flex-row justify-between items-center p-4 ml-4"><div class="flex flex-col space-y-2"><p class="" class="${
+        __vite_ssr_import_1__.ssrRenderClass([`${item.bgColor2} ${item.textColor2} font-bold`, ""])
+      }">${
+        __vite_ssr_import_1__.ssrInterpolate(menuitem.title)
+      }</p><!-- <p class="text-sm" :class="\`\${item.bgColor3} \${item.textColor3}\`">{{menuitem.descr}}</p> --></div></div></span>`)
+    })
+    _push(`<!--]--></span></div></div></div></div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Dropdown/OnlyHeading.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Dropdown/OnlyHeading.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Dropdown/Snippets/WithIcon.vue
+// Parents: 
+// - /pages/dropdown.vue?macro=true ($id_65100fe4)
+// - /pages/dropdown.vue ($id_d20fd50f)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_7970dc7e = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+      
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Dropdown/Snippets/WithIcon.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Dropdown/Snippets/WithIcon.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Dropdown/Profile.vue
+// Parents: 
+// - /pages/dropdown.vue?macro=true ($id_65100fe4)
+// - /pages/dropdown.vue ($id_d20fd50f)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_18f6de88 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      isOpen: false,
+      items: [
+        {
+          id: 1,
+          type: "Nested",
+          textColor: "text-gray-400",
+          bgColor: "bg-white dark:bg-gray-800",
+          bgColor2: "bg-white dark:bg-gray-800",
+          textColor2: "text-neutral-500 dark:text-gray-200",
+          textColor3: "text-slate-700 dark:text-gray-200",
+          border: "border-1",
+          borderColor: "border-slate-600",
+          textColorActive: "text-slate-600 dark:text-gray-200",
+          bgColorActive: "bg-white dark:bg-gray-800",
+          divider: "divide-neutral-700",
+        },
+      ],
+      menuitems: [
+        {
+          id: 1,
+          title: "Profile",
+          descr: "A marketplace for digital assets",
+          leftimg:
+            "https://res.cloudinary.com/ortigan/image/upload/v1654687343/high-resolution-cube-3d-purple-box-18_jqtmkq.png",
+        },
+      ],
+      mitems: [
+        {
+          id: 1,
+          title: "Edit Profile",
+          descr: "A marketplace for digital assets",
+          leftimg:
+            "https://res.cloudinary.com/ortigan/image/upload/v1654687343/high-resolution-cube-3d-purple-box-18_jqtmkq.png",
+        },
+        {
+          id: 2,
+          title: "Edit Work Preferences",
+          descr: "Icons, Illustrations, Patterns, Textures...",
+          leftimg:
+            "https://res.cloudinary.com/ortigan/image/upload/v1654687958/Group_61_lelqjz.png",
+        },
+      ],
+      nitems: [
+        {
+          id: 1,
+          title: "My Boosted Shots",
+          descr: "A marketplace for digital assets",
+          svg:`<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-neutral-400" viewBox="0 0 20 20" fill="currentColor">
+  <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+</svg>`,
+          
+          leftimg:
+            "https://res.cloudinary.com/ortigan/image/upload/v1654687343/high-resolution-cube-3d-purple-box-18_jqtmkq.png",
+        },
+        {
+          id: 2,
+          title: "My Likes",
+          descr: "A marketplace for digital assets",
+          svg:`<svg class="h-5 w-5 text-neutral-400" viewBox="0 0 32 23" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M19.1888 1.27992C19.1888 0.940466 19.3237 0.614913 19.564 0.374881C19.8042 0.134849 20.1301 0 20.4699 0H30.7189C31.0587 0 31.3845 0.134849 31.6248 0.374881C31.865 0.614913 32 0.940466 32 1.27992V11.5193C32 11.8588 31.865 12.1843 31.6248 12.4243C31.3845 12.6644 31.0587 12.7992 30.7189 12.7992C30.3791 12.7992 30.0532 12.6644 29.813 12.4243C29.5727 12.1843 29.4378 11.8588 29.4378 11.5193V4.86371L20.1803 16.1705C20.067 16.3087 19.926 16.4217 19.7663 16.5022C19.6067 16.5826 19.4319 16.6288 19.2533 16.6377C19.0747 16.6466 18.8962 16.6181 18.7293 16.554C18.5624 16.4898 18.4108 16.3915 18.2843 16.2653L11.6557 9.64294L2.28815 22.5113C2.08323 22.7716 1.78528 22.9424 1.45692 22.9879C1.12855 23.0333 0.795342 22.9498 0.527303 22.755C0.259265 22.5601 0.0772704 22.269 0.0195645 21.9429C-0.0381414 21.6167 0.0329343 21.281 0.217856 21.0061L10.4669 6.92694C10.5756 6.77723 10.7156 6.65285 10.8771 6.56239C11.0387 6.47192 11.2179 6.41752 11.4025 6.40292C11.5871 6.38832 11.7727 6.41387 11.9464 6.47782C12.1202 6.54177 12.278 6.6426 12.409 6.77335L19.0939 13.4545L28.0157 2.55985H20.4699C20.1301 2.55985 19.8042 2.425 19.564 2.18496C19.3237 1.94493 19.1888 1.61938 19.1888 1.27992Z"/>
+</svg>`,
+          leftimg:
+            "https://res.cloudinary.com/ortigan/image/upload/v1654687343/high-resolution-cube-3d-purple-box-18_jqtmkq.png",
+        },
+        {
+          id: 3,
+          title: "My Collections",
+          descr: "A marketplace for digital assets",
+          svg:`<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-neutral-400" viewBox="0 0 20 20" fill="currentColor">
+  <path fill-rule="evenodd" d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V8a2 2 0 00-2-2h-5L9 4H4zm7 5a1 1 0 10-2 0v1H8a1 1 0 100 2h1v1a1 1 0 102 0v-1h1a1 1 0 100-2h-1V9z" />
+</svg>`,
+          leftimg:
+            "https://res.cloudinary.com/ortigan/image/upload/v1654687343/high-resolution-cube-3d-purple-box-18_jqtmkq.png",
+        },
+        {
+          id: 4,
+          title: "Go pro",
+          descr: "A marketplace for digital assets",
+          svg:`<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-pink-600" viewBox="0 0 20 20" fill="currentColor">
+  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+</svg>`,
+          leftimg:
+            "https://res.cloudinary.com/ortigan/image/upload/v1654687343/high-resolution-cube-3d-purple-box-18_jqtmkq.png",
+        },
+      ],
+      pitems: [
+        {
+          id: 1,
+          title: "Account Settings",
+          descr: "A marketplace for digital assets",
+          leftimg:
+            "https://res.cloudinary.com/ortigan/image/upload/v1654687343/high-resolution-cube-3d-purple-box-18_jqtmkq.png",
+        },
+        {
+          id: 2,
+          title: "Sign Out",
+          descr: "Icons, Illustrations, Patterns, Textures...",
+          leftimg:
+            "https://res.cloudinary.com/ortigan/image/upload/v1654687958/Group_61_lelqjz.png",
+        },
+      ],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full flex flex-col space-y-4" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.items, (item, index) => {
+    _push(`<span><div><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(`w-1/3 ${item.bgColor2} rounded-lg`)
+    }"><div><div role="dropdown" class="${
+      __vite_ssr_import_1__.ssrRenderClass(
+                $data.isOpen
+                  ? `p-4 text-sm ${item.textColorActive} ${item.bgColorActive} flex flex-row rounded-lg space-x-4 overflow-hidden cursor-pointer`
+                  : `p-4 text-sm ${item.textColor} ${item.bgColor} flex flex-row rounded-lg space-x-4 overflow-hidden cursor-pointer`
+              )
+    }"><div class=""><div class="${
+      __vite_ssr_import_1__.ssrRenderClass([$data.isOpen ? 'ring-2 ring-pink-600': '', "h-14 w-14 bg-gray-600 rounded-full overflow-hidden"])
+    }"><img src="https://res.cloudinary.com/ortigan/image/upload/v1655120679/IMG_20190909_205547_265_d8ir8r.jpg" alt="" class="object-cover"></div></div></div><div><span class="${
+      __vite_ssr_import_1__.ssrRenderClass([$data.isOpen ? `d-block ${item.divider}` : 'hidden', "h-full w-full shadow grid grid-flow-row grid-cols-1 justify-between"])
+    }"><div class="p-6 flex justify-center items-center"><div class="h-48 w-full bg-white dark:bg-gray-700 border-2 dark:border-0 rounded-lg flex flex-col space-y-2 justify-center items-center px-4 py-8"><div class="bg-gray-100 dark:bg-gray-500 text-indigo-600 dark:text-blue-50 rounded-full p-3 flex justify-center items-center uppercase font-bold"><p>limited account</p></div><div class="flex justify-center text-gray-600 dark:text-gray-200 text-center text-base"><p class=""> Get a free Designer Account to access all features. </p></div><div class="text-pink-500 font-bold underline"><p>Learn more</p></div></div></div><!--[-->`)
+    __vite_ssr_import_1__.ssrRenderList($data.menuitems, (menuitem, index) => {
+      _push(`<span><div class="flex flex-row justify-between items-center py-2 px-4 ml-4"><div class="flex flex-col space-y-2"><p class="${
+        __vite_ssr_import_1__.ssrRenderClass([`${item.bgColor2} ${item.textColor2} font-base`, "font-medium"])
+      }">${
+        __vite_ssr_import_1__.ssrInterpolate(menuitem.title)
+      }</p></div></div></span>`)
+    })
+    _push(`<!--]--><div class="px-6"><hr></div><!--[-->`)
+    __vite_ssr_import_1__.ssrRenderList($data.mitems, (mitem, index) => {
+      _push(`<span><div class="flex flex-row justify-between items-center py-2 px-4 ml-4"><div class="flex flex-col space-y-1"><p class="${
+        __vite_ssr_import_1__.ssrRenderClass([`${item.bgColor2} ${item.textColor2} font-base`, "font-medium"])
+      }">${
+        __vite_ssr_import_1__.ssrInterpolate(mitem.title)
+      }</p></div></div></span>`)
+    })
+    _push(`<!--]--><div class="px-6"><hr></div><!--[-->`)
+    __vite_ssr_import_1__.ssrRenderList($data.nitems, (nitem, index) => {
+      _push(`<span><div class="flex flex-row space-x-4 items-center py-2 px-4 ml-4"><div>${
+        nitem.svg
+      }</div><div class="flex flex-col space-y-1"><p class="${
+        __vite_ssr_import_1__.ssrRenderClass([`${item.bgColor2} ${item.textColor2} font-base`, "font-medium"])
+      }">${
+        __vite_ssr_import_1__.ssrInterpolate(nitem.title)
+      }</p></div></div></span>`)
+    })
+    _push(`<!--]--><div class="px-6"><hr></div><!--[-->`)
+    __vite_ssr_import_1__.ssrRenderList($data.pitems, (pitem, index) => {
+      _push(`<span><div class="flex flex-row justify-between items-center py-2 px-4 ml-4"><div class="flex flex-col space-y-1"><p class="${
+        __vite_ssr_import_1__.ssrRenderClass([`${item.bgColor2} ${item.textColor2} font-base`, "font-medium"])
+      }">${
+        __vite_ssr_import_1__.ssrInterpolate(pitem.title)
+      }</p></div></div></span>`)
+    })
+    _push(`<!--]--></span></div></div></div></div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Dropdown/Profile.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Dropdown/Profile.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Dropdown/Snippets/Profile.vue
+// Parents: 
+// - /pages/dropdown.vue?macro=true ($id_65100fe4)
+// - /pages/dropdown.vue ($id_d20fd50f)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_e2fa14a4 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+      
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Dropdown/Snippets/Profile.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Dropdown/Snippets/Profile.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Dropdown/Default.vue
+// Parents: 
+// - /pages/dropdown.vue?macro=true ($id_65100fe4)
+// - /pages/dropdown.vue ($id_d20fd50f)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_c3d83ef0 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      isOpen: false,
+      items: [
+        {
+          id: 1,
+          type: "Default",
+          textColor: "text-slate-400 dark:text-slate-200",
+          bgColor: "bg-gray-50 dark:bg-gray-800",
+          bgColor2: "bg-gray-50 dark:bg-gray-800",
+          textColor2: "text-slate-400 dark:text-slate-200",
+          textColor3: "text-gray-700 dark:text-gray-400",
+          border: "border-1",
+          borderColor: "border-slate-200",
+          textColorActive: "text-slate-400 dark:text-slate-200",
+          bgColorActive: "bg-gray-50 dark:bg-gray-800",
+          divider: "divide-gray-700",
+        },
+      ],
+      menuitems:[
+          {
+              id: 1,
+              title: "Recommended: Fade Fan Beat Trailer//VALORANT okokkokkokoko",
+              time: "3 hours ago",
+              leftimg: "https://res.cloudinary.com/ortigan/image/upload/v1654599886/E27zoHJXEAEIIZf_k6kccg.png",
+              rightimg: "https://res.cloudinary.com/ortigan/image/upload/v1654600760/maxresdefault_1_bijcx3.jpg",
+          },
+          {
+              id: 2,
+              title: "Recommended: Timepass 3 | Official Teaser | Hruta Durgule | Prathamesh Parab | Ravi Jadhav | Zee Studios",
+              time: "1 day ago",
+              leftimg: "",
+              rightimg: "https://res.cloudinary.com/ortigan/image/upload/v1654603843/maxresdefault_2_alwq50.jpg",
+          },
+          {
+              id: 3,
+              title: "Recommended: Yelan & Eula with style",
+              time: "2 days ago",
+              leftimg: "",
+              rightimg: "https://res.cloudinary.com/ortigan/image/upload/v1654690665/maxresdefault_live_zfacip.jpg",
+          },
+          {
+              id: 4,
+              title: "Recommended: NEW!!! FREEMOGEMS Rewards CLAIM NOW Before Expire HOYOVERSE Is Generous-Genshin Impact",
+              time: "3 days ago",
+              leftimg: "",
+              rightimg: "https://res.cloudinary.com/ortigan/image/upload/v1654690770/Genshin-Impac_vx1gkd.png",
+          }
+      ]
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full flex flex-col space-y-4" }, _attrs))}><!--[-->`)
+  __vite_ssr_import_1__.ssrRenderList($data.items, (item, index) => {
+    _push(`<span><div class="${
+      __vite_ssr_import_1__.ssrRenderClass(`w-3/4 ${item.bgColor2} rounded-lg`)
+    }"><div><div role="accordion" class="${
+      __vite_ssr_import_1__.ssrRenderClass(
+            $data.isOpen
+              ? `p-4 text-sm ${item.textColorActive} ${item.bgColorActive} flex flex-row rounded-lg space-x-4 overflow-hidden cursor-pointer`
+              : `p-4 text-sm ${item.textColor} ${item.bgColor} flex flex-row rounded-lg space-x-4 overflow-hidden cursor-pointer`
+          )
+    }"><div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg></div><div class="font-medium">${
+      __vite_ssr_import_1__.ssrInterpolate(item.type)
+    } Notification</div></div><div><span class="${
+      __vite_ssr_import_1__.ssrRenderClass([$data.isOpen ? `d-block ${item.divider}` : 'hidden', "h-full w-full shadow grid grid-flow-row grid-cols-1 divide-y justify-between"])
+    }"><!--[-->`)
+    __vite_ssr_import_1__.ssrRenderList($data.menuitems, (menuitem, index) => {
+      _push(`<span><div class="flex flex-row justify-between items-center px-8 py-6"><div class="w-24"><div class="h-16 w-16 bg-slate-300 rounded-full overflow-hidden"><img${
+        __vite_ssr_import_1__.ssrRenderAttr("src", menuitem.leftimg)
+      } alt=""></div></div><div class="flex flex-col space-y-2 w-3/4"><p class="" class="${
+        __vite_ssr_import_1__.ssrRenderClass([`${item.bgColor2} ${item.textColor2} font-medium `, ""])
+      }">${
+        __vite_ssr_import_1__.ssrInterpolate(menuitem.title)
+      }</p><p class="${
+        __vite_ssr_import_1__.ssrRenderClass([`${item.bgColor3} ${item.textColor3}`, "text-sm"])
+      }">${
+        __vite_ssr_import_1__.ssrInterpolate(menuitem.time)
+      }</p></div><div class="w-24"><div class="h-16 w-28 bg-slate-200 overflow-hidden"><img${
+        __vite_ssr_import_1__.ssrRenderAttr("src", menuitem.rightimg)
+      } alt="" class="h-full w-full object-cover"></div></div></div></span>`)
+    })
+    _push(`<!--]--></span></div></div></div></span>`)
+  })
+  _push(`<!--]--></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Dropdown/Default.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Dropdown/Default.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Dropdown/Snippets/Default.vue
+// Parents: 
+// - /pages/dropdown.vue?macro=true ($id_65100fe4)
+// - /pages/dropdown.vue ($id_d20fd50f)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_9db601bc = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+      
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Dropdown/Snippets/Default.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Dropdown/Snippets/Default.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/dropdown.vue?vue&type=style&index=0&lang.css
+// Parents: 
+// - /pages/dropdown.vue?macro=true ($id_65100fe4)
+// - /pages/dropdown.vue ($id_d20fd50f)
+// Dependencies: 
+
+// --------------------
+const $id_4d87771c = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
+}
+
+
+// --------------------
+// Request: /pages/footer.vue?macro=true
+// Parents: 
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
+// Dependencies: 
+// - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
+// - /components/Headers/Heading.vue ($id_7aa6b9b6)
+// - /components/Headers/SubHeading.vue ($id_65fe66b1)
+// - /components/Utils/ShowCodeButton.vue ($id_b28ae97a)
+// - /components/Utils/HideCodeButton.vue ($id_2ed55d76)
+// - /components/Utils/ComponentPad.vue ($id_900fca01)
+// - /components/Footer/Default.vue ($id_b6595b4c)
+// - /components/Utils/CopyButton.vue ($id_07dc553f)
+// - /components/Footer/Snippets/Default.vue ($id_66157248)
+// - /components/Footer/LogoSection.vue ($id_3461c3e2)
+// - /components/Footer/Snippets/LogoSection.vue ($id_6e695b56)
+// - /components/Footer/TwoRow.vue ($id_02bc8559)
+// - /components/Footer/Appsmith.vue ($id_9584eb63)
+// - /components/Footer/Snippets/Appsmith.vue ($id_cdef03de)
+// - /components/Alert/AlertInfo.vue ($id_df465372)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /pages/footer.vue?vue&type=style&index=0&lang.css ($id_b51c725f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_d8cb473d = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/layout.mjs");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/components/Utils/ShowCodeButton.vue");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/components/Utils/HideCodeButton.vue");
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/components/Utils/ComponentPad.vue");
+
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/components/Footer/Default.vue");
+
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/components/Utils/CopyButton.vue");
+
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/components/Footer/Snippets/Default.vue");
+
+const __vite_ssr_import_9__ = await __vite_ssr_import__("/components/Footer/LogoSection.vue");
+
+const __vite_ssr_import_10__ = await __vite_ssr_import__("/components/Footer/Snippets/LogoSection.vue");
+
+const __vite_ssr_import_11__ = await __vite_ssr_import__("/components/Footer/TwoRow.vue");
+
+const __vite_ssr_import_12__ = await __vite_ssr_import__("/components/Footer/Appsmith.vue");
+
+const __vite_ssr_import_13__ = await __vite_ssr_import__("/components/Footer/Snippets/Appsmith.vue");
+
+
+const __vite_ssr_import_14__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
+
+const __vite_ssr_import_15__ = await __vite_ssr_import__("/components/Alert/AlertInfo.vue");
+
+const __vite_ssr_import_16__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
+
+const _sfc_main = {
+  metaInfo: {
+    title: "Rating",
+  },
+  components: {
+    AlertInfo: __vite_ssr_import_15__.default,
+    Heading: __vite_ssr_import_16__.default,
+    SubHeading: __vite_ssr_import_14__.default,
+},
+  data() {
+    return {
+      layout: "custom",
+      default_footer: false,
+      logoaside_footer: false,
+      tworows_footer: false,
+      appsmith_footer: false,
+      // SCROLL
+      activeScrollSection: "",
+      sample: "",
+    };
+  },
+  methods: {
+    scrollToSection(section) {
+      this.activeScrollSection = section;
+      document.getElementById("footerContainer").scrollTo({
+        top: document.getElementById(`${section}`).offsetTop - 100,
+        behavior: "smooth",
+      });
+      // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+    copyToClipboard(id) {
+      this.$bus.$emit("showToastNotification")
+      this.$globalCopyFunc(id);
+    },
+
+  },
+};
+
+const __vite_ssr_import_17__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_18__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_NuxtLayout = __vite_ssr_import_0__.default
+  const _component_HeadersHeading = __vite_ssr_import_1__.default
+  const _component_HeadersSubHeading = __vite_ssr_import_2__.default
+  const _component_UtilsShowCodeButton = __vite_ssr_import_3__.default
+  const _component_UtilsHideCodeButton = __vite_ssr_import_4__.default
+  const _component_UtilsComponentPad = __vite_ssr_import_5__.default
+  const _component_FooterDefault = __vite_ssr_import_6__.default
+  const _component_UtilsCopyButton = __vite_ssr_import_7__.default
+  const _component_FooterSnippetsDefault = __vite_ssr_import_8__.default
+  const _component_FooterLogoSection = __vite_ssr_import_9__.default
+  const _component_FooterSnippetsLogoSection = __vite_ssr_import_10__.default
+  const _component_FooterTwoRow = __vite_ssr_import_11__.default
+  const _component_FooterSnippetsWFooterTwoRow = __vite_ssr_import_17__.resolveComponent("FooterSnippetsWFooterTwoRow")
+  const _component_FooterAppsmith = __vite_ssr_import_12__.default
+  const _component_FooterSnippetsAppsmith = __vite_ssr_import_13__.default
+
+  _push(__vite_ssr_import_18__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_17__.mergeProps({ name: $data.layout }, _attrs), {
+    default: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<div class="flex p-4"${
+          _scopeId
+        }><!-- content --><div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar"${
+          _scopeId
+        }><div class="overflow-y-auto w-full px-4 pb-20" id="footerContainer"${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_HeadersHeading, null, {
+          default: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(` Rating `)
+            } else {
+              return [
+                __vite_ssr_import_17__.createTextVNode(" Rating ")
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<div${
+          _scopeId
+        }><p class="text-base"${
+          _scopeId
+        }> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? </p></div><!-- start --><section id="defaultFooter" class="w-full"${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Default`)
+            } else {
+              return [
+                __vite_ssr_import_17__.createTextVNode("Default")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.default_footer) {
+                _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.default_footer = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.default_footer = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.default_footer)
+                  ? (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.default_footer = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.default_footer = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_18__.ssrRenderComponent(_component_FooterDefault, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_17__.createVNode(_component_FooterDefault)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_18__.ssrRenderStyle(($data.default_footer) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('defaultFooterComp'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_FooterSnippetsDefault, { id: "defaultFooterComp" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End  --><!-- start --><section id="footerLogoAside" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Logo Aside`)
+            } else {
+              return [
+                __vite_ssr_import_17__.createTextVNode("Logo Aside")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.logoaside_footer) {
+                _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.logoaside_footer = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.logoaside_footer = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.logoaside_footer)
+                  ? (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.logoaside_footer = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.logoaside_footer = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_18__.ssrRenderComponent(_component_FooterLogoSection, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_17__.createVNode(_component_FooterLogoSection)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_18__.ssrRenderStyle(($data.logoaside_footer) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('footerLogoAsideComp'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_FooterSnippetsLogoSection, { id: "footerLogoAsideComp" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End  --><!-- start --><section id="footerWith2rows" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`With 2 rows`)
+            } else {
+              return [
+                __vite_ssr_import_17__.createTextVNode("With 2 rows")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.tworows_footer) {
+                _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.tworows_footer = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.tworows_footer = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.tworows_footer)
+                  ? (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.tworows_footer = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.tworows_footer = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_18__.ssrRenderComponent(_component_FooterTwoRow, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_17__.createVNode(_component_FooterTwoRow)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_18__.ssrRenderStyle(($data.tworows_footer) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('footerWith2rowsComp'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_FooterSnippetsWFooterTwoRow, { id: "footerWith2rowsComp" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End  --><!-- start --><section id="appsmithFooter" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Appsmith`)
+            } else {
+              return [
+                __vite_ssr_import_17__.createTextVNode("Appsmith")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.appsmith_footer) {
+                _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.appsmith_footer = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.appsmith_footer = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.appsmith_footer)
+                  ? (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.appsmith_footer = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.appsmith_footer = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_18__.ssrRenderComponent(_component_FooterAppsmith, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_17__.createVNode(_component_FooterAppsmith)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_18__.ssrRenderStyle(($data.appsmith_footer) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('appsmithFooterComp'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_FooterSnippetsAppsmith, { id: "appsmithFooterComp" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End  --></div></div><!-- right sidebar --><div class="hidden lg:block"${
+          _scopeId
+        }><div class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2"${
+          _scopeId
+        }><div class="overflow-y-auto"${
+          _scopeId
+        }><!-- <AlertInfo /> --><div class="flex flex-col justify-start items-end space-y-2"${
+          _scopeId
+        }><p class="text-normal font-bold"${
+          _scopeId
+        }>On This Page</p><button${
+          _scopeId
+        }> Default Footer </button><button${
+          _scopeId
+        }> Footer Logo Aside </button><button${
+          _scopeId
+        }> Footer With 2 rows </button><button${
+          _scopeId
+        }> Appsmith Footer </button></div></div></div></div></div>`)
+      } else {
+        return [
+          __vite_ssr_import_17__.createVNode("div", { class: "flex p-4" }, [
+            __vite_ssr_import_17__.createCommentVNode(" content "),
+            __vite_ssr_import_17__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
+              __vite_ssr_import_17__.createVNode("div", {
+                class: "overflow-y-auto w-full px-4 pb-20",
+                id: "footerContainer"
+              }, [
+                __vite_ssr_import_17__.createVNode(_component_HeadersHeading, null, {
+                  default: __vite_ssr_import_17__.withCtx(() => [
+                    __vite_ssr_import_17__.createTextVNode(" Rating ")
+                  ]),
+                  _: 1 /* STABLE */
+                }),
+                __vite_ssr_import_17__.createVNode("div", null, [
+                  __vite_ssr_import_17__.createVNode("p", { class: "text-base" }, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? ")
+                ]),
+                __vite_ssr_import_17__.createCommentVNode(" start "),
+                __vite_ssr_import_17__.createVNode("section", {
+                  id: "defaultFooter",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_17__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_17__.withCtx(() => [
+                      __vite_ssr_import_17__.createTextVNode("Default")
+                    ]),
+                    code: __vite_ssr_import_17__.withCtx(() => [
+                      (!$data.default_footer)
+                        ? (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.default_footer = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.default_footer = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_17__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_17__.withCtx(() => [
+                      __vite_ssr_import_17__.createVNode(_component_FooterDefault)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_17__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_17__.createVNode(__vite_ssr_import_17__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_17__.withCtx(() => [
+                      __vite_ssr_import_17__.withDirectives(__vite_ssr_import_17__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_17__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_17__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_17__.createVNode("div", null, [
+                            __vite_ssr_import_17__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('defaultFooterComp'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_17__.createVNode(_component_FooterSnippetsDefault, { id: "defaultFooterComp" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_17__.vShow, $data.default_footer]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_17__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_17__.createCommentVNode(" End  "),
+                __vite_ssr_import_17__.createCommentVNode(" start "),
+                __vite_ssr_import_17__.createVNode("section", {
+                  id: "footerLogoAside",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_17__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_17__.withCtx(() => [
+                      __vite_ssr_import_17__.createTextVNode("Logo Aside")
+                    ]),
+                    code: __vite_ssr_import_17__.withCtx(() => [
+                      (!$data.logoaside_footer)
+                        ? (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.logoaside_footer = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.logoaside_footer = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_17__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_17__.withCtx(() => [
+                      __vite_ssr_import_17__.createVNode(_component_FooterLogoSection)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_17__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_17__.createVNode(__vite_ssr_import_17__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_17__.withCtx(() => [
+                      __vite_ssr_import_17__.withDirectives(__vite_ssr_import_17__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_17__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_17__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_17__.createVNode("div", null, [
+                            __vite_ssr_import_17__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('footerLogoAsideComp'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_17__.createVNode(_component_FooterSnippetsLogoSection, { id: "footerLogoAsideComp" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_17__.vShow, $data.logoaside_footer]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_17__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_17__.createCommentVNode(" End  "),
+                __vite_ssr_import_17__.createCommentVNode(" start "),
+                __vite_ssr_import_17__.createVNode("section", {
+                  id: "footerWith2rows",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_17__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_17__.withCtx(() => [
+                      __vite_ssr_import_17__.createTextVNode("With 2 rows")
+                    ]),
+                    code: __vite_ssr_import_17__.withCtx(() => [
+                      (!$data.tworows_footer)
+                        ? (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.tworows_footer = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.tworows_footer = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_17__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_17__.withCtx(() => [
+                      __vite_ssr_import_17__.createVNode(_component_FooterTwoRow)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_17__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_17__.createVNode(__vite_ssr_import_17__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_17__.withCtx(() => [
+                      __vite_ssr_import_17__.withDirectives(__vite_ssr_import_17__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_17__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_17__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_17__.createVNode("div", null, [
+                            __vite_ssr_import_17__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('footerWith2rowsComp'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_17__.createVNode(_component_FooterSnippetsWFooterTwoRow, { id: "footerWith2rowsComp" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_17__.vShow, $data.tworows_footer]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_17__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_17__.createCommentVNode(" End  "),
+                __vite_ssr_import_17__.createCommentVNode(" start "),
+                __vite_ssr_import_17__.createVNode("section", {
+                  id: "appsmithFooter",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_17__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_17__.withCtx(() => [
+                      __vite_ssr_import_17__.createTextVNode("Appsmith")
+                    ]),
+                    code: __vite_ssr_import_17__.withCtx(() => [
+                      (!$data.appsmith_footer)
+                        ? (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.appsmith_footer = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.appsmith_footer = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_17__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_17__.withCtx(() => [
+                      __vite_ssr_import_17__.createVNode(_component_FooterAppsmith)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_17__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_17__.createVNode(__vite_ssr_import_17__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_17__.withCtx(() => [
+                      __vite_ssr_import_17__.withDirectives(__vite_ssr_import_17__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_17__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_17__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_17__.createVNode("div", null, [
+                            __vite_ssr_import_17__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('appsmithFooterComp'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_17__.createVNode(_component_FooterSnippetsAppsmith, { id: "appsmithFooterComp" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_17__.vShow, $data.appsmith_footer]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_17__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_17__.createCommentVNode(" End  ")
+              ])
+            ]),
+            __vite_ssr_import_17__.createCommentVNode(" right sidebar "),
+            __vite_ssr_import_17__.createVNode("div", { class: "hidden lg:block" }, [
+              __vite_ssr_import_17__.createVNode("div", { class: "w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2" }, [
+                __vite_ssr_import_17__.createVNode("div", { class: "overflow-y-auto" }, [
+                  __vite_ssr_import_17__.createCommentVNode(" <AlertInfo /> "),
+                  __vite_ssr_import_17__.createVNode("div", { class: "flex flex-col justify-start items-end space-y-2" }, [
+                    __vite_ssr_import_17__.createVNode("p", { class: "text-normal font-bold" }, "On This Page"),
+                    __vite_ssr_import_17__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('defaultFooter'))
+                    }, " Default Footer ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_17__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('footerLogoAside'))
+                    }, " Footer Logo Aside ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_17__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('footerWith2rows'))
+                    }, " Footer With 2 rows ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_17__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('appsmithFooter'))
+                    }, " Appsmith Footer ", 8 /* PROPS */, ["onClick"])
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+}
+
+const __vite_ssr_import_19__ = await __vite_ssr_import__("/pages/footer.vue?vue&type=style&index=0&lang.css");
+
+
+const __vite_ssr_import_20__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_20__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/footer.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_21__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_21__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/footer.vue"]])
+const meta = undefined
+Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
+}
+
+
+// --------------------
+// Request: /components/Footer/Default.vue
+// Parents: 
+// - /pages/footer.vue?macro=true ($id_d8cb473d)
+// - /pages/footer.vue ($id_a531a593)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_b6595b4c = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      items: [{}],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "lg:flex-row w-full px-8 py-5 rounded-lg shadow-lg text-gray-700 dark:text-zinc-400 bg-white dark:bg-zinc-900" }, _attrs))}><!-- Ui reference Untitled UI  --><div class="grid grid-cols-2 md:grid-cols-6 gap-y-6 font-medium mt-6"><div class="flex flex-col"><div class="text-gray-400 dark:text-zinc-200 text-sm mb-2">Product</div><div class="text-gray-600 dark:text-zinc-400 text-base">Overview</div><div class="text-gray-600 dark:text-zinc-400 text-base">Features</div><div class="text-gray-600 dark:text-zinc-400 text-base">Solutions</div><div class="text-gray-600 dark:text-zinc-400 text-base">Tutorials</div><div class="text-gray-600 dark:text-zinc-400 text-base">Pricing</div><div class="text-gray-600 dark:text-zinc-400 text-base">Releases</div></div><!--  --><div class="flex flex-col"><div class="text-gray-400 dark:text-zinc-200 text-sm mb-2">Company</div><div class="text-gray-600 dark:text-zinc-400 text-base">About us</div><div class="text-gray-600 dark:text-zinc-400 text-base">Careers</div><div class="text-gray-600 dark:text-zinc-400 text-base">Press</div><div class="text-gray-600 dark:text-zinc-400 text-base">News</div><div class="text-gray-600 dark:text-zinc-400 text-base">Media kit</div><div class="text-gray-600 dark:text-zinc-400 text-base">Contact</div></div><!--  --><div class="flex flex-col"><div class="text-gray-400 dark:text-zinc-200 text-sm mb-2">Resources</div><div class="text-gray-600 dark:text-zinc-400 text-base">Blog</div><div class="text-gray-600 dark:text-zinc-400 text-base">Newsletter</div><div class="text-gray-600 dark:text-zinc-400 text-base">Events</div><div class="text-gray-600 dark:text-zinc-400 text-base">Help centre</div><div class="text-gray-600 dark:text-zinc-400 text-base">Tutorials</div><div class="text-gray-600 dark:text-zinc-400 text-base">Support</div></div><!--  --><div class="flex flex-col"><div class="text-gray-400 dark:text-zinc-200 text-sm mb-2">Use cases</div><div class="text-gray-600 dark:text-zinc-400 text-base">Startups</div><div class="text-gray-600 dark:text-zinc-400 text-base">Enerprise</div><div class="text-gray-600 dark:text-zinc-400 text-base">Government</div><div class="text-gray-600 dark:text-zinc-400 text-base">SaaS centre</div><div class="text-gray-600 dark:text-zinc-400 text-base">Marketplaces</div><div class="text-gray-600 dark:text-zinc-400 text-base">Ecommerce</div></div><!--  --><div class="flex flex-col"><div class="text-gray-400 dark:text-zinc-200 text-sm mb-2">Social</div><div class="text-gray-600 dark:text-zinc-400 text-base">Twiiter</div><div class="text-gray-600 dark:text-zinc-400 text-base">LinkedIn</div><div class="text-gray-600 dark:text-zinc-400 text-base">Facebook</div><div class="text-gray-600 dark:text-zinc-400 text-base">Github</div><div class="text-gray-600 dark:text-zinc-400 text-base">AngelList</div><div class="text-gray-600 dark:text-zinc-400 text-base">Dribbble</div></div><!--  --><div class="flex flex-col"><div class="text-gray-400 dark:text-zinc-200 text-sm mb-2">Legal</div><div class="text-gray-600 dark:text-zinc-400 text-base">Terms</div><div class="text-gray-600 dark:text-zinc-400 text-base">Privacy</div><div class="text-gray-600 dark:text-zinc-400 text-base">Cookies</div><div class="text-gray-600 dark:text-zinc-400 text-base">Licenses</div><div class="text-gray-600 dark:text-zinc-400 text-base">Settings</div><div class="text-gray-600 dark:text-zinc-400 text-base">Contact</div></div><!--  --></div><div class="flex flex-col md:flex-row justify-between md:items-center w-full py-2 border-t mt-12"><!-- logo --><div class="flex items-center md:px-4"><div class="font-bold text-lg text-gray-700 dark:text-zinc-500 flex items-center w-10 h-10"><img class="w-1/2 h-1/2 md:w-full md:h-full" src="https://res.cloudinary.com/pranav1421/image/upload/v1652785994/Tailwind-Component-library/Logo/tailwind-css_yizuxw.svg" alt=""><span class="px-2 text-base">tailwindcss</span></div><div class="w-full flex justify-end"></div></div><!--  --><div class="text-xxs md:text-sm text-gray-400"> © Tailwind component library, All rights reserved </div></div></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Footer/Default.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer/Default.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Footer/Snippets/Default.vue
+// Parents: 
+// - /pages/footer.vue?macro=true ($id_d8cb473d)
+// - /pages/footer.vue ($id_a531a593)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_66157248 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+<div class="w-full rounded-lg bg-white px-8 py-5 text-gray-700 shadow-lg dark:bg-zinc-900 dark:text-zinc-400 lg:flex-row">
+  <!-- Ui reference Untitled UI  -->
+  <div class="mt-6 grid grid-cols-2 gap-y-6 font-medium md:grid-cols-6">
+    <div class="flex flex-col">
+      <div class="mb-2 text-sm text-gray-400 dark:text-zinc-200">Product</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Overview</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Features</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Solutions</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Tutorials</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Pricing</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Releases</div>
+    </div>
+    <!--  -->
+    <div class="flex flex-col">
+      <div class="mb-2 text-sm text-gray-400 dark:text-zinc-200">Company</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">About us</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Careers</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Press</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">News</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Media kit</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Contact</div>
+    </div>
+    <!--  -->
+    <div class="flex flex-col">
+      <div class="mb-2 text-sm text-gray-400 dark:text-zinc-200">Resources</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Blog</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Newsletter</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Events</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Help centre</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Tutorials</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Support</div>
+    </div>
+    <!--  -->
+    <div class="flex flex-col">
+      <div class="mb-2 text-sm text-gray-400 dark:text-zinc-200">Use cases</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Startups</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Enerprise</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Government</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">SaaS centre</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Marketplaces</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Ecommerce</div>
+    </div>
+    <!--  -->
+    <div class="flex flex-col">
+      <div class="mb-2 text-sm text-gray-400 dark:text-zinc-200">Social</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Twiiter</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">LinkedIn</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Facebook</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Github</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">AngelList</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Dribbble</div>
+    </div>
+    <!--  -->
+    <div class="flex flex-col">
+      <div class="mb-2 text-sm text-gray-400 dark:text-zinc-200">Legal</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Terms</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Privacy</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Cookies</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Licenses</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Settings</div>
+      <div class="text-base text-gray-600 dark:text-zinc-400">Contact</div>
+    </div>
+    <!--  -->
+  </div>
+  <div class="mt-12 flex w-full flex-col justify-between border-t py-2 md:flex-row md:items-center">
+    <!-- logo -->
+    <div class="flex items-center md:px-4">
+      <div class="flex h-10 w-10 items-center text-lg font-bold text-gray-700 dark:text-zinc-500">
+        <img class="h-1/2 w-1/2 md:h-full md:w-full" src="https://res.cloudinary.com/pranav1421/image/upload/v1652785994/Tailwind-Component-library/Logo/tailwind-css_yizuxw.svg" alt="" />
+        <span class="px-2 text-base">tailwindcss</span>
+      </div>
+      <div class="flex w-full justify-end"></div>
+    </div>
+    <!--  -->
+    <div class="text-xxs text-gray-400 md:text-sm">&#169; Tailwind component library, All rights reserved</div>
+  </div>
+</div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Footer/Snippets/Default.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer/Snippets/Default.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Footer/LogoSection.vue
+// Parents: 
+// - /pages/footer.vue?macro=true ($id_d8cb473d)
+// - /pages/footer.vue ($id_a531a593)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_3461c3e2 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      items: [{}],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "lg:flex-row w-full px-8 py-5 rounded-lg shadow-lg text-gray-700 dark:text-zinc-400 bg-white dark:bg-zinc-900" }, _attrs))}><!-- Ui reference Untitled UI  --><div class="grid grid-cols-2 md:grid-cols-6 gap-y-6 font-medium py-4"><div class="flex flex-col justify-center col-span-2"><!-- logo --><div class="flex flex-col"><div class="font-bold text-lg text-gray-700 flex items-center w-10 h-10"><img class="" src="https://res.cloudinary.com/pranav1421/image/upload/v1652785994/Tailwind-Component-library/Logo/tailwind-css_yizuxw.svg" alt=""></div><div class="w-full flex">Tailwind component library</div></div></div><!--  --><div class="flex flex-col text-gray-600 dark:text-zinc-400 text-base"><div class="text-gray-400 dark:text-zinc-200 text-sm mb-2">Company</div><div>About us</div><div>Careers</div><div>Press</div><div>News</div><div>Media kit</div><div>Contact</div></div><!--  --><div class="flex flex-col text-gray-600 dark:text-zinc-400 text-base"><div class="text-gray-400 dark:text-zinc-200 text-sm mb-2">Resources</div><div>Blog</div><div>Newsletter</div><div>Events</div><div>Help centre</div><div>Tutorials</div><div>Support</div></div><!--  --><div class="flex flex-col text-gray-600 dark:text-zinc-400 text-base"><div class="text-gray-400 dark:text-zinc-200 text-sm mb-2">Social</div><div>Twiiter</div><div>LinkedIn</div><div>Facebook</div><div>Github</div><div>AngelList</div><div>Dribbble</div></div><!--  --><div class="flex flex-col text-gray-600 dark:text-zinc-400 text-base"><div class="text-gray-400 dark:text-zinc-200 text-sm mb-2">Legal</div><div>Terms</div><div>Privacy</div><div>Cookies</div><div>Licenses</div><div>Settings</div><div>Contact</div></div><!--  --></div><!-- below line section --><div class="flex flex-col md:flex-row justify-between md:items-center w-full py-2 border-t mt-12"><!-- All rights reserved --><div class="text-xxs md:text-sm text-gray-400"> © Tailwind component library, All rights reserved </div><!-- social icons --><div class="flex justify-between gap-4 text-gray-500"><div><svg width="20" height="24" class="hover:text-gray-700" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z" stroke="currentColor" stroke-width="1.5"></path><path d="M17.5 6.51L17.51 6.49889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div><div><svg width="20" height="24" class="hover:text-gray-700" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16.6726 20.8435C15.5 14 12.5 8.00003 8.5 2.62964" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2.06653 10.8406C6.00004 11 15.2829 10.5 19.1415 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21.9677 12.81C15.3438 10.8407 7.50002 14.0001 5.23145 19.3613" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div><div><svg width="20" height="24" class="hover:text-gray-700" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 17V13.5V10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M11 17V13.75M11 10V13.75M11 13.75C11 10 17 10 17 13.75V17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 7.01L7.01 6.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div><div><svg width="20" height="24" class="hover:text-gray-700" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M11 21C11 18 11 15 11 12C11 9.8125 11.5 8 15 8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 13H11H15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div><div><svg width="20" height="24" class="hover:text-gray-700" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div><div><svg width="20" height="24" class="hover:text-gray-700" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23 3.01006C23 3.01006 20.9821 4.20217 19.86 4.54006C19.2577 3.84757 18.4573 3.35675 17.567 3.13398C16.6767 2.91122 15.7395 2.96725 14.8821 3.29451C14.0247 3.62177 13.2884 4.20446 12.773 4.96377C12.2575 5.72309 11.9877 6.62239 12 7.54006V8.54006C10.2426 8.58562 8.50127 8.19587 6.93101 7.4055C5.36074 6.61513 4.01032 5.44869 3 4.01006C3 4.01006 -1 13.0101 8 17.0101C5.94053 18.408 3.48716 19.109 1 19.0101C10 24.0101 21 19.0101 21 7.51006C20.9991 7.23151 20.9723 6.95365 20.92 6.68006C21.9406 5.67355 23 3.01006 23 3.01006Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div></div></div></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Footer/LogoSection.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer/LogoSection.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Footer/Snippets/LogoSection.vue
+// Parents: 
+// - /pages/footer.vue?macro=true ($id_d8cb473d)
+// - /pages/footer.vue ($id_a531a593)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_6e695b56 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+<div class="w-full rounded-lg bg-white px-8 py-5 text-gray-700 shadow-lg dark:bg-zinc-900 dark:text-zinc-400 lg:flex-row">
+  <!-- Ui reference Untitled UI  -->
+  <div class="grid grid-cols-2 gap-y-6 py-4 font-medium md:grid-cols-6">
+    <div class="col-span-2 flex flex-col justify-center">
+      <!-- logo -->
+      <div class="flex flex-col">
+        <div class="flex h-10 w-10 items-center text-lg font-bold text-gray-700">
+          <img class="" src="https://res.cloudinary.com/pranav1421/image/upload/v1652785994/Tailwind-Component-library/Logo/tailwind-css_yizuxw.svg" alt="" />
+        </div>
+        <div class="flex w-full">Tailwind component library</div>
+      </div>
+    </div>
+    <!--  -->
+    <div class="flex flex-col text-base text-gray-600 dark:text-zinc-400">
+      <div class="mb-2 text-sm text-gray-400 dark:text-zinc-200">Company</div>
+      <div>About us</div>
+      <div>Careers</div>
+      <div>Press</div>
+      <div>News</div>
+      <div>Media kit</div>
+      <div>Contact</div>
+    </div>
+    <!--  -->
+    <div class="flex flex-col text-base text-gray-600 dark:text-zinc-400">
+      <div class="mb-2 text-sm text-gray-400 dark:text-zinc-200">Resources</div>
+      <div>Blog</div>
+      <div>Newsletter</div>
+      <div>Events</div>
+      <div>Help centre</div>
+      <div>Tutorials</div>
+      <div>Support</div>
+    </div>
+    <!--  -->
+
+    <div class="flex flex-col text-base text-gray-600 dark:text-zinc-400">
+      <div class="mb-2 text-sm text-gray-400 dark:text-zinc-200">Social</div>
+      <div>Twiiter</div>
+      <div>LinkedIn</div>
+      <div>Facebook</div>
+      <div>Github</div>
+      <div>AngelList</div>
+      <div>Dribbble</div>
+    </div>
+    <!--  -->
+    <div class="flex flex-col text-base text-gray-600 dark:text-zinc-400">
+      <div class="mb-2 text-sm text-gray-400 dark:text-zinc-200">Legal</div>
+      <div>Terms</div>
+      <div>Privacy</div>
+      <div>Cookies</div>
+      <div>Licenses</div>
+      <div>Settings</div>
+      <div>Contact</div>
+    </div>
+    <!--  -->
+  </div>
+  <!-- below line section -->
+  <div class="mt-12 flex w-full flex-col justify-between border-t py-2 md:flex-row md:items-center">
+    <!-- All rights reserved -->
+    <div class="text-xxs text-gray-400 md:text-sm">&#169; Tailwind component library, All rights reserved</div>
+    <!-- social icons -->
+    <div class="flex justify-between gap-4 text-gray-500">
+      <div>
+        <svg width="20" height="24" class="hover:text-gray-700" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z" stroke="currentColor" stroke-width="1.5" /><path d="M17.5 6.51L17.51 6.49889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></svg>
+      </div>
+      <div>
+        <svg width="20" height="24" class="hover:text-gray-700" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M16.6726 20.8435C15.5 14 12.5 8.00003 8.5 2.62964" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M2.06653 10.8406C6.00004 11 15.2829 10.5 19.1415 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M21.9677 12.81C15.3438 10.8407 7.50002 14.0001 5.23145 19.3613" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></svg>
+      </div>
+      <div>
+        <svg width="20" height="24" class="hover:text-gray-700" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M7 17V13.5V10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M11 17V13.75M11 10V13.75M11 13.75C11 10 17 10 17 13.75V17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M7 7.01L7.01 6.99889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></svg>
+      </div>
+      <div>
+        <svg width="20" height="24" class="hover:text-gray-700" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M11 21C11 18 11 15 11 12C11 9.8125 11.5 8 15 8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M9 13H11H15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></svg>
+      </div>
+      <div>
+        <svg width="20" height="24" class="hover:text-gray-700" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></svg>
+      </div>
+      <div>
+        <svg width="20" height="24" class="hover:text-gray-700" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M23 3.01006C23 3.01006 20.9821 4.20217 19.86 4.54006C19.2577 3.84757 18.4573 3.35675 17.567 3.13398C16.6767 2.91122 15.7395 2.96725 14.8821 3.29451C14.0247 3.62177 13.2884 4.20446 12.773 4.96377C12.2575 5.72309 11.9877 6.62239 12 7.54006V8.54006C10.2426 8.58562 8.50127 8.19587 6.93101 7.4055C5.36074 6.61513 4.01032 5.44869 3 4.01006C3 4.01006 -1 13.0101 8 17.0101C5.94053 18.408 3.48716 19.109 1 19.0101C10 24.0101 21 19.0101 21 7.51006C20.9991 7.23151 20.9723 6.95365 20.92 6.68006C21.9406 5.67355 23 3.01006 23 3.01006Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Footer/Snippets/LogoSection.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer/Snippets/LogoSection.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Footer/TwoRow.vue
+// Parents: 
+// - /pages/footer.vue?macro=true ($id_d8cb473d)
+// - /pages/footer.vue ($id_a531a593)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_02bc8559 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      items: [{}],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "lg:flex-row w-full px-8 py-5 rounded-lg shadow-lg text-gray-700 dark:text-zinc-500 bg-white dark:bg-zinc-900" }, _attrs))}><!-- Ui reference Untitled UI  --><div class="grid grid-cols-2 md:grid-cols-4 gap-y-8 font-medium mt-6"><!-- Product --><div class="flex flex-col text-gray-600 dark:text-zinc-400 text-base"><div class="text-gray-400 dark:text-zinc-200 text-sm mb-2">Product</div><div>Overview</div><div>Features</div><div>Solutions</div><div>Tutorials</div><div>Pricing</div><div>Releases</div></div><!-- Company --><div class="flex flex-col text-gray-600 dark:text-zinc-400 text-base"><div class="text-gray-400 dark:text-zinc-200 text-sm mb-2">Company</div><div>About us</div><div>Careers</div><div>Press</div><div>News</div><div>Media kit</div><div>Contact</div></div><!-- Resources --><div class="flex flex-col text-gray-600 dark:text-zinc-400 text-base"><div class="text-gray-400 dark:text-zinc-200 text-sm mb-2">Resources</div><div>Blog</div><div>Newsletter</div><div>Events</div><div>Help centre</div><div>Tutorials</div><div>Support</div></div><!-- User cases --><div class="flex flex-col text-gray-600 dark:text-zinc-400 text-base"><div class="text-gray-400 dark:text-zinc-200 text-sm mb-2">Use cases</div><div>Startups</div><div>Enerprise</div><div>Government</div><div>SaaS centre</div><div>Marketplaces</div><div>Ecommerce</div></div><!-- Services --><div class="flex flex-col text-gray-600 dark:text-zinc-400 text-base"><div class="text-gray-400 dark:text-zinc-200 text-sm mb-2">Services</div><div>Branding</div><div>LinkedIn</div><div>Design</div><div>Marketing</div><div>Advertisement</div></div><!-- Social --><div class="flex flex-col text-gray-600 dark:text-zinc-400 text-base"><div class="text-gray-400 dark:text-zinc-200 text-sm mb-2">Social</div><div>Twiiter</div><div>LinkedIn</div><div>Facebook</div><div>Github</div><div>AngelList</div><div>Dribbble</div></div><!-- Legal --><div class="flex flex-col text-gray-600 dark:text-zinc-400 text-base"><div class="text-gray-400 dark:text-zinc-200 text-sm mb-2">Legal</div><div>Terms</div><div>Privacy</div><div>Cookies</div><div>Licenses</div><div>Settings</div><div>Contact</div></div><!-- Apps --><div class="flex flex-col text-gray-600 dark:text-zinc-400 text-base"><div class="text-gray-400 dark:text-zinc-200 text-sm mb-2">Apps</div><div>Mac</div><div>Windows</div><div>iPhone</div><div>Android</div></div><!--  --></div><div class="flex flex-col md:flex-row justify-between md:items-center w-full py-2 border-t mt-12"><!-- logo --><div class="flex items-center md:px-4"><div class="font-bold text-lg text-gray-700 dark:text-zinc-500 flex items-center w-10 h-10"><img class="w-1/2 h-1/2 md:w-full md:h-full" src="https://res.cloudinary.com/pranav1421/image/upload/v1652785994/Tailwind-Component-library/Logo/tailwind-css_yizuxw.svg" alt=""><span class="px-2 text-base">tailwindcss</span></div><div class="w-full flex justify-end"></div></div><!--  --><div class="text-xxs md:text-sm text-gray-400"> © Tailwind component library, All rights reserved </div></div></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Footer/TwoRow.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer/TwoRow.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Footer/Appsmith.vue
+// Parents: 
+// - /pages/footer.vue?macro=true ($id_d8cb473d)
+// - /pages/footer.vue ($id_a531a593)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_9584eb63 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      items: [{}],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "lg:flex-row w-full px-8 py-6 rounded-lg shadow-lg text-gray-700 bg-[#FAF5ED]" }, _attrs))}><!--   --><div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-y-6 font-medium"><!-- Product --><div class="flex flex-col gap-2 font-montserrat text-[#2a2f3d] text-xs font-bold cursor-pointer"><div class="text-xs mb-1 uppercase font-normal">Product</div><div class="hover:text-[#ff6d2d]">Features</div><div class="hover:text-[#ff6d2d]">Integrations</div><div class="hover:text-[#ff6d2d]">Widgets</div><div class="hover:text-[#ff6d2d]">Roadmap</div><div class="hover:text-[#ff6d2d]">Change log</div><div class="hover:text-[#ff6d2d]">Status</div><div class="hover:text-[#ff6d2d]">Pricing</div></div><!-- Use cases --><div class="flex flex-col gap-2 font-montserrat text-[#2a2f3d] text-xs font-bold cursor-pointer"><div class="text-xs mb-1 uppercase font-normal">Use cases</div><div class="hover:text-[#ff6d2d]">Templates</div><div class="hover:text-[#ff6d2d]">Fundraising CRM</div><div class="hover:text-[#ff6d2d]">Applicant tracker</div><div class="hover:text-[#ff6d2d]">Marketing portal</div><div class="hover:text-[#ff6d2d]">Customer support</div><div class="hover:text-[#ff6d2d]">Social manager</div></div><!-- Resources --><div class="flex flex-col gap-2 font-montserrat text-[#2a2f3d] text-xs font-bold cursor-pointer"><div class="text-xs mb-1 uppercase font-normal">Resources</div><div class="hover:text-[#ff6d2d]">Community</div><div class="hover:text-[#ff6d2d]">Discord</div><div class="hover:text-[#ff6d2d]">GitHub</div><div class="hover:text-[#ff6d2d]">Case Studies</div><div class="hover:text-[#ff6d2d]">Documentation</div><div class="hover:text-[#ff6d2d]">Video tutorials</div></div><!-- Appsmith --><div class="flex flex-col gap-2 font-montserrat text-[#2a2f3d] text-xs font-bold cursor-pointer"><div class="text-xs mb-1 uppercase font-normal">Appsmith</div><div class="hover:text-[#ff6d2d]">About</div><div class="hover:text-[#ff6d2d]">News</div><div class="hover:text-[#ff6d2d]">Blog</div><div class="hover:text-[#ff6d2d]"> Careers <span class="bg-[#ff6d2d] rounded-full text-white text-xxs font-normal px-1">6</span></div><div class="text-xs font-bold hover:text-[#ff6d2d] cursor-pointer">Privacy</div></div><!-- Follow --><div class="flex flex-col justify-between gap-2 font-montserrat text-[#2a2f3d]"><div class="flex flex-col justify-between gap-2"><div class="text-xs mb-1 uppercase">Follow</div><div class="flex group items-center gap-1"><div><svg class="group-hover:scale-110" width="16" height="16" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 12L10.5 14V10L14 12Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 12.7075V11.2924C2 8.39705 2 6.94939 2.90549 6.01792C3.81099 5.08645 5.23656 5.04613 8.08769 4.96549C9.43873 4.92728 10.8188 4.8999 12 4.8999C13.1812 4.8999 14.5613 4.92728 15.9123 4.96549C18.7634 5.04613 20.189 5.08645 21.0945 6.01792C22 6.94939 22 8.39705 22 11.2924V12.7075C22 15.6028 22 17.0505 21.0945 17.9819C20.189 18.9134 18.7635 18.9537 15.9124 19.0344C14.5613 19.0726 13.1812 19.1 12 19.1C10.8188 19.1 9.43867 19.0726 8.0876 19.0344C5.23651 18.9537 3.81097 18.9134 2.90548 17.9819C2 17.0505 2 15.6028 2 12.7075Z" stroke="currentColor" stroke-width="1.5"></path></svg></div><div class="text-xs font-bold group-hover:underline transition-all">Youtube</div></div><div class="flex group items-center gap-1"><div><svg class="group-hover:scale-110" width="16" height="16" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23 3.01006C23 3.01006 20.9821 4.20217 19.86 4.54006C19.2577 3.84757 18.4573 3.35675 17.567 3.13398C16.6767 2.91122 15.7395 2.96725 14.8821 3.29451C14.0247 3.62177 13.2884 4.20446 12.773 4.96377C12.2575 5.72309 11.9877 6.62239 12 7.54006V8.54006C10.2426 8.58562 8.50127 8.19587 6.93101 7.4055C5.36074 6.61513 4.01032 5.44869 3 4.01006C3 4.01006 -1 13.0101 8 17.0101C5.94053 18.408 3.48716 19.109 1 19.0101C10 24.0101 21 19.0101 21 7.51006C20.9991 7.23151 20.9723 6.95365 20.92 6.68006C21.9406 5.67355 23 3.01006 23 3.01006Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div><div class="text-xs font-bold group-hover:underline transition-all"> @theappsmith </div></div></div><!--  --><div class="flex flex-col font-montserrat justify-between gap-2"><div class="text-xs mb-1 uppercase">Need help?</div><div class="text-xxs">Talk to us on <a href="" class="underline font-bold"> Discord</a> or mail <a href="" class="underline font-bold"> founders@appsmith.com</a></div></div><!--  --><div class="font-montserrat font-bold"> appsmith<span class="text-[#ff6d2d] font-bold">_</span></div></div></div></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Footer/Appsmith.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer/Appsmith.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Footer/Snippets/Appsmith.vue
+// Parents: 
+// - /pages/footer.vue?macro=true ($id_d8cb473d)
+// - /pages/footer.vue ($id_a531a593)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_cdef03de = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+<div class="w-full rounded-lg bg-[#FAF5ED] px-8 py-6 text-gray-700 shadow-lg lg:flex-row">
+  <!--   -->
+  <div class="grid grid-cols-2 gap-y-6 font-medium sm:grid-cols-3 md:grid-cols-5">
+    <!-- Product -->
+    <div class="font-montserrat flex cursor-pointer flex-col gap-2 text-xs font-bold text-[#2a2f3d]">
+      <div class="mb-1 text-xs font-normal uppercase">Product</div>
+      <div class="hover:text-[#ff6d2d]">Features</div>
+      <div class="hover:text-[#ff6d2d]">Integrations</div>
+      <div class="hover:text-[#ff6d2d]">Widgets</div>
+      <div class="hover:text-[#ff6d2d]">Roadmap</div>
+      <div class="hover:text-[#ff6d2d]">Change log</div>
+      <div class="hover:text-[#ff6d2d]">Status</div>
+      <div class="hover:text-[#ff6d2d]">Pricing</div>
+    </div>
+    <!-- Use cases -->
+    <div class="font-montserrat flex cursor-pointer flex-col gap-2 text-xs font-bold text-[#2a2f3d]">
+      <div class="mb-1 text-xs font-normal uppercase">Use cases</div>
+      <div class="hover:text-[#ff6d2d]">Templates</div>
+      <div class="hover:text-[#ff6d2d]">Fundraising CRM</div>
+      <div class="hover:text-[#ff6d2d]">Applicant tracker</div>
+      <div class="hover:text-[#ff6d2d]">Marketing portal</div>
+      <div class="hover:text-[#ff6d2d]">Customer support</div>
+      <div class="hover:text-[#ff6d2d]">Social manager</div>
+    </div>
+    <!-- Resources -->
+    <div class="font-montserrat flex cursor-pointer flex-col gap-2 text-xs font-bold text-[#2a2f3d]">
+      <div class="mb-1 text-xs font-normal uppercase">Resources</div>
+      <div class="hover:text-[#ff6d2d]">Community</div>
+      <div class="hover:text-[#ff6d2d]">Discord</div>
+      <div class="hover:text-[#ff6d2d]">GitHub</div>
+      <div class="hover:text-[#ff6d2d]">Case Studies</div>
+      <div class="hover:text-[#ff6d2d]">Documentation</div>
+      <div class="hover:text-[#ff6d2d]">Video tutorials</div>
+    </div>
+    <!-- Appsmith -->
+    <div class="font-montserrat flex cursor-pointer flex-col gap-2 text-xs font-bold text-[#2a2f3d]">
+      <div class="mb-1 text-xs font-normal uppercase">Appsmith</div>
+      <div class="hover:text-[#ff6d2d]">About</div>
+      <div class="hover:text-[#ff6d2d]">News</div>
+      <div class="hover:text-[#ff6d2d]">Blog</div>
+      <div class="hover:text-[#ff6d2d]">
+        Careers
+        <span class="text-xxs rounded-full bg-[#ff6d2d] px-1 font-normal text-white">6</span>
+      </div>
+      <div class="cursor-pointer text-xs font-bold hover:text-[#ff6d2d]">Privacy</div>
+    </div>
+
+    <!-- Follow -->
+    <div class="font-montserrat flex flex-col justify-between gap-2 text-[#2a2f3d]">
+      <div class="flex flex-col justify-between gap-2">
+        <div class="mb-1 text-xs uppercase">Follow</div>
+        <div class="group flex items-center gap-1">
+          <div>
+            <svg class="group-hover:scale-110" width="16" height="16" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14 12L10.5 14V10L14 12Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M2 12.7075V11.2924C2 8.39705 2 6.94939 2.90549 6.01792C3.81099 5.08645 5.23656 5.04613 8.08769 4.96549C9.43873 4.92728 10.8188 4.8999 12 4.8999C13.1812 4.8999 14.5613 4.92728 15.9123 4.96549C18.7634 5.04613 20.189 5.08645 21.0945 6.01792C22 6.94939 22 8.39705 22 11.2924V12.7075C22 15.6028 22 17.0505 21.0945 17.9819C20.189 18.9134 18.7635 18.9537 15.9124 19.0344C14.5613 19.0726 13.1812 19.1 12 19.1C10.8188 19.1 9.43867 19.0726 8.0876 19.0344C5.23651 18.9537 3.81097 18.9134 2.90548 17.9819C2 17.0505 2 15.6028 2 12.7075Z" stroke="currentColor" stroke-width="1.5" />
+            </svg>
+          </div>
+          <div class="text-xs font-bold transition-all group-hover:underline">Youtube</div>
+        </div>
+        <div class="group flex items-center gap-1">
+          <div>
+            <svg class="group-hover:scale-110" width="16" height="16" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M23 3.01006C23 3.01006 20.9821 4.20217 19.86 4.54006C19.2577 3.84757 18.4573 3.35675 17.567 3.13398C16.6767 2.91122 15.7395 2.96725 14.8821 3.29451C14.0247 3.62177 13.2884 4.20446 12.773 4.96377C12.2575 5.72309 11.9877 6.62239 12 7.54006V8.54006C10.2426 8.58562 8.50127 8.19587 6.93101 7.4055C5.36074 6.61513 4.01032 5.44869 3 4.01006C3 4.01006 -1 13.0101 8 17.0101C5.94053 18.408 3.48716 19.109 1 19.0101C10 24.0101 21 19.0101 21 7.51006C20.9991 7.23151 20.9723 6.95365 20.92 6.68006C21.9406 5.67355 23 3.01006 23 3.01006Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+          <div class="text-xs font-bold transition-all group-hover:underline">@theappsmith</div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="font-montserrat flex flex-col justify-between gap-2">
+        <div class="mb-1 text-xs uppercase">Need help?</div>
+        <div class="text-xxs">Talk to us on <a href="" class="font-bold underline"> Discord</a> or mail <a href="" class="font-bold underline"> founders@appsmith.com</a></div>
+      </div>
+      <!--  -->
+      <div class="font-montserrat font-bold">appsmith<span class="font-bold text-[#ff6d2d]">_</span></div>
+    </div>
+  </div>
+</div>
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Footer/Snippets/Appsmith.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer/Snippets/Appsmith.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/footer.vue?vue&type=style&index=0&lang.css
+// Parents: 
+// - /pages/footer.vue?macro=true ($id_d8cb473d)
+// - /pages/footer.vue ($id_a531a593)
+// Dependencies: 
+
+// --------------------
+const $id_b51c725f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
+}
+
+
+// --------------------
+// Request: /pages/form.vue?macro=true
+// Parents: 
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
+// Dependencies: 
+// - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
+// - /components/Headers/Heading.vue ($id_7aa6b9b6)
+// - /components/Headers/SubHeading.vue ($id_65fe66b1)
+// - /components/Utils/ShowCodeButton.vue ($id_b28ae97a)
+// - /components/Utils/HideCodeButton.vue ($id_2ed55d76)
+// - /components/Utils/ComponentPad.vue ($id_900fca01)
+// - /components/Form/Element.vue ($id_fe902f47)
+// - /components/Utils/CopyButton.vue ($id_07dc553f)
+// - /components/Form/Snippets/Element.vue ($id_12fc440f)
+// - /components/Form/Default.vue ($id_61ae43aa)
+// - /components/Form/Snippets/Default.vue ($id_e1db028d)
+// - /components/Form/Floatinglabel.vue ($id_32b65436)
+// - /components/Form/Snippets/Floatinglabel.vue ($id_d523dc38)
+// - /components/Alert/AlertInfo.vue ($id_df465372)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /pages/form.vue?vue&type=style&index=0&lang.css ($id_e802c4b0)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_bbef9a8f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/layout.mjs");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/components/Utils/ShowCodeButton.vue");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/components/Utils/HideCodeButton.vue");
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/components/Utils/ComponentPad.vue");
+
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/components/Form/Element.vue");
+
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/components/Utils/CopyButton.vue");
+
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/components/Form/Snippets/Element.vue");
+
+const __vite_ssr_import_9__ = await __vite_ssr_import__("/components/Form/Default.vue");
+
+const __vite_ssr_import_10__ = await __vite_ssr_import__("/components/Form/Snippets/Default.vue");
+
+const __vite_ssr_import_11__ = await __vite_ssr_import__("/components/Form/Floatinglabel.vue");
+
+const __vite_ssr_import_12__ = await __vite_ssr_import__("/components/Form/Snippets/Floatinglabel.vue");
+
+
+const __vite_ssr_import_13__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
+
+const __vite_ssr_import_14__ = await __vite_ssr_import__("/components/Alert/AlertInfo.vue");
+
+const __vite_ssr_import_15__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
+
+const _sfc_main = {
+  metaInfo: {
+    title: "Rating",
+  },
+  components: {
+    AlertInfo: __vite_ssr_import_14__.default,
+    Heading: __vite_ssr_import_15__.default,
+    SubHeading: __vite_ssr_import_13__.default,
+},
+  data() {
+    return {
+      layout: "custom",
+      form_elements: false,
+      default_form: false,
+      floating_form: false,
+      // SCROLL
+      activeScrollSection: "",
+      sample: "",
+    };
+  },
+  methods: {
+    scrollToSection(section) {
+      this.activeScrollSection = section;
+      document.getElementById("formContainer").scrollTo({
+        top: document.getElementById(`${section}`).offsetTop - 100,
+        behavior: "smooth",
+      });
+      // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+    copyToClipboard(id) {
+      this.$bus.$emit("showToastNotification")
+      this.$globalCopyFunc(id);
+    },
+
+  },
+};
+
+const __vite_ssr_import_16__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_17__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_NuxtLayout = __vite_ssr_import_0__.default
+  const _component_HeadersHeading = __vite_ssr_import_1__.default
+  const _component_HeadersSubHeading = __vite_ssr_import_2__.default
+  const _component_UtilsShowCodeButton = __vite_ssr_import_3__.default
+  const _component_UtilsHideCodeButton = __vite_ssr_import_4__.default
+  const _component_UtilsComponentPad = __vite_ssr_import_5__.default
+  const _component_FormElement = __vite_ssr_import_6__.default
+  const _component_UtilsCopyButton = __vite_ssr_import_7__.default
+  const _component_FormSnippetsElement = __vite_ssr_import_8__.default
+  const _component_FormDefault = __vite_ssr_import_9__.default
+  const _component_FormSnippetsDefault = __vite_ssr_import_10__.default
+  const _component_FormFloatinglabel = __vite_ssr_import_11__.default
+  const _component_FormSnippetsFloatinglabel = __vite_ssr_import_12__.default
+
+  _push(__vite_ssr_import_17__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_16__.mergeProps({ name: $data.layout }, _attrs), {
+    default: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<div class="flex p-4"${
+          _scopeId
+        }><!-- content --><div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar"${
+          _scopeId
+        }><div class="overflow-y-auto w-full px-4 pb-20" id="formContainer"${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_HeadersHeading, null, {
+          default: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(` Form `)
+            } else {
+              return [
+                __vite_ssr_import_16__.createTextVNode(" Form ")
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<div${
+          _scopeId
+        }><p class="text-base"${
+          _scopeId
+        }> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? </p></div><!-- start --><section id="formElement" class="w-full"${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Element`)
+            } else {
+              return [
+                __vite_ssr_import_16__.createTextVNode("Element")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.form_elements) {
+                _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.form_elements = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.form_elements = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.form_elements)
+                  ? (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.form_elements = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.form_elements = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_17__.ssrRenderComponent(_component_FormElement, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_16__.createVNode(_component_FormElement)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_17__.ssrRenderStyle(($data.form_elements) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('formElementComp'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_FormSnippetsElement, { id: "formElementComp" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End  --><!-- start --><section id="defaultform" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Default`)
+            } else {
+              return [
+                __vite_ssr_import_16__.createTextVNode("Default")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.default_form) {
+                _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.default_form = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.default_form = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.default_form)
+                  ? (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.default_form = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.default_form = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_17__.ssrRenderComponent(_component_FormDefault, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_16__.createVNode(_component_FormDefault)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_17__.ssrRenderStyle(($data.default_form) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('defaultformComp'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_FormSnippetsDefault, { id: "defaultformComp" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End  --><!-- start --><section id="floatingForm" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Floating Form`)
+            } else {
+              return [
+                __vite_ssr_import_16__.createTextVNode("Floating Form")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.floating_form) {
+                _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.floating_form = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.floating_form = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.floating_form)
+                  ? (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.floating_form = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.floating_form = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_17__.ssrRenderComponent(_component_FormFloatinglabel, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_16__.createVNode(_component_FormFloatinglabel)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_17__.ssrRenderStyle(($data.floating_form) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('floatingFormComp'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_FormSnippetsFloatinglabel, { id: "floatingFormComp" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End  --></div></div><!-- right sidebar --><div class="hidden lg:block"${
+          _scopeId
+        }><div class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2"${
+          _scopeId
+        }><div class="overflow-y-auto"${
+          _scopeId
+        }><!-- <AlertInfo /> --><div class="flex flex-col justify-start items-end space-y-2"${
+          _scopeId
+        }><p class="text-normal font-bold"${
+          _scopeId
+        }>On This Page</p><button${
+          _scopeId
+        }> Form Element </button><button${
+          _scopeId
+        }> Default Form </button><button${
+          _scopeId
+        }> Floating Form </button></div></div></div></div></div>`)
+      } else {
+        return [
+          __vite_ssr_import_16__.createVNode("div", { class: "flex p-4" }, [
+            __vite_ssr_import_16__.createCommentVNode(" content "),
+            __vite_ssr_import_16__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
+              __vite_ssr_import_16__.createVNode("div", {
+                class: "overflow-y-auto w-full px-4 pb-20",
+                id: "formContainer"
+              }, [
+                __vite_ssr_import_16__.createVNode(_component_HeadersHeading, null, {
+                  default: __vite_ssr_import_16__.withCtx(() => [
+                    __vite_ssr_import_16__.createTextVNode(" Form ")
+                  ]),
+                  _: 1 /* STABLE */
+                }),
+                __vite_ssr_import_16__.createVNode("div", null, [
+                  __vite_ssr_import_16__.createVNode("p", { class: "text-base" }, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? ")
+                ]),
+                __vite_ssr_import_16__.createCommentVNode(" start "),
+                __vite_ssr_import_16__.createVNode("section", {
+                  id: "formElement",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_16__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.createTextVNode("Element")
+                    ]),
+                    code: __vite_ssr_import_16__.withCtx(() => [
+                      (!$data.form_elements)
+                        ? (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.form_elements = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.form_elements = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_16__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.createVNode(_component_FormElement)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_16__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_16__.createVNode(__vite_ssr_import_16__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.withDirectives(__vite_ssr_import_16__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_16__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_16__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_16__.createVNode("div", null, [
+                            __vite_ssr_import_16__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('formElementComp'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_16__.createVNode(_component_FormSnippetsElement, { id: "formElementComp" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_16__.vShow, $data.form_elements]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_16__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_16__.createCommentVNode(" End  "),
+                __vite_ssr_import_16__.createCommentVNode(" start "),
+                __vite_ssr_import_16__.createVNode("section", {
+                  id: "defaultform",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_16__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.createTextVNode("Default")
+                    ]),
+                    code: __vite_ssr_import_16__.withCtx(() => [
+                      (!$data.default_form)
+                        ? (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.default_form = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.default_form = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_16__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.createVNode(_component_FormDefault)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_16__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_16__.createVNode(__vite_ssr_import_16__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.withDirectives(__vite_ssr_import_16__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_16__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_16__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_16__.createVNode("div", null, [
+                            __vite_ssr_import_16__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('defaultformComp'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_16__.createVNode(_component_FormSnippetsDefault, { id: "defaultformComp" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_16__.vShow, $data.default_form]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_16__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_16__.createCommentVNode(" End  "),
+                __vite_ssr_import_16__.createCommentVNode(" start "),
+                __vite_ssr_import_16__.createVNode("section", {
+                  id: "floatingForm",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_16__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.createTextVNode("Floating Form")
+                    ]),
+                    code: __vite_ssr_import_16__.withCtx(() => [
+                      (!$data.floating_form)
+                        ? (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.floating_form = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.floating_form = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_16__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.createVNode(_component_FormFloatinglabel)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_16__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_16__.createVNode(__vite_ssr_import_16__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.withDirectives(__vite_ssr_import_16__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_16__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_16__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_16__.createVNode("div", null, [
+                            __vite_ssr_import_16__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('floatingFormComp'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_16__.createVNode(_component_FormSnippetsFloatinglabel, { id: "floatingFormComp" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_16__.vShow, $data.floating_form]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_16__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_16__.createCommentVNode(" End  ")
+              ])
+            ]),
+            __vite_ssr_import_16__.createCommentVNode(" right sidebar "),
+            __vite_ssr_import_16__.createVNode("div", { class: "hidden lg:block" }, [
+              __vite_ssr_import_16__.createVNode("div", { class: "w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2" }, [
+                __vite_ssr_import_16__.createVNode("div", { class: "overflow-y-auto" }, [
+                  __vite_ssr_import_16__.createCommentVNode(" <AlertInfo /> "),
+                  __vite_ssr_import_16__.createVNode("div", { class: "flex flex-col justify-start items-end space-y-2" }, [
+                    __vite_ssr_import_16__.createVNode("p", { class: "text-normal font-bold" }, "On This Page"),
+                    __vite_ssr_import_16__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('formElement'))
+                    }, " Form Element ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_16__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('defaultform'))
+                    }, " Default Form ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_16__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('floatingForm'))
+                    }, " Floating Form ", 8 /* PROPS */, ["onClick"])
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+}
+
+const __vite_ssr_import_18__ = await __vite_ssr_import__("/pages/form.vue?vue&type=style&index=0&lang.css");
+
+
+const __vite_ssr_import_19__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_19__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/form.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_20__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_20__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/form.vue"]])
+const meta = undefined
+Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
+}
+
+
+// --------------------
+// Request: /components/Form/Element.vue
+// Parents: 
+// - /pages/form.vue?macro=true ($id_bbef9a8f)
+// - /pages/form.vue ($id_821dc3e3)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_fe902f47 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      items: [{}],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex-row w-full px-8 py-5 rounded-lg border text-gray-700 dark:text-gray-500 bg-white dark:bg-gray-900" }, _attrs))}><div class="w-2/3 flex justify-center items-center"><form action="" class="w-full"><div class=""><!-- small input --><div class="w-full"><label for="" class="block text-sm font-semibold mb-2">Small input </label><input type="text" class="w-full rounded-lg bg-gray-50 dark:bg-gray-800 border-gray-300 dark:border-gray-500 focus:border-sky-500 py-1"></div><!-- Large input --><div class="w-full mt-6"><label for="" class="block text-sm font-semibold mb-2">Base input </label><input type="text" class="w-full rounded-lg bg-gray-50 dark:bg-gray-800 border-gray-300 dark:border-gray-500 focus:border-sky-500"></div><!-- Large input --><div class="w-full mt-6"><label for="" class="block text-sm font-semibold mb-2">Large input </label><input type="text" class="w-full rounded-lg bg-gray-50 dark:bg-gray-800 border-gray-300 dark:border-gray-500 focus:border-sky-500 py-4"></div><!-- checkbox --><div class="flex items-center gap-2 w-full mt-6"><input type="checkbox" name="" id="" class="rounded bg-gray-50 border dark:bg-gray-800 border-gray-300 dark:border-gray-500 focus:outline-none focus:ring-0"><label for="" class="block text-sm font-semibold">Checkbox </label></div><!-- Radio --><div class="flex items-center gap-2 w-full mt-6"><input type="radio" name="" id="" class="bg-gray-50 border dark:bg-gray-800 border-gray-300 dark:border-gray-500 focus:outline-none focus:ring-0"><label for="" class="block text-sm font-semibold">Radio </label></div></div></form></div></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Form/Element.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Form/Element.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Form/Snippets/Element.vue
+// Parents: 
+// - /pages/form.vue?macro=true ($id_bbef9a8f)
+// - /pages/form.vue ($id_821dc3e3)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_12fc440f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+      
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Form/Snippets/Element.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Form/Snippets/Element.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Form/Default.vue
+// Parents: 
+// - /pages/form.vue?macro=true ($id_bbef9a8f)
+// - /pages/form.vue ($id_821dc3e3)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_61ae43aa = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      items: [{}],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex-row w-full px-8 py-5 rounded-lg border text-gray-700 dark:text-gray-500 bg-white dark:bg-gray-900" }, _attrs))}><div class="w-2/3 flex justify-center items-center"><form action="" class="w-full"><div class=""><!-- Email --><div class="w-full"><label for="" class="block text-sm font-semibold mb-2">Email<sup class="text-sky-500">*</sup></label><input type="email" class="w-full rounded-lg bg-gray-50 dark:bg-gray-800 border-gray-300 dark:border-gray-500 focus:border-sky-500"></div><!-- password --><div class="w-full mt-6"><label for="" class="block text-sm font-semibold mb-2">Password<sup class="text-sky-500">*</sup></label><input type="password" class="w-full rounded-lg bg-gray-50 dark:bg-gray-800 border-gray-300 dark:border-gray-500 focus:border-sky-500"></div><!-- company size --><div class="w-full mt-6"><label for="company-size" class="block text-sm font-semibold mb-2">Company size</label><div class="mt-1"><select name="company-size" id="company-size" class="w-full rounded-lg border dark:bg-gray-800 border-gray-300 dark:border-gray-500 bg-gray-50 focus:border-sky-500"><option value="" class="text-sm">Select company size</option><option value="" class="">1 to 50 employees</option><option value="" class="">51 to 100 employees</option><option value="" class="">100+ employees</option></select></div></div><!-- remember me --><div class="flex items-center gap-2 w-full mt-6"><input type="checkbox" name="" id="" class="rounded bg-gray-50 dark:bg-gray-800 border text-sky-500 border-gray-300 dark:border-gray-500 focus:outline-none focus:ring-0"><label for="" class="block text-sm font-semibold">Remember me </label></div><!-- Login button --><div class="w-1/4 mt-6"><div class="bg-sky-500 dark:bg-sky-600 hover:bg-sky-600 dark:hover:bg-sky-500 text-white dark:text-gray-300 hover:text-gray-50 dark:hover:text-gray-100 text-center rounded-lg py-2 px-5"><button class="font-semibold">Login</button></div></div></div></form></div></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Form/Default.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Form/Default.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Form/Snippets/Default.vue
+// Parents: 
+// - /pages/form.vue?macro=true ($id_bbef9a8f)
+// - /pages/form.vue ($id_821dc3e3)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_e1db028d = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+      
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Form/Snippets/Default.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Form/Snippets/Default.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Form/Floatinglabel.vue
+// Parents: 
+// - /pages/form.vue?macro=true ($id_bbef9a8f)
+// - /pages/form.vue ($id_821dc3e3)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_32b65436 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      items: [{}],
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex-row w-full px-8 py-8 rounded-lg border text-gray-700 dark:text-gray-500 bg-white dark:bg-gray-900" }, _attrs))}><div class="w-2/3 flex justify-center items-center"><form action="" class="w-full"><div class=""><!-- User name --><div class="w-full flex relative items-center justify-center"><input type="text" id="email" class="flex-1 border-0 border-b-2 bg-white dark:bg-gray-900 border-b-gray-300 dark:border-b-gray-500 focus:border-b-sky-500 focus:ring-0 focus:outline-none transition-colors peer"><label for="email" class="cursor-text absolute left-0 text-base font-normal text-gray-500 peer-focus:text-xxs peer-focus:-top-2 transition-all peer-focus:text-sky-600 duration-300">User Name </label></div><!-- password --><div class="w-full flex relative items-center justify-center mt-6"><input type="password" id="password" class="flex-1 border-0 border-b-2 bg-white dark:bg-gray-900 border-b-gray-300 dark:border-b-gray-500 focus:border-b-sky-500 focus:ring-0 focus:outline-none transition-colors peer"><label for="password" class="cursor-text absolute left-0 text-base font-normal text-gray-500 peer-focus:text-xxs peer-focus:-top-2 transition-all peer-focus:text-sky-600 duration-300">Password </label></div><!-- Confirm password --><div class="w-full flex relative items-center justify-center mt-6"><input type="password" id="cpassword" class="flex-1 border-0 border-b-2 bg-white dark:bg-gray-900 border-b-gray-300 dark:border-b-gray-500 focus:border-b-sky-500 focus:ring-0 focus:outline-none transition-colors peer"><label for="cpassword" class="cursor-text absolute left-0 text-base font-normal text-gray-500 peer-focus:text-xxs peer-focus:-top-2 transition-all peer-focus:text-sky-600 duration-300">Confirm Password </label></div><!-- State and country --><div class="w-full flex gap-4 mt-6"><div class="w-1/2"><div class="w-full flex relative items-center justify-center mt-6"><input type="text" id="country" class="flex-1 border-0 border-b-2 bg-white dark:bg-gray-900 border-b-gray-300 dark:border-b-gray-500 focus:border-b-sky-500 focus:ring-0 focus:outline-none transition-colors peer"><label for="country" class="cursor-text absolute left-0 text-base font-normal text-gray-500 peer-focus:text-xxs peer-focus:-top-2 transition-all peer-focus:text-sky-600 duration-300">Country </label></div></div><div class="w-1/2"><div class="w-full flex relative items-center justify-center mt-6"><input type="text" id="state" class="flex-1 border-0 border-b-2 bg-white dark:bg-gray-900 border-b-gray-300 dark:border-b-gray-500 focus:border-b-sky-500 focus:ring-0 focus:outline-none transition-colors peer"><label for="state" class="cursor-text absolute left-0 text-base font-normal text-gray-500 peer-focus:text-xxs peer-focus:-top-2 transition-all peer-focus:text-sky-600 duration-300">State </label></div></div></div><!-- Login button --><div class="w-1/4 mt-6"><div class="bg-sky-500 dark:bg-sky-600 hover:bg-sky-600 dark:hover:bg-sky-500 text-white dark:text-gray-300 hover:text-gray-50 dark:hover:text-gray-100 text-center rounded-lg py-2 px-5"><button class="font-semibold">Submit</button></div></div></div></form></div></div>`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Form/Floatinglabel.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Form/Floatinglabel.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Form/Snippets/Floatinglabel.vue
+// Parents: 
+// - /pages/form.vue?macro=true ($id_bbef9a8f)
+// - /pages/form.vue ($id_821dc3e3)
+// Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_d523dc38 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+  data() {
+    return {
+      code: `
+      
+    `,
+    };
+  },
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
+
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Form/Snippets/Floatinglabel.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Form/Snippets/Floatinglabel.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/form.vue?vue&type=style&index=0&lang.css
+// Parents: 
+// - /pages/form.vue?macro=true ($id_bbef9a8f)
+// - /pages/form.vue ($id_821dc3e3)
+// Dependencies: 
+
+// --------------------
+const $id_e802c4b0 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
+}
+
+
+// --------------------
 // Request: /pages/index.vue?macro=true
 // Parents: 
 // - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
@@ -34456,6 +38254,1917 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_34__.default(_sfc_
 
 
 // --------------------
+// Request: /pages/dropdown.vue
+// Parents: 
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
+// Dependencies: 
+// - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
+// - /components/Headers/Heading.vue ($id_7aa6b9b6)
+// - /components/Headers/SubHeading.vue ($id_65fe66b1)
+// - /components/Utils/ShowCodeButton.vue ($id_b28ae97a)
+// - /components/Utils/HideCodeButton.vue ($id_2ed55d76)
+// - /components/Utils/ComponentPad.vue ($id_900fca01)
+// - /components/Dropdown/WithIcon.vue ($id_25e5868a)
+// - /components/Dropdown/NoIcon.vue ($id_a35d6fb5)
+// - /components/Dropdown/OnlyHeading.vue ($id_f6e3029f)
+// - /components/Utils/CopyButton.vue ($id_07dc553f)
+// - /components/Dropdown/Snippets/WithIcon.vue ($id_7970dc7e)
+// - /components/Dropdown/Profile.vue ($id_18f6de88)
+// - /components/Dropdown/Snippets/Profile.vue ($id_e2fa14a4)
+// - /components/Dropdown/Default.vue ($id_c3d83ef0)
+// - /components/Dropdown/Snippets/Default.vue ($id_9db601bc)
+// - /components/Alert/AlertInfo.vue ($id_df465372)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /pages/dropdown.vue?vue&type=style&index=0&lang.css ($id_4d87771c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_d20fd50f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/layout.mjs");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/components/Utils/ShowCodeButton.vue");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/components/Utils/HideCodeButton.vue");
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/components/Utils/ComponentPad.vue");
+
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/components/Dropdown/WithIcon.vue");
+
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/components/Dropdown/NoIcon.vue");
+
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/components/Dropdown/OnlyHeading.vue");
+
+const __vite_ssr_import_9__ = await __vite_ssr_import__("/components/Utils/CopyButton.vue");
+
+const __vite_ssr_import_10__ = await __vite_ssr_import__("/components/Dropdown/Snippets/WithIcon.vue");
+
+const __vite_ssr_import_11__ = await __vite_ssr_import__("/components/Dropdown/Profile.vue");
+
+const __vite_ssr_import_12__ = await __vite_ssr_import__("/components/Dropdown/Snippets/Profile.vue");
+
+const __vite_ssr_import_13__ = await __vite_ssr_import__("/components/Dropdown/Default.vue");
+
+const __vite_ssr_import_14__ = await __vite_ssr_import__("/components/Dropdown/Snippets/Default.vue");
+
+
+const __vite_ssr_import_15__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
+
+const __vite_ssr_import_16__ = await __vite_ssr_import__("/components/Alert/AlertInfo.vue");
+
+const __vite_ssr_import_17__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
+
+const _sfc_main = {
+  metaInfo: {
+    title: "Rating",
+  },
+  components: {
+    Heading: __vite_ssr_import_17__.default,
+    SubHeading: __vite_ssr_import_15__.default,
+},
+  data() {
+    return {
+      layout: "custom",
+      
+      // SCROLL
+      activeScrollSection: "",
+      sample: "",
+    };
+  },
+  methods: {
+    scrollToSection(section) {
+      this.activeScrollSection = section;
+      document.getElementById("dropdownContainer").scrollTo({
+        top: document.getElementById(`${section}`).offsetTop - 100,
+        behavior: "smooth",
+      });
+      // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+    copyToClipboard(id) {
+      this.$bus.$emit("showToastNotification")
+      this.$globalCopyFunc(id);
+    },
+
+  },
+};
+
+const __vite_ssr_import_18__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_19__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_NuxtLayout = __vite_ssr_import_0__.default
+  const _component_HeadersHeading = __vite_ssr_import_1__.default
+  const _component_HeadersSubHeading = __vite_ssr_import_2__.default
+  const _component_UtilsShowCodeButton = __vite_ssr_import_3__.default
+  const _component_UtilsHideCodeButton = __vite_ssr_import_4__.default
+  const _component_UtilsComponentPad = __vite_ssr_import_5__.default
+  const _component_DropdownWithIcon = __vite_ssr_import_6__.default
+  const _component_DropdownNoIcon = __vite_ssr_import_7__.default
+  const _component_DropdownOnlyHeading = __vite_ssr_import_8__.default
+  const _component_UtilsCopyButton = __vite_ssr_import_9__.default
+  const _component_DropdownSnippetsWithIcon = __vite_ssr_import_10__.default
+  const _component_DropdownProfile = __vite_ssr_import_11__.default
+  const _component_DropdownSnippetsProfile = __vite_ssr_import_12__.default
+  const _component_DropdownDefault = __vite_ssr_import_13__.default
+  const _component_DropdownSnippetsDefault = __vite_ssr_import_14__.default
+
+  _push(__vite_ssr_import_19__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_18__.mergeProps({ name: $data.layout }, _attrs), {
+    default: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<div class="flex p-4"${
+          _scopeId
+        }><!-- content --><div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar"${
+          _scopeId
+        }><div class="overflow-y-auto w-full px-4 pb-20" id="dropdownContainer"${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_HeadersHeading, null, {
+          default: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(` Dropdown `)
+            } else {
+              return [
+                __vite_ssr_import_18__.createTextVNode(" Dropdown ")
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<div${
+          _scopeId
+        }><p class="text-base"${
+          _scopeId
+        }> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? </p></div><!-- start --><section id="iconFirstDropdown" class="w-full"${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Default`)
+            } else {
+              return [
+                __vite_ssr_import_18__.createTextVNode("Default")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!_ctx.default_footer) {
+                _push(__vite_ssr_import_19__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => (_ctx.default_footer = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_19__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => (_ctx.default_footer = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!_ctx.default_footer)
+                  ? (__vite_ssr_import_18__.openBlock(), __vite_ssr_import_18__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => (_ctx.default_footer = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_18__.openBlock(), __vite_ssr_import_18__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => (_ctx.default_footer = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`<div class="grid gri-flow-col grid-cols-3 gap-4 w-full"${
+                _scopeId
+              }><div${
+                _scopeId
+              }>`)
+              _push(__vite_ssr_import_19__.ssrRenderComponent(_component_DropdownWithIcon, null, null, _parent, _scopeId))
+              _push(`</div><div${_scopeId}>`)
+              _push(__vite_ssr_import_19__.ssrRenderComponent(_component_DropdownNoIcon, null, null, _parent, _scopeId))
+              _push(`</div><div${_scopeId}>`)
+              _push(__vite_ssr_import_19__.ssrRenderComponent(_component_DropdownOnlyHeading, null, null, _parent, _scopeId))
+              _push(`</div></div>`)
+            } else {
+              return [
+                __vite_ssr_import_18__.createVNode("div", { class: "grid gri-flow-col grid-cols-3 gap-4 w-full" }, [
+                  __vite_ssr_import_18__.createVNode("div", null, [
+                    __vite_ssr_import_18__.createVNode(_component_DropdownWithIcon)
+                  ]),
+                  __vite_ssr_import_18__.createVNode("div", null, [
+                    __vite_ssr_import_18__.createVNode(_component_DropdownNoIcon)
+                  ]),
+                  __vite_ssr_import_18__.createVNode("div", null, [
+                    __vite_ssr_import_18__.createVNode(_component_DropdownOnlyHeading)
+                  ])
+                ])
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_19__.ssrRenderStyle((_ctx.default_footer) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('iconFirstDropdownComp'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_DropdownSnippetsWithIcon, { id: "iconFirstDropdownComp" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End  --><!-- start --><section id="profileDropdown" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Default`)
+            } else {
+              return [
+                __vite_ssr_import_18__.createTextVNode("Default")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!_ctx.default_footer) {
+                _push(__vite_ssr_import_19__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => (_ctx.default_footer = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_19__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => (_ctx.default_footer = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!_ctx.default_footer)
+                  ? (__vite_ssr_import_18__.openBlock(), __vite_ssr_import_18__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => (_ctx.default_footer = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_18__.openBlock(), __vite_ssr_import_18__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => (_ctx.default_footer = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_19__.ssrRenderComponent(_component_DropdownProfile, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_18__.createVNode(_component_DropdownProfile)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_19__.ssrRenderStyle((_ctx.default_footer) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('profileDropdownComp'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_DropdownSnippetsProfile, { id: "profileDropdownComp" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End  --><!-- start --><section id="ytDropdown" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Default`)
+            } else {
+              return [
+                __vite_ssr_import_18__.createTextVNode("Default")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!_ctx.default_footer) {
+                _push(__vite_ssr_import_19__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => (_ctx.default_footer = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_19__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => (_ctx.default_footer = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!_ctx.default_footer)
+                  ? (__vite_ssr_import_18__.openBlock(), __vite_ssr_import_18__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => (_ctx.default_footer = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_18__.openBlock(), __vite_ssr_import_18__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => (_ctx.default_footer = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_19__.ssrRenderComponent(_component_DropdownDefault, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_18__.createVNode(_component_DropdownDefault)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_19__.ssrRenderStyle((_ctx.default_footer) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('ytDropdownComp'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_19__.ssrRenderComponent(_component_DropdownSnippetsDefault, { id: "ytDropdownComp" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End  --></div></div><!-- right sidebar --><div class="hidden lg:block"${
+          _scopeId
+        }><div class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2"${
+          _scopeId
+        }><div class="overflow-y-auto"${
+          _scopeId
+        }><!-- <AlertInfo /> --><div class="flex flex-col justify-start items-end space-y-2"${
+          _scopeId
+        }><p class="text-normal font-bold"${
+          _scopeId
+        }>On This Page</p><button${
+          _scopeId
+        }> Icon First Dropdown </button><button${
+          _scopeId
+        }> Profile Dropdown </button><button${
+          _scopeId
+        }> Youtube Dropdown </button></div></div></div></div></div>`)
+      } else {
+        return [
+          __vite_ssr_import_18__.createVNode("div", { class: "flex p-4" }, [
+            __vite_ssr_import_18__.createCommentVNode(" content "),
+            __vite_ssr_import_18__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
+              __vite_ssr_import_18__.createVNode("div", {
+                class: "overflow-y-auto w-full px-4 pb-20",
+                id: "dropdownContainer"
+              }, [
+                __vite_ssr_import_18__.createVNode(_component_HeadersHeading, null, {
+                  default: __vite_ssr_import_18__.withCtx(() => [
+                    __vite_ssr_import_18__.createTextVNode(" Dropdown ")
+                  ]),
+                  _: 1 /* STABLE */
+                }),
+                __vite_ssr_import_18__.createVNode("div", null, [
+                  __vite_ssr_import_18__.createVNode("p", { class: "text-base" }, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? ")
+                ]),
+                __vite_ssr_import_18__.createCommentVNode(" start "),
+                __vite_ssr_import_18__.createVNode("section", {
+                  id: "iconFirstDropdown",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_18__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_18__.withCtx(() => [
+                      __vite_ssr_import_18__.createTextVNode("Default")
+                    ]),
+                    code: __vite_ssr_import_18__.withCtx(() => [
+                      (!_ctx.default_footer)
+                        ? (__vite_ssr_import_18__.openBlock(), __vite_ssr_import_18__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => (_ctx.default_footer = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_18__.openBlock(), __vite_ssr_import_18__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => (_ctx.default_footer = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_18__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_18__.withCtx(() => [
+                      __vite_ssr_import_18__.createVNode("div", { class: "grid gri-flow-col grid-cols-3 gap-4 w-full" }, [
+                        __vite_ssr_import_18__.createVNode("div", null, [
+                          __vite_ssr_import_18__.createVNode(_component_DropdownWithIcon)
+                        ]),
+                        __vite_ssr_import_18__.createVNode("div", null, [
+                          __vite_ssr_import_18__.createVNode(_component_DropdownNoIcon)
+                        ]),
+                        __vite_ssr_import_18__.createVNode("div", null, [
+                          __vite_ssr_import_18__.createVNode(_component_DropdownOnlyHeading)
+                        ])
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_18__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_18__.createVNode(__vite_ssr_import_18__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_18__.withCtx(() => [
+                      __vite_ssr_import_18__.withDirectives(__vite_ssr_import_18__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_18__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_18__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_18__.createVNode("div", null, [
+                            __vite_ssr_import_18__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('iconFirstDropdownComp'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_18__.createVNode(_component_DropdownSnippetsWithIcon, { id: "iconFirstDropdownComp" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_18__.vShow, _ctx.default_footer]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_18__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_18__.createCommentVNode(" End  "),
+                __vite_ssr_import_18__.createCommentVNode(" start "),
+                __vite_ssr_import_18__.createVNode("section", {
+                  id: "profileDropdown",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_18__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_18__.withCtx(() => [
+                      __vite_ssr_import_18__.createTextVNode("Default")
+                    ]),
+                    code: __vite_ssr_import_18__.withCtx(() => [
+                      (!_ctx.default_footer)
+                        ? (__vite_ssr_import_18__.openBlock(), __vite_ssr_import_18__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => (_ctx.default_footer = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_18__.openBlock(), __vite_ssr_import_18__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => (_ctx.default_footer = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_18__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_18__.withCtx(() => [
+                      __vite_ssr_import_18__.createVNode(_component_DropdownProfile)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_18__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_18__.createVNode(__vite_ssr_import_18__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_18__.withCtx(() => [
+                      __vite_ssr_import_18__.withDirectives(__vite_ssr_import_18__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_18__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_18__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_18__.createVNode("div", null, [
+                            __vite_ssr_import_18__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('profileDropdownComp'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_18__.createVNode(_component_DropdownSnippetsProfile, { id: "profileDropdownComp" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_18__.vShow, _ctx.default_footer]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_18__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_18__.createCommentVNode(" End  "),
+                __vite_ssr_import_18__.createCommentVNode(" start "),
+                __vite_ssr_import_18__.createVNode("section", {
+                  id: "ytDropdown",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_18__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_18__.withCtx(() => [
+                      __vite_ssr_import_18__.createTextVNode("Default")
+                    ]),
+                    code: __vite_ssr_import_18__.withCtx(() => [
+                      (!_ctx.default_footer)
+                        ? (__vite_ssr_import_18__.openBlock(), __vite_ssr_import_18__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => (_ctx.default_footer = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_18__.openBlock(), __vite_ssr_import_18__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => (_ctx.default_footer = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_18__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_18__.withCtx(() => [
+                      __vite_ssr_import_18__.createVNode(_component_DropdownDefault)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_18__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_18__.createVNode(__vite_ssr_import_18__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_18__.withCtx(() => [
+                      __vite_ssr_import_18__.withDirectives(__vite_ssr_import_18__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_18__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_18__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_18__.createVNode("div", null, [
+                            __vite_ssr_import_18__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('ytDropdownComp'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_18__.createVNode(_component_DropdownSnippetsDefault, { id: "ytDropdownComp" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_18__.vShow, _ctx.default_footer]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_18__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_18__.createCommentVNode(" End  ")
+              ])
+            ]),
+            __vite_ssr_import_18__.createCommentVNode(" right sidebar "),
+            __vite_ssr_import_18__.createVNode("div", { class: "hidden lg:block" }, [
+              __vite_ssr_import_18__.createVNode("div", { class: "w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2" }, [
+                __vite_ssr_import_18__.createVNode("div", { class: "overflow-y-auto" }, [
+                  __vite_ssr_import_18__.createCommentVNode(" <AlertInfo /> "),
+                  __vite_ssr_import_18__.createVNode("div", { class: "flex flex-col justify-start items-end space-y-2" }, [
+                    __vite_ssr_import_18__.createVNode("p", { class: "text-normal font-bold" }, "On This Page"),
+                    __vite_ssr_import_18__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('iconFirstDropdown'))
+                    }, " Icon First Dropdown ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_18__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('profileDropdown'))
+                    }, " Profile Dropdown ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_18__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('ytDropdown'))
+                    }, " Youtube Dropdown ", 8 /* PROPS */, ["onClick"])
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+}
+
+const __vite_ssr_import_20__ = await __vite_ssr_import__("/pages/dropdown.vue?vue&type=style&index=0&lang.css");
+
+
+const __vite_ssr_import_21__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_21__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/dropdown.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_22__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/dropdown.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/footer.vue
+// Parents: 
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
+// Dependencies: 
+// - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
+// - /components/Headers/Heading.vue ($id_7aa6b9b6)
+// - /components/Headers/SubHeading.vue ($id_65fe66b1)
+// - /components/Utils/ShowCodeButton.vue ($id_b28ae97a)
+// - /components/Utils/HideCodeButton.vue ($id_2ed55d76)
+// - /components/Utils/ComponentPad.vue ($id_900fca01)
+// - /components/Footer/Default.vue ($id_b6595b4c)
+// - /components/Utils/CopyButton.vue ($id_07dc553f)
+// - /components/Footer/Snippets/Default.vue ($id_66157248)
+// - /components/Footer/LogoSection.vue ($id_3461c3e2)
+// - /components/Footer/Snippets/LogoSection.vue ($id_6e695b56)
+// - /components/Footer/TwoRow.vue ($id_02bc8559)
+// - /components/Footer/Appsmith.vue ($id_9584eb63)
+// - /components/Footer/Snippets/Appsmith.vue ($id_cdef03de)
+// - /components/Alert/AlertInfo.vue ($id_df465372)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /pages/footer.vue?vue&type=style&index=0&lang.css ($id_b51c725f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_a531a593 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/layout.mjs");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/components/Utils/ShowCodeButton.vue");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/components/Utils/HideCodeButton.vue");
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/components/Utils/ComponentPad.vue");
+
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/components/Footer/Default.vue");
+
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/components/Utils/CopyButton.vue");
+
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/components/Footer/Snippets/Default.vue");
+
+const __vite_ssr_import_9__ = await __vite_ssr_import__("/components/Footer/LogoSection.vue");
+
+const __vite_ssr_import_10__ = await __vite_ssr_import__("/components/Footer/Snippets/LogoSection.vue");
+
+const __vite_ssr_import_11__ = await __vite_ssr_import__("/components/Footer/TwoRow.vue");
+
+const __vite_ssr_import_12__ = await __vite_ssr_import__("/components/Footer/Appsmith.vue");
+
+const __vite_ssr_import_13__ = await __vite_ssr_import__("/components/Footer/Snippets/Appsmith.vue");
+
+
+const __vite_ssr_import_14__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
+
+const __vite_ssr_import_15__ = await __vite_ssr_import__("/components/Alert/AlertInfo.vue");
+
+const __vite_ssr_import_16__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
+
+const _sfc_main = {
+  metaInfo: {
+    title: "Rating",
+  },
+  components: {
+    AlertInfo: __vite_ssr_import_15__.default,
+    Heading: __vite_ssr_import_16__.default,
+    SubHeading: __vite_ssr_import_14__.default,
+},
+  data() {
+    return {
+      layout: "custom",
+      default_footer: false,
+      logoaside_footer: false,
+      tworows_footer: false,
+      appsmith_footer: false,
+      // SCROLL
+      activeScrollSection: "",
+      sample: "",
+    };
+  },
+  methods: {
+    scrollToSection(section) {
+      this.activeScrollSection = section;
+      document.getElementById("footerContainer").scrollTo({
+        top: document.getElementById(`${section}`).offsetTop - 100,
+        behavior: "smooth",
+      });
+      // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+    copyToClipboard(id) {
+      this.$bus.$emit("showToastNotification")
+      this.$globalCopyFunc(id);
+    },
+
+  },
+};
+
+const __vite_ssr_import_17__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_18__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_NuxtLayout = __vite_ssr_import_0__.default
+  const _component_HeadersHeading = __vite_ssr_import_1__.default
+  const _component_HeadersSubHeading = __vite_ssr_import_2__.default
+  const _component_UtilsShowCodeButton = __vite_ssr_import_3__.default
+  const _component_UtilsHideCodeButton = __vite_ssr_import_4__.default
+  const _component_UtilsComponentPad = __vite_ssr_import_5__.default
+  const _component_FooterDefault = __vite_ssr_import_6__.default
+  const _component_UtilsCopyButton = __vite_ssr_import_7__.default
+  const _component_FooterSnippetsDefault = __vite_ssr_import_8__.default
+  const _component_FooterLogoSection = __vite_ssr_import_9__.default
+  const _component_FooterSnippetsLogoSection = __vite_ssr_import_10__.default
+  const _component_FooterTwoRow = __vite_ssr_import_11__.default
+  const _component_FooterSnippetsWFooterTwoRow = __vite_ssr_import_17__.resolveComponent("FooterSnippetsWFooterTwoRow")
+  const _component_FooterAppsmith = __vite_ssr_import_12__.default
+  const _component_FooterSnippetsAppsmith = __vite_ssr_import_13__.default
+
+  _push(__vite_ssr_import_18__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_17__.mergeProps({ name: $data.layout }, _attrs), {
+    default: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<div class="flex p-4"${
+          _scopeId
+        }><!-- content --><div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar"${
+          _scopeId
+        }><div class="overflow-y-auto w-full px-4 pb-20" id="footerContainer"${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_HeadersHeading, null, {
+          default: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(` Rating `)
+            } else {
+              return [
+                __vite_ssr_import_17__.createTextVNode(" Rating ")
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<div${
+          _scopeId
+        }><p class="text-base"${
+          _scopeId
+        }> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? </p></div><!-- start --><section id="defaultFooter" class="w-full"${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Default`)
+            } else {
+              return [
+                __vite_ssr_import_17__.createTextVNode("Default")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.default_footer) {
+                _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.default_footer = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.default_footer = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.default_footer)
+                  ? (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.default_footer = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.default_footer = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_18__.ssrRenderComponent(_component_FooterDefault, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_17__.createVNode(_component_FooterDefault)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_18__.ssrRenderStyle(($data.default_footer) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('defaultFooterComp'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_FooterSnippetsDefault, { id: "defaultFooterComp" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End  --><!-- start --><section id="footerLogoAside" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Logo Aside`)
+            } else {
+              return [
+                __vite_ssr_import_17__.createTextVNode("Logo Aside")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.logoaside_footer) {
+                _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.logoaside_footer = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.logoaside_footer = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.logoaside_footer)
+                  ? (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.logoaside_footer = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.logoaside_footer = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_18__.ssrRenderComponent(_component_FooterLogoSection, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_17__.createVNode(_component_FooterLogoSection)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_18__.ssrRenderStyle(($data.logoaside_footer) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('footerLogoAsideComp'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_FooterSnippetsLogoSection, { id: "footerLogoAsideComp" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End  --><!-- start --><section id="footerWith2rows" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`With 2 rows`)
+            } else {
+              return [
+                __vite_ssr_import_17__.createTextVNode("With 2 rows")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.tworows_footer) {
+                _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.tworows_footer = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.tworows_footer = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.tworows_footer)
+                  ? (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.tworows_footer = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.tworows_footer = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_18__.ssrRenderComponent(_component_FooterTwoRow, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_17__.createVNode(_component_FooterTwoRow)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_18__.ssrRenderStyle(($data.tworows_footer) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('footerWith2rowsComp'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_FooterSnippetsWFooterTwoRow, { id: "footerWith2rowsComp" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End  --><!-- start --><section id="appsmithFooter" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Appsmith`)
+            } else {
+              return [
+                __vite_ssr_import_17__.createTextVNode("Appsmith")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.appsmith_footer) {
+                _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.appsmith_footer = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.appsmith_footer = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.appsmith_footer)
+                  ? (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.appsmith_footer = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.appsmith_footer = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_17__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_18__.ssrRenderComponent(_component_FooterAppsmith, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_17__.createVNode(_component_FooterAppsmith)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_18__.ssrRenderStyle(($data.appsmith_footer) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('appsmithFooterComp'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_18__.ssrRenderComponent(_component_FooterSnippetsAppsmith, { id: "appsmithFooterComp" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End  --></div></div><!-- right sidebar --><div class="hidden lg:block"${
+          _scopeId
+        }><div class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2"${
+          _scopeId
+        }><div class="overflow-y-auto"${
+          _scopeId
+        }><!-- <AlertInfo /> --><div class="flex flex-col justify-start items-end space-y-2"${
+          _scopeId
+        }><p class="text-normal font-bold"${
+          _scopeId
+        }>On This Page</p><button${
+          _scopeId
+        }> Default Footer </button><button${
+          _scopeId
+        }> Footer Logo Aside </button><button${
+          _scopeId
+        }> Footer With 2 rows </button><button${
+          _scopeId
+        }> Appsmith Footer </button></div></div></div></div></div>`)
+      } else {
+        return [
+          __vite_ssr_import_17__.createVNode("div", { class: "flex p-4" }, [
+            __vite_ssr_import_17__.createCommentVNode(" content "),
+            __vite_ssr_import_17__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
+              __vite_ssr_import_17__.createVNode("div", {
+                class: "overflow-y-auto w-full px-4 pb-20",
+                id: "footerContainer"
+              }, [
+                __vite_ssr_import_17__.createVNode(_component_HeadersHeading, null, {
+                  default: __vite_ssr_import_17__.withCtx(() => [
+                    __vite_ssr_import_17__.createTextVNode(" Rating ")
+                  ]),
+                  _: 1 /* STABLE */
+                }),
+                __vite_ssr_import_17__.createVNode("div", null, [
+                  __vite_ssr_import_17__.createVNode("p", { class: "text-base" }, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? ")
+                ]),
+                __vite_ssr_import_17__.createCommentVNode(" start "),
+                __vite_ssr_import_17__.createVNode("section", {
+                  id: "defaultFooter",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_17__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_17__.withCtx(() => [
+                      __vite_ssr_import_17__.createTextVNode("Default")
+                    ]),
+                    code: __vite_ssr_import_17__.withCtx(() => [
+                      (!$data.default_footer)
+                        ? (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.default_footer = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.default_footer = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_17__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_17__.withCtx(() => [
+                      __vite_ssr_import_17__.createVNode(_component_FooterDefault)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_17__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_17__.createVNode(__vite_ssr_import_17__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_17__.withCtx(() => [
+                      __vite_ssr_import_17__.withDirectives(__vite_ssr_import_17__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_17__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_17__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_17__.createVNode("div", null, [
+                            __vite_ssr_import_17__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('defaultFooterComp'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_17__.createVNode(_component_FooterSnippetsDefault, { id: "defaultFooterComp" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_17__.vShow, $data.default_footer]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_17__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_17__.createCommentVNode(" End  "),
+                __vite_ssr_import_17__.createCommentVNode(" start "),
+                __vite_ssr_import_17__.createVNode("section", {
+                  id: "footerLogoAside",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_17__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_17__.withCtx(() => [
+                      __vite_ssr_import_17__.createTextVNode("Logo Aside")
+                    ]),
+                    code: __vite_ssr_import_17__.withCtx(() => [
+                      (!$data.logoaside_footer)
+                        ? (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.logoaside_footer = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.logoaside_footer = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_17__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_17__.withCtx(() => [
+                      __vite_ssr_import_17__.createVNode(_component_FooterLogoSection)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_17__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_17__.createVNode(__vite_ssr_import_17__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_17__.withCtx(() => [
+                      __vite_ssr_import_17__.withDirectives(__vite_ssr_import_17__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_17__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_17__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_17__.createVNode("div", null, [
+                            __vite_ssr_import_17__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('footerLogoAsideComp'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_17__.createVNode(_component_FooterSnippetsLogoSection, { id: "footerLogoAsideComp" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_17__.vShow, $data.logoaside_footer]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_17__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_17__.createCommentVNode(" End  "),
+                __vite_ssr_import_17__.createCommentVNode(" start "),
+                __vite_ssr_import_17__.createVNode("section", {
+                  id: "footerWith2rows",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_17__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_17__.withCtx(() => [
+                      __vite_ssr_import_17__.createTextVNode("With 2 rows")
+                    ]),
+                    code: __vite_ssr_import_17__.withCtx(() => [
+                      (!$data.tworows_footer)
+                        ? (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.tworows_footer = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.tworows_footer = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_17__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_17__.withCtx(() => [
+                      __vite_ssr_import_17__.createVNode(_component_FooterTwoRow)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_17__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_17__.createVNode(__vite_ssr_import_17__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_17__.withCtx(() => [
+                      __vite_ssr_import_17__.withDirectives(__vite_ssr_import_17__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_17__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_17__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_17__.createVNode("div", null, [
+                            __vite_ssr_import_17__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('footerWith2rowsComp'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_17__.createVNode(_component_FooterSnippetsWFooterTwoRow, { id: "footerWith2rowsComp" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_17__.vShow, $data.tworows_footer]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_17__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_17__.createCommentVNode(" End  "),
+                __vite_ssr_import_17__.createCommentVNode(" start "),
+                __vite_ssr_import_17__.createVNode("section", {
+                  id: "appsmithFooter",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_17__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_17__.withCtx(() => [
+                      __vite_ssr_import_17__.createTextVNode("Appsmith")
+                    ]),
+                    code: __vite_ssr_import_17__.withCtx(() => [
+                      (!$data.appsmith_footer)
+                        ? (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.appsmith_footer = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_17__.openBlock(), __vite_ssr_import_17__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.appsmith_footer = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_17__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_17__.withCtx(() => [
+                      __vite_ssr_import_17__.createVNode(_component_FooterAppsmith)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_17__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_17__.createVNode(__vite_ssr_import_17__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_17__.withCtx(() => [
+                      __vite_ssr_import_17__.withDirectives(__vite_ssr_import_17__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_17__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_17__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_17__.createVNode("div", null, [
+                            __vite_ssr_import_17__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('appsmithFooterComp'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_17__.createVNode(_component_FooterSnippetsAppsmith, { id: "appsmithFooterComp" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_17__.vShow, $data.appsmith_footer]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_17__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_17__.createCommentVNode(" End  ")
+              ])
+            ]),
+            __vite_ssr_import_17__.createCommentVNode(" right sidebar "),
+            __vite_ssr_import_17__.createVNode("div", { class: "hidden lg:block" }, [
+              __vite_ssr_import_17__.createVNode("div", { class: "w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2" }, [
+                __vite_ssr_import_17__.createVNode("div", { class: "overflow-y-auto" }, [
+                  __vite_ssr_import_17__.createCommentVNode(" <AlertInfo /> "),
+                  __vite_ssr_import_17__.createVNode("div", { class: "flex flex-col justify-start items-end space-y-2" }, [
+                    __vite_ssr_import_17__.createVNode("p", { class: "text-normal font-bold" }, "On This Page"),
+                    __vite_ssr_import_17__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('defaultFooter'))
+                    }, " Default Footer ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_17__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('footerLogoAside'))
+                    }, " Footer Logo Aside ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_17__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('footerWith2rows'))
+                    }, " Footer With 2 rows ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_17__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('appsmithFooter'))
+                    }, " Appsmith Footer ", 8 /* PROPS */, ["onClick"])
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+}
+
+const __vite_ssr_import_19__ = await __vite_ssr_import__("/pages/footer.vue?vue&type=style&index=0&lang.css");
+
+
+const __vite_ssr_import_20__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_20__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/footer.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_21__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_21__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/footer.vue"]]);
+}
+
+
+// --------------------
+// Request: /pages/form.vue
+// Parents: 
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
+// Dependencies: 
+// - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
+// - /components/Headers/Heading.vue ($id_7aa6b9b6)
+// - /components/Headers/SubHeading.vue ($id_65fe66b1)
+// - /components/Utils/ShowCodeButton.vue ($id_b28ae97a)
+// - /components/Utils/HideCodeButton.vue ($id_2ed55d76)
+// - /components/Utils/ComponentPad.vue ($id_900fca01)
+// - /components/Form/Element.vue ($id_fe902f47)
+// - /components/Utils/CopyButton.vue ($id_07dc553f)
+// - /components/Form/Snippets/Element.vue ($id_12fc440f)
+// - /components/Form/Default.vue ($id_61ae43aa)
+// - /components/Form/Snippets/Default.vue ($id_e1db028d)
+// - /components/Form/Floatinglabel.vue ($id_32b65436)
+// - /components/Form/Snippets/Floatinglabel.vue ($id_d523dc38)
+// - /components/Alert/AlertInfo.vue ($id_df465372)
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /pages/form.vue?vue&type=style&index=0&lang.css ($id_e802c4b0)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_821dc3e3 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/layout.mjs");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/components/Utils/ShowCodeButton.vue");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/components/Utils/HideCodeButton.vue");
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/components/Utils/ComponentPad.vue");
+
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/components/Form/Element.vue");
+
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/components/Utils/CopyButton.vue");
+
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/components/Form/Snippets/Element.vue");
+
+const __vite_ssr_import_9__ = await __vite_ssr_import__("/components/Form/Default.vue");
+
+const __vite_ssr_import_10__ = await __vite_ssr_import__("/components/Form/Snippets/Default.vue");
+
+const __vite_ssr_import_11__ = await __vite_ssr_import__("/components/Form/Floatinglabel.vue");
+
+const __vite_ssr_import_12__ = await __vite_ssr_import__("/components/Form/Snippets/Floatinglabel.vue");
+
+
+const __vite_ssr_import_13__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
+
+const __vite_ssr_import_14__ = await __vite_ssr_import__("/components/Alert/AlertInfo.vue");
+
+const __vite_ssr_import_15__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
+
+const _sfc_main = {
+  metaInfo: {
+    title: "Rating",
+  },
+  components: {
+    AlertInfo: __vite_ssr_import_14__.default,
+    Heading: __vite_ssr_import_15__.default,
+    SubHeading: __vite_ssr_import_13__.default,
+},
+  data() {
+    return {
+      layout: "custom",
+      form_elements: false,
+      default_form: false,
+      floating_form: false,
+      // SCROLL
+      activeScrollSection: "",
+      sample: "",
+    };
+  },
+  methods: {
+    scrollToSection(section) {
+      this.activeScrollSection = section;
+      document.getElementById("formContainer").scrollTo({
+        top: document.getElementById(`${section}`).offsetTop - 100,
+        behavior: "smooth",
+      });
+      // this.$router.push(`/alerts/#${this.activeScrollSection}`)
+    },
+    copyToClipboard(id) {
+      this.$bus.$emit("showToastNotification")
+      this.$globalCopyFunc(id);
+    },
+
+  },
+};
+
+const __vite_ssr_import_16__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_17__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_NuxtLayout = __vite_ssr_import_0__.default
+  const _component_HeadersHeading = __vite_ssr_import_1__.default
+  const _component_HeadersSubHeading = __vite_ssr_import_2__.default
+  const _component_UtilsShowCodeButton = __vite_ssr_import_3__.default
+  const _component_UtilsHideCodeButton = __vite_ssr_import_4__.default
+  const _component_UtilsComponentPad = __vite_ssr_import_5__.default
+  const _component_FormElement = __vite_ssr_import_6__.default
+  const _component_UtilsCopyButton = __vite_ssr_import_7__.default
+  const _component_FormSnippetsElement = __vite_ssr_import_8__.default
+  const _component_FormDefault = __vite_ssr_import_9__.default
+  const _component_FormSnippetsDefault = __vite_ssr_import_10__.default
+  const _component_FormFloatinglabel = __vite_ssr_import_11__.default
+  const _component_FormSnippetsFloatinglabel = __vite_ssr_import_12__.default
+
+  _push(__vite_ssr_import_17__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_16__.mergeProps({ name: $data.layout }, _attrs), {
+    default: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+      if (_push) {
+        _push(`<div class="flex p-4"${
+          _scopeId
+        }><!-- content --><div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar"${
+          _scopeId
+        }><div class="overflow-y-auto w-full px-4 pb-20" id="formContainer"${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_HeadersHeading, null, {
+          default: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(` Form `)
+            } else {
+              return [
+                __vite_ssr_import_16__.createTextVNode(" Form ")
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<div${
+          _scopeId
+        }><p class="text-base"${
+          _scopeId
+        }> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? </p></div><!-- start --><section id="formElement" class="w-full"${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Element`)
+            } else {
+              return [
+                __vite_ssr_import_16__.createTextVNode("Element")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.form_elements) {
+                _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.form_elements = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.form_elements = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.form_elements)
+                  ? (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.form_elements = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.form_elements = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_17__.ssrRenderComponent(_component_FormElement, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_16__.createVNode(_component_FormElement)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_17__.ssrRenderStyle(($data.form_elements) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('formElementComp'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_FormSnippetsElement, { id: "formElementComp" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End  --><!-- start --><section id="defaultform" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Default`)
+            } else {
+              return [
+                __vite_ssr_import_16__.createTextVNode("Default")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.default_form) {
+                _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.default_form = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.default_form = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.default_form)
+                  ? (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.default_form = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.default_form = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_17__.ssrRenderComponent(_component_FormDefault, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_16__.createVNode(_component_FormDefault)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_17__.ssrRenderStyle(($data.default_form) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('defaultformComp'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_FormSnippetsDefault, { id: "defaultformComp" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End  --><!-- start --><section id="floatingForm" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Floating Form`)
+            } else {
+              return [
+                __vite_ssr_import_16__.createTextVNode("Floating Form")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.floating_form) {
+                _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.floating_form = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.floating_form = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.floating_form)
+                  ? (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.floating_form = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.floating_form = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_17__.ssrRenderComponent(_component_FormFloatinglabel, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_16__.createVNode(_component_FormFloatinglabel)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_17__.ssrRenderStyle(($data.floating_form) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('floatingFormComp'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_FormSnippetsFloatinglabel, { id: "floatingFormComp" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End  --></div></div><!-- right sidebar --><div class="hidden lg:block"${
+          _scopeId
+        }><div class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2"${
+          _scopeId
+        }><div class="overflow-y-auto"${
+          _scopeId
+        }><!-- <AlertInfo /> --><div class="flex flex-col justify-start items-end space-y-2"${
+          _scopeId
+        }><p class="text-normal font-bold"${
+          _scopeId
+        }>On This Page</p><button${
+          _scopeId
+        }> Form Element </button><button${
+          _scopeId
+        }> Default Form </button><button${
+          _scopeId
+        }> Floating Form </button></div></div></div></div></div>`)
+      } else {
+        return [
+          __vite_ssr_import_16__.createVNode("div", { class: "flex p-4" }, [
+            __vite_ssr_import_16__.createCommentVNode(" content "),
+            __vite_ssr_import_16__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
+              __vite_ssr_import_16__.createVNode("div", {
+                class: "overflow-y-auto w-full px-4 pb-20",
+                id: "formContainer"
+              }, [
+                __vite_ssr_import_16__.createVNode(_component_HeadersHeading, null, {
+                  default: __vite_ssr_import_16__.withCtx(() => [
+                    __vite_ssr_import_16__.createTextVNode(" Form ")
+                  ]),
+                  _: 1 /* STABLE */
+                }),
+                __vite_ssr_import_16__.createVNode("div", null, [
+                  __vite_ssr_import_16__.createVNode("p", { class: "text-base" }, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? ")
+                ]),
+                __vite_ssr_import_16__.createCommentVNode(" start "),
+                __vite_ssr_import_16__.createVNode("section", {
+                  id: "formElement",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_16__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.createTextVNode("Element")
+                    ]),
+                    code: __vite_ssr_import_16__.withCtx(() => [
+                      (!$data.form_elements)
+                        ? (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.form_elements = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.form_elements = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_16__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.createVNode(_component_FormElement)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_16__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_16__.createVNode(__vite_ssr_import_16__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.withDirectives(__vite_ssr_import_16__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_16__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_16__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_16__.createVNode("div", null, [
+                            __vite_ssr_import_16__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('formElementComp'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_16__.createVNode(_component_FormSnippetsElement, { id: "formElementComp" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_16__.vShow, $data.form_elements]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_16__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_16__.createCommentVNode(" End  "),
+                __vite_ssr_import_16__.createCommentVNode(" start "),
+                __vite_ssr_import_16__.createVNode("section", {
+                  id: "defaultform",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_16__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.createTextVNode("Default")
+                    ]),
+                    code: __vite_ssr_import_16__.withCtx(() => [
+                      (!$data.default_form)
+                        ? (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.default_form = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.default_form = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_16__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.createVNode(_component_FormDefault)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_16__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_16__.createVNode(__vite_ssr_import_16__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.withDirectives(__vite_ssr_import_16__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_16__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_16__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_16__.createVNode("div", null, [
+                            __vite_ssr_import_16__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('defaultformComp'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_16__.createVNode(_component_FormSnippetsDefault, { id: "defaultformComp" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_16__.vShow, $data.default_form]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_16__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_16__.createCommentVNode(" End  "),
+                __vite_ssr_import_16__.createCommentVNode(" start "),
+                __vite_ssr_import_16__.createVNode("section", {
+                  id: "floatingForm",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_16__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.createTextVNode("Floating Form")
+                    ]),
+                    code: __vite_ssr_import_16__.withCtx(() => [
+                      (!$data.floating_form)
+                        ? (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.floating_form = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.floating_form = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_16__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.createVNode(_component_FormFloatinglabel)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_16__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_16__.createVNode(__vite_ssr_import_16__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.withDirectives(__vite_ssr_import_16__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_16__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_16__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_16__.createVNode("div", null, [
+                            __vite_ssr_import_16__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('floatingFormComp'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_16__.createVNode(_component_FormSnippetsFloatinglabel, { id: "floatingFormComp" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_16__.vShow, $data.floating_form]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_16__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_16__.createCommentVNode(" End  ")
+              ])
+            ]),
+            __vite_ssr_import_16__.createCommentVNode(" right sidebar "),
+            __vite_ssr_import_16__.createVNode("div", { class: "hidden lg:block" }, [
+              __vite_ssr_import_16__.createVNode("div", { class: "w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2" }, [
+                __vite_ssr_import_16__.createVNode("div", { class: "overflow-y-auto" }, [
+                  __vite_ssr_import_16__.createCommentVNode(" <AlertInfo /> "),
+                  __vite_ssr_import_16__.createVNode("div", { class: "flex flex-col justify-start items-end space-y-2" }, [
+                    __vite_ssr_import_16__.createVNode("p", { class: "text-normal font-bold" }, "On This Page"),
+                    __vite_ssr_import_16__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('formElement'))
+                    }, " Form Element ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_16__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('defaultform'))
+                    }, " Default Form ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_16__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('floatingForm'))
+                    }, " Floating Form ", 8 /* PROPS */, ["onClick"])
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]
+      }
+    }),
+    _: 1 /* STABLE */
+  }, _parent))
+}
+
+const __vite_ssr_import_18__ = await __vite_ssr_import__("/pages/form.vue?vue&type=style&index=0&lang.css");
+
+
+const __vite_ssr_import_19__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_19__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/form.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_20__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_20__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/form.vue"]]);
+}
+
+
+// --------------------
 // Request: /pages/index.vue
 // Parents: 
 // - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
@@ -38673,6 +44382,34 @@ const __modules__ = {
   "/components/Button/Appsmith.vue": $id_f75a09c9,
   "/components/Button/Snippets/Appsmith.vue": $id_1c421991,
   "/pages/buttons.vue?vue&type=style&index=0&lang.css": $id_c6a52c9a,
+  "/pages/dropdown.vue?macro=true": $id_65100fe4,
+  "/components/Dropdown/WithIcon.vue": $id_25e5868a,
+  "/components/Dropdown/WithIcon.vue?vue&type=style&index=0&lang.css": $id_aeb6b10f,
+  "/components/Dropdown/NoIcon.vue": $id_a35d6fb5,
+  "/components/Dropdown/OnlyHeading.vue": $id_f6e3029f,
+  "/components/Dropdown/Snippets/WithIcon.vue": $id_7970dc7e,
+  "/components/Dropdown/Profile.vue": $id_18f6de88,
+  "/components/Dropdown/Snippets/Profile.vue": $id_e2fa14a4,
+  "/components/Dropdown/Default.vue": $id_c3d83ef0,
+  "/components/Dropdown/Snippets/Default.vue": $id_9db601bc,
+  "/pages/dropdown.vue?vue&type=style&index=0&lang.css": $id_4d87771c,
+  "/pages/footer.vue?macro=true": $id_d8cb473d,
+  "/components/Footer/Default.vue": $id_b6595b4c,
+  "/components/Footer/Snippets/Default.vue": $id_66157248,
+  "/components/Footer/LogoSection.vue": $id_3461c3e2,
+  "/components/Footer/Snippets/LogoSection.vue": $id_6e695b56,
+  "/components/Footer/TwoRow.vue": $id_02bc8559,
+  "/components/Footer/Appsmith.vue": $id_9584eb63,
+  "/components/Footer/Snippets/Appsmith.vue": $id_cdef03de,
+  "/pages/footer.vue?vue&type=style&index=0&lang.css": $id_b51c725f,
+  "/pages/form.vue?macro=true": $id_bbef9a8f,
+  "/components/Form/Element.vue": $id_fe902f47,
+  "/components/Form/Snippets/Element.vue": $id_12fc440f,
+  "/components/Form/Default.vue": $id_61ae43aa,
+  "/components/Form/Snippets/Default.vue": $id_e1db028d,
+  "/components/Form/Floatinglabel.vue": $id_32b65436,
+  "/components/Form/Snippets/Floatinglabel.vue": $id_d523dc38,
+  "/pages/form.vue?vue&type=style&index=0&lang.css": $id_e802c4b0,
   "/pages/index.vue?macro=true": $id_5dd70240,
   "/pages/index.vue?vue&type=style&index=0&lang.css": $id_0b423cc4,
   "/pages/pagination.vue?macro=true": $id_aace4ffb,
@@ -38723,6 +44460,9 @@ const __modules__ = {
   "/pages/badge.vue": $id_f19d9a80,
   "/pages/breadcrumb.vue": $id_76db04e5,
   "/pages/buttons.vue": $id_e983a7e3,
+  "/pages/dropdown.vue": $id_d20fd50f,
+  "/pages/footer.vue": $id_a531a593,
+  "/pages/form.vue": $id_821dc3e3,
   "/pages/index.vue": $id_cca58e97,
   "/pages/pagination.vue": $id_ff91d3a4,
   "/pages/rating.vue": $id_55a204e0,

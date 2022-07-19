@@ -1,6 +1,6 @@
 <template>
   <div
-    class="lg:flex-row w-full  px-8 py-5 rounded-lg shadow-lg text-gray-700 dark:text-gray-400 bg-white dark:bg-gray-900"
+    class="lg:flex-row w-full  px-8 py-5 rounded-lg shadow-lg text-gray-700 dark:text-zinc-400 bg-white dark:bg-zinc-900"
   >
     <!-- Ui reference Untitled UI  -->
     <div class="grid grid-cols-2 md:grid-cols-6 gap-y-6 font-medium py-4">
@@ -21,8 +21,8 @@
         </div>
       </div>
       <!--  -->
-      <div class="flex flex-col text-gray-600 dark:text-gray-400 text-base">
-        <div class="text-gray-400 dark:text-gray-200 text-sm mb-2">Company</div>
+      <div class="flex flex-col text-gray-600 dark:text-zinc-400 text-base">
+        <div class="text-gray-400 dark:text-zinc-200 text-sm mb-2">Company</div>
         <div>About us</div>
         <div>Careers</div>
         <div>Press</div>
@@ -31,8 +31,8 @@
         <div>Contact</div>
       </div>
       <!--  -->
-      <div class="flex flex-col text-gray-600 dark:text-gray-400 text-base">
-        <div class="text-gray-400 dark:text-gray-200 text-sm mb-2">Resources</div>
+      <div class="flex flex-col text-gray-600 dark:text-zinc-400 text-base">
+        <div class="text-gray-400 dark:text-zinc-200 text-sm mb-2">Resources</div>
         <div>Blog</div>
         <div>Newsletter</div>
         <div>Events</div>
@@ -42,8 +42,8 @@
       </div>
       <!--  -->
 
-      <div class="flex flex-col text-gray-600 dark:text-gray-400 text-base">
-        <div class="text-gray-400 dark:text-gray-200 text-sm mb-2">Social</div>
+      <div class="flex flex-col text-gray-600 dark:text-zinc-400 text-base">
+        <div class="text-gray-400 dark:text-zinc-200 text-sm mb-2">Social</div>
         <div>Twiiter</div>
         <div>LinkedIn</div>
         <div>Facebook</div>
@@ -52,8 +52,8 @@
         <div>Dribbble</div>
       </div>
       <!--  -->
-      <div class="flex flex-col text-gray-600 dark:text-gray-400 text-base">
-        <div class="text-gray-400 dark:text-gray-200 text-sm mb-2">Legal</div>
+      <div class="flex flex-col text-gray-600 dark:text-zinc-400 text-base">
+        <div class="text-gray-400 dark:text-zinc-200 text-sm mb-2">Legal</div>
         <div>Terms</div>
         <div>Privacy</div>
         <div>Cookies</div>
