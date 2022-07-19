@@ -13,27 +13,27 @@
               impedit dolore aliquam?
             </p>
           </div>
-          <!-- Default Dropdown -->
+          <!-- Default ButtonGroup -->
           <section id="defaultButton" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>Default</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_Dropdown"
-                  @click="default_Dropdown = true"
+                  v-if="!default_buttonGroup"
+                  @click="default_buttonGroup = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_Dropdown = false"
+                  @click="default_buttonGroup = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <DropdownDefault />
+              <ButtonGroupDefault />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_Dropdown" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="default_buttonGroup" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
@@ -44,16 +44,16 @@
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <DropdownSnippetsDefault id="defaultButton" />
+                <ButtonGroupSnippetsDefault id="defaultButton" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
-          <!-- End default Dropdown -->
+          <!-- End default ButtonGroup -->
           <!-- outline ButtonGroup -->
           <section id="defaultButton" class="w-full">
             <HeadersSubHeading>
-              <template v-slot:subHeader>Heading</template>
+              <template v-slot:subHeader>Outline</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
                   v-if="!outline_buttonGroup"
@@ -66,7 +66,7 @@
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <DropdownHeading />
+              <ButtonGroupOutline />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
@@ -103,7 +103,7 @@
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <DropdownNoIcon />
+              <ButtonGroupOutlineIcon />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
@@ -127,43 +127,6 @@
           <!-- Icon ButtonGroup -->
           <section id="defaultButton" class="w-full">
             <HeadersSubHeading>
-              <template v-slot:subHeader>Profile</template>
-              <template v-slot:code>
-                <UtilsShowCodeButton
-                  v-if="!icon_buttonGroup"
-                  @click="icon_buttonGroup = true"
-                ></UtilsShowCodeButton>
-                <UtilsHideCodeButton
-                  v-else
-                  @click="icon_buttonGroup = false"
-                ></UtilsHideCodeButton>
-              </template>
-            </HeadersSubHeading>
-            <UtilsComponentPad>
-              <DropdownProfile />
-            </UtilsComponentPad>
-            <!-- code snippet -->
-            <transition name="fadeSnippet">
-              <div v-show="icon_buttonGroup" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
-                <div class="flex justify-between px-2 pt-2">
-                  <div>
-                    HTML
-                  </div>
-                  <div>
-                    <UtilsCopyButton
-                    @click="copyToClipboard('IontButton')"
-                  ></UtilsCopyButton>
-                  </div>
-                </div>
-                <ButtonGroupSnippetsIcon id="IontButton" />
-              </div>
-            </transition>
-            <!-- code snippet end -->
-          </section>
-          <!-- End Ion ButtonGroup -->
-          <!-- Icon ButtonGroup -->
-          <section id="defaultButton" class="w-full">
-            <HeadersSubHeading>
               <template v-slot:subHeader>Icon</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
@@ -177,7 +140,7 @@
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <DropdownWithIcon />
+              <ButtonGroupIcon />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
