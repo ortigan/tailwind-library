@@ -1,7 +1,7 @@
 <template>
   <div class="border-b bg-white dark:bg-[#212121] dark:border-b-[#2D2D2D]">
     <div
-      class="container h-16 w-full flex justify-between items-center dark:text-gray-300"
+      class="px-4 md:container h-16 w-full flex justify-between items-center dark:text-gray-300"
     >
       <!-- logo -->
       <div class="flex space-x-4 w-full">
