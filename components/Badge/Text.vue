@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col space-y-1 items-center justify-end">
+  <div class="flex flex-col space-y-1 items-center justify-end gap-2 md:gap-4">
     <span v-for="(item, index) in itmes" :key="index">
         <div class="flex space-x-2 items-center justify-between">
             <div :class="`${item.headingSize} text-gray-700 font-medium`">Heading</div>

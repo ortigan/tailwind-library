@@ -1,9 +1,9 @@
 <template>
-  <div class="flex flex-wrap">
+  <div class="flex w-full md:justify-center flex-wrap gap-2 md:gap-4">
     <span v-for="(item, index) in itmes" :key="index">
       <div
         :class="
-          `py-0.5 px-2 text-xs rounded-md mr-4 font-medium  ${
+          `py-0.5 px-2 text-xs rounded-md font-medium  ${
             item.textColor
           } ${item.hoverTextColor} ${item.bgColor} ${item.hoverBgColor}`
         "

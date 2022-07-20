@@ -18,14 +18,16 @@
           </div>
         </div> -->
       <!-- Nav items -->
+      <div class="flex">
+
+      
       <div class="flex space-x-6">
         <div>Quickstart</div>
         <div>Components</div>
         <div>Templates</div>
         <div>Figma</div>
         <div>Faqs</div>
-        <div v-if="store.theme === 'dark'" id="light" @click="changeTheme('light')" class="cursor-pointer">
-          
+        <div v-if="store.theme === 'dark'" id="light" @click="changeTheme('light')" class="cursor-pointer">      
           <svg
             width="20"
             height="20"
@@ -106,6 +108,7 @@
               stroke-linejoin="round"
             />
           </svg>
+        </div>
         </div>
       </div>
     </div>
