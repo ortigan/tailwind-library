@@ -1,5 +1,5 @@
 <template>
-  <div class="-ml-20 -my-10 w-full  text-black">
+  <div class="md:-ml-20 md:-my-10 w-full  text-black">
     <div class="w-72 rounded-2xl bg-white dark:bg-zinc-900 overflow-y-hidden shadow-md">
       <aside class="w-full ">
         <!-- logo -->
