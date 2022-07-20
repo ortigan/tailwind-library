@@ -1,20 +1,15 @@
 <template>
   <div :class="store.theme === 'light' ? 'light' : 'dark'" class="">
     <Header />
-    <div class="dark:bg-[#121212] dark:text-gray-100 flex h-screen">
-      <div class="px-2 md:container h-screen">
-        <div class="flex w-full flex-col h-screen">
-          <div class="flex w-full h-screen">
-            <!-- Rest of the content -->
-            <main class="w-full h-screen overflow-y-hidden">
+    <div class="dark:bg-[#121212] w-full dark:text-gray-100 flex">
+      <div class="px-4 md:container w-full">
+            <main class="w-full min-h-screen overflow-x-hidden">
               <slot />
             </main>
-          </div>
-        </div>
       </div>
     </div>
     <div class="">
-      <Footer />
+      <!-- <Footer /> -->
     </div>
   </div>
 </template>

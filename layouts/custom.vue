@@ -7,7 +7,7 @@
   </transition>
     <Header />
     <div class="dark:bg-[#121212] dark:text-gray-100 flex h-screen">
-      <div class="px-4 md:container h-screen">
+      <div class="px-4 md:container mt-20 h-screen">
         <div class="flex w-full flex-col h-screen">
           <div class="flex w-full h-screen">
             <!-- sidebar left -->
@@ -41,7 +41,7 @@
       </div>
     </div>
     <div class="">
-      <Footer />
+      <!-- <Footer /> -->
     </div>
   </div>
 </template>
