@@ -1,117 +1,295 @@
 <template>
-  <div class="border-b bg-white dark:bg-[#212121] dark:border-b-[#2D2D2D]">
-    <div
-      class="px-4 md:container h-16 w-full flex justify-between items-center dark:text-gray-300"
-    >
-      <!-- logo -->
-      <div class="flex space-x-4 w-full">
-        <div class="flex justify-center items-center">
-        </div>
-        <div class="font-semibold uppercase flex"> <nuxt-link to="/">
-         <span class="font-normal"> Air </span> components</nuxt-link>
-        </div>
-      </div>
-      <!--  -->
-      <!-- <div>
-        <div class="pl-4 pr-12 rounded-full bg-gray-100 py-1 flex">
-          <p class="font-thin">Search component</p>  
+  <div>
+    <header class="w-full absolute top-0">
+      <nav
+        transition:fade
+        class="fixed top-0 w-full bg-red-100 shadow-lg mb-6 z-10 f"
+        id="mainNav"
+        style="transition-duration: 0.5s; z-index: 999"
+      >
+        <div class="p-3 top-0 absolute w-full z-40 text-gray-300 uppercase">
+          <div class="blurBg px-4 lg:container rounded-lg">
+            <div class="flex items-center justify-between h-16 px-4 py-5">
+              <div>
+                <nuxt-link
+                  to="/"
+                  @click="moveTo('home')"
+                  class="flex flex-row items-center font-normal tracking-wide uppercase text-primary"
+                >
+                  Air components
+                </nuxt-link>
+              </div>
+              <div class="hidden md:block">
+                <div
+                  class="flex space-x-6 items-center font-light 2xl:text-2xl 3xl:text-2xl"
+                >
+                  <nuxt-link
+                    to="/"
+                    class="text-tiny tracking-wider"
+                    :class="
+                      $route.path === '/'
+                        ? 'transition duration-500 ease-linear text-primary font-semibold'
+                        : ''
+                    "
+                    @click="moveTo('home')"
+                    ><p class="mr-4">Home</p></nuxt-link
+                  >
+                  <nuxt-link
+                    to="/about"
+                    class="text-tiny tracking-wider"
+                    :class="
+                      $route.path === '/about'
+                        ? 'transition duration-500 ease-linear text-primary font-semibold'
+                        : ''
+                    "
+                    ><p class="mr-4">About</p></nuxt-link
+                  >
+                  <nuxt-link
+                    to="/services"
+                    class="text-tiny tracking-wider"
+                    :class="
+                      $route.path === '/services'
+                        ? 'transition duration-500 ease-linear text-primary font-semibold'
+                        : ''
+                    "
+                    ><p class="mr-4">Services</p></nuxt-link
+                  >
+                  <nuxt-link
+                    to="/contact"
+                    class="text-tiny tracking-wider"
+                    :class="
+                      $route.path === '/contact'
+                        ? 'transition duration-500 ease-linear text-primary font-semibold'
+                        : ''
+                    "
+                    ><p class="mr-4">Contact Us</p></nuxt-link
+                  >
+                  <nuxt-link
+                    to="/collaborate"
+                    class="text-tiny tracking-wider"
+                    :class="
+                      $route.path === '/collaborate'
+                        ? 'transition duration-500 ease-linear text-primary font-semibold'
+                        : ''
+                    "
+                    ><p class="mr-4">Collaborate</p></nuxt-link
+                  >
+                  <nuxt-link
+                    to="/blogs"
+                    class="text-tiny tracking-wider"
+                    :class="
+                      $route.path === '/blogs'
+                        ? 'transition duration-500 ease-linear text-primary font-semibold'
+                        : ''
+                    "
+                    ><p class="mr-4">Blogs</p></nuxt-link
+                  >
+                  <nuxt-link
+                    to="/faqs"
+                    class="text-tiny tracking-wider"
+                    :class="
+                      $route.path === '/faqs'
+                        ? 'transition duration-500 ease-linear text-primary font-semibold'
+                        : ''
+                    "
+                    ><p class="mr-4">FAQs</p></nuxt-link
+                  >
+                   <div>
+                  <div
+                    v-if="store.theme === 'dark'"
+                    id="light"
+                    @click="changeTheme('light')"
+                    class="cursor-pointer"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    v-else
+                    id="dark"
+                    @click="changeTheme('dark')"
+                    class="cursor-pointer"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div class="md:hidden flex flex-row">
+                <div>
+                  <div
+                    v-if="store.theme === 'dark'"
+                    id="light"
+                    @click="changeTheme('light')"
+                    class="cursor-pointer"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    v-else
+                    id="dark"
+                    @click="changeTheme('dark')"
+                    class="cursor-pointer"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div>
+                  <svg
+                    @click="openNav()"
+                    v-if="!isOpen"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6 text-primary"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4 6h16M4 12h16M4 18h16"
+                    />
+                  </svg>
+                  <svg
+                    @click="closeNav()"
+                    v-if="isOpen"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6 text-primary"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div
+              :class="
+                isOpen == true
+                  ? 'block flex justify-center h-screen'
+                  : 'hidden flex justify-center h-screen'
+              "
+              class="border-b border-primary"
+            >
+              <transition name="fade">
+                <div
+                  class="flex flex-col space-y-2 pt-6 w-full text-primary border-t border-primary"
+                  v-show="showItems"
+                  @click="closeNav()"
+                >
+                  <nuxt-link
+                    to="/"
+                    class="px-2 py-1 text-darkPrimary font-semibold rounded navItem"
+                    >Home <br />
+                    <p class="text-xxs font-light">Visit home page.</p>
+                  </nuxt-link>
+                  <nuxt-link
+                    to="/about"
+                    class="px-2 py-1 text-darkPrimary font-semibold rounded navItem"
+                    >About <br />
+                    <p class="text-xxs font-light">Know more about us.</p>
+                  </nuxt-link>
+                  <nuxt-link
+                    to="/services"
+                    class="px-2 py-1 text-darkPrimary font-semibold rounded navItem"
+                    >Services <br />
+                    <p class="text-xxs font-light">
+                      Explore our suite of services.
+                    </p>
+                  </nuxt-link>
+                  <nuxt-link
+                    to="/contact"
+                    class="px-2 py-1 text-darkPrimary font-semibold rounded navItem"
+                    >Contact us<br />
+                    <p class="text-xxs font-light">Reach out to us.</p>
+                  </nuxt-link>
+                  <nuxt-link
+                    to="/collaborate"
+                    class="px-2 py-1 text-darkPrimary font-semibold rounded navItem"
+                    >Collaborate <br />
+                    <p class="text-xxs font-light">
+                      Like us? We'd love to have you on our team.
+                    </p>
+                  </nuxt-link>
+                  <nuxt-link
+                    to="/blogs"
+                    class="px-2 py-1 text-darkPrimary font-semibold rounded navItem"
+                    >Blogs <br />
+                    <p class="text-xxs font-light">
+                      Read our blogs to better understand our thought process.
+                    </p>
+                  </nuxt-link>
+                  <nuxt-link
+                    to="/faqs"
+                    class="px-2 py-1 text-darkPrimary font-semibold rounded navItem"
+                    >FAQs <br />
+                    <p class="text-xxs font-light">information repository.</p>
+                  </nuxt-link>
+                </div>
+              </transition>
+            </div>
           </div>
-        </div> -->
-      <!-- Nav items -->
-      <div class="flex">
-
-      
-      <div class="flex space-x-6">
-        <div>Quickstart</div>
-        <div>Components</div>
-        <div>Templates</div>
-        <div>Figma</div>
-        <div>Faqs</div>
-        <div v-if="store.theme === 'dark'" id="light" @click="changeTheme('light')" class="cursor-pointer">      
-          <svg
-            width="20"
-            height="20"
-            stroke-width="1.5"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18Z"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M22 12L23 12"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M12 2V1"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M12 23V22"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M20 20L19 19"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M20 4L19 5"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M4 20L5 19"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M4 4L5 5"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M1 12L2 12"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
         </div>
-        <div v-else id="dark" @click="changeTheme('dark')" class="cursor-pointer">
-          <svg
-            width="20"
-            height="20"
-            stroke-width="1.5"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3 11.5066C3 16.7497 7.25034 21 12.4934 21C16.2209 21 19.4466 18.8518 21 15.7259C12.4934 15.7259 8.27411 11.5066 8.27411 3C5.14821 4.55344 3 7.77915 3 11.5066Z"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-        </div>
-        </div>
-      </div>
-    </div>
+      </nav>
+    </header>
   </div>
 </template>
 
@@ -120,13 +298,31 @@ import { useStore } from "~/store/index";
 export default {
   data() {
     return {
+      isOpen: false,
+      showItems: false,
       store: useStore(),
     };
   },
-  methods:{
+  methods: {
+    moveTo(section) {
+      const element = document.getElementById(`${section}`);
+      element.scrollIntoView({
+        behavior: "smooth",
+      });
+    },
+    openNav() {
+      this.isOpen = true;
+      this.showItems = true;
+      document.getElementById("mainNav").style.background = "#fff";
+    },
+    closeNav() {
+      this.showItems = false;
+      this.isOpen = false;
+      document.getElementById("mainNav").style.background = "";
+    },
     changeTheme(theme) {
       this.store.theme = theme;
-    }
+    },
   },
 };
 </script>

@@ -4,10 +4,10 @@
     <div class="flex relative pb-20">
       <!-- content -->
       <div
-        class="flex-1 font-primary w-full flex justify-start mt-20 md:mt-0 items-start md:items-center h-screen"
+        class="font-primary w-full flex justify-center md:justify-start mt-32 md:mt-16 items-start md:items-center h-screen"
       >
-        <div class="font-medium flex flex-col w-1/2">
-          <div class="flex text-2xl md:text-6xl">
+        <div class="font-medium flex flex-col justify-center md:justify-start md:w-1/2">
+          <div class="flex text-2xl md:text-5xl">
             <div class="mr-4">Tailwind</div>
             <div class="rotate-2 relative border border-zinc-900 dark:border-white px-4">
               <span
@@ -25,7 +25,7 @@
               Components
             </div>
           </div>
-          <div class="flex text-2xl md:text-6xl">for your next project</div>
+          <div class="flex text-2xl md:text-5xl leading-tight">for your next project</div>
           <div class="mt-10 text-base font-normal">
             Start developing with an open-source library of over 450+ UI
             components, sections, and pages built with the utility classes from
@@ -93,18 +93,7 @@
       </div>
       <!-- right sidebar -->
     </div>
-    <div
-    class="py-20 "
-  >
-  <div class="flex gap-3">
-    <div>Simple</div>
-    <div>accessible</div>
-    <div>Unique</div>
-    <div>Responsive </div>
-    <div>Reusable </div>
-  </div>
-    
-  </div>
+   <HomePageFeatures />
     </div>
     <!--  -->
   </NuxtLayout>
