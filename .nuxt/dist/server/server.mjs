@@ -7420,14 +7420,12 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_m
 // - /pages/rating.vue?macro=true ($id_5fdad06e)
 // - /pages/sidebar.vue?macro=true ($id_3f4c97d9)
 // - /pages/toast.vue?macro=true ($id_47b99752)
-// - /pages/typography.vue?macro=true ($id_264c583e)
 // - /pages/alerts.vue ($id_392b88d4)
 // - /pages/card.vue ($id_0473ca70)
 // - /pages/pagination.vue ($id_ff91d3a4)
 // - /pages/rating.vue ($id_55a204e0)
 // - /pages/sidebar.vue ($id_1d8aa2b9)
 // - /pages/toast.vue ($id_0830445b)
-// - /pages/typography.vue ($id_b670e6ed)
 // Dependencies: 
 
 // --------------------
@@ -11020,6 +11018,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_m
 // - /pages/footer.vue?macro=true ($id_d8cb473d)
 // - /pages/form.vue?macro=true ($id_bbef9a8f)
 // - /pages/navbar.vue?macro=true ($id_c6aca6a9)
+// - /pages/typography.vue?macro=true ($id_264c583e)
 // - /pages/avatar.vue ($id_96dc5723)
 // - /pages/badge.vue ($id_f19d9a80)
 // - /pages/breadcrumb.vue ($id_76db04e5)
@@ -11027,6 +11026,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_m
 // - /pages/footer.vue ($id_a531a593)
 // - /pages/form.vue ($id_821dc3e3)
 // - /pages/navbar.vue ($id_fcc01141)
+// - /pages/typography.vue ($id_b670e6ed)
 // Dependencies: 
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -38054,7 +38054,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // - /components/Typography/Snippets/TextDecoration.vue ($id_2af3b087)
 // - /components/Typography/TextDecorationThickness.vue ($id_2919989a)
 // - /components/Typography/Snippets/TextDecorationThickness.vue ($id_3e124edd)
-// - ../components/Alert/AlertInfo.vue ($id_d4fd9b42)
+// - /components/Alert/AlertInfo.vue ($id_df465372)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /pages/typography.vue?vue&type=style&index=0&lang.css ($id_91607e85)
@@ -38098,7 +38098,7 @@ const __vite_ssr_import_16__ = await __vite_ssr_import__("/components/Typography
 
 const __vite_ssr_import_17__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
 
-const __vite_ssr_import_18__ = await __vite_ssr_import__("../components/Alert/AlertInfo.vue");
+const __vite_ssr_import_18__ = await __vite_ssr_import__("/components/Alert/AlertInfo.vue");
 
 const __vite_ssr_import_19__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
 
@@ -38168,11 +38168,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   _push(__vite_ssr_import_21__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_20__.mergeProps({ name: $data.layout }, _attrs), {
     default: __vite_ssr_import_20__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
-        _push(`<div class="flex p-4"${
+        _push(`<div class="flex py-4 md:p-4"${
           _scopeId
-        }><!-- content --><div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar"${
+        }><!-- content --><div class="flex pb-20 h-screen md:px-4 overflow-y-hidden scrollBar"${
           _scopeId
-        }><div class="overflow-y-auto w-full px-4 pb-20" id="toastContainer"${
+        }><div class="overflow-y-auto w-full md:px-4 pb-20" id="toastContainer"${
           _scopeId
         }>`)
         _push(__vite_ssr_import_21__.ssrRenderComponent(_component_HeadersHeading, null, {
@@ -38552,11 +38552,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> Text Deco-Thickness </button></div></div></div></div></div></div></div></div>`)
       } else {
         return [
-          __vite_ssr_import_20__.createVNode("div", { class: "flex p-4" }, [
+          __vite_ssr_import_20__.createVNode("div", { class: "flex py-4 md:p-4" }, [
             __vite_ssr_import_20__.createCommentVNode(" content "),
-            __vite_ssr_import_20__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
+            __vite_ssr_import_20__.createVNode("div", { class: "flex pb-20 h-screen md:px-4 overflow-y-hidden scrollBar" }, [
               __vite_ssr_import_20__.createVNode("div", {
-                class: "overflow-y-auto w-full px-4 pb-20",
+                class: "overflow-y-auto w-full md:px-4 pb-20",
                 id: "toastContainer"
               }, [
                 __vite_ssr_import_20__.createVNode(_component_HeadersHeading, null, {
@@ -39518,7 +39518,7 @@ const _sfc_main = {
                 },
                 {
                     id:2,
-                    decoration:"decoration-from-font",
+                    decoration:"from-font",
                 },
                 {
                     id:3,
@@ -39555,7 +39555,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex w-full flex-col justify-start" }, _attrs))}><!--[-->`)
   __vite_ssr_import_1__.ssrRenderList($data.items, (item, index) => {
     _push(`<span class=""><div class="flex w-full space-x-2 items-center justify-start text-gray-700 dark:text-gray-500 font"><div class="${
-      __vite_ssr_import_1__.ssrRenderClass(`text-lg underline ${item.decoration} font-medium`)
+      __vite_ssr_import_1__.ssrRenderClass(`text-sm md:text-lg underline ${item.decoration} font-medium`)
     }">Lets see what text decoration is!</div> <div class="text-xxs font-normal text-sky-400">${
       __vite_ssr_import_1__.ssrInterpolate(item.decoration)
     }</div></div></span>`)
@@ -56326,7 +56326,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_
 // - /components/Typography/Snippets/TextDecoration.vue ($id_2af3b087)
 // - /components/Typography/TextDecorationThickness.vue ($id_2919989a)
 // - /components/Typography/Snippets/TextDecorationThickness.vue ($id_3e124edd)
-// - ../components/Alert/AlertInfo.vue ($id_d4fd9b42)
+// - /components/Alert/AlertInfo.vue ($id_df465372)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /pages/typography.vue?vue&type=style&index=0&lang.css ($id_91607e85)
@@ -56370,7 +56370,7 @@ const __vite_ssr_import_16__ = await __vite_ssr_import__("/components/Typography
 
 const __vite_ssr_import_17__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
 
-const __vite_ssr_import_18__ = await __vite_ssr_import__("../components/Alert/AlertInfo.vue");
+const __vite_ssr_import_18__ = await __vite_ssr_import__("/components/Alert/AlertInfo.vue");
 
 const __vite_ssr_import_19__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
 
@@ -56440,11 +56440,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   _push(__vite_ssr_import_21__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_20__.mergeProps({ name: $data.layout }, _attrs), {
     default: __vite_ssr_import_20__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
-        _push(`<div class="flex p-4"${
+        _push(`<div class="flex py-4 md:p-4"${
           _scopeId
-        }><!-- content --><div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar"${
+        }><!-- content --><div class="flex pb-20 h-screen md:px-4 overflow-y-hidden scrollBar"${
           _scopeId
-        }><div class="overflow-y-auto w-full px-4 pb-20" id="toastContainer"${
+        }><div class="overflow-y-auto w-full md:px-4 pb-20" id="toastContainer"${
           _scopeId
         }>`)
         _push(__vite_ssr_import_21__.ssrRenderComponent(_component_HeadersHeading, null, {
@@ -56824,11 +56824,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> Text Deco-Thickness </button></div></div></div></div></div></div></div></div>`)
       } else {
         return [
-          __vite_ssr_import_20__.createVNode("div", { class: "flex p-4" }, [
+          __vite_ssr_import_20__.createVNode("div", { class: "flex py-4 md:p-4" }, [
             __vite_ssr_import_20__.createCommentVNode(" content "),
-            __vite_ssr_import_20__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
+            __vite_ssr_import_20__.createVNode("div", { class: "flex pb-20 h-screen md:px-4 overflow-y-hidden scrollBar" }, [
               __vite_ssr_import_20__.createVNode("div", {
-                class: "overflow-y-auto w-full px-4 pb-20",
+                class: "overflow-y-auto w-full md:px-4 pb-20",
                 id: "toastContainer"
               }, [
                 __vite_ssr_import_20__.createVNode(_component_HeadersHeading, null, {
