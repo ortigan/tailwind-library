@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-wrap gap-2">
+  <div class="flex flex-wrap gap-2 md:gap-4">
     <span v-for="(item, index) in itmes" :key="index">
       <div :class="`flex items-center gap-2 py-1 px-3 text-xs rounded-sm font-normal ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor}  ${item.bgColor}`">
         <div>

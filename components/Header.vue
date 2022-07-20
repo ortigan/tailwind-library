@@ -1,13 +1,13 @@
 <template>
   <div class="border-b bg-white dark:bg-[#212121] dark:border-b-[#2D2D2D]">
     <div
-      class="container h-16 w-full flex justify-between items-center dark:text-gray-300"
+      class="px-4 md:container h-16 w-full flex justify-between items-center dark:text-gray-300"
     >
       <!-- logo -->
       <div class="flex space-x-4 w-full">
         <div class="flex justify-center items-center">
         </div>
-        <div class="font-semibold uppercase"> <nuxt-link to="/">
+        <div class="font-semibold uppercase flex"> <nuxt-link to="/">
          <span class="font-normal"> Air </span> components</nuxt-link>
         </div>
       </div>
@@ -18,14 +18,16 @@
           </div>
         </div> -->
       <!-- Nav items -->
+      <div class="flex">
+
+      
       <div class="flex space-x-6">
         <div>Quickstart</div>
         <div>Components</div>
         <div>Templates</div>
         <div>Figma</div>
         <div>Faqs</div>
-        <div v-if="store.theme === 'dark'" id="light" @click="changeTheme('light')" class="cursor-pointer">
-          
+        <div v-if="store.theme === 'dark'" id="light" @click="changeTheme('light')" class="cursor-pointer">      
           <svg
             width="20"
             height="20"
@@ -106,6 +108,7 @@
               stroke-linejoin="round"
             />
           </svg>
+        </div>
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex space-x-4 items-center">
+  <div class="flex flex-wrap w-full md:w-fit space-x-2 md:space-x-4 items-center">
       <!-- Letter -->
     <div
       class="

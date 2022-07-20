@@ -7,7 +7,7 @@
     >
       <div
         :class="
-          `flex items-center justify-start shadow-md w-full space-x-2 text-sm font-normal  ${
+          `flex items-center justify-start shadow-md w-full space-x-2 text-xs md:text-sm font-normal  ${
             item.textColor
           } ${item.bgColor}  p-4 rounded-lg`
         "

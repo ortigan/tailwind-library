@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-wrap">
+  <div class="flex flex-wrap gap-2 ">
       <span v-for="(item,index) in itmes" :key="index">
-          <div :class="`px-5 py-2 text-xs rounded-lg hover:cursor-pointer mr-2 font-semibold ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor} ${item.bgColor}`">{{item.title}}</div>
+          <div :class="`px-5 py-2 text-xs rounded-lg hover:cursor-pointer font-semibold ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor} ${item.bgColor}`">{{item.title}}</div>
       </span>
   </div>
 </template>

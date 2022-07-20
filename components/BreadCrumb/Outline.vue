@@ -1,8 +1,8 @@
 <template>
   <div class="flex w-full flex-col space-y-4 justify-center items-center">
          <span v-for="(item,index) in items" :key="index" class="flex w-full">
-      <div :class="`flex items-center w-full space-x-2 text-sm font-normal text-gray-900 dark:text-gray-200 ${item.outline} ${item.bgColor} p-4 rounded-lg`">
-        <div class="flex items-center space-x-1">
+      <div :class="`flex items-center w-full space-x-1 md:space-x-2 text-xs md:text-sm font-normal text-gray-900 dark:text-gray-200 ${item.outline} ${item.bgColor} p-2 md:p-4 rounded-lg`">
+        <div class="flex items-center md:space-x-1">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@
             />
           </svg>
         </div>
-        <div class="flex item-center space-x-1">
+        <div class="flex item-center md:space-x-1">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,7 @@
             />
           </svg>
         </div>
-        <div class="flex items-center space-x-1">
+        <div class="flex items-center md:space-x-1">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +94,7 @@
             />
           </svg>
         </div>
-        <div :class="`${item.textColor}  flex items-center space-x-1`">
+        <div :class="`${item.textColor}  flex items-center md:space-x-1`">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -128,14 +128,14 @@ export default {
           id: 1,
           textColor:"text-gray-600 dark:text-gray-200",
           bgColor:"",
-          outline:"border-2 border-gray-600"
+          outline:"border md:border-2 border-gray-600"
         },
      
         {
           id: 2,
           textColor:"text-sky-600 dark:text-sky-400",
           bgColor:"",
-        outline:"border-2 border-sky-600"
+        outline:"border md:border-2 border-sky-600"
         },
        
       ],

@@ -1,37 +1,126 @@
 <template>
   <NuxtLayout :name="layout">
-    <div class="flex relative">
+  <div>
+    <div class="flex relative pb-20">
       <!-- content -->
-      <div class="flex-1 font-primary w-full flex justify-center -mt-20 items-center h-screen">
-        <div class="font-medium flex flex-col w-full text-7xl ">
-          <div class="flex">
-            <div class="mr-4">Tailwind</div> 
-            <div class="rotate-2 relative border border-white px-4"><span class="border border-white bg-[#0A0C25] h-5 w-5 absolute -left-2 -top-2"></span> <span class="border border-white bg-[#0A0C25] h-5 w-5 absolute -right-2 -top-2"></span><span class="border border-white bg-[#0A0C25] h-5 w-5 absolute -left-2 -bottom-2"></span><span class="border border-white bg-[#0A0C25] h-5 w-5 absolute -right-2 -bottom-2"></span> Components</div> 
+      <div
+        class="flex-1 font-primary w-full flex justify-start mt-20 md:mt-0 items-start md:items-center h-screen"
+      >
+        <div class="font-medium flex flex-col w-1/2">
+          <div class="flex text-2xl md:text-6xl">
+            <div class="mr-4">Tailwind</div>
+            <div class="rotate-2 relative border border-zinc-900 dark:border-white px-4">
+              <span
+                class="border border-zinc-900 dark:border-white bg-white dark:bg-[#0A0C25] h-2 w-2 md:h-4 md:h-4 h-2 w-2 md:h-4 md:w-4 absolute -left-2 -top-2"
+              ></span>
+              <span
+                class="border border-zinc-900 dark:border-white bg-white dark:bg-[#0A0C25] h-2 w-2 md:h-4 md:h-4 h-2 w-2 md:h-4 md:w-4 absolute -right-2 -top-2"
+              ></span
+              ><span
+                class="border border-zinc-900 dark:border-white bg-white dark:bg-[#0A0C25] h-2 w-2 md:h-4 md:h-4 h-2 w-2 md:h-4 md:w-4 absolute -left-2 -bottom-2"
+              ></span
+              ><span
+                class="border border-zinc-900 dark:border-white bg-white dark:bg-[#0A0C25] h-2 w-2 md:h-4 md:h-4 h-2 w-2 md:h-4 md:w-4 absolute -right-2 -bottom-2"
+              ></span>
+              Components
+            </div>
           </div>
-          <div>for your next project</div>
-      <div class="w-fit text-base text-white bg-[#0A0C25]">
-        <nuxt-link to="/alerts"> Get started </nuxt-link>
-      </div>
+          <div class="flex text-2xl md:text-6xl">for your next project</div>
+          <div class="mt-10 text-base font-normal">
+            Start developing with an open-source library of over 450+ UI
+            components, sections, and pages built with the utility classes from
+            Tailwind CSS and designed in Figma.
+          </div>
+          <div class="flex gap-3">
+            <div
+              class="w-fit text-base text-white dark:text-[#0A0C25] bg-[#0A0C25] mt-40 px-6 py-2 rounded-md dark:bg-white"
+            >
+              <nuxt-link to="/alerts"> Get started </nuxt-link>
+            </div>
+
+            <div
+              class="w-fit text-base dark:text-white text-[#0A0C25] border border-[#0A0C25] mt-40 px-6 py-2 rounded-md dark:border-white"
+            >
+              <nuxt-link to="/alerts"
+                ><div class="flex gap-1 items-center">
+                  <div>
+                    <svg
+                      width="20"
+                      height="20"
+                      stroke-width="1"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6 6C6 5.20435 6.31607 4.44129 6.87868 3.87868C7.44129 3.31607 8.20435 3 9 3H12V9H9C8.20435 9 7.44129 8.68393 6.87868 8.12132C6.31607 7.55871 6 6.79565 6 6Z"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M12 3H15C15.394 3 15.7841 3.0776 16.1481 3.22836C16.512 3.37913 16.8427 3.6001 17.1213 3.87868C17.3999 4.15726 17.6209 4.48797 17.7716 4.85195C17.9224 5.21593 18 5.60603 18 6C18 6.39397 17.9224 6.78407 17.7716 7.14805C17.6209 7.51203 17.3999 7.84274 17.1213 8.12132C16.8427 8.3999 16.512 8.62087 16.1481 8.77164C15.7841 8.9224 15.394 9 15 9H12V3Z"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M12 12C12 11.606 12.0776 11.2159 12.2284 10.8519C12.3791 10.488 12.6001 10.1573 12.8787 9.87868C13.1573 9.6001 13.488 9.37913 13.8519 9.22836C14.2159 9.0776 14.606 9 15 9C15.394 9 15.7841 9.0776 16.1481 9.22836C16.512 9.37913 16.8427 9.6001 17.1213 9.87868C17.3999 10.1573 17.6209 10.488 17.7716 10.8519C17.9224 11.2159 18 11.606 18 12C18 12.394 17.9224 12.7841 17.7716 13.1481C17.6209 13.512 17.3999 13.8427 17.1213 14.1213C16.8427 14.3999 16.512 14.6209 16.1481 14.7716C15.7841 14.9224 15.394 15 15 15C14.606 15 14.2159 14.9224 13.8519 14.7716C13.488 14.6209 13.1573 14.3999 12.8787 14.1213C12.6001 13.8427 12.3791 13.512 12.2284 13.1481C12.0776 12.7841 12 12.394 12 12V12Z"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 18C6 17.2044 6.31607 16.4413 6.87868 15.8787C7.44129 15.3161 8.20435 15 9 15H12V18C12 18.7956 11.6839 19.5587 11.1213 20.1213C10.5587 20.6839 9.79565 21 9 21C8.20435 21 7.44129 20.6839 6.87868 20.1213C6.31607 19.5587 6 18.7956 6 18Z"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M6 12C6 11.2044 6.31607 10.4413 6.87868 9.87868C7.44129 9.31607 8.20435 9 9 9H12V15H9C8.20435 15 7.44129 14.6839 6.87868 14.1213C6.31607 13.5587 6 12.7956 6 12Z"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div>Preview in figma</div>
+                </div>
+              </nuxt-link>
+            </div>
+          </div>
         </div>
       </div>
       <!-- right sidebar -->
     </div>
+    <div
+    class="py-20 "
+  >
+  <div class="flex gap-3">
+    <div>Simple</div>
+    <div>accessible</div>
+    <div>Unique</div>
+    <div>Responsive </div>
+    <div>Reusable </div>
+  </div>
+    
+  </div>
+    </div>
+    <!--  -->
   </NuxtLayout>
 </template>
 
 <script>
-  import { useStore } from "~/store/index";
+import { useStore } from "~/store/index";
 export default {
-data() {
+  data() {
     return {
       theme: "",
       store: useStore(),
-      layout: 'full'
+      layout: "full",
     };
   },
-}
-
-
+};
 </script>
 
 <style>

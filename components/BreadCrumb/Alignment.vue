@@ -1,5 +1,5 @@
 <template>
-  <div class="flex w-full flex-col space-y-4 items-center">
+  <div class="flex flex-col space-y-4 items-center">
     <span
       v-for="(item, index) in items"
       :key="index"
@@ -7,7 +7,7 @@
     >
       <div
         :class="
-          `flex items-center ${item.alignent} shadow-md w-full space-x-2 text-sm font-normal  ${
+          `flex items-center ${item.alignent} shadow-md w-full space-x-2 text-xs md:text-sm font-normal  ${
             item.textColor
           } ${item.bgColor}  p-4 rounded-lg`
         "

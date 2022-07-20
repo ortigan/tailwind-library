@@ -3,7 +3,7 @@
     <div class="">
       <div class="inline-flex -space-x-px font-medium">
         <button
-          class="inline-flex items-center gap-1 px-3 py-1.5 text-sm font-medium text-gray-900 bg-white border dark:text-zinc-200 dark:bg-zinc-900 hover:cursor-pointer hover:bg-gray-900 border-gray-800 dark:hover:bg-zinc-800 dark:border-zinc-100 rounded-l-lg focus:z-10 focus:font-medium focus:ring-2 focus:ring-gray-500 dark:focus:ring-gray-400 focus:bg-gray-900 focus:text-gray-50 hover:text-gray-100 dark:focus:bg-zinc-800"
+          class="inline-flex items-center gap-1 px-1.5 md:px-3 py-1.5 text-sm font-medium text-gray-900 bg-white border dark:text-zinc-200 dark:bg-zinc-900 hover:cursor-pointer hover:bg-gray-900 border-gray-800 dark:hover:bg-zinc-800 dark:border-zinc-100 rounded-l-lg focus:z-10 focus:font-medium focus:ring-2 focus:ring-gray-500 dark:focus:ring-gray-400 focus:bg-gray-900 focus:text-gray-50 hover:text-gray-100 dark:focus:bg-zinc-800"
         >
           <svg
             width="16"
@@ -29,7 +29,7 @@
           Home
         </button>
         <button
-          class="inline-flex items-center gap-1 px-3 py-1.5 text-sm font-medium text-gray-900 bg-white border dark:text-zinc-200 dark:bg-zinc-900 hover:cursor-pointer hover:bg-gray-900 border-gray-800 dark:hover:bg-zinc-800 dark:border-zinc-100  focus:z-10 focus:font-medium focus:ring-2 focus:ring-gray-500 dark:focus:ring-gray-400 focus:bg-gray-900 focus:text-gray-50 hover:text-gray-100 dark:focus:bg-zinc-800"
+          class="inline-flex items-center gap-1 px-1.5 md:px-3 py-1.5 text-sm font-medium text-gray-900 bg-white border dark:text-zinc-200 dark:bg-zinc-900 hover:cursor-pointer hover:bg-gray-900 border-gray-800 dark:hover:bg-zinc-800 dark:border-zinc-100  focus:z-10 focus:font-medium focus:ring-2 focus:ring-gray-500 dark:focus:ring-gray-400 focus:bg-gray-900 focus:text-gray-50 hover:text-gray-100 dark:focus:bg-zinc-800"
         >
           <svg
             width="16"
@@ -50,7 +50,7 @@
           Contact
         </button>
         <button
-          class="inline-flex items-center gap-1 px-3 py-1.5 text-sm font-medium text-gray-900 bg-white border dark:text-zinc-200 dark:bg-zinc-900 hover:cursor-pointer hover:bg-gray-900 border-gray-800 dark:hover:bg-zinc-800 dark:border-zinc-100  focus:z-10 focus:font-medium focus:ring-2 focus:ring-gray-500 dark:focus:ring-gray-400 focus:bg-gray-900 focus:text-gray-50 hover:text-gray-100 dark:focus:bg-zinc-800"
+          class="inline-flex items-center gap-1 px-1.5 md:px-3 py-1.5 text-sm font-medium text-gray-900 bg-white border dark:text-zinc-200 dark:bg-zinc-900 hover:cursor-pointer hover:bg-gray-900 border-gray-800 dark:hover:bg-zinc-800 dark:border-zinc-100  focus:z-10 focus:font-medium focus:ring-2 focus:ring-gray-500 dark:focus:ring-gray-400 focus:bg-gray-900 focus:text-gray-50 hover:text-gray-100 dark:focus:bg-zinc-800"
         >
           <svg
             width="16"
@@ -76,7 +76,7 @@
           Profile
         </button>
         <button
-          class="inline-flex items-center gap-1 px-3 py-1.5 text-sm font-medium text-gray-900 bg-white border dark:text-zinc-200 dark:bg-zinc-900 hover:cursor-pointer hover:bg-gray-900 border-gray-800 dark:hover:bg-zinc-800 dark:border-zinc-100 rounded-r-lg focus:z-10 focus:font-medium focus:ring-2 focus:ring-gray-500 dark:focus:ring-gray-400 focus:bg-gray-900 focus:text-gray-50 hover:text-gray-100 dark:focus:bg-zinc-800"
+          class="inline-flex items-center gap-1 px-1.5 md:px-3 py-1.5 text-sm font-medium text-gray-900 bg-white border dark:text-zinc-200 dark:bg-zinc-900 hover:cursor-pointer hover:bg-gray-900 border-gray-800 dark:hover:bg-zinc-800 dark:border-zinc-100 rounded-r-lg focus:z-10 focus:font-medium focus:ring-2 focus:ring-gray-500 dark:focus:ring-gray-400 focus:bg-gray-900 focus:text-gray-50 hover:text-gray-100 dark:focus:bg-zinc-800"
         >
           <svg
             width="16"

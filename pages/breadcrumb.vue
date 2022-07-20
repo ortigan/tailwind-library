@@ -1,12 +1,12 @@
 <template>
   <NuxtLayout :name="layout">
-    <div class="flex p-4">
+    <div class="flex py-4 md:p-4">
       <!-- content -->
-      <div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar">
-        <div class="overflow-y-auto w-full px-4 pb-20" id="alertContainer">
+      <div class="flex pb-20 h-screen md:px-4 overflow-y-hidden scrollBar">
+        <div class="overflow-y-auto w-full md:px-4 pb-20" id="alertContainer">
           <HeadersHeading> BreadCrumb  </HeadersHeading>
           <div>
-            <p class="text-base">
+            <p class="text-sm md:text-base">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Molestias optio quam architecto culpa unde accusamus illo error
               neque explicabo, numquam ut, qui eligendi magnam non quis fugiat
@@ -199,7 +199,7 @@
           </section>
           <!-- End Outline Badge -->
           <!-- Alignment Badge -->
-          <section id="alignmentBreadcrumb" class="w-full">
+          <section id="alignmentBreadcrumb" class="w-full hidden md:block">
             <HeadersSubHeading>
               <template v-slot:subHeader>Alignment</template>
               <template v-slot:code>
