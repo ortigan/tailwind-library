@@ -1,10 +1,10 @@
 <template>
   <div
-    class="flex flex-col lg:flex-row w-full justify-between lg:items-center px-6 py-5 rounded-lg shadow-lg dark:shadow-white/5 bg-white dark:bg-gray-900"
+    class="flex flex-col lg:flex-row w-full justify-between lg:items-center md:px-6 py-5 rounded-lg shadow-lg dark:shadow-white/5 bg-white dark:bg-zinc-900 overflow-hidden"
   >
     <!-- logo -->
-    <div class="flex items-center">
-      <div class="font-bold text-lg text-gray-700 dark:text-gray-500 flex items-center w-10 h-10">
+    <div class="w-screen md:w-full flex items-center">
+      <div class="font-bold text-lg text-gray-700 dark:text-zinc-500 flex items-center h-6 w-6 md:w-10 md:h-10">
         <img class="w-full h-full" src="https://res.cloudinary.com/pranav1421/image/upload/v1652785994/Tailwind-Component-library/Logo/tailwind-css_yizuxw.svg" alt="">
         <span class="px-2">tailwindcss</span>
       </div>

@@ -1,12 +1,12 @@
 <template>
   <NuxtLayout :name="layout">
-    <div class="flex p-4">
+    <div class="flex py-2 md:p-4">
       <!-- content -->
-      <div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar">
-        <div class="overflow-y-auto w-full px-4 pb-20" id="alertContainer">
+      <div class="flex pb-20 h-screen md:px-4 overflow-y-hidden scrollBar">
+        <div class="overflow-y-auto w-full md:px-4 pb-20" id="alertContainer">
           <HeadersHeading> Button  </HeadersHeading>
           <div>
-            <p class="text-base">
+            <p class="text-sm md:text-base">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Molestias optio quam architecto culpa unde accusamus illo error
               neque explicabo, numquam ut, qui eligendi magnam non quis fugiat
@@ -29,7 +29,7 @@
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <CardCta />
+              <CardDefault />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
@@ -66,7 +66,7 @@
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <CardDefault />
+              <CardCta />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
