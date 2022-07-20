@@ -7415,7 +7415,6 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_m
 // Request: ../components/Alert/AlertInfo.vue
 // Parents: 
 // - /pages/alerts.vue?macro=true ($id_07053f14)
-// - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
 // - /pages/card.vue?macro=true ($id_41d6da7a)
 // - /pages/pagination.vue?macro=true ($id_aace4ffb)
 // - /pages/rating.vue?macro=true ($id_5fdad06e)
@@ -7423,7 +7422,6 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_m
 // - /pages/toast.vue?macro=true ($id_47b99752)
 // - /pages/typography.vue?macro=true ($id_264c583e)
 // - /pages/alerts.vue ($id_392b88d4)
-// - /pages/buttons.vue ($id_e983a7e3)
 // - /pages/card.vue ($id_0473ca70)
 // - /pages/pagination.vue ($id_ff91d3a4)
 // - /pages/rating.vue ($id_55a204e0)
@@ -11018,12 +11016,14 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_m
 // - /pages/avatar.vue?macro=true ($id_62837cb2)
 // - /pages/badge.vue?macro=true ($id_8d023e34)
 // - /pages/breadcrumb.vue?macro=true ($id_2daed590)
+// - /pages/buttons.vue?macro=true ($id_a1b3dbc1)
 // - /pages/footer.vue?macro=true ($id_d8cb473d)
 // - /pages/form.vue?macro=true ($id_bbef9a8f)
 // - /pages/navbar.vue?macro=true ($id_c6aca6a9)
 // - /pages/avatar.vue ($id_96dc5723)
 // - /pages/badge.vue ($id_f19d9a80)
 // - /pages/breadcrumb.vue ($id_76db04e5)
+// - /pages/buttons.vue ($id_e983a7e3)
 // - /pages/footer.vue ($id_a531a593)
 // - /pages/form.vue ($id_821dc3e3)
 // - /pages/navbar.vue ($id_fcc01141)
@@ -13117,7 +13117,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap gap-2 md:gap-4" }, _attrs))}><!--[-->`)
   __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
     _push(`<span><div class="${
-      __vite_ssr_import_1__.ssrRenderClass(`py-0.5 px-2 text-xs rounded-md font-normal ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor}  ${item.bgColor}`)
+      __vite_ssr_import_1__.ssrRenderClass(`py-0.5 px-2 text-xs rounded-md font-normal ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor} ${item.bgColor}`)
     }">${
       __vite_ssr_import_1__.ssrInterpolate(item.title)
     }</div></span>`)
@@ -19244,7 +19244,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // - /components/Button/Snippets/Gradient.vue ($id_b99ef559)
 // - /components/Button/Appsmith.vue ($id_f75a09c9)
 // - /components/Button/Snippets/Appsmith.vue ($id_1c421991)
-// - ../components/Alert/AlertInfo.vue ($id_d4fd9b42)
+// - /components/Alert/AlertInfo.vue ($id_df465372)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /pages/buttons.vue?vue&type=style&index=0&lang.css ($id_c6a52c9a)
@@ -19308,7 +19308,7 @@ const __vite_ssr_import_26__ = await __vite_ssr_import__("/components/Button/Sni
 
 const __vite_ssr_import_27__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
 
-const __vite_ssr_import_28__ = await __vite_ssr_import__("../components/Alert/AlertInfo.vue");
+const __vite_ssr_import_28__ = await __vite_ssr_import__("/components/Alert/AlertInfo.vue");
 
 const __vite_ssr_import_29__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
 
@@ -19393,11 +19393,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   _push(__vite_ssr_import_31__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_30__.mergeProps({ name: $data.layout }, _attrs), {
     default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
-        _push(`<div class="flex p-4"${
+        _push(`<div class="flex py-4 md:p-4"${
           _scopeId
-        }><!-- content --><div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar"${
+        }><!-- content --><div class="flex pb-20 h-screen md:px-4 overflow-y-hidden scrollBar"${
           _scopeId
-        }><div class="overflow-y-auto w-full px-4 pb-20" id="alertContainer"${
+        }><div class="overflow-y-auto w-full md:px-4 pb-20" id="alertContainer"${
           _scopeId
         }>`)
         _push(__vite_ssr_import_31__.ssrRenderComponent(_component_HeadersHeading, null, {
@@ -20111,11 +20111,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> Appsmith </button></div></div></div></div></div>`)
       } else {
         return [
-          __vite_ssr_import_30__.createVNode("div", { class: "flex p-4" }, [
+          __vite_ssr_import_30__.createVNode("div", { class: "flex py-4 md:p-4" }, [
             __vite_ssr_import_30__.createCommentVNode(" content "),
-            __vite_ssr_import_30__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
+            __vite_ssr_import_30__.createVNode("div", { class: "flex pb-20 h-screen md:px-4 overflow-y-hidden scrollBar" }, [
               __vite_ssr_import_30__.createVNode("div", {
-                class: "overflow-y-auto w-full px-4 pb-20",
+                class: "overflow-y-auto w-full md:px-4 pb-20",
                 id: "alertContainer"
               }, [
                 __vite_ssr_import_30__.createVNode(_component_HeadersHeading, null, {
@@ -20834,10 +20834,10 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap" }, _attrs))}><!--[-->`)
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap gap-2 md:gap-4" }, _attrs))}><!--[-->`)
   __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
     _push(`<span><div class="${
-      __vite_ssr_import_1__.ssrRenderClass(`px-5 py-2 text-xs rounded-lg hover:cursor-pointer mr-2 font-semibold ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor} ${item.bgColor}`)
+      __vite_ssr_import_1__.ssrRenderClass(`px-5 py-2 text-xs rounded-lg hover:cursor-pointer font-semibold ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor} ${item.bgColor}`)
     }">${
       __vite_ssr_import_1__.ssrInterpolate(item.title)
     }</div></span>`)
@@ -21471,10 +21471,10 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap" }, _attrs))}><!--[-->`)
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap gap-2 md:gap-4" }, _attrs))}><!--[-->`)
   __vite_ssr_import_1__.ssrRenderList($data.itmes, (item, index) => {
     _push(`<span><div class="${
-      __vite_ssr_import_1__.ssrRenderClass(`flex justify-around items-center space-x-2 px-4 py-2 text-sm rounded-lg mr-2 font-semibold ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor}  ${item.bgColor}`)
+      __vite_ssr_import_1__.ssrRenderClass(`flex justify-around items-center space-x-2 px-4 py-2 text-sm rounded-lg font-semibold ${item.textColor} ${item.hoverTextColor} ${item.border} ${item.hoverlink} ${item.hoverBgColor}  ${item.bgColor}`)
     }"><div><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></div><div>${
       __vite_ssr_import_1__.ssrInterpolate(item.title)
     }</div><div><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></div></div></span>`)
@@ -22474,7 +22474,7 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap" }, _attrs))}><!--  --><div class="px-8 py-3.5 hover:border-2 hover:border-[#ff6d2d] bg-[#ff6d2d] hover:bg-[#FAF5ED] font-bold hover:text-[#ff6d2d] rounded"> Try cloud </div></div>`)
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-wrap gap-2 md:gap-4" }, _attrs))}><!--  --><div class="px-8 py-3.5 hover:border-2 hover:border-[#ff6d2d] bg-[#ff6d2d] hover:bg-[#FAF5ED] font-bold hover:text-[#ff6d2d] rounded"> Try cloud </div></div>`)
 }
 
 
@@ -46615,7 +46615,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_21__.default(_sfc_
 // - /components/Button/Snippets/Gradient.vue ($id_b99ef559)
 // - /components/Button/Appsmith.vue ($id_f75a09c9)
 // - /components/Button/Snippets/Appsmith.vue ($id_1c421991)
-// - ../components/Alert/AlertInfo.vue ($id_d4fd9b42)
+// - /components/Alert/AlertInfo.vue ($id_df465372)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /pages/buttons.vue?vue&type=style&index=0&lang.css ($id_c6a52c9a)
@@ -46679,7 +46679,7 @@ const __vite_ssr_import_26__ = await __vite_ssr_import__("/components/Button/Sni
 
 const __vite_ssr_import_27__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
 
-const __vite_ssr_import_28__ = await __vite_ssr_import__("../components/Alert/AlertInfo.vue");
+const __vite_ssr_import_28__ = await __vite_ssr_import__("/components/Alert/AlertInfo.vue");
 
 const __vite_ssr_import_29__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
 
@@ -46764,11 +46764,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   _push(__vite_ssr_import_31__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_30__.mergeProps({ name: $data.layout }, _attrs), {
     default: __vite_ssr_import_30__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
-        _push(`<div class="flex p-4"${
+        _push(`<div class="flex py-4 md:p-4"${
           _scopeId
-        }><!-- content --><div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar"${
+        }><!-- content --><div class="flex pb-20 h-screen md:px-4 overflow-y-hidden scrollBar"${
           _scopeId
-        }><div class="overflow-y-auto w-full px-4 pb-20" id="alertContainer"${
+        }><div class="overflow-y-auto w-full md:px-4 pb-20" id="alertContainer"${
           _scopeId
         }>`)
         _push(__vite_ssr_import_31__.ssrRenderComponent(_component_HeadersHeading, null, {
@@ -47482,11 +47482,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> Appsmith </button></div></div></div></div></div>`)
       } else {
         return [
-          __vite_ssr_import_30__.createVNode("div", { class: "flex p-4" }, [
+          __vite_ssr_import_30__.createVNode("div", { class: "flex py-4 md:p-4" }, [
             __vite_ssr_import_30__.createCommentVNode(" content "),
-            __vite_ssr_import_30__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
+            __vite_ssr_import_30__.createVNode("div", { class: "flex pb-20 h-screen md:px-4 overflow-y-hidden scrollBar" }, [
               __vite_ssr_import_30__.createVNode("div", {
-                class: "overflow-y-auto w-full px-4 pb-20",
+                class: "overflow-y-auto w-full md:px-4 pb-20",
                 id: "alertContainer"
               }, [
                 __vite_ssr_import_30__.createVNode(_component_HeadersHeading, null, {
