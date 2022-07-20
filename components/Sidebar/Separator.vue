@@ -1,11 +1,11 @@
 <template>
   <div class="-ml-20 -my-10 w-full  text-black">
-    <div class="w-72 rounded-2xl bg-white dark:bg-gray-900 overflow-y-hidden shadow-md">
+    <div class="w-72 rounded-2xl bg-white dark:bg-zinc-900 overflow-y-hidden shadow-md">
       <aside class="w-full ">
         <!-- logo -->
         <div class="flex pl-6 pt-4 items-center">
           <div
-            class="font-bold text-lg text-gray-700 dark:text-gray-400 flex items-center w-10 h-10"
+            class="font-bold text-lg text-gray-700 dark:text-zinc-400 flex items-center w-10 h-10"
           >
             <img
               class="w-full h-full"
@@ -17,7 +17,7 @@
         </div>
         <!-- logo end -->
         <div
-          class="flex flex-col space-y-3  text-base font-medium text-gray-500 dark:text-gray-400 mt-8 px-8"
+          class="flex flex-col space-y-3  text-base font-medium text-gray-500 dark:text-zinc-400 mt-8 px-8"
         >
           <div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all">
             <svg
@@ -94,14 +94,14 @@
 </svg>
             Notification
             </div>
-            <div class="bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-400 rounded-md py-0.5 px-2 text-xs">
+            <div class="bg-gray-100 text-gray-700 dark:bg-zinc-700 dark:text-zinc-400 rounded-md py-0.5 px-2 text-xs">
                 8
             </div>
           </div>
         
         </div>
         <div class=" my-4 px-4"><div class="border-t dark:border-gray-400"></div></div>
-        <div class="flex flex-col space-y-3  text-base font-medium text-gray-500 dark:text-gray-400 px-8">
+        <div class="flex flex-col space-y-3  text-base font-medium text-gray-500 dark:text-zinc-400 px-8">
 
         
           <div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all">
@@ -256,8 +256,8 @@
           
           </div>
           <!--  -->
-                <div class=" my-4 px-4"><div class="border-t dark:border-gray-400 "></div></div>
-       <div class="flex flex-col space-y-3  text-base font-medium text-gray-500 dark:text-gray-400 px-8">
+                <div class=" my-4 px-4"><div class="border-t dark:border-zinc-400 "></div></div>
+       <div class="flex flex-col space-y-3  text-base font-medium text-gray-500 dark:text-zinc-400 px-8">
               <div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all">
             <svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M17 12.5C17.2761 12.5 17.5 12.2761 17.5 12C17.5 11.7239 17.2761 11.5 17 11.5C16.7239 11.5 16.5 11.7239 16.5 12C16.5 12.2761 16.7239 12.5 17 12.5Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
@@ -331,7 +331,7 @@
               </div>
                 <!--  -->
 
-          <div class="flex flex-col space-y-3  text-base font-medium text-gray-500 dark:text-gray-400 px-8 mt-28 pb-6">
+          <div class="flex flex-col space-y-3  text-base font-medium text-gray-500 dark:text-zinc-400 px-8 mt-28 pb-6">
               <div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all">
             <svg
               xmlns="http://www.w3.org/2000/svg"

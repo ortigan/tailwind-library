@@ -53,7 +53,7 @@
                   >
                     <div class="">
                       <div
-                        class="h-14 w-14 bg-neutral-100 dark:bg-gray-300 rounded-xl overflow-hidden flex justify-center items-center"
+                        class="h-14 w-14 bg-neutral-100 dark:bg-zinc-300 rounded-xl overflow-hidden flex justify-center items-center"
                       >
                         <img
                           :src="menuitem.leftimg"
@@ -98,14 +98,14 @@ export default {
           id: 1,
           type: "Default",
           textColor: "text-gray-400",
-          bgColor: "bg-white dark:bg-gray-800",
-          bgColor2: "bg-white dark:bg-gray-800",
-          textColor2: "text-slate-600 dark:text-gray-400",
-          textColor3: "text-slate-700 dark:text-gray-500",
+          bgColor: "bg-white dark:bg-zinc-800",
+          bgColor2: "bg-white dark:bg-zinc-800",
+          textColor2: "text-slate-600 dark:text-zinc-400",
+          textColor3: "text-slate-700 dark:text-zinc-500",
           border: "border-1",
           borderColor: "border-slate-600",
-          textColorActive: "text-slate-600 dark:text-gray-50",
-          bgColorActive: "bg-white dark:bg-gray-800",
+          textColorActive: "text-slate-600 dark:text-zinc-50",
+          bgColorActive: "bg-white dark:bg-zinc-800",
           divider: "divide-neutral-700 ",
         },
       ],

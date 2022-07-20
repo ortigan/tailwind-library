@@ -11,21 +11,21 @@ export default {
   data() {
     return {
       code:` 
-    <div class="w-64 overflow-y-hidden rounded-2xl bg-white dark:bg-gray-900 shadow-md">
+    <div class="w-64 overflow-y-hidden rounded-2xl bg-white dark:bg-zinc-900 shadow-md">
     <aside class="w-full">
       <div class="flex items-center pl-6 pt-4">
-        <div class="flex h-10 w-10 items-center text-lg font-bold text-gray-700 dark:text-gray-400">
+        <div class="flex h-10 w-10 items-center text-lg font-bold text-gray-700 dark:text-zinc-400">
           <img class="h-full w-full" src="https://res.cloudinary.com/pranav1421/image/upload/v1652785994/Tailwind-Component-library/Logo/tailwind-css_yizuxw.svg" alt="" />
           <span class="px-2">tailwindcss</span>
         </div>
       </div>
-      <div class="mt-8 flex h-96 flex-col space-y-3 px-8 text-base font-medium text-gray-500 dark:text-gray-400">
+      <div class="mt-8 flex h-96 flex-col space-y-3 px-8 text-base font-medium text-gray-500 dark:text-zinc-400">
         <div class="flex items-center justify-between transition-all hover:pl-0.5 hover:font-semibold">
           <div class="flex items-center gap-2">
             <svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 20.4V14.6C14 14.2686 14.2686 14 14.6 14H20.4C20.7314 14 21 14.2686 21 14.6V20.4C21 20.7314 20.7314 21 20.4 21H14.6C14.2686 21 14 20.7314 14 20.4Z" stroke="currentColor" stroke-width="1.5" /><path d="M3 20.4V14.6C3 14.2686 3.26863 14 3.6 14H9.4C9.73137 14 10 14.2686 10 14.6V20.4C10 20.7314 9.73137 21 9.4 21H3.6C3.26863 21 3 20.7314 3 20.4Z" stroke="currentColor" stroke-width="1.5" /><path d="M14 9.4V3.6C14 3.26863 14.2686 3 14.6 3H20.4C20.7314 3 21 3.26863 21 3.6V9.4C21 9.73137 20.7314 10 20.4 10H14.6C14.2686 10 14 9.73137 14 9.4Z" stroke="currentColor" stroke-width="1.5" /><path d="M3 9.4V3.6C3 3.26863 3.26863 3 3.6 3H9.4C9.73137 3 10 3.26863 10 3.6V9.4C10 9.73137 9.73137 10 9.4 10H3.6C3.26863 10 3 9.73137 3 9.4Z" stroke="currentColor" stroke-width="1.5" /></svg>
             Dashboard
           </div>
-          <div class="rounded-md bg-gray-100 dark:bg-gray-700 dark:text-gray-400 py-0.5 px-2 text-xs text-gray-700">8</div>
+          <div class="rounded-md bg-gray-100 dark:bg-zinc-700 dark:text-zinc-400 py-0.5 px-2 text-xs text-gray-700">8</div>
         </div>
         <div class="flex items-center gap-2 transition-all hover:pl-0.5 hover:font-semibold">
           <svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9.5L12 4L21 9.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M19 13V19.4C19 19.7314 18.7314 20 18.4 20H5.6C5.26863 20 5 19.7314 5 19.4V13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
@@ -42,7 +42,7 @@ export default {
             <svg width="20" stroke-width="1.5" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6L20 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M3.80002 5.79999L4.60002 6.59998L6.60001 4.59999" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M3.80002 11.8L4.60002 12.6L6.60001 10.6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M3.80002 17.8L4.60002 18.6L6.60001 16.6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M9 12L20 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M9 18L20 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></svg>
             Tasks
           </div>
-          <div class="rounded-md bg-gray-100 dark:bg-gray-700 dark:text-gray-400 py-0.5 px-2 text-xs text-gray-700">21</div>
+          <div class="rounded-md bg-gray-100 dark:bg-zinc-700 dark:text-zinc-400 py-0.5 px-2 text-xs text-gray-700">21</div>
         </div>
         <div class="flex items-center gap-2 transition-all hover:pl-0.5 hover:font-semibold">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" /><path stroke-linecap="round" stroke-linejoin="round" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" /></svg>
@@ -53,7 +53,7 @@ export default {
             <svg width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5857 10.5857L16.9496 7.0502L13.4141 13.4142L7.05012 16.9497L10.5857 10.5857Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></svg>
             Performance
           </div>
-          <div class="rounded-md bg-gray-100 dark:bg-gray-700 dark:text-gray-400 py-0.5 px-2 text-xs text-gray-700">pro</div>
+          <div class="rounded-md bg-gray-100 dark:bg-zinc-700 dark:text-zinc-400 py-0.5 px-2 text-xs text-gray-700">pro</div>
         </div>
         <div class="flex items-center gap-2 transition-all hover:pl-0.5 hover:font-semibold">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" /></svg>

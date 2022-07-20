@@ -39,7 +39,7 @@
                     class="
                       h-48
                       w-full
-                      bg-white dark:bg-gray-700
+                      bg-white dark:bg-zinc-700
                       border-2 dark:border-0
                       rounded-lg
                       flex flex-col
@@ -52,7 +52,7 @@
                   >
                     <div
                       class="
-                        bg-gray-100 dark:bg-gray-500
+                        bg-gray-100 dark:bg-zinc-500
                         text-indigo-600 dark:text-blue-50
                         rounded-full
                         p-3
@@ -69,7 +69,7 @@
                       class="
                         flex
                         justify-center
-                        text-gray-600 dark:text-gray-200 text-center text-base
+                        text-gray-600 dark:text-zinc-200 text-center text-base
                       "
                     >
                       <p class="">
@@ -161,14 +161,14 @@ export default {
           id: 1,
           type: "Nested",
           textColor: "text-gray-400",
-          bgColor: "bg-white dark:bg-gray-800",
-          bgColor2: "bg-white dark:bg-gray-800",
-          textColor2: "text-neutral-500 dark:text-gray-200",
-          textColor3: "text-slate-700 dark:text-gray-200",
+          bgColor: "bg-white dark:bg-zinc-800",
+          bgColor2: "bg-white dark:bg-zinc-800",
+          textColor2: "text-neutral-500 dark:text-zinc-200",
+          textColor3: "text-slate-700 dark:text-zinc-200",
           border: "border-1",
           borderColor: "border-slate-600",
-          textColorActive: "text-slate-600 dark:text-gray-200",
-          bgColorActive: "bg-white dark:bg-gray-800",
+          textColorActive: "text-slate-600 dark:text-zinc-200",
+          bgColorActive: "bg-white dark:bg-zinc-800",
           divider: "divide-neutral-700",
         },
       ],

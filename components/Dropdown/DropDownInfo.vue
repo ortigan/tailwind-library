@@ -5,14 +5,6 @@
                   <span v-for="(item,index) in itmes" :key="index">
                   <div class="text-base text-right">{{item.title}}</div>
                   </span>
-                  <!-- <div class="text-base">Basic</div>
-                  <div class="text-base">Button pills</div>
-                  <div class="text-base">Gradient</div>
-                  <div class="text-base">Rounded</div>
-                  <div class="text-base">Social</div>
-                  <div class="text-base">Payment</div>
-                  <div class="text-base">Icon</div>
-                  <div class="text-base">Loader</div> -->
                  
                 </div>
   </div>

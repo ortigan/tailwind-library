@@ -1,11 +1,11 @@
 <template>
   <div class="-ml-20 -my-10 w-full  text-black">
-    <div class="w-64 rounded-2xl bg-white dark:bg-gray-900 overflow-y-hidden shadow-md">
+    <div class="w-64 rounded-2xl bg-white dark:bg-zinc-900 overflow-y-hidden shadow-md">
       <aside class="w-full ">
         <!-- logo -->
         <div class="flex pl-6 pt-4 items-center">
           <div
-            class="font-bold text-lg text-gray-700 dark:text-gray-400 flex items-center w-10 h-10"
+            class="font-bold text-lg text-gray-700 dark:text-zinc-400 flex items-center w-10 h-10"
           >
             <img
               class="w-full h-full"
@@ -17,7 +17,7 @@
         </div>
         <!-- logo end -->
         <div
-          class="flex flex-col space-y-3 h-96 text-base font-medium text-gray-500 dark:text-gray-400 mt-8 pl-8"
+          class="flex flex-col space-y-3 h-96 text-base font-medium text-gray-500 dark:text-zinc-400 mt-8 pl-8"
         >
           <div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all">
             <svg
@@ -226,7 +226,7 @@
           </div>
         </div>
         <div
-          class="flex flex-col space-y-2 py-6 text-base font-medium text-gray-500 dark:text-gray-400 mt-10 pl-8"
+          class="flex flex-col space-y-2 py-6 text-base font-medium text-gray-500 dark:text-zinc-400 mt-10 pl-8"
         >
           <div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all">
             <svg
