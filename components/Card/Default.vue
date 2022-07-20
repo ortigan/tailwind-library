@@ -1,8 +1,6 @@
 <template>
-
   <div class="flex flex-col md:flex-row gap-4 w-full">
-  
-        <span v-for="(item,index) in items" :key="index">
+      <span v-for="(item,index) in items" :key="index">
           <div :class="`p-6 rounded-lg ${item.shadowColor} ${item.hoverShadow} ${item.textColor} ${item.bgColor} ${item.border} ${item.hoverTextColor} ${item.hoverBgColor}`">
               <div class="flex flex-col w-full">
               <div class="text-2xl font-semibold">{{item.title}}</div>
