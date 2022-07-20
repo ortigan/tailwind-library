@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex-row w-full  px-8 py-5 rounded-lg border text-gray-700 dark:text-gray-500 bg-white dark:bg-gray-900"
+    class="flex-row w-full  px-8 py-5 rounded-lg border text-gray-700 dark:text-zinc-500 bg-white dark:bg-zinc-900"
   >
     <div class="w-2/3 flex justify-center items-center ">
       <form action="" class="w-full">
@@ -12,7 +12,7 @@
             </label>
             <input
               type="email"
-              class="w-full rounded-lg bg-gray-50 dark:bg-gray-800 border-gray-300 dark:border-gray-500 focus:border-sky-500"
+              class="w-full rounded-lg bg-gray-50 dark:bg-zinc-800 border-gray-300 dark:border-zinc-500 focus:border-sky-500"
             />
           </div>
           <!-- password -->
@@ -22,7 +22,7 @@
             </label>
             <input
               type="password"
-              class="w-full rounded-lg bg-gray-50 dark:bg-gray-800 border-gray-300 dark:border-gray-500 focus:border-sky-500"
+              class="w-full rounded-lg bg-gray-50 dark:bg-zinc-800 border-gray-300 dark:border-zinc-500 focus:border-sky-500"
             />
           </div>
           <!-- company size -->
@@ -34,7 +34,7 @@
               <select
                 name="company-size"
                 id="company-size"
-                class="w-full rounded-lg border dark:bg-gray-800 border-gray-300 dark:border-gray-500 bg-gray-50 focus:border-sky-500"
+                class="w-full rounded-lg border dark:bg-zinc-800 border-gray-300 dark:border-zinc-500 bg-gray-50 focus:border-sky-500"
               >
                 <option value="" class="text-sm">Select company size</option>
                 <option value="" class="">1 to 50 employees</option>
@@ -49,7 +49,7 @@
               type="checkbox"
               name=""
               id=""
-              class="rounded bg-gray-50 dark:bg-gray-800 border text-sky-500 border-gray-300 dark:border-gray-500 focus:outline-none focus:ring-0"
+              class="rounded bg-gray-50 dark:bg-zinc-800 border text-sky-500 border-gray-300 dark:border-zinc-500 focus:outline-none focus:ring-0"
             />
             <label for="" class="block text-sm font-semibold"
               >Remember me
@@ -58,7 +58,7 @@
           <!-- Login button -->
           <div class="w-1/4 mt-6">
             <div
-              class="bg-sky-500 dark:bg-sky-600 hover:bg-sky-600 dark:hover:bg-sky-500 text-white dark:text-gray-300 hover:text-gray-50 dark:hover:text-gray-100 text-center rounded-lg py-2 px-5"
+              class="bg-sky-500 dark:bg-sky-600 hover:bg-sky-600 dark:hover:bg-sky-500 text-white dark:text-zinc-300 hover:text-gray-50 dark:hover:text-zinc-100 text-center rounded-lg py-2 px-5"
             >
               <button class=" font-semibold  ">Login</button>
             </div>

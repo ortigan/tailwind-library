@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex-row w-full  px-8 py-5 rounded-lg border text-gray-700 dark:text-gray-500 bg-white dark:bg-gray-900"
+    class="flex-row w-full  px-8 py-5 rounded-lg border text-gray-700 dark:text-zinc-500 bg-white dark:bg-zinc-900"
   >
     <div class="w-2/3 flex justify-center items-center ">
       <form action="" class="w-full">
@@ -12,7 +12,7 @@
             </label>
             <input
               type="text"
-              class="w-full rounded-lg bg-gray-50 dark:bg-gray-800 border-gray-300 dark:border-gray-500 focus:border-sky-500 py-1"
+              class="w-full rounded-lg bg-gray-50 dark:bg-zinc-800 border-gray-300 dark:border-zinc-500 focus:border-sky-500 py-1"
             />
           </div>
           <!-- Large input -->
@@ -22,7 +22,7 @@
             </label>
             <input
               type="text"
-              class="w-full rounded-lg bg-gray-50 dark:bg-gray-800 border-gray-300 dark:border-gray-500 focus:border-sky-500"
+              class="w-full rounded-lg bg-gray-50 dark:bg-zinc-800 border-gray-300 dark:border-zinc-500 focus:border-sky-500"
             />
           </div>
           <!-- Large input -->
@@ -32,20 +32,20 @@
             </label>
             <input
               type="text"
-              class="w-full rounded-lg bg-gray-50 dark:bg-gray-800 border-gray-300 dark:border-gray-500 focus:border-sky-500 py-4"
+              class="w-full rounded-lg bg-gray-50 dark:bg-zinc-800 border-gray-300 dark:border-zinc-500 focus:border-sky-500 py-4"
             />
           </div>
 
           <!-- checkbox -->
           <div class="flex items-center gap-2 w-full mt-6">
-            <input type="checkbox" name="" id="" class="rounded bg-gray-50 border dark:bg-gray-800 border-gray-300 dark:border-gray-500 focus:outline-none focus:ring-0"/>
+            <input type="checkbox" name="" id="" class="rounded bg-gray-50 border dark:bg-zinc-800 border-gray-300 dark:border-zinc-500 focus:outline-none focus:ring-0"/>
             <label for="" class="block text-sm font-semibold"
               >Checkbox
             </label>
           </div>
           <!-- Radio -->
           <div class="flex items-center gap-2 w-full mt-6">
-            <input type="radio" name="" id="" class="bg-gray-50 border dark:bg-gray-800 border-gray-300 dark:border-gray-500 focus:outline-none focus:ring-0"/>
+            <input type="radio" name="" id="" class="bg-gray-50 border dark:bg-zinc-800 border-gray-300 dark:border-zinc-500 focus:outline-none focus:ring-0"/>
             <label for="" class="block text-sm font-semibold"
               >Radio 
             </label>

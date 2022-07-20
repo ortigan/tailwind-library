@@ -3,8 +3,8 @@
     <div class="flex p-4">
       <!-- content -->
       <div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar">
-        <div class="overflow-y-auto w-full px-4 pb-20" id="footerContainer">
-          <HeadersHeading> Rating  </HeadersHeading>
+        <div class="overflow-y-auto w-full px-4 pb-20" id="navbarContainer">
+          <HeadersHeading> Form  </HeadersHeading>
           <div>
             <p class="text-base">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -14,154 +14,191 @@
             </p>
           </div>
           <!-- start -->
-          <section id="defaultFooter" class="w-full">
+          <section id="defaultNavbar" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>Default</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_footer"
-                  @click="default_footer = true"
+                  v-if="!default_navbar"
+                  @click="default_navbar = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_footer = false"
+                  @click="default_navbar = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <FooterDefault />
+              <NavbarDefault />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_footer" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="default_navbar" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
                   </div>
                   <div>
                     <UtilsCopyButton
-                    @click="copyToClipboard('defaultFooterComp')"
+                    @click="copyToClipboard('defaultNavbarComp')"
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <FooterSnippetsDefault id="defaultFooterComp" />
+                <NavbarSnippetsDefault id="defaultNavbarComp" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
           <!-- End  -->
           <!-- start -->
-          <section id="footerLogoAside" class="w-full">
+          <section id="dropdownNavbar" class="w-full">
             <HeadersSubHeading>
-              <template v-slot:subHeader>Logo Aside</template>
+              <template v-slot:subHeader>Dropdown</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!logoaside_footer"
-                  @click="logoaside_footer = true"
+                  v-if="!dropdown_navbar"
+                  @click="dropdown_navbar = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="logoaside_footer = false"
+                  @click="dropdown_navbar = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <FooterLogoSection />
+              <NavbarDropdown />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="logoaside_footer" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="dropdown_navbar" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
                   </div>
                   <div>
                     <UtilsCopyButton
-                    @click="copyToClipboard('footerLogoAsideComp')"
+                    @click="copyToClipboard('dropdownNavbarComp')"
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <FooterSnippetsLogoSection id="footerLogoAsideComp" />
+                <NavbarSnippetsDropdown id="dropdownNavbarComp" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
           <!-- End  -->
           <!-- start -->
-          <section id="footerWith2rows" class="w-full">
+          <section id="navbarWithSearchBar" class="w-full">
             <HeadersSubHeading>
-              <template v-slot:subHeader>With 2 rows</template>
+              <template v-slot:subHeader>Searchbar</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!tworows_footer"
-                  @click="tworows_footer = true"
+                  v-if="!searchbar_navbar"
+                  @click="searchbar_navbar = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="tworows_footer = false"
+                  @click="searchbar_navbar = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <FooterTwoRow />
+              <NavbarSearch />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="tworows_footer" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="searchbar_navbar" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
                   </div>
                   <div>
                     <UtilsCopyButton
-                    @click="copyToClipboard('footerWith2rowsComp')"
+                    @click="copyToClipboard('navbarWithSearchBarComp')"
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <FooterSnippetsTwoRow id="footerWith2rowsComp" />
+                <NavbarSnippetsSearch id="navbarWithSearchBarComp" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
           <!-- End  -->
           <!-- start -->
-          <section id="appsmithFooter" class="w-full">
+          <section id="NavbarWithCta" class="w-full">
             <HeadersSubHeading>
-              <template v-slot:subHeader>Appsmith</template>
+              <template v-slot:subHeader>CTA</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!appsmith_footer"
-                  @click="appsmith_footer = true"
+                  v-if="!cta_navbar"
+                  @click="cta_navbar = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="appsmith_footer = false"
+                  @click="cta_navbar = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <FooterAppsmith />
+              <NavbarCta />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="appsmith_footer" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="cta_navbar" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
                   </div>
                   <div>
                     <UtilsCopyButton
-                    @click="copyToClipboard('appsmithFooterComp')"
+                    @click="copyToClipboard('NavbarWithCtaComp')"
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <FooterSnippetsAppsmith id="appsmithFooterComp" />
+                <NavbarSnippetsCta id="NavbarWithCtaComp" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
           <!-- End  -->
-                   
+          <!-- start -->
+          <section id="gumroadNavbar" class="w-full">
+            <HeadersSubHeading>
+              <template v-slot:subHeader>Gumroad</template>
+              <template v-slot:code>
+                <UtilsShowCodeButton
+                  v-if="!gumroad_navbar"
+                  @click="gumroad_navbar = true"
+                ></UtilsShowCodeButton>
+                <UtilsHideCodeButton
+                  v-else
+                  @click="gumroad_navbar = false"
+                ></UtilsHideCodeButton>
+              </template>
+            </HeadersSubHeading>
+            <UtilsComponentPad>
+              <NavbarGumroad />
+            </UtilsComponentPad>
+            <!-- code snippet -->
+            <transition name="fadeSnippet">
+              <div v-show="gumroad_navbar" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+                <div class="flex justify-between px-2 pt-2">
+                  <div>
+                    HTML
+                  </div>
+                  <div>
+                    <UtilsCopyButton
+                    @click="copyToClipboard('gumroadNavbarComp')"
+                  ></UtilsCopyButton>
+                  </div>
+                </div>
+                <NavbarSnippetsGumroad id="gumroadNavbarComp" />
+              </div>
+            </transition>
+            <!-- code snippet end -->
+          </section>
+          <!-- End  -->                
+                  
            
         </div>
       </div>
@@ -172,20 +209,24 @@
         >
           <div class="overflow-y-auto">
             <!-- <AlertInfo /> -->
-            <div class="flex flex-col justify-start items-end space-y-2">
-              <p class="text-normal font-bold">On This Page</p>
-              <button @click="scrollToSection('defaultFooter')">
-                Default Footer
+             <div class="flex flex-col justify-start items-end space-y-2">
+            <p class="text-normal font-bold">On This Page</p>
+              <button @click="scrollToSection('defaultNavbar')">
+                Default Navbar
               </button>
-              <button @click="scrollToSection('footerLogoAside')">
-                Footer Logo Aside
+              <button @click="scrollToSection('dropdownNavbar')">
+                Dropdown Navbar
               </button>
-              <button @click="scrollToSection('footerWith2rows')">
-                Footer With 2 rows
+              <button @click="scrollToSection('navbarWithSearchBar')" class="text-right">
+                Navbar With Search Bar
               </button>
-              <button @click="scrollToSection('appsmithFooter')">
-                Appsmith Footer
-              </button>              
+              <button @click="scrollToSection('NavbarWithCta')">
+                Navbar With CTA
+              </button>
+              <button @click="scrollToSection('gumroadNavbar')">
+                Gumroad Navbar
+              </button>
+                            
             </div>
           </div>
         </div>
@@ -210,10 +251,11 @@ export default {
   data() {
     return {
       layout: "custom",
-      default_footer: false,
-      logoaside_footer: false,
-      tworows_footer: false,
-      appsmith_footer: false,
+      default_navbar: false,
+      dropdown_navbar: false,
+      searchbar_navbar: false,
+      cta_navbar: false,
+      gumroad_navbar: false,
       // SCROLL
       activeScrollSection: "",
       sample: "",
@@ -222,7 +264,7 @@ export default {
   methods: {
     scrollToSection(section) {
       this.activeScrollSection = section;
-      document.getElementById("footerContainer").scrollTo({
+      document.getElementById("navbarContainer").scrollTo({
         top: document.getElementById(`${section}`).offsetTop - 100,
         behavior: "smooth",
       });

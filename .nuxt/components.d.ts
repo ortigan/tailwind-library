@@ -3,6 +3,26 @@ declare module 'vue' {
   export interface GlobalComponents {
     'Footer': typeof import("../components/Footer.vue")['default'],
     'Header': typeof import("../components/Header.vue")['default'],
+    'AccordionInfo': typeof import("../components/Accordion/AccordionInfo.vue")['default'],
+    'AccordionBorder': typeof import("../components/Accordion/Border.vue")['default'],
+    'AccordionBorderType2': typeof import("../components/Accordion/BorderType2.vue")['default'],
+    'AccordionGlass': typeof import("../components/Accordion/Glass.vue")['default'],
+    'AccordionIconFirst': typeof import("../components/Accordion/IconFirst.vue")['default'],
+    'AccordionList': typeof import("../components/Accordion/List.vue")['default'],
+    'AccordionListOpen': typeof import("../components/Accordion/ListOpen.vue")['default'],
+    'AccordionPlusFirst': typeof import("../components/Accordion/PlusFirst.vue")['default'],
+    'AccordionSimple': typeof import("../components/Accordion/Simple.vue")['default'],
+    'AccordionSpaced': typeof import("../components/Accordion/Spaced.vue")['default'],
+    'AccordionUserIcon': typeof import("../components/Accordion/UserIcon.vue")['default'],
+    'AccordionWithIcon': typeof import("../components/Accordion/WithIcon.vue")['default'],
+    'AlertInfo': typeof import("../components/Alert/AlertInfo.vue")['default'],
+    'AlertBorderLeft': typeof import("../components/Alert/BorderLeft.vue")['default'],
+    'AlertDefaultAlert': typeof import("../components/Alert/DefaultAlert.vue")['default'],
+    'AlertStateAlert': typeof import("../components/Alert/StateAlert.vue")['default'],
+    'AlertWithBorder': typeof import("../components/Alert/WithBorder.vue")['default'],
+    'AlertWithButton': typeof import("../components/Alert/WithButton.vue")['default'],
+    'AlertWithIcon': typeof import("../components/Alert/WithIcon.vue")['default'],
+    'AlertWithLink': typeof import("../components/Alert/WithLink.vue")['default'],
     'AvatarBadge': typeof import("../components/Avatar/Badge.vue")['default'],
     'AvatarCircle': typeof import("../components/Avatar/Circle.vue")['default'],
     'AvatarColor': typeof import("../components/Avatar/Color.vue")['default'],
@@ -16,14 +36,13 @@ declare module 'vue' {
     'AvatarShadow': typeof import("../components/Avatar/Shadow.vue")['default'],
     'AvatarSize': typeof import("../components/Avatar/Size.vue")['default'],
     'AvatarSquare': typeof import("../components/Avatar/Square.vue")['default'],
-    'AlertInfo': typeof import("../components/Alert/AlertInfo.vue")['default'],
-    'AlertBorderLeft': typeof import("../components/Alert/BorderLeft.vue")['default'],
-    'AlertDefaultAlert': typeof import("../components/Alert/DefaultAlert.vue")['default'],
-    'AlertStateAlert': typeof import("../components/Alert/StateAlert.vue")['default'],
-    'AlertWithBorder': typeof import("../components/Alert/WithBorder.vue")['default'],
-    'AlertWithButton': typeof import("../components/Alert/WithButton.vue")['default'],
-    'AlertWithIcon': typeof import("../components/Alert/WithIcon.vue")['default'],
-    'AlertWithLink': typeof import("../components/Alert/WithLink.vue")['default'],
+    'BreadCrumbAlignment': typeof import("../components/BreadCrumb/Alignment.vue")['default'],
+    'BreadCrumbArrow': typeof import("../components/BreadCrumb/Arrow.vue")['default'],
+    'BreadCrumbDefault': typeof import("../components/BreadCrumb/Default.vue")['default'],
+    'BreadCrumbIcon': typeof import("../components/BreadCrumb/Icon.vue")['default'],
+    'BreadCrumbOutline': typeof import("../components/BreadCrumb/Outline.vue")['default'],
+    'BreadCrumbSeparator': typeof import("../components/BreadCrumb/Separator.vue")['default'],
+    'BreadCrumbSolid': typeof import("../components/BreadCrumb/Solid.vue")['default'],
     'BadgeCancel': typeof import("../components/Badge/Cancel.vue")['default'],
     'BadgeDefault': typeof import("../components/Badge/Default.vue")['default'],
     'BadgeIcon': typeof import("../components/Badge/Icon.vue")['default'],
@@ -37,13 +56,6 @@ declare module 'vue' {
     'BadgeSize': typeof import("../components/Badge/Size.vue")['default'],
     'BadgeStateColor': typeof import("../components/Badge/StateColor.vue")['default'],
     'BadgeText': typeof import("../components/Badge/Text.vue")['default'],
-    'BreadCrumbAlignment': typeof import("../components/BreadCrumb/Alignment.vue")['default'],
-    'BreadCrumbArrow': typeof import("../components/BreadCrumb/Arrow.vue")['default'],
-    'BreadCrumbDefault': typeof import("../components/BreadCrumb/Default.vue")['default'],
-    'BreadCrumbIcon': typeof import("../components/BreadCrumb/Icon.vue")['default'],
-    'BreadCrumbOutline': typeof import("../components/BreadCrumb/Outline.vue")['default'],
-    'BreadCrumbSeparator': typeof import("../components/BreadCrumb/Separator.vue")['default'],
-    'BreadCrumbSolid': typeof import("../components/BreadCrumb/Solid.vue")['default'],
     'ButtonAppsmith': typeof import("../components/Button/Appsmith.vue")['default'],
     'ButtonBlockButtons': typeof import("../components/Button/BlockButtons.vue")['default'],
     'ButtonInfo': typeof import("../components/Button/ButtonInfo.vue")['default'],
@@ -60,10 +72,10 @@ declare module 'vue' {
     'ButtonGroupIcon': typeof import("../components/ButtonGroup/Icon.vue")['default'],
     'ButtonGroupOutline': typeof import("../components/ButtonGroup/Outline.vue")['default'],
     'ButtonGroupOutlineIcon': typeof import("../components/ButtonGroup/OutlineIcon.vue")['default'],
+    'CodeHighlight': typeof import("../components/CodeSnippet/CodeHighlight.vue")['default'],
     'CardCta': typeof import("../components/Card/Cta.vue")['default'],
     'CardDefault': typeof import("../components/Card/Default.vue")['default'],
     'CardLink': typeof import("../components/Card/Link.vue")['default'],
-    'CodeHighlight': typeof import("../components/CodeSnippet/CodeHighlight.vue")['default'],
     'DropdownDefault': typeof import("../components/Dropdown/Default.vue")['default'],
     'DropdownDropDownInfo': typeof import("../components/Dropdown/DropDownInfo.vue")['default'],
     'DropdownHeading': typeof import("../components/Dropdown/Heading.vue")['default'],
@@ -83,6 +95,12 @@ declare module 'vue' {
     'HeadersHeading': typeof import("../components/Headers/Heading.vue")['default'],
     'HeadersSubHeading': typeof import("../components/Headers/SubHeading.vue")['default'],
     'HomePageFeatures': typeof import("../components/HomePage/Features.vue")['default'],
+    'NavbarCta': typeof import("../components/Navbar/Cta.vue")['default'],
+    'NavbarDefault': typeof import("../components/Navbar/Default.vue")['default'],
+    'NavbarDropdown': typeof import("../components/Navbar/Dropdown.vue")['default'],
+    'NavbarGumroad': typeof import("../components/Navbar/Gumroad.vue")['default'],
+    'NavbarInfo': typeof import("../components/Navbar/NavbarInfo.vue")['default'],
+    'NavbarSearch': typeof import("../components/Navbar/Search.vue")['default'],
     'NavigationMenuItems': typeof import("../components/Navigation/MenuItems.js")['default'],
     'PaginationDefault': typeof import("../components/Pagination/Default.vue")['default'],
     'PaginationInfo': typeof import("../components/Pagination/PaginationInfo.vue")['default'],
@@ -115,6 +133,24 @@ declare module 'vue' {
     'UtilsHideCodeButton': typeof import("../components/Utils/HideCodeButton.vue")['default'],
     'UtilsShowCodeButton': typeof import("../components/Utils/ShowCodeButton.vue")['default'],
     'UtilsToast': typeof import("../components/Utils/Toast.vue")['default'],
+    'AccordionSnippetsBorder': typeof import("../components/Accordion/Snippets/Border.vue")['default'],
+    'AccordionSnippetsBorderType2': typeof import("../components/Accordion/Snippets/BorderType2.vue")['default'],
+    'AccordionSnippetsGlass': typeof import("../components/Accordion/Snippets/Glass.vue")['default'],
+    'AccordionSnippetsIconFirst': typeof import("../components/Accordion/Snippets/IconFirst.vue")['default'],
+    'AccordionSnippetsList': typeof import("../components/Accordion/Snippets/List.vue")['default'],
+    'AccordionSnippetsListOpen': typeof import("../components/Accordion/Snippets/ListOpen.vue")['default'],
+    'AccordionSnippetsPlusFirst': typeof import("../components/Accordion/Snippets/PlusFirst.vue")['default'],
+    'AccordionSnippetsSimple': typeof import("../components/Accordion/Snippets/Simple.vue")['default'],
+    'AccordionSnippetsSpaced': typeof import("../components/Accordion/Snippets/Spaced.vue")['default'],
+    'AccordionSnippetsUserIcon': typeof import("../components/Accordion/Snippets/UserIcon.vue")['default'],
+    'AccordionSnippetsWithIcon': typeof import("../components/Accordion/Snippets/WithIcon.vue")['default'],
+    'AlertSnippetsBorderLeft': typeof import("../components/Alert/Snippets/BorderLeft.vue")['default'],
+    'AlertSnippetsDefaultAlert': typeof import("../components/Alert/Snippets/DefaultAlert.vue")['default'],
+    'AlertSnippetsStateAlert': typeof import("../components/Alert/Snippets/StateAlert.vue")['default'],
+    'AlertSnippetsWithBorder': typeof import("../components/Alert/Snippets/WithBorder.vue")['default'],
+    'AlertSnippetsWithButton': typeof import("../components/Alert/Snippets/WithButton.vue")['default'],
+    'AlertSnippetsWithIcon': typeof import("../components/Alert/Snippets/WithIcon.vue")['default'],
+    'AlertSnippetsWithLink': typeof import("../components/Alert/Snippets/WithLink.vue")['default'],
     'AvatarSnippetsBadge': typeof import("../components/Avatar/Snippets/Badge.vue")['default'],
     'AvatarSnippetsCircle': typeof import("../components/Avatar/Snippets/Circle.vue")['default'],
     'AvatarSnippetsColor': typeof import("../components/Avatar/Snippets/Color.vue")['default'],
@@ -128,13 +164,13 @@ declare module 'vue' {
     'AvatarSnippetsShadow': typeof import("../components/Avatar/Snippets/Shadow.vue")['default'],
     'AvatarSnippetsSize': typeof import("../components/Avatar/Snippets/Size.vue")['default'],
     'AvatarSnippetsSquare': typeof import("../components/Avatar/Snippets/Square.vue")['default'],
-    'AlertSnippetsBorderLeft': typeof import("../components/Alert/Snippets/BorderLeft.vue")['default'],
-    'AlertSnippetsDefaultAlert': typeof import("../components/Alert/Snippets/DefaultAlert.vue")['default'],
-    'AlertSnippetsStateAlert': typeof import("../components/Alert/Snippets/StateAlert.vue")['default'],
-    'AlertSnippetsWithBorder': typeof import("../components/Alert/Snippets/WithBorder.vue")['default'],
-    'AlertSnippetsWithButton': typeof import("../components/Alert/Snippets/WithButton.vue")['default'],
-    'AlertSnippetsWithIcon': typeof import("../components/Alert/Snippets/WithIcon.vue")['default'],
-    'AlertSnippetsWithLink': typeof import("../components/Alert/Snippets/WithLink.vue")['default'],
+    'BreadCrumbSnippetsAlignment': typeof import("../components/BreadCrumb/Snippets/Alignment.vue")['default'],
+    'BreadCrumbSnippetsArrow': typeof import("../components/BreadCrumb/Snippets/Arrow.vue")['default'],
+    'BreadCrumbSnippetsDefault': typeof import("../components/BreadCrumb/Snippets/Default.vue")['default'],
+    'BreadCrumbSnippetsIcon': typeof import("../components/BreadCrumb/Snippets/Icon.vue")['default'],
+    'BreadCrumbSnippetsOutline': typeof import("../components/BreadCrumb/Snippets/Outline.vue")['default'],
+    'BreadCrumbSnippetsSeparator': typeof import("../components/BreadCrumb/Snippets/Separator.vue")['default'],
+    'BreadCrumbSnippetsSolid': typeof import("../components/BreadCrumb/Snippets/Solid.vue")['default'],
     'BadgeSnippetsCancel': typeof import("../components/Badge/Snippets/Cancel.vue")['default'],
     'BadgeSnippetsDefault': typeof import("../components/Badge/Snippets/default.vue")['default'],
     'BadgeSnippetsIcon': typeof import("../components/Badge/Snippets/Icon.vue")['default'],
@@ -148,13 +184,6 @@ declare module 'vue' {
     'BadgeSnippetsSize': typeof import("../components/Badge/Snippets/Size.vue")['default'],
     'BadgeSnippetsStateColor': typeof import("../components/Badge/Snippets/StateColor.vue")['default'],
     'BadgeSnippetsText': typeof import("../components/Badge/Snippets/Text.vue")['default'],
-    'BreadCrumbSnippetsAlignment': typeof import("../components/BreadCrumb/Snippets/Alignment.vue")['default'],
-    'BreadCrumbSnippetsArrow': typeof import("../components/BreadCrumb/Snippets/Arrow.vue")['default'],
-    'BreadCrumbSnippetsDefault': typeof import("../components/BreadCrumb/Snippets/Default.vue")['default'],
-    'BreadCrumbSnippetsIcon': typeof import("../components/BreadCrumb/Snippets/Icon.vue")['default'],
-    'BreadCrumbSnippetsOutline': typeof import("../components/BreadCrumb/Snippets/Outline.vue")['default'],
-    'BreadCrumbSnippetsSeparator': typeof import("../components/BreadCrumb/Snippets/Separator.vue")['default'],
-    'BreadCrumbSnippetsSolid': typeof import("../components/BreadCrumb/Snippets/Solid.vue")['default'],
     'ButtonSnippetsAppsmith': typeof import("../components/Button/Snippets/Appsmith.vue")['default'],
     'ButtonSnippetsBlockButtons': typeof import("../components/Button/Snippets/BlockButtons.vue")['default'],
     'ButtonSnippetsColoredShadow': typeof import("../components/Button/Snippets/ColoredShadow.vue")['default'],
@@ -195,6 +224,11 @@ declare module 'vue' {
     'FormSnippetsDefault': typeof import("../components/Form/Snippets/Default.vue")['default'],
     'FormSnippetsElement': typeof import("../components/Form/Snippets/Element.vue")['default'],
     'FormSnippetsFloatinglabel': typeof import("../components/Form/Snippets/Floatinglabel.vue")['default'],
+    'NavbarSnippetsCta': typeof import("../components/Navbar/Snippets/Cta.vue")['default'],
+    'NavbarSnippetsDefault': typeof import("../components/Navbar/Snippets/Default.vue")['default'],
+    'NavbarSnippetsDropdown': typeof import("../components/Navbar/Snippets/Dropdown.vue")['default'],
+    'NavbarSnippetsGumroad': typeof import("../components/Navbar/Snippets/Gumroad.vue")['default'],
+    'NavbarSnippetsSearch': typeof import("../components/Navbar/Snippets/Search.vue")['default'],
     'PaginationSnippetsDefault': typeof import("../components/Pagination/Snippets/Default.vue")['default'],
     'PaginationSnippetsWithArrow': typeof import("../components/Pagination/Snippets/WithArrow.vue")['default'],
     'RatingSnippetsDefault': typeof import("../components/Rating/Snippets/Default.vue")['default'],
@@ -235,6 +269,26 @@ declare module 'vue' {
     'NuxtLink': typeof import("../node_modules/nuxt/dist/app/components/nuxt-link")['default']
     'LazyFooter': typeof import("../components/Footer.vue")['default'],
     'LazyHeader': typeof import("../components/Header.vue")['default'],
+    'LazyAccordionInfo': typeof import("../components/Accordion/AccordionInfo.vue")['default'],
+    'LazyAccordionBorder': typeof import("../components/Accordion/Border.vue")['default'],
+    'LazyAccordionBorderType2': typeof import("../components/Accordion/BorderType2.vue")['default'],
+    'LazyAccordionGlass': typeof import("../components/Accordion/Glass.vue")['default'],
+    'LazyAccordionIconFirst': typeof import("../components/Accordion/IconFirst.vue")['default'],
+    'LazyAccordionList': typeof import("../components/Accordion/List.vue")['default'],
+    'LazyAccordionListOpen': typeof import("../components/Accordion/ListOpen.vue")['default'],
+    'LazyAccordionPlusFirst': typeof import("../components/Accordion/PlusFirst.vue")['default'],
+    'LazyAccordionSimple': typeof import("../components/Accordion/Simple.vue")['default'],
+    'LazyAccordionSpaced': typeof import("../components/Accordion/Spaced.vue")['default'],
+    'LazyAccordionUserIcon': typeof import("../components/Accordion/UserIcon.vue")['default'],
+    'LazyAccordionWithIcon': typeof import("../components/Accordion/WithIcon.vue")['default'],
+    'LazyAlertInfo': typeof import("../components/Alert/AlertInfo.vue")['default'],
+    'LazyAlertBorderLeft': typeof import("../components/Alert/BorderLeft.vue")['default'],
+    'LazyAlertDefaultAlert': typeof import("../components/Alert/DefaultAlert.vue")['default'],
+    'LazyAlertStateAlert': typeof import("../components/Alert/StateAlert.vue")['default'],
+    'LazyAlertWithBorder': typeof import("../components/Alert/WithBorder.vue")['default'],
+    'LazyAlertWithButton': typeof import("../components/Alert/WithButton.vue")['default'],
+    'LazyAlertWithIcon': typeof import("../components/Alert/WithIcon.vue")['default'],
+    'LazyAlertWithLink': typeof import("../components/Alert/WithLink.vue")['default'],
     'LazyAvatarBadge': typeof import("../components/Avatar/Badge.vue")['default'],
     'LazyAvatarCircle': typeof import("../components/Avatar/Circle.vue")['default'],
     'LazyAvatarColor': typeof import("../components/Avatar/Color.vue")['default'],
@@ -248,14 +302,13 @@ declare module 'vue' {
     'LazyAvatarShadow': typeof import("../components/Avatar/Shadow.vue")['default'],
     'LazyAvatarSize': typeof import("../components/Avatar/Size.vue")['default'],
     'LazyAvatarSquare': typeof import("../components/Avatar/Square.vue")['default'],
-    'LazyAlertInfo': typeof import("../components/Alert/AlertInfo.vue")['default'],
-    'LazyAlertBorderLeft': typeof import("../components/Alert/BorderLeft.vue")['default'],
-    'LazyAlertDefaultAlert': typeof import("../components/Alert/DefaultAlert.vue")['default'],
-    'LazyAlertStateAlert': typeof import("../components/Alert/StateAlert.vue")['default'],
-    'LazyAlertWithBorder': typeof import("../components/Alert/WithBorder.vue")['default'],
-    'LazyAlertWithButton': typeof import("../components/Alert/WithButton.vue")['default'],
-    'LazyAlertWithIcon': typeof import("../components/Alert/WithIcon.vue")['default'],
-    'LazyAlertWithLink': typeof import("../components/Alert/WithLink.vue")['default'],
+    'LazyBreadCrumbAlignment': typeof import("../components/BreadCrumb/Alignment.vue")['default'],
+    'LazyBreadCrumbArrow': typeof import("../components/BreadCrumb/Arrow.vue")['default'],
+    'LazyBreadCrumbDefault': typeof import("../components/BreadCrumb/Default.vue")['default'],
+    'LazyBreadCrumbIcon': typeof import("../components/BreadCrumb/Icon.vue")['default'],
+    'LazyBreadCrumbOutline': typeof import("../components/BreadCrumb/Outline.vue")['default'],
+    'LazyBreadCrumbSeparator': typeof import("../components/BreadCrumb/Separator.vue")['default'],
+    'LazyBreadCrumbSolid': typeof import("../components/BreadCrumb/Solid.vue")['default'],
     'LazyBadgeCancel': typeof import("../components/Badge/Cancel.vue")['default'],
     'LazyBadgeDefault': typeof import("../components/Badge/Default.vue")['default'],
     'LazyBadgeIcon': typeof import("../components/Badge/Icon.vue")['default'],
@@ -269,13 +322,6 @@ declare module 'vue' {
     'LazyBadgeSize': typeof import("../components/Badge/Size.vue")['default'],
     'LazyBadgeStateColor': typeof import("../components/Badge/StateColor.vue")['default'],
     'LazyBadgeText': typeof import("../components/Badge/Text.vue")['default'],
-    'LazyBreadCrumbAlignment': typeof import("../components/BreadCrumb/Alignment.vue")['default'],
-    'LazyBreadCrumbArrow': typeof import("../components/BreadCrumb/Arrow.vue")['default'],
-    'LazyBreadCrumbDefault': typeof import("../components/BreadCrumb/Default.vue")['default'],
-    'LazyBreadCrumbIcon': typeof import("../components/BreadCrumb/Icon.vue")['default'],
-    'LazyBreadCrumbOutline': typeof import("../components/BreadCrumb/Outline.vue")['default'],
-    'LazyBreadCrumbSeparator': typeof import("../components/BreadCrumb/Separator.vue")['default'],
-    'LazyBreadCrumbSolid': typeof import("../components/BreadCrumb/Solid.vue")['default'],
     'LazyButtonAppsmith': typeof import("../components/Button/Appsmith.vue")['default'],
     'LazyButtonBlockButtons': typeof import("../components/Button/BlockButtons.vue")['default'],
     'LazyButtonInfo': typeof import("../components/Button/ButtonInfo.vue")['default'],
@@ -292,10 +338,10 @@ declare module 'vue' {
     'LazyButtonGroupIcon': typeof import("../components/ButtonGroup/Icon.vue")['default'],
     'LazyButtonGroupOutline': typeof import("../components/ButtonGroup/Outline.vue")['default'],
     'LazyButtonGroupOutlineIcon': typeof import("../components/ButtonGroup/OutlineIcon.vue")['default'],
+    'LazyCodeHighlight': typeof import("../components/CodeSnippet/CodeHighlight.vue")['default'],
     'LazyCardCta': typeof import("../components/Card/Cta.vue")['default'],
     'LazyCardDefault': typeof import("../components/Card/Default.vue")['default'],
     'LazyCardLink': typeof import("../components/Card/Link.vue")['default'],
-    'LazyCodeHighlight': typeof import("../components/CodeSnippet/CodeHighlight.vue")['default'],
     'LazyDropdownDefault': typeof import("../components/Dropdown/Default.vue")['default'],
     'LazyDropdownDropDownInfo': typeof import("../components/Dropdown/DropDownInfo.vue")['default'],
     'LazyDropdownHeading': typeof import("../components/Dropdown/Heading.vue")['default'],
@@ -315,6 +361,12 @@ declare module 'vue' {
     'LazyHeadersHeading': typeof import("../components/Headers/Heading.vue")['default'],
     'LazyHeadersSubHeading': typeof import("../components/Headers/SubHeading.vue")['default'],
     'LazyHomePageFeatures': typeof import("../components/HomePage/Features.vue")['default'],
+    'LazyNavbarCta': typeof import("../components/Navbar/Cta.vue")['default'],
+    'LazyNavbarDefault': typeof import("../components/Navbar/Default.vue")['default'],
+    'LazyNavbarDropdown': typeof import("../components/Navbar/Dropdown.vue")['default'],
+    'LazyNavbarGumroad': typeof import("../components/Navbar/Gumroad.vue")['default'],
+    'LazyNavbarInfo': typeof import("../components/Navbar/NavbarInfo.vue")['default'],
+    'LazyNavbarSearch': typeof import("../components/Navbar/Search.vue")['default'],
     'LazyNavigationMenuItems': typeof import("../components/Navigation/MenuItems.js")['default'],
     'LazyPaginationDefault': typeof import("../components/Pagination/Default.vue")['default'],
     'LazyPaginationInfo': typeof import("../components/Pagination/PaginationInfo.vue")['default'],
@@ -347,6 +399,24 @@ declare module 'vue' {
     'LazyUtilsHideCodeButton': typeof import("../components/Utils/HideCodeButton.vue")['default'],
     'LazyUtilsShowCodeButton': typeof import("../components/Utils/ShowCodeButton.vue")['default'],
     'LazyUtilsToast': typeof import("../components/Utils/Toast.vue")['default'],
+    'LazyAccordionSnippetsBorder': typeof import("../components/Accordion/Snippets/Border.vue")['default'],
+    'LazyAccordionSnippetsBorderType2': typeof import("../components/Accordion/Snippets/BorderType2.vue")['default'],
+    'LazyAccordionSnippetsGlass': typeof import("../components/Accordion/Snippets/Glass.vue")['default'],
+    'LazyAccordionSnippetsIconFirst': typeof import("../components/Accordion/Snippets/IconFirst.vue")['default'],
+    'LazyAccordionSnippetsList': typeof import("../components/Accordion/Snippets/List.vue")['default'],
+    'LazyAccordionSnippetsListOpen': typeof import("../components/Accordion/Snippets/ListOpen.vue")['default'],
+    'LazyAccordionSnippetsPlusFirst': typeof import("../components/Accordion/Snippets/PlusFirst.vue")['default'],
+    'LazyAccordionSnippetsSimple': typeof import("../components/Accordion/Snippets/Simple.vue")['default'],
+    'LazyAccordionSnippetsSpaced': typeof import("../components/Accordion/Snippets/Spaced.vue")['default'],
+    'LazyAccordionSnippetsUserIcon': typeof import("../components/Accordion/Snippets/UserIcon.vue")['default'],
+    'LazyAccordionSnippetsWithIcon': typeof import("../components/Accordion/Snippets/WithIcon.vue")['default'],
+    'LazyAlertSnippetsBorderLeft': typeof import("../components/Alert/Snippets/BorderLeft.vue")['default'],
+    'LazyAlertSnippetsDefaultAlert': typeof import("../components/Alert/Snippets/DefaultAlert.vue")['default'],
+    'LazyAlertSnippetsStateAlert': typeof import("../components/Alert/Snippets/StateAlert.vue")['default'],
+    'LazyAlertSnippetsWithBorder': typeof import("../components/Alert/Snippets/WithBorder.vue")['default'],
+    'LazyAlertSnippetsWithButton': typeof import("../components/Alert/Snippets/WithButton.vue")['default'],
+    'LazyAlertSnippetsWithIcon': typeof import("../components/Alert/Snippets/WithIcon.vue")['default'],
+    'LazyAlertSnippetsWithLink': typeof import("../components/Alert/Snippets/WithLink.vue")['default'],
     'LazyAvatarSnippetsBadge': typeof import("../components/Avatar/Snippets/Badge.vue")['default'],
     'LazyAvatarSnippetsCircle': typeof import("../components/Avatar/Snippets/Circle.vue")['default'],
     'LazyAvatarSnippetsColor': typeof import("../components/Avatar/Snippets/Color.vue")['default'],
@@ -360,13 +430,13 @@ declare module 'vue' {
     'LazyAvatarSnippetsShadow': typeof import("../components/Avatar/Snippets/Shadow.vue")['default'],
     'LazyAvatarSnippetsSize': typeof import("../components/Avatar/Snippets/Size.vue")['default'],
     'LazyAvatarSnippetsSquare': typeof import("../components/Avatar/Snippets/Square.vue")['default'],
-    'LazyAlertSnippetsBorderLeft': typeof import("../components/Alert/Snippets/BorderLeft.vue")['default'],
-    'LazyAlertSnippetsDefaultAlert': typeof import("../components/Alert/Snippets/DefaultAlert.vue")['default'],
-    'LazyAlertSnippetsStateAlert': typeof import("../components/Alert/Snippets/StateAlert.vue")['default'],
-    'LazyAlertSnippetsWithBorder': typeof import("../components/Alert/Snippets/WithBorder.vue")['default'],
-    'LazyAlertSnippetsWithButton': typeof import("../components/Alert/Snippets/WithButton.vue")['default'],
-    'LazyAlertSnippetsWithIcon': typeof import("../components/Alert/Snippets/WithIcon.vue")['default'],
-    'LazyAlertSnippetsWithLink': typeof import("../components/Alert/Snippets/WithLink.vue")['default'],
+    'LazyBreadCrumbSnippetsAlignment': typeof import("../components/BreadCrumb/Snippets/Alignment.vue")['default'],
+    'LazyBreadCrumbSnippetsArrow': typeof import("../components/BreadCrumb/Snippets/Arrow.vue")['default'],
+    'LazyBreadCrumbSnippetsDefault': typeof import("../components/BreadCrumb/Snippets/Default.vue")['default'],
+    'LazyBreadCrumbSnippetsIcon': typeof import("../components/BreadCrumb/Snippets/Icon.vue")['default'],
+    'LazyBreadCrumbSnippetsOutline': typeof import("../components/BreadCrumb/Snippets/Outline.vue")['default'],
+    'LazyBreadCrumbSnippetsSeparator': typeof import("../components/BreadCrumb/Snippets/Separator.vue")['default'],
+    'LazyBreadCrumbSnippetsSolid': typeof import("../components/BreadCrumb/Snippets/Solid.vue")['default'],
     'LazyBadgeSnippetsCancel': typeof import("../components/Badge/Snippets/Cancel.vue")['default'],
     'LazyBadgeSnippetsDefault': typeof import("../components/Badge/Snippets/default.vue")['default'],
     'LazyBadgeSnippetsIcon': typeof import("../components/Badge/Snippets/Icon.vue")['default'],
@@ -380,13 +450,6 @@ declare module 'vue' {
     'LazyBadgeSnippetsSize': typeof import("../components/Badge/Snippets/Size.vue")['default'],
     'LazyBadgeSnippetsStateColor': typeof import("../components/Badge/Snippets/StateColor.vue")['default'],
     'LazyBadgeSnippetsText': typeof import("../components/Badge/Snippets/Text.vue")['default'],
-    'LazyBreadCrumbSnippetsAlignment': typeof import("../components/BreadCrumb/Snippets/Alignment.vue")['default'],
-    'LazyBreadCrumbSnippetsArrow': typeof import("../components/BreadCrumb/Snippets/Arrow.vue")['default'],
-    'LazyBreadCrumbSnippetsDefault': typeof import("../components/BreadCrumb/Snippets/Default.vue")['default'],
-    'LazyBreadCrumbSnippetsIcon': typeof import("../components/BreadCrumb/Snippets/Icon.vue")['default'],
-    'LazyBreadCrumbSnippetsOutline': typeof import("../components/BreadCrumb/Snippets/Outline.vue")['default'],
-    'LazyBreadCrumbSnippetsSeparator': typeof import("../components/BreadCrumb/Snippets/Separator.vue")['default'],
-    'LazyBreadCrumbSnippetsSolid': typeof import("../components/BreadCrumb/Snippets/Solid.vue")['default'],
     'LazyButtonSnippetsAppsmith': typeof import("../components/Button/Snippets/Appsmith.vue")['default'],
     'LazyButtonSnippetsBlockButtons': typeof import("../components/Button/Snippets/BlockButtons.vue")['default'],
     'LazyButtonSnippetsColoredShadow': typeof import("../components/Button/Snippets/ColoredShadow.vue")['default'],
@@ -427,6 +490,11 @@ declare module 'vue' {
     'LazyFormSnippetsDefault': typeof import("../components/Form/Snippets/Default.vue")['default'],
     'LazyFormSnippetsElement': typeof import("../components/Form/Snippets/Element.vue")['default'],
     'LazyFormSnippetsFloatinglabel': typeof import("../components/Form/Snippets/Floatinglabel.vue")['default'],
+    'LazyNavbarSnippetsCta': typeof import("../components/Navbar/Snippets/Cta.vue")['default'],
+    'LazyNavbarSnippetsDefault': typeof import("../components/Navbar/Snippets/Default.vue")['default'],
+    'LazyNavbarSnippetsDropdown': typeof import("../components/Navbar/Snippets/Dropdown.vue")['default'],
+    'LazyNavbarSnippetsGumroad': typeof import("../components/Navbar/Snippets/Gumroad.vue")['default'],
+    'LazyNavbarSnippetsSearch': typeof import("../components/Navbar/Snippets/Search.vue")['default'],
     'LazyPaginationSnippetsDefault': typeof import("../components/Pagination/Snippets/Default.vue")['default'],
     'LazyPaginationSnippetsWithArrow': typeof import("../components/Pagination/Snippets/WithArrow.vue")['default'],
     'LazyRatingSnippetsDefault': typeof import("../components/Rating/Snippets/Default.vue")['default'],
@@ -469,6 +537,26 @@ declare module 'vue' {
 }
 export const Footer: typeof import("../components/Footer.vue")['default']
 export const Header: typeof import("../components/Header.vue")['default']
+export const AccordionInfo: typeof import("../components/Accordion/AccordionInfo.vue")['default']
+export const AccordionBorder: typeof import("../components/Accordion/Border.vue")['default']
+export const AccordionBorderType2: typeof import("../components/Accordion/BorderType2.vue")['default']
+export const AccordionGlass: typeof import("../components/Accordion/Glass.vue")['default']
+export const AccordionIconFirst: typeof import("../components/Accordion/IconFirst.vue")['default']
+export const AccordionList: typeof import("../components/Accordion/List.vue")['default']
+export const AccordionListOpen: typeof import("../components/Accordion/ListOpen.vue")['default']
+export const AccordionPlusFirst: typeof import("../components/Accordion/PlusFirst.vue")['default']
+export const AccordionSimple: typeof import("../components/Accordion/Simple.vue")['default']
+export const AccordionSpaced: typeof import("../components/Accordion/Spaced.vue")['default']
+export const AccordionUserIcon: typeof import("../components/Accordion/UserIcon.vue")['default']
+export const AccordionWithIcon: typeof import("../components/Accordion/WithIcon.vue")['default']
+export const AlertInfo: typeof import("../components/Alert/AlertInfo.vue")['default']
+export const AlertBorderLeft: typeof import("../components/Alert/BorderLeft.vue")['default']
+export const AlertDefaultAlert: typeof import("../components/Alert/DefaultAlert.vue")['default']
+export const AlertStateAlert: typeof import("../components/Alert/StateAlert.vue")['default']
+export const AlertWithBorder: typeof import("../components/Alert/WithBorder.vue")['default']
+export const AlertWithButton: typeof import("../components/Alert/WithButton.vue")['default']
+export const AlertWithIcon: typeof import("../components/Alert/WithIcon.vue")['default']
+export const AlertWithLink: typeof import("../components/Alert/WithLink.vue")['default']
 export const AvatarBadge: typeof import("../components/Avatar/Badge.vue")['default']
 export const AvatarCircle: typeof import("../components/Avatar/Circle.vue")['default']
 export const AvatarColor: typeof import("../components/Avatar/Color.vue")['default']
@@ -482,14 +570,13 @@ export const AvatarPresenceRing: typeof import("../components/Avatar/PresenceRin
 export const AvatarShadow: typeof import("../components/Avatar/Shadow.vue")['default']
 export const AvatarSize: typeof import("../components/Avatar/Size.vue")['default']
 export const AvatarSquare: typeof import("../components/Avatar/Square.vue")['default']
-export const AlertInfo: typeof import("../components/Alert/AlertInfo.vue")['default']
-export const AlertBorderLeft: typeof import("../components/Alert/BorderLeft.vue")['default']
-export const AlertDefaultAlert: typeof import("../components/Alert/DefaultAlert.vue")['default']
-export const AlertStateAlert: typeof import("../components/Alert/StateAlert.vue")['default']
-export const AlertWithBorder: typeof import("../components/Alert/WithBorder.vue")['default']
-export const AlertWithButton: typeof import("../components/Alert/WithButton.vue")['default']
-export const AlertWithIcon: typeof import("../components/Alert/WithIcon.vue")['default']
-export const AlertWithLink: typeof import("../components/Alert/WithLink.vue")['default']
+export const BreadCrumbAlignment: typeof import("../components/BreadCrumb/Alignment.vue")['default']
+export const BreadCrumbArrow: typeof import("../components/BreadCrumb/Arrow.vue")['default']
+export const BreadCrumbDefault: typeof import("../components/BreadCrumb/Default.vue")['default']
+export const BreadCrumbIcon: typeof import("../components/BreadCrumb/Icon.vue")['default']
+export const BreadCrumbOutline: typeof import("../components/BreadCrumb/Outline.vue")['default']
+export const BreadCrumbSeparator: typeof import("../components/BreadCrumb/Separator.vue")['default']
+export const BreadCrumbSolid: typeof import("../components/BreadCrumb/Solid.vue")['default']
 export const BadgeCancel: typeof import("../components/Badge/Cancel.vue")['default']
 export const BadgeDefault: typeof import("../components/Badge/Default.vue")['default']
 export const BadgeIcon: typeof import("../components/Badge/Icon.vue")['default']
@@ -503,13 +590,6 @@ export const BadgeRectangle: typeof import("../components/Badge/Rectangle.vue")[
 export const BadgeSize: typeof import("../components/Badge/Size.vue")['default']
 export const BadgeStateColor: typeof import("../components/Badge/StateColor.vue")['default']
 export const BadgeText: typeof import("../components/Badge/Text.vue")['default']
-export const BreadCrumbAlignment: typeof import("../components/BreadCrumb/Alignment.vue")['default']
-export const BreadCrumbArrow: typeof import("../components/BreadCrumb/Arrow.vue")['default']
-export const BreadCrumbDefault: typeof import("../components/BreadCrumb/Default.vue")['default']
-export const BreadCrumbIcon: typeof import("../components/BreadCrumb/Icon.vue")['default']
-export const BreadCrumbOutline: typeof import("../components/BreadCrumb/Outline.vue")['default']
-export const BreadCrumbSeparator: typeof import("../components/BreadCrumb/Separator.vue")['default']
-export const BreadCrumbSolid: typeof import("../components/BreadCrumb/Solid.vue")['default']
 export const ButtonAppsmith: typeof import("../components/Button/Appsmith.vue")['default']
 export const ButtonBlockButtons: typeof import("../components/Button/BlockButtons.vue")['default']
 export const ButtonInfo: typeof import("../components/Button/ButtonInfo.vue")['default']
@@ -526,10 +606,10 @@ export const ButtonGroupDefault: typeof import("../components/ButtonGroup/Defaul
 export const ButtonGroupIcon: typeof import("../components/ButtonGroup/Icon.vue")['default']
 export const ButtonGroupOutline: typeof import("../components/ButtonGroup/Outline.vue")['default']
 export const ButtonGroupOutlineIcon: typeof import("../components/ButtonGroup/OutlineIcon.vue")['default']
+export const CodeHighlight: typeof import("../components/CodeSnippet/CodeHighlight.vue")['default']
 export const CardCta: typeof import("../components/Card/Cta.vue")['default']
 export const CardDefault: typeof import("../components/Card/Default.vue")['default']
 export const CardLink: typeof import("../components/Card/Link.vue")['default']
-export const CodeHighlight: typeof import("../components/CodeSnippet/CodeHighlight.vue")['default']
 export const DropdownDefault: typeof import("../components/Dropdown/Default.vue")['default']
 export const DropdownDropDownInfo: typeof import("../components/Dropdown/DropDownInfo.vue")['default']
 export const DropdownHeading: typeof import("../components/Dropdown/Heading.vue")['default']
@@ -549,6 +629,12 @@ export const FormInfo: typeof import("../components/Form/FormInfo.vue")['default
 export const HeadersHeading: typeof import("../components/Headers/Heading.vue")['default']
 export const HeadersSubHeading: typeof import("../components/Headers/SubHeading.vue")['default']
 export const HomePageFeatures: typeof import("../components/HomePage/Features.vue")['default']
+export const NavbarCta: typeof import("../components/Navbar/Cta.vue")['default']
+export const NavbarDefault: typeof import("../components/Navbar/Default.vue")['default']
+export const NavbarDropdown: typeof import("../components/Navbar/Dropdown.vue")['default']
+export const NavbarGumroad: typeof import("../components/Navbar/Gumroad.vue")['default']
+export const NavbarInfo: typeof import("../components/Navbar/NavbarInfo.vue")['default']
+export const NavbarSearch: typeof import("../components/Navbar/Search.vue")['default']
 export const NavigationMenuItems: typeof import("../components/Navigation/MenuItems.js")['default']
 export const PaginationDefault: typeof import("../components/Pagination/Default.vue")['default']
 export const PaginationInfo: typeof import("../components/Pagination/PaginationInfo.vue")['default']
@@ -581,6 +667,24 @@ export const UtilsCopyButton: typeof import("../components/Utils/CopyButton.vue"
 export const UtilsHideCodeButton: typeof import("../components/Utils/HideCodeButton.vue")['default']
 export const UtilsShowCodeButton: typeof import("../components/Utils/ShowCodeButton.vue")['default']
 export const UtilsToast: typeof import("../components/Utils/Toast.vue")['default']
+export const AccordionSnippetsBorder: typeof import("../components/Accordion/Snippets/Border.vue")['default']
+export const AccordionSnippetsBorderType2: typeof import("../components/Accordion/Snippets/BorderType2.vue")['default']
+export const AccordionSnippetsGlass: typeof import("../components/Accordion/Snippets/Glass.vue")['default']
+export const AccordionSnippetsIconFirst: typeof import("../components/Accordion/Snippets/IconFirst.vue")['default']
+export const AccordionSnippetsList: typeof import("../components/Accordion/Snippets/List.vue")['default']
+export const AccordionSnippetsListOpen: typeof import("../components/Accordion/Snippets/ListOpen.vue")['default']
+export const AccordionSnippetsPlusFirst: typeof import("../components/Accordion/Snippets/PlusFirst.vue")['default']
+export const AccordionSnippetsSimple: typeof import("../components/Accordion/Snippets/Simple.vue")['default']
+export const AccordionSnippetsSpaced: typeof import("../components/Accordion/Snippets/Spaced.vue")['default']
+export const AccordionSnippetsUserIcon: typeof import("../components/Accordion/Snippets/UserIcon.vue")['default']
+export const AccordionSnippetsWithIcon: typeof import("../components/Accordion/Snippets/WithIcon.vue")['default']
+export const AlertSnippetsBorderLeft: typeof import("../components/Alert/Snippets/BorderLeft.vue")['default']
+export const AlertSnippetsDefaultAlert: typeof import("../components/Alert/Snippets/DefaultAlert.vue")['default']
+export const AlertSnippetsStateAlert: typeof import("../components/Alert/Snippets/StateAlert.vue")['default']
+export const AlertSnippetsWithBorder: typeof import("../components/Alert/Snippets/WithBorder.vue")['default']
+export const AlertSnippetsWithButton: typeof import("../components/Alert/Snippets/WithButton.vue")['default']
+export const AlertSnippetsWithIcon: typeof import("../components/Alert/Snippets/WithIcon.vue")['default']
+export const AlertSnippetsWithLink: typeof import("../components/Alert/Snippets/WithLink.vue")['default']
 export const AvatarSnippetsBadge: typeof import("../components/Avatar/Snippets/Badge.vue")['default']
 export const AvatarSnippetsCircle: typeof import("../components/Avatar/Snippets/Circle.vue")['default']
 export const AvatarSnippetsColor: typeof import("../components/Avatar/Snippets/Color.vue")['default']
@@ -594,13 +698,13 @@ export const AvatarSnippetsPresenceRing: typeof import("../components/Avatar/Sni
 export const AvatarSnippetsShadow: typeof import("../components/Avatar/Snippets/Shadow.vue")['default']
 export const AvatarSnippetsSize: typeof import("../components/Avatar/Snippets/Size.vue")['default']
 export const AvatarSnippetsSquare: typeof import("../components/Avatar/Snippets/Square.vue")['default']
-export const AlertSnippetsBorderLeft: typeof import("../components/Alert/Snippets/BorderLeft.vue")['default']
-export const AlertSnippetsDefaultAlert: typeof import("../components/Alert/Snippets/DefaultAlert.vue")['default']
-export const AlertSnippetsStateAlert: typeof import("../components/Alert/Snippets/StateAlert.vue")['default']
-export const AlertSnippetsWithBorder: typeof import("../components/Alert/Snippets/WithBorder.vue")['default']
-export const AlertSnippetsWithButton: typeof import("../components/Alert/Snippets/WithButton.vue")['default']
-export const AlertSnippetsWithIcon: typeof import("../components/Alert/Snippets/WithIcon.vue")['default']
-export const AlertSnippetsWithLink: typeof import("../components/Alert/Snippets/WithLink.vue")['default']
+export const BreadCrumbSnippetsAlignment: typeof import("../components/BreadCrumb/Snippets/Alignment.vue")['default']
+export const BreadCrumbSnippetsArrow: typeof import("../components/BreadCrumb/Snippets/Arrow.vue")['default']
+export const BreadCrumbSnippetsDefault: typeof import("../components/BreadCrumb/Snippets/Default.vue")['default']
+export const BreadCrumbSnippetsIcon: typeof import("../components/BreadCrumb/Snippets/Icon.vue")['default']
+export const BreadCrumbSnippetsOutline: typeof import("../components/BreadCrumb/Snippets/Outline.vue")['default']
+export const BreadCrumbSnippetsSeparator: typeof import("../components/BreadCrumb/Snippets/Separator.vue")['default']
+export const BreadCrumbSnippetsSolid: typeof import("../components/BreadCrumb/Snippets/Solid.vue")['default']
 export const BadgeSnippetsCancel: typeof import("../components/Badge/Snippets/Cancel.vue")['default']
 export const BadgeSnippetsDefault: typeof import("../components/Badge/Snippets/default.vue")['default']
 export const BadgeSnippetsIcon: typeof import("../components/Badge/Snippets/Icon.vue")['default']
@@ -614,13 +718,6 @@ export const BadgeSnippetsRectangle: typeof import("../components/Badge/Snippets
 export const BadgeSnippetsSize: typeof import("../components/Badge/Snippets/Size.vue")['default']
 export const BadgeSnippetsStateColor: typeof import("../components/Badge/Snippets/StateColor.vue")['default']
 export const BadgeSnippetsText: typeof import("../components/Badge/Snippets/Text.vue")['default']
-export const BreadCrumbSnippetsAlignment: typeof import("../components/BreadCrumb/Snippets/Alignment.vue")['default']
-export const BreadCrumbSnippetsArrow: typeof import("../components/BreadCrumb/Snippets/Arrow.vue")['default']
-export const BreadCrumbSnippetsDefault: typeof import("../components/BreadCrumb/Snippets/Default.vue")['default']
-export const BreadCrumbSnippetsIcon: typeof import("../components/BreadCrumb/Snippets/Icon.vue")['default']
-export const BreadCrumbSnippetsOutline: typeof import("../components/BreadCrumb/Snippets/Outline.vue")['default']
-export const BreadCrumbSnippetsSeparator: typeof import("../components/BreadCrumb/Snippets/Separator.vue")['default']
-export const BreadCrumbSnippetsSolid: typeof import("../components/BreadCrumb/Snippets/Solid.vue")['default']
 export const ButtonSnippetsAppsmith: typeof import("../components/Button/Snippets/Appsmith.vue")['default']
 export const ButtonSnippetsBlockButtons: typeof import("../components/Button/Snippets/BlockButtons.vue")['default']
 export const ButtonSnippetsColoredShadow: typeof import("../components/Button/Snippets/ColoredShadow.vue")['default']
@@ -661,6 +758,11 @@ export const FooterSnippetsTwoRow: typeof import("../components/Footer/Snippets/
 export const FormSnippetsDefault: typeof import("../components/Form/Snippets/Default.vue")['default']
 export const FormSnippetsElement: typeof import("../components/Form/Snippets/Element.vue")['default']
 export const FormSnippetsFloatinglabel: typeof import("../components/Form/Snippets/Floatinglabel.vue")['default']
+export const NavbarSnippetsCta: typeof import("../components/Navbar/Snippets/Cta.vue")['default']
+export const NavbarSnippetsDefault: typeof import("../components/Navbar/Snippets/Default.vue")['default']
+export const NavbarSnippetsDropdown: typeof import("../components/Navbar/Snippets/Dropdown.vue")['default']
+export const NavbarSnippetsGumroad: typeof import("../components/Navbar/Snippets/Gumroad.vue")['default']
+export const NavbarSnippetsSearch: typeof import("../components/Navbar/Snippets/Search.vue")['default']
 export const PaginationSnippetsDefault: typeof import("../components/Pagination/Snippets/Default.vue")['default']
 export const PaginationSnippetsWithArrow: typeof import("../components/Pagination/Snippets/WithArrow.vue")['default']
 export const RatingSnippetsDefault: typeof import("../components/Rating/Snippets/Default.vue")['default']
@@ -701,6 +803,26 @@ export const ServerPlaceholder: typeof import("../node_modules/nuxt/dist/app/com
 export const NuxtLink: typeof import("../node_modules/nuxt/dist/app/components/nuxt-link")['default']
 export const LazyFooter: typeof import("../components/Footer.vue")['default']
 export const LazyHeader: typeof import("../components/Header.vue")['default']
+export const LazyAccordionInfo: typeof import("../components/Accordion/AccordionInfo.vue")['default']
+export const LazyAccordionBorder: typeof import("../components/Accordion/Border.vue")['default']
+export const LazyAccordionBorderType2: typeof import("../components/Accordion/BorderType2.vue")['default']
+export const LazyAccordionGlass: typeof import("../components/Accordion/Glass.vue")['default']
+export const LazyAccordionIconFirst: typeof import("../components/Accordion/IconFirst.vue")['default']
+export const LazyAccordionList: typeof import("../components/Accordion/List.vue")['default']
+export const LazyAccordionListOpen: typeof import("../components/Accordion/ListOpen.vue")['default']
+export const LazyAccordionPlusFirst: typeof import("../components/Accordion/PlusFirst.vue")['default']
+export const LazyAccordionSimple: typeof import("../components/Accordion/Simple.vue")['default']
+export const LazyAccordionSpaced: typeof import("../components/Accordion/Spaced.vue")['default']
+export const LazyAccordionUserIcon: typeof import("../components/Accordion/UserIcon.vue")['default']
+export const LazyAccordionWithIcon: typeof import("../components/Accordion/WithIcon.vue")['default']
+export const LazyAlertInfo: typeof import("../components/Alert/AlertInfo.vue")['default']
+export const LazyAlertBorderLeft: typeof import("../components/Alert/BorderLeft.vue")['default']
+export const LazyAlertDefaultAlert: typeof import("../components/Alert/DefaultAlert.vue")['default']
+export const LazyAlertStateAlert: typeof import("../components/Alert/StateAlert.vue")['default']
+export const LazyAlertWithBorder: typeof import("../components/Alert/WithBorder.vue")['default']
+export const LazyAlertWithButton: typeof import("../components/Alert/WithButton.vue")['default']
+export const LazyAlertWithIcon: typeof import("../components/Alert/WithIcon.vue")['default']
+export const LazyAlertWithLink: typeof import("../components/Alert/WithLink.vue")['default']
 export const LazyAvatarBadge: typeof import("../components/Avatar/Badge.vue")['default']
 export const LazyAvatarCircle: typeof import("../components/Avatar/Circle.vue")['default']
 export const LazyAvatarColor: typeof import("../components/Avatar/Color.vue")['default']
@@ -714,14 +836,13 @@ export const LazyAvatarPresenceRing: typeof import("../components/Avatar/Presenc
 export const LazyAvatarShadow: typeof import("../components/Avatar/Shadow.vue")['default']
 export const LazyAvatarSize: typeof import("../components/Avatar/Size.vue")['default']
 export const LazyAvatarSquare: typeof import("../components/Avatar/Square.vue")['default']
-export const LazyAlertInfo: typeof import("../components/Alert/AlertInfo.vue")['default']
-export const LazyAlertBorderLeft: typeof import("../components/Alert/BorderLeft.vue")['default']
-export const LazyAlertDefaultAlert: typeof import("../components/Alert/DefaultAlert.vue")['default']
-export const LazyAlertStateAlert: typeof import("../components/Alert/StateAlert.vue")['default']
-export const LazyAlertWithBorder: typeof import("../components/Alert/WithBorder.vue")['default']
-export const LazyAlertWithButton: typeof import("../components/Alert/WithButton.vue")['default']
-export const LazyAlertWithIcon: typeof import("../components/Alert/WithIcon.vue")['default']
-export const LazyAlertWithLink: typeof import("../components/Alert/WithLink.vue")['default']
+export const LazyBreadCrumbAlignment: typeof import("../components/BreadCrumb/Alignment.vue")['default']
+export const LazyBreadCrumbArrow: typeof import("../components/BreadCrumb/Arrow.vue")['default']
+export const LazyBreadCrumbDefault: typeof import("../components/BreadCrumb/Default.vue")['default']
+export const LazyBreadCrumbIcon: typeof import("../components/BreadCrumb/Icon.vue")['default']
+export const LazyBreadCrumbOutline: typeof import("../components/BreadCrumb/Outline.vue")['default']
+export const LazyBreadCrumbSeparator: typeof import("../components/BreadCrumb/Separator.vue")['default']
+export const LazyBreadCrumbSolid: typeof import("../components/BreadCrumb/Solid.vue")['default']
 export const LazyBadgeCancel: typeof import("../components/Badge/Cancel.vue")['default']
 export const LazyBadgeDefault: typeof import("../components/Badge/Default.vue")['default']
 export const LazyBadgeIcon: typeof import("../components/Badge/Icon.vue")['default']
@@ -735,13 +856,6 @@ export const LazyBadgeRectangle: typeof import("../components/Badge/Rectangle.vu
 export const LazyBadgeSize: typeof import("../components/Badge/Size.vue")['default']
 export const LazyBadgeStateColor: typeof import("../components/Badge/StateColor.vue")['default']
 export const LazyBadgeText: typeof import("../components/Badge/Text.vue")['default']
-export const LazyBreadCrumbAlignment: typeof import("../components/BreadCrumb/Alignment.vue")['default']
-export const LazyBreadCrumbArrow: typeof import("../components/BreadCrumb/Arrow.vue")['default']
-export const LazyBreadCrumbDefault: typeof import("../components/BreadCrumb/Default.vue")['default']
-export const LazyBreadCrumbIcon: typeof import("../components/BreadCrumb/Icon.vue")['default']
-export const LazyBreadCrumbOutline: typeof import("../components/BreadCrumb/Outline.vue")['default']
-export const LazyBreadCrumbSeparator: typeof import("../components/BreadCrumb/Separator.vue")['default']
-export const LazyBreadCrumbSolid: typeof import("../components/BreadCrumb/Solid.vue")['default']
 export const LazyButtonAppsmith: typeof import("../components/Button/Appsmith.vue")['default']
 export const LazyButtonBlockButtons: typeof import("../components/Button/BlockButtons.vue")['default']
 export const LazyButtonInfo: typeof import("../components/Button/ButtonInfo.vue")['default']
@@ -758,10 +872,10 @@ export const LazyButtonGroupDefault: typeof import("../components/ButtonGroup/De
 export const LazyButtonGroupIcon: typeof import("../components/ButtonGroup/Icon.vue")['default']
 export const LazyButtonGroupOutline: typeof import("../components/ButtonGroup/Outline.vue")['default']
 export const LazyButtonGroupOutlineIcon: typeof import("../components/ButtonGroup/OutlineIcon.vue")['default']
+export const LazyCodeHighlight: typeof import("../components/CodeSnippet/CodeHighlight.vue")['default']
 export const LazyCardCta: typeof import("../components/Card/Cta.vue")['default']
 export const LazyCardDefault: typeof import("../components/Card/Default.vue")['default']
 export const LazyCardLink: typeof import("../components/Card/Link.vue")['default']
-export const LazyCodeHighlight: typeof import("../components/CodeSnippet/CodeHighlight.vue")['default']
 export const LazyDropdownDefault: typeof import("../components/Dropdown/Default.vue")['default']
 export const LazyDropdownDropDownInfo: typeof import("../components/Dropdown/DropDownInfo.vue")['default']
 export const LazyDropdownHeading: typeof import("../components/Dropdown/Heading.vue")['default']
@@ -781,6 +895,12 @@ export const LazyFormInfo: typeof import("../components/Form/FormInfo.vue")['def
 export const LazyHeadersHeading: typeof import("../components/Headers/Heading.vue")['default']
 export const LazyHeadersSubHeading: typeof import("../components/Headers/SubHeading.vue")['default']
 export const LazyHomePageFeatures: typeof import("../components/HomePage/Features.vue")['default']
+export const LazyNavbarCta: typeof import("../components/Navbar/Cta.vue")['default']
+export const LazyNavbarDefault: typeof import("../components/Navbar/Default.vue")['default']
+export const LazyNavbarDropdown: typeof import("../components/Navbar/Dropdown.vue")['default']
+export const LazyNavbarGumroad: typeof import("../components/Navbar/Gumroad.vue")['default']
+export const LazyNavbarInfo: typeof import("../components/Navbar/NavbarInfo.vue")['default']
+export const LazyNavbarSearch: typeof import("../components/Navbar/Search.vue")['default']
 export const LazyNavigationMenuItems: typeof import("../components/Navigation/MenuItems.js")['default']
 export const LazyPaginationDefault: typeof import("../components/Pagination/Default.vue")['default']
 export const LazyPaginationInfo: typeof import("../components/Pagination/PaginationInfo.vue")['default']
@@ -813,6 +933,24 @@ export const LazyUtilsCopyButton: typeof import("../components/Utils/CopyButton.
 export const LazyUtilsHideCodeButton: typeof import("../components/Utils/HideCodeButton.vue")['default']
 export const LazyUtilsShowCodeButton: typeof import("../components/Utils/ShowCodeButton.vue")['default']
 export const LazyUtilsToast: typeof import("../components/Utils/Toast.vue")['default']
+export const LazyAccordionSnippetsBorder: typeof import("../components/Accordion/Snippets/Border.vue")['default']
+export const LazyAccordionSnippetsBorderType2: typeof import("../components/Accordion/Snippets/BorderType2.vue")['default']
+export const LazyAccordionSnippetsGlass: typeof import("../components/Accordion/Snippets/Glass.vue")['default']
+export const LazyAccordionSnippetsIconFirst: typeof import("../components/Accordion/Snippets/IconFirst.vue")['default']
+export const LazyAccordionSnippetsList: typeof import("../components/Accordion/Snippets/List.vue")['default']
+export const LazyAccordionSnippetsListOpen: typeof import("../components/Accordion/Snippets/ListOpen.vue")['default']
+export const LazyAccordionSnippetsPlusFirst: typeof import("../components/Accordion/Snippets/PlusFirst.vue")['default']
+export const LazyAccordionSnippetsSimple: typeof import("../components/Accordion/Snippets/Simple.vue")['default']
+export const LazyAccordionSnippetsSpaced: typeof import("../components/Accordion/Snippets/Spaced.vue")['default']
+export const LazyAccordionSnippetsUserIcon: typeof import("../components/Accordion/Snippets/UserIcon.vue")['default']
+export const LazyAccordionSnippetsWithIcon: typeof import("../components/Accordion/Snippets/WithIcon.vue")['default']
+export const LazyAlertSnippetsBorderLeft: typeof import("../components/Alert/Snippets/BorderLeft.vue")['default']
+export const LazyAlertSnippetsDefaultAlert: typeof import("../components/Alert/Snippets/DefaultAlert.vue")['default']
+export const LazyAlertSnippetsStateAlert: typeof import("../components/Alert/Snippets/StateAlert.vue")['default']
+export const LazyAlertSnippetsWithBorder: typeof import("../components/Alert/Snippets/WithBorder.vue")['default']
+export const LazyAlertSnippetsWithButton: typeof import("../components/Alert/Snippets/WithButton.vue")['default']
+export const LazyAlertSnippetsWithIcon: typeof import("../components/Alert/Snippets/WithIcon.vue")['default']
+export const LazyAlertSnippetsWithLink: typeof import("../components/Alert/Snippets/WithLink.vue")['default']
 export const LazyAvatarSnippetsBadge: typeof import("../components/Avatar/Snippets/Badge.vue")['default']
 export const LazyAvatarSnippetsCircle: typeof import("../components/Avatar/Snippets/Circle.vue")['default']
 export const LazyAvatarSnippetsColor: typeof import("../components/Avatar/Snippets/Color.vue")['default']
@@ -826,13 +964,13 @@ export const LazyAvatarSnippetsPresenceRing: typeof import("../components/Avatar
 export const LazyAvatarSnippetsShadow: typeof import("../components/Avatar/Snippets/Shadow.vue")['default']
 export const LazyAvatarSnippetsSize: typeof import("../components/Avatar/Snippets/Size.vue")['default']
 export const LazyAvatarSnippetsSquare: typeof import("../components/Avatar/Snippets/Square.vue")['default']
-export const LazyAlertSnippetsBorderLeft: typeof import("../components/Alert/Snippets/BorderLeft.vue")['default']
-export const LazyAlertSnippetsDefaultAlert: typeof import("../components/Alert/Snippets/DefaultAlert.vue")['default']
-export const LazyAlertSnippetsStateAlert: typeof import("../components/Alert/Snippets/StateAlert.vue")['default']
-export const LazyAlertSnippetsWithBorder: typeof import("../components/Alert/Snippets/WithBorder.vue")['default']
-export const LazyAlertSnippetsWithButton: typeof import("../components/Alert/Snippets/WithButton.vue")['default']
-export const LazyAlertSnippetsWithIcon: typeof import("../components/Alert/Snippets/WithIcon.vue")['default']
-export const LazyAlertSnippetsWithLink: typeof import("../components/Alert/Snippets/WithLink.vue")['default']
+export const LazyBreadCrumbSnippetsAlignment: typeof import("../components/BreadCrumb/Snippets/Alignment.vue")['default']
+export const LazyBreadCrumbSnippetsArrow: typeof import("../components/BreadCrumb/Snippets/Arrow.vue")['default']
+export const LazyBreadCrumbSnippetsDefault: typeof import("../components/BreadCrumb/Snippets/Default.vue")['default']
+export const LazyBreadCrumbSnippetsIcon: typeof import("../components/BreadCrumb/Snippets/Icon.vue")['default']
+export const LazyBreadCrumbSnippetsOutline: typeof import("../components/BreadCrumb/Snippets/Outline.vue")['default']
+export const LazyBreadCrumbSnippetsSeparator: typeof import("../components/BreadCrumb/Snippets/Separator.vue")['default']
+export const LazyBreadCrumbSnippetsSolid: typeof import("../components/BreadCrumb/Snippets/Solid.vue")['default']
 export const LazyBadgeSnippetsCancel: typeof import("../components/Badge/Snippets/Cancel.vue")['default']
 export const LazyBadgeSnippetsDefault: typeof import("../components/Badge/Snippets/default.vue")['default']
 export const LazyBadgeSnippetsIcon: typeof import("../components/Badge/Snippets/Icon.vue")['default']
@@ -846,13 +984,6 @@ export const LazyBadgeSnippetsRectangle: typeof import("../components/Badge/Snip
 export const LazyBadgeSnippetsSize: typeof import("../components/Badge/Snippets/Size.vue")['default']
 export const LazyBadgeSnippetsStateColor: typeof import("../components/Badge/Snippets/StateColor.vue")['default']
 export const LazyBadgeSnippetsText: typeof import("../components/Badge/Snippets/Text.vue")['default']
-export const LazyBreadCrumbSnippetsAlignment: typeof import("../components/BreadCrumb/Snippets/Alignment.vue")['default']
-export const LazyBreadCrumbSnippetsArrow: typeof import("../components/BreadCrumb/Snippets/Arrow.vue")['default']
-export const LazyBreadCrumbSnippetsDefault: typeof import("../components/BreadCrumb/Snippets/Default.vue")['default']
-export const LazyBreadCrumbSnippetsIcon: typeof import("../components/BreadCrumb/Snippets/Icon.vue")['default']
-export const LazyBreadCrumbSnippetsOutline: typeof import("../components/BreadCrumb/Snippets/Outline.vue")['default']
-export const LazyBreadCrumbSnippetsSeparator: typeof import("../components/BreadCrumb/Snippets/Separator.vue")['default']
-export const LazyBreadCrumbSnippetsSolid: typeof import("../components/BreadCrumb/Snippets/Solid.vue")['default']
 export const LazyButtonSnippetsAppsmith: typeof import("../components/Button/Snippets/Appsmith.vue")['default']
 export const LazyButtonSnippetsBlockButtons: typeof import("../components/Button/Snippets/BlockButtons.vue")['default']
 export const LazyButtonSnippetsColoredShadow: typeof import("../components/Button/Snippets/ColoredShadow.vue")['default']
@@ -893,6 +1024,11 @@ export const LazyFooterSnippetsTwoRow: typeof import("../components/Footer/Snipp
 export const LazyFormSnippetsDefault: typeof import("../components/Form/Snippets/Default.vue")['default']
 export const LazyFormSnippetsElement: typeof import("../components/Form/Snippets/Element.vue")['default']
 export const LazyFormSnippetsFloatinglabel: typeof import("../components/Form/Snippets/Floatinglabel.vue")['default']
+export const LazyNavbarSnippetsCta: typeof import("../components/Navbar/Snippets/Cta.vue")['default']
+export const LazyNavbarSnippetsDefault: typeof import("../components/Navbar/Snippets/Default.vue")['default']
+export const LazyNavbarSnippetsDropdown: typeof import("../components/Navbar/Snippets/Dropdown.vue")['default']
+export const LazyNavbarSnippetsGumroad: typeof import("../components/Navbar/Snippets/Gumroad.vue")['default']
+export const LazyNavbarSnippetsSearch: typeof import("../components/Navbar/Snippets/Search.vue")['default']
 export const LazyPaginationSnippetsDefault: typeof import("../components/Pagination/Snippets/Default.vue")['default']
 export const LazyPaginationSnippetsWithArrow: typeof import("../components/Pagination/Snippets/WithArrow.vue")['default']
 export const LazyRatingSnippetsDefault: typeof import("../components/Rating/Snippets/Default.vue")['default']
