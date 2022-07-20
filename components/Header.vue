@@ -7,7 +7,7 @@
       <div class="flex space-x-4 w-full">
         <div class="flex justify-center items-center">
         </div>
-        <div class="font-semibold uppercase"> <nuxt-link to="/">
+        <div class="font-semibold uppercase flex"> <nuxt-link to="/">
          <span class="font-normal"> Air </span> components</nuxt-link>
         </div>
       </div>

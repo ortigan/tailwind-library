@@ -7,11 +7,11 @@
   </transition>
     <Header />
     <div class="dark:bg-[#121212] dark:text-gray-100 flex h-screen">
-      <div class="container h-screen">
+      <div class="px-4 md:container h-screen">
         <div class="flex w-full flex-col h-screen">
           <div class="flex w-full h-screen">
             <!-- sidebar left -->
-            <div class="w-44 flex flex-col h-screen overflow-y-hidden">
+            <div class="md:w-44 flex flex-col h-screen overflow-y-hidden">
               <div class="overflow-y-auto hidden md:block">
                 <div
                   class="flex flex-col text-base mt-6 space-y-1 text-slate-700 dark:text-gray-300"

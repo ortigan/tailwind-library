@@ -2,7 +2,7 @@
   <div :class="store.theme === 'light' ? 'light' : 'dark'" class="">
     <Header />
     <div class="dark:bg-[#121212] dark:text-gray-100 flex h-screen">
-      <div class="container h-screen">
+      <div class="px-2 md:container h-screen">
         <div class="flex w-full flex-col h-screen">
           <div class="flex w-full h-screen">
             <!-- Rest of the content -->

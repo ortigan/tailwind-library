@@ -3,7 +3,7 @@
     <span v-for="(item,index) in items" :key="index">
       <div
         role="alert"
-        :class="`p-4 text-sm ${item.textColor} ${item.bgColor} rounded-lg`"
+        :class="`p-4 text-xs md:text-sm ${item.textColor} ${item.bgColor} rounded-lg`"
       >
         <span class="font-medium">{{item.type}} alert!</span> A simple {{item.type}} alert message
       </div>

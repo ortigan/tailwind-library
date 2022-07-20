@@ -1,16 +1,15 @@
 <template>
   <NuxtLayout :name="layout">
-    <div class="flex p-4">
+    <div class="flex py-4 md:p-4">
       <!-- content -->
-      <div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar">
-        <div class="overflow-y-auto w-full px-4 pb-20" id="alertContainer">
+      <div class="flex pb-20 h-screen md:px-4 overflow-y-hidden scrollBar">
+        <div class="overflow-y-auto w-full md:px-4 pb-20" id="alertContainer">
           <HeadersHeading> Alert  </HeadersHeading>
           <div>
-            <p class="text-base">
+            <p class="text-sm md:text-base">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Molestias optio quam architecto culpa unde accusamus illo error
-              neque explicabo, numquam ut, qui eligendi magnam non quis fugiat
-              impedit dolore aliquam?
+              neque explicabo, numquam ut,
             </p>
           </div>
           <!-- Default alert -->
@@ -177,7 +176,7 @@
               </template>
             </HeadersSubHeading>
             <div class="pb-4">
-              <p>
+              <p class="text-sm md:text-base">
                 I have used
                 <a href="https://heroicons.com/" class="text-sky-700 dark:text-sky-500"
                   >heroicons</a
@@ -238,7 +237,7 @@
               </template>
             </HeadersSubHeading>
               <div class="pb-4">
-              <p>
+              <p class="text-sm md:text-base">
                 This component has a top border of 2px. You can always increase
                 border size and can change color as mentioned in above component
                 info.

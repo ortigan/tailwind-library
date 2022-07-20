@@ -1,7 +1,7 @@
 <template>
   <div class="w-full flex flex-col space-y-4">
     <span v-for="(item, index) in items" :key="index">
-      <div :class="`flex justify-between p-4 text-sm ${item.textColor} ${item.bgColor} rounded-lg`">
+      <div :class="`flex justify-between p-4 text-xs md:text-sm ${item.textColor} ${item.bgColor} rounded-lg`">
         <div
           role="alert"
           :class="``"
