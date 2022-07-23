@@ -2,7 +2,7 @@
   <div class="w-full">
     <span v-for="(item, index) in items" :key="index">
       <div
-        :class="`bg-white flex justify-between items-center px-4 py-3 rounded-lg text-gray-500 w-1/3 ${item.bgDivColor} mb-2`"
+        :class="`bg-white flex justify-between items-center px-4 py-3 rounded-lg text-gray-500 md:w-1/3 ${item.bgDivColor} mb-2`"
       >
         <div class="flex items-center space-x-2">
           <div :class="`p-1.5 ${item.bgcolor} ${item.iconcolor} rounded-lg`">

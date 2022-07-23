@@ -1,9 +1,9 @@
 <template>
   <NuxtLayout :name="layout">
-    <div class="flex p-4">
+    <div class="flex py-4 md:p-4">
       <!-- content -->
-      <div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar">
-        <div class="overflow-y-auto w-full px-4 pb-20" id="paginationContainer">
+      <div class="flex md:pb-20 h-full md:h-screen md:px-4 overflow-y-hidden scrollBar">
+        <div class="md:overflow-y-auto w-full md:px-4 md:pb-20" id="paginationContainer">
           <HeadersHeading> Pagination  </HeadersHeading>
           <div>
             <p class="text-base">

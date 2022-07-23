@@ -1,14 +1,6 @@
 <template>
-  <div class="
-      bg-slate-100 dark:bg-neutral-700
-      h-64
-      w-60
-      flex flex-col
-      items-center
-      space-y-4
-      justify-center
-      rounded-2xl
-    ">
+  <div class="w-full flex justify-start md:justify-center">
+    <div class="w-60 h-64 flex flex-col pt-8 bg-slate-100 dark:bg-neutral-700 space-y-4 items-center rounded-2xl">
     <div>
       <p class="font-medium text-5xl text-neutral-400 dark:text-neutral-500">4/5</p>
     </div>
@@ -23,6 +15,7 @@
       <p class="font-medium text-neutral-400 dark:text-neutral-500 text-center">
         This place's lasagna is the best
       </p>
+    </div>
     </div>
   </div>
 </template>

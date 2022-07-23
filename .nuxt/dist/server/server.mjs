@@ -1,34 +1,34 @@
 
 // --------------------
-// Request: G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/entry
+// Request: D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/entry
 // Parents: 
 // - <entry> ($id_c757eb9e)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/ohmyfetch/dist/index.mjs ($id_780217c4)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/paths.mjs ($id_2f93b0be)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/paths.mjs ($id_45a73e2c)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/css.mjs ($id_790bc42f)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/plugins/server.mjs ($id_80bc857d)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/root-component.mjs ($id_75efd87a)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/app-component.mjs ($id_70325738)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/css.mjs ($id_18c28846)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/plugins/server.mjs ($id_a2c7814b)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/root-component.mjs ($id_5821a4fb)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/app-component.mjs ($id_19f8c5c0)
 // --------------------
-const $id_55ca067f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_fb1a40bc = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/ohmyfetch/dist/index.mjs");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/paths.mjs");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/paths.mjs");
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/css.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/css.mjs");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/plugins/server.mjs");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/plugins/server.mjs");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/root-component.mjs");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/root-component.mjs");
 
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/app-component.mjs");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/app-component.mjs");
 
 if (!globalThis.$fetch) {
   globalThis.$fetch = __vite_ssr_import_1__.$fetch.create({
@@ -93,7 +93,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // --------------------
 // Request: /node_modules/vue/dist/vue.cjs.js
 // Parents: 
-// - G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/entry ($id_55ca067f)
+// - D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/entry ($id_fb1a40bc)
 // - /node_modules/nuxt/dist/app/nuxt.mjs ($id_e069d411)
 // - /node_modules/nuxt/dist/app/composables/component.mjs ($id_53345950)
 // - /node_modules/nuxt/dist/app/composables/asyncData.mjs ($id_d5b6a221)
@@ -103,7 +103,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt/dist/app/composables/cookie.mjs ($id_511b441d)
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_04ea9504)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/components.plugin.mjs ($id_df08b929)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/components.plugin.mjs ($id_50d79120)
 // - /node_modules/@vueuse/head/dist/index.mjs ($id_c032264e)
 // - /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs ($id_e6f12003)
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_a2650341)
@@ -114,7 +114,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt/dist/app/components/utils.mjs ($id_69c52686)
 // - /pages/About.vue?macro=true ($id_b79d0c53)
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/layouts.mjs ($id_21f18624)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/layouts.mjs ($id_ec7d1029)
 // - /components/Utils/Toast.vue ($id_1423e7ad)
 // - /components/Header.vue ($id_4e284fc3)
 // - /components/Footer.vue ($id_f3d8f325)
@@ -371,10 +371,10 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /pages/sidebar.vue ($id_1d8aa2b9)
 // - /pages/toast.vue ($id_0830445b)
 // - /pages/typography.vue ($id_b670e6ed)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/dist.plugin.a7948c32.mjs ($id_8479a5fe)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/dist.plugin.14633d17.mjs ($id_db5b3053)
 // - /node_modules/nuxt/dist/app/compat/capi.mjs ($id_0c5717a4)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs ($id_49d4941d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs ($id_e78a68e0)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
@@ -384,7 +384,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 
 // --------------------
 const $id_60f0615f = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/vue/dist/vue.cjs.js")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/vue/dist/vue.cjs.js")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -393,19 +393,19 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/vue/dist/vue.cjs.js\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/vue/dist/vue.cjs.js\".")
   })
 
 
 // --------------------
 // Request: /node_modules/ohmyfetch/dist/index.mjs
 // Parents: 
-// - G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/entry ($id_55ca067f)
+// - D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/entry ($id_fb1a40bc)
 // Dependencies: 
 
 // --------------------
 const $id_780217c4 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/ohmyfetch/dist/index.mjs")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/ohmyfetch/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -414,18 +414,18 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/ohmyfetch/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/ohmyfetch/dist/index.mjs\".")
   })
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/paths.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/paths.mjs
 // Parents: 
-// - G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/entry ($id_55ca067f)
+// - D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/entry ($id_fb1a40bc)
 // Dependencies: 
 // - /node_modules/ufo/dist/index.mjs ($id_614de060)
 // --------------------
-const $id_2f93b0be = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_45a73e2c = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/ufo/dist/index.mjs");
 
 const appConfig = {"head":{"charset":"utf-8","viewport":"width=device-width, initial-scale=1","meta":[],"link":[{"href":"https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/themes/prism-tomorrow.min.css","crossorigin":"anonymous","referrerpolicy":"no-referrer","rel":"stylesheet"}],"style":[],"script":[{"src":"https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/prism.min.js","data-manual":true},{"src":"https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/plugins/normalize-whitespace/prism-normalize-whitespace.min.js","data-manual":true}]},"baseURL":"/","buildAssetsDir":"/_nuxt/","assetsPath":{},"cdnURL":""}
@@ -446,7 +446,7 @@ Object.defineProperty(__vite_ssr_exports__, "publicAssetsURL", { enumerable: tru
 // --------------------
 // Request: /node_modules/ufo/dist/index.mjs
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/paths.mjs ($id_2f93b0be)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/paths.mjs ($id_45a73e2c)
 // - /node_modules/nuxt/dist/app/composables/router.mjs ($id_db4d90a8)
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
@@ -454,7 +454,7 @@ Object.defineProperty(__vite_ssr_exports__, "publicAssetsURL", { enumerable: tru
 
 // --------------------
 const $id_614de060 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/ufo/dist/index.mjs")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/ufo/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -463,14 +463,14 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/ufo/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/ufo/dist/index.mjs\".")
   })
 
 
 // --------------------
 // Request: /node_modules/nuxt/dist/app/index.mjs
 // Parents: 
-// - G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/entry ($id_55ca067f)
+// - D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/entry ($id_fb1a40bc)
 // - /node_modules/nuxt/dist/app/composables/asyncData.mjs ($id_d5b6a221)
 // - /node_modules/nuxt/dist/app/composables/hydrate.mjs ($id_0063df1b)
 // - /node_modules/nuxt/dist/app/composables/state.mjs ($id_7d872108)
@@ -487,7 +487,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs ($id_49d4941d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs ($id_e78a68e0)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/nuxt.mjs ($id_e069d411)
 // - /node_modules/nuxt/dist/app/composables/index.mjs ($id_b067a79a)
@@ -682,7 +682,7 @@ function defineGetter(obj, key, val) {
 
 // --------------------
 const $id_a2c811c4 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/hookable/dist/index.mjs")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/hookable/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -691,7 +691,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/hookable/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/hookable/dist/index.mjs\".")
   })
 
 
@@ -703,7 +703,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
 
 // --------------------
 const $id_a569ca2d = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/unctx/dist/index.mjs")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/unctx/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -712,7 +712,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/unctx/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/unctx/dist/index.mjs\".")
   })
 
 
@@ -844,7 +844,7 @@ Object.defineProperty(__vite_ssr_exports__, "legacyPlugin", { enumerable: true, 
 
 // --------------------
 const $id_39e12da7 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/unenv/runtime/mock/proxy.mjs")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/unenv/runtime/mock/proxy.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -853,7 +853,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/unenv/runtime/mock/proxy.mjs\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/unenv/runtime/mock/proxy.mjs\".")
   })
 
 
@@ -990,7 +990,7 @@ Object.defineProperty(__vite_ssr_exports__, "defineNuxtComponent", { enumerable:
 
 // --------------------
 const $id_f9a4a698 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/vue-router/dist/vue-router.cjs.js")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/vue-router/dist/vue-router.cjs.js")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -999,7 +999,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/vue-router/dist/vue-router.cjs.js\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/vue-router/dist/vue-router.cjs.js\".")
   })
 
 
@@ -1321,7 +1321,7 @@ Object.defineProperty(__vite_ssr_exports__, "useLazyFetch", { enumerable: true, 
 
 // --------------------
 const $id_b1b82cf3 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/ohash/dist/index.mjs")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/ohash/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1330,7 +1330,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/ohash/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/ohash/dist/index.mjs\".")
   })
 
 
@@ -1423,7 +1423,7 @@ function writeServerCookie(event, name, value, opts = {}) {
 
 // --------------------
 const $id_f4975261 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/cookie-es/dist/index.mjs")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/cookie-es/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1432,7 +1432,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/cookie-es/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/cookie-es/dist/index.mjs\".")
   })
 
 
@@ -1446,7 +1446,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
 
 // --------------------
 const $id_57d7ded6 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/h3/dist/index.mjs")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/h3/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1455,7 +1455,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/h3/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/h3/dist/index.mjs\".")
   })
 
 
@@ -1467,7 +1467,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
 
 // --------------------
 const $id_03d15ecd = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/destr/dist/index.mjs")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/destr/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1476,7 +1476,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/destr/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/destr/dist/index.mjs\".")
   })
 
 
@@ -1742,7 +1742,7 @@ __vite_ssr_exports__.default = defineNuxtLink({ componentName: "NuxtLink" });
 // Request: /node_modules/nuxt/dist/head/runtime/index.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs ($id_49d4941d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs ($id_e78a68e0)
 // Dependencies: 
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_04ea9504)
 // --------------------
@@ -1792,7 +1792,7 @@ Object.defineProperty(__vite_ssr_exports__, "useMeta", { enumerable: true, confi
 
 // --------------------
 const $id_852b06a2 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/@vue/shared/dist/shared.cjs.js")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/@vue/shared/dist/shared.cjs.js")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1801,18 +1801,18 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/@vue/shared/dist/shared.cjs.js\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/@vue/shared/dist/shared.cjs.js\".")
   })
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/css.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/css.mjs
 // Parents: 
-// - G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/entry ($id_55ca067f)
+// - D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/entry ($id_fb1a40bc)
 // Dependencies: 
 // - /assets/css/tailwind.css ($id_f75548e1)
 // --------------------
-const $id_790bc42f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_18c28846 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.css");
 ;
 }
@@ -1821,31 +1821,35 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.cs
 // --------------------
 // Request: /assets/css/tailwind.css
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/css.mjs ($id_790bc42f)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/css.mjs ($id_18c28846)
 // Dependencies: 
 
 // --------------------
 const $id_f75548e1 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+<<<<<<< HEAD
 __vite_ssr_exports__.default = "@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap\");\n/*! tailwindcss v3.1.6 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[multiple],[type=date],[type=datetime-local],[type=email],[type=month],[type=number],[type=password],[type=search],[type=tel],[type=text],[type=time],[type=url],[type=week],select,textarea{--tw-shadow:0 0 #0000;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;border-color:#6b7280;border-radius:0;border-width:1px;font-size:1rem;line-height:1.5rem;padding:.5rem .75rem}[multiple]:focus,[type=date]:focus,[type=datetime-local]:focus,[type=email]:focus,[type=month]:focus,[type=number]:focus,[type=password]:focus,[type=search]:focus,[type=tel]:focus,[type=text]:focus,[type=time]:focus,[type=url]:focus,[type=week]:focus,select:focus,textarea:focus{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);border-color:#2563eb;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);outline:2px solid transparent;outline-offset:2px}input::-moz-placeholder,textarea::-moz-placeholder{color:#6b7280;opacity:1}input::placeholder,textarea::placeholder{color:#6b7280;opacity:1}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-date-and-time-value{min-height:1.5em}::-webkit-datetime-edit,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-meridiem-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-year-field{padding-bottom:0;padding-top:0}select{color-adjust:exact;background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3E%3C/svg%3E\");background-position:right .5rem center;background-repeat:no-repeat;background-size:1.5em 1.5em;padding-right:2.5rem;-webkit-print-color-adjust:exact;print-color-adjust:exact}[multiple]{color-adjust:unset;background-image:none;background-position:0 0;background-repeat:unset;background-size:initial;padding-right:.75rem;-webkit-print-color-adjust:unset;print-color-adjust:unset}[type=checkbox],[type=radio]{color-adjust:exact;--tw-shadow:0 0 #0000;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;background-origin:border-box;border-color:#6b7280;border-width:1px;color:#2563eb;display:inline-block;flex-shrink:0;height:1rem;padding:0;-webkit-print-color-adjust:exact;print-color-adjust:exact;-webkit-user-select:none;-moz-user-select:none;user-select:none;vertical-align:middle;width:1rem}[type=checkbox]{border-radius:0}[type=radio]{border-radius:100%}[type=checkbox]:focus,[type=radio]:focus{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:2px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);outline:2px solid transparent;outline-offset:2px}[type=checkbox]:checked,[type=radio]:checked{background-color:currentColor;background-position:50%;background-repeat:no-repeat;background-size:100% 100%;border-color:transparent}[type=checkbox]:checked{background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.207 4.793a1 1 0 0 1 0 1.414l-5 5a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L6.5 9.086l4.293-4.293a1 1 0 0 1 1.414 0z'/%3E%3C/svg%3E\")}[type=radio]:checked{background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='8' cy='8' r='3'/%3E%3C/svg%3E\")}[type=checkbox]:checked:focus,[type=checkbox]:checked:hover,[type=radio]:checked:focus,[type=radio]:checked:hover{background-color:currentColor;border-color:transparent}[type=checkbox]:indeterminate{background-color:currentColor;background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3E%3Cpath stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3E%3C/svg%3E\");background-position:50%;background-repeat:no-repeat;background-size:100% 100%;border-color:transparent}[type=checkbox]:indeterminate:focus,[type=checkbox]:indeterminate:hover{background-color:currentColor;border-color:transparent}[type=file]{background:unset;border-color:inherit;border-radius:0;border-width:0;font-size:unset;line-height:inherit;padding:0}[type=file]:focus{outline:1px solid ButtonText;outline:1px auto -webkit-focus-ring-color}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.top-0{top:0}.top-4{top:1rem}.right-4{right:1rem}.-left-2{left:-.5rem}.-top-2{top:-.5rem}.-right-2{right:-.5rem}.-bottom-2{bottom:-.5rem}.-right-1{right:-.25rem}.-bottom-1{bottom:-.25rem}.-right-3{right:-.75rem}.right-0{right:0}.bottom-0{bottom:0}.-right-0{right:0}.-top-0{top:0}.-bottom-0{bottom:0}.-top-1{top:-.25rem}.-top-3{top:-.75rem}.left-0{left:0}.left-3{left:.75rem}.-top-20{top:-5rem}.-top-8{top:-2rem}.z-10{z-index:10}.z-40{z-index:40}.z-20{z-index:20}.col-span-2{grid-column:span 2/span 2}.-my-10{margin-bottom:-2.5rem;margin-top:-2.5rem}.my-4{margin-bottom:1rem;margin-top:1rem}.mb-6{margin-bottom:1.5rem}.mr-4{margin-right:1rem}.mt-20{margin-top:5rem}.mt-6{margin-top:1.5rem}.mt-4{margin-top:1rem}.mt-32{margin-top:8rem}.mt-10{margin-top:2.5rem}.mt-40{margin-top:10rem}.ml-2{margin-left:.5rem}.ml-1{margin-left:.25rem}.mr-1{margin-right:.25rem}.mr-2{margin-right:.5rem}.mb-2{margin-bottom:.5rem}.mt-2{margin-top:.5rem}.ml-4{margin-left:1rem}.mb-1{margin-bottom:.25rem}.mt-12{margin-top:3rem}.mt-1{margin-top:.25rem}.-ml-20{margin-left:-5rem}.mt-8{margin-top:2rem}.mt-28{margin-top:7rem}.-mb-40{margin-bottom:-10rem}.-mb-16{margin-bottom:-4rem}.block{display:block}.flex{display:flex}.inline-flex{display:inline-flex}.table{display:table}.grid{display:grid}.contents{display:contents}.hidden{display:none}.h-28{height:7rem}.h-6{height:1.5rem}.h-16{height:4rem}.h-screen{height:100vh}.h-2{height:.5rem}.h-5{height:1.25rem}.h-4{height:1rem}.h-10{height:2.5rem}.h-full{height:100%}.h-9{height:2.25rem}.h-3{height:.75rem}.h-8{height:2rem}.h-2\\.5{height:.625rem}.h-12{height:3rem}.h-14{height:3.5rem}.h-3\\.5{height:.875rem}.h-20{height:5rem}.h-11{height:2.75rem}.h-1\\.5{height:.375rem}.h-1{height:.25rem}.h-48{height:12rem}.h-7{height:1.75rem}.h-1\\/2{height:50%}.h-36{height:9rem}.h-64{height:16rem}.h-96{height:24rem}.h-1\\/3{height:33.333333%}.h-24{height:6rem}.h-40{height:10rem}.min-h-screen{min-height:100vh}.w-full{width:100%}.w-56{width:14rem}.w-6{width:1.5rem}.w-40{width:10rem}.w-2{width:.5rem}.w-fit{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.w-5{width:1.25rem}.w-4{width:1rem}.w-10{width:2.5rem}.w-9{width:2.25rem}.w-3{width:.75rem}.w-8{width:2rem}.w-2\\.5{width:.625rem}.w-12{width:3rem}.w-14{width:3.5rem}.w-3\\.5{width:.875rem}.w-16{width:4rem}.w-20{width:5rem}.w-1\\/3{width:33.333333%}.w-11{width:2.75rem}.w-1\\.5{width:.375rem}.w-1{width:.25rem}.w-3\\/4{width:75%}.w-24{width:6rem}.w-28{width:7rem}.w-7{width:1.75rem}.w-1\\/2{width:50%}.w-2\\/3{width:66.666667%}.w-1\\/4{width:25%}.w-36{width:9rem}.w-96{width:24rem}.w-72{width:18rem}.w-60{width:15rem}.w-64{width:16rem}.w-80{width:20rem}.flex-1{flex:1 1 0%}.-translate-y-12{--tw-translate-y:-3rem}.-translate-y-12,.-translate-y-20{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-translate-y-20{--tw-translate-y:-5rem}.-translate-y-5{--tw-translate-y:-1.25rem}.-translate-y-5,.rotate-2{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.rotate-2{--tw-rotate:2deg}.rotate-180{--tw-rotate:180deg}.-rotate-90,.rotate-180{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-rotate-90{--tw-rotate:-90deg}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.cursor-text{cursor:text}.grid-flow-row{grid-auto-flow:row}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.justify-around{justify-content:space-around}.gap-3{gap:.75rem}.gap-1{gap:.25rem}.gap-2{gap:.5rem}.gap-4{gap:1rem}.gap-y-6{row-gap:1.5rem}.gap-y-8{row-gap:2rem}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.5rem*var(--tw-space-y-reverse));margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)))}.space-x-5>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.25rem*var(--tw-space-x-reverse))}.space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.5rem*var(--tw-space-x-reverse))}.space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.25rem*var(--tw-space-y-reverse));margin-top:calc(.25rem*(1 - var(--tw-space-y-reverse)))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1rem*var(--tw-space-y-reverse));margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.75rem*var(--tw-space-y-reverse));margin-top:calc(.75rem*(1 - var(--tw-space-y-reverse)))}.space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1rem*var(--tw-space-x-reverse))}.space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.5rem*var(--tw-space-x-reverse))}.space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1.5rem*var(--tw-space-y-reverse));margin-top:calc(1.5rem*(1 - var(--tw-space-y-reverse)))}.-space-x-3>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(-.75rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(-.75rem*var(--tw-space-x-reverse))}.space-x-1>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.25rem*var(--tw-space-x-reverse))}.-space-x-px>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(-1px*(1 - var(--tw-space-x-reverse)));margin-right:calc(-1px*var(--tw-space-x-reverse))}.-space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(-.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(-.5rem*var(--tw-space-x-reverse))}.-space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(-.25rem*var(--tw-space-y-reverse));margin-top:calc(-.25rem*(1 - var(--tw-space-y-reverse)))}.divide-y>:not([hidden])~:not([hidden]){--tw-divide-y-reverse:0;border-bottom-width:calc(1px*var(--tw-divide-y-reverse));border-top-width:calc(1px*(1 - var(--tw-divide-y-reverse)))}.divide-gray-700>:not([hidden])~:not([hidden]){--tw-divide-opacity:1;border-color:rgb(55 65 81/var(--tw-divide-opacity))}.divide-neutral-700>:not([hidden])~:not([hidden]){--tw-divide-opacity:1;border-color:rgb(64 64 64/var(--tw-divide-opacity))}.overflow-hidden{overflow:hidden}.overflow-y-auto{overflow-y:auto}.overflow-x-hidden{overflow-x:hidden}.overflow-y-hidden{overflow-y:hidden}.rounded-lg{border-radius:.5rem}.rounded{border-radius:.25rem}.rounded-md{border-radius:.375rem}.rounded-full{border-radius:9999px}.rounded-2xl{border-radius:1rem}.rounded-sm{border-radius:.125rem}.rounded-xl{border-radius:.75rem}.rounded-3xl{border-radius:1.5rem}.rounded-l-lg{border-bottom-left-radius:.5rem;border-top-left-radius:.5rem}.rounded-r-lg{border-bottom-right-radius:.5rem;border-top-right-radius:.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-0{border-width:0}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-l-2{border-left-width:2px}.border-t-2{border-top-width:2px}.border-b-2{border-bottom-width:2px}.border-dashed{border-style:dashed}.border-neutral-700{--tw-border-opacity:1;border-color:rgb(64 64 64/var(--tw-border-opacity))}.border-zinc-900{--tw-border-opacity:1;border-color:rgb(24 24 27/var(--tw-border-opacity))}.border-\\[\\#0A0C25\\]{--tw-border-opacity:1;border-color:rgb(10 12 37/var(--tw-border-opacity))}.border-gray-900{--tw-border-opacity:1;border-color:rgb(17 24 39/var(--tw-border-opacity))}.border-black{--tw-border-opacity:1;border-color:rgb(0 0 0/var(--tw-border-opacity))}.border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81/var(--tw-border-opacity))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219/var(--tw-border-opacity))}.border-sky-700{--tw-border-opacity:1;border-color:rgb(3 105 161/var(--tw-border-opacity))}.border-emerald-700{--tw-border-opacity:1;border-color:rgb(4 120 87/var(--tw-border-opacity))}.border-amber-700{--tw-border-opacity:1;border-color:rgb(180 83 9/var(--tw-border-opacity))}.border-rose-700{--tw-border-opacity:1;border-color:rgb(190 18 60/var(--tw-border-opacity))}.border-slate-900{--tw-border-opacity:1;border-color:rgb(15 23 42/var(--tw-border-opacity))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255/var(--tw-border-opacity))}.border-gray-400{--tw-border-opacity:1;border-color:rgb(156 163 175/var(--tw-border-opacity))}.border-cyan-500{--tw-border-opacity:1;border-color:rgb(6 182 212/var(--tw-border-opacity))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235/var(--tw-border-opacity))}.border-sky-600{--tw-border-opacity:1;border-color:rgb(2 132 199/var(--tw-border-opacity))}.border-emerald-600{--tw-border-opacity:1;border-color:rgb(5 150 105/var(--tw-border-opacity))}.border-amber-600{--tw-border-opacity:1;border-color:rgb(217 119 6/var(--tw-border-opacity))}.border-rose-600{--tw-border-opacity:1;border-color:rgb(225 29 72/var(--tw-border-opacity))}.border-gray-600{--tw-border-opacity:1;border-color:rgb(75 85 99/var(--tw-border-opacity))}.border-pink-500{--tw-border-opacity:1;border-color:rgb(236 72 153/var(--tw-border-opacity))}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246/var(--tw-border-opacity))}.border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55/var(--tw-border-opacity))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240/var(--tw-border-opacity))}.border-slate-600{--tw-border-opacity:1;border-color:rgb(71 85 105/var(--tw-border-opacity))}.border-green-200{--tw-border-opacity:1;border-color:rgb(187 247 208/var(--tw-border-opacity))}.border-sky-200{--tw-border-opacity:1;border-color:rgb(186 230 253/var(--tw-border-opacity))}.border-yellow-200{--tw-border-opacity:1;border-color:rgb(254 240 138/var(--tw-border-opacity))}.border-red-200{--tw-border-opacity:1;border-color:rgb(254 202 202/var(--tw-border-opacity))}.border-cyan-800{--tw-border-opacity:1;border-color:rgb(21 94 117/var(--tw-border-opacity))}.border-b-gray-300{--tw-border-opacity:1;border-bottom-color:rgb(209 213 219/var(--tw-border-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.bg-red-100{--tw-bg-opacity:1;background-color:rgb(254 226 226/var(--tw-bg-opacity))}.bg-neutral-50{--tw-bg-opacity:1;background-color:rgb(250 250 250/var(--tw-bg-opacity))}.bg-\\[\\#0A0C25\\]{--tw-bg-opacity:1;background-color:rgb(10 12 37/var(--tw-bg-opacity))}.bg-sky-200{--tw-bg-opacity:1;background-color:rgb(186 230 253/var(--tw-bg-opacity))}.bg-sky-300{--tw-bg-opacity:1;background-color:rgb(125 211 252/var(--tw-bg-opacity))}.bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.bg-gray-600{--tw-bg-opacity:1;background-color:rgb(75 85 99/var(--tw-bg-opacity))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity))}.bg-gray-200{--tw-bg-opacity:1;background-color:rgb(229 231 235/var(--tw-bg-opacity))}.bg-sky-100{--tw-bg-opacity:1;background-color:rgb(224 242 254/var(--tw-bg-opacity))}.bg-zinc-100{--tw-bg-opacity:1;background-color:rgb(244 244 245/var(--tw-bg-opacity))}.bg-gray-300{--tw-bg-opacity:1;background-color:rgb(209 213 219/var(--tw-bg-opacity))}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229/var(--tw-bg-opacity))}.bg-amber-100{--tw-bg-opacity:1;background-color:rgb(254 243 199/var(--tw-bg-opacity))}.bg-rose-100{--tw-bg-opacity:1;background-color:rgb(255 228 230/var(--tw-bg-opacity))}.bg-yellow-400{--tw-bg-opacity:1;background-color:rgb(250 204 21/var(--tw-bg-opacity))}.bg-cyan-600{--tw-bg-opacity:1;background-color:rgb(8 145 178/var(--tw-bg-opacity))}.bg-violet-500{--tw-bg-opacity:1;background-color:rgb(139 92 246/var(--tw-bg-opacity))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254/var(--tw-bg-opacity))}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246/var(--tw-bg-opacity))}.bg-pink-300{--tw-bg-opacity:1;background-color:rgb(249 168 212/var(--tw-bg-opacity))}.bg-rose-500{--tw-bg-opacity:1;background-color:rgb(244 63 94/var(--tw-bg-opacity))}.bg-gray-500{--tw-bg-opacity:1;background-color:rgb(107 114 128/var(--tw-bg-opacity))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94/var(--tw-bg-opacity))}.bg-cyan-500{--tw-bg-opacity:1;background-color:rgb(6 182 212/var(--tw-bg-opacity))}.bg-yellow-500{--tw-bg-opacity:1;background-color:rgb(234 179 8/var(--tw-bg-opacity))}.bg-green-400{--tw-bg-opacity:1;background-color:rgb(74 222 128/var(--tw-bg-opacity))}.bg-purple-400{--tw-bg-opacity:1;background-color:rgb(192 132 252/var(--tw-bg-opacity))}.bg-indigo-300{--tw-bg-opacity:1;background-color:rgb(165 180 252/var(--tw-bg-opacity))}.bg-red-400{--tw-bg-opacity:1;background-color:rgb(248 113 113/var(--tw-bg-opacity))}.bg-fuchsia-600{--tw-bg-opacity:1;background-color:rgb(192 38 211/var(--tw-bg-opacity))}.bg-sky-400{--tw-bg-opacity:1;background-color:rgb(56 189 248/var(--tw-bg-opacity))}.bg-amber-400{--tw-bg-opacity:1;background-color:rgb(251 191 36/var(--tw-bg-opacity))}.bg-teal-400{--tw-bg-opacity:1;background-color:rgb(45 212 191/var(--tw-bg-opacity))}.bg-red-500{--tw-bg-opacity:1;background-color:rgb(239 68 68/var(--tw-bg-opacity))}.bg-yellow-200{--tw-bg-opacity:1;background-color:rgb(254 240 138/var(--tw-bg-opacity))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity))}.bg-gray-400{--tw-bg-opacity:1;background-color:rgb(156 163 175/var(--tw-bg-opacity))}.bg-blue-400{--tw-bg-opacity:1;background-color:rgb(96 165 250/var(--tw-bg-opacity))}.bg-teal-300{--tw-bg-opacity:1;background-color:rgb(94 234 212/var(--tw-bg-opacity))}.bg-emerald-400{--tw-bg-opacity:1;background-color:rgb(52 211 153/var(--tw-bg-opacity))}.bg-amber-300{--tw-bg-opacity:1;background-color:rgb(252 211 77/var(--tw-bg-opacity))}.bg-rose-300{--tw-bg-opacity:1;background-color:rgb(253 164 175/var(--tw-bg-opacity))}.bg-red-300{--tw-bg-opacity:1;background-color:rgb(252 165 165/var(--tw-bg-opacity))}.bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.bg-yellow-100{--tw-bg-opacity:1;background-color:rgb(254 249 195/var(--tw-bg-opacity))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity))}.bg-\\[\\#ff6d2d\\]{--tw-bg-opacity:1;background-color:rgb(255 109 45/var(--tw-bg-opacity))}.bg-slate-600{--tw-bg-opacity:1;background-color:rgb(71 85 105/var(--tw-bg-opacity))}.bg-zinc-600{--tw-bg-opacity:1;background-color:rgb(82 82 91/var(--tw-bg-opacity))}.bg-neutral-600{--tw-bg-opacity:1;background-color:rgb(82 82 82/var(--tw-bg-opacity))}.bg-stone-600{--tw-bg-opacity:1;background-color:rgb(87 83 78/var(--tw-bg-opacity))}.bg-red-600{--tw-bg-opacity:1;background-color:rgb(220 38 38/var(--tw-bg-opacity))}.bg-orange-600{--tw-bg-opacity:1;background-color:rgb(234 88 12/var(--tw-bg-opacity))}.bg-amber-600{--tw-bg-opacity:1;background-color:rgb(217 119 6/var(--tw-bg-opacity))}.bg-yellow-600{--tw-bg-opacity:1;background-color:rgb(202 138 4/var(--tw-bg-opacity))}.bg-lime-600{--tw-bg-opacity:1;background-color:rgb(101 163 13/var(--tw-bg-opacity))}.bg-green-600{--tw-bg-opacity:1;background-color:rgb(22 163 74/var(--tw-bg-opacity))}.bg-emerald-600{--tw-bg-opacity:1;background-color:rgb(5 150 105/var(--tw-bg-opacity))}.bg-teal-600{--tw-bg-opacity:1;background-color:rgb(13 148 136/var(--tw-bg-opacity))}.bg-sky-600{--tw-bg-opacity:1;background-color:rgb(2 132 199/var(--tw-bg-opacity))}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235/var(--tw-bg-opacity))}.bg-indigo-600{--tw-bg-opacity:1;background-color:rgb(79 70 229/var(--tw-bg-opacity))}.bg-violet-600{--tw-bg-opacity:1;background-color:rgb(124 58 237/var(--tw-bg-opacity))}.bg-pink-600{--tw-bg-opacity:1;background-color:rgb(219 39 119/var(--tw-bg-opacity))}.bg-rose-600{--tw-bg-opacity:1;background-color:rgb(225 29 72/var(--tw-bg-opacity))}.bg-slate-400{--tw-bg-opacity:1;background-color:rgb(148 163 184/var(--tw-bg-opacity))}.bg-zinc-400{--tw-bg-opacity:1;background-color:rgb(161 161 170/var(--tw-bg-opacity))}.bg-neutral-400{--tw-bg-opacity:1;background-color:rgb(163 163 163/var(--tw-bg-opacity))}.bg-stone-400{--tw-bg-opacity:1;background-color:rgb(168 162 158/var(--tw-bg-opacity))}.bg-orange-400{--tw-bg-opacity:1;background-color:rgb(251 146 60/var(--tw-bg-opacity))}.bg-yellow-300{--tw-bg-opacity:1;background-color:rgb(253 224 71/var(--tw-bg-opacity))}.bg-lime-400{--tw-bg-opacity:1;background-color:rgb(163 230 53/var(--tw-bg-opacity))}.bg-cyan-400{--tw-bg-opacity:1;background-color:rgb(34 211 238/var(--tw-bg-opacity))}.bg-indigo-400{--tw-bg-opacity:1;background-color:rgb(129 140 248/var(--tw-bg-opacity))}.bg-violet-400{--tw-bg-opacity:1;background-color:rgb(167 139 250/var(--tw-bg-opacity))}.bg-fuchsia-400{--tw-bg-opacity:1;background-color:rgb(232 121 249/var(--tw-bg-opacity))}.bg-pink-400{--tw-bg-opacity:1;background-color:rgb(244 114 182/var(--tw-bg-opacity))}.bg-rose-400{--tw-bg-opacity:1;background-color:rgb(251 113 133/var(--tw-bg-opacity))}.bg-zinc-50{--tw-bg-opacity:1;background-color:rgb(250 250 250/var(--tw-bg-opacity))}.bg-slate-300{--tw-bg-opacity:1;background-color:rgb(203 213 225/var(--tw-bg-opacity))}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240/var(--tw-bg-opacity))}.bg-neutral-100{--tw-bg-opacity:1;background-color:rgb(245 245 245/var(--tw-bg-opacity))}.bg-\\[\\#FAF5ED\\]{--tw-bg-opacity:1;background-color:rgb(250 245 237/var(--tw-bg-opacity))}.bg-sky-500{--tw-bg-opacity:1;background-color:rgb(14 165 233/var(--tw-bg-opacity))}.bg-blue-50{--tw-bg-opacity:1;background-color:rgb(239 246 255/var(--tw-bg-opacity))}.bg-neutral-700{--tw-bg-opacity:1;background-color:rgb(64 64 64/var(--tw-bg-opacity))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249/var(--tw-bg-opacity))}.bg-green-100{--tw-bg-opacity:1;background-color:rgb(220 252 231/var(--tw-bg-opacity))}.bg-black\\/70{background-color:rgba(0,0,0,.7)}.bg-indigo-200{--tw-bg-opacity:1;background-color:rgb(199 210 254/var(--tw-bg-opacity))}.bg-cyan-800{--tw-bg-opacity:1;background-color:rgb(21 94 117/var(--tw-bg-opacity))}.bg-opacity-70{--tw-bg-opacity:0.7}.bg-opacity-90{--tw-bg-opacity:0.9}.bg-gradient-to-br{background-image:linear-gradient(to bottom right,var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.from-sky-400{--tw-gradient-from:#38bdf8;--tw-gradient-to:rgba(56,189,248,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-rose-400{--tw-gradient-from:#fb7185;--tw-gradient-to:rgba(251,113,133,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-emerald-400{--tw-gradient-from:#34d399;--tw-gradient-to:rgba(52,211,153,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-amber-400{--tw-gradient-from:#fbbf24;--tw-gradient-to:rgba(251,191,36,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-fuchsia-400{--tw-gradient-from:#e879f9;--tw-gradient-to:rgba(232,121,249,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-blue-500{--tw-gradient-from:#3b82f6;--tw-gradient-to:rgba(59,130,246,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-pink-600{--tw-gradient-from:#db2777;--tw-gradient-to:rgba(219,39,119,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-neutral-200{--tw-gradient-from:#e5e5e5;--tw-gradient-to:hsla(0,0%,90%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-red-300{--tw-gradient-from:#fca5a5;--tw-gradient-to:hsla(0,94%,82%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.via-sky-500{--tw-gradient-to:rgba(14,165,233,0);--tw-gradient-stops:var(--tw-gradient-from),#0ea5e9,var(--tw-gradient-to)}.via-rose-500{--tw-gradient-to:rgba(244,63,94,0);--tw-gradient-stops:var(--tw-gradient-from),#f43f5e,var(--tw-gradient-to)}.via-emerald-500{--tw-gradient-to:rgba(16,185,129,0);--tw-gradient-stops:var(--tw-gradient-from),#10b981,var(--tw-gradient-to)}.via-amber-500{--tw-gradient-to:rgba(245,158,11,0);--tw-gradient-stops:var(--tw-gradient-from),#f59e0b,var(--tw-gradient-to)}.via-fuchsia-500{--tw-gradient-to:rgba(217,70,239,0);--tw-gradient-stops:var(--tw-gradient-from),#d946ef,var(--tw-gradient-to)}.via-purple-400{--tw-gradient-to:rgba(192,132,252,0);--tw-gradient-stops:var(--tw-gradient-from),#c084fc,var(--tw-gradient-to)}.to-sky-600{--tw-gradient-to:#0284c7}.to-rose-600{--tw-gradient-to:#e11d48}.to-emerald-600{--tw-gradient-to:#059669}.to-amber-600{--tw-gradient-to:#d97706}.to-fuchsia-600{--tw-gradient-to:#c026d3}.to-sky-300{--tw-gradient-to:#7dd3fc}.to-indigo-300{--tw-gradient-to:#a5b4fc}.to-teal-400{--tw-gradient-to:#2dd4bf}.to-rose-500{--tw-gradient-to:#f43f5e}.bg-clip-padding{background-clip:padding-box}.object-cover{-o-object-fit:cover;object-fit:cover}.p-3{padding:.75rem}.p-4{padding:1rem}.p-0\\.5{padding:.125rem}.p-0{padding:0}.p-2{padding:.5rem}.p-6{padding:1.5rem}.p-1\\.5{padding:.375rem}.p-1{padding:.25rem}.px-4{padding-left:1rem;padding-right:1rem}.py-5{padding-bottom:1.25rem;padding-top:1.25rem}.px-2{padding-left:.5rem;padding-right:.5rem}.py-1{padding-bottom:.25rem;padding-top:.25rem}.py-4{padding-bottom:1rem;padding-top:1rem}.py-2{padding-bottom:.5rem;padding-top:.5rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-1{padding-left:.25rem;padding-right:.25rem}.px-0\\.5{padding-left:.125rem;padding-right:.125rem}.px-0{padding-left:0;padding-right:0}.px-3{padding-left:.75rem;padding-right:.75rem}.py-0\\.5{padding-bottom:.125rem;padding-top:.125rem}.py-0{padding-bottom:0;padding-top:0}.px-2\\.5{padding-left:.625rem;padding-right:.625rem}.px-1\\.5{padding-left:.375rem;padding-right:.375rem}.py-3{padding-bottom:.75rem;padding-top:.75rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-3\\.5{padding-bottom:.875rem;padding-top:.875rem}.py-1\\.5{padding-bottom:.375rem;padding-top:.375rem}.px-7{padding-left:1.75rem;padding-right:1.75rem}.px-9{padding-left:2.25rem;padding-right:2.25rem}.py-6{padding-bottom:1.5rem;padding-top:1.5rem}.py-8{padding-bottom:2rem;padding-top:2rem}.py-20{padding-bottom:5rem;padding-top:5rem}.py-2\\.5{padding-bottom:.625rem;padding-top:.625rem}.pt-6{padding-top:1.5rem}.pt-2{padding-top:.5rem}.pb-4{padding-bottom:1rem}.pb-20{padding-bottom:5rem}.pt-1{padding-top:.25rem}.pl-1{padding-left:.25rem}.pl-10{padding-left:2.5rem}.pt-10{padding-top:2.5rem}.pl-6{padding-left:1.5rem}.pt-4{padding-top:1rem}.pl-8{padding-left:2rem}.pb-6{padding-bottom:1.5rem}.pt-8{padding-top:2rem}.pb-3{padding-bottom:.75rem}.text-center{text-align:center}.text-right{text-align:right}.font-primary{font-family:Inter}.text-xs{font-size:.75rem}.text-tiny{font-size:.875rem}.text-xxs{font-size:.7rem}.text-base{font-size:1rem}.text-sm{font-size:.875rem}.text-2xl{font-size:1.5rem}.text-xl{font-size:1.25rem}.text-lg{font-size:1.125rem}.text-3xl{font-size:1.875rem}.text-5xl{font-size:3rem}.text-4xl{font-size:2.25rem}.text-6xl{font-size:4rem}.font-normal{font-weight:400}.font-light{font-weight:300}.font-semibold{font-weight:600}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-thin{font-weight:100}.font-extralight{font-weight:200}.font-extrabold{font-weight:800}.font-black{font-weight:900}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-tight{line-height:1.25}.tracking-wide{letter-spacing:.025em}.tracking-wider{letter-spacing:.05em}.tracking-tight{letter-spacing:-.025em}.tracking-tighter{letter-spacing:-.05em}.tracking-normal{letter-spacing:0}.tracking-widest{letter-spacing:.1em}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85/var(--tw-text-opacity))}.text-sky-700{--tw-text-opacity:1;color:rgb(3 105 161/var(--tw-text-opacity))}.text-sky-900{--tw-text-opacity:1;color:rgb(12 74 110/var(--tw-text-opacity))}.text-sky-800{--tw-text-opacity:1;color:rgb(7 89 133/var(--tw-text-opacity))}.text-sky-500{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.text-\\[\\#0A0C25\\]{--tw-text-opacity:1;color:rgb(10 12 37/var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.text-sky-400{--tw-text-opacity:1;color:rgb(56 189 248/var(--tw-text-opacity))}.text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.text-zinc-400{--tw-text-opacity:1;color:rgb(161 161 170/var(--tw-text-opacity))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87/var(--tw-text-opacity))}.text-amber-700{--tw-text-opacity:1;color:rgb(180 83 9/var(--tw-text-opacity))}.text-rose-700{--tw-text-opacity:1;color:rgb(190 18 60/var(--tw-text-opacity))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216/var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94/var(--tw-text-opacity))}.text-cyan-500{--tw-text-opacity:1;color:rgb(6 182 212/var(--tw-text-opacity))}.text-sky-600{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105/var(--tw-text-opacity))}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6/var(--tw-text-opacity))}.text-rose-600{--tw-text-opacity:1;color:rgb(225 29 72/var(--tw-text-opacity))}.text-pink-500{--tw-text-opacity:1;color:rgb(236 72 153/var(--tw-text-opacity))}.text-blue-500{--tw-text-opacity:1;color:rgb(59 130 246/var(--tw-text-opacity))}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.text-sky-300{--tw-text-opacity:1;color:rgb(125 211 252/var(--tw-text-opacity))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184/var(--tw-text-opacity))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105/var(--tw-text-opacity))}.text-indigo-600{--tw-text-opacity:1;color:rgb(79 70 229/var(--tw-text-opacity))}.text-neutral-500{--tw-text-opacity:1;color:rgb(115 115 115/var(--tw-text-opacity))}.text-neutral-400{--tw-text-opacity:1;color:rgb(163 163 163/var(--tw-text-opacity))}.text-pink-600{--tw-text-opacity:1;color:rgb(219 39 119/var(--tw-text-opacity))}.text-\\[\\#2a2f3d\\]{--tw-text-opacity:1;color:rgb(42 47 61/var(--tw-text-opacity))}.text-\\[\\#ff6d2d\\]{--tw-text-opacity:1;color:rgb(255 109 45/var(--tw-text-opacity))}.text-yellow-400{--tw-text-opacity:1;color:rgb(250 204 21/var(--tw-text-opacity))}.text-green-50{--tw-text-opacity:1;color:rgb(240 253 244/var(--tw-text-opacity))}.text-yellow-500{--tw-text-opacity:1;color:rgb(234 179 8/var(--tw-text-opacity))}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68/var(--tw-text-opacity))}.text-sky-50{--tw-text-opacity:1;color:rgb(240 249 255/var(--tw-text-opacity))}.text-yellow-50{--tw-text-opacity:1;color:rgb(254 252 232/var(--tw-text-opacity))}.text-red-50{--tw-text-opacity:1;color:rgb(254 242 242/var(--tw-text-opacity))}.text-cyan-700{--tw-text-opacity:1;color:rgb(14 116 144/var(--tw-text-opacity))}.text-gray-50{--tw-text-opacity:1;color:rgb(249 250 251/var(--tw-text-opacity))}.text-teal-400{--tw-text-opacity:1;color:rgb(45 212 191/var(--tw-text-opacity))}.text-cyan-800{--tw-text-opacity:1;color:rgb(21 94 117/var(--tw-text-opacity))}.text-yellow-300{--tw-text-opacity:1;color:rgb(253 224 71/var(--tw-text-opacity))}.text-pink-100{--tw-text-opacity:1;color:rgb(252 231 243/var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.overline{-webkit-text-decoration-line:overline;text-decoration-line:overline}.line-through{-webkit-text-decoration-line:line-through;text-decoration-line:line-through}.no-underline{-webkit-text-decoration-line:none;text-decoration-line:none}.decoration-auto{text-decoration-thickness:auto}.decoration-0{text-decoration-thickness:0}.decoration-1{text-decoration-thickness:1px}.decoration-2{text-decoration-thickness:2px}.decoration-4{text-decoration-thickness:4px}.decoration-8{text-decoration-thickness:8px}.decoration-from-font{text-decoration-thickness:from-font}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.shadow,.shadow-lg{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow{--tw-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color)}.shadow-md{--tw-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-gray-300{--tw-shadow-color:#d1d5db;--tw-shadow:var(--tw-shadow-colored)}.shadow-gray-400{--tw-shadow-color:#9ca3af;--tw-shadow:var(--tw-shadow-colored)}.shadow-blue-300{--tw-shadow-color:#93c5fd;--tw-shadow:var(--tw-shadow-colored)}.shadow-red-300{--tw-shadow-color:#fca5a5;--tw-shadow:var(--tw-shadow-colored)}.shadow-gray-200{--tw-shadow-color:#e5e7eb;--tw-shadow:var(--tw-shadow-colored)}.shadow-sky-500\\/50{--tw-shadow-color:rgba(14,165,233,.5);--tw-shadow:var(--tw-shadow-colored)}.shadow-rose-500\\/40{--tw-shadow-color:rgba(244,63,94,.4);--tw-shadow:var(--tw-shadow-colored)}.shadow-emerald-500\\/50{--tw-shadow-color:rgba(16,185,129,.5);--tw-shadow:var(--tw-shadow-colored)}.shadow-amber-500\\/50{--tw-shadow-color:rgba(245,158,11,.5);--tw-shadow:var(--tw-shadow-colored)}.shadow-fuchsia-500\\/50{--tw-shadow-color:rgba(217,70,239,.5);--tw-shadow:var(--tw-shadow-colored)}.outline{outline-style:solid}.ring-2{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.ring,.ring-2{box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.ring{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.ring-indigo-400{--tw-ring-opacity:1;--tw-ring-color:rgb(129 140 248/var(--tw-ring-opacity))}.ring-green-300{--tw-ring-opacity:1;--tw-ring-color:rgb(134 239 172/var(--tw-ring-opacity))}.ring-red-300{--tw-ring-opacity:1;--tw-ring-color:rgb(252 165 165/var(--tw-ring-opacity))}.ring-sky-300{--tw-ring-opacity:1;--tw-ring-color:rgb(125 211 252/var(--tw-ring-opacity))}.ring-emerald-400{--tw-ring-opacity:1;--tw-ring-color:rgb(52 211 153/var(--tw-ring-opacity))}.ring-blue-300{--tw-ring-opacity:1;--tw-ring-color:rgb(147 197 253/var(--tw-ring-opacity))}.ring-red-400{--tw-ring-opacity:1;--tw-ring-color:rgb(248 113 113/var(--tw-ring-opacity))}.ring-green-400{--tw-ring-opacity:1;--tw-ring-color:rgb(74 222 128/var(--tw-ring-opacity))}.ring-pink-600{--tw-ring-opacity:1;--tw-ring-color:rgb(219 39 119/var(--tw-ring-opacity))}.ring-white{--tw-ring-opacity:1;--tw-ring-color:rgb(255 255 255/var(--tw-ring-opacity))}.blur{--tw-blur:blur(8px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-filter{-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-all{transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,-webkit-text-decoration-color;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,-webkit-text-decoration-color;transition-timing-function:cubic-bezier(.4,0,.2,1)}.delay-200{transition-delay:.2s}.duration-500{transition-duration:.5s}.duration-300{transition-duration:.3s}.duration-100{transition-duration:.1s}.duration-200{transition-duration:.2s}.ease-linear{transition-timing-function:linear}.ease-in{transition-timing-function:cubic-bezier(.4,0,1,1)}html{font-family:\"Inter\",sans-serif;font-family:\"Montserrat\",sans-serif}.blurBg{-webkit-backdrop-filter:saturate(1.5) blur(12px);backdrop-filter:saturate(1.5) blur(12px);background-color:rgba(30,28,28,.8)}::-webkit-scrollbar{height:12px;width:5px}::-webkit-scrollbar-track{border:1px solid #8c8c8c;border-radius:10px}::-webkit-scrollbar-thumb{background:#848484;border-radius:10px}::-webkit-scrollbar-thumb:hover{background:#909090}.no-scrollbar::-webkit-scrollbar{display:none}.no-scrollbar{-ms-overflow-style:none;scrollbar-width:none}pre[class*=language-]{border-radius:10px!important;font-size:.9rem;margin:.5em 0;overflow:auto;padding:1em}.light pre[class*=language-]{background:#f5f5f5!important;padding:1.5rem}.dark pre[class*=language-]{background:#171717!important;padding:1.5rem}.fadeSnippet-enter-active{-webkit-animation:fade-in .2s;animation:fade-in .2s}.fadeSnippet-leave-active{-webkit-animation:fade-out .2s;animation:fade-out .2s}@-webkit-keyframes fade-in{0%{transform:translateY(10px)}to{transform:translateY(0)}}@keyframes fade-in{0%{transform:translateY(10px)}to{transform:translateY(0)}}@-webkit-keyframes fade-out{0%{transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}@keyframes fade-out{0%{transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}.placeholder\\:text-gray-400::-moz-placeholder{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.placeholder\\:text-gray-400::placeholder{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.hover\\:mr-2:hover{margin-right:.5rem}.hover\\:block:hover{display:block}.hover\\:h-10:hover{height:2.5rem}.hover\\:w-10:hover{width:2.5rem}.hover\\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\\:cursor-pointer:hover{cursor:pointer}.hover\\:cursor-default:hover{cursor:default}.hover\\:border-2:hover{border-width:2px}.hover\\:border:hover{border-width:1px}.hover\\:border-\\[\\#ff6d2d\\]:hover{--tw-border-opacity:1;border-color:rgb(255 109 45/var(--tw-border-opacity))}.hover\\:border-gray-500:hover{--tw-border-opacity:1;border-color:rgb(107 114 128/var(--tw-border-opacity))}.hover\\:border-blue-500:hover{--tw-border-opacity:1;border-color:rgb(59 130 246/var(--tw-border-opacity))}.hover\\:bg-gray-200:hover{--tw-bg-opacity:1;background-color:rgb(229 231 235/var(--tw-bg-opacity))}.hover\\:bg-blue-200:hover{--tw-bg-opacity:1;background-color:rgb(191 219 254/var(--tw-bg-opacity))}.hover\\:bg-gray-800:hover{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.hover\\:bg-indigo-200:hover{--tw-bg-opacity:1;background-color:rgb(199 210 254/var(--tw-bg-opacity))}.hover\\:bg-sky-200:hover{--tw-bg-opacity:1;background-color:rgb(186 230 253/var(--tw-bg-opacity))}.hover\\:bg-teal-200:hover{--tw-bg-opacity:1;background-color:rgb(153 246 228/var(--tw-bg-opacity))}.hover\\:bg-rose-200:hover{--tw-bg-opacity:1;background-color:rgb(254 205 211/var(--tw-bg-opacity))}.hover\\:bg-red-200:hover{--tw-bg-opacity:1;background-color:rgb(254 202 202/var(--tw-bg-opacity))}.hover\\:bg-emerald-200:hover{--tw-bg-opacity:1;background-color:rgb(167 243 208/var(--tw-bg-opacity))}.hover\\:bg-yellow-200:hover{--tw-bg-opacity:1;background-color:rgb(254 240 138/var(--tw-bg-opacity))}.hover\\:bg-zinc-200:hover{--tw-bg-opacity:1;background-color:rgb(228 228 231/var(--tw-bg-opacity))}.hover\\:bg-gray-900:hover{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.hover\\:bg-\\[\\#FAF5ED\\]:hover{--tw-bg-opacity:1;background-color:rgb(250 245 237/var(--tw-bg-opacity))}.hover\\:bg-pink-500:hover{--tw-bg-opacity:1;background-color:rgb(236 72 153/var(--tw-bg-opacity))}.hover\\:bg-gray-300:hover{--tw-bg-opacity:1;background-color:rgb(209 213 219/var(--tw-bg-opacity))}.hover\\:bg-green-400:hover{--tw-bg-opacity:1;background-color:rgb(74 222 128/var(--tw-bg-opacity))}.hover\\:bg-cyan-400:hover{--tw-bg-opacity:1;background-color:rgb(34 211 238/var(--tw-bg-opacity))}.hover\\:bg-gray-700:hover{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.hover\\:bg-cyan-500:hover{--tw-bg-opacity:1;background-color:rgb(6 182 212/var(--tw-bg-opacity))}.hover\\:bg-gray-100:hover{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity))}.hover\\:bg-sky-600:hover{--tw-bg-opacity:1;background-color:rgb(2 132 199/var(--tw-bg-opacity))}.hover\\:bg-sky-700:hover{--tw-bg-opacity:1;background-color:rgb(3 105 161/var(--tw-bg-opacity))}.hover\\:bg-\\[\\#FF90E8\\]:hover{--tw-bg-opacity:1;background-color:rgb(255 144 232/var(--tw-bg-opacity))}.hover\\:bg-gray-50:hover{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity))}.hover\\:bg-blue-100:hover{--tw-bg-opacity:1;background-color:rgb(219 234 254/var(--tw-bg-opacity))}.hover\\:bg-green-100:hover{--tw-bg-opacity:1;background-color:rgb(220 252 231/var(--tw-bg-opacity))}.hover\\:bg-sky-100:hover{--tw-bg-opacity:1;background-color:rgb(224 242 254/var(--tw-bg-opacity))}.hover\\:bg-yellow-100:hover{--tw-bg-opacity:1;background-color:rgb(254 249 195/var(--tw-bg-opacity))}.hover\\:bg-red-100:hover{--tw-bg-opacity:1;background-color:rgb(254 226 226/var(--tw-bg-opacity))}.hover\\:bg-red-400:hover{--tw-bg-opacity:1;background-color:rgb(248 113 113/var(--tw-bg-opacity))}.hover\\:bg-blue-600:hover{--tw-bg-opacity:1;background-color:rgb(37 99 235/var(--tw-bg-opacity))}.hover\\:bg-amber-200:hover{--tw-bg-opacity:1;background-color:rgb(253 230 138/var(--tw-bg-opacity))}.hover\\:bg-teal-500:hover{--tw-bg-opacity:1;background-color:rgb(20 184 166/var(--tw-bg-opacity))}.hover\\:bg-cyan-900:hover{--tw-bg-opacity:1;background-color:rgb(22 78 99/var(--tw-bg-opacity))}.hover\\:bg-gradient-to-r:hover{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.hover\\:pl-0\\.5:hover{padding-left:.125rem}.hover\\:pl-0:hover{padding-left:0}.hover\\:font-semibold:hover{font-weight:600}.hover\\:text-sky-800:hover{--tw-text-opacity:1;color:rgb(7 89 133/var(--tw-text-opacity))}.hover\\:text-emerald-800:hover{--tw-text-opacity:1;color:rgb(6 95 70/var(--tw-text-opacity))}.hover\\:text-amber-800:hover{--tw-text-opacity:1;color:rgb(146 64 14/var(--tw-text-opacity))}.hover\\:text-rose-800:hover{--tw-text-opacity:1;color:rgb(159 18 57/var(--tw-text-opacity))}.hover\\:text-gray-500:hover{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.hover\\:text-\\[\\#ff6d2d\\]:hover{--tw-text-opacity:1;color:rgb(255 109 45/var(--tw-text-opacity))}.hover\\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.hover\\:text-gray-400:hover{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.hover\\:text-blue-800:hover{--tw-text-opacity:1;color:rgb(30 64 175/var(--tw-text-opacity))}.hover\\:text-sky-500:hover{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.hover\\:text-gray-100:hover{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.hover\\:text-gray-200:hover{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.hover\\:text-gray-700:hover{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.hover\\:text-gray-50:hover{--tw-text-opacity:1;color:rgb(249 250 251/var(--tw-text-opacity))}.hover\\:text-sky-700:hover{--tw-text-opacity:1;color:rgb(3 105 161/var(--tw-text-opacity))}.hover\\:text-black:hover{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.hover\\:text-blue-700:hover{--tw-text-opacity:1;color:rgb(29 78 216/var(--tw-text-opacity))}.hover\\:text-green-600:hover{--tw-text-opacity:1;color:rgb(22 163 74/var(--tw-text-opacity))}.hover\\:text-sky-600:hover{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.hover\\:text-yellow-600:hover{--tw-text-opacity:1;color:rgb(202 138 4/var(--tw-text-opacity))}.hover\\:text-red-600:hover{--tw-text-opacity:1;color:rgb(220 38 38/var(--tw-text-opacity))}.hover\\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline}.hover\\:shadow-none:hover{--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000}.hover\\:shadow-inner:hover,.hover\\:shadow-none:hover{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.hover\\:shadow-inner:hover{--tw-shadow:inset 0 2px 4px 0 rgba(0,0,0,.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color)}.hover\\:shadow-gray-200:hover{--tw-shadow-color:#e5e7eb;--tw-shadow:var(--tw-shadow-colored)}.hover\\:shadow-cyan-200:hover{--tw-shadow-color:#a5f3fc;--tw-shadow:var(--tw-shadow-colored)}.focus\\:z-10:focus{z-index:10}.focus\\:border-sky-500:focus{--tw-border-opacity:1;border-color:rgb(14 165 233/var(--tw-border-opacity))}.focus\\:border-b-sky-500:focus{--tw-border-opacity:1;border-bottom-color:rgb(14 165 233/var(--tw-border-opacity))}.focus\\:bg-gray-900:focus{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.focus\\:font-medium:focus{font-weight:500}.focus\\:text-sky-500:focus{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.focus\\:text-gray-50:focus{--tw-text-opacity:1;color:rgb(249 250 251/var(--tw-text-opacity))}.focus\\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.focus\\:ring-0:focus,.focus\\:ring-2:focus{box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.focus\\:ring-0:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(var(--tw-ring-offset-width)) var(--tw-ring-color)}.focus\\:ring-sky-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(14 165 233/var(--tw-ring-opacity))}.focus\\:ring-gray-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(107 114 128/var(--tw-ring-opacity))}.group:hover .group-hover\\:-translate-y-40{--tw-translate-y:-10rem}.group:hover .group-hover\\:-translate-y-40,.group:hover .group-hover\\:scale-110{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\\:scale-110{--tw-scale-x:1.1;--tw-scale-y:1.1}.group:hover .group-hover\\:scale-105{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\\:underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.peer:focus~.peer-focus\\:-top-2{top:-.5rem}.peer:focus~.peer-focus\\:text-xxs{font-size:.7rem}.peer:focus~.peer-focus\\:text-sky-600{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.dark .dark\\:border-0{border-width:0}.dark .dark\\:border-white{--tw-border-opacity:1;border-color:rgb(255 255 255/var(--tw-border-opacity))}.dark .dark\\:border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219/var(--tw-border-opacity))}.dark .dark\\:border-gray-400{--tw-border-opacity:1;border-color:rgb(156 163 175/var(--tw-border-opacity))}.dark .dark\\:border-gray-900{--tw-border-opacity:1;border-color:rgb(17 24 39/var(--tw-border-opacity))}.dark .dark\\:border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55/var(--tw-border-opacity))}.dark .dark\\:border-zinc-600{--tw-border-opacity:1;border-color:rgb(82 82 91/var(--tw-border-opacity))}.dark .dark\\:border-zinc-100{--tw-border-opacity:1;border-color:rgb(244 244 245/var(--tw-border-opacity))}.dark .dark\\:border-gray-500{--tw-border-opacity:1;border-color:rgb(107 114 128/var(--tw-border-opacity))}.dark .dark\\:border-zinc-500{--tw-border-opacity:1;border-color:rgb(113 113 122/var(--tw-border-opacity))}.dark .dark\\:border-zinc-300{--tw-border-opacity:1;border-color:rgb(212 212 216/var(--tw-border-opacity))}.dark .dark\\:border-zinc-700{--tw-border-opacity:1;border-color:rgb(63 63 70/var(--tw-border-opacity))}.dark .dark\\:border-zinc-400{--tw-border-opacity:1;border-color:rgb(161 161 170/var(--tw-border-opacity))}.dark .dark\\:border-black{--tw-border-opacity:1;border-color:rgb(0 0 0/var(--tw-border-opacity))}.dark .dark\\:border-\\[\\#2D2D2D\\]{--tw-border-opacity:1;border-color:rgb(45 45 45/var(--tw-border-opacity))}.dark .dark\\:border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81/var(--tw-border-opacity))}.dark .dark\\:border-b-zinc-500{--tw-border-opacity:1;border-bottom-color:rgb(113 113 122/var(--tw-border-opacity))}.dark .dark\\:bg-neutral-800{--tw-bg-opacity:1;background-color:rgb(38 38 38/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#121212\\]{--tw-bg-opacity:1;background-color:rgb(18 18 18/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#0A0C25\\]{--tw-bg-opacity:1;background-color:rgb(10 12 37/var(--tw-bg-opacity))}.dark .dark\\:bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.dark .dark\\:bg-sky-500{--tw-bg-opacity:1;background-color:rgb(14 165 233/var(--tw-bg-opacity))}.dark .dark\\:bg-sky-600{--tw-bg-opacity:1;background-color:rgb(2 132 199/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-500{--tw-bg-opacity:1;background-color:rgb(107 114 128/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-600{--tw-bg-opacity:1;background-color:rgb(75 85 99/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-800{--tw-bg-opacity:1;background-color:rgb(39 39 42/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-700{--tw-bg-opacity:1;background-color:rgb(63 63 70/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-900{--tw-bg-opacity:1;background-color:rgb(24 24 27/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-500{--tw-bg-opacity:1;background-color:rgb(113 113 122/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-300{--tw-bg-opacity:1;background-color:rgb(212 212 216/var(--tw-bg-opacity))}.dark .dark\\:bg-neutral-700{--tw-bg-opacity:1;background-color:rgb(64 64 64/var(--tw-bg-opacity))}.dark .dark\\:bg-neutral-600{--tw-bg-opacity:1;background-color:rgb(82 82 82/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#212121\\]{--tw-bg-opacity:1;background-color:rgb(33 33 33/var(--tw-bg-opacity))}.dark .dark\\:bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.dark .dark\\:from-neutral-50{--tw-gradient-from:#fafafa;--tw-gradient-to:hsla(0,0%,98%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.dark .dark\\:to-neutral-500{--tw-gradient-to:#737373}.dark .dark\\:text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.dark .dark\\:text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.dark .dark\\:text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.dark .dark\\:text-sky-500{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.dark .dark\\:text-sky-600{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.dark .dark\\:text-\\[\\#0A0C25\\]{--tw-text-opacity:1;color:rgb(10 12 37/var(--tw-text-opacity))}.dark .dark\\:text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.dark .dark\\:text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.dark .dark\\:text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity))}.dark .dark\\:text-zinc-400{--tw-text-opacity:1;color:rgb(161 161 170/var(--tw-text-opacity))}.dark .dark\\:text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.dark .dark\\:text-zinc-200{--tw-text-opacity:1;color:rgb(228 228 231/var(--tw-text-opacity))}.dark .dark\\:text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.dark .dark\\:text-sky-400{--tw-text-opacity:1;color:rgb(56 189 248/var(--tw-text-opacity))}.dark .dark\\:text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.dark .dark\\:text-neutral-200{--tw-text-opacity:1;color:rgb(229 229 229/var(--tw-text-opacity))}.dark .dark\\:text-zinc-500{--tw-text-opacity:1;color:rgb(113 113 122/var(--tw-text-opacity))}.dark .dark\\:text-zinc-50{--tw-text-opacity:1;color:rgb(250 250 250/var(--tw-text-opacity))}.dark .dark\\:text-gray-50{--tw-text-opacity:1;color:rgb(249 250 251/var(--tw-text-opacity))}.dark .dark\\:text-blue-50{--tw-text-opacity:1;color:rgb(239 246 255/var(--tw-text-opacity))}.dark .dark\\:text-zinc-300{--tw-text-opacity:1;color:rgb(212 212 216/var(--tw-text-opacity))}.dark .dark\\:text-zinc-700{--tw-text-opacity:1;color:rgb(63 63 70/var(--tw-text-opacity))}.dark .dark\\:text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216/var(--tw-text-opacity))}.dark .dark\\:text-neutral-500{--tw-text-opacity:1;color:rgb(115 115 115/var(--tw-text-opacity))}.dark .dark\\:text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235/var(--tw-text-opacity))}.dark .dark\\:text-neutral-400{--tw-text-opacity:1;color:rgb(163 163 163/var(--tw-text-opacity))}.dark .dark\\:shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.dark .dark\\:shadow-sky-800\\/80{--tw-shadow-color:rgba(7,89,133,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-rose-800\\/80{--tw-shadow-color:rgba(159,18,57,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-emerald-800\\/80{--tw-shadow-color:rgba(6,95,70,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-amber-800\\/80{--tw-shadow-color:rgba(146,64,14,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-fuchsia-800\\/80{--tw-shadow-color:rgba(134,25,143,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-black\\/5{--tw-shadow-color:rgba(0,0,0,.05);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-black{--tw-shadow-color:#000;--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:ring-black{--tw-ring-opacity:1;--tw-ring-color:rgb(0 0 0/var(--tw-ring-opacity))}.dark .dark\\:hover\\:bg-zinc-700:hover{--tw-bg-opacity:1;background-color:rgb(63 63 70/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-zinc-800:hover{--tw-bg-opacity:1;background-color:rgb(39 39 42/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-sky-500:hover{--tw-bg-opacity:1;background-color:rgb(14 165 233/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-gray-700:hover{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-gray-800:hover{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.dark .dark\\:hover\\:text-sky-500:hover{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-zinc-100:hover{--tw-text-opacity:1;color:rgb(244 244 245/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-gray-100:hover{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.dark .dark\\:focus\\:bg-zinc-800:focus{--tw-bg-opacity:1;background-color:rgb(39 39 42/var(--tw-bg-opacity))}.dark .dark\\:focus\\:bg-gray-800:focus{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.dark .dark\\:focus\\:text-sky-500:focus{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.dark .dark\\:focus\\:ring-gray-400:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(156 163 175/var(--tw-ring-opacity))}@media (min-width:640px){.sm\\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.sm\\:text-sm{font-size:.875rem}}@media (min-width:768px){.md\\:container{margin-left:auto;margin-right:auto;padding-left:.5rem;padding-right:.5rem;width:100%}@media (min-width:340px){.md\\:container{max-width:340px}}@media (min-width:640px){.md\\:container{max-width:640px;padding-left:1rem;padding-right:1rem}}@media (min-width:768px){.md\\:container{max-width:768px;padding-left:1rem;padding-right:1rem}}@media (min-width:1024px){.md\\:container{max-width:1024px;padding-left:2rem;padding-right:2rem}}@media (min-width:1280px){.md\\:container{max-width:1280px;padding-left:3rem;padding-right:3rem}}@media (min-width:1536px){.md\\:container{max-width:1536px;padding-left:3rem;padding-right:3rem}}.md\\:mt-16{margin-top:4rem}.md\\:block{display:block}.md\\:hidden{display:none}.md\\:h-4{height:1rem}.md\\:h-full{height:100%}.md\\:w-44{width:11rem}.md\\:w-1\\/2{width:50%}.md\\:w-4{width:1rem}.md\\:w-fit{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.md\\:w-full{width:100%}.md\\:grid-cols-5{grid-template-columns:repeat(5,minmax(0,1fr))}.md\\:grid-cols-6{grid-template-columns:repeat(6,minmax(0,1fr))}.md\\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.md\\:flex-row{flex-direction:row}.md\\:items-center{align-items:center}.md\\:justify-start{justify-content:flex-start}.md\\:justify-center{justify-content:center}.md\\:gap-4{gap:1rem}.md\\:gap-1{gap:.25rem}.md\\:space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1rem*var(--tw-space-x-reverse))}.md\\:space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.5rem*var(--tw-space-x-reverse))}.md\\:space-x-1>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.25rem*var(--tw-space-x-reverse))}.md\\:rounded-xl{border-radius:.75rem}.md\\:border-2{border-width:2px}.md\\:p-4{padding:1rem}.md\\:p-10{padding:2.5rem}.md\\:px-4{padding-left:1rem;padding-right:1rem}.md\\:px-24{padding-left:6rem;padding-right:6rem}.md\\:px-3{padding-left:.75rem;padding-right:.75rem}.md\\:text-base{font-size:1rem}.md\\:text-5xl{font-size:3rem}.md\\:text-sm{font-size:.875rem}.md\\:text-2xl{font-size:1.5rem}.md\\:text-lg{font-size:1.125rem}}@media (min-width:1024px){.lg\\:container{margin-left:auto;margin-right:auto;padding-left:.5rem;padding-right:.5rem;width:100%}@media (min-width:340px){.lg\\:container{max-width:340px}}@media (min-width:640px){.lg\\:container{max-width:640px;padding-left:1rem;padding-right:1rem}}@media (min-width:768px){.lg\\:container{max-width:768px;padding-left:1rem;padding-right:1rem}}@media (min-width:1024px){.lg\\:container{max-width:1024px;padding-left:2rem;padding-right:2rem}}@media (min-width:1280px){.lg\\:container{max-width:1280px;padding-left:3rem;padding-right:3rem}}@media (min-width:1536px){.lg\\:container{max-width:1536px;padding-left:3rem;padding-right:3rem}}.lg\\:mt-0{margin-top:0}.lg\\:block{display:block}.lg\\:hidden{display:none}.lg\\:flex-row{flex-direction:row}.lg\\:items-center{align-items:center}.lg\\:gap-4{gap:1rem}}@media (min-width:1536px){.\\32xl\\:text-2xl{font-size:1.5rem}}";
+=======
+__vite_ssr_exports__.default = "@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap\");\n/*! tailwindcss v3.1.6 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[multiple],[type=date],[type=datetime-local],[type=email],[type=month],[type=number],[type=password],[type=search],[type=tel],[type=text],[type=time],[type=url],[type=week],select,textarea{--tw-shadow:0 0 #0000;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;border-color:#6b7280;border-radius:0;border-width:1px;font-size:1rem;line-height:1.5rem;padding:.5rem .75rem}[multiple]:focus,[type=date]:focus,[type=datetime-local]:focus,[type=email]:focus,[type=month]:focus,[type=number]:focus,[type=password]:focus,[type=search]:focus,[type=tel]:focus,[type=text]:focus,[type=time]:focus,[type=url]:focus,[type=week]:focus,select:focus,textarea:focus{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);border-color:#2563eb;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);outline:2px solid transparent;outline-offset:2px}input::-moz-placeholder,textarea::-moz-placeholder{color:#6b7280;opacity:1}input::placeholder,textarea::placeholder{color:#6b7280;opacity:1}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-date-and-time-value{min-height:1.5em}::-webkit-datetime-edit,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-meridiem-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-year-field{padding-bottom:0;padding-top:0}select{color-adjust:exact;background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3E%3C/svg%3E\");background-position:right .5rem center;background-repeat:no-repeat;background-size:1.5em 1.5em;padding-right:2.5rem;-webkit-print-color-adjust:exact;print-color-adjust:exact}[multiple]{color-adjust:unset;background-image:none;background-position:0 0;background-repeat:unset;background-size:initial;padding-right:.75rem;-webkit-print-color-adjust:unset;print-color-adjust:unset}[type=checkbox],[type=radio]{color-adjust:exact;--tw-shadow:0 0 #0000;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;background-origin:border-box;border-color:#6b7280;border-width:1px;color:#2563eb;display:inline-block;flex-shrink:0;height:1rem;padding:0;-webkit-print-color-adjust:exact;print-color-adjust:exact;-webkit-user-select:none;-moz-user-select:none;user-select:none;vertical-align:middle;width:1rem}[type=checkbox]{border-radius:0}[type=radio]{border-radius:100%}[type=checkbox]:focus,[type=radio]:focus{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:2px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);outline:2px solid transparent;outline-offset:2px}[type=checkbox]:checked,[type=radio]:checked{background-color:currentColor;background-position:50%;background-repeat:no-repeat;background-size:100% 100%;border-color:transparent}[type=checkbox]:checked{background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.207 4.793a1 1 0 0 1 0 1.414l-5 5a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L6.5 9.086l4.293-4.293a1 1 0 0 1 1.414 0z'/%3E%3C/svg%3E\")}[type=radio]:checked{background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='8' cy='8' r='3'/%3E%3C/svg%3E\")}[type=checkbox]:checked:focus,[type=checkbox]:checked:hover,[type=radio]:checked:focus,[type=radio]:checked:hover{background-color:currentColor;border-color:transparent}[type=checkbox]:indeterminate{background-color:currentColor;background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3E%3Cpath stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3E%3C/svg%3E\");background-position:50%;background-repeat:no-repeat;background-size:100% 100%;border-color:transparent}[type=checkbox]:indeterminate:focus,[type=checkbox]:indeterminate:hover{background-color:currentColor;border-color:transparent}[type=file]{background:unset;border-color:inherit;border-radius:0;border-width:0;font-size:unset;line-height:inherit;padding:0}[type=file]:focus{outline:1px solid ButtonText;outline:1px auto -webkit-focus-ring-color}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.top-0{top:0}.top-4{top:1rem}.right-4{right:1rem}.-left-2{left:-.5rem}.-top-2{top:-.5rem}.-right-2{right:-.5rem}.-bottom-2{bottom:-.5rem}.-right-1{right:-.25rem}.-bottom-1{bottom:-.25rem}.-right-3{right:-.75rem}.right-0{right:0}.bottom-0{bottom:0}.-right-0{right:0}.-top-0{top:0}.-bottom-0{bottom:0}.-top-1{top:-.25rem}.-top-3{top:-.75rem}.left-0{left:0}.left-3{left:.75rem}.-top-8{top:-2rem}.-top-20{top:-5rem}.z-10{z-index:10}.z-40{z-index:40}.z-20{z-index:20}.col-span-2{grid-column:span 2/span 2}.my-4{margin-bottom:1rem;margin-top:1rem}.mb-6{margin-bottom:1.5rem}.mr-4{margin-right:1rem}.mt-20{margin-top:5rem}.mt-6{margin-top:1.5rem}.mt-4{margin-top:1rem}.mt-32{margin-top:8rem}.mt-10{margin-top:2.5rem}.mt-40{margin-top:10rem}.ml-2{margin-left:.5rem}.ml-1{margin-left:.25rem}.mr-1{margin-right:.25rem}.mr-2{margin-right:.5rem}.mb-2{margin-bottom:.5rem}.mt-2{margin-top:.5rem}.ml-4{margin-left:1rem}.mb-1{margin-bottom:.25rem}.mt-12{margin-top:3rem}.mt-1{margin-top:.25rem}.-mt-14{margin-top:-3.5rem}.mt-8{margin-top:2rem}.mt-28{margin-top:7rem}.-mb-40{margin-bottom:-10rem}.-mb-16{margin-bottom:-4rem}.mb-3{margin-bottom:.75rem}.block{display:block}.flex{display:flex}.inline-flex{display:inline-flex}.table{display:table}.grid{display:grid}.contents{display:contents}.hidden{display:none}.h-28{height:7rem}.h-6{height:1.5rem}.h-16{height:4rem}.h-screen{height:100vh}.h-2{height:.5rem}.h-full{height:100%}.h-5{height:1.25rem}.h-4{height:1rem}.h-10{height:2.5rem}.h-9{height:2.25rem}.h-3{height:.75rem}.h-8{height:2rem}.h-2\\.5{height:.625rem}.h-12{height:3rem}.h-14{height:3.5rem}.h-3\\.5{height:.875rem}.h-20{height:5rem}.h-11{height:2.75rem}.h-1\\.5{height:.375rem}.h-1{height:.25rem}.h-48{height:12rem}.h-7{height:1.75rem}.h-1\\/2{height:50%}.h-24{height:6rem}.h-64{height:16rem}.h-96{height:24rem}.h-1\\/3{height:33.333333%}.h-40{height:10rem}.h-36{height:9rem}.min-h-screen{min-height:100vh}.w-full{width:100%}.w-56{width:14rem}.w-6{width:1.5rem}.w-40{width:10rem}.w-2{width:.5rem}.w-fit{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.w-5{width:1.25rem}.w-4{width:1rem}.w-10{width:2.5rem}.w-9{width:2.25rem}.w-3{width:.75rem}.w-8{width:2rem}.w-2\\.5{width:.625rem}.w-12{width:3rem}.w-14{width:3.5rem}.w-3\\.5{width:.875rem}.w-16{width:4rem}.w-20{width:5rem}.w-1\\/3{width:33.333333%}.w-11{width:2.75rem}.w-1\\.5{width:.375rem}.w-1{width:.25rem}.w-3\\/4{width:75%}.w-24{width:6rem}.w-28{width:7rem}.w-7{width:1.75rem}.w-1\\/2{width:50%}.w-2\\/3{width:66.666667%}.w-1\\/4{width:25%}.w-72{width:18rem}.w-60{width:15rem}.w-64{width:16rem}.w-96{width:24rem}.w-80{width:20rem}.w-36{width:9rem}.flex-1{flex:1 1 0%}.-translate-y-12{--tw-translate-y:-3rem}.-translate-y-12,.-translate-y-20{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-translate-y-20{--tw-translate-y:-5rem}.-translate-y-5{--tw-translate-y:-1.25rem}.-translate-y-5,.rotate-2{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.rotate-2{--tw-rotate:2deg}.rotate-180{--tw-rotate:180deg}.-rotate-90,.rotate-180{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-rotate-90{--tw-rotate:-90deg}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.cursor-text{cursor:text}.grid-flow-row{grid-auto-flow:row}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.justify-around{justify-content:space-around}.gap-3{gap:.75rem}.gap-1{gap:.25rem}.gap-2{gap:.5rem}.gap-4{gap:1rem}.gap-y-6{row-gap:1.5rem}.gap-y-8{row-gap:2rem}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.5rem*var(--tw-space-y-reverse));margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)))}.space-x-5>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.25rem*var(--tw-space-x-reverse))}.space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.5rem*var(--tw-space-x-reverse))}.space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.25rem*var(--tw-space-y-reverse));margin-top:calc(.25rem*(1 - var(--tw-space-y-reverse)))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1rem*var(--tw-space-y-reverse));margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.75rem*var(--tw-space-y-reverse));margin-top:calc(.75rem*(1 - var(--tw-space-y-reverse)))}.space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1rem*var(--tw-space-x-reverse))}.space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.5rem*var(--tw-space-x-reverse))}.space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1.5rem*var(--tw-space-y-reverse));margin-top:calc(1.5rem*(1 - var(--tw-space-y-reverse)))}.-space-x-3>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(-.75rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(-.75rem*var(--tw-space-x-reverse))}.space-x-1>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.25rem*var(--tw-space-x-reverse))}.-space-x-px>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(-1px*(1 - var(--tw-space-x-reverse)));margin-right:calc(-1px*var(--tw-space-x-reverse))}.-space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(-.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(-.5rem*var(--tw-space-x-reverse))}.-space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(-.25rem*var(--tw-space-y-reverse));margin-top:calc(-.25rem*(1 - var(--tw-space-y-reverse)))}.divide-y>:not([hidden])~:not([hidden]){--tw-divide-y-reverse:0;border-bottom-width:calc(1px*var(--tw-divide-y-reverse));border-top-width:calc(1px*(1 - var(--tw-divide-y-reverse)))}.divide-gray-700>:not([hidden])~:not([hidden]){--tw-divide-opacity:1;border-color:rgb(55 65 81/var(--tw-divide-opacity))}.divide-neutral-700>:not([hidden])~:not([hidden]){--tw-divide-opacity:1;border-color:rgb(64 64 64/var(--tw-divide-opacity))}.overflow-hidden{overflow:hidden}.overflow-y-auto{overflow-y:auto}.overflow-x-hidden{overflow-x:hidden}.overflow-y-hidden{overflow-y:hidden}.rounded-lg{border-radius:.5rem}.rounded{border-radius:.25rem}.rounded-md{border-radius:.375rem}.rounded-full{border-radius:9999px}.rounded-2xl{border-radius:1rem}.rounded-sm{border-radius:.125rem}.rounded-xl{border-radius:.75rem}.rounded-3xl{border-radius:1.5rem}.rounded-l-lg{border-bottom-left-radius:.5rem;border-top-left-radius:.5rem}.rounded-r-lg{border-bottom-right-radius:.5rem;border-top-right-radius:.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-0{border-width:0}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-l-2{border-left-width:2px}.border-t-2{border-top-width:2px}.border-b-2{border-bottom-width:2px}.border-dashed{border-style:dashed}.border-neutral-700{--tw-border-opacity:1;border-color:rgb(64 64 64/var(--tw-border-opacity))}.border-zinc-900{--tw-border-opacity:1;border-color:rgb(24 24 27/var(--tw-border-opacity))}.border-\\[\\#0A0C25\\]{--tw-border-opacity:1;border-color:rgb(10 12 37/var(--tw-border-opacity))}.border-gray-900{--tw-border-opacity:1;border-color:rgb(17 24 39/var(--tw-border-opacity))}.border-black{--tw-border-opacity:1;border-color:rgb(0 0 0/var(--tw-border-opacity))}.border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81/var(--tw-border-opacity))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219/var(--tw-border-opacity))}.border-sky-700{--tw-border-opacity:1;border-color:rgb(3 105 161/var(--tw-border-opacity))}.border-emerald-700{--tw-border-opacity:1;border-color:rgb(4 120 87/var(--tw-border-opacity))}.border-amber-700{--tw-border-opacity:1;border-color:rgb(180 83 9/var(--tw-border-opacity))}.border-rose-700{--tw-border-opacity:1;border-color:rgb(190 18 60/var(--tw-border-opacity))}.border-slate-900{--tw-border-opacity:1;border-color:rgb(15 23 42/var(--tw-border-opacity))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255/var(--tw-border-opacity))}.border-gray-400{--tw-border-opacity:1;border-color:rgb(156 163 175/var(--tw-border-opacity))}.border-cyan-500{--tw-border-opacity:1;border-color:rgb(6 182 212/var(--tw-border-opacity))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235/var(--tw-border-opacity))}.border-sky-600{--tw-border-opacity:1;border-color:rgb(2 132 199/var(--tw-border-opacity))}.border-emerald-600{--tw-border-opacity:1;border-color:rgb(5 150 105/var(--tw-border-opacity))}.border-amber-600{--tw-border-opacity:1;border-color:rgb(217 119 6/var(--tw-border-opacity))}.border-rose-600{--tw-border-opacity:1;border-color:rgb(225 29 72/var(--tw-border-opacity))}.border-gray-600{--tw-border-opacity:1;border-color:rgb(75 85 99/var(--tw-border-opacity))}.border-pink-500{--tw-border-opacity:1;border-color:rgb(236 72 153/var(--tw-border-opacity))}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246/var(--tw-border-opacity))}.border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55/var(--tw-border-opacity))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240/var(--tw-border-opacity))}.border-slate-600{--tw-border-opacity:1;border-color:rgb(71 85 105/var(--tw-border-opacity))}.border-zinc-200{--tw-border-opacity:1;border-color:rgb(228 228 231/var(--tw-border-opacity))}.border-green-200{--tw-border-opacity:1;border-color:rgb(187 247 208/var(--tw-border-opacity))}.border-sky-200{--tw-border-opacity:1;border-color:rgb(186 230 253/var(--tw-border-opacity))}.border-yellow-200{--tw-border-opacity:1;border-color:rgb(254 240 138/var(--tw-border-opacity))}.border-red-200{--tw-border-opacity:1;border-color:rgb(254 202 202/var(--tw-border-opacity))}.border-cyan-800{--tw-border-opacity:1;border-color:rgb(21 94 117/var(--tw-border-opacity))}.border-b-gray-300{--tw-border-opacity:1;border-bottom-color:rgb(209 213 219/var(--tw-border-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.bg-red-100{--tw-bg-opacity:1;background-color:rgb(254 226 226/var(--tw-bg-opacity))}.bg-neutral-50{--tw-bg-opacity:1;background-color:rgb(250 250 250/var(--tw-bg-opacity))}.bg-\\[\\#0A0C25\\]{--tw-bg-opacity:1;background-color:rgb(10 12 37/var(--tw-bg-opacity))}.bg-sky-200{--tw-bg-opacity:1;background-color:rgb(186 230 253/var(--tw-bg-opacity))}.bg-sky-300{--tw-bg-opacity:1;background-color:rgb(125 211 252/var(--tw-bg-opacity))}.bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.bg-gray-600{--tw-bg-opacity:1;background-color:rgb(75 85 99/var(--tw-bg-opacity))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity))}.bg-gray-200{--tw-bg-opacity:1;background-color:rgb(229 231 235/var(--tw-bg-opacity))}.bg-sky-100{--tw-bg-opacity:1;background-color:rgb(224 242 254/var(--tw-bg-opacity))}.bg-zinc-100{--tw-bg-opacity:1;background-color:rgb(244 244 245/var(--tw-bg-opacity))}.bg-gray-300{--tw-bg-opacity:1;background-color:rgb(209 213 219/var(--tw-bg-opacity))}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229/var(--tw-bg-opacity))}.bg-amber-100{--tw-bg-opacity:1;background-color:rgb(254 243 199/var(--tw-bg-opacity))}.bg-rose-100{--tw-bg-opacity:1;background-color:rgb(255 228 230/var(--tw-bg-opacity))}.bg-yellow-400{--tw-bg-opacity:1;background-color:rgb(250 204 21/var(--tw-bg-opacity))}.bg-cyan-600{--tw-bg-opacity:1;background-color:rgb(8 145 178/var(--tw-bg-opacity))}.bg-violet-500{--tw-bg-opacity:1;background-color:rgb(139 92 246/var(--tw-bg-opacity))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254/var(--tw-bg-opacity))}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246/var(--tw-bg-opacity))}.bg-pink-300{--tw-bg-opacity:1;background-color:rgb(249 168 212/var(--tw-bg-opacity))}.bg-rose-500{--tw-bg-opacity:1;background-color:rgb(244 63 94/var(--tw-bg-opacity))}.bg-gray-500{--tw-bg-opacity:1;background-color:rgb(107 114 128/var(--tw-bg-opacity))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94/var(--tw-bg-opacity))}.bg-cyan-500{--tw-bg-opacity:1;background-color:rgb(6 182 212/var(--tw-bg-opacity))}.bg-yellow-500{--tw-bg-opacity:1;background-color:rgb(234 179 8/var(--tw-bg-opacity))}.bg-green-400{--tw-bg-opacity:1;background-color:rgb(74 222 128/var(--tw-bg-opacity))}.bg-purple-400{--tw-bg-opacity:1;background-color:rgb(192 132 252/var(--tw-bg-opacity))}.bg-indigo-300{--tw-bg-opacity:1;background-color:rgb(165 180 252/var(--tw-bg-opacity))}.bg-red-400{--tw-bg-opacity:1;background-color:rgb(248 113 113/var(--tw-bg-opacity))}.bg-fuchsia-600{--tw-bg-opacity:1;background-color:rgb(192 38 211/var(--tw-bg-opacity))}.bg-sky-400{--tw-bg-opacity:1;background-color:rgb(56 189 248/var(--tw-bg-opacity))}.bg-amber-400{--tw-bg-opacity:1;background-color:rgb(251 191 36/var(--tw-bg-opacity))}.bg-teal-400{--tw-bg-opacity:1;background-color:rgb(45 212 191/var(--tw-bg-opacity))}.bg-red-500{--tw-bg-opacity:1;background-color:rgb(239 68 68/var(--tw-bg-opacity))}.bg-yellow-200{--tw-bg-opacity:1;background-color:rgb(254 240 138/var(--tw-bg-opacity))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity))}.bg-gray-400{--tw-bg-opacity:1;background-color:rgb(156 163 175/var(--tw-bg-opacity))}.bg-blue-400{--tw-bg-opacity:1;background-color:rgb(96 165 250/var(--tw-bg-opacity))}.bg-teal-300{--tw-bg-opacity:1;background-color:rgb(94 234 212/var(--tw-bg-opacity))}.bg-emerald-400{--tw-bg-opacity:1;background-color:rgb(52 211 153/var(--tw-bg-opacity))}.bg-amber-300{--tw-bg-opacity:1;background-color:rgb(252 211 77/var(--tw-bg-opacity))}.bg-rose-300{--tw-bg-opacity:1;background-color:rgb(253 164 175/var(--tw-bg-opacity))}.bg-red-300{--tw-bg-opacity:1;background-color:rgb(252 165 165/var(--tw-bg-opacity))}.bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.bg-yellow-100{--tw-bg-opacity:1;background-color:rgb(254 249 195/var(--tw-bg-opacity))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity))}.bg-\\[\\#ff6d2d\\]{--tw-bg-opacity:1;background-color:rgb(255 109 45/var(--tw-bg-opacity))}.bg-slate-600{--tw-bg-opacity:1;background-color:rgb(71 85 105/var(--tw-bg-opacity))}.bg-zinc-600{--tw-bg-opacity:1;background-color:rgb(82 82 91/var(--tw-bg-opacity))}.bg-neutral-600{--tw-bg-opacity:1;background-color:rgb(82 82 82/var(--tw-bg-opacity))}.bg-stone-600{--tw-bg-opacity:1;background-color:rgb(87 83 78/var(--tw-bg-opacity))}.bg-red-600{--tw-bg-opacity:1;background-color:rgb(220 38 38/var(--tw-bg-opacity))}.bg-orange-600{--tw-bg-opacity:1;background-color:rgb(234 88 12/var(--tw-bg-opacity))}.bg-amber-600{--tw-bg-opacity:1;background-color:rgb(217 119 6/var(--tw-bg-opacity))}.bg-yellow-600{--tw-bg-opacity:1;background-color:rgb(202 138 4/var(--tw-bg-opacity))}.bg-lime-600{--tw-bg-opacity:1;background-color:rgb(101 163 13/var(--tw-bg-opacity))}.bg-green-600{--tw-bg-opacity:1;background-color:rgb(22 163 74/var(--tw-bg-opacity))}.bg-emerald-600{--tw-bg-opacity:1;background-color:rgb(5 150 105/var(--tw-bg-opacity))}.bg-teal-600{--tw-bg-opacity:1;background-color:rgb(13 148 136/var(--tw-bg-opacity))}.bg-sky-600{--tw-bg-opacity:1;background-color:rgb(2 132 199/var(--tw-bg-opacity))}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235/var(--tw-bg-opacity))}.bg-indigo-600{--tw-bg-opacity:1;background-color:rgb(79 70 229/var(--tw-bg-opacity))}.bg-violet-600{--tw-bg-opacity:1;background-color:rgb(124 58 237/var(--tw-bg-opacity))}.bg-pink-600{--tw-bg-opacity:1;background-color:rgb(219 39 119/var(--tw-bg-opacity))}.bg-rose-600{--tw-bg-opacity:1;background-color:rgb(225 29 72/var(--tw-bg-opacity))}.bg-slate-400{--tw-bg-opacity:1;background-color:rgb(148 163 184/var(--tw-bg-opacity))}.bg-zinc-400{--tw-bg-opacity:1;background-color:rgb(161 161 170/var(--tw-bg-opacity))}.bg-neutral-400{--tw-bg-opacity:1;background-color:rgb(163 163 163/var(--tw-bg-opacity))}.bg-stone-400{--tw-bg-opacity:1;background-color:rgb(168 162 158/var(--tw-bg-opacity))}.bg-orange-400{--tw-bg-opacity:1;background-color:rgb(251 146 60/var(--tw-bg-opacity))}.bg-yellow-300{--tw-bg-opacity:1;background-color:rgb(253 224 71/var(--tw-bg-opacity))}.bg-lime-400{--tw-bg-opacity:1;background-color:rgb(163 230 53/var(--tw-bg-opacity))}.bg-cyan-400{--tw-bg-opacity:1;background-color:rgb(34 211 238/var(--tw-bg-opacity))}.bg-indigo-400{--tw-bg-opacity:1;background-color:rgb(129 140 248/var(--tw-bg-opacity))}.bg-violet-400{--tw-bg-opacity:1;background-color:rgb(167 139 250/var(--tw-bg-opacity))}.bg-fuchsia-400{--tw-bg-opacity:1;background-color:rgb(232 121 249/var(--tw-bg-opacity))}.bg-pink-400{--tw-bg-opacity:1;background-color:rgb(244 114 182/var(--tw-bg-opacity))}.bg-rose-400{--tw-bg-opacity:1;background-color:rgb(251 113 133/var(--tw-bg-opacity))}.bg-zinc-50{--tw-bg-opacity:1;background-color:rgb(250 250 250/var(--tw-bg-opacity))}.bg-slate-300{--tw-bg-opacity:1;background-color:rgb(203 213 225/var(--tw-bg-opacity))}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240/var(--tw-bg-opacity))}.bg-neutral-100{--tw-bg-opacity:1;background-color:rgb(245 245 245/var(--tw-bg-opacity))}.bg-\\[\\#FAF5ED\\]{--tw-bg-opacity:1;background-color:rgb(250 245 237/var(--tw-bg-opacity))}.bg-sky-500{--tw-bg-opacity:1;background-color:rgb(14 165 233/var(--tw-bg-opacity))}.bg-blue-50{--tw-bg-opacity:1;background-color:rgb(239 246 255/var(--tw-bg-opacity))}.bg-neutral-700{--tw-bg-opacity:1;background-color:rgb(64 64 64/var(--tw-bg-opacity))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249/var(--tw-bg-opacity))}.bg-green-100{--tw-bg-opacity:1;background-color:rgb(220 252 231/var(--tw-bg-opacity))}.bg-black\\/70{background-color:rgba(0,0,0,.7)}.bg-indigo-200{--tw-bg-opacity:1;background-color:rgb(199 210 254/var(--tw-bg-opacity))}.bg-cyan-800{--tw-bg-opacity:1;background-color:rgb(21 94 117/var(--tw-bg-opacity))}.bg-green-700{--tw-bg-opacity:1;background-color:rgb(21 128 61/var(--tw-bg-opacity))}.bg-sky-700{--tw-bg-opacity:1;background-color:rgb(3 105 161/var(--tw-bg-opacity))}.bg-yellow-700{--tw-bg-opacity:1;background-color:rgb(161 98 7/var(--tw-bg-opacity))}.bg-red-700{--tw-bg-opacity:1;background-color:rgb(185 28 28/var(--tw-bg-opacity))}.bg-opacity-70{--tw-bg-opacity:0.7}.bg-opacity-90{--tw-bg-opacity:0.9}.bg-gradient-to-br{background-image:linear-gradient(to bottom right,var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.from-sky-400{--tw-gradient-from:#38bdf8;--tw-gradient-to:rgba(56,189,248,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-rose-400{--tw-gradient-from:#fb7185;--tw-gradient-to:rgba(251,113,133,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-emerald-400{--tw-gradient-from:#34d399;--tw-gradient-to:rgba(52,211,153,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-amber-400{--tw-gradient-from:#fbbf24;--tw-gradient-to:rgba(251,191,36,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-fuchsia-400{--tw-gradient-from:#e879f9;--tw-gradient-to:rgba(232,121,249,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-blue-500{--tw-gradient-from:#3b82f6;--tw-gradient-to:rgba(59,130,246,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-pink-600{--tw-gradient-from:#db2777;--tw-gradient-to:rgba(219,39,119,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-neutral-200{--tw-gradient-from:#e5e5e5;--tw-gradient-to:hsla(0,0%,90%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-red-300{--tw-gradient-from:#fca5a5;--tw-gradient-to:hsla(0,94%,82%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.via-sky-500{--tw-gradient-to:rgba(14,165,233,0);--tw-gradient-stops:var(--tw-gradient-from),#0ea5e9,var(--tw-gradient-to)}.via-rose-500{--tw-gradient-to:rgba(244,63,94,0);--tw-gradient-stops:var(--tw-gradient-from),#f43f5e,var(--tw-gradient-to)}.via-emerald-500{--tw-gradient-to:rgba(16,185,129,0);--tw-gradient-stops:var(--tw-gradient-from),#10b981,var(--tw-gradient-to)}.via-amber-500{--tw-gradient-to:rgba(245,158,11,0);--tw-gradient-stops:var(--tw-gradient-from),#f59e0b,var(--tw-gradient-to)}.via-fuchsia-500{--tw-gradient-to:rgba(217,70,239,0);--tw-gradient-stops:var(--tw-gradient-from),#d946ef,var(--tw-gradient-to)}.via-purple-400{--tw-gradient-to:rgba(192,132,252,0);--tw-gradient-stops:var(--tw-gradient-from),#c084fc,var(--tw-gradient-to)}.to-sky-600{--tw-gradient-to:#0284c7}.to-rose-600{--tw-gradient-to:#e11d48}.to-emerald-600{--tw-gradient-to:#059669}.to-amber-600{--tw-gradient-to:#d97706}.to-fuchsia-600{--tw-gradient-to:#c026d3}.to-sky-300{--tw-gradient-to:#7dd3fc}.to-indigo-300{--tw-gradient-to:#a5b4fc}.to-teal-400{--tw-gradient-to:#2dd4bf}.to-rose-500{--tw-gradient-to:#f43f5e}.bg-clip-padding{background-clip:padding-box}.object-cover{-o-object-fit:cover;object-fit:cover}.p-3{padding:.75rem}.p-4{padding:1rem}.p-0\\.5{padding:.125rem}.p-0{padding:0}.p-2{padding:.5rem}.p-6{padding:1.5rem}.p-1\\.5{padding:.375rem}.p-1{padding:.25rem}.px-4{padding-left:1rem;padding-right:1rem}.py-5{padding-bottom:1.25rem;padding-top:1.25rem}.px-2{padding-left:.5rem;padding-right:.5rem}.py-1{padding-bottom:.25rem;padding-top:.25rem}.py-4{padding-bottom:1rem;padding-top:1rem}.py-2{padding-bottom:.5rem;padding-top:.5rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-1{padding-left:.25rem;padding-right:.25rem}.px-0\\.5{padding-left:.125rem;padding-right:.125rem}.px-0{padding-left:0;padding-right:0}.px-3{padding-left:.75rem;padding-right:.75rem}.py-0\\.5{padding-bottom:.125rem;padding-top:.125rem}.py-0{padding-bottom:0;padding-top:0}.px-2\\.5{padding-left:.625rem;padding-right:.625rem}.px-1\\.5{padding-left:.375rem;padding-right:.375rem}.py-3{padding-bottom:.75rem;padding-top:.75rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-3\\.5{padding-bottom:.875rem;padding-top:.875rem}.py-1\\.5{padding-bottom:.375rem;padding-top:.375rem}.px-7{padding-left:1.75rem;padding-right:1.75rem}.px-9{padding-left:2.25rem;padding-right:2.25rem}.py-6{padding-bottom:1.5rem;padding-top:1.5rem}.py-8{padding-bottom:2rem;padding-top:2rem}.py-20{padding-bottom:5rem;padding-top:5rem}.py-2\\.5{padding-bottom:.625rem;padding-top:.625rem}.pt-6{padding-top:1.5rem}.pt-2{padding-top:.5rem}.pb-4{padding-bottom:1rem}.pb-20{padding-bottom:5rem}.pt-1{padding-top:.25rem}.pl-1{padding-left:.25rem}.pl-10{padding-left:2.5rem}.pt-10{padding-top:2.5rem}.pt-8{padding-top:2rem}.pl-6{padding-left:1.5rem}.pt-4{padding-top:1rem}.pl-8{padding-left:2rem}.pb-6{padding-bottom:1.5rem}.pb-3{padding-bottom:.75rem}.text-center{text-align:center}.text-right{text-align:right}.font-primary{font-family:Inter}.text-xs{font-size:.75rem}.text-tiny{font-size:.875rem}.text-xxs{font-size:.7rem}.text-base{font-size:1rem}.text-sm{font-size:.875rem}.text-2xl{font-size:1.5rem}.text-xl{font-size:1.25rem}.text-lg{font-size:1.125rem}.text-3xl{font-size:1.875rem}.text-5xl{font-size:3rem}.text-4xl{font-size:2.25rem}.text-6xl{font-size:4rem}.font-normal{font-weight:400}.font-light{font-weight:300}.font-semibold{font-weight:600}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-thin{font-weight:100}.font-extralight{font-weight:200}.font-extrabold{font-weight:800}.font-black{font-weight:900}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-tight{line-height:1.25}.tracking-wide{letter-spacing:.025em}.tracking-wider{letter-spacing:.05em}.tracking-tight{letter-spacing:-.025em}.tracking-tighter{letter-spacing:-.05em}.tracking-normal{letter-spacing:0}.tracking-widest{letter-spacing:.1em}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85/var(--tw-text-opacity))}.text-sky-700{--tw-text-opacity:1;color:rgb(3 105 161/var(--tw-text-opacity))}.text-sky-900{--tw-text-opacity:1;color:rgb(12 74 110/var(--tw-text-opacity))}.text-sky-800{--tw-text-opacity:1;color:rgb(7 89 133/var(--tw-text-opacity))}.text-sky-500{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.text-\\[\\#0A0C25\\]{--tw-text-opacity:1;color:rgb(10 12 37/var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.text-sky-400{--tw-text-opacity:1;color:rgb(56 189 248/var(--tw-text-opacity))}.text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.text-zinc-400{--tw-text-opacity:1;color:rgb(161 161 170/var(--tw-text-opacity))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87/var(--tw-text-opacity))}.text-amber-700{--tw-text-opacity:1;color:rgb(180 83 9/var(--tw-text-opacity))}.text-rose-700{--tw-text-opacity:1;color:rgb(190 18 60/var(--tw-text-opacity))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216/var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94/var(--tw-text-opacity))}.text-cyan-500{--tw-text-opacity:1;color:rgb(6 182 212/var(--tw-text-opacity))}.text-sky-600{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105/var(--tw-text-opacity))}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6/var(--tw-text-opacity))}.text-rose-600{--tw-text-opacity:1;color:rgb(225 29 72/var(--tw-text-opacity))}.text-pink-500{--tw-text-opacity:1;color:rgb(236 72 153/var(--tw-text-opacity))}.text-blue-500{--tw-text-opacity:1;color:rgb(59 130 246/var(--tw-text-opacity))}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.text-sky-300{--tw-text-opacity:1;color:rgb(125 211 252/var(--tw-text-opacity))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184/var(--tw-text-opacity))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105/var(--tw-text-opacity))}.text-indigo-600{--tw-text-opacity:1;color:rgb(79 70 229/var(--tw-text-opacity))}.text-neutral-500{--tw-text-opacity:1;color:rgb(115 115 115/var(--tw-text-opacity))}.text-neutral-400{--tw-text-opacity:1;color:rgb(163 163 163/var(--tw-text-opacity))}.text-pink-600{--tw-text-opacity:1;color:rgb(219 39 119/var(--tw-text-opacity))}.text-\\[\\#2a2f3d\\]{--tw-text-opacity:1;color:rgb(42 47 61/var(--tw-text-opacity))}.text-\\[\\#ff6d2d\\]{--tw-text-opacity:1;color:rgb(255 109 45/var(--tw-text-opacity))}.text-yellow-400{--tw-text-opacity:1;color:rgb(250 204 21/var(--tw-text-opacity))}.text-green-50{--tw-text-opacity:1;color:rgb(240 253 244/var(--tw-text-opacity))}.text-yellow-500{--tw-text-opacity:1;color:rgb(234 179 8/var(--tw-text-opacity))}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68/var(--tw-text-opacity))}.text-sky-50{--tw-text-opacity:1;color:rgb(240 249 255/var(--tw-text-opacity))}.text-yellow-50{--tw-text-opacity:1;color:rgb(254 252 232/var(--tw-text-opacity))}.text-red-50{--tw-text-opacity:1;color:rgb(254 242 242/var(--tw-text-opacity))}.text-cyan-700{--tw-text-opacity:1;color:rgb(14 116 144/var(--tw-text-opacity))}.text-gray-50{--tw-text-opacity:1;color:rgb(249 250 251/var(--tw-text-opacity))}.text-teal-400{--tw-text-opacity:1;color:rgb(45 212 191/var(--tw-text-opacity))}.text-cyan-800{--tw-text-opacity:1;color:rgb(21 94 117/var(--tw-text-opacity))}.text-yellow-300{--tw-text-opacity:1;color:rgb(253 224 71/var(--tw-text-opacity))}.text-pink-100{--tw-text-opacity:1;color:rgb(252 231 243/var(--tw-text-opacity))}.text-green-400{--tw-text-opacity:1;color:rgb(74 222 128/var(--tw-text-opacity))}.text-red-400{--tw-text-opacity:1;color:rgb(248 113 113/var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.overline{-webkit-text-decoration-line:overline;text-decoration-line:overline}.line-through{-webkit-text-decoration-line:line-through;text-decoration-line:line-through}.no-underline{-webkit-text-decoration-line:none;text-decoration-line:none}.decoration-auto{text-decoration-thickness:auto}.decoration-0{text-decoration-thickness:0}.decoration-1{text-decoration-thickness:1px}.decoration-2{text-decoration-thickness:2px}.decoration-4{text-decoration-thickness:4px}.decoration-8{text-decoration-thickness:8px}.decoration-from-font{text-decoration-thickness:from-font}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.shadow,.shadow-lg{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow{--tw-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color)}.shadow-md{--tw-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-gray-300{--tw-shadow-color:#d1d5db;--tw-shadow:var(--tw-shadow-colored)}.shadow-gray-400{--tw-shadow-color:#9ca3af;--tw-shadow:var(--tw-shadow-colored)}.shadow-blue-300{--tw-shadow-color:#93c5fd;--tw-shadow:var(--tw-shadow-colored)}.shadow-red-300{--tw-shadow-color:#fca5a5;--tw-shadow:var(--tw-shadow-colored)}.shadow-gray-200{--tw-shadow-color:#e5e7eb;--tw-shadow:var(--tw-shadow-colored)}.shadow-sky-500\\/50{--tw-shadow-color:rgba(14,165,233,.5);--tw-shadow:var(--tw-shadow-colored)}.shadow-rose-500\\/40{--tw-shadow-color:rgba(244,63,94,.4);--tw-shadow:var(--tw-shadow-colored)}.shadow-emerald-500\\/50{--tw-shadow-color:rgba(16,185,129,.5);--tw-shadow:var(--tw-shadow-colored)}.shadow-amber-500\\/50{--tw-shadow-color:rgba(245,158,11,.5);--tw-shadow:var(--tw-shadow-colored)}.shadow-fuchsia-500\\/50{--tw-shadow-color:rgba(217,70,239,.5);--tw-shadow:var(--tw-shadow-colored)}.outline{outline-style:solid}.ring-2{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.ring,.ring-2{box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.ring{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.ring-indigo-400{--tw-ring-opacity:1;--tw-ring-color:rgb(129 140 248/var(--tw-ring-opacity))}.ring-green-300{--tw-ring-opacity:1;--tw-ring-color:rgb(134 239 172/var(--tw-ring-opacity))}.ring-red-300{--tw-ring-opacity:1;--tw-ring-color:rgb(252 165 165/var(--tw-ring-opacity))}.ring-sky-300{--tw-ring-opacity:1;--tw-ring-color:rgb(125 211 252/var(--tw-ring-opacity))}.ring-emerald-400{--tw-ring-opacity:1;--tw-ring-color:rgb(52 211 153/var(--tw-ring-opacity))}.ring-blue-300{--tw-ring-opacity:1;--tw-ring-color:rgb(147 197 253/var(--tw-ring-opacity))}.ring-red-400{--tw-ring-opacity:1;--tw-ring-color:rgb(248 113 113/var(--tw-ring-opacity))}.ring-green-400{--tw-ring-opacity:1;--tw-ring-color:rgb(74 222 128/var(--tw-ring-opacity))}.ring-pink-600{--tw-ring-opacity:1;--tw-ring-color:rgb(219 39 119/var(--tw-ring-opacity))}.ring-white{--tw-ring-opacity:1;--tw-ring-color:rgb(255 255 255/var(--tw-ring-opacity))}.blur{--tw-blur:blur(8px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-filter{-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-all{transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,-webkit-text-decoration-color;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,-webkit-text-decoration-color;transition-timing-function:cubic-bezier(.4,0,.2,1)}.delay-200{transition-delay:.2s}.duration-500{transition-duration:.5s}.duration-300{transition-duration:.3s}.duration-100{transition-duration:.1s}.duration-200{transition-duration:.2s}.ease-linear{transition-timing-function:linear}.ease-in{transition-timing-function:cubic-bezier(.4,0,1,1)}html{font-family:\"Inter\",sans-serif;font-family:\"Montserrat\",sans-serif}.blurBg{-webkit-backdrop-filter:saturate(1.5) blur(12px);backdrop-filter:saturate(1.5) blur(12px);background-color:rgba(30,28,28,.8)}::-webkit-scrollbar{height:12px;width:5px}::-webkit-scrollbar-track{border:1px solid #8c8c8c;border-radius:10px}::-webkit-scrollbar-thumb{background:#848484;border-radius:10px}::-webkit-scrollbar-thumb:hover{background:#909090}.no-scrollbar::-webkit-scrollbar{display:none}.no-scrollbar{-ms-overflow-style:none;scrollbar-width:none}pre[class*=language-]{border-radius:10px!important;font-size:.9rem;margin:.5em 0;overflow:auto;padding:1em}.light pre[class*=language-]{background:#f5f5f5!important;padding:1.5rem}.dark pre[class*=language-]{background:#171717!important;padding:1.5rem}.fadeSnippet-enter-active{-webkit-animation:fade-in .2s;animation:fade-in .2s}.fadeSnippet-leave-active{-webkit-animation:fade-out .2s;animation:fade-out .2s}@-webkit-keyframes fade-in{0%{transform:translateY(10px)}to{transform:translateY(0)}}@keyframes fade-in{0%{transform:translateY(10px)}to{transform:translateY(0)}}@-webkit-keyframes fade-out{0%{transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}@keyframes fade-out{0%{transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}.placeholder\\:text-gray-400::-moz-placeholder{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.placeholder\\:text-gray-400::placeholder{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.hover\\:mr-2:hover{margin-right:.5rem}.hover\\:block:hover{display:block}.hover\\:h-10:hover{height:2.5rem}.hover\\:w-10:hover{width:2.5rem}.hover\\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\\:cursor-pointer:hover{cursor:pointer}.hover\\:cursor-default:hover{cursor:default}.hover\\:border-2:hover{border-width:2px}.hover\\:border:hover{border-width:1px}.hover\\:border-\\[\\#ff6d2d\\]:hover{--tw-border-opacity:1;border-color:rgb(255 109 45/var(--tw-border-opacity))}.hover\\:border-gray-500:hover{--tw-border-opacity:1;border-color:rgb(107 114 128/var(--tw-border-opacity))}.hover\\:border-blue-500:hover{--tw-border-opacity:1;border-color:rgb(59 130 246/var(--tw-border-opacity))}.hover\\:bg-gray-200:hover{--tw-bg-opacity:1;background-color:rgb(229 231 235/var(--tw-bg-opacity))}.hover\\:bg-blue-200:hover{--tw-bg-opacity:1;background-color:rgb(191 219 254/var(--tw-bg-opacity))}.hover\\:bg-gray-800:hover{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.hover\\:bg-indigo-200:hover{--tw-bg-opacity:1;background-color:rgb(199 210 254/var(--tw-bg-opacity))}.hover\\:bg-sky-200:hover{--tw-bg-opacity:1;background-color:rgb(186 230 253/var(--tw-bg-opacity))}.hover\\:bg-teal-200:hover{--tw-bg-opacity:1;background-color:rgb(153 246 228/var(--tw-bg-opacity))}.hover\\:bg-rose-200:hover{--tw-bg-opacity:1;background-color:rgb(254 205 211/var(--tw-bg-opacity))}.hover\\:bg-red-200:hover{--tw-bg-opacity:1;background-color:rgb(254 202 202/var(--tw-bg-opacity))}.hover\\:bg-emerald-200:hover{--tw-bg-opacity:1;background-color:rgb(167 243 208/var(--tw-bg-opacity))}.hover\\:bg-yellow-200:hover{--tw-bg-opacity:1;background-color:rgb(254 240 138/var(--tw-bg-opacity))}.hover\\:bg-zinc-200:hover{--tw-bg-opacity:1;background-color:rgb(228 228 231/var(--tw-bg-opacity))}.hover\\:bg-gray-900:hover{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.hover\\:bg-\\[\\#FAF5ED\\]:hover{--tw-bg-opacity:1;background-color:rgb(250 245 237/var(--tw-bg-opacity))}.hover\\:bg-pink-500:hover{--tw-bg-opacity:1;background-color:rgb(236 72 153/var(--tw-bg-opacity))}.hover\\:bg-gray-300:hover{--tw-bg-opacity:1;background-color:rgb(209 213 219/var(--tw-bg-opacity))}.hover\\:bg-green-400:hover{--tw-bg-opacity:1;background-color:rgb(74 222 128/var(--tw-bg-opacity))}.hover\\:bg-cyan-400:hover{--tw-bg-opacity:1;background-color:rgb(34 211 238/var(--tw-bg-opacity))}.hover\\:bg-gray-700:hover{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.hover\\:bg-cyan-500:hover{--tw-bg-opacity:1;background-color:rgb(6 182 212/var(--tw-bg-opacity))}.hover\\:bg-gray-100:hover{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity))}.hover\\:bg-sky-600:hover{--tw-bg-opacity:1;background-color:rgb(2 132 199/var(--tw-bg-opacity))}.hover\\:bg-sky-700:hover{--tw-bg-opacity:1;background-color:rgb(3 105 161/var(--tw-bg-opacity))}.hover\\:bg-\\[\\#FF90E8\\]:hover{--tw-bg-opacity:1;background-color:rgb(255 144 232/var(--tw-bg-opacity))}.hover\\:bg-zinc-50:hover{--tw-bg-opacity:1;background-color:rgb(250 250 250/var(--tw-bg-opacity))}.hover\\:bg-blue-100:hover{--tw-bg-opacity:1;background-color:rgb(219 234 254/var(--tw-bg-opacity))}.hover\\:bg-gray-50:hover{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity))}.hover\\:bg-green-100:hover{--tw-bg-opacity:1;background-color:rgb(220 252 231/var(--tw-bg-opacity))}.hover\\:bg-sky-100:hover{--tw-bg-opacity:1;background-color:rgb(224 242 254/var(--tw-bg-opacity))}.hover\\:bg-yellow-100:hover{--tw-bg-opacity:1;background-color:rgb(254 249 195/var(--tw-bg-opacity))}.hover\\:bg-red-100:hover{--tw-bg-opacity:1;background-color:rgb(254 226 226/var(--tw-bg-opacity))}.hover\\:bg-red-400:hover{--tw-bg-opacity:1;background-color:rgb(248 113 113/var(--tw-bg-opacity))}.hover\\:bg-blue-600:hover{--tw-bg-opacity:1;background-color:rgb(37 99 235/var(--tw-bg-opacity))}.hover\\:bg-amber-200:hover{--tw-bg-opacity:1;background-color:rgb(253 230 138/var(--tw-bg-opacity))}.hover\\:bg-teal-500:hover{--tw-bg-opacity:1;background-color:rgb(20 184 166/var(--tw-bg-opacity))}.hover\\:bg-cyan-900:hover{--tw-bg-opacity:1;background-color:rgb(22 78 99/var(--tw-bg-opacity))}.hover\\:bg-gradient-to-r:hover{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.hover\\:pl-0\\.5:hover{padding-left:.125rem}.hover\\:pl-0:hover{padding-left:0}.hover\\:font-semibold:hover{font-weight:600}.hover\\:text-sky-800:hover{--tw-text-opacity:1;color:rgb(7 89 133/var(--tw-text-opacity))}.hover\\:text-emerald-800:hover{--tw-text-opacity:1;color:rgb(6 95 70/var(--tw-text-opacity))}.hover\\:text-amber-800:hover{--tw-text-opacity:1;color:rgb(146 64 14/var(--tw-text-opacity))}.hover\\:text-rose-800:hover{--tw-text-opacity:1;color:rgb(159 18 57/var(--tw-text-opacity))}.hover\\:text-gray-500:hover{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.hover\\:text-\\[\\#ff6d2d\\]:hover{--tw-text-opacity:1;color:rgb(255 109 45/var(--tw-text-opacity))}.hover\\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.hover\\:text-gray-400:hover{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.hover\\:text-blue-800:hover{--tw-text-opacity:1;color:rgb(30 64 175/var(--tw-text-opacity))}.hover\\:text-sky-500:hover{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.hover\\:text-gray-100:hover{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.hover\\:text-gray-200:hover{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.hover\\:text-gray-700:hover{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.hover\\:text-gray-50:hover{--tw-text-opacity:1;color:rgb(249 250 251/var(--tw-text-opacity))}.hover\\:text-sky-700:hover{--tw-text-opacity:1;color:rgb(3 105 161/var(--tw-text-opacity))}.hover\\:text-black:hover{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.hover\\:text-zinc-700:hover{--tw-text-opacity:1;color:rgb(63 63 70/var(--tw-text-opacity))}.hover\\:text-blue-700:hover{--tw-text-opacity:1;color:rgb(29 78 216/var(--tw-text-opacity))}.hover\\:text-green-600:hover{--tw-text-opacity:1;color:rgb(22 163 74/var(--tw-text-opacity))}.hover\\:text-sky-600:hover{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.hover\\:text-yellow-600:hover{--tw-text-opacity:1;color:rgb(202 138 4/var(--tw-text-opacity))}.hover\\:text-red-600:hover{--tw-text-opacity:1;color:rgb(220 38 38/var(--tw-text-opacity))}.hover\\:text-gray-900:hover{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.hover\\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline}.hover\\:shadow-none:hover{--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000}.hover\\:shadow-inner:hover,.hover\\:shadow-none:hover{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.hover\\:shadow-inner:hover{--tw-shadow:inset 0 2px 4px 0 rgba(0,0,0,.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color)}.hover\\:shadow-gray-200:hover{--tw-shadow-color:#e5e7eb;--tw-shadow:var(--tw-shadow-colored)}.hover\\:shadow-cyan-200:hover{--tw-shadow-color:#a5f3fc;--tw-shadow:var(--tw-shadow-colored)}.focus\\:z-10:focus{z-index:10}.focus\\:border-sky-500:focus{--tw-border-opacity:1;border-color:rgb(14 165 233/var(--tw-border-opacity))}.focus\\:border-b-sky-500:focus{--tw-border-opacity:1;border-bottom-color:rgb(14 165 233/var(--tw-border-opacity))}.focus\\:bg-gray-900:focus{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.focus\\:font-medium:focus{font-weight:500}.focus\\:text-sky-500:focus{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.focus\\:text-gray-50:focus{--tw-text-opacity:1;color:rgb(249 250 251/var(--tw-text-opacity))}.focus\\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.focus\\:ring-0:focus,.focus\\:ring-2:focus{box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.focus\\:ring-0:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(var(--tw-ring-offset-width)) var(--tw-ring-color)}.focus\\:ring-sky-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(14 165 233/var(--tw-ring-opacity))}.focus\\:ring-gray-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(107 114 128/var(--tw-ring-opacity))}.group:hover .group-hover\\:-translate-y-40{--tw-translate-y:-10rem}.group:hover .group-hover\\:-translate-y-40,.group:hover .group-hover\\:scale-110{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\\:scale-110{--tw-scale-x:1.1;--tw-scale-y:1.1}.group:hover .group-hover\\:scale-105{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\\:underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.peer:focus~.peer-focus\\:-top-2{top:-.5rem}.peer:focus~.peer-focus\\:text-xxs{font-size:.7rem}.peer:focus~.peer-focus\\:text-sky-600{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.dark .dark\\:border-0{border-width:0}.dark .dark\\:border{border-width:1px}.dark .dark\\:border-white{--tw-border-opacity:1;border-color:rgb(255 255 255/var(--tw-border-opacity))}.dark .dark\\:border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219/var(--tw-border-opacity))}.dark .dark\\:border-gray-400{--tw-border-opacity:1;border-color:rgb(156 163 175/var(--tw-border-opacity))}.dark .dark\\:border-gray-900{--tw-border-opacity:1;border-color:rgb(17 24 39/var(--tw-border-opacity))}.dark .dark\\:border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55/var(--tw-border-opacity))}.dark .dark\\:border-zinc-600{--tw-border-opacity:1;border-color:rgb(82 82 91/var(--tw-border-opacity))}.dark .dark\\:border-zinc-100{--tw-border-opacity:1;border-color:rgb(244 244 245/var(--tw-border-opacity))}.dark .dark\\:border-gray-500{--tw-border-opacity:1;border-color:rgb(107 114 128/var(--tw-border-opacity))}.dark .dark\\:border-zinc-500{--tw-border-opacity:1;border-color:rgb(113 113 122/var(--tw-border-opacity))}.dark .dark\\:border-zinc-300{--tw-border-opacity:1;border-color:rgb(212 212 216/var(--tw-border-opacity))}.dark .dark\\:border-zinc-700{--tw-border-opacity:1;border-color:rgb(63 63 70/var(--tw-border-opacity))}.dark .dark\\:border-zinc-400{--tw-border-opacity:1;border-color:rgb(161 161 170/var(--tw-border-opacity))}.dark .dark\\:border-black{--tw-border-opacity:1;border-color:rgb(0 0 0/var(--tw-border-opacity))}.dark .dark\\:border-\\[\\#2D2D2D\\]{--tw-border-opacity:1;border-color:rgb(45 45 45/var(--tw-border-opacity))}.dark .dark\\:border-b-zinc-500{--tw-border-opacity:1;border-bottom-color:rgb(113 113 122/var(--tw-border-opacity))}.dark .dark\\:bg-neutral-800{--tw-bg-opacity:1;background-color:rgb(38 38 38/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#121212\\]{--tw-bg-opacity:1;background-color:rgb(18 18 18/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#0A0C25\\]{--tw-bg-opacity:1;background-color:rgb(10 12 37/var(--tw-bg-opacity))}.dark .dark\\:bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.dark .dark\\:bg-sky-500{--tw-bg-opacity:1;background-color:rgb(14 165 233/var(--tw-bg-opacity))}.dark .dark\\:bg-sky-600{--tw-bg-opacity:1;background-color:rgb(2 132 199/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-500{--tw-bg-opacity:1;background-color:rgb(107 114 128/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-600{--tw-bg-opacity:1;background-color:rgb(75 85 99/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-800{--tw-bg-opacity:1;background-color:rgb(39 39 42/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-700{--tw-bg-opacity:1;background-color:rgb(63 63 70/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-900{--tw-bg-opacity:1;background-color:rgb(24 24 27/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-500{--tw-bg-opacity:1;background-color:rgb(113 113 122/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-300{--tw-bg-opacity:1;background-color:rgb(212 212 216/var(--tw-bg-opacity))}.dark .dark\\:bg-neutral-700{--tw-bg-opacity:1;background-color:rgb(64 64 64/var(--tw-bg-opacity))}.dark .dark\\:bg-neutral-600{--tw-bg-opacity:1;background-color:rgb(82 82 82/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#212121\\]{--tw-bg-opacity:1;background-color:rgb(33 33 33/var(--tw-bg-opacity))}.dark .dark\\:bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-400{--tw-bg-opacity:1;background-color:rgb(161 161 170/var(--tw-bg-opacity))}.dark .dark\\:bg-green-700{--tw-bg-opacity:1;background-color:rgb(21 128 61/var(--tw-bg-opacity))}.dark .dark\\:bg-sky-700{--tw-bg-opacity:1;background-color:rgb(3 105 161/var(--tw-bg-opacity))}.dark .dark\\:bg-yellow-700{--tw-bg-opacity:1;background-color:rgb(161 98 7/var(--tw-bg-opacity))}.dark .dark\\:bg-red-700{--tw-bg-opacity:1;background-color:rgb(185 28 28/var(--tw-bg-opacity))}.dark .dark\\:bg-blue-700{--tw-bg-opacity:1;background-color:rgb(29 78 216/var(--tw-bg-opacity))}.dark .dark\\:from-neutral-50{--tw-gradient-from:#fafafa;--tw-gradient-to:hsla(0,0%,98%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.dark .dark\\:to-neutral-500{--tw-gradient-to:#737373}.dark .dark\\:text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.dark .dark\\:text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.dark .dark\\:text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.dark .dark\\:text-sky-500{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.dark .dark\\:text-sky-600{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.dark .dark\\:text-\\[\\#0A0C25\\]{--tw-text-opacity:1;color:rgb(10 12 37/var(--tw-text-opacity))}.dark .dark\\:text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.dark .dark\\:text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.dark .dark\\:text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity))}.dark .dark\\:text-zinc-400{--tw-text-opacity:1;color:rgb(161 161 170/var(--tw-text-opacity))}.dark .dark\\:text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.dark .dark\\:text-zinc-200{--tw-text-opacity:1;color:rgb(228 228 231/var(--tw-text-opacity))}.dark .dark\\:text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.dark .dark\\:text-sky-400{--tw-text-opacity:1;color:rgb(56 189 248/var(--tw-text-opacity))}.dark .dark\\:text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.dark .dark\\:text-neutral-200{--tw-text-opacity:1;color:rgb(229 229 229/var(--tw-text-opacity))}.dark .dark\\:text-zinc-500{--tw-text-opacity:1;color:rgb(113 113 122/var(--tw-text-opacity))}.dark .dark\\:text-zinc-50{--tw-text-opacity:1;color:rgb(250 250 250/var(--tw-text-opacity))}.dark .dark\\:text-gray-50{--tw-text-opacity:1;color:rgb(249 250 251/var(--tw-text-opacity))}.dark .dark\\:text-blue-50{--tw-text-opacity:1;color:rgb(239 246 255/var(--tw-text-opacity))}.dark .dark\\:text-zinc-300{--tw-text-opacity:1;color:rgb(212 212 216/var(--tw-text-opacity))}.dark .dark\\:text-zinc-700{--tw-text-opacity:1;color:rgb(63 63 70/var(--tw-text-opacity))}.dark .dark\\:text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216/var(--tw-text-opacity))}.dark .dark\\:text-neutral-500{--tw-text-opacity:1;color:rgb(115 115 115/var(--tw-text-opacity))}.dark .dark\\:text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235/var(--tw-text-opacity))}.dark .dark\\:text-neutral-400{--tw-text-opacity:1;color:rgb(163 163 163/var(--tw-text-opacity))}.dark .dark\\:text-green-400{--tw-text-opacity:1;color:rgb(74 222 128/var(--tw-text-opacity))}.dark .dark\\:text-yellow-400{--tw-text-opacity:1;color:rgb(250 204 21/var(--tw-text-opacity))}.dark .dark\\:text-red-400{--tw-text-opacity:1;color:rgb(248 113 113/var(--tw-text-opacity))}.dark .dark\\:text-green-300{--tw-text-opacity:1;color:rgb(134 239 172/var(--tw-text-opacity))}.dark .dark\\:text-sky-300{--tw-text-opacity:1;color:rgb(125 211 252/var(--tw-text-opacity))}.dark .dark\\:text-yellow-300{--tw-text-opacity:1;color:rgb(253 224 71/var(--tw-text-opacity))}.dark .dark\\:text-red-300{--tw-text-opacity:1;color:rgb(252 165 165/var(--tw-text-opacity))}.dark .dark\\:text-blue-500{--tw-text-opacity:1;color:rgb(59 130 246/var(--tw-text-opacity))}.dark .dark\\:text-blue-400{--tw-text-opacity:1;color:rgb(96 165 250/var(--tw-text-opacity))}.dark .dark\\:text-red-700{--tw-text-opacity:1;color:rgb(185 28 28/var(--tw-text-opacity))}.dark .dark\\:text-zinc-100{--tw-text-opacity:1;color:rgb(244 244 245/var(--tw-text-opacity))}.dark .dark\\:shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.dark .dark\\:shadow-sky-800\\/80{--tw-shadow-color:rgba(7,89,133,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-rose-800\\/80{--tw-shadow-color:rgba(159,18,57,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-emerald-800\\/80{--tw-shadow-color:rgba(6,95,70,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-amber-800\\/80{--tw-shadow-color:rgba(146,64,14,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-fuchsia-800\\/80{--tw-shadow-color:rgba(134,25,143,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-black\\/5{--tw-shadow-color:rgba(0,0,0,.05);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-black{--tw-shadow-color:#000;--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:ring-black{--tw-ring-opacity:1;--tw-ring-color:rgb(0 0 0/var(--tw-ring-opacity))}.dark .dark\\:hover\\:bg-zinc-700:hover{--tw-bg-opacity:1;background-color:rgb(63 63 70/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-zinc-800:hover{--tw-bg-opacity:1;background-color:rgb(39 39 42/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-sky-500:hover{--tw-bg-opacity:1;background-color:rgb(14 165 233/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-gray-700:hover{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-gray-800:hover{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-zinc-500:hover{--tw-bg-opacity:1;background-color:rgb(113 113 122/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-green-700:hover{--tw-bg-opacity:1;background-color:rgb(21 128 61/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-sky-700:hover{--tw-bg-opacity:1;background-color:rgb(3 105 161/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-yellow-700:hover{--tw-bg-opacity:1;background-color:rgb(161 98 7/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-red-700:hover{--tw-bg-opacity:1;background-color:rgb(185 28 28/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-red-200:hover{--tw-bg-opacity:1;background-color:rgb(254 202 202/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-red-500:hover{--tw-bg-opacity:1;background-color:rgb(239 68 68/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-blue-500:hover{--tw-bg-opacity:1;background-color:rgb(59 130 246/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-zinc-100:hover{--tw-bg-opacity:1;background-color:rgb(244 244 245/var(--tw-bg-opacity))}.dark .dark\\:hover\\:text-sky-500:hover{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-zinc-100:hover{--tw-text-opacity:1;color:rgb(244 244 245/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-gray-100:hover{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-zinc-900:hover{--tw-text-opacity:1;color:rgb(24 24 27/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-green-600:hover{--tw-text-opacity:1;color:rgb(22 163 74/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-green-400:hover{--tw-text-opacity:1;color:rgb(74 222 128/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-green-200:hover{--tw-text-opacity:1;color:rgb(187 247 208/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-sky-200:hover{--tw-text-opacity:1;color:rgb(186 230 253/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-yellow-200:hover{--tw-text-opacity:1;color:rgb(254 240 138/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-red-200:hover{--tw-text-opacity:1;color:rgb(254 202 202/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-zinc-500:hover{--tw-text-opacity:1;color:rgb(113 113 122/var(--tw-text-opacity))}.dark .dark\\:focus\\:bg-zinc-800:focus{--tw-bg-opacity:1;background-color:rgb(39 39 42/var(--tw-bg-opacity))}.dark .dark\\:focus\\:bg-gray-800:focus{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.dark .dark\\:focus\\:text-sky-500:focus{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.dark .dark\\:focus\\:ring-gray-400:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(156 163 175/var(--tw-ring-opacity))}@media (min-width:640px){.sm\\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.sm\\:text-sm{font-size:.875rem}}@media (min-width:768px){.md\\:container{margin-left:auto;margin-right:auto;padding-left:.5rem;padding-right:.5rem;width:100%}@media (min-width:340px){.md\\:container{max-width:340px}}@media (min-width:640px){.md\\:container{max-width:640px;padding-left:1rem;padding-right:1rem}}@media (min-width:768px){.md\\:container{max-width:768px;padding-left:1rem;padding-right:1rem}}@media (min-width:1024px){.md\\:container{max-width:1024px;padding-left:2rem;padding-right:2rem}}@media (min-width:1280px){.md\\:container{max-width:1280px;padding-left:3rem;padding-right:3rem}}@media (min-width:1536px){.md\\:container{max-width:1536px;padding-left:3rem;padding-right:3rem}}.md\\:-my-10{margin-bottom:-2.5rem;margin-top:-2.5rem}.md\\:mt-16{margin-top:4rem}.md\\:mr-2{margin-right:.5rem}.md\\:-mt-20{margin-top:-5rem}.md\\:-ml-20{margin-left:-5rem}.md\\:block{display:block}.md\\:hidden{display:none}.md\\:h-4{height:1rem}.md\\:h-screen{height:100vh}.md\\:h-full{height:100%}.md\\:h-36{height:9rem}.md\\:h-14{height:3.5rem}.md\\:w-44{width:11rem}.md\\:w-1\\/2{width:50%}.md\\:w-4{width:1rem}.md\\:w-fit{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.md\\:w-full{width:100%}.md\\:w-96{width:24rem}.md\\:w-36{width:9rem}.md\\:w-1\\/3{width:33.333333%}.md\\:w-14{width:3.5rem}.md\\:grid-cols-5{grid-template-columns:repeat(5,minmax(0,1fr))}.md\\:grid-cols-6{grid-template-columns:repeat(6,minmax(0,1fr))}.md\\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.md\\:flex-row{flex-direction:row}.md\\:items-center{align-items:center}.md\\:justify-start{justify-content:flex-start}.md\\:justify-center{justify-content:center}.md\\:gap-4{gap:1rem}.md\\:gap-1{gap:.25rem}.md\\:space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1rem*var(--tw-space-x-reverse))}.md\\:space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.5rem*var(--tw-space-x-reverse))}.md\\:space-x-1>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.25rem*var(--tw-space-x-reverse))}.md\\:overflow-y-auto{overflow-y:auto}.md\\:rounded-xl{border-radius:.75rem}.md\\:border-2{border-width:2px}.md\\:p-4{padding:1rem}.md\\:p-10{padding:2.5rem}.md\\:px-4{padding-left:1rem;padding-right:1rem}.md\\:px-24{padding-left:6rem;padding-right:6rem}.md\\:px-3{padding-left:.75rem;padding-right:.75rem}.md\\:py-3{padding-bottom:.75rem;padding-top:.75rem}.md\\:pb-20{padding-bottom:5rem}.md\\:pb-6{padding-bottom:1.5rem}.md\\:text-base{font-size:1rem}.md\\:text-5xl{font-size:3rem}.md\\:text-sm{font-size:.875rem}.md\\:text-2xl{font-size:1.5rem}.md\\:text-lg{font-size:1.125rem}}@media (min-width:1024px){.lg\\:container{margin-left:auto;margin-right:auto;padding-left:.5rem;padding-right:.5rem;width:100%}@media (min-width:340px){.lg\\:container{max-width:340px}}@media (min-width:640px){.lg\\:container{max-width:640px;padding-left:1rem;padding-right:1rem}}@media (min-width:768px){.lg\\:container{max-width:768px;padding-left:1rem;padding-right:1rem}}@media (min-width:1024px){.lg\\:container{max-width:1024px;padding-left:2rem;padding-right:2rem}}@media (min-width:1280px){.lg\\:container{max-width:1280px;padding-left:3rem;padding-right:3rem}}@media (min-width:1536px){.lg\\:container{max-width:1536px;padding-left:3rem;padding-right:3rem}}.lg\\:mt-0{margin-top:0}.lg\\:block{display:block}.lg\\:hidden{display:none}.lg\\:flex-row{flex-direction:row}.lg\\:items-center{align-items:center}.lg\\:gap-4{gap:1rem}}@media (min-width:1536px){.\\32xl\\:text-2xl{font-size:1.5rem}}";
+>>>>>>> 75ac67896c28b13babb01963fe4bdc4bd56eb87d
 }
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/plugins/server.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/plugins/server.mjs
 // Parents: 
-// - G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/entry ($id_55ca067f)
+// - D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/entry ($id_fb1a40bc)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/plugins/preload.server.mjs ($id_9871bba0)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/components.plugin.mjs ($id_df08b929)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/components.plugin.mjs ($id_50d79120)
 // - /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs ($id_e6f12003)
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_a2650341)
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/dist.plugin.a7948c32.mjs ($id_8479a5fe)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/dist.plugin.14633d17.mjs ($id_db5b3053)
 // --------------------
-const $id_80bc857d = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_a2c7814b = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/plugins/preload.server.mjs");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/components.plugin.mjs");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/components.plugin.mjs");
 
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs");
 
@@ -1853,7 +1857,7 @@ const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt/dist/pages/runtime/router.mjs");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/dist.plugin.a7948c32.mjs");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/dist.plugin.14633d17.mjs");
 
 __vite_ssr_exports__.default = [
   __vite_ssr_import_0__.default,
@@ -1869,7 +1873,7 @@ __vite_ssr_exports__.default = [
 // --------------------
 // Request: /node_modules/nuxt/dist/app/plugins/preload.server.mjs
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/plugins/server.mjs ($id_80bc857d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/plugins/server.mjs ($id_a2c7814b)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
 // --------------------
@@ -1890,13 +1894,13 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin((nuxtApp) 
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/components.plugin.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/components.plugin.mjs
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/plugins/server.mjs ($id_80bc857d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/plugins/server.mjs ($id_a2c7814b)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // --------------------
-const $id_df08b929 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_50d79120 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 
@@ -1915,7 +1919,7 @@ __vite_ssr_exports__.default = function (nuxtApp) {
 // --------------------
 // Request: /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/plugins/server.mjs ($id_80bc857d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/plugins/server.mjs ($id_a2c7814b)
 // Dependencies: 
 // - /node_modules/@vueuse/head/dist/index.mjs ($id_c032264e)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -2398,7 +2402,7 @@ Object.defineProperty(__vite_ssr_exports__, "useHead", { enumerable: true, confi
 
 // --------------------
 const $id_d7afab65 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/defu/dist/defu.mjs")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/defu/dist/defu.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -2407,20 +2411,20 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/defu/dist/defu.mjs\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/defu/dist/defu.mjs\".")
   })
 
 
 // --------------------
 // Request: /node_modules/nuxt/dist/head/runtime/plugin.mjs
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/plugins/server.mjs ($id_80bc857d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/plugins/server.mjs ($id_a2c7814b)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt/dist/head/runtime/components.mjs ($id_b2a29d6f)
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_04ea9504)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/meta.config.mjs ($id_7e65ac9b)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/meta.config.mjs ($id_1241d75d)
 // --------------------
 const $id_a2650341 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -2431,7 +2435,7 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/meta.config.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/meta.config.mjs");
 
 const metaMixin = {
   created() {
@@ -2679,13 +2683,13 @@ Object.defineProperty(__vite_ssr_exports__, "Body", { enumerable: true, configur
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/meta.config.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/meta.config.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_a2650341)
 // Dependencies: 
 
 // --------------------
-const $id_7e65ac9b = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_1241d75d = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 __vite_ssr_exports__.default = {"globalMeta":{"charset":"utf-8","viewport":"width=device-width, initial-scale=1","meta":[],"link":[{"href":"https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/themes/prism-tomorrow.min.css","crossorigin":"anonymous","referrerpolicy":"no-referrer","rel":"stylesheet"}],"style":[],"script":[{"src":"https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/prism.min.js","data-manual":true},{"src":"https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/plugins/normalize-whitespace/prism-normalize-whitespace.min.js","data-manual":true}]}};
 }
 
@@ -2693,7 +2697,7 @@ __vite_ssr_exports__.default = {"globalMeta":{"charset":"utf-8","viewport":"widt
 // --------------------
 // Request: /node_modules/nuxt/dist/pages/runtime/router.mjs
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/plugins/server.mjs ($id_80bc857d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/plugins/server.mjs ($id_a2c7814b)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue-router/dist/vue-router.cjs.js ($id_f9a4a698)
@@ -2701,9 +2705,9 @@ __vite_ssr_exports__.default = {"globalMeta":{"charset":"utf-8","viewport":"widt
 // - /node_modules/ufo/dist/index.mjs ($id_614de060)
 // - /node_modules/nuxt/dist/pages/runtime/page.mjs ($id_5fc14cdc)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/router.options.mjs ($id_2a66e4bb)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/middleware.mjs ($id_9707a1d9)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/router.options.mjs ($id_49522b60)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/middleware.mjs ($id_a63124c4)
 // --------------------
 const $id_a090977b = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -2718,11 +2722,11 @@ const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs");
 
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/router.options.mjs");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/router.options.mjs");
 
-const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/middleware.mjs");
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/middleware.mjs");
 
 function createCurrentLocation(base, location) {
   const { pathname, search, hash } = location;
@@ -2975,7 +2979,7 @@ Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, confi
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
 // Dependencies: 
@@ -3016,7 +3020,7 @@ Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, confi
 // - /pages/toast.vue ($id_0830445b)
 // - /pages/typography.vue ($id_b670e6ed)
 // --------------------
-const $id_f44322c8 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_73381d96 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/pages/About.vue?macro=true");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/pages/alerts.vue?macro=true");
@@ -3057,7 +3061,7 @@ __vite_ssr_exports__.default = [
   {
     name: "About",
     path: "/About",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/About.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/About.vue",
     children: [],
     meta: __vite_ssr_import_0__.meta,
     alias: __vite_ssr_import_0__.meta?.alias || [],
@@ -3066,7 +3070,7 @@ __vite_ssr_exports__.default = [
   {
     name: "alerts",
     path: "/alerts",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/alerts.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/alerts.vue",
     children: [],
     meta: __vite_ssr_import_1__.meta,
     alias: __vite_ssr_import_1__.meta?.alias || [],
@@ -3075,7 +3079,7 @@ __vite_ssr_exports__.default = [
   {
     name: "avatar",
     path: "/avatar",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/avatar.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/avatar.vue",
     children: [],
     meta: __vite_ssr_import_2__.meta,
     alias: __vite_ssr_import_2__.meta?.alias || [],
@@ -3084,7 +3088,7 @@ __vite_ssr_exports__.default = [
   {
     name: "badge",
     path: "/badge",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/badge.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/badge.vue",
     children: [],
     meta: __vite_ssr_import_3__.meta,
     alias: __vite_ssr_import_3__.meta?.alias || [],
@@ -3093,7 +3097,7 @@ __vite_ssr_exports__.default = [
   {
     name: "breadcrumb",
     path: "/breadcrumb",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/breadcrumb.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/breadcrumb.vue",
     children: [],
     meta: __vite_ssr_import_4__.meta,
     alias: __vite_ssr_import_4__.meta?.alias || [],
@@ -3102,7 +3106,7 @@ __vite_ssr_exports__.default = [
   {
     name: "buttonGroup",
     path: "/buttonGroup",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/buttonGroup.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/buttonGroup.vue",
     children: [],
     meta: __vite_ssr_import_5__.meta,
     alias: __vite_ssr_import_5__.meta?.alias || [],
@@ -3111,7 +3115,7 @@ __vite_ssr_exports__.default = [
   {
     name: "buttons",
     path: "/buttons",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/buttons.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/buttons.vue",
     children: [],
     meta: __vite_ssr_import_6__.meta,
     alias: __vite_ssr_import_6__.meta?.alias || [],
@@ -3120,7 +3124,7 @@ __vite_ssr_exports__.default = [
   {
     name: "card",
     path: "/card",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/card.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/card.vue",
     children: [],
     meta: __vite_ssr_import_7__.meta,
     alias: __vite_ssr_import_7__.meta?.alias || [],
@@ -3129,7 +3133,7 @@ __vite_ssr_exports__.default = [
   {
     name: "dropdown",
     path: "/dropdown",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/dropdown.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/dropdown.vue",
     children: [],
     meta: __vite_ssr_import_8__.meta,
     alias: __vite_ssr_import_8__.meta?.alias || [],
@@ -3138,7 +3142,7 @@ __vite_ssr_exports__.default = [
   {
     name: "footer",
     path: "/footer",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/footer.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/footer.vue",
     children: [],
     meta: __vite_ssr_import_9__.meta,
     alias: __vite_ssr_import_9__.meta?.alias || [],
@@ -3147,7 +3151,7 @@ __vite_ssr_exports__.default = [
   {
     name: "form",
     path: "/form",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/form.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/form.vue",
     children: [],
     meta: __vite_ssr_import_10__.meta,
     alias: __vite_ssr_import_10__.meta?.alias || [],
@@ -3156,7 +3160,7 @@ __vite_ssr_exports__.default = [
   {
     name: "index",
     path: "/",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/index.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/index.vue",
     children: [],
     meta: __vite_ssr_import_11__.meta,
     alias: __vite_ssr_import_11__.meta?.alias || [],
@@ -3165,7 +3169,7 @@ __vite_ssr_exports__.default = [
   {
     name: "navbar",
     path: "/navbar",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/navbar.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/navbar.vue",
     children: [],
     meta: __vite_ssr_import_12__.meta,
     alias: __vite_ssr_import_12__.meta?.alias || [],
@@ -3174,7 +3178,7 @@ __vite_ssr_exports__.default = [
   {
     name: "pagination",
     path: "/pagination",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/pagination.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/pagination.vue",
     children: [],
     meta: __vite_ssr_import_13__.meta,
     alias: __vite_ssr_import_13__.meta?.alias || [],
@@ -3183,7 +3187,7 @@ __vite_ssr_exports__.default = [
   {
     name: "rating",
     path: "/rating",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/rating.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/rating.vue",
     children: [],
     meta: __vite_ssr_import_14__.meta,
     alias: __vite_ssr_import_14__.meta?.alias || [],
@@ -3192,7 +3196,7 @@ __vite_ssr_exports__.default = [
   {
     name: "sidebar",
     path: "/sidebar",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/sidebar.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/sidebar.vue",
     children: [],
     meta: __vite_ssr_import_15__.meta,
     alias: __vite_ssr_import_15__.meta?.alias || [],
@@ -3201,7 +3205,7 @@ __vite_ssr_exports__.default = [
   {
     name: "toast",
     path: "/toast",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/toast.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/toast.vue",
     children: [],
     meta: __vite_ssr_import_16__.meta,
     alias: __vite_ssr_import_16__.meta?.alias || [],
@@ -3210,7 +3214,7 @@ __vite_ssr_exports__.default = [
   {
     name: "typography",
     path: "/typography",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/typography.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/typography.vue",
     children: [],
     meta: __vite_ssr_import_17__.meta,
     alias: __vite_ssr_import_17__.meta?.alias || [],
@@ -3223,7 +3227,7 @@ __vite_ssr_exports__.default = [
 // --------------------
 // Request: /pages/About.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -3275,7 +3279,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/About.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/About.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -3551,7 +3555,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 
 // --------------------
 const $id_b215fa1c = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/vue/server-renderer/index.js")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/vue/server-renderer/index.js")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -3560,7 +3564,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/vue/server-renderer/index.js\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/vue/server-renderer/index.js\".")
   })
 
 
@@ -3849,7 +3853,7 @@ __vite_ssr_exports__.default = (sfc, props) => {
 // --------------------
 // Request: /pages/alerts.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -5000,7 +5004,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_28__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_28__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/alerts.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_28__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/alerts.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -5048,7 +5052,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt/dist/app/components/utils.mjs ($id_69c52686)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/layouts.mjs ($id_21f18624)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/layouts.mjs ($id_ec7d1029)
 // --------------------
 const $id_39003883 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -5057,7 +5061,7 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/layouts.mjs");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/layouts.mjs");
 
 const defaultLayoutTransition = { name: "layout", mode: "out-in" };
 __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
@@ -5084,7 +5088,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/layouts.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/layouts.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // Dependencies: 
@@ -5092,7 +5096,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
 // - /layouts/custom.vue ($id_d158cf1f)
 // - /layouts/full.vue ($id_2ca7d6cb)
 // --------------------
-const $id_21f18624 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_ec7d1029 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 __vite_ssr_exports__.default = {
@@ -5105,7 +5109,7 @@ __vite_ssr_exports__.default = {
 // --------------------
 // Request: /layouts/custom.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/layouts.mjs ($id_21f18624)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/layouts.mjs ($id_ec7d1029)
 // Dependencies: 
 // - /components/Utils/Toast.vue ($id_1423e7ad)
 // - /components/Header.vue ($id_4e284fc3)
@@ -5238,7 +5242,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_11__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_11__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/layouts/custom.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_11__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/layouts/custom.vue"]]);
 }
 
 
@@ -5275,7 +5279,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Utils/Toast.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Utils/Toast.vue"]]);
 }
 
 
@@ -5685,7 +5689,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Header.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Header.vue"]]);
 }
 
 
@@ -5721,12 +5725,12 @@ Object.defineProperty(__vite_ssr_exports__, "useStore", { enumerable: true, conf
 // Request: /node_modules/pinia/dist/pinia.mjs
 // Parents: 
 // - /store/index.js ($id_3135ce2a)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/dist.plugin.a7948c32.mjs ($id_8479a5fe)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/dist.plugin.14633d17.mjs ($id_db5b3053)
 // Dependencies: 
 
 // --------------------
 const $id_b1920624 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/pinia/dist/pinia.mjs")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/pinia/dist/pinia.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -5735,7 +5739,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/pinia/dist/pinia.mjs\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/pinia/dist/pinia.mjs\".")
   })
 
 
@@ -5775,7 +5779,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Footer.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer.vue"]]);
 }
 
 
@@ -5964,7 +5968,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}.bgGradient{back
 // --------------------
 // Request: /layouts/full.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/layouts.mjs ($id_21f18624)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/layouts.mjs ($id_ec7d1029)
 // Dependencies: 
 // - /components/Header.vue ($id_4e284fc3)
 // - /store/index.js ($id_3135ce2a)
@@ -6035,7 +6039,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/layouts/full.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/layouts/full.vue"]]);
 }
 
 
@@ -6117,7 +6121,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Headers/Heading.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Headers/Heading.vue"]]);
 }
 
 
@@ -6191,7 +6195,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Headers/SubHeading.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Headers/SubHeading.vue"]]);
 }
 
 
@@ -6261,7 +6265,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Utils/ShowCodeButton.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Utils/ShowCodeButton.vue"]]);
 }
 
 
@@ -6331,7 +6335,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Utils/HideCodeButton.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Utils/HideCodeButton.vue"]]);
 }
 
 
@@ -6401,7 +6405,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Utils/ComponentPad.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Utils/ComponentPad.vue"]]);
 }
 
 
@@ -6480,7 +6484,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/DefaultAlert.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/DefaultAlert.vue"]]);
 }
 
 
@@ -6548,7 +6552,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Utils/CopyButton.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Utils/CopyButton.vue"]]);
 }
 
 
@@ -6608,7 +6612,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/Snippets/DefaultAlert.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/Snippets/DefaultAlert.vue"]]);
 }
 
 
@@ -6687,7 +6691,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/StateAlert.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/StateAlert.vue"]]);
 }
 
 
@@ -6751,7 +6755,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/Snippets/StateAlert.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/Snippets/StateAlert.vue"]]);
 }
 
 
@@ -6832,7 +6836,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/WithButton.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/WithButton.vue"]]);
 }
 
 
@@ -6907,7 +6911,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/Snippets/WithButton.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/Snippets/WithButton.vue"]]);
 }
 
 
@@ -6988,7 +6992,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/WithLink.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/WithLink.vue"]]);
 }
 
 
@@ -7058,7 +7062,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/Snippets/WithLink.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/Snippets/WithLink.vue"]]);
 }
 
 
@@ -7156,7 +7160,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/WithIcon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/WithIcon.vue"]]);
 }
 
 
@@ -7288,7 +7292,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/Snippets/WithIcon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/Snippets/WithIcon.vue"]]);
 }
 
 
@@ -7393,7 +7397,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/WithBorder.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/WithBorder.vue"]]);
 }
 
 
@@ -7514,7 +7518,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/Snippets/WithBorder.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/Snippets/WithBorder.vue"]]);
 }
 
 
@@ -7619,7 +7623,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/BorderLeft.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/BorderLeft.vue"]]);
 }
 
 
@@ -7729,7 +7733,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/Snippets/BorderLeft.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/Snippets/BorderLeft.vue"]]);
 }
 
 
@@ -7841,7 +7845,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/AlertInfo.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/AlertInfo.vue"]]);
 }
 
 
@@ -7861,7 +7865,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/avatar.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -9800,7 +9804,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_40__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/avatar.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/avatar.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -9840,7 +9844,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Default.vue"]]);
 }
 
 
@@ -9913,7 +9917,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/Default.vue"]]);
 }
 
 
@@ -9951,7 +9955,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Size.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Size.vue"]]);
 }
 
 
@@ -10024,7 +10028,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/Size.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/Size.vue"]]);
 }
 
 
@@ -10062,7 +10066,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Presence.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Presence.vue"]]);
 }
 
 
@@ -10142,7 +10146,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/Presence.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/Presence.vue"]]);
 }
 
 
@@ -10180,7 +10184,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Circle.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Circle.vue"]]);
 }
 
 
@@ -10260,7 +10264,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/Circle.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/Circle.vue"]]);
 }
 
 
@@ -10298,7 +10302,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Square.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Square.vue"]]);
 }
 
 
@@ -10377,7 +10381,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/Square.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/Square.vue"]]);
 }
 
 
@@ -10415,7 +10419,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/PresenceRing.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/PresenceRing.vue"]]);
 }
 
 
@@ -10491,7 +10495,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/PresenceRing.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/PresenceRing.vue"]]);
 }
 
 
@@ -10529,7 +10533,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Color.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Color.vue"]]);
 }
 
 
@@ -10604,7 +10608,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/Color.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/Color.vue"]]);
 }
 
 
@@ -10642,7 +10646,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Badge.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Badge.vue"]]);
 }
 
 
@@ -10739,7 +10743,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/Badge.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/Badge.vue"]]);
 }
 
 
@@ -10777,7 +10781,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Shadow.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Shadow.vue"]]);
 }
 
 
@@ -10869,7 +10873,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/Shadow.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/Shadow.vue"]]);
 }
 
 
@@ -10909,7 +10913,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Group1.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Group1.vue"]]);
 }
 
 
@@ -11009,7 +11013,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/Group1.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/Group1.vue"]]);
 }
 
 
@@ -11049,7 +11053,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Group2.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Group2.vue"]]);
 }
 
 
@@ -11141,7 +11145,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/Group2.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/Group2.vue"]]);
 }
 
 
@@ -11179,7 +11183,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Info.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Info.vue"]]);
 }
 
 
@@ -11292,7 +11296,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/Info.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/Info.vue"]]);
 }
 
 
@@ -11330,7 +11334,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/DropDown.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/DropDown.vue"]]);
 }
 
 
@@ -11415,7 +11419,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/DropDown.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/DropDown.vue"]]);
 }
 
 
@@ -11435,7 +11439,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/badge.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -13341,7 +13345,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_40__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/badge.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/badge.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -13447,7 +13451,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Default.vue"]]);
 }
 
 
@@ -13503,7 +13507,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/default.vue"]]);
 }
 
 
@@ -13607,7 +13611,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Large.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Large.vue"]]);
 }
 
 
@@ -13663,7 +13667,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Large.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/Large.vue"]]);
 }
 
 
@@ -13755,7 +13759,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/StateColor.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/StateColor.vue"]]);
 }
 
 
@@ -13809,7 +13813,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/StateColor.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/StateColor.vue"]]);
 }
 
 
@@ -13958,7 +13962,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Outline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Outline.vue"]]);
 }
 
 
@@ -14018,7 +14022,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Outline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/Outline.vue"]]);
 }
 
 
@@ -14157,7 +14161,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Pill.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Pill.vue"]]);
 }
 
 
@@ -14217,7 +14221,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Pill.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/Pill.vue"]]);
 }
 
 
@@ -14366,7 +14370,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/PillOutline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/PillOutline.vue"]]);
 }
 
 
@@ -14426,7 +14430,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/PillOutline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/PillOutline.vue"]]);
 }
 
 
@@ -14565,7 +14569,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Rectangle.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Rectangle.vue"]]);
 }
 
 
@@ -14667,7 +14671,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Rectangle.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/Rectangle.vue"]]);
 }
 
 
@@ -14806,7 +14810,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Cancel.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Cancel.vue"]]);
 }
 
 
@@ -14922,7 +14926,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Cancel.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/Cancel.vue"]]);
 }
 
 
@@ -15085,7 +15089,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Link.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Link.vue"]]);
 }
 
 
@@ -15192,7 +15196,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Link.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/Link.vue"]]);
 }
 
 
@@ -15296,7 +15300,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Size.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Size.vue"]]);
 }
 
 
@@ -15368,7 +15372,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Size.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/Size.vue"]]);
 }
 
 
@@ -15479,7 +15483,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Positioned.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Positioned.vue"]]);
 }
 
 
@@ -15559,7 +15563,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Positioned.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/Positioned.vue"]]);
 }
 
 
@@ -15670,7 +15674,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Text.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Text.vue"]]);
 }
 
 
@@ -15747,7 +15751,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Text.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/Text.vue"]]);
 }
 
 
@@ -15857,7 +15861,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Icon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Icon.vue"]]);
 }
 
 
@@ -15938,7 +15942,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Icon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/Icon.vue"]]);
 }
 
 
@@ -15958,7 +15962,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/breadcrumb.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -17065,7 +17069,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_28__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_28__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/breadcrumb.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_28__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/breadcrumb.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -17120,7 +17124,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Default.vue"]]);
 }
 
 
@@ -17176,7 +17180,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Snippets/Default.vue"]]);
 }
 
 
@@ -17229,7 +17233,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Arrow.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Arrow.vue"]]);
 }
 
 
@@ -17294,7 +17298,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Snippets/Arrow.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Snippets/Arrow.vue"]]);
 }
 
 
@@ -17342,7 +17346,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Icon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Icon.vue"]]);
 }
 
 
@@ -17427,7 +17431,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Snippets/Icon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Snippets/Icon.vue"]]);
 }
 
 
@@ -17499,7 +17503,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Solid.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Solid.vue"]]);
 }
 
 
@@ -17615,7 +17619,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Snippets/Solid.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Snippets/Solid.vue"]]);
 }
 
 
@@ -17682,7 +17686,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Outline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Outline.vue"]]);
 }
 
 
@@ -17836,7 +17840,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Snippets/Outline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Snippets/Outline.vue"]]);
 }
 
 
@@ -17911,7 +17915,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Alignment.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Alignment.vue"]]);
 }
 
 
@@ -18117,7 +18121,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Snippets/Alignment.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Snippets/Alignment.vue"]]);
 }
 
 
@@ -18215,7 +18219,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Separator.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Separator.vue"]]);
 }
 
 
@@ -18361,7 +18365,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Snippets/Separator.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Snippets/Separator.vue"]]);
 }
 
 
@@ -18381,7 +18385,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/buttonGroup.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -19091,7 +19095,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_21__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_21__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/buttonGroup.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_21__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/buttonGroup.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -19133,7 +19137,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/ButtonGroup/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/ButtonGroup/Default.vue"]]);
 }
 
 
@@ -19189,7 +19193,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/ButtonGroup/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/ButtonGroup/Snippets/Default.vue"]]);
 }
 
 
@@ -19229,7 +19233,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/ButtonGroup/Outline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/ButtonGroup/Outline.vue"]]);
 }
 
 
@@ -19287,7 +19291,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/ButtonGroup/Snippets/Outline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/ButtonGroup/Snippets/Outline.vue"]]);
 }
 
 
@@ -19325,7 +19329,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/ButtonGroup/OutlineIcon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/ButtonGroup/OutlineIcon.vue"]]);
 }
 
 
@@ -19397,7 +19401,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/ButtonGroup/Snippets/OutlineIcon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/ButtonGroup/Snippets/OutlineIcon.vue"]]);
 }
 
 
@@ -19435,7 +19439,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/ButtonGroup/Icon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/ButtonGroup/Icon.vue"]]);
 }
 
 
@@ -19506,7 +19510,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/ButtonGroup/Snippets/Icon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/ButtonGroup/Snippets/Icon.vue"]]);
 }
 
 
@@ -19526,7 +19530,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/buttons.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -21033,7 +21037,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_34__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_34__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/buttons.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_34__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/buttons.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -21167,7 +21171,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Default.vue"]]);
 }
 
 
@@ -21226,7 +21230,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Snippets/Default.vue"]]);
 }
 
 
@@ -21367,7 +21371,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Outline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Outline.vue"]]);
 }
 
 
@@ -21425,7 +21429,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/Outline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Snippets/Outline.vue"]]);
 }
 
 
@@ -21517,7 +21521,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/StateColor.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/StateColor.vue"]]);
 }
 
 
@@ -21571,7 +21575,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/StateColor.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Snippets/StateColor.vue"]]);
 }
 
 
@@ -21677,7 +21681,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Size.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Size.vue"]]);
 }
 
 
@@ -21731,7 +21735,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/Size.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Snippets/Size.vue"]]);
 }
 
 
@@ -21804,7 +21808,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/DualIcon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/DualIcon.vue"]]);
 }
 
 
@@ -21870,7 +21874,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/DualIcon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Snippets/DualIcon.vue"]]);
 }
 
 
@@ -22112,7 +22116,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/LightColor.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/LightColor.vue"]]);
 }
 
 
@@ -22170,7 +22174,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/LightColor.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Snippets/LightColor.vue"]]);
 }
 
 
@@ -22413,7 +22417,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/DarkColor.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/DarkColor.vue"]]);
 }
 
 
@@ -22471,7 +22475,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/DarkColor.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Snippets/DarkColor.vue"]]);
 }
 
 
@@ -22555,7 +22559,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/ColoredShadow.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/ColoredShadow.vue"]]);
 }
 
 
@@ -22612,7 +22616,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/ColoredShadow.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Snippets/ColoredShadow.vue"]]);
 }
 
 
@@ -22696,7 +22700,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Gradient.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Gradient.vue"]]);
 }
 
 
@@ -22753,7 +22757,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/Gradient.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Snippets/Gradient.vue"]]);
 }
 
 
@@ -22799,7 +22803,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Appsmith.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Appsmith.vue"]]);
 }
 
 
@@ -22850,7 +22854,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/Appsmith.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Snippets/Appsmith.vue"]]);
 }
 
 
@@ -22870,7 +22874,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/card.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -24793,7 +24797,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_40__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/card.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/card.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -24895,7 +24899,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/Cta.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/Cta.vue"]]);
 }
 
 
@@ -24975,7 +24979,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/Snippets/Default.vue"]]);
 }
 
 
@@ -25068,7 +25072,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/Default.vue"]]);
 }
 
 
@@ -25145,7 +25149,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/Snippets/Cta.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/Snippets/Cta.vue"]]);
 }
 
 
@@ -25262,7 +25266,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/Link.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/Link.vue"]]);
 }
 
 
@@ -25357,7 +25361,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/Snippets/Link.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/Snippets/Link.vue"]]);
 }
 
 
@@ -25459,7 +25463,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/DefaultUser.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/DefaultUser.vue"]]);
 }
 
 
@@ -25533,7 +25537,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/DefaultUser.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Snippets/DefaultUser.vue"]]);
 }
 
 
@@ -25645,7 +25649,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Type1.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Type1.vue"]]);
 }
 
 
@@ -25731,7 +25735,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type1.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Snippets/Type1.vue"]]);
 }
 
 
@@ -25799,7 +25803,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Type2.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Type2.vue"]]);
 }
 
 
@@ -25863,7 +25867,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type2.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Snippets/Type2.vue"]]);
 }
 
 
@@ -25936,7 +25940,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Type3.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Type3.vue"]]);
 }
 
 
@@ -26011,7 +26015,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type3.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Snippets/Type3.vue"]]);
 }
 
 
@@ -26087,7 +26091,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Type4.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Type4.vue"]]);
 }
 
 
@@ -26163,7 +26167,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type4.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Snippets/Type4.vue"]]);
 }
 
 
@@ -26243,7 +26247,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Type5.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Type5.vue"]]);
 }
 
 
@@ -26322,7 +26326,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type5.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Snippets/Type5.vue"]]);
 }
 
 
@@ -26382,7 +26386,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Type6.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Type6.vue"]]);
 }
 
 
@@ -26459,7 +26463,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type6.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Snippets/Type6.vue"]]);
 }
 
 
@@ -26519,7 +26523,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Type7.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Type7.vue"]]);
 }
 
 
@@ -26602,7 +26606,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type7.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Snippets/Type7.vue"]]);
 }
 
 
@@ -26654,7 +26658,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Type8.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Type8.vue"]]);
 }
 
 
@@ -26736,7 +26740,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type8.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Snippets/Type8.vue"]]);
 }
 
 
@@ -26784,7 +26788,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Type9.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Type9.vue"]]);
 }
 
 
@@ -26882,7 +26886,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type9.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Snippets/Type9.vue"]]);
 }
 
 
@@ -26902,7 +26906,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/dropdown.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -27735,7 +27739,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_22__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/dropdown.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/dropdown.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -27859,7 +27863,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Dropdown/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Dropdown/Default.vue"]]);
 }
 
 
@@ -27910,7 +27914,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Dropdown/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Dropdown/Snippets/Default.vue"]]);
 }
 
 
@@ -28017,7 +28021,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Dropdown/Heading.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Dropdown/Heading.vue"]]);
 }
 
 
@@ -28128,7 +28132,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Dropdown/NoIcon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Dropdown/NoIcon.vue"]]);
 }
 
 
@@ -28322,7 +28326,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Dropdown/Profile.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Dropdown/Profile.vue"]]);
 }
 
 
@@ -28446,7 +28450,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Dropdown/WithIcon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Dropdown/WithIcon.vue"]]);
 }
 
 
@@ -28478,7 +28482,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/footer.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -29186,7 +29190,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_22__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/footer.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/footer.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -29232,7 +29236,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Footer/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer/Default.vue"]]);
 }
 
 
@@ -29359,7 +29363,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Footer/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer/Snippets/Default.vue"]]);
 }
 
 
@@ -29403,7 +29407,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Footer/LogoSection.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer/LogoSection.vue"]]);
 }
 
 
@@ -29537,7 +29541,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Footer/Snippets/LogoSection.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer/Snippets/LogoSection.vue"]]);
 }
 
 
@@ -29581,7 +29585,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Footer/TwoRow.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer/TwoRow.vue"]]);
 }
 
 
@@ -29727,7 +29731,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Footer/Snippets/TwoRow.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer/Snippets/TwoRow.vue"]]);
 }
 
 
@@ -29771,7 +29775,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Footer/Appsmith.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer/Appsmith.vue"]]);
 }
 
 
@@ -29900,7 +29904,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Footer/Snippets/Appsmith.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer/Snippets/Appsmith.vue"]]);
 }
 
 
@@ -29920,7 +29924,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/form.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -30495,7 +30499,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_20__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_20__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/form.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_20__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/form.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -30541,7 +30545,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Form/Element.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Form/Element.vue"]]);
 }
 
 
@@ -30624,7 +30628,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Form/Snippets/Element.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Form/Snippets/Element.vue"]]);
 }
 
 
@@ -30668,7 +30672,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Form/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Form/Default.vue"]]);
 }
 
 
@@ -30759,7 +30763,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Form/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Form/Snippets/Default.vue"]]);
 }
 
 
@@ -30803,7 +30807,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Form/Floatinglabel.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Form/Floatinglabel.vue"]]);
 }
 
 
@@ -30897,7 +30901,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Form/Snippets/Floatinglabel.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Form/Snippets/Floatinglabel.vue"]]);
 }
 
 
@@ -30917,7 +30921,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/index.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
@@ -31188,7 +31192,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/index.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/index.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -31234,7 +31238,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/HomePage/Features.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/HomePage/Features.vue"]]);
 }
 
 
@@ -31254,7 +31258,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/navbar.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -32096,7 +32100,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_24__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/navbar.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/navbar.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -32142,7 +32146,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Navbar/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Navbar/Default.vue"]]);
 }
 
 
@@ -32218,7 +32222,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Navbar/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Navbar/Snippets/Default.vue"]]);
 }
 
 
@@ -32262,7 +32266,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Navbar/Dropdown.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Navbar/Dropdown.vue"]]);
 }
 
 
@@ -32347,7 +32351,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Navbar/Snippets/Dropdown.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Navbar/Snippets/Dropdown.vue"]]);
 }
 
 
@@ -32391,7 +32395,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Navbar/Search.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Navbar/Search.vue"]]);
 }
 
 
@@ -32467,7 +32471,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Navbar/Snippets/Search.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Navbar/Snippets/Search.vue"]]);
 }
 
 
@@ -32511,7 +32515,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Navbar/Cta.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Navbar/Cta.vue"]]);
 }
 
 
@@ -32590,7 +32594,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Navbar/Snippets/Cta.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Navbar/Snippets/Cta.vue"]]);
 }
 
 
@@ -32634,7 +32638,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Navbar/Gumroad.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Navbar/Gumroad.vue"]]);
 }
 
 
@@ -32700,7 +32704,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Navbar/Snippets/Gumroad.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Navbar/Snippets/Gumroad.vue"]]);
 }
 
 
@@ -32720,7 +32724,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/pagination.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -32826,11 +32830,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   _push(__vite_ssr_import_15__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_14__.mergeProps({ name: $data.layout }, _attrs), {
     default: __vite_ssr_import_14__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
-        _push(`<div class="flex p-4"${
+        _push(`<div class="flex py-4 md:p-4"${
           _scopeId
-        }><!-- content --><div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar"${
+        }><!-- content --><div class="flex md:pb-20 h-full md:h-screen md:px-4 overflow-y-hidden scrollBar"${
           _scopeId
-        }><div class="overflow-y-auto w-full px-4 pb-20" id="paginationContainer"${
+        }><div class="md:overflow-y-auto w-full md:px-4 md:pb-20" id="paginationContainer"${
           _scopeId
         }>`)
         _push(__vite_ssr_import_15__.ssrRenderComponent(_component_HeadersHeading, null, {
@@ -33000,11 +33004,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> With arrow pagination </button></div></div></div></div></div>`)
       } else {
         return [
-          __vite_ssr_import_14__.createVNode("div", { class: "flex p-4" }, [
+          __vite_ssr_import_14__.createVNode("div", { class: "flex py-4 md:p-4" }, [
             __vite_ssr_import_14__.createCommentVNode(" content "),
-            __vite_ssr_import_14__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
+            __vite_ssr_import_14__.createVNode("div", { class: "flex md:pb-20 h-full md:h-screen md:px-4 overflow-y-hidden scrollBar" }, [
               __vite_ssr_import_14__.createVNode("div", {
-                class: "overflow-y-auto w-full px-4 pb-20",
+                class: "md:overflow-y-auto w-full md:px-4 md:pb-20",
                 id: "paginationContainer"
               }, [
                 __vite_ssr_import_14__.createVNode(_component_HeadersHeading, null, {
@@ -33162,7 +33166,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_18__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_18__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/pagination.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_18__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/pagination.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -33190,7 +33194,7 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full text-gray-500" }, _attrs))}><div class=""><ul class="inline-flex -space-x-px font-medium"><li class="px-3 py-2 bg-white border hover:text-gray-700 dark:text-zinc-400 dark:bg-gray-800 hover:cursor-pointer hover:bg-gray-50 border-gray-200 dark:hover:bg-zinc-700 dark:border-zinc-700 rounded-l-lg">Previous</li><li class="px-3 py-2 bg-white border hover:text-gray-700 dark:text-zinc-400 dark:bg-gray-800 hover:cursor-pointer hover:bg-gray-50 border-gray-200 dark:hover:bg-zinc-700 dark:border-zinc-700">1</li><li class="px-3 py-2 bg-white border hover:text-gray-700 dark:text-zinc-400 dark:bg-gray-800 hover:cursor-pointer hover:bg-gray-50 border-gray-200 dark:hover:bg-zinc-700 dark:border-zinc-700">2</li><li class="px-3 py-2 border text-blue-500 hover:text-blue-700 hover:cursor-pointer bg-blue-50 hover:bg-blue-100 border-gray-200 dark:bg-gray-700 dark:text-blue-700 dark:hover:bg-zinc-700 dark:border-zinc-700">3</li><li class="px-3 py-2 bg-white border hover:text-gray-700 dark:text-zinc-400 dark:bg-gray-800 hover:cursor-pointer hover:bg-gray-50 border-gray-200 dark:hover:bg-zinc-700 dark:border-zinc-700">4</li><li class="px-3 py-2 bg-white border hover:text-gray-700 dark:text-zinc-400 dark:bg-gray-800 hover:cursor-pointer hover:bg-gray-50 border-gray-200 dark:hover:bg-zinc-700 dark:border-zinc-700">5</li><li class="px-3 py-2 bg-white border hover:text-gray-700 dark:text-zinc-400 dark:bg-gray-800 hover:cursor-pointer hover:bg-gray-50 border-gray-200 dark:hover:bg-zinc-700 dark:border-zinc-700 rounded-r-lg">Next</li></ul></div></div>`)
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full text-gray-500" }, _attrs))}><div class=""><ul class="inline-flex -space-x-px font-medium"><li class="px-3 py-2 bg-white border hover:text-zinc-700 dark:text-zinc-400 dark:bg-zinc-800 hover:cursor-pointer hover:bg-zinc-50 border-zinc-200 dark:hover:bg-zinc-700 dark:border-zinc-700 rounded-l-lg">Previous</li><li class="px-3 py-2 bg-white border hover:text-zinc-700 dark:text-zinc-400 dark:bg-zinc-800 hover:cursor-pointer hover:bg-zinc-50 border-zinc-200 dark:hover:bg-zinc-700 dark:border-zinc-700">1</li><li class="px-3 py-2 bg-white border hover:text-zinc-700 dark:text-zinc-400 dark:bg-zinc-800 hover:cursor-pointer hover:bg-zinc-50 border-zinc-200 dark:hover:bg-zinc-700 dark:border-zinc-700">2</li><li class="px-3 py-2 border text-blue-500 hover:text-blue-700 hover:cursor-pointer bg-blue-50 hover:bg-blue-100 border-zinc-200 dark:bg-zinc-700 dark:text-blue-700 dark:hover:bg-zinc-700 dark:border-zinc-700">3</li><li class="px-3 py-2 bg-white border hover:text-zinc-700 dark:text-zinc-400 dark:bg-zinc-800 hover:cursor-pointer hover:bg-zinc-50 border-zinc-200 dark:hover:bg-zinc-700 dark:border-zinc-700">4</li><li class="px-3 py-2 bg-white border hover:text-zinc-700 dark:text-zinc-400 dark:bg-zinc-800 hover:cursor-pointer hover:bg-zinc-50 border-zinc-200 dark:hover:bg-zinc-700 dark:border-zinc-700">5</li><li class="px-3 py-2 bg-white border hover:text-zinc-700 dark:text-zinc-400 dark:bg-zinc-800 hover:cursor-pointer hover:bg-zinc-50 border-gray-200 dark:hover:bg-zinc-700 dark:border-zinc-700 rounded-r-lg">Next</li></ul></div></div>`)
 }
 
 
@@ -33204,7 +33208,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Pagination/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Pagination/Default.vue"]]);
 }
 
 
@@ -33225,13 +33229,13 @@ const _sfc_main = {
     return {
       code:` 
     <ul class="inline-flex -space-x-px font-medium">
-        <li class="px-3 py-2 border hover:text-gray-700 dark:text-gray-400 dark:bg-gray-800 hover:cursor-pointer hover:bg-gray-50 border-gray-200 dark:hover:bg-gray-700 dark:border-gray-700 rounded-l-lg">Previous</li>
-        <li class="px-3 py-2 border hover:text-gray-700 dark:text-gray-400 dark:bg-gray-800 hover:cursor-pointer hover:bg-gray-50 border-gray-200 dark:hover:bg-gray-700 dark:border-gray-700 ">1</li>
-        <li class="px-3 py-2 border hover:text-gray-700 dark:text-gray-400 dark:bg-gray-800 hover:cursor-pointer hover:bg-gray-50 border-gray-200 dark:hover:bg-gray-700 dark:border-gray-700 ">2</li>
-        <li class="px-3 py-2 border text-blue-500 hover:text-blue-700 hover:cursor-pointer bg-blue-50 hover:bg-blue-100 border-gray-200 dark:bg-gray-700 dark:text-blue-700 dark:hover:bg-gray-700 dark:border-gray-700">3</li>
-        <li class="px-3 py-2 border hover:text-gray-700 dark:text-gray-400 dark:bg-gray-800 hover:cursor-pointer hover:bg-gray-50 border-gray-200 dark:hover:bg-gray-700 dark:border-gray-700 ">4</li>
-        <li class="px-3 py-2 border hover:text-gray-700 dark:text-gray-400 dark:bg-gray-800 hover:cursor-pointer hover:bg-gray-50 border-gray-200 dark:hover:bg-gray-700 dark:border-gray-700 ">5</li>
-        <li class="px-3 py-2 border hover:text-gray-700 dark:text-gray-400 dark:bg-gray-800 hover:cursor-pointer hover:bg-gray-50 border-gray-200 dark:hover:bg-gray-700 dark:border-gray-700  rounded-r-lg">Next</li>
+            <li class="px-3 py-2 bg-white border hover:text-zinc-700 dark:text-zinc-400 dark:bg-zinc-800 hover:cursor-pointer hover:bg-zinc-50 border-zinc-200 dark:hover:bg-zinc-700 dark:border-zinc-700 rounded-l-lg">Previous</li>
+            <li class="px-3 py-2 bg-white border hover:text-zinc-700 dark:text-zinc-400 dark:bg-zinc-800 hover:cursor-pointer hover:bg-zinc-50 border-zinc-200 dark:hover:bg-zinc-700 dark:border-zinc-700 ">1</li>
+            <li class="px-3 py-2 bg-white border hover:text-zinc-700 dark:text-zinc-400 dark:bg-zinc-800 hover:cursor-pointer hover:bg-zinc-50 border-zinc-200 dark:hover:bg-zinc-700 dark:border-zinc-700 ">2</li>
+            <li class="px-3 py-2 border text-blue-500 hover:text-blue-700 hover:cursor-pointer bg-blue-50 hover:bg-blue-100 border-zinc-200 dark:bg-zinc-700 dark:text-blue-700 dark:hover:bg-zinc-700 dark:border-zinc-700">3</li>
+            <li class="px-3 py-2 bg-white border hover:text-zinc-700 dark:text-zinc-400 dark:bg-zinc-800 hover:cursor-pointer hover:bg-zinc-50 border-zinc-200 dark:hover:bg-zinc-700 dark:border-zinc-700 ">4</li>
+            <li class="px-3 py-2 bg-white border hover:text-zinc-700 dark:text-zinc-400 dark:bg-zinc-800 hover:cursor-pointer hover:bg-zinc-50 border-zinc-200 dark:hover:bg-zinc-700 dark:border-zinc-700 ">5</li>
+            <li class="px-3 py-2 bg-white border hover:text-zinc-700 dark:text-zinc-400 dark:bg-zinc-800 hover:cursor-pointer hover:bg-zinc-50 border-gray-200 dark:hover:bg-zinc-700 dark:border-zinc-700  rounded-r-lg">Next</li>
     </ul>
       `
     }
@@ -33263,7 +33267,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Pagination/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Pagination/Snippets/Default.vue"]]);
 }
 
 
@@ -33303,7 +33307,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Pagination/WithArrow.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Pagination/WithArrow.vue"]]);
 }
 
 
@@ -33362,7 +33366,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Pagination/Snippets/WithArrow.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Pagination/Snippets/WithArrow.vue"]]);
 }
 
 
@@ -33382,7 +33386,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/rating.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -33524,11 +33528,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   _push(__vite_ssr_import_23__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_22__.mergeProps({ name: $data.layout }, _attrs), {
     default: __vite_ssr_import_22__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
-        _push(`<div class="flex p-4"${
+        _push(`<div class="flex py-4 md:p-4"${
           _scopeId
-        }><!-- content --><div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar"${
+        }><!-- content --><div class="flex pb-20 h-screen md:px-4 overflow-y-hidden scrollBar"${
           _scopeId
-        }><div class="overflow-y-auto w-full px-4 pb-20" id="ratingContainer"${
+        }><div class="overflow-y-auto w-full md:px-4 pb-20" id="ratingContainer"${
           _scopeId
         }>`)
         _push(__vite_ssr_import_23__.ssrRenderComponent(_component_HeadersHeading, null, {
@@ -33970,11 +33974,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> Yes or No Rating </button></div></div></div></div></div>`)
       } else {
         return [
-          __vite_ssr_import_22__.createVNode("div", { class: "flex p-4" }, [
+          __vite_ssr_import_22__.createVNode("div", { class: "flex py-4 md:p-4" }, [
             __vite_ssr_import_22__.createCommentVNode(" content "),
-            __vite_ssr_import_22__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
+            __vite_ssr_import_22__.createVNode("div", { class: "flex pb-20 h-screen md:px-4 overflow-y-hidden scrollBar" }, [
               __vite_ssr_import_22__.createVNode("div", {
-                class: "overflow-y-auto w-full px-4 pb-20",
+                class: "overflow-y-auto w-full md:px-4 pb-20",
                 id: "ratingContainer"
               }, [
                 __vite_ssr_import_22__.createVNode(_component_HeadersHeading, null, {
@@ -34356,7 +34360,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_26__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_26__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/rating.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_26__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/rating.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -34384,7 +34388,7 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "flex flex-row mr-2" }, _attrs))}><div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-400" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div><div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-400" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div><div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-400" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div><div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-400" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div><div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 dark:text-neutral-500" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div></div>`)
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full flex flex-row md:mr-2 justify-start md:justify-center" }, _attrs))}><div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-400" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div><div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-400" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div><div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-400" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div><div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-400" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div><div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 dark:text-neutral-500" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div></div>`)
 }
 
 
@@ -34398,7 +34402,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Rating/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Rating/Default.vue"]]);
 }
 
 
@@ -34465,7 +34469,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Rating/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Rating/Snippets/Default.vue"]]);
 }
 
 
@@ -34527,7 +34531,7 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "bg-slate-100 dark:bg-neutral-700 h-64 w-60 flex flex-col items-center space-y-4 justify-center rounded-2xl" }, _attrs))}><div><p class="font-medium text-5xl text-neutral-400 dark:text-neutral-500">4/5</p></div><div class="flex flex-row space-x-1"><div><svg class="h-8 w-8 text-yellow-400" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M29.03 22.9987C30.3046 20.7052 30.972 18.124 30.9688 15.5C30.9688 6.95714 24.0429 0.0312618 15.5 0.0312618C12.8765 0.0280113 10.2956 0.695192 8.00231 1.9695L6.86845 0.836152C6.35242 0.321091 5.65312 0.0318128 4.92403 0.0318128C4.19494 0.0318128 3.49563 0.321091 2.97961 0.836152L0.835637 2.97909C0.320543 3.49521 0.0312528 4.19459 0.0312528 4.92377C0.0312528 5.65294 0.320543 6.35233 0.835637 6.86845L1.9695 8.00231C0.695192 10.2956 0.0280113 12.8765 0.0312618 15.5C0.0312618 24.0429 6.95611 30.9688 15.5 30.9688C18.1236 30.9721 20.7046 30.3047 22.9977 29.03L24.1316 30.1639C24.6477 30.679 25.3471 30.9683 26.0763 30.9683C26.8054 30.9683 27.5048 30.679 28.0209 30.1639L30.1639 28.0209C30.679 27.5048 30.9683 26.8054 30.9683 26.0763C30.9683 25.3471 30.679 24.6477 30.1639 24.1316L29.03 22.9987ZM2.45573 5.24784C2.37002 5.16166 2.32191 5.04506 2.32191 4.92351C2.32191 4.80197 2.37002 4.68536 2.45573 4.59918L4.5997 2.45522C4.68573 2.36941 4.80227 2.32123 4.92377 2.32123C5.04527 2.32123 5.16181 2.36941 5.24784 2.45522L6.04964 3.25753C5.00424 4.066 4.066 5.00424 3.25753 6.04964L2.45573 5.24784ZM15.5 27.5852C8.82628 27.5852 3.41531 22.1748 3.41531 15.5C3.41531 8.82576 8.82628 3.41531 15.5 3.41531C22.1737 3.41531 27.5852 8.82576 27.5852 15.5C27.5852 22.1748 22.1737 27.5852 15.5 27.5852ZM28.5448 26.4008L26.3998 28.5448C26.3138 28.6305 26.1974 28.6785 26.076 28.6785C25.9546 28.6785 25.8382 28.6305 25.7522 28.5448L24.9504 27.742C25.9959 26.934 26.934 25.9959 27.742 24.9504L28.5448 25.7522C28.6305 25.8384 28.6786 25.955 28.6786 26.0765C28.6786 26.1981 28.6305 26.3147 28.5448 26.4008Z"></path><path fill="currentColor" d="M20.431 15.0019C21.865 18.0199 22.5338 19.0269 25.1 16.952C27.6642 14.8787 28.8533 9.86631 19.4153 4.85186C16.849 3.48855 12.7493 6.07131 13.2118 8.24725C13.6753 10.4242 18.9997 11.985 20.431 15.0019V15.0019ZM25.114 12.5001C26.865 12.5001 24.0384 13.4597 22.3533 14.9148C21.5365 15.6202 21.9295 12.5001 25.114 12.5001ZM22.7771 8.63758C24.5292 8.63758 21.7026 9.59561 20.0175 11.0517C19.2033 11.7561 19.5911 8.63758 22.7771 8.63758V8.63758ZM19.01 6.12133C20.7605 6.12133 17.9334 7.0809 16.2514 8.53394C15.4336 9.23931 15.8245 6.12133 19.01 6.12133"></path><path fill="currentColor" d="M20.8639 21.1559C18.771 22.6445 17.4871 24.408 17.9898 25.0968C18.8953 26.3416 18.8953 26.3416 22.6831 23.6459C24.7729 22.1593 26.0599 20.3938 25.5572 19.706C24.6476 18.4618 24.6476 18.4618 20.8639 21.1559Z"></path><path fill="currentColor" d="M20.9373 20.4738C21.8922 20.5109 21.2966 19.625 21.4065 18.5097C21.5142 17.3939 20.6067 17.9658 18.8969 17.8662C17.185 17.7667 17.6826 19.1141 17.7517 20.1907C17.8213 21.2668 18.4787 20.3825 20.9373 20.4738"></path> <path fill="currentColor" d="M14.6603 21.3039C14.0766 20.9404 13.5831 20.4438 13.1438 19.8839C13.5398 20.0442 14.0209 20.1365 14.519 20.2314C14.735 20.2726 14.9511 20.3139 15.1553 20.3603C15.3785 20.4119 15.5513 20.4356 15.6982 20.4356C16.4995 20.4356 16.5871 19.756 16.6397 19.3492C16.6872 18.9815 16.7527 18.4772 17.0827 17.8116C17.2559 17.4599 17.1961 17.1944 17.1151 17.033C16.9027 16.606 16.3995 16.5101 15.7632 16.3895C15.4084 16.3219 15.0062 16.2456 14.6061 16.1074C14.3163 16.0074 14.0879 15.961 13.8863 15.961C13.1139 15.961 12.9216 16.6086 12.7808 17.0809C12.6993 17.3547 12.607 17.6662 12.425 18.0075C12.3345 18.1745 12.2728 18.3557 12.2425 18.5432C11.0813 16.5756 10.2651 14.3925 8.88835 13.8856C8.85638 13.8743 8.82286 13.8706 8.7909 13.8608C8.81358 13.8108 8.82802 13.766 8.8538 13.7139C9.02705 13.3628 8.96724 13.0967 8.88629 12.9353C8.72335 12.6084 8.38974 12.4759 7.95713 12.3774C8.45986 11.9035 9.12502 11.2043 10.0686 10.2092C10.1423 10.1318 10.2114 10.0545 10.2821 9.97664C10.2279 10.1148 10.1635 10.2597 10.0825 10.4103C9.80307 10.9342 9.95724 11.2482 10.3233 11.4596C10.066 11.5395 9.88093 11.6689 9.79688 11.8556C9.1111 13.3787 9.1111 13.3787 13.6558 15.499C16.1633 16.6695 18.5058 16.936 18.8858 16.0961C19.5726 14.5693 19.5726 14.5693 15.0269 12.4511C14.4599 12.1851 13.8758 11.9574 13.2784 11.7695C13.365 11.4075 13.333 10.73 13.8244 9.74152C14.1678 9.04439 12.9314 9.19753 11.6423 8.75461C11.5237 8.71336 11.4226 8.68758 11.3309 8.66799C12.2621 7.3253 12.638 6.14039 12.1765 5.71139C11.0256 4.64456 11.0256 4.64456 7.76738 8.07708C6.41644 9.49917 5.55999 10.9795 5.48161 11.8824C4.85925 11.9762 4.68188 12.5501 4.55297 12.9827C4.4715 13.2571 4.37921 13.568 4.19719 13.9098C3.96207 14.3507 3.92804 14.7518 4.09613 15.1025C4.25443 15.4325 4.55297 15.6413 4.92732 15.7908C4.37044 16.655 4.125 17.6723 4.50502 18.6067C8.16854 27.6198 13.4423 27.4981 15.9359 25.6645C18.431 23.8315 17.5086 23.0761 14.6603 21.3039V21.3039ZM5.91061 19.2502C6.39118 16.5101 9.6195 16.7355 8.77955 17.3093C7.04757 18.4973 5.64404 20.7548 5.91061 19.2502ZM10.5342 20.4598C8.80224 21.6473 7.40025 23.9032 7.66529 22.4006C8.1474 19.658 11.3752 19.8839 10.5342 20.4598ZM13.6491 22.7641C11.9171 23.9516 10.5162 26.2085 10.7802 24.706C11.2633 21.9644 14.4891 22.1903 13.6491 22.7641Z"></path></svg></div><div><svg class="h-8 w-8 text-yellow-400" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M29.03 22.9987C30.3046 20.7052 30.972 18.124 30.9688 15.5C30.9688 6.95714 24.0429 0.0312618 15.5 0.0312618C12.8765 0.0280113 10.2956 0.695192 8.00231 1.9695L6.86845 0.836152C6.35242 0.321091 5.65312 0.0318128 4.92403 0.0318128C4.19494 0.0318128 3.49563 0.321091 2.97961 0.836152L0.835637 2.97909C0.320543 3.49521 0.0312528 4.19459 0.0312528 4.92377C0.0312528 5.65294 0.320543 6.35233 0.835637 6.86845L1.9695 8.00231C0.695192 10.2956 0.0280113 12.8765 0.0312618 15.5C0.0312618 24.0429 6.95611 30.9688 15.5 30.9688C18.1236 30.9721 20.7046 30.3047 22.9977 29.03L24.1316 30.1639C24.6477 30.679 25.3471 30.9683 26.0763 30.9683C26.8054 30.9683 27.5048 30.679 28.0209 30.1639L30.1639 28.0209C30.679 27.5048 30.9683 26.8054 30.9683 26.0763C30.9683 25.3471 30.679 24.6477 30.1639 24.1316L29.03 22.9987ZM2.45573 5.24784C2.37002 5.16166 2.32191 5.04506 2.32191 4.92351C2.32191 4.80197 2.37002 4.68536 2.45573 4.59918L4.5997 2.45522C4.68573 2.36941 4.80227 2.32123 4.92377 2.32123C5.04527 2.32123 5.16181 2.36941 5.24784 2.45522L6.04964 3.25753C5.00424 4.066 4.066 5.00424 3.25753 6.04964L2.45573 5.24784ZM15.5 27.5852C8.82628 27.5852 3.41531 22.1748 3.41531 15.5C3.41531 8.82576 8.82628 3.41531 15.5 3.41531C22.1737 3.41531 27.5852 8.82576 27.5852 15.5C27.5852 22.1748 22.1737 27.5852 15.5 27.5852ZM28.5448 26.4008L26.3998 28.5448C26.3138 28.6305 26.1974 28.6785 26.076 28.6785C25.9546 28.6785 25.8382 28.6305 25.7522 28.5448L24.9504 27.742C25.9959 26.934 26.934 25.9959 27.742 24.9504L28.5448 25.7522C28.6305 25.8384 28.6786 25.955 28.6786 26.0765C28.6786 26.1981 28.6305 26.3147 28.5448 26.4008Z"></path><path fill="currentColor" d="M20.431 15.0019C21.865 18.0199 22.5338 19.0269 25.1 16.952C27.6642 14.8787 28.8533 9.86631 19.4153 4.85186C16.849 3.48855 12.7493 6.07131 13.2118 8.24725C13.6753 10.4242 18.9997 11.985 20.431 15.0019V15.0019ZM25.114 12.5001C26.865 12.5001 24.0384 13.4597 22.3533 14.9148C21.5365 15.6202 21.9295 12.5001 25.114 12.5001ZM22.7771 8.63758C24.5292 8.63758 21.7026 9.59561 20.0175 11.0517C19.2033 11.7561 19.5911 8.63758 22.7771 8.63758V8.63758ZM19.01 6.12133C20.7605 6.12133 17.9334 7.0809 16.2514 8.53394C15.4336 9.23931 15.8245 6.12133 19.01 6.12133"></path><path fill="currentColor" d="M20.8639 21.1559C18.771 22.6445 17.4871 24.408 17.9898 25.0968C18.8953 26.3416 18.8953 26.3416 22.6831 23.6459C24.7729 22.1593 26.0599 20.3938 25.5572 19.706C24.6476 18.4618 24.6476 18.4618 20.8639 21.1559Z"></path><path fill="currentColor" d="M20.9373 20.4738C21.8922 20.5109 21.2966 19.625 21.4065 18.5097C21.5142 17.3939 20.6067 17.9658 18.8969 17.8662C17.185 17.7667 17.6826 19.1141 17.7517 20.1907C17.8213 21.2668 18.4787 20.3825 20.9373 20.4738"></path> <path fill="currentColor" d="M14.6603 21.3039C14.0766 20.9404 13.5831 20.4438 13.1438 19.8839C13.5398 20.0442 14.0209 20.1365 14.519 20.2314C14.735 20.2726 14.9511 20.3139 15.1553 20.3603C15.3785 20.4119 15.5513 20.4356 15.6982 20.4356C16.4995 20.4356 16.5871 19.756 16.6397 19.3492C16.6872 18.9815 16.7527 18.4772 17.0827 17.8116C17.2559 17.4599 17.1961 17.1944 17.1151 17.033C16.9027 16.606 16.3995 16.5101 15.7632 16.3895C15.4084 16.3219 15.0062 16.2456 14.6061 16.1074C14.3163 16.0074 14.0879 15.961 13.8863 15.961C13.1139 15.961 12.9216 16.6086 12.7808 17.0809C12.6993 17.3547 12.607 17.6662 12.425 18.0075C12.3345 18.1745 12.2728 18.3557 12.2425 18.5432C11.0813 16.5756 10.2651 14.3925 8.88835 13.8856C8.85638 13.8743 8.82286 13.8706 8.7909 13.8608C8.81358 13.8108 8.82802 13.766 8.8538 13.7139C9.02705 13.3628 8.96724 13.0967 8.88629 12.9353C8.72335 12.6084 8.38974 12.4759 7.95713 12.3774C8.45986 11.9035 9.12502 11.2043 10.0686 10.2092C10.1423 10.1318 10.2114 10.0545 10.2821 9.97664C10.2279 10.1148 10.1635 10.2597 10.0825 10.4103C9.80307 10.9342 9.95724 11.2482 10.3233 11.4596C10.066 11.5395 9.88093 11.6689 9.79688 11.8556C9.1111 13.3787 9.1111 13.3787 13.6558 15.499C16.1633 16.6695 18.5058 16.936 18.8858 16.0961C19.5726 14.5693 19.5726 14.5693 15.0269 12.4511C14.4599 12.1851 13.8758 11.9574 13.2784 11.7695C13.365 11.4075 13.333 10.73 13.8244 9.74152C14.1678 9.04439 12.9314 9.19753 11.6423 8.75461C11.5237 8.71336 11.4226 8.68758 11.3309 8.66799C12.2621 7.3253 12.638 6.14039 12.1765 5.71139C11.0256 4.64456 11.0256 4.64456 7.76738 8.07708C6.41644 9.49917 5.55999 10.9795 5.48161 11.8824C4.85925 11.9762 4.68188 12.5501 4.55297 12.9827C4.4715 13.2571 4.37921 13.568 4.19719 13.9098C3.96207 14.3507 3.92804 14.7518 4.09613 15.1025C4.25443 15.4325 4.55297 15.6413 4.92732 15.7908C4.37044 16.655 4.125 17.6723 4.50502 18.6067C8.16854 27.6198 13.4423 27.4981 15.9359 25.6645C18.431 23.8315 17.5086 23.0761 14.6603 21.3039V21.3039ZM5.91061 19.2502C6.39118 16.5101 9.6195 16.7355 8.77955 17.3093C7.04757 18.4973 5.64404 20.7548 5.91061 19.2502ZM10.5342 20.4598C8.80224 21.6473 7.40025 23.9032 7.66529 22.4006C8.1474 19.658 11.3752 19.8839 10.5342 20.4598ZM13.6491 22.7641C11.9171 23.9516 10.5162 26.2085 10.7802 24.706C11.2633 21.9644 14.4891 22.1903 13.6491 22.7641Z"></path></svg></div><div><svg class="h-8 w-8 text-yellow-400" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M29.03 22.9987C30.3046 20.7052 30.972 18.124 30.9688 15.5C30.9688 6.95714 24.0429 0.0312618 15.5 0.0312618C12.8765 0.0280113 10.2956 0.695192 8.00231 1.9695L6.86845 0.836152C6.35242 0.321091 5.65312 0.0318128 4.92403 0.0318128C4.19494 0.0318128 3.49563 0.321091 2.97961 0.836152L0.835637 2.97909C0.320543 3.49521 0.0312528 4.19459 0.0312528 4.92377C0.0312528 5.65294 0.320543 6.35233 0.835637 6.86845L1.9695 8.00231C0.695192 10.2956 0.0280113 12.8765 0.0312618 15.5C0.0312618 24.0429 6.95611 30.9688 15.5 30.9688C18.1236 30.9721 20.7046 30.3047 22.9977 29.03L24.1316 30.1639C24.6477 30.679 25.3471 30.9683 26.0763 30.9683C26.8054 30.9683 27.5048 30.679 28.0209 30.1639L30.1639 28.0209C30.679 27.5048 30.9683 26.8054 30.9683 26.0763C30.9683 25.3471 30.679 24.6477 30.1639 24.1316L29.03 22.9987ZM2.45573 5.24784C2.37002 5.16166 2.32191 5.04506 2.32191 4.92351C2.32191 4.80197 2.37002 4.68536 2.45573 4.59918L4.5997 2.45522C4.68573 2.36941 4.80227 2.32123 4.92377 2.32123C5.04527 2.32123 5.16181 2.36941 5.24784 2.45522L6.04964 3.25753C5.00424 4.066 4.066 5.00424 3.25753 6.04964L2.45573 5.24784ZM15.5 27.5852C8.82628 27.5852 3.41531 22.1748 3.41531 15.5C3.41531 8.82576 8.82628 3.41531 15.5 3.41531C22.1737 3.41531 27.5852 8.82576 27.5852 15.5C27.5852 22.1748 22.1737 27.5852 15.5 27.5852ZM28.5448 26.4008L26.3998 28.5448C26.3138 28.6305 26.1974 28.6785 26.076 28.6785C25.9546 28.6785 25.8382 28.6305 25.7522 28.5448L24.9504 27.742C25.9959 26.934 26.934 25.9959 27.742 24.9504L28.5448 25.7522C28.6305 25.8384 28.6786 25.955 28.6786 26.0765C28.6786 26.1981 28.6305 26.3147 28.5448 26.4008Z"></path><path fill="currentColor" d="M20.431 15.0019C21.865 18.0199 22.5338 19.0269 25.1 16.952C27.6642 14.8787 28.8533 9.86631 19.4153 4.85186C16.849 3.48855 12.7493 6.07131 13.2118 8.24725C13.6753 10.4242 18.9997 11.985 20.431 15.0019V15.0019ZM25.114 12.5001C26.865 12.5001 24.0384 13.4597 22.3533 14.9148C21.5365 15.6202 21.9295 12.5001 25.114 12.5001ZM22.7771 8.63758C24.5292 8.63758 21.7026 9.59561 20.0175 11.0517C19.2033 11.7561 19.5911 8.63758 22.7771 8.63758V8.63758ZM19.01 6.12133C20.7605 6.12133 17.9334 7.0809 16.2514 8.53394C15.4336 9.23931 15.8245 6.12133 19.01 6.12133"></path><path fill="currentColor" d="M20.8639 21.1559C18.771 22.6445 17.4871 24.408 17.9898 25.0968C18.8953 26.3416 18.8953 26.3416 22.6831 23.6459C24.7729 22.1593 26.0599 20.3938 25.5572 19.706C24.6476 18.4618 24.6476 18.4618 20.8639 21.1559Z"></path><path fill="currentColor" d="M20.9373 20.4738C21.8922 20.5109 21.2966 19.625 21.4065 18.5097C21.5142 17.3939 20.6067 17.9658 18.8969 17.8662C17.185 17.7667 17.6826 19.1141 17.7517 20.1907C17.8213 21.2668 18.4787 20.3825 20.9373 20.4738"></path> <path fill="currentColor" d="M14.6603 21.3039C14.0766 20.9404 13.5831 20.4438 13.1438 19.8839C13.5398 20.0442 14.0209 20.1365 14.519 20.2314C14.735 20.2726 14.9511 20.3139 15.1553 20.3603C15.3785 20.4119 15.5513 20.4356 15.6982 20.4356C16.4995 20.4356 16.5871 19.756 16.6397 19.3492C16.6872 18.9815 16.7527 18.4772 17.0827 17.8116C17.2559 17.4599 17.1961 17.1944 17.1151 17.033C16.9027 16.606 16.3995 16.5101 15.7632 16.3895C15.4084 16.3219 15.0062 16.2456 14.6061 16.1074C14.3163 16.0074 14.0879 15.961 13.8863 15.961C13.1139 15.961 12.9216 16.6086 12.7808 17.0809C12.6993 17.3547 12.607 17.6662 12.425 18.0075C12.3345 18.1745 12.2728 18.3557 12.2425 18.5432C11.0813 16.5756 10.2651 14.3925 8.88835 13.8856C8.85638 13.8743 8.82286 13.8706 8.7909 13.8608C8.81358 13.8108 8.82802 13.766 8.8538 13.7139C9.02705 13.3628 8.96724 13.0967 8.88629 12.9353C8.72335 12.6084 8.38974 12.4759 7.95713 12.3774C8.45986 11.9035 9.12502 11.2043 10.0686 10.2092C10.1423 10.1318 10.2114 10.0545 10.2821 9.97664C10.2279 10.1148 10.1635 10.2597 10.0825 10.4103C9.80307 10.9342 9.95724 11.2482 10.3233 11.4596C10.066 11.5395 9.88093 11.6689 9.79688 11.8556C9.1111 13.3787 9.1111 13.3787 13.6558 15.499C16.1633 16.6695 18.5058 16.936 18.8858 16.0961C19.5726 14.5693 19.5726 14.5693 15.0269 12.4511C14.4599 12.1851 13.8758 11.9574 13.2784 11.7695C13.365 11.4075 13.333 10.73 13.8244 9.74152C14.1678 9.04439 12.9314 9.19753 11.6423 8.75461C11.5237 8.71336 11.4226 8.68758 11.3309 8.66799C12.2621 7.3253 12.638 6.14039 12.1765 5.71139C11.0256 4.64456 11.0256 4.64456 7.76738 8.07708C6.41644 9.49917 5.55999 10.9795 5.48161 11.8824C4.85925 11.9762 4.68188 12.5501 4.55297 12.9827C4.4715 13.2571 4.37921 13.568 4.19719 13.9098C3.96207 14.3507 3.92804 14.7518 4.09613 15.1025C4.25443 15.4325 4.55297 15.6413 4.92732 15.7908C4.37044 16.655 4.125 17.6723 4.50502 18.6067C8.16854 27.6198 13.4423 27.4981 15.9359 25.6645C18.431 23.8315 17.5086 23.0761 14.6603 21.3039V21.3039ZM5.91061 19.2502C6.39118 16.5101 9.6195 16.7355 8.77955 17.3093C7.04757 18.4973 5.64404 20.7548 5.91061 19.2502ZM10.5342 20.4598C8.80224 21.6473 7.40025 23.9032 7.66529 22.4006C8.1474 19.658 11.3752 19.8839 10.5342 20.4598ZM13.6491 22.7641C11.9171 23.9516 10.5162 26.2085 10.7802 24.706C11.2633 21.9644 14.4891 22.1903 13.6491 22.7641Z"></path></svg></div><div><svg class="h-8 w-8 text-yellow-400" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M29.03 22.9987C30.3046 20.7052 30.972 18.124 30.9688 15.5C30.9688 6.95714 24.0429 0.0312618 15.5 0.0312618C12.8765 0.0280113 10.2956 0.695192 8.00231 1.9695L6.86845 0.836152C6.35242 0.321091 5.65312 0.0318128 4.92403 0.0318128C4.19494 0.0318128 3.49563 0.321091 2.97961 0.836152L0.835637 2.97909C0.320543 3.49521 0.0312528 4.19459 0.0312528 4.92377C0.0312528 5.65294 0.320543 6.35233 0.835637 6.86845L1.9695 8.00231C0.695192 10.2956 0.0280113 12.8765 0.0312618 15.5C0.0312618 24.0429 6.95611 30.9688 15.5 30.9688C18.1236 30.9721 20.7046 30.3047 22.9977 29.03L24.1316 30.1639C24.6477 30.679 25.3471 30.9683 26.0763 30.9683C26.8054 30.9683 27.5048 30.679 28.0209 30.1639L30.1639 28.0209C30.679 27.5048 30.9683 26.8054 30.9683 26.0763C30.9683 25.3471 30.679 24.6477 30.1639 24.1316L29.03 22.9987ZM2.45573 5.24784C2.37002 5.16166 2.32191 5.04506 2.32191 4.92351C2.32191 4.80197 2.37002 4.68536 2.45573 4.59918L4.5997 2.45522C4.68573 2.36941 4.80227 2.32123 4.92377 2.32123C5.04527 2.32123 5.16181 2.36941 5.24784 2.45522L6.04964 3.25753C5.00424 4.066 4.066 5.00424 3.25753 6.04964L2.45573 5.24784ZM15.5 27.5852C8.82628 27.5852 3.41531 22.1748 3.41531 15.5C3.41531 8.82576 8.82628 3.41531 15.5 3.41531C22.1737 3.41531 27.5852 8.82576 27.5852 15.5C27.5852 22.1748 22.1737 27.5852 15.5 27.5852ZM28.5448 26.4008L26.3998 28.5448C26.3138 28.6305 26.1974 28.6785 26.076 28.6785C25.9546 28.6785 25.8382 28.6305 25.7522 28.5448L24.9504 27.742C25.9959 26.934 26.934 25.9959 27.742 24.9504L28.5448 25.7522C28.6305 25.8384 28.6786 25.955 28.6786 26.0765C28.6786 26.1981 28.6305 26.3147 28.5448 26.4008Z"></path><path fill="currentColor" d="M20.431 15.0019C21.865 18.0199 22.5338 19.0269 25.1 16.952C27.6642 14.8787 28.8533 9.86631 19.4153 4.85186C16.849 3.48855 12.7493 6.07131 13.2118 8.24725C13.6753 10.4242 18.9997 11.985 20.431 15.0019V15.0019ZM25.114 12.5001C26.865 12.5001 24.0384 13.4597 22.3533 14.9148C21.5365 15.6202 21.9295 12.5001 25.114 12.5001ZM22.7771 8.63758C24.5292 8.63758 21.7026 9.59561 20.0175 11.0517C19.2033 11.7561 19.5911 8.63758 22.7771 8.63758V8.63758ZM19.01 6.12133C20.7605 6.12133 17.9334 7.0809 16.2514 8.53394C15.4336 9.23931 15.8245 6.12133 19.01 6.12133"></path><path fill="currentColor" d="M20.8639 21.1559C18.771 22.6445 17.4871 24.408 17.9898 25.0968C18.8953 26.3416 18.8953 26.3416 22.6831 23.6459C24.7729 22.1593 26.0599 20.3938 25.5572 19.706C24.6476 18.4618 24.6476 18.4618 20.8639 21.1559Z"></path><path fill="currentColor" d="M20.9373 20.4738C21.8922 20.5109 21.2966 19.625 21.4065 18.5097C21.5142 17.3939 20.6067 17.9658 18.8969 17.8662C17.185 17.7667 17.6826 19.1141 17.7517 20.1907C17.8213 21.2668 18.4787 20.3825 20.9373 20.4738"></path> <path fill="currentColor" d="M14.6603 21.3039C14.0766 20.9404 13.5831 20.4438 13.1438 19.8839C13.5398 20.0442 14.0209 20.1365 14.519 20.2314C14.735 20.2726 14.9511 20.3139 15.1553 20.3603C15.3785 20.4119 15.5513 20.4356 15.6982 20.4356C16.4995 20.4356 16.5871 19.756 16.6397 19.3492C16.6872 18.9815 16.7527 18.4772 17.0827 17.8116C17.2559 17.4599 17.1961 17.1944 17.1151 17.033C16.9027 16.606 16.3995 16.5101 15.7632 16.3895C15.4084 16.3219 15.0062 16.2456 14.6061 16.1074C14.3163 16.0074 14.0879 15.961 13.8863 15.961C13.1139 15.961 12.9216 16.6086 12.7808 17.0809C12.6993 17.3547 12.607 17.6662 12.425 18.0075C12.3345 18.1745 12.2728 18.3557 12.2425 18.5432C11.0813 16.5756 10.2651 14.3925 8.88835 13.8856C8.85638 13.8743 8.82286 13.8706 8.7909 13.8608C8.81358 13.8108 8.82802 13.766 8.8538 13.7139C9.02705 13.3628 8.96724 13.0967 8.88629 12.9353C8.72335 12.6084 8.38974 12.4759 7.95713 12.3774C8.45986 11.9035 9.12502 11.2043 10.0686 10.2092C10.1423 10.1318 10.2114 10.0545 10.2821 9.97664C10.2279 10.1148 10.1635 10.2597 10.0825 10.4103C9.80307 10.9342 9.95724 11.2482 10.3233 11.4596C10.066 11.5395 9.88093 11.6689 9.79688 11.8556C9.1111 13.3787 9.1111 13.3787 13.6558 15.499C16.1633 16.6695 18.5058 16.936 18.8858 16.0961C19.5726 14.5693 19.5726 14.5693 15.0269 12.4511C14.4599 12.1851 13.8758 11.9574 13.2784 11.7695C13.365 11.4075 13.333 10.73 13.8244 9.74152C14.1678 9.04439 12.9314 9.19753 11.6423 8.75461C11.5237 8.71336 11.4226 8.68758 11.3309 8.66799C12.2621 7.3253 12.638 6.14039 12.1765 5.71139C11.0256 4.64456 11.0256 4.64456 7.76738 8.07708C6.41644 9.49917 5.55999 10.9795 5.48161 11.8824C4.85925 11.9762 4.68188 12.5501 4.55297 12.9827C4.4715 13.2571 4.37921 13.568 4.19719 13.9098C3.96207 14.3507 3.92804 14.7518 4.09613 15.1025C4.25443 15.4325 4.55297 15.6413 4.92732 15.7908C4.37044 16.655 4.125 17.6723 4.50502 18.6067C8.16854 27.6198 13.4423 27.4981 15.9359 25.6645C18.431 23.8315 17.5086 23.0761 14.6603 21.3039V21.3039ZM5.91061 19.2502C6.39118 16.5101 9.6195 16.7355 8.77955 17.3093C7.04757 18.4973 5.64404 20.7548 5.91061 19.2502ZM10.5342 20.4598C8.80224 21.6473 7.40025 23.9032 7.66529 22.4006C8.1474 19.658 11.3752 19.8839 10.5342 20.4598ZM13.6491 22.7641C11.9171 23.9516 10.5162 26.2085 10.7802 24.706C11.2633 21.9644 14.4891 22.1903 13.6491 22.7641Z"></path></svg></div><div><svg class="h-8 w-8 text-gray-400 dark:text-neutral-500" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M29.03 22.9987C30.3046 20.7052 30.972 18.124 30.9688 15.5C30.9688 6.95714 24.0429 0.0312618 15.5 0.0312618C12.8765 0.0280113 10.2956 0.695192 8.00231 1.9695L6.86845 0.836152C6.35242 0.321091 5.65312 0.0318128 4.92403 0.0318128C4.19494 0.0318128 3.49563 0.321091 2.97961 0.836152L0.835637 2.97909C0.320543 3.49521 0.0312528 4.19459 0.0312528 4.92377C0.0312528 5.65294 0.320543 6.35233 0.835637 6.86845L1.9695 8.00231C0.695192 10.2956 0.0280113 12.8765 0.0312618 15.5C0.0312618 24.0429 6.95611 30.9688 15.5 30.9688C18.1236 30.9721 20.7046 30.3047 22.9977 29.03L24.1316 30.1639C24.6477 30.679 25.3471 30.9683 26.0763 30.9683C26.8054 30.9683 27.5048 30.679 28.0209 30.1639L30.1639 28.0209C30.679 27.5048 30.9683 26.8054 30.9683 26.0763C30.9683 25.3471 30.679 24.6477 30.1639 24.1316L29.03 22.9987ZM2.45573 5.24784C2.37002 5.16166 2.32191 5.04506 2.32191 4.92351C2.32191 4.80197 2.37002 4.68536 2.45573 4.59918L4.5997 2.45522C4.68573 2.36941 4.80227 2.32123 4.92377 2.32123C5.04527 2.32123 5.16181 2.36941 5.24784 2.45522L6.04964 3.25753C5.00424 4.066 4.066 5.00424 3.25753 6.04964L2.45573 5.24784ZM15.5 27.5852C8.82628 27.5852 3.41531 22.1748 3.41531 15.5C3.41531 8.82576 8.82628 3.41531 15.5 3.41531C22.1737 3.41531 27.5852 8.82576 27.5852 15.5C27.5852 22.1748 22.1737 27.5852 15.5 27.5852ZM28.5448 26.4008L26.3998 28.5448C26.3138 28.6305 26.1974 28.6785 26.076 28.6785C25.9546 28.6785 25.8382 28.6305 25.7522 28.5448L24.9504 27.742C25.9959 26.934 26.934 25.9959 27.742 24.9504L28.5448 25.7522C28.6305 25.8384 28.6786 25.955 28.6786 26.0765C28.6786 26.1981 28.6305 26.3147 28.5448 26.4008Z"></path><path fill="currentColor" d="M20.431 15.0019C21.865 18.0199 22.5338 19.0269 25.1 16.952C27.6642 14.8787 28.8533 9.86631 19.4153 4.85186C16.849 3.48855 12.7493 6.07131 13.2118 8.24725C13.6753 10.4242 18.9997 11.985 20.431 15.0019V15.0019ZM25.114 12.5001C26.865 12.5001 24.0384 13.4597 22.3533 14.9148C21.5365 15.6202 21.9295 12.5001 25.114 12.5001ZM22.7771 8.63758C24.5292 8.63758 21.7026 9.59561 20.0175 11.0517C19.2033 11.7561 19.5911 8.63758 22.7771 8.63758V8.63758ZM19.01 6.12133C20.7605 6.12133 17.9334 7.0809 16.2514 8.53394C15.4336 9.23931 15.8245 6.12133 19.01 6.12133"></path><path fill="currentColor" d="M20.8639 21.1559C18.771 22.6445 17.4871 24.408 17.9898 25.0968C18.8953 26.3416 18.8953 26.3416 22.6831 23.6459C24.7729 22.1593 26.0599 20.3938 25.5572 19.706C24.6476 18.4618 24.6476 18.4618 20.8639 21.1559Z"></path><path fill="currentColor" d="M20.9373 20.4738C21.8922 20.5109 21.2966 19.625 21.4065 18.5097C21.5142 17.3939 20.6067 17.9658 18.8969 17.8662C17.185 17.7667 17.6826 19.1141 17.7517 20.1907C17.8213 21.2668 18.4787 20.3825 20.9373 20.4738"></path> <path fill="currentColor" d="M14.6603 21.3039C14.0766 20.9404 13.5831 20.4438 13.1438 19.8839C13.5398 20.0442 14.0209 20.1365 14.519 20.2314C14.735 20.2726 14.9511 20.3139 15.1553 20.3603C15.3785 20.4119 15.5513 20.4356 15.6982 20.4356C16.4995 20.4356 16.5871 19.756 16.6397 19.3492C16.6872 18.9815 16.7527 18.4772 17.0827 17.8116C17.2559 17.4599 17.1961 17.1944 17.1151 17.033C16.9027 16.606 16.3995 16.5101 15.7632 16.3895C15.4084 16.3219 15.0062 16.2456 14.6061 16.1074C14.3163 16.0074 14.0879 15.961 13.8863 15.961C13.1139 15.961 12.9216 16.6086 12.7808 17.0809C12.6993 17.3547 12.607 17.6662 12.425 18.0075C12.3345 18.1745 12.2728 18.3557 12.2425 18.5432C11.0813 16.5756 10.2651 14.3925 8.88835 13.8856C8.85638 13.8743 8.82286 13.8706 8.7909 13.8608C8.81358 13.8108 8.82802 13.766 8.8538 13.7139C9.02705 13.3628 8.96724 13.0967 8.88629 12.9353C8.72335 12.6084 8.38974 12.4759 7.95713 12.3774C8.45986 11.9035 9.12502 11.2043 10.0686 10.2092C10.1423 10.1318 10.2114 10.0545 10.2821 9.97664C10.2279 10.1148 10.1635 10.2597 10.0825 10.4103C9.80307 10.9342 9.95724 11.2482 10.3233 11.4596C10.066 11.5395 9.88093 11.6689 9.79688 11.8556C9.1111 13.3787 9.1111 13.3787 13.6558 15.499C16.1633 16.6695 18.5058 16.936 18.8858 16.0961C19.5726 14.5693 19.5726 14.5693 15.0269 12.4511C14.4599 12.1851 13.8758 11.9574 13.2784 11.7695C13.365 11.4075 13.333 10.73 13.8244 9.74152C14.1678 9.04439 12.9314 9.19753 11.6423 8.75461C11.5237 8.71336 11.4226 8.68758 11.3309 8.66799C12.2621 7.3253 12.638 6.14039 12.1765 5.71139C11.0256 4.64456 11.0256 4.64456 7.76738 8.07708C6.41644 9.49917 5.55999 10.9795 5.48161 11.8824C4.85925 11.9762 4.68188 12.5501 4.55297 12.9827C4.4715 13.2571 4.37921 13.568 4.19719 13.9098C3.96207 14.3507 3.92804 14.7518 4.09613 15.1025C4.25443 15.4325 4.55297 15.6413 4.92732 15.7908C4.37044 16.655 4.125 17.6723 4.50502 18.6067C8.16854 27.6198 13.4423 27.4981 15.9359 25.6645C18.431 23.8315 17.5086 23.0761 14.6603 21.3039V21.3039ZM5.91061 19.2502C6.39118 16.5101 9.6195 16.7355 8.77955 17.3093C7.04757 18.4973 5.64404 20.7548 5.91061 19.2502ZM10.5342 20.4598C8.80224 21.6473 7.40025 23.9032 7.66529 22.4006C8.1474 19.658 11.3752 19.8839 10.5342 20.4598ZM13.6491 22.7641C11.9171 23.9516 10.5162 26.2085 10.7802 24.706C11.2633 21.9644 14.4891 22.1903 13.6491 22.7641Z"></path></svg></div></div><div><p class="font-medium text-neutral-400 dark:text-neutral-500 text-center"> This place&#39;s lasagna is the best </p></div></div>`)
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full flex justify-start md:justify-center" }, _attrs))}><div class="w-60 h-64 flex flex-col pt-8 bg-slate-100 dark:bg-neutral-700 space-y-4 items-center rounded-2xl"><div><p class="font-medium text-5xl text-neutral-400 dark:text-neutral-500">4/5</p></div><div class="flex flex-row space-x-1"><div><svg class="h-8 w-8 text-yellow-400" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M29.03 22.9987C30.3046 20.7052 30.972 18.124 30.9688 15.5C30.9688 6.95714 24.0429 0.0312618 15.5 0.0312618C12.8765 0.0280113 10.2956 0.695192 8.00231 1.9695L6.86845 0.836152C6.35242 0.321091 5.65312 0.0318128 4.92403 0.0318128C4.19494 0.0318128 3.49563 0.321091 2.97961 0.836152L0.835637 2.97909C0.320543 3.49521 0.0312528 4.19459 0.0312528 4.92377C0.0312528 5.65294 0.320543 6.35233 0.835637 6.86845L1.9695 8.00231C0.695192 10.2956 0.0280113 12.8765 0.0312618 15.5C0.0312618 24.0429 6.95611 30.9688 15.5 30.9688C18.1236 30.9721 20.7046 30.3047 22.9977 29.03L24.1316 30.1639C24.6477 30.679 25.3471 30.9683 26.0763 30.9683C26.8054 30.9683 27.5048 30.679 28.0209 30.1639L30.1639 28.0209C30.679 27.5048 30.9683 26.8054 30.9683 26.0763C30.9683 25.3471 30.679 24.6477 30.1639 24.1316L29.03 22.9987ZM2.45573 5.24784C2.37002 5.16166 2.32191 5.04506 2.32191 4.92351C2.32191 4.80197 2.37002 4.68536 2.45573 4.59918L4.5997 2.45522C4.68573 2.36941 4.80227 2.32123 4.92377 2.32123C5.04527 2.32123 5.16181 2.36941 5.24784 2.45522L6.04964 3.25753C5.00424 4.066 4.066 5.00424 3.25753 6.04964L2.45573 5.24784ZM15.5 27.5852C8.82628 27.5852 3.41531 22.1748 3.41531 15.5C3.41531 8.82576 8.82628 3.41531 15.5 3.41531C22.1737 3.41531 27.5852 8.82576 27.5852 15.5C27.5852 22.1748 22.1737 27.5852 15.5 27.5852ZM28.5448 26.4008L26.3998 28.5448C26.3138 28.6305 26.1974 28.6785 26.076 28.6785C25.9546 28.6785 25.8382 28.6305 25.7522 28.5448L24.9504 27.742C25.9959 26.934 26.934 25.9959 27.742 24.9504L28.5448 25.7522C28.6305 25.8384 28.6786 25.955 28.6786 26.0765C28.6786 26.1981 28.6305 26.3147 28.5448 26.4008Z"></path><path fill="currentColor" d="M20.431 15.0019C21.865 18.0199 22.5338 19.0269 25.1 16.952C27.6642 14.8787 28.8533 9.86631 19.4153 4.85186C16.849 3.48855 12.7493 6.07131 13.2118 8.24725C13.6753 10.4242 18.9997 11.985 20.431 15.0019V15.0019ZM25.114 12.5001C26.865 12.5001 24.0384 13.4597 22.3533 14.9148C21.5365 15.6202 21.9295 12.5001 25.114 12.5001ZM22.7771 8.63758C24.5292 8.63758 21.7026 9.59561 20.0175 11.0517C19.2033 11.7561 19.5911 8.63758 22.7771 8.63758V8.63758ZM19.01 6.12133C20.7605 6.12133 17.9334 7.0809 16.2514 8.53394C15.4336 9.23931 15.8245 6.12133 19.01 6.12133"></path><path fill="currentColor" d="M20.8639 21.1559C18.771 22.6445 17.4871 24.408 17.9898 25.0968C18.8953 26.3416 18.8953 26.3416 22.6831 23.6459C24.7729 22.1593 26.0599 20.3938 25.5572 19.706C24.6476 18.4618 24.6476 18.4618 20.8639 21.1559Z"></path><path fill="currentColor" d="M20.9373 20.4738C21.8922 20.5109 21.2966 19.625 21.4065 18.5097C21.5142 17.3939 20.6067 17.9658 18.8969 17.8662C17.185 17.7667 17.6826 19.1141 17.7517 20.1907C17.8213 21.2668 18.4787 20.3825 20.9373 20.4738"></path> <path fill="currentColor" d="M14.6603 21.3039C14.0766 20.9404 13.5831 20.4438 13.1438 19.8839C13.5398 20.0442 14.0209 20.1365 14.519 20.2314C14.735 20.2726 14.9511 20.3139 15.1553 20.3603C15.3785 20.4119 15.5513 20.4356 15.6982 20.4356C16.4995 20.4356 16.5871 19.756 16.6397 19.3492C16.6872 18.9815 16.7527 18.4772 17.0827 17.8116C17.2559 17.4599 17.1961 17.1944 17.1151 17.033C16.9027 16.606 16.3995 16.5101 15.7632 16.3895C15.4084 16.3219 15.0062 16.2456 14.6061 16.1074C14.3163 16.0074 14.0879 15.961 13.8863 15.961C13.1139 15.961 12.9216 16.6086 12.7808 17.0809C12.6993 17.3547 12.607 17.6662 12.425 18.0075C12.3345 18.1745 12.2728 18.3557 12.2425 18.5432C11.0813 16.5756 10.2651 14.3925 8.88835 13.8856C8.85638 13.8743 8.82286 13.8706 8.7909 13.8608C8.81358 13.8108 8.82802 13.766 8.8538 13.7139C9.02705 13.3628 8.96724 13.0967 8.88629 12.9353C8.72335 12.6084 8.38974 12.4759 7.95713 12.3774C8.45986 11.9035 9.12502 11.2043 10.0686 10.2092C10.1423 10.1318 10.2114 10.0545 10.2821 9.97664C10.2279 10.1148 10.1635 10.2597 10.0825 10.4103C9.80307 10.9342 9.95724 11.2482 10.3233 11.4596C10.066 11.5395 9.88093 11.6689 9.79688 11.8556C9.1111 13.3787 9.1111 13.3787 13.6558 15.499C16.1633 16.6695 18.5058 16.936 18.8858 16.0961C19.5726 14.5693 19.5726 14.5693 15.0269 12.4511C14.4599 12.1851 13.8758 11.9574 13.2784 11.7695C13.365 11.4075 13.333 10.73 13.8244 9.74152C14.1678 9.04439 12.9314 9.19753 11.6423 8.75461C11.5237 8.71336 11.4226 8.68758 11.3309 8.66799C12.2621 7.3253 12.638 6.14039 12.1765 5.71139C11.0256 4.64456 11.0256 4.64456 7.76738 8.07708C6.41644 9.49917 5.55999 10.9795 5.48161 11.8824C4.85925 11.9762 4.68188 12.5501 4.55297 12.9827C4.4715 13.2571 4.37921 13.568 4.19719 13.9098C3.96207 14.3507 3.92804 14.7518 4.09613 15.1025C4.25443 15.4325 4.55297 15.6413 4.92732 15.7908C4.37044 16.655 4.125 17.6723 4.50502 18.6067C8.16854 27.6198 13.4423 27.4981 15.9359 25.6645C18.431 23.8315 17.5086 23.0761 14.6603 21.3039V21.3039ZM5.91061 19.2502C6.39118 16.5101 9.6195 16.7355 8.77955 17.3093C7.04757 18.4973 5.64404 20.7548 5.91061 19.2502ZM10.5342 20.4598C8.80224 21.6473 7.40025 23.9032 7.66529 22.4006C8.1474 19.658 11.3752 19.8839 10.5342 20.4598ZM13.6491 22.7641C11.9171 23.9516 10.5162 26.2085 10.7802 24.706C11.2633 21.9644 14.4891 22.1903 13.6491 22.7641Z"></path></svg></div><div><svg class="h-8 w-8 text-yellow-400" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M29.03 22.9987C30.3046 20.7052 30.972 18.124 30.9688 15.5C30.9688 6.95714 24.0429 0.0312618 15.5 0.0312618C12.8765 0.0280113 10.2956 0.695192 8.00231 1.9695L6.86845 0.836152C6.35242 0.321091 5.65312 0.0318128 4.92403 0.0318128C4.19494 0.0318128 3.49563 0.321091 2.97961 0.836152L0.835637 2.97909C0.320543 3.49521 0.0312528 4.19459 0.0312528 4.92377C0.0312528 5.65294 0.320543 6.35233 0.835637 6.86845L1.9695 8.00231C0.695192 10.2956 0.0280113 12.8765 0.0312618 15.5C0.0312618 24.0429 6.95611 30.9688 15.5 30.9688C18.1236 30.9721 20.7046 30.3047 22.9977 29.03L24.1316 30.1639C24.6477 30.679 25.3471 30.9683 26.0763 30.9683C26.8054 30.9683 27.5048 30.679 28.0209 30.1639L30.1639 28.0209C30.679 27.5048 30.9683 26.8054 30.9683 26.0763C30.9683 25.3471 30.679 24.6477 30.1639 24.1316L29.03 22.9987ZM2.45573 5.24784C2.37002 5.16166 2.32191 5.04506 2.32191 4.92351C2.32191 4.80197 2.37002 4.68536 2.45573 4.59918L4.5997 2.45522C4.68573 2.36941 4.80227 2.32123 4.92377 2.32123C5.04527 2.32123 5.16181 2.36941 5.24784 2.45522L6.04964 3.25753C5.00424 4.066 4.066 5.00424 3.25753 6.04964L2.45573 5.24784ZM15.5 27.5852C8.82628 27.5852 3.41531 22.1748 3.41531 15.5C3.41531 8.82576 8.82628 3.41531 15.5 3.41531C22.1737 3.41531 27.5852 8.82576 27.5852 15.5C27.5852 22.1748 22.1737 27.5852 15.5 27.5852ZM28.5448 26.4008L26.3998 28.5448C26.3138 28.6305 26.1974 28.6785 26.076 28.6785C25.9546 28.6785 25.8382 28.6305 25.7522 28.5448L24.9504 27.742C25.9959 26.934 26.934 25.9959 27.742 24.9504L28.5448 25.7522C28.6305 25.8384 28.6786 25.955 28.6786 26.0765C28.6786 26.1981 28.6305 26.3147 28.5448 26.4008Z"></path><path fill="currentColor" d="M20.431 15.0019C21.865 18.0199 22.5338 19.0269 25.1 16.952C27.6642 14.8787 28.8533 9.86631 19.4153 4.85186C16.849 3.48855 12.7493 6.07131 13.2118 8.24725C13.6753 10.4242 18.9997 11.985 20.431 15.0019V15.0019ZM25.114 12.5001C26.865 12.5001 24.0384 13.4597 22.3533 14.9148C21.5365 15.6202 21.9295 12.5001 25.114 12.5001ZM22.7771 8.63758C24.5292 8.63758 21.7026 9.59561 20.0175 11.0517C19.2033 11.7561 19.5911 8.63758 22.7771 8.63758V8.63758ZM19.01 6.12133C20.7605 6.12133 17.9334 7.0809 16.2514 8.53394C15.4336 9.23931 15.8245 6.12133 19.01 6.12133"></path><path fill="currentColor" d="M20.8639 21.1559C18.771 22.6445 17.4871 24.408 17.9898 25.0968C18.8953 26.3416 18.8953 26.3416 22.6831 23.6459C24.7729 22.1593 26.0599 20.3938 25.5572 19.706C24.6476 18.4618 24.6476 18.4618 20.8639 21.1559Z"></path><path fill="currentColor" d="M20.9373 20.4738C21.8922 20.5109 21.2966 19.625 21.4065 18.5097C21.5142 17.3939 20.6067 17.9658 18.8969 17.8662C17.185 17.7667 17.6826 19.1141 17.7517 20.1907C17.8213 21.2668 18.4787 20.3825 20.9373 20.4738"></path> <path fill="currentColor" d="M14.6603 21.3039C14.0766 20.9404 13.5831 20.4438 13.1438 19.8839C13.5398 20.0442 14.0209 20.1365 14.519 20.2314C14.735 20.2726 14.9511 20.3139 15.1553 20.3603C15.3785 20.4119 15.5513 20.4356 15.6982 20.4356C16.4995 20.4356 16.5871 19.756 16.6397 19.3492C16.6872 18.9815 16.7527 18.4772 17.0827 17.8116C17.2559 17.4599 17.1961 17.1944 17.1151 17.033C16.9027 16.606 16.3995 16.5101 15.7632 16.3895C15.4084 16.3219 15.0062 16.2456 14.6061 16.1074C14.3163 16.0074 14.0879 15.961 13.8863 15.961C13.1139 15.961 12.9216 16.6086 12.7808 17.0809C12.6993 17.3547 12.607 17.6662 12.425 18.0075C12.3345 18.1745 12.2728 18.3557 12.2425 18.5432C11.0813 16.5756 10.2651 14.3925 8.88835 13.8856C8.85638 13.8743 8.82286 13.8706 8.7909 13.8608C8.81358 13.8108 8.82802 13.766 8.8538 13.7139C9.02705 13.3628 8.96724 13.0967 8.88629 12.9353C8.72335 12.6084 8.38974 12.4759 7.95713 12.3774C8.45986 11.9035 9.12502 11.2043 10.0686 10.2092C10.1423 10.1318 10.2114 10.0545 10.2821 9.97664C10.2279 10.1148 10.1635 10.2597 10.0825 10.4103C9.80307 10.9342 9.95724 11.2482 10.3233 11.4596C10.066 11.5395 9.88093 11.6689 9.79688 11.8556C9.1111 13.3787 9.1111 13.3787 13.6558 15.499C16.1633 16.6695 18.5058 16.936 18.8858 16.0961C19.5726 14.5693 19.5726 14.5693 15.0269 12.4511C14.4599 12.1851 13.8758 11.9574 13.2784 11.7695C13.365 11.4075 13.333 10.73 13.8244 9.74152C14.1678 9.04439 12.9314 9.19753 11.6423 8.75461C11.5237 8.71336 11.4226 8.68758 11.3309 8.66799C12.2621 7.3253 12.638 6.14039 12.1765 5.71139C11.0256 4.64456 11.0256 4.64456 7.76738 8.07708C6.41644 9.49917 5.55999 10.9795 5.48161 11.8824C4.85925 11.9762 4.68188 12.5501 4.55297 12.9827C4.4715 13.2571 4.37921 13.568 4.19719 13.9098C3.96207 14.3507 3.92804 14.7518 4.09613 15.1025C4.25443 15.4325 4.55297 15.6413 4.92732 15.7908C4.37044 16.655 4.125 17.6723 4.50502 18.6067C8.16854 27.6198 13.4423 27.4981 15.9359 25.6645C18.431 23.8315 17.5086 23.0761 14.6603 21.3039V21.3039ZM5.91061 19.2502C6.39118 16.5101 9.6195 16.7355 8.77955 17.3093C7.04757 18.4973 5.64404 20.7548 5.91061 19.2502ZM10.5342 20.4598C8.80224 21.6473 7.40025 23.9032 7.66529 22.4006C8.1474 19.658 11.3752 19.8839 10.5342 20.4598ZM13.6491 22.7641C11.9171 23.9516 10.5162 26.2085 10.7802 24.706C11.2633 21.9644 14.4891 22.1903 13.6491 22.7641Z"></path></svg></div><div><svg class="h-8 w-8 text-yellow-400" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M29.03 22.9987C30.3046 20.7052 30.972 18.124 30.9688 15.5C30.9688 6.95714 24.0429 0.0312618 15.5 0.0312618C12.8765 0.0280113 10.2956 0.695192 8.00231 1.9695L6.86845 0.836152C6.35242 0.321091 5.65312 0.0318128 4.92403 0.0318128C4.19494 0.0318128 3.49563 0.321091 2.97961 0.836152L0.835637 2.97909C0.320543 3.49521 0.0312528 4.19459 0.0312528 4.92377C0.0312528 5.65294 0.320543 6.35233 0.835637 6.86845L1.9695 8.00231C0.695192 10.2956 0.0280113 12.8765 0.0312618 15.5C0.0312618 24.0429 6.95611 30.9688 15.5 30.9688C18.1236 30.9721 20.7046 30.3047 22.9977 29.03L24.1316 30.1639C24.6477 30.679 25.3471 30.9683 26.0763 30.9683C26.8054 30.9683 27.5048 30.679 28.0209 30.1639L30.1639 28.0209C30.679 27.5048 30.9683 26.8054 30.9683 26.0763C30.9683 25.3471 30.679 24.6477 30.1639 24.1316L29.03 22.9987ZM2.45573 5.24784C2.37002 5.16166 2.32191 5.04506 2.32191 4.92351C2.32191 4.80197 2.37002 4.68536 2.45573 4.59918L4.5997 2.45522C4.68573 2.36941 4.80227 2.32123 4.92377 2.32123C5.04527 2.32123 5.16181 2.36941 5.24784 2.45522L6.04964 3.25753C5.00424 4.066 4.066 5.00424 3.25753 6.04964L2.45573 5.24784ZM15.5 27.5852C8.82628 27.5852 3.41531 22.1748 3.41531 15.5C3.41531 8.82576 8.82628 3.41531 15.5 3.41531C22.1737 3.41531 27.5852 8.82576 27.5852 15.5C27.5852 22.1748 22.1737 27.5852 15.5 27.5852ZM28.5448 26.4008L26.3998 28.5448C26.3138 28.6305 26.1974 28.6785 26.076 28.6785C25.9546 28.6785 25.8382 28.6305 25.7522 28.5448L24.9504 27.742C25.9959 26.934 26.934 25.9959 27.742 24.9504L28.5448 25.7522C28.6305 25.8384 28.6786 25.955 28.6786 26.0765C28.6786 26.1981 28.6305 26.3147 28.5448 26.4008Z"></path><path fill="currentColor" d="M20.431 15.0019C21.865 18.0199 22.5338 19.0269 25.1 16.952C27.6642 14.8787 28.8533 9.86631 19.4153 4.85186C16.849 3.48855 12.7493 6.07131 13.2118 8.24725C13.6753 10.4242 18.9997 11.985 20.431 15.0019V15.0019ZM25.114 12.5001C26.865 12.5001 24.0384 13.4597 22.3533 14.9148C21.5365 15.6202 21.9295 12.5001 25.114 12.5001ZM22.7771 8.63758C24.5292 8.63758 21.7026 9.59561 20.0175 11.0517C19.2033 11.7561 19.5911 8.63758 22.7771 8.63758V8.63758ZM19.01 6.12133C20.7605 6.12133 17.9334 7.0809 16.2514 8.53394C15.4336 9.23931 15.8245 6.12133 19.01 6.12133"></path><path fill="currentColor" d="M20.8639 21.1559C18.771 22.6445 17.4871 24.408 17.9898 25.0968C18.8953 26.3416 18.8953 26.3416 22.6831 23.6459C24.7729 22.1593 26.0599 20.3938 25.5572 19.706C24.6476 18.4618 24.6476 18.4618 20.8639 21.1559Z"></path><path fill="currentColor" d="M20.9373 20.4738C21.8922 20.5109 21.2966 19.625 21.4065 18.5097C21.5142 17.3939 20.6067 17.9658 18.8969 17.8662C17.185 17.7667 17.6826 19.1141 17.7517 20.1907C17.8213 21.2668 18.4787 20.3825 20.9373 20.4738"></path> <path fill="currentColor" d="M14.6603 21.3039C14.0766 20.9404 13.5831 20.4438 13.1438 19.8839C13.5398 20.0442 14.0209 20.1365 14.519 20.2314C14.735 20.2726 14.9511 20.3139 15.1553 20.3603C15.3785 20.4119 15.5513 20.4356 15.6982 20.4356C16.4995 20.4356 16.5871 19.756 16.6397 19.3492C16.6872 18.9815 16.7527 18.4772 17.0827 17.8116C17.2559 17.4599 17.1961 17.1944 17.1151 17.033C16.9027 16.606 16.3995 16.5101 15.7632 16.3895C15.4084 16.3219 15.0062 16.2456 14.6061 16.1074C14.3163 16.0074 14.0879 15.961 13.8863 15.961C13.1139 15.961 12.9216 16.6086 12.7808 17.0809C12.6993 17.3547 12.607 17.6662 12.425 18.0075C12.3345 18.1745 12.2728 18.3557 12.2425 18.5432C11.0813 16.5756 10.2651 14.3925 8.88835 13.8856C8.85638 13.8743 8.82286 13.8706 8.7909 13.8608C8.81358 13.8108 8.82802 13.766 8.8538 13.7139C9.02705 13.3628 8.96724 13.0967 8.88629 12.9353C8.72335 12.6084 8.38974 12.4759 7.95713 12.3774C8.45986 11.9035 9.12502 11.2043 10.0686 10.2092C10.1423 10.1318 10.2114 10.0545 10.2821 9.97664C10.2279 10.1148 10.1635 10.2597 10.0825 10.4103C9.80307 10.9342 9.95724 11.2482 10.3233 11.4596C10.066 11.5395 9.88093 11.6689 9.79688 11.8556C9.1111 13.3787 9.1111 13.3787 13.6558 15.499C16.1633 16.6695 18.5058 16.936 18.8858 16.0961C19.5726 14.5693 19.5726 14.5693 15.0269 12.4511C14.4599 12.1851 13.8758 11.9574 13.2784 11.7695C13.365 11.4075 13.333 10.73 13.8244 9.74152C14.1678 9.04439 12.9314 9.19753 11.6423 8.75461C11.5237 8.71336 11.4226 8.68758 11.3309 8.66799C12.2621 7.3253 12.638 6.14039 12.1765 5.71139C11.0256 4.64456 11.0256 4.64456 7.76738 8.07708C6.41644 9.49917 5.55999 10.9795 5.48161 11.8824C4.85925 11.9762 4.68188 12.5501 4.55297 12.9827C4.4715 13.2571 4.37921 13.568 4.19719 13.9098C3.96207 14.3507 3.92804 14.7518 4.09613 15.1025C4.25443 15.4325 4.55297 15.6413 4.92732 15.7908C4.37044 16.655 4.125 17.6723 4.50502 18.6067C8.16854 27.6198 13.4423 27.4981 15.9359 25.6645C18.431 23.8315 17.5086 23.0761 14.6603 21.3039V21.3039ZM5.91061 19.2502C6.39118 16.5101 9.6195 16.7355 8.77955 17.3093C7.04757 18.4973 5.64404 20.7548 5.91061 19.2502ZM10.5342 20.4598C8.80224 21.6473 7.40025 23.9032 7.66529 22.4006C8.1474 19.658 11.3752 19.8839 10.5342 20.4598ZM13.6491 22.7641C11.9171 23.9516 10.5162 26.2085 10.7802 24.706C11.2633 21.9644 14.4891 22.1903 13.6491 22.7641Z"></path></svg></div><div><svg class="h-8 w-8 text-yellow-400" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M29.03 22.9987C30.3046 20.7052 30.972 18.124 30.9688 15.5C30.9688 6.95714 24.0429 0.0312618 15.5 0.0312618C12.8765 0.0280113 10.2956 0.695192 8.00231 1.9695L6.86845 0.836152C6.35242 0.321091 5.65312 0.0318128 4.92403 0.0318128C4.19494 0.0318128 3.49563 0.321091 2.97961 0.836152L0.835637 2.97909C0.320543 3.49521 0.0312528 4.19459 0.0312528 4.92377C0.0312528 5.65294 0.320543 6.35233 0.835637 6.86845L1.9695 8.00231C0.695192 10.2956 0.0280113 12.8765 0.0312618 15.5C0.0312618 24.0429 6.95611 30.9688 15.5 30.9688C18.1236 30.9721 20.7046 30.3047 22.9977 29.03L24.1316 30.1639C24.6477 30.679 25.3471 30.9683 26.0763 30.9683C26.8054 30.9683 27.5048 30.679 28.0209 30.1639L30.1639 28.0209C30.679 27.5048 30.9683 26.8054 30.9683 26.0763C30.9683 25.3471 30.679 24.6477 30.1639 24.1316L29.03 22.9987ZM2.45573 5.24784C2.37002 5.16166 2.32191 5.04506 2.32191 4.92351C2.32191 4.80197 2.37002 4.68536 2.45573 4.59918L4.5997 2.45522C4.68573 2.36941 4.80227 2.32123 4.92377 2.32123C5.04527 2.32123 5.16181 2.36941 5.24784 2.45522L6.04964 3.25753C5.00424 4.066 4.066 5.00424 3.25753 6.04964L2.45573 5.24784ZM15.5 27.5852C8.82628 27.5852 3.41531 22.1748 3.41531 15.5C3.41531 8.82576 8.82628 3.41531 15.5 3.41531C22.1737 3.41531 27.5852 8.82576 27.5852 15.5C27.5852 22.1748 22.1737 27.5852 15.5 27.5852ZM28.5448 26.4008L26.3998 28.5448C26.3138 28.6305 26.1974 28.6785 26.076 28.6785C25.9546 28.6785 25.8382 28.6305 25.7522 28.5448L24.9504 27.742C25.9959 26.934 26.934 25.9959 27.742 24.9504L28.5448 25.7522C28.6305 25.8384 28.6786 25.955 28.6786 26.0765C28.6786 26.1981 28.6305 26.3147 28.5448 26.4008Z"></path><path fill="currentColor" d="M20.431 15.0019C21.865 18.0199 22.5338 19.0269 25.1 16.952C27.6642 14.8787 28.8533 9.86631 19.4153 4.85186C16.849 3.48855 12.7493 6.07131 13.2118 8.24725C13.6753 10.4242 18.9997 11.985 20.431 15.0019V15.0019ZM25.114 12.5001C26.865 12.5001 24.0384 13.4597 22.3533 14.9148C21.5365 15.6202 21.9295 12.5001 25.114 12.5001ZM22.7771 8.63758C24.5292 8.63758 21.7026 9.59561 20.0175 11.0517C19.2033 11.7561 19.5911 8.63758 22.7771 8.63758V8.63758ZM19.01 6.12133C20.7605 6.12133 17.9334 7.0809 16.2514 8.53394C15.4336 9.23931 15.8245 6.12133 19.01 6.12133"></path><path fill="currentColor" d="M20.8639 21.1559C18.771 22.6445 17.4871 24.408 17.9898 25.0968C18.8953 26.3416 18.8953 26.3416 22.6831 23.6459C24.7729 22.1593 26.0599 20.3938 25.5572 19.706C24.6476 18.4618 24.6476 18.4618 20.8639 21.1559Z"></path><path fill="currentColor" d="M20.9373 20.4738C21.8922 20.5109 21.2966 19.625 21.4065 18.5097C21.5142 17.3939 20.6067 17.9658 18.8969 17.8662C17.185 17.7667 17.6826 19.1141 17.7517 20.1907C17.8213 21.2668 18.4787 20.3825 20.9373 20.4738"></path> <path fill="currentColor" d="M14.6603 21.3039C14.0766 20.9404 13.5831 20.4438 13.1438 19.8839C13.5398 20.0442 14.0209 20.1365 14.519 20.2314C14.735 20.2726 14.9511 20.3139 15.1553 20.3603C15.3785 20.4119 15.5513 20.4356 15.6982 20.4356C16.4995 20.4356 16.5871 19.756 16.6397 19.3492C16.6872 18.9815 16.7527 18.4772 17.0827 17.8116C17.2559 17.4599 17.1961 17.1944 17.1151 17.033C16.9027 16.606 16.3995 16.5101 15.7632 16.3895C15.4084 16.3219 15.0062 16.2456 14.6061 16.1074C14.3163 16.0074 14.0879 15.961 13.8863 15.961C13.1139 15.961 12.9216 16.6086 12.7808 17.0809C12.6993 17.3547 12.607 17.6662 12.425 18.0075C12.3345 18.1745 12.2728 18.3557 12.2425 18.5432C11.0813 16.5756 10.2651 14.3925 8.88835 13.8856C8.85638 13.8743 8.82286 13.8706 8.7909 13.8608C8.81358 13.8108 8.82802 13.766 8.8538 13.7139C9.02705 13.3628 8.96724 13.0967 8.88629 12.9353C8.72335 12.6084 8.38974 12.4759 7.95713 12.3774C8.45986 11.9035 9.12502 11.2043 10.0686 10.2092C10.1423 10.1318 10.2114 10.0545 10.2821 9.97664C10.2279 10.1148 10.1635 10.2597 10.0825 10.4103C9.80307 10.9342 9.95724 11.2482 10.3233 11.4596C10.066 11.5395 9.88093 11.6689 9.79688 11.8556C9.1111 13.3787 9.1111 13.3787 13.6558 15.499C16.1633 16.6695 18.5058 16.936 18.8858 16.0961C19.5726 14.5693 19.5726 14.5693 15.0269 12.4511C14.4599 12.1851 13.8758 11.9574 13.2784 11.7695C13.365 11.4075 13.333 10.73 13.8244 9.74152C14.1678 9.04439 12.9314 9.19753 11.6423 8.75461C11.5237 8.71336 11.4226 8.68758 11.3309 8.66799C12.2621 7.3253 12.638 6.14039 12.1765 5.71139C11.0256 4.64456 11.0256 4.64456 7.76738 8.07708C6.41644 9.49917 5.55999 10.9795 5.48161 11.8824C4.85925 11.9762 4.68188 12.5501 4.55297 12.9827C4.4715 13.2571 4.37921 13.568 4.19719 13.9098C3.96207 14.3507 3.92804 14.7518 4.09613 15.1025C4.25443 15.4325 4.55297 15.6413 4.92732 15.7908C4.37044 16.655 4.125 17.6723 4.50502 18.6067C8.16854 27.6198 13.4423 27.4981 15.9359 25.6645C18.431 23.8315 17.5086 23.0761 14.6603 21.3039V21.3039ZM5.91061 19.2502C6.39118 16.5101 9.6195 16.7355 8.77955 17.3093C7.04757 18.4973 5.64404 20.7548 5.91061 19.2502ZM10.5342 20.4598C8.80224 21.6473 7.40025 23.9032 7.66529 22.4006C8.1474 19.658 11.3752 19.8839 10.5342 20.4598ZM13.6491 22.7641C11.9171 23.9516 10.5162 26.2085 10.7802 24.706C11.2633 21.9644 14.4891 22.1903 13.6491 22.7641Z"></path></svg></div><div><svg class="h-8 w-8 text-gray-400 dark:text-neutral-500" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M29.03 22.9987C30.3046 20.7052 30.972 18.124 30.9688 15.5C30.9688 6.95714 24.0429 0.0312618 15.5 0.0312618C12.8765 0.0280113 10.2956 0.695192 8.00231 1.9695L6.86845 0.836152C6.35242 0.321091 5.65312 0.0318128 4.92403 0.0318128C4.19494 0.0318128 3.49563 0.321091 2.97961 0.836152L0.835637 2.97909C0.320543 3.49521 0.0312528 4.19459 0.0312528 4.92377C0.0312528 5.65294 0.320543 6.35233 0.835637 6.86845L1.9695 8.00231C0.695192 10.2956 0.0280113 12.8765 0.0312618 15.5C0.0312618 24.0429 6.95611 30.9688 15.5 30.9688C18.1236 30.9721 20.7046 30.3047 22.9977 29.03L24.1316 30.1639C24.6477 30.679 25.3471 30.9683 26.0763 30.9683C26.8054 30.9683 27.5048 30.679 28.0209 30.1639L30.1639 28.0209C30.679 27.5048 30.9683 26.8054 30.9683 26.0763C30.9683 25.3471 30.679 24.6477 30.1639 24.1316L29.03 22.9987ZM2.45573 5.24784C2.37002 5.16166 2.32191 5.04506 2.32191 4.92351C2.32191 4.80197 2.37002 4.68536 2.45573 4.59918L4.5997 2.45522C4.68573 2.36941 4.80227 2.32123 4.92377 2.32123C5.04527 2.32123 5.16181 2.36941 5.24784 2.45522L6.04964 3.25753C5.00424 4.066 4.066 5.00424 3.25753 6.04964L2.45573 5.24784ZM15.5 27.5852C8.82628 27.5852 3.41531 22.1748 3.41531 15.5C3.41531 8.82576 8.82628 3.41531 15.5 3.41531C22.1737 3.41531 27.5852 8.82576 27.5852 15.5C27.5852 22.1748 22.1737 27.5852 15.5 27.5852ZM28.5448 26.4008L26.3998 28.5448C26.3138 28.6305 26.1974 28.6785 26.076 28.6785C25.9546 28.6785 25.8382 28.6305 25.7522 28.5448L24.9504 27.742C25.9959 26.934 26.934 25.9959 27.742 24.9504L28.5448 25.7522C28.6305 25.8384 28.6786 25.955 28.6786 26.0765C28.6786 26.1981 28.6305 26.3147 28.5448 26.4008Z"></path><path fill="currentColor" d="M20.431 15.0019C21.865 18.0199 22.5338 19.0269 25.1 16.952C27.6642 14.8787 28.8533 9.86631 19.4153 4.85186C16.849 3.48855 12.7493 6.07131 13.2118 8.24725C13.6753 10.4242 18.9997 11.985 20.431 15.0019V15.0019ZM25.114 12.5001C26.865 12.5001 24.0384 13.4597 22.3533 14.9148C21.5365 15.6202 21.9295 12.5001 25.114 12.5001ZM22.7771 8.63758C24.5292 8.63758 21.7026 9.59561 20.0175 11.0517C19.2033 11.7561 19.5911 8.63758 22.7771 8.63758V8.63758ZM19.01 6.12133C20.7605 6.12133 17.9334 7.0809 16.2514 8.53394C15.4336 9.23931 15.8245 6.12133 19.01 6.12133"></path><path fill="currentColor" d="M20.8639 21.1559C18.771 22.6445 17.4871 24.408 17.9898 25.0968C18.8953 26.3416 18.8953 26.3416 22.6831 23.6459C24.7729 22.1593 26.0599 20.3938 25.5572 19.706C24.6476 18.4618 24.6476 18.4618 20.8639 21.1559Z"></path><path fill="currentColor" d="M20.9373 20.4738C21.8922 20.5109 21.2966 19.625 21.4065 18.5097C21.5142 17.3939 20.6067 17.9658 18.8969 17.8662C17.185 17.7667 17.6826 19.1141 17.7517 20.1907C17.8213 21.2668 18.4787 20.3825 20.9373 20.4738"></path> <path fill="currentColor" d="M14.6603 21.3039C14.0766 20.9404 13.5831 20.4438 13.1438 19.8839C13.5398 20.0442 14.0209 20.1365 14.519 20.2314C14.735 20.2726 14.9511 20.3139 15.1553 20.3603C15.3785 20.4119 15.5513 20.4356 15.6982 20.4356C16.4995 20.4356 16.5871 19.756 16.6397 19.3492C16.6872 18.9815 16.7527 18.4772 17.0827 17.8116C17.2559 17.4599 17.1961 17.1944 17.1151 17.033C16.9027 16.606 16.3995 16.5101 15.7632 16.3895C15.4084 16.3219 15.0062 16.2456 14.6061 16.1074C14.3163 16.0074 14.0879 15.961 13.8863 15.961C13.1139 15.961 12.9216 16.6086 12.7808 17.0809C12.6993 17.3547 12.607 17.6662 12.425 18.0075C12.3345 18.1745 12.2728 18.3557 12.2425 18.5432C11.0813 16.5756 10.2651 14.3925 8.88835 13.8856C8.85638 13.8743 8.82286 13.8706 8.7909 13.8608C8.81358 13.8108 8.82802 13.766 8.8538 13.7139C9.02705 13.3628 8.96724 13.0967 8.88629 12.9353C8.72335 12.6084 8.38974 12.4759 7.95713 12.3774C8.45986 11.9035 9.12502 11.2043 10.0686 10.2092C10.1423 10.1318 10.2114 10.0545 10.2821 9.97664C10.2279 10.1148 10.1635 10.2597 10.0825 10.4103C9.80307 10.9342 9.95724 11.2482 10.3233 11.4596C10.066 11.5395 9.88093 11.6689 9.79688 11.8556C9.1111 13.3787 9.1111 13.3787 13.6558 15.499C16.1633 16.6695 18.5058 16.936 18.8858 16.0961C19.5726 14.5693 19.5726 14.5693 15.0269 12.4511C14.4599 12.1851 13.8758 11.9574 13.2784 11.7695C13.365 11.4075 13.333 10.73 13.8244 9.74152C14.1678 9.04439 12.9314 9.19753 11.6423 8.75461C11.5237 8.71336 11.4226 8.68758 11.3309 8.66799C12.2621 7.3253 12.638 6.14039 12.1765 5.71139C11.0256 4.64456 11.0256 4.64456 7.76738 8.07708C6.41644 9.49917 5.55999 10.9795 5.48161 11.8824C4.85925 11.9762 4.68188 12.5501 4.55297 12.9827C4.4715 13.2571 4.37921 13.568 4.19719 13.9098C3.96207 14.3507 3.92804 14.7518 4.09613 15.1025C4.25443 15.4325 4.55297 15.6413 4.92732 15.7908C4.37044 16.655 4.125 17.6723 4.50502 18.6067C8.16854 27.6198 13.4423 27.4981 15.9359 25.6645C18.431 23.8315 17.5086 23.0761 14.6603 21.3039V21.3039ZM5.91061 19.2502C6.39118 16.5101 9.6195 16.7355 8.77955 17.3093C7.04757 18.4973 5.64404 20.7548 5.91061 19.2502ZM10.5342 20.4598C8.80224 21.6473 7.40025 23.9032 7.66529 22.4006C8.1474 19.658 11.3752 19.8839 10.5342 20.4598ZM13.6491 22.7641C11.9171 23.9516 10.5162 26.2085 10.7802 24.706C11.2633 21.9644 14.4891 22.1903 13.6491 22.7641Z"></path></svg></div></div><div><p class="font-medium text-neutral-400 dark:text-neutral-500 text-center"> This place&#39;s lasagna is the best </p></div></div></div>`)
 }
 
 
@@ -34541,7 +34545,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Rating/OurCard.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Rating/OurCard.vue"]]);
 }
 
 
@@ -34604,7 +34608,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Rating/Snippets/OurCard.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Rating/Snippets/OurCard.vue"]]);
 }
 
 
@@ -34614,8 +34618,8 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_m
 // - /pages/rating.vue?macro=true ($id_5fdad06e)
 // - /pages/rating.vue ($id_55a204e0)
 // Dependencies: 
-// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_7ff4892f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
@@ -34665,25 +34669,27 @@ const _sfc_main = {
   },
 }
 
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_0__.ssrRenderAttrs(_attrs)}><div class="flex flex-row space-x-1"><div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-600" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg></div><div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-600" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg></div><div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-600" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg></div><div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg></div><div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg></div></div></div>`)
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full flex justify-start md:justify-center items-center" }, _attrs))}><div class="flex flex-row space-x-1"><div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-600" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg></div><div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-600" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg></div><div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-600" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg></div><div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg></div><div><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg></div></div></div>`)
 }
 
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_1__.useSSRContext()
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Rating/Heart.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Rating/Heart.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Rating/Heart.vue"]]);
 }
 
 
@@ -34740,7 +34746,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Rating/Snippets/Heart.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Rating/Snippets/Heart.vue"]]);
 }
 
 
@@ -34766,7 +34772,7 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "pt-10" }, _attrs))}><div class="relative flex w-full flex-col items-center justify-center"><div class="absolute -top-20"><svg xmlns="http://www.w3.org/2000/svg" class="h-36 w-36 text-blue-500 dark:text-blue-600" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div><div class="flex h-64 w-96 flex-col space-y-3 rounded-lg bg-gray-800 dark:bg-neutral-700 justify-center items-center"><div><p class="text-yellow-400 text-sm font-bold uppercase">Rate this</p></div><div><p class="font-bold text-white">Top Gun: Maverick</p></div><div class="w-72 flex flex-row space-x-2"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 dark:text-neutral-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 dark:text-neutral-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 dark:text-neutral-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 dark:text-neutral-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 dark:text-neutral-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 dark:text-neutral-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 dark:text-neutral-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 dark:text-neutral-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 dark:text-neutral-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 dark:text-neutral-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg></div><div class="w-72 bg-gray-600 dark:bg-neutral-600 text-gray-400 dark:text-neutral-400 flex justify-center items-center p-2 rounded-lg font-bold"><p>Rate</p></div></div></div></div>`)
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full pt-10 flex justify-start md:justify-center" }, _attrs))}><div class="flex w-full flex-col md:items-center"><div class="w-full flex h-full pb-4 md:pb-6 md:w-96 px-4 flex-col space-y-3 rounded-lg bg-gray-800 dark:bg-neutral-700 justify-center items-center"><div class="-mt-14 md:-mt-20"><svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 md:h-36 md:w-36 text-blue-500 dark:text-blue-600" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg></div><div><p class="text-yellow-400 text-sm font-bold uppercase">Rate this</p></div><div><p class="font-bold text-white">Top Gun: Maverick</p></div><div class="flex flex-row space-x-1 md:space-x-2"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 dark:text-neutral-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 dark:text-neutral-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 dark:text-neutral-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 dark:text-neutral-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 dark:text-neutral-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 dark:text-neutral-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 dark:text-neutral-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 dark:text-neutral-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 dark:text-neutral-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400 dark:text-neutral-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg></div><div class="w-72 bg-gray-600 dark:bg-neutral-600 text-gray-400 dark:text-neutral-400 flex justify-center items-center p-2 rounded-lg font-bold"><p>Rate</p></div></div></div></div>`)
 }
 
 
@@ -34780,7 +34786,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Rating/Imdb.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Rating/Imdb.vue"]]);
 }
 
 
@@ -34856,7 +34862,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Rating/Snippets/Imdb.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Rating/Snippets/Imdb.vue"]]);
 }
 
 
@@ -34907,7 +34913,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Rating/Smiley.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Rating/Smiley.vue"]]);
 }
 
 
@@ -34964,7 +34970,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Rating/Snippets/Smiley.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Rating/Snippets/Smiley.vue"]]);
 }
 
 
@@ -35001,7 +35007,7 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_0__.ssrRenderAttrs(_attrs)}><div class="h-28 w-96 flex flex-row space-x-4 bg-gray-50 dark:bg-neutral-700 rounded-lg text-black dark:text-gray-400 border-black border p-2 justify-center items-center"><div><p class="">Was this information helpful?</p></div><div><svg width="30" height="30" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M47.251 31.5C50.1505 31.5 52.501 29.1495 52.501 26.25C52.501 23.3505 50.1505 21 47.251 21C44.3515 21 42.001 23.3505 42.001 26.25C42.001 29.1495 44.3515 31.5 47.251 31.5Z" fill="#38BDF8"></path><path d="M22.75 31.5C25.6495 31.5 28 29.1495 28 26.25C28 23.3505 25.6495 21 22.75 21C19.8505 21 17.5 23.3505 17.5 26.25C17.5 29.1495 19.8505 31.5 22.75 31.5Z" fill="#38BDF8"></path><path d="M35 56.001C42.98 56.001 49.77 50.191 52.5 42.001H17.5C20.23 50.191 27.02 56.001 35 56.001Z" fill="#38BDF8"></path><path d="M34.965 0C15.645 0 0 15.68 0 35C0 54.32 15.645 70 34.965 70C54.32 70 70 54.32 70 35C70 15.68 54.32 0 34.965 0ZM35 63C19.53 63 7 50.47 7 35C7 19.53 19.53 7 35 7C50.47 7 63 19.53 63 35C63 50.47 50.47 63 35 63Z" fill="#38BDF8"></path></svg></div><div><svg width="30" height="30" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M36 66.125C28.0104 66.125 20.3479 62.9511 14.6984 57.3016C9.04887 51.6521 5.875 43.9896 5.875 36C5.875 28.0104 9.04887 20.3479 14.6984 14.6984C20.3479 9.04887 28.0104 5.875 36 5.875C43.9896 5.875 51.6521 9.04887 57.3016 14.6984C62.9511 20.3479 66.125 28.0104 66.125 36C66.125 43.9896 62.9511 51.6521 57.3016 57.3016C51.6521 62.9511 43.9896 66.125 36 66.125ZM36 71.5C45.4152 71.5 54.4448 67.7598 61.1023 61.1023C67.7598 54.4448 71.5 45.4152 71.5 36C71.5 26.5848 67.7598 17.5553 61.1023 10.8977C54.4448 4.24017 45.4152 0.5 36 0.5C26.5848 0.5 17.5553 4.24017 10.8977 10.8977C4.24017 17.5553 0.5 26.5848 0.5 36C0.5 45.4152 4.24017 54.4448 10.8977 61.1023C17.5553 67.7598 26.5848 71.5 36 71.5Z" fill="#38BDF8"></path><path d="M36 66.125C28.0104 66.125 20.3479 62.9511 14.6984 57.3016C9.04887 51.6521 5.875 43.9896 5.875 36C5.875 28.0104 9.04887 20.3479 14.6984 14.6984C20.3479 9.04887 28.0104 5.875 36 5.875C43.9896 5.875 51.6521 9.04887 57.3016 14.6984C62.9511 20.3479 66.125 28.0104 66.125 36C66.125 43.9896 62.9511 51.6521 57.3016 57.3016C51.6521 62.9511 43.9896 66.125 36 66.125ZM36 71.5C45.4152 71.5 54.4448 67.7598 61.1023 61.1023C67.7598 54.4448 71.5 45.4152 71.5 36C71.5 26.5848 67.7598 17.5553 61.1023 10.8977C54.4448 4.24017 45.4152 0.5 36 0.5C26.5848 0.5 17.5553 4.24017 10.8977 10.8977C4.24017 17.5553 0.5 26.5848 0.5 36C0.5 45.4152 4.24017 54.4448 10.8977 61.1023C17.5553 67.7598 26.5848 71.5 36 71.5Z" stroke="#38BDF8"></path><path d="M36 66.125C28.0104 66.125 20.3479 62.9511 14.6984 57.3016C9.04887 51.6521 5.875 43.9896 5.875 36C5.875 28.0104 9.04887 20.3479 14.6984 14.6984C20.3479 9.04887 28.0104 5.875 36 5.875C43.9896 5.875 51.6521 9.04887 57.3016 14.6984C62.9511 20.3479 66.125 28.0104 66.125 36C66.125 43.9896 62.9511 51.6521 57.3016 57.3016C51.6521 62.9511 43.9896 66.125 36 66.125ZM36 71.5C45.4152 71.5 54.4448 67.7598 61.1023 61.1023C67.7598 54.4448 71.5 45.4152 71.5 36C71.5 26.5848 67.7598 17.5553 61.1023 10.8977C54.4448 4.24017 45.4152 0.5 36 0.5C26.5848 0.5 17.5553 4.24017 10.8977 10.8977C4.24017 17.5553 0.5 26.5848 0.5 36C0.5 45.4152 4.24017 54.4448 10.8977 61.1023C17.5553 67.7598 26.5848 71.5 36 71.5Z" stroke="#38BDF8"></path><path d="M19.497 55.8274L19.497 55.8274C18.8797 55.471 18.4294 54.884 18.2449 54.1955C18.0604 53.5071 18.157 52.7735 18.5134 52.1563L18.946 52.406L18.5134 52.1562C20.2855 49.0868 22.8346 46.538 25.9042 44.7661C28.9738 42.9943 32.4557 42.0619 35.9999 42.0625L19.497 55.8274ZM19.497 55.8274C20.1143 56.1838 20.8478 56.2803 21.5363 56.0959C22.2247 55.9114 22.8117 55.461 23.1681 54.8438L23.1682 54.8436M19.497 55.8274L23.1682 54.8436M23.1682 54.8436C24.4679 52.5907 26.3383 50.72 28.5909 49.4199C30.8435 48.1197 33.3989 47.436 35.9998 47.4375H36.0001M23.1682 54.8436L36.0001 47.4375M36.0001 47.4375C41.4801 47.4375 46.2669 50.4117 48.8324 54.8442L48.8338 54.8466M36.0001 47.4375L48.8338 54.8466M48.8338 54.8466C49.1927 55.4589 49.7792 55.9043 50.4653 56.0857C51.1514 56.2671 51.8814 56.1697 52.496 55.8149C53.1106 55.46 53.5599 54.8765 53.7459 54.1916C53.9318 53.5067 53.8393 52.7761 53.4885 52.1591L53.487 52.1564M48.8338 54.8466L53.487 52.1564M53.487 52.1564C51.7155 49.0862 49.1666 46.5369 46.0967 44.7649C43.0269 42.993 39.5446 42.0609 36.0001 42.0625L53.487 52.1564ZM49.2651 54.5938C46.6139 50.0131 41.6658 46.9375 36.0001 46.9375C33.3114 46.9359 30.6697 47.6427 28.3409 48.9868C26.0122 50.3309 24.0787 52.2648 22.7351 54.5938C22.445 55.0962 21.9673 55.4628 21.4069 55.6129C20.8465 55.7631 20.2494 55.6844 19.747 55.3944C19.2446 55.1043 18.878 54.6265 18.7279 54.0661C18.5777 53.5057 18.6563 52.9087 18.9464 52.4062C20.6747 49.4128 23.1606 46.9271 26.1542 45.1992L49.2651 54.5938ZM49.2651 54.5938C49.5573 55.0921 50.0347 55.4546 50.5931 55.6023C51.1516 55.7499 51.7458 55.6707 52.246 55.3819C52.7463 55.093 53.112 54.618 53.2633 54.0606C53.4147 53.5031 53.3394 52.9084 53.0539 52.4062L49.2651 54.5938ZM27.2501 36.5C28.677 36.5 29.9079 35.6316 30.7593 34.3545C31.613 33.0739 32.1251 31.3338 32.1251 29.4375C32.1251 27.5412 31.613 25.8011 30.7593 24.5205C29.9079 23.2434 28.677 22.375 27.2501 22.375C25.8233 22.375 24.5923 23.2434 23.741 24.5205C22.8872 25.8011 22.3751 27.5412 22.3751 29.4375C22.3751 31.3338 22.8872 33.0739 23.741 34.3545C24.5923 35.6316 25.8233 36.5 27.2501 36.5ZM44.7501 36.5C46.177 36.5 47.4079 35.6316 48.2593 34.3545C49.113 33.0739 49.6251 31.3338 49.6251 29.4375C49.6251 27.5412 49.113 25.8011 48.2593 24.5205C47.4079 23.2434 46.177 22.375 44.7501 22.375C43.3233 22.375 42.0923 23.2434 41.241 24.5205C40.3872 25.8011 39.8751 27.5412 39.8751 29.4375C39.8751 31.3338 40.3872 33.0739 41.241 34.3545C42.0923 35.6316 43.3233 36.5 44.7501 36.5Z" fill="#38BDF8"></path><path d="M19.497 55.8274L19.497 55.8274C18.8797 55.471 18.4294 54.884 18.2449 54.1955C18.0604 53.5071 18.157 52.7735 18.5134 52.1563L18.946 52.406L18.5134 52.1562C20.2855 49.0868 22.8346 46.538 25.9042 44.7661C28.9738 42.9943 32.4557 42.0619 35.9999 42.0625L19.497 55.8274ZM19.497 55.8274C20.1143 56.1838 20.8478 56.2803 21.5363 56.0959C22.2247 55.9114 22.8117 55.461 23.1681 54.8438L23.1682 54.8436M19.497 55.8274L23.1682 54.8436M23.1682 54.8436C24.4679 52.5907 26.3383 50.72 28.5909 49.4199C30.8435 48.1197 33.3989 47.436 35.9998 47.4375H36.0001M23.1682 54.8436L36.0001 47.4375M36.0001 47.4375C41.4801 47.4375 46.2669 50.4117 48.8324 54.8442L48.8338 54.8466M36.0001 47.4375L48.8338 54.8466M48.8338 54.8466C49.1927 55.4589 49.7792 55.9043 50.4653 56.0857C51.1514 56.2671 51.8814 56.1697 52.496 55.8149C53.1106 55.46 53.5599 54.8765 53.7459 54.1916C53.9318 53.5067 53.8393 52.7761 53.4885 52.1591L53.487 52.1564M48.8338 54.8466L53.487 52.1564M53.487 52.1564C51.7155 49.0862 49.1666 46.5369 46.0967 44.7649C43.0269 42.993 39.5446 42.0609 36.0001 42.0625L53.487 52.1564ZM49.2651 54.5938C46.6139 50.0131 41.6658 46.9375 36.0001 46.9375C33.3114 46.9359 30.6697 47.6427 28.3409 48.9868C26.0122 50.3309 24.0787 52.2648 22.7351 54.5938C22.445 55.0962 21.9673 55.4628 21.4069 55.6129C20.8465 55.7631 20.2494 55.6844 19.747 55.3944C19.2446 55.1043 18.878 54.6265 18.7279 54.0661C18.5777 53.5057 18.6563 52.9087 18.9464 52.4062C20.6747 49.4128 23.1606 46.9271 26.1542 45.1992L49.2651 54.5938ZM49.2651 54.5938C49.5573 55.0921 50.0347 55.4546 50.5931 55.6023C51.1516 55.7499 51.7458 55.6707 52.246 55.3819C52.7463 55.093 53.112 54.618 53.2633 54.0606C53.4147 53.5031 53.3394 52.9084 53.0539 52.4062L49.2651 54.5938ZM27.2501 36.5C28.677 36.5 29.9079 35.6316 30.7593 34.3545C31.613 33.0739 32.1251 31.3338 32.1251 29.4375C32.1251 27.5412 31.613 25.8011 30.7593 24.5205C29.9079 23.2434 28.677 22.375 27.2501 22.375C25.8233 22.375 24.5923 23.2434 23.741 24.5205C22.8872 25.8011 22.3751 27.5412 22.3751 29.4375C22.3751 31.3338 22.8872 33.0739 23.741 34.3545C24.5923 35.6316 25.8233 36.5 27.2501 36.5ZM44.7501 36.5C46.177 36.5 47.4079 35.6316 48.2593 34.3545C49.113 33.0739 49.6251 31.3338 49.6251 29.4375C49.6251 27.5412 49.113 25.8011 48.2593 24.5205C47.4079 23.2434 46.177 22.375 44.7501 22.375C43.3233 22.375 42.0923 23.2434 41.241 24.5205C40.3872 25.8011 39.8751 27.5412 39.8751 29.4375C39.8751 31.3338 40.3872 33.0739 41.241 34.3545C42.0923 35.6316 43.3233 36.5 44.7501 36.5Z" stroke="#38BDF8"></path><path d="M19.497 55.8274L19.497 55.8274C18.8797 55.471 18.4294 54.884 18.2449 54.1955C18.0604 53.5071 18.157 52.7735 18.5134 52.1563L18.946 52.406L18.5134 52.1562C20.2855 49.0868 22.8346 46.538 25.9042 44.7661C28.9738 42.9943 32.4557 42.0619 35.9999 42.0625L19.497 55.8274ZM19.497 55.8274C20.1143 56.1838 20.8478 56.2803 21.5363 56.0959C22.2247 55.9114 22.8117 55.461 23.1681 54.8438L23.1682 54.8436M19.497 55.8274L23.1682 54.8436M23.1682 54.8436C24.4679 52.5907 26.3383 50.72 28.5909 49.4199C30.8435 48.1197 33.3989 47.436 35.9998 47.4375H36.0001M23.1682 54.8436L36.0001 47.4375M36.0001 47.4375C41.4801 47.4375 46.2669 50.4117 48.8324 54.8442L48.8338 54.8466M36.0001 47.4375L48.8338 54.8466M48.8338 54.8466C49.1927 55.4589 49.7792 55.9043 50.4653 56.0857C51.1514 56.2671 51.8814 56.1697 52.496 55.8149C53.1106 55.46 53.5599 54.8765 53.7459 54.1916C53.9318 53.5067 53.8393 52.7761 53.4885 52.1591L53.487 52.1564M48.8338 54.8466L53.487 52.1564M53.487 52.1564C51.7155 49.0862 49.1666 46.5369 46.0967 44.7649C43.0269 42.993 39.5446 42.0609 36.0001 42.0625L53.487 52.1564ZM49.2651 54.5938C46.6139 50.0131 41.6658 46.9375 36.0001 46.9375C33.3114 46.9359 30.6697 47.6427 28.3409 48.9868C26.0122 50.3309 24.0787 52.2648 22.7351 54.5938C22.445 55.0962 21.9673 55.4628 21.4069 55.6129C20.8465 55.7631 20.2494 55.6844 19.747 55.3944C19.2446 55.1043 18.878 54.6265 18.7279 54.0661C18.5777 53.5057 18.6563 52.9087 18.9464 52.4062C20.6747 49.4128 23.1606 46.9271 26.1542 45.1992L49.2651 54.5938ZM49.2651 54.5938C49.5573 55.0921 50.0347 55.4546 50.5931 55.6023C51.1516 55.7499 51.7458 55.6707 52.246 55.3819C52.7463 55.093 53.112 54.618 53.2633 54.0606C53.4147 53.5031 53.3394 52.9084 53.0539 52.4062L49.2651 54.5938ZM27.2501 36.5C28.677 36.5 29.9079 35.6316 30.7593 34.3545C31.613 33.0739 32.1251 31.3338 32.1251 29.4375C32.1251 27.5412 31.613 25.8011 30.7593 24.5205C29.9079 23.2434 28.677 22.375 27.2501 22.375C25.8233 22.375 24.5923 23.2434 23.741 24.5205C22.8872 25.8011 22.3751 27.5412 22.3751 29.4375C22.3751 31.3338 22.8872 33.0739 23.741 34.3545C24.5923 35.6316 25.8233 36.5 27.2501 36.5ZM44.7501 36.5C46.177 36.5 47.4079 35.6316 48.2593 34.3545C49.113 33.0739 49.6251 31.3338 49.6251 29.4375C49.6251 27.5412 49.113 25.8011 48.2593 24.5205C47.4079 23.2434 46.177 22.375 44.7501 22.375C43.3233 22.375 42.0923 23.2434 41.241 24.5205C40.3872 25.8011 39.8751 27.5412 39.8751 29.4375C39.8751 31.3338 40.3872 33.0739 41.241 34.3545C42.0923 35.6316 43.3233 36.5 44.7501 36.5Z" stroke="#38BDF8"></path></svg></div></div></div>`)
+  _push(`<div${__vite_ssr_import_0__.ssrRenderAttrs(_attrs)}><div class="py-6 md:w-96 flex flex-row space-x-4 bg-gray-50 dark:bg-neutral-700 rounded-lg text-black dark:text-gray-400 border-black border p-2 justify-center items-center"><div><p class="text-xs md:text-sm">Was this information helpful?</p></div><div><svg width="24" height="24" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M47.251 31.5C50.1505 31.5 52.501 29.1495 52.501 26.25C52.501 23.3505 50.1505 21 47.251 21C44.3515 21 42.001 23.3505 42.001 26.25C42.001 29.1495 44.3515 31.5 47.251 31.5Z" fill="#38BDF8"></path><path d="M22.75 31.5C25.6495 31.5 28 29.1495 28 26.25C28 23.3505 25.6495 21 22.75 21C19.8505 21 17.5 23.3505 17.5 26.25C17.5 29.1495 19.8505 31.5 22.75 31.5Z" fill="#38BDF8"></path><path d="M35 56.001C42.98 56.001 49.77 50.191 52.5 42.001H17.5C20.23 50.191 27.02 56.001 35 56.001Z" fill="#38BDF8"></path><path d="M34.965 0C15.645 0 0 15.68 0 35C0 54.32 15.645 70 34.965 70C54.32 70 70 54.32 70 35C70 15.68 54.32 0 34.965 0ZM35 63C19.53 63 7 50.47 7 35C7 19.53 19.53 7 35 7C50.47 7 63 19.53 63 35C63 50.47 50.47 63 35 63Z" fill="#38BDF8"></path></svg></div><div><svg width="24" height="24" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M36 66.125C28.0104 66.125 20.3479 62.9511 14.6984 57.3016C9.04887 51.6521 5.875 43.9896 5.875 36C5.875 28.0104 9.04887 20.3479 14.6984 14.6984C20.3479 9.04887 28.0104 5.875 36 5.875C43.9896 5.875 51.6521 9.04887 57.3016 14.6984C62.9511 20.3479 66.125 28.0104 66.125 36C66.125 43.9896 62.9511 51.6521 57.3016 57.3016C51.6521 62.9511 43.9896 66.125 36 66.125ZM36 71.5C45.4152 71.5 54.4448 67.7598 61.1023 61.1023C67.7598 54.4448 71.5 45.4152 71.5 36C71.5 26.5848 67.7598 17.5553 61.1023 10.8977C54.4448 4.24017 45.4152 0.5 36 0.5C26.5848 0.5 17.5553 4.24017 10.8977 10.8977C4.24017 17.5553 0.5 26.5848 0.5 36C0.5 45.4152 4.24017 54.4448 10.8977 61.1023C17.5553 67.7598 26.5848 71.5 36 71.5Z" fill="#38BDF8"></path><path d="M36 66.125C28.0104 66.125 20.3479 62.9511 14.6984 57.3016C9.04887 51.6521 5.875 43.9896 5.875 36C5.875 28.0104 9.04887 20.3479 14.6984 14.6984C20.3479 9.04887 28.0104 5.875 36 5.875C43.9896 5.875 51.6521 9.04887 57.3016 14.6984C62.9511 20.3479 66.125 28.0104 66.125 36C66.125 43.9896 62.9511 51.6521 57.3016 57.3016C51.6521 62.9511 43.9896 66.125 36 66.125ZM36 71.5C45.4152 71.5 54.4448 67.7598 61.1023 61.1023C67.7598 54.4448 71.5 45.4152 71.5 36C71.5 26.5848 67.7598 17.5553 61.1023 10.8977C54.4448 4.24017 45.4152 0.5 36 0.5C26.5848 0.5 17.5553 4.24017 10.8977 10.8977C4.24017 17.5553 0.5 26.5848 0.5 36C0.5 45.4152 4.24017 54.4448 10.8977 61.1023C17.5553 67.7598 26.5848 71.5 36 71.5Z" stroke="#38BDF8"></path><path d="M36 66.125C28.0104 66.125 20.3479 62.9511 14.6984 57.3016C9.04887 51.6521 5.875 43.9896 5.875 36C5.875 28.0104 9.04887 20.3479 14.6984 14.6984C20.3479 9.04887 28.0104 5.875 36 5.875C43.9896 5.875 51.6521 9.04887 57.3016 14.6984C62.9511 20.3479 66.125 28.0104 66.125 36C66.125 43.9896 62.9511 51.6521 57.3016 57.3016C51.6521 62.9511 43.9896 66.125 36 66.125ZM36 71.5C45.4152 71.5 54.4448 67.7598 61.1023 61.1023C67.7598 54.4448 71.5 45.4152 71.5 36C71.5 26.5848 67.7598 17.5553 61.1023 10.8977C54.4448 4.24017 45.4152 0.5 36 0.5C26.5848 0.5 17.5553 4.24017 10.8977 10.8977C4.24017 17.5553 0.5 26.5848 0.5 36C0.5 45.4152 4.24017 54.4448 10.8977 61.1023C17.5553 67.7598 26.5848 71.5 36 71.5Z" stroke="#38BDF8"></path><path d="M19.497 55.8274L19.497 55.8274C18.8797 55.471 18.4294 54.884 18.2449 54.1955C18.0604 53.5071 18.157 52.7735 18.5134 52.1563L18.946 52.406L18.5134 52.1562C20.2855 49.0868 22.8346 46.538 25.9042 44.7661C28.9738 42.9943 32.4557 42.0619 35.9999 42.0625L19.497 55.8274ZM19.497 55.8274C20.1143 56.1838 20.8478 56.2803 21.5363 56.0959C22.2247 55.9114 22.8117 55.461 23.1681 54.8438L23.1682 54.8436M19.497 55.8274L23.1682 54.8436M23.1682 54.8436C24.4679 52.5907 26.3383 50.72 28.5909 49.4199C30.8435 48.1197 33.3989 47.436 35.9998 47.4375H36.0001M23.1682 54.8436L36.0001 47.4375M36.0001 47.4375C41.4801 47.4375 46.2669 50.4117 48.8324 54.8442L48.8338 54.8466M36.0001 47.4375L48.8338 54.8466M48.8338 54.8466C49.1927 55.4589 49.7792 55.9043 50.4653 56.0857C51.1514 56.2671 51.8814 56.1697 52.496 55.8149C53.1106 55.46 53.5599 54.8765 53.7459 54.1916C53.9318 53.5067 53.8393 52.7761 53.4885 52.1591L53.487 52.1564M48.8338 54.8466L53.487 52.1564M53.487 52.1564C51.7155 49.0862 49.1666 46.5369 46.0967 44.7649C43.0269 42.993 39.5446 42.0609 36.0001 42.0625L53.487 52.1564ZM49.2651 54.5938C46.6139 50.0131 41.6658 46.9375 36.0001 46.9375C33.3114 46.9359 30.6697 47.6427 28.3409 48.9868C26.0122 50.3309 24.0787 52.2648 22.7351 54.5938C22.445 55.0962 21.9673 55.4628 21.4069 55.6129C20.8465 55.7631 20.2494 55.6844 19.747 55.3944C19.2446 55.1043 18.878 54.6265 18.7279 54.0661C18.5777 53.5057 18.6563 52.9087 18.9464 52.4062C20.6747 49.4128 23.1606 46.9271 26.1542 45.1992L49.2651 54.5938ZM49.2651 54.5938C49.5573 55.0921 50.0347 55.4546 50.5931 55.6023C51.1516 55.7499 51.7458 55.6707 52.246 55.3819C52.7463 55.093 53.112 54.618 53.2633 54.0606C53.4147 53.5031 53.3394 52.9084 53.0539 52.4062L49.2651 54.5938ZM27.2501 36.5C28.677 36.5 29.9079 35.6316 30.7593 34.3545C31.613 33.0739 32.1251 31.3338 32.1251 29.4375C32.1251 27.5412 31.613 25.8011 30.7593 24.5205C29.9079 23.2434 28.677 22.375 27.2501 22.375C25.8233 22.375 24.5923 23.2434 23.741 24.5205C22.8872 25.8011 22.3751 27.5412 22.3751 29.4375C22.3751 31.3338 22.8872 33.0739 23.741 34.3545C24.5923 35.6316 25.8233 36.5 27.2501 36.5ZM44.7501 36.5C46.177 36.5 47.4079 35.6316 48.2593 34.3545C49.113 33.0739 49.6251 31.3338 49.6251 29.4375C49.6251 27.5412 49.113 25.8011 48.2593 24.5205C47.4079 23.2434 46.177 22.375 44.7501 22.375C43.3233 22.375 42.0923 23.2434 41.241 24.5205C40.3872 25.8011 39.8751 27.5412 39.8751 29.4375C39.8751 31.3338 40.3872 33.0739 41.241 34.3545C42.0923 35.6316 43.3233 36.5 44.7501 36.5Z" fill="#38BDF8"></path><path d="M19.497 55.8274L19.497 55.8274C18.8797 55.471 18.4294 54.884 18.2449 54.1955C18.0604 53.5071 18.157 52.7735 18.5134 52.1563L18.946 52.406L18.5134 52.1562C20.2855 49.0868 22.8346 46.538 25.9042 44.7661C28.9738 42.9943 32.4557 42.0619 35.9999 42.0625L19.497 55.8274ZM19.497 55.8274C20.1143 56.1838 20.8478 56.2803 21.5363 56.0959C22.2247 55.9114 22.8117 55.461 23.1681 54.8438L23.1682 54.8436M19.497 55.8274L23.1682 54.8436M23.1682 54.8436C24.4679 52.5907 26.3383 50.72 28.5909 49.4199C30.8435 48.1197 33.3989 47.436 35.9998 47.4375H36.0001M23.1682 54.8436L36.0001 47.4375M36.0001 47.4375C41.4801 47.4375 46.2669 50.4117 48.8324 54.8442L48.8338 54.8466M36.0001 47.4375L48.8338 54.8466M48.8338 54.8466C49.1927 55.4589 49.7792 55.9043 50.4653 56.0857C51.1514 56.2671 51.8814 56.1697 52.496 55.8149C53.1106 55.46 53.5599 54.8765 53.7459 54.1916C53.9318 53.5067 53.8393 52.7761 53.4885 52.1591L53.487 52.1564M48.8338 54.8466L53.487 52.1564M53.487 52.1564C51.7155 49.0862 49.1666 46.5369 46.0967 44.7649C43.0269 42.993 39.5446 42.0609 36.0001 42.0625L53.487 52.1564ZM49.2651 54.5938C46.6139 50.0131 41.6658 46.9375 36.0001 46.9375C33.3114 46.9359 30.6697 47.6427 28.3409 48.9868C26.0122 50.3309 24.0787 52.2648 22.7351 54.5938C22.445 55.0962 21.9673 55.4628 21.4069 55.6129C20.8465 55.7631 20.2494 55.6844 19.747 55.3944C19.2446 55.1043 18.878 54.6265 18.7279 54.0661C18.5777 53.5057 18.6563 52.9087 18.9464 52.4062C20.6747 49.4128 23.1606 46.9271 26.1542 45.1992L49.2651 54.5938ZM49.2651 54.5938C49.5573 55.0921 50.0347 55.4546 50.5931 55.6023C51.1516 55.7499 51.7458 55.6707 52.246 55.3819C52.7463 55.093 53.112 54.618 53.2633 54.0606C53.4147 53.5031 53.3394 52.9084 53.0539 52.4062L49.2651 54.5938ZM27.2501 36.5C28.677 36.5 29.9079 35.6316 30.7593 34.3545C31.613 33.0739 32.1251 31.3338 32.1251 29.4375C32.1251 27.5412 31.613 25.8011 30.7593 24.5205C29.9079 23.2434 28.677 22.375 27.2501 22.375C25.8233 22.375 24.5923 23.2434 23.741 24.5205C22.8872 25.8011 22.3751 27.5412 22.3751 29.4375C22.3751 31.3338 22.8872 33.0739 23.741 34.3545C24.5923 35.6316 25.8233 36.5 27.2501 36.5ZM44.7501 36.5C46.177 36.5 47.4079 35.6316 48.2593 34.3545C49.113 33.0739 49.6251 31.3338 49.6251 29.4375C49.6251 27.5412 49.113 25.8011 48.2593 24.5205C47.4079 23.2434 46.177 22.375 44.7501 22.375C43.3233 22.375 42.0923 23.2434 41.241 24.5205C40.3872 25.8011 39.8751 27.5412 39.8751 29.4375C39.8751 31.3338 40.3872 33.0739 41.241 34.3545C42.0923 35.6316 43.3233 36.5 44.7501 36.5Z" stroke="#38BDF8"></path><path d="M19.497 55.8274L19.497 55.8274C18.8797 55.471 18.4294 54.884 18.2449 54.1955C18.0604 53.5071 18.157 52.7735 18.5134 52.1563L18.946 52.406L18.5134 52.1562C20.2855 49.0868 22.8346 46.538 25.9042 44.7661C28.9738 42.9943 32.4557 42.0619 35.9999 42.0625L19.497 55.8274ZM19.497 55.8274C20.1143 56.1838 20.8478 56.2803 21.5363 56.0959C22.2247 55.9114 22.8117 55.461 23.1681 54.8438L23.1682 54.8436M19.497 55.8274L23.1682 54.8436M23.1682 54.8436C24.4679 52.5907 26.3383 50.72 28.5909 49.4199C30.8435 48.1197 33.3989 47.436 35.9998 47.4375H36.0001M23.1682 54.8436L36.0001 47.4375M36.0001 47.4375C41.4801 47.4375 46.2669 50.4117 48.8324 54.8442L48.8338 54.8466M36.0001 47.4375L48.8338 54.8466M48.8338 54.8466C49.1927 55.4589 49.7792 55.9043 50.4653 56.0857C51.1514 56.2671 51.8814 56.1697 52.496 55.8149C53.1106 55.46 53.5599 54.8765 53.7459 54.1916C53.9318 53.5067 53.8393 52.7761 53.4885 52.1591L53.487 52.1564M48.8338 54.8466L53.487 52.1564M53.487 52.1564C51.7155 49.0862 49.1666 46.5369 46.0967 44.7649C43.0269 42.993 39.5446 42.0609 36.0001 42.0625L53.487 52.1564ZM49.2651 54.5938C46.6139 50.0131 41.6658 46.9375 36.0001 46.9375C33.3114 46.9359 30.6697 47.6427 28.3409 48.9868C26.0122 50.3309 24.0787 52.2648 22.7351 54.5938C22.445 55.0962 21.9673 55.4628 21.4069 55.6129C20.8465 55.7631 20.2494 55.6844 19.747 55.3944C19.2446 55.1043 18.878 54.6265 18.7279 54.0661C18.5777 53.5057 18.6563 52.9087 18.9464 52.4062C20.6747 49.4128 23.1606 46.9271 26.1542 45.1992L49.2651 54.5938ZM49.2651 54.5938C49.5573 55.0921 50.0347 55.4546 50.5931 55.6023C51.1516 55.7499 51.7458 55.6707 52.246 55.3819C52.7463 55.093 53.112 54.618 53.2633 54.0606C53.4147 53.5031 53.3394 52.9084 53.0539 52.4062L49.2651 54.5938ZM27.2501 36.5C28.677 36.5 29.9079 35.6316 30.7593 34.3545C31.613 33.0739 32.1251 31.3338 32.1251 29.4375C32.1251 27.5412 31.613 25.8011 30.7593 24.5205C29.9079 23.2434 28.677 22.375 27.2501 22.375C25.8233 22.375 24.5923 23.2434 23.741 24.5205C22.8872 25.8011 22.3751 27.5412 22.3751 29.4375C22.3751 31.3338 22.8872 33.0739 23.741 34.3545C24.5923 35.6316 25.8233 36.5 27.2501 36.5ZM44.7501 36.5C46.177 36.5 47.4079 35.6316 48.2593 34.3545C49.113 33.0739 49.6251 31.3338 49.6251 29.4375C49.6251 27.5412 49.113 25.8011 48.2593 24.5205C47.4079 23.2434 46.177 22.375 44.7501 22.375C43.3233 22.375 42.0923 23.2434 41.241 24.5205C40.3872 25.8011 39.8751 27.5412 39.8751 29.4375C39.8751 31.3338 40.3872 33.0739 41.241 34.3545C42.0923 35.6316 43.3233 36.5 44.7501 36.5Z" stroke="#38BDF8"></path></svg></div></div></div>`)
 }
 
 
@@ -35015,7 +35021,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Rating/YesOrNo.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Rating/YesOrNo.vue"]]);
 }
 
 
@@ -35070,7 +35076,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Rating/Snippets/YesOrNo.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Rating/Snippets/YesOrNo.vue"]]);
 }
 
 
@@ -35090,7 +35096,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/sidebar.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -35214,20 +35220,20 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   _push(__vite_ssr_import_19__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_18__.mergeProps({ name: $data.layout }, _attrs), {
     default: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
-        _push(`<div class="flex p-4"${
+        _push(`<div class="flex py-4 md:p-4"${
           _scopeId
-        }><!-- content --><div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar"${
+        }><!-- content --><div class="flex pb-20 h-screen md:px-4 overflow-y-hidden scrollBar"${
           _scopeId
-        }><div class="overflow-y-auto w-full px-4 pb-20" id="sidebarContainer"${
+        }><div class="overflow-y-auto w-full md:px-4 pb-20" id="sidebarContainer"${
           _scopeId
         }>`)
         _push(__vite_ssr_import_19__.ssrRenderComponent(_component_HeadersHeading, null, {
           default: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(` Toast `)
+              _push(` Sidebar `)
             } else {
               return [
-                __vite_ssr_import_18__.createTextVNode(" Toast ")
+                __vite_ssr_import_18__.createTextVNode(" Sidebar ")
               ]
             }
           }),
@@ -35524,16 +35530,16 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> Content Sectioned and avatar </button></div></div></div></div></div>`)
       } else {
         return [
-          __vite_ssr_import_18__.createVNode("div", { class: "flex p-4" }, [
+          __vite_ssr_import_18__.createVNode("div", { class: "flex py-4 md:p-4" }, [
             __vite_ssr_import_18__.createCommentVNode(" content "),
-            __vite_ssr_import_18__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
+            __vite_ssr_import_18__.createVNode("div", { class: "flex pb-20 h-screen md:px-4 overflow-y-hidden scrollBar" }, [
               __vite_ssr_import_18__.createVNode("div", {
-                class: "overflow-y-auto w-full px-4 pb-20",
+                class: "overflow-y-auto w-full md:px-4 pb-20",
                 id: "sidebarContainer"
               }, [
                 __vite_ssr_import_18__.createVNode(_component_HeadersHeading, null, {
                   default: __vite_ssr_import_18__.withCtx(() => [
-                    __vite_ssr_import_18__.createTextVNode(" Toast ")
+                    __vite_ssr_import_18__.createTextVNode(" Sidebar ")
                   ]),
                   _: 1 /* STABLE */
                 }),
@@ -35799,7 +35805,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_22__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/sidebar.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/sidebar.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -35825,7 +35831,7 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "-ml-20 -my-10 w-full text-black" }, _attrs))}><div class="w-64 rounded-2xl bg-white dark:bg-zinc-900 overflow-y-hidden shadow-md"><aside class="w-full"><!-- logo --><div class="flex pl-6 pt-4 items-center"><div class="font-bold text-lg text-gray-700 dark:text-zinc-400 flex items-center w-10 h-10"><img class="w-full h-full" src="https://res.cloudinary.com/pranav1421/image/upload/v1652785994/Tailwind-Component-library/Logo/tailwind-css_yizuxw.svg" alt=""><span class="px-2">tailwindcss</span></div></div><!-- logo end --><div class="flex flex-col space-y-3 h-96 text-base font-medium text-gray-500 dark:text-zinc-400 mt-8 pl-8"><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9.5L12 4L21 9.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 13V19.4C19 19.7314 18.7314 20 18.4 20H5.6C5.26863 20 5 19.7314 5 19.4V13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Home </div><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 20.4V14.6C14 14.2686 14.2686 14 14.6 14H20.4C20.7314 14 21 14.2686 21 14.6V20.4C21 20.7314 20.7314 21 20.4 21H14.6C14.2686 21 14 20.7314 14 20.4Z" stroke="currentColor" stroke-width="1.5"></path><path d="M3 20.4V14.6C3 14.2686 3.26863 14 3.6 14H9.4C9.73137 14 10 14.2686 10 14.6V20.4C10 20.7314 9.73137 21 9.4 21H3.6C3.26863 21 3 20.7314 3 20.4Z" stroke="currentColor" stroke-width="1.5"></path><path d="M14 9.4V3.6C14 3.26863 14.2686 3 14.6 3H20.4C20.7314 3 21 3.26863 21 3.6V9.4C21 9.73137 20.7314 10 20.4 10H14.6C14.2686 10 14 9.73137 14 9.4Z" stroke="currentColor" stroke-width="1.5"></path><path d="M3 9.4V3.6C3 3.26863 3.26863 3 3.6 3H9.4C9.73137 3 10 3.26863 10 3.6V9.4C10 9.73137 9.73137 10 9.4 10H3.6C3.26863 10 3 9.73137 3 9.4Z" stroke="currentColor" stroke-width="1.5"></path></svg> Dashboard </div><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 14V18.4C4 18.7314 4.26863 19 4.6 19H10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 14V18.4C19 18.7314 18.7314 19 18.4 19H14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 5H18.4C18.7314 5 19 5.26863 19 5.6V10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 10V5.6C4 5.26863 4.26863 5 4.6 5H10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 19V20C14 21.1046 13.1046 22 12 22C10.8954 22 10 21.1046 10 20V19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 10H5C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14H4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 10H20C21.1046 10 22 10.8954 22 12C22 13.1046 21.1046 14 20 14H19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 5V4C14 2.89543 13.1046 2 12 2C10.8954 2 10 2.89543 10 4V5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Projects </div><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" stroke-width="1.5" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6L20 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.80002 5.79999L4.60002 6.59998L6.60001 4.59999" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.80002 11.8L4.60002 12.6L6.60001 10.6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.80002 17.8L4.60002 18.6L6.60001 16.6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 12L20 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 18L20 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Tasks </div><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path></svg> Reporting </div><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg> Users </div></div><div class="flex flex-col space-y-2 py-6 text-base font-medium text-gray-500 dark:text-zinc-400 mt-10 pl-8"><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 11C20 6.58172 16.4183 3 12 3C7.58172 3 4 6.58172 4 11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 15.4384V13.5616C2 12.6438 2.62459 11.8439 3.51493 11.6213L5.25448 11.1864C5.63317 11.0917 6 11.3781 6 11.7685V17.2315C6 17.6219 5.63317 17.9083 5.25448 17.8136L3.51493 17.3787C2.62459 17.1561 2 16.3562 2 15.4384Z" stroke="currentColor" stroke-width="1.5"></path><path d="M22 15.4384V13.5616C22 12.6438 21.3754 11.8439 20.4851 11.6213L18.7455 11.1864C18.3668 11.0917 18 11.3781 18 11.7685V17.2315C18 17.6219 18.3668 17.9083 18.7455 17.8136L20.4851 17.3787C21.3754 17.1561 22 16.3562 22 15.4384Z" stroke="currentColor" stroke-width="1.5"></path><path d="M20 18V18.5C20 19.6046 19.1046 20.5 18 20.5H14.5" stroke="currentColor" stroke-width="1.5"></path><path d="M13.5 22H10.5C9.67157 22 9 21.3284 9 20.5C9 19.6716 9.67157 19 10.5 19H13.5C14.3284 19 15 19.6716 15 20.5C15 21.3284 14.3284 22 13.5 22Z" stroke="currentColor" stroke-width="1.5"></path></svg> Support </div><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19.6224 10.3954L18.5247 7.7448L20 6L18 4L16.2647 5.48295L13.5578 4.36974L12.9353 2H10.981L10.3491 4.40113L7.70441 5.51596L6 4L4 6L5.45337 7.78885L4.3725 10.4463L2 11V13L4.40111 13.6555L5.51575 16.2997L4 18L6 20L7.79116 18.5403L10.397 19.6123L11 22H13L13.6045 19.6132L16.2551 18.5155C16.6969 18.8313 18 20 18 20L20 18L18.5159 16.2494L19.6139 13.598L21.9999 12.9772L22 11L19.6224 10.3954Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Settings </div></div></aside></div></div>`)
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "md:-ml-20 md:-my-10 w-full text-black" }, _attrs))}><div class="w-64 rounded-2xl bg-white dark:bg-zinc-900 overflow-y-hidden shadow-md"><aside class="w-full"><!-- logo --><div class="flex pl-6 pt-4 items-center"><div class="font-bold text-lg text-gray-700 dark:text-zinc-400 flex items-center w-10 h-10"><img class="w-full h-full" src="https://res.cloudinary.com/pranav1421/image/upload/v1652785994/Tailwind-Component-library/Logo/tailwind-css_yizuxw.svg" alt=""><span class="px-2">tailwindcss</span></div></div><!-- logo end --><div class="flex flex-col space-y-3 h-96 text-base font-medium text-gray-500 dark:text-zinc-400 mt-8 pl-8"><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9.5L12 4L21 9.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 13V19.4C19 19.7314 18.7314 20 18.4 20H5.6C5.26863 20 5 19.7314 5 19.4V13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Home </div><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 20.4V14.6C14 14.2686 14.2686 14 14.6 14H20.4C20.7314 14 21 14.2686 21 14.6V20.4C21 20.7314 20.7314 21 20.4 21H14.6C14.2686 21 14 20.7314 14 20.4Z" stroke="currentColor" stroke-width="1.5"></path><path d="M3 20.4V14.6C3 14.2686 3.26863 14 3.6 14H9.4C9.73137 14 10 14.2686 10 14.6V20.4C10 20.7314 9.73137 21 9.4 21H3.6C3.26863 21 3 20.7314 3 20.4Z" stroke="currentColor" stroke-width="1.5"></path><path d="M14 9.4V3.6C14 3.26863 14.2686 3 14.6 3H20.4C20.7314 3 21 3.26863 21 3.6V9.4C21 9.73137 20.7314 10 20.4 10H14.6C14.2686 10 14 9.73137 14 9.4Z" stroke="currentColor" stroke-width="1.5"></path><path d="M3 9.4V3.6C3 3.26863 3.26863 3 3.6 3H9.4C9.73137 3 10 3.26863 10 3.6V9.4C10 9.73137 9.73137 10 9.4 10H3.6C3.26863 10 3 9.73137 3 9.4Z" stroke="currentColor" stroke-width="1.5"></path></svg> Dashboard </div><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 14V18.4C4 18.7314 4.26863 19 4.6 19H10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 14V18.4C19 18.7314 18.7314 19 18.4 19H14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 5H18.4C18.7314 5 19 5.26863 19 5.6V10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 10V5.6C4 5.26863 4.26863 5 4.6 5H10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 19V20C14 21.1046 13.1046 22 12 22C10.8954 22 10 21.1046 10 20V19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 10H5C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14H4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 10H20C21.1046 10 22 10.8954 22 12C22 13.1046 21.1046 14 20 14H19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 5V4C14 2.89543 13.1046 2 12 2C10.8954 2 10 2.89543 10 4V5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Projects </div><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" stroke-width="1.5" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6L20 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.80002 5.79999L4.60002 6.59998L6.60001 4.59999" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.80002 11.8L4.60002 12.6L6.60001 10.6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.80002 17.8L4.60002 18.6L6.60001 16.6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 12L20 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 18L20 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Tasks </div><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path></svg> Reporting </div><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg> Users </div></div><div class="flex flex-col space-y-2 py-6 text-base font-medium text-gray-500 dark:text-zinc-400 mt-10 pl-8"><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 11C20 6.58172 16.4183 3 12 3C7.58172 3 4 6.58172 4 11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 15.4384V13.5616C2 12.6438 2.62459 11.8439 3.51493 11.6213L5.25448 11.1864C5.63317 11.0917 6 11.3781 6 11.7685V17.2315C6 17.6219 5.63317 17.9083 5.25448 17.8136L3.51493 17.3787C2.62459 17.1561 2 16.3562 2 15.4384Z" stroke="currentColor" stroke-width="1.5"></path><path d="M22 15.4384V13.5616C22 12.6438 21.3754 11.8439 20.4851 11.6213L18.7455 11.1864C18.3668 11.0917 18 11.3781 18 11.7685V17.2315C18 17.6219 18.3668 17.9083 18.7455 17.8136L20.4851 17.3787C21.3754 17.1561 22 16.3562 22 15.4384Z" stroke="currentColor" stroke-width="1.5"></path><path d="M20 18V18.5C20 19.6046 19.1046 20.5 18 20.5H14.5" stroke="currentColor" stroke-width="1.5"></path><path d="M13.5 22H10.5C9.67157 22 9 21.3284 9 20.5C9 19.6716 9.67157 19 10.5 19H13.5C14.3284 19 15 19.6716 15 20.5C15 21.3284 14.3284 22 13.5 22Z" stroke="currentColor" stroke-width="1.5"></path></svg> Support </div><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19.6224 10.3954L18.5247 7.7448L20 6L18 4L16.2647 5.48295L13.5578 4.36974L12.9353 2H10.981L10.3491 4.40113L7.70441 5.51596L6 4L4 6L5.45337 7.78885L4.3725 10.4463L2 11V13L4.40111 13.6555L5.51575 16.2997L4 18L6 20L7.79116 18.5403L10.397 19.6123L11 22H13L13.6045 19.6132L16.2551 18.5155C16.6969 18.8313 18 20 18 20L20 18L18.5159 16.2494L19.6139 13.598L21.9999 12.9772L22 11L19.6224 10.3954Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Settings </div></div></aside></div></div>`)
 }
 
 
@@ -35839,7 +35845,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Sidebar/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Sidebar/Default.vue"]]);
 }
 
 
@@ -35936,7 +35942,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Sidebar/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Sidebar/Snippets/Default.vue"]]);
 }
 
 
@@ -35960,7 +35966,7 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "-ml-20 -my-10 w-full text-black" }, _attrs))}><div class="w-64 rounded-2xl bg-white dark:bg-zinc-900 overflow-y-hidden shadow-md"><aside class="w-full"><!-- logo --><div class="flex pl-6 pt-4 items-center"><div class="font-bold text-lg text-gray-700 dark:text-zinc-400 flex items-center w-10 h-10"><img class="w-full h-full" src="https://res.cloudinary.com/pranav1421/image/upload/v1652785994/Tailwind-Component-library/Logo/tailwind-css_yizuxw.svg" alt=""><span class="px-2">tailwindcss</span></div></div><!-- logo end --><div class="flex flex-col space-y-3 h-96 text-base font-medium text-gray-500 dark:text-zinc-400 mt-8 px-8"><div class="flex items-center justify-between hover:font-semibold hover:pl-0.5 transition-all"><div class="flex items-center gap-2"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 20.4V14.6C14 14.2686 14.2686 14 14.6 14H20.4C20.7314 14 21 14.2686 21 14.6V20.4C21 20.7314 20.7314 21 20.4 21H14.6C14.2686 21 14 20.7314 14 20.4Z" stroke="currentColor" stroke-width="1.5"></path><path d="M3 20.4V14.6C3 14.2686 3.26863 14 3.6 14H9.4C9.73137 14 10 14.2686 10 14.6V20.4C10 20.7314 9.73137 21 9.4 21H3.6C3.26863 21 3 20.7314 3 20.4Z" stroke="currentColor" stroke-width="1.5"></path><path d="M14 9.4V3.6C14 3.26863 14.2686 3 14.6 3H20.4C20.7314 3 21 3.26863 21 3.6V9.4C21 9.73137 20.7314 10 20.4 10H14.6C14.2686 10 14 9.73137 14 9.4Z" stroke="currentColor" stroke-width="1.5"></path><path d="M3 9.4V3.6C3 3.26863 3.26863 3 3.6 3H9.4C9.73137 3 10 3.26863 10 3.6V9.4C10 9.73137 9.73137 10 9.4 10H3.6C3.26863 10 3 9.73137 3 9.4Z" stroke="currentColor" stroke-width="1.5"></path></svg> Dashboard </div><div class="bg-gray-100 text-gray-700 dark:bg-zinc-700 dark:text-zinc-400 rounded-md py-0.5 px-2 text-xs"> 8 </div></div><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9.5L12 4L21 9.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 13V19.4C19 19.7314 18.7314 20 18.4 20H5.6C5.26863 20 5 19.7314 5 19.4V13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Home </div><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 14V18.4C4 18.7314 4.26863 19 4.6 19H10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 14V18.4C19 18.7314 18.7314 19 18.4 19H14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 5H18.4C18.7314 5 19 5.26863 19 5.6V10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 10V5.6C4 5.26863 4.26863 5 4.6 5H10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 19V20C14 21.1046 13.1046 22 12 22C10.8954 22 10 21.1046 10 20V19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 10H5C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14H4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 10H20C21.1046 10 22 10.8954 22 12C22 13.1046 21.1046 14 20 14H19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 5V4C14 2.89543 13.1046 2 12 2C10.8954 2 10 2.89543 10 4V5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Projects </div><div class="flex items-center justify-between gap-2 hover:font-semibold hover:pl-0.5 transition-all"><div class="flex items-center gap-2"><svg width="20" stroke-width="1.5" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6L20 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.80002 5.79999L4.60002 6.59998L6.60001 4.59999" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.80002 11.8L4.60002 12.6L6.60001 10.6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.80002 17.8L4.60002 18.6L6.60001 16.6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 12L20 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 18L20 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Tasks </div><div class="bg-gray-100 dark:bg-zinc-700 dark:text-zinc-400 text-gray-700 rounded-md py-0.5 px-2 text-xs"> 21 </div></div><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path></svg> Reporting </div><div class="flex items-center justify-between gap-2 hover:font-semibold hover:pl-0.5 transition-all"><div class="flex items-center gap-2"><svg width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5857 10.5857L16.9496 7.0502L13.4141 13.4142L7.05012 16.9497L10.5857 10.5857Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Performance </div><div class="bg-gray-100 dark:bg-zinc-700 dark:text-zinc-400 text-gray-700 rounded-md py-0.5 px-2 text-xs"> pro </div></div><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg> Users </div></div><div class="flex flex-col space-y-2 py-6 text-base font-medium text-gray-500 dark:text-zinc-400 mt-10 pl-8"><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 11C20 6.58172 16.4183 3 12 3C7.58172 3 4 6.58172 4 11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 15.4384V13.5616C2 12.6438 2.62459 11.8439 3.51493 11.6213L5.25448 11.1864C5.63317 11.0917 6 11.3781 6 11.7685V17.2315C6 17.6219 5.63317 17.9083 5.25448 17.8136L3.51493 17.3787C2.62459 17.1561 2 16.3562 2 15.4384Z" stroke="currentColor" stroke-width="1.5"></path><path d="M22 15.4384V13.5616C22 12.6438 21.3754 11.8439 20.4851 11.6213L18.7455 11.1864C18.3668 11.0917 18 11.3781 18 11.7685V17.2315C18 17.6219 18.3668 17.9083 18.7455 17.8136L20.4851 17.3787C21.3754 17.1561 22 16.3562 22 15.4384Z" stroke="currentColor" stroke-width="1.5"></path><path d="M20 18V18.5C20 19.6046 19.1046 20.5 18 20.5H14.5" stroke="currentColor" stroke-width="1.5"></path><path d="M13.5 22H10.5C9.67157 22 9 21.3284 9 20.5C9 19.6716 9.67157 19 10.5 19H13.5C14.3284 19 15 19.6716 15 20.5C15 21.3284 14.3284 22 13.5 22Z" stroke="currentColor" stroke-width="1.5"></path></svg> Support </div><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19.6224 10.3954L18.5247 7.7448L20 6L18 4L16.2647 5.48295L13.5578 4.36974L12.9353 2H10.981L10.3491 4.40113L7.70441 5.51596L6 4L4 6L5.45337 7.78885L4.3725 10.4463L2 11V13L4.40111 13.6555L5.51575 16.2997L4 18L6 20L7.79116 18.5403L10.397 19.6123L11 22H13L13.6045 19.6132L16.2551 18.5155C16.6969 18.8313 18 20 18 20L20 18L18.5159 16.2494L19.6139 13.598L21.9999 12.9772L22 11L19.6224 10.3954Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Settings </div></div></aside></div></div>`)
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "md:-ml-20 md:-my-10 w-full text-black" }, _attrs))}><div class="w-64 rounded-2xl bg-white dark:bg-zinc-900 overflow-y-hidden shadow-md"><aside class="w-full"><!-- logo --><div class="flex pl-6 pt-4 items-center"><div class="font-bold text-lg text-gray-700 dark:text-zinc-400 flex items-center w-10 h-10"><img class="w-full h-full" src="https://res.cloudinary.com/pranav1421/image/upload/v1652785994/Tailwind-Component-library/Logo/tailwind-css_yizuxw.svg" alt=""><span class="px-2">tailwindcss</span></div></div><!-- logo end --><div class="flex flex-col space-y-3 h-96 text-base font-medium text-gray-500 dark:text-zinc-400 mt-8 px-8"><div class="flex items-center justify-between hover:font-semibold hover:pl-0.5 transition-all"><div class="flex items-center gap-2"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 20.4V14.6C14 14.2686 14.2686 14 14.6 14H20.4C20.7314 14 21 14.2686 21 14.6V20.4C21 20.7314 20.7314 21 20.4 21H14.6C14.2686 21 14 20.7314 14 20.4Z" stroke="currentColor" stroke-width="1.5"></path><path d="M3 20.4V14.6C3 14.2686 3.26863 14 3.6 14H9.4C9.73137 14 10 14.2686 10 14.6V20.4C10 20.7314 9.73137 21 9.4 21H3.6C3.26863 21 3 20.7314 3 20.4Z" stroke="currentColor" stroke-width="1.5"></path><path d="M14 9.4V3.6C14 3.26863 14.2686 3 14.6 3H20.4C20.7314 3 21 3.26863 21 3.6V9.4C21 9.73137 20.7314 10 20.4 10H14.6C14.2686 10 14 9.73137 14 9.4Z" stroke="currentColor" stroke-width="1.5"></path><path d="M3 9.4V3.6C3 3.26863 3.26863 3 3.6 3H9.4C9.73137 3 10 3.26863 10 3.6V9.4C10 9.73137 9.73137 10 9.4 10H3.6C3.26863 10 3 9.73137 3 9.4Z" stroke="currentColor" stroke-width="1.5"></path></svg> Dashboard </div><div class="bg-gray-100 text-gray-700 dark:bg-zinc-700 dark:text-zinc-400 rounded-md py-0.5 px-2 text-xs"> 8 </div></div><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9.5L12 4L21 9.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 13V19.4C19 19.7314 18.7314 20 18.4 20H5.6C5.26863 20 5 19.7314 5 19.4V13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Home </div><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 14V18.4C4 18.7314 4.26863 19 4.6 19H10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 14V18.4C19 18.7314 18.7314 19 18.4 19H14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 5H18.4C18.7314 5 19 5.26863 19 5.6V10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 10V5.6C4 5.26863 4.26863 5 4.6 5H10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 19V20C14 21.1046 13.1046 22 12 22C10.8954 22 10 21.1046 10 20V19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 10H5C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14H4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 10H20C21.1046 10 22 10.8954 22 12C22 13.1046 21.1046 14 20 14H19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 5V4C14 2.89543 13.1046 2 12 2C10.8954 2 10 2.89543 10 4V5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Projects </div><div class="flex items-center justify-between gap-2 hover:font-semibold hover:pl-0.5 transition-all"><div class="flex items-center gap-2"><svg width="20" stroke-width="1.5" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6L20 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.80002 5.79999L4.60002 6.59998L6.60001 4.59999" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.80002 11.8L4.60002 12.6L6.60001 10.6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.80002 17.8L4.60002 18.6L6.60001 16.6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 12L20 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 18L20 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Tasks </div><div class="bg-gray-100 dark:bg-zinc-700 dark:text-zinc-400 text-gray-700 rounded-md py-0.5 px-2 text-xs"> 21 </div></div><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path></svg> Reporting </div><div class="flex items-center justify-between gap-2 hover:font-semibold hover:pl-0.5 transition-all"><div class="flex items-center gap-2"><svg width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5857 10.5857L16.9496 7.0502L13.4141 13.4142L7.05012 16.9497L10.5857 10.5857Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Performance </div><div class="bg-gray-100 dark:bg-zinc-700 dark:text-zinc-400 text-gray-700 rounded-md py-0.5 px-2 text-xs"> pro </div></div><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg> Users </div></div><div class="flex flex-col space-y-2 py-6 text-base font-medium text-gray-500 dark:text-zinc-400 mt-10 pl-8"><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 11C20 6.58172 16.4183 3 12 3C7.58172 3 4 6.58172 4 11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 15.4384V13.5616C2 12.6438 2.62459 11.8439 3.51493 11.6213L5.25448 11.1864C5.63317 11.0917 6 11.3781 6 11.7685V17.2315C6 17.6219 5.63317 17.9083 5.25448 17.8136L3.51493 17.3787C2.62459 17.1561 2 16.3562 2 15.4384Z" stroke="currentColor" stroke-width="1.5"></path><path d="M22 15.4384V13.5616C22 12.6438 21.3754 11.8439 20.4851 11.6213L18.7455 11.1864C18.3668 11.0917 18 11.3781 18 11.7685V17.2315C18 17.6219 18.3668 17.9083 18.7455 17.8136L20.4851 17.3787C21.3754 17.1561 22 16.3562 22 15.4384Z" stroke="currentColor" stroke-width="1.5"></path><path d="M20 18V18.5C20 19.6046 19.1046 20.5 18 20.5H14.5" stroke="currentColor" stroke-width="1.5"></path><path d="M13.5 22H10.5C9.67157 22 9 21.3284 9 20.5C9 19.6716 9.67157 19 10.5 19H13.5C14.3284 19 15 19.6716 15 20.5C15 21.3284 14.3284 22 13.5 22Z" stroke="currentColor" stroke-width="1.5"></path></svg> Support </div><div class="flex items-center gap-2 hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19.6224 10.3954L18.5247 7.7448L20 6L18 4L16.2647 5.48295L13.5578 4.36974L12.9353 2H10.981L10.3491 4.40113L7.70441 5.51596L6 4L4 6L5.45337 7.78885L4.3725 10.4463L2 11V13L4.40111 13.6555L5.51575 16.2997L4 18L6 20L7.79116 18.5403L10.397 19.6123L11 22H13L13.6045 19.6132L16.2551 18.5155C16.6969 18.8313 18 20 18 20L20 18L18.5159 16.2494L19.6139 13.598L21.9999 12.9772L22 11L19.6224 10.3954Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Settings </div></div></aside></div></div>`)
 }
 
 
@@ -35974,7 +35980,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Sidebar/WithBadge.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Sidebar/WithBadge.vue"]]);
 }
 
 
@@ -36085,7 +36091,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Sidebar/Snippets/WithBadge.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Sidebar/Snippets/WithBadge.vue"]]);
 }
 
 
@@ -36109,7 +36115,7 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "-ml-20 -my-10 w-full text-black" }, _attrs))}><div class="w-72 rounded-2xl bg-white dark:bg-zinc-900 overflow-y-hidden shadow-md"><aside class="w-full"><!-- logo --><div class="flex pl-6 pt-4 items-center"><div class="font-bold text-lg text-gray-700 dark:text-zinc-400 flex items-center w-10 h-10"><img class="w-full h-full" src="https://res.cloudinary.com/pranav1421/image/upload/v1652785994/Tailwind-Component-library/Logo/tailwind-css_yizuxw.svg" alt=""><span class="px-2">tailwindcss</span></div></div><!-- logo end --><div class="flex flex-col space-y-3 text-base font-medium text-gray-500 dark:text-zinc-400 mt-8 px-8"><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 20.4V14.6C14 14.2686 14.2686 14 14.6 14H20.4C20.7314 14 21 14.2686 21 14.6V20.4C21 20.7314 20.7314 21 20.4 21H14.6C14.2686 21 14 20.7314 14 20.4Z" stroke="currentColor" stroke-width="1.5"></path><path d="M3 20.4V14.6C3 14.2686 3.26863 14 3.6 14H9.4C9.73137 14 10 14.2686 10 14.6V20.4C10 20.7314 9.73137 21 9.4 21H3.6C3.26863 21 3 20.7314 3 20.4Z" stroke="currentColor" stroke-width="1.5"></path><path d="M14 9.4V3.6C14 3.26863 14.2686 3 14.6 3H20.4C20.7314 3 21 3.26863 21 3.6V9.4C21 9.73137 20.7314 10 20.4 10H14.6C14.2686 10 14 9.73137 14 9.4Z" stroke="currentColor" stroke-width="1.5"></path><path d="M3 9.4V3.6C3 3.26863 3.26863 3 3.6 3H9.4C9.73137 3 10 3.26863 10 3.6V9.4C10 9.73137 9.73137 10 9.4 10H3.6C3.26863 10 3 9.73137 3 9.4Z" stroke="currentColor" stroke-width="1.5"></path></svg> Dashboard </div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9.5L12 4L21 9.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 13V19.4C19 19.7314 18.7314 20 18.4 20H5.6C5.26863 20 5 19.7314 5 19.4V13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Home </div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.5 22C20.3284 22 21 21.3284 21 20.5C21 19.6716 20.3284 19 19.5 19C18.6716 19 18 19.6716 18 20.5C18 21.3284 18.6716 22 19.5 22Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9.5 22C10.3284 22 11 21.3284 11 20.5C11 19.6716 10.3284 19 9.5 19C8.67157 19 8 19.6716 8 20.5C8 21.3284 8.67157 22 9.5 22Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M5 4H22L20 15H7L5 4ZM5 4C4.83333 3.33333 4 2 2 2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M20 15H7H5.23077C3.44646 15 2.5 15.7812 2.5 17C2.5 18.2188 3.44646 19 5.23077 19H19.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Marketplace </div><div class="flex items-center justify-between gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><div class="flex items-center gap-2 hover:cursor-pointer"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.1336 11C18.7155 16.3755 21 18 21 18H3C3 18 6 15.8667 6 8.4C6 6.70261 6.63214 5.07475 7.75736 3.87452C8.88258 2.67428 10.4087 2 12 2C12.3373 2 12.6717 2.0303 13 2.08949" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 8C20.6569 8 22 6.65685 22 5C22 3.34315 20.6569 2 19 2C17.3431 2 16 3.34315 16 5C16 6.65685 17.3431 8 19 8Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M13.73 21C13.5542 21.3031 13.3019 21.5547 12.9982 21.7295C12.6946 21.9044 12.3504 21.9965 12 21.9965C11.6496 21.9965 11.3054 21.9044 11.0018 21.7295C10.6982 21.5547 10.4458 21.3031 10.27 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Notification </div><div class="bg-gray-100 text-gray-700 dark:bg-zinc-700 dark:text-zinc-400 rounded-md py-0.5 px-2 text-xs"> 8 </div></div></div><div class="my-4 px-4"><div class="border-t dark:border-gray-400"></div></div><div class="flex flex-col space-y-3 text-base font-medium text-gray-500 dark:text-zinc-400 px-8"><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 14V18.4C4 18.7314 4.26863 19 4.6 19H10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 14V18.4C19 18.7314 18.7314 19 18.4 19H14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 5H18.4C18.7314 5 19 5.26863 19 5.6V10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 10V5.6C4 5.26863 4.26863 5 4.6 5H10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 19V20C14 21.1046 13.1046 22 12 22C10.8954 22 10 21.1046 10 20V19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 10H5C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14H4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 10H20C21.1046 10 22 10.8954 22 12C22 13.1046 21.1046 14 20 14H19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 5V4C14 2.89543 13.1046 2 12 2C10.8954 2 10 2.89543 10 4V5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Projects </div><div class="flex items-center justify-between gap-2 hover:font-semibold hover:pl-0.5 transition-all"><div class="flex items-center gap-2"><svg width="20" stroke-width="1.5" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6L20 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.80002 5.79999L4.60002 6.59998L6.60001 4.59999" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.80002 11.8L4.60002 12.6L6.60001 10.6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.80002 17.8L4.60002 18.6L6.60001 16.6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 12L20 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 18L20 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Tasks </div><div class="bg-green-400 text-green-50 rounded-md py-0.5 px-2 text-xs font-semibold"> new </div></div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path></svg> Reporting </div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 4V2M15 4V6M15 4H10.5M3 10V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V10H3Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 10V6C3 4.89543 3.89543 4 5 4H7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 2V6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 10V6C21 4.89543 20.1046 4 19 4H18.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Calendar </div></div><!--  --><div class="my-4 px-4"><div class="border-t dark:border-zinc-400"></div></div><div class="flex flex-col space-y-3 text-base font-medium text-gray-500 dark:text-zinc-400 px-8"><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17 12.5C17.2761 12.5 17.5 12.2761 17.5 12C17.5 11.7239 17.2761 11.5 17 11.5C16.7239 11.5 16.5 11.7239 16.5 12C16.5 12.2761 16.7239 12.5 17 12.5Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 12.5C12.2761 12.5 12.5 12.2761 12.5 12C12.5 11.7239 12.2761 11.5 12 11.5C11.7239 11.5 11.5 11.7239 11.5 12C11.5 12.2761 11.7239 12.5 12 12.5Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 12.5C7.27614 12.5 7.5 12.2761 7.5 12C7.5 11.7239 7.27614 11.5 7 11.5C6.72386 11.5 6.5 11.7239 6.5 12C6.5 12.2761 6.72386 12.5 7 12.5Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 13.8214 2.48697 15.5291 3.33782 17L2.5 21.5L7 20.6622C8.47087 21.513 10.1786 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Chat </div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg> Invoice </div><div class="flex items-center gap-2 justify-between hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><div class="flex items-center gap-2"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17 10H20M23 10H20M20 10V7M20 10V13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M1 20V19C1 15.134 4.13401 12 8 12V12C11.866 12 15 15.134 15 19V20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8 12C10.2091 12 12 10.2091 12 8C12 5.79086 10.2091 4 8 4C5.79086 4 4 5.79086 4 8C4 10.2091 5.79086 12 8 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Friend request </div><div class="flex -space-x-2 items-center"><!-- 1 --><div class="flex"><div class="w-6 h-6 rounded-full border-2 border-white dark:border-black"><img class="w-full h-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651820943/Tailwind-Component-library/Human%20avatar/pexels-sound-on-3760857_hujrch.jpg" alt=""></div></div><!-- 2 --><div class="flex"><div class="w-6 h-6 rounded-full border-2 border-white dark:border-black"><img class="w-full h-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651821859/Tailwind-Component-library/Human%20avatar/pexels-pixabay-220453_ndnfc1.jpg" alt=""></div></div><!-- 3 --><div class="flex"><div class="w-6 h-6 rounded-full border-2 border-white dark:border-black"><img class="w-full h-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651821816/Tailwind-Component-library/Human%20avatar/pexels-andrea-piacquadio-3767410_kur6zy.jpg" alt=""></div></div></div></div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 11V4.6C2 4.26863 2.26863 4 2.6 4H8.77805C8.92127 4 9.05977 4.05124 9.16852 4.14445L12.3315 6.85555C12.4402 6.94876 12.5787 7 12.722 7H21.4C21.7314 7 22 7.26863 22 7.6V11M2 11V19.4C2 19.7314 2.26863 20 2.6 20H21.4C21.7314 20 22 19.7314 22 19.4V11M2 11H22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> File manager </div></div><!--  --><div class="flex flex-col space-y-3 text-base font-medium text-gray-500 dark:text-zinc-400 px-8 mt-28 pb-6"><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg> Users </div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 11C20 6.58172 16.4183 3 12 3C7.58172 3 4 6.58172 4 11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 15.4384V13.5616C2 12.6438 2.62459 11.8439 3.51493 11.6213L5.25448 11.1864C5.63317 11.0917 6 11.3781 6 11.7685V17.2315C6 17.6219 5.63317 17.9083 5.25448 17.8136L3.51493 17.3787C2.62459 17.1561 2 16.3562 2 15.4384Z" stroke="currentColor" stroke-width="1.5"></path><path d="M22 15.4384V13.5616C22 12.6438 21.3754 11.8439 20.4851 11.6213L18.7455 11.1864C18.3668 11.0917 18 11.3781 18 11.7685V17.2315C18 17.6219 18.3668 17.9083 18.7455 17.8136L20.4851 17.3787C21.3754 17.1561 22 16.3562 22 15.4384Z" stroke="currentColor" stroke-width="1.5"></path><path d="M20 18V18.5C20 19.6046 19.1046 20.5 18 20.5H14.5" stroke="currentColor" stroke-width="1.5"></path><path d="M13.5 22H10.5C9.67157 22 9 21.3284 9 20.5C9 19.6716 9.67157 19 10.5 19H13.5C14.3284 19 15 19.6716 15 20.5C15 21.3284 14.3284 22 13.5 22Z" stroke="currentColor" stroke-width="1.5"></path></svg> Support </div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19.6224 10.3954L18.5247 7.7448L20 6L18 4L16.2647 5.48295L13.5578 4.36974L12.9353 2H10.981L10.3491 4.40113L7.70441 5.51596L6 4L4 6L5.45337 7.78885L4.3725 10.4463L2 11V13L4.40111 13.6555L5.51575 16.2997L4 18L6 20L7.79116 18.5403L10.397 19.6123L11 22H13L13.6045 19.6132L16.2551 18.5155C16.6969 18.8313 18 20 18 20L20 18L18.5159 16.2494L19.6139 13.598L21.9999 12.9772L22 11L19.6224 10.3954Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Settings </div></div><!--  --></aside></div></div>`)
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "md:-ml-20 md:-my-10 w-full text-black" }, _attrs))}><div class="w-72 rounded-2xl bg-white dark:bg-zinc-900 overflow-y-hidden shadow-md"><aside class="w-full"><!-- logo --><div class="flex pl-6 pt-4 items-center"><div class="font-bold text-lg text-gray-700 dark:text-zinc-400 flex items-center w-10 h-10"><img class="w-full h-full" src="https://res.cloudinary.com/pranav1421/image/upload/v1652785994/Tailwind-Component-library/Logo/tailwind-css_yizuxw.svg" alt=""><span class="px-2">tailwindcss</span></div></div><!-- logo end --><div class="flex flex-col space-y-3 text-base font-medium text-gray-500 dark:text-zinc-400 mt-8 px-8"><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 20.4V14.6C14 14.2686 14.2686 14 14.6 14H20.4C20.7314 14 21 14.2686 21 14.6V20.4C21 20.7314 20.7314 21 20.4 21H14.6C14.2686 21 14 20.7314 14 20.4Z" stroke="currentColor" stroke-width="1.5"></path><path d="M3 20.4V14.6C3 14.2686 3.26863 14 3.6 14H9.4C9.73137 14 10 14.2686 10 14.6V20.4C10 20.7314 9.73137 21 9.4 21H3.6C3.26863 21 3 20.7314 3 20.4Z" stroke="currentColor" stroke-width="1.5"></path><path d="M14 9.4V3.6C14 3.26863 14.2686 3 14.6 3H20.4C20.7314 3 21 3.26863 21 3.6V9.4C21 9.73137 20.7314 10 20.4 10H14.6C14.2686 10 14 9.73137 14 9.4Z" stroke="currentColor" stroke-width="1.5"></path><path d="M3 9.4V3.6C3 3.26863 3.26863 3 3.6 3H9.4C9.73137 3 10 3.26863 10 3.6V9.4C10 9.73137 9.73137 10 9.4 10H3.6C3.26863 10 3 9.73137 3 9.4Z" stroke="currentColor" stroke-width="1.5"></path></svg> Dashboard </div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9.5L12 4L21 9.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 13V19.4C19 19.7314 18.7314 20 18.4 20H5.6C5.26863 20 5 19.7314 5 19.4V13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Home </div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.5 22C20.3284 22 21 21.3284 21 20.5C21 19.6716 20.3284 19 19.5 19C18.6716 19 18 19.6716 18 20.5C18 21.3284 18.6716 22 19.5 22Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9.5 22C10.3284 22 11 21.3284 11 20.5C11 19.6716 10.3284 19 9.5 19C8.67157 19 8 19.6716 8 20.5C8 21.3284 8.67157 22 9.5 22Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M5 4H22L20 15H7L5 4ZM5 4C4.83333 3.33333 4 2 2 2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M20 15H7H5.23077C3.44646 15 2.5 15.7812 2.5 17C2.5 18.2188 3.44646 19 5.23077 19H19.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Marketplace </div><div class="flex items-center justify-between gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><div class="flex items-center gap-2 hover:cursor-pointer"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.1336 11C18.7155 16.3755 21 18 21 18H3C3 18 6 15.8667 6 8.4C6 6.70261 6.63214 5.07475 7.75736 3.87452C8.88258 2.67428 10.4087 2 12 2C12.3373 2 12.6717 2.0303 13 2.08949" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 8C20.6569 8 22 6.65685 22 5C22 3.34315 20.6569 2 19 2C17.3431 2 16 3.34315 16 5C16 6.65685 17.3431 8 19 8Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M13.73 21C13.5542 21.3031 13.3019 21.5547 12.9982 21.7295C12.6946 21.9044 12.3504 21.9965 12 21.9965C11.6496 21.9965 11.3054 21.9044 11.0018 21.7295C10.6982 21.5547 10.4458 21.3031 10.27 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Notification </div><div class="bg-gray-100 text-gray-700 dark:bg-zinc-700 dark:text-zinc-400 rounded-md py-0.5 px-2 text-xs"> 8 </div></div></div><div class="my-4 px-4"><div class="border-t dark:border-gray-400"></div></div><div class="flex flex-col space-y-3 text-base font-medium text-gray-500 dark:text-zinc-400 px-8"><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 14V18.4C4 18.7314 4.26863 19 4.6 19H10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 14V18.4C19 18.7314 18.7314 19 18.4 19H14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 5H18.4C18.7314 5 19 5.26863 19 5.6V10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 10V5.6C4 5.26863 4.26863 5 4.6 5H10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 19V20C14 21.1046 13.1046 22 12 22C10.8954 22 10 21.1046 10 20V19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 10H5C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14H4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 10H20C21.1046 10 22 10.8954 22 12C22 13.1046 21.1046 14 20 14H19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 5V4C14 2.89543 13.1046 2 12 2C10.8954 2 10 2.89543 10 4V5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Projects </div><div class="flex items-center justify-between gap-2 hover:font-semibold hover:pl-0.5 transition-all"><div class="flex items-center gap-2"><svg width="20" stroke-width="1.5" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6L20 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.80002 5.79999L4.60002 6.59998L6.60001 4.59999" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.80002 11.8L4.60002 12.6L6.60001 10.6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.80002 17.8L4.60002 18.6L6.60001 16.6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 12L20 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 18L20 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Tasks </div><div class="bg-green-400 text-green-50 rounded-md py-0.5 px-2 text-xs font-semibold"> new </div></div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path></svg> Reporting </div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 4V2M15 4V6M15 4H10.5M3 10V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V10H3Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 10V6C3 4.89543 3.89543 4 5 4H7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 2V6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 10V6C21 4.89543 20.1046 4 19 4H18.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Calendar </div></div><!--  --><div class="my-4 px-4"><div class="border-t dark:border-zinc-400"></div></div><div class="flex flex-col space-y-3 text-base font-medium text-gray-500 dark:text-zinc-400 px-8"><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17 12.5C17.2761 12.5 17.5 12.2761 17.5 12C17.5 11.7239 17.2761 11.5 17 11.5C16.7239 11.5 16.5 11.7239 16.5 12C16.5 12.2761 16.7239 12.5 17 12.5Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 12.5C12.2761 12.5 12.5 12.2761 12.5 12C12.5 11.7239 12.2761 11.5 12 11.5C11.7239 11.5 11.5 11.7239 11.5 12C11.5 12.2761 11.7239 12.5 12 12.5Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 12.5C7.27614 12.5 7.5 12.2761 7.5 12C7.5 11.7239 7.27614 11.5 7 11.5C6.72386 11.5 6.5 11.7239 6.5 12C6.5 12.2761 6.72386 12.5 7 12.5Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 13.8214 2.48697 15.5291 3.33782 17L2.5 21.5L7 20.6622C8.47087 21.513 10.1786 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Chat </div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg> Invoice </div><div class="flex items-center gap-2 justify-between hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><div class="flex items-center gap-2"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17 10H20M23 10H20M20 10V7M20 10V13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M1 20V19C1 15.134 4.13401 12 8 12V12C11.866 12 15 15.134 15 19V20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8 12C10.2091 12 12 10.2091 12 8C12 5.79086 10.2091 4 8 4C5.79086 4 4 5.79086 4 8C4 10.2091 5.79086 12 8 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Friend request </div><div class="flex -space-x-2 items-center"><!-- 1 --><div class="flex"><div class="w-6 h-6 rounded-full border-2 border-white dark:border-black"><img class="w-full h-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651820943/Tailwind-Component-library/Human%20avatar/pexels-sound-on-3760857_hujrch.jpg" alt=""></div></div><!-- 2 --><div class="flex"><div class="w-6 h-6 rounded-full border-2 border-white dark:border-black"><img class="w-full h-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651821859/Tailwind-Component-library/Human%20avatar/pexels-pixabay-220453_ndnfc1.jpg" alt=""></div></div><!-- 3 --><div class="flex"><div class="w-6 h-6 rounded-full border-2 border-white dark:border-black"><img class="w-full h-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651821816/Tailwind-Component-library/Human%20avatar/pexels-andrea-piacquadio-3767410_kur6zy.jpg" alt=""></div></div></div></div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 11V4.6C2 4.26863 2.26863 4 2.6 4H8.77805C8.92127 4 9.05977 4.05124 9.16852 4.14445L12.3315 6.85555C12.4402 6.94876 12.5787 7 12.722 7H21.4C21.7314 7 22 7.26863 22 7.6V11M2 11V19.4C2 19.7314 2.26863 20 2.6 20H21.4C21.7314 20 22 19.7314 22 19.4V11M2 11H22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> File manager </div></div><!--  --><div class="flex flex-col space-y-3 text-base font-medium text-gray-500 dark:text-zinc-400 px-8 mt-28 pb-6"><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg> Users </div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 11C20 6.58172 16.4183 3 12 3C7.58172 3 4 6.58172 4 11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 15.4384V13.5616C2 12.6438 2.62459 11.8439 3.51493 11.6213L5.25448 11.1864C5.63317 11.0917 6 11.3781 6 11.7685V17.2315C6 17.6219 5.63317 17.9083 5.25448 17.8136L3.51493 17.3787C2.62459 17.1561 2 16.3562 2 15.4384Z" stroke="currentColor" stroke-width="1.5"></path><path d="M22 15.4384V13.5616C22 12.6438 21.3754 11.8439 20.4851 11.6213L18.7455 11.1864C18.3668 11.0917 18 11.3781 18 11.7685V17.2315C18 17.6219 18.3668 17.9083 18.7455 17.8136L20.4851 17.3787C21.3754 17.1561 22 16.3562 22 15.4384Z" stroke="currentColor" stroke-width="1.5"></path><path d="M20 18V18.5C20 19.6046 19.1046 20.5 18 20.5H14.5" stroke="currentColor" stroke-width="1.5"></path><path d="M13.5 22H10.5C9.67157 22 9 21.3284 9 20.5C9 19.6716 9.67157 19 10.5 19H13.5C14.3284 19 15 19.6716 15 20.5C15 21.3284 14.3284 22 13.5 22Z" stroke="currentColor" stroke-width="1.5"></path></svg> Support </div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19.6224 10.3954L18.5247 7.7448L20 6L18 4L16.2647 5.48295L13.5578 4.36974L12.9353 2H10.981L10.3491 4.40113L7.70441 5.51596L6 4L4 6L5.45337 7.78885L4.3725 10.4463L2 11V13L4.40111 13.6555L5.51575 16.2997L4 18L6 20L7.79116 18.5403L10.397 19.6123L11 22H13L13.6045 19.6132L16.2551 18.5155C16.6969 18.8313 18 20 18 20L20 18L18.5159 16.2494L19.6139 13.598L21.9999 12.9772L22 11L19.6224 10.3954Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Settings </div></div><!--  --></aside></div></div>`)
 }
 
 
@@ -36123,7 +36129,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Sidebar/Separator.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Sidebar/Separator.vue"]]);
 }
 
 
@@ -36279,7 +36285,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Sidebar/Snippets/Separator.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Sidebar/Snippets/Separator.vue"]]);
 }
 
 
@@ -36303,7 +36309,7 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "-ml-20 -my-10 w-full text-black" }, _attrs))}><div class="w-72 rounded-2xl bg-white dark:bg-zinc-900 overflow-y-hidden shadow-md"><aside class="w-full"><!-- logo --><div class="flex pl-6 pt-4 items-center"><div class="font-bold text-lg text-gray-700 dark:text-zinc-400 flex items-center w-10 h-10"><img class="w-full h-full" src="https://res.cloudinary.com/pranav1421/image/upload/v1652785994/Tailwind-Component-library/Logo/tailwind-css_yizuxw.svg" alt=""><span class="px-2">tailwindcss</span></div></div><!-- logo end --><div class="my-4 px-4"><div class="border-t"></div></div><!-- avatar start --><div class="px-8 flex space-x-2 items-center"><div class="w-12 h-12 relative rounded-full ring-2 ring-white dark:ring-black shadow-lg shadow-gray-300 dark:shadow-black hover:shadow-none"><img class="w-full h-full object-cover rounded-full border-2" src="https://res.cloudinary.com/pranav1421/image/upload/v1652079979/Tailwind-Component-library/Human%20avatar/payton-tuttle-RFFR1JjkJx8-unsplash_wglk5e.jpg" alt=""></div><div class="flex flex-col"><div class="text-base font-bold text-gray-600 dark:text-zinc-500">Elvis Ray</div><div class="text-xs font-medium text-gray-500 dark:text-zinc-400">Sales manager</div></div></div><!-- end avatart --><div class="flex flex-col space-y-3 text-base font-medium text-gray-500 dark:text-zinc-400 mt-8 px-8"><div class="text-xxs">E-commerce</div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 20.4V14.6C14 14.2686 14.2686 14 14.6 14H20.4C20.7314 14 21 14.2686 21 14.6V20.4C21 20.7314 20.7314 21 20.4 21H14.6C14.2686 21 14 20.7314 14 20.4Z" stroke="currentColor" stroke-width="1.5"></path><path d="M3 20.4V14.6C3 14.2686 3.26863 14 3.6 14H9.4C9.73137 14 10 14.2686 10 14.6V20.4C10 20.7314 9.73137 21 9.4 21H3.6C3.26863 21 3 20.7314 3 20.4Z" stroke="currentColor" stroke-width="1.5"></path><path d="M14 9.4V3.6C14 3.26863 14.2686 3 14.6 3H20.4C20.7314 3 21 3.26863 21 3.6V9.4C21 9.73137 20.7314 10 20.4 10H14.6C14.2686 10 14 9.73137 14 9.4Z" stroke="currentColor" stroke-width="1.5"></path><path d="M3 9.4V3.6C3 3.26863 3.26863 3 3.6 3H9.4C9.73137 3 10 3.26863 10 3.6V9.4C10 9.73137 9.73137 10 9.4 10H3.6C3.26863 10 3 9.73137 3 9.4Z" stroke="currentColor" stroke-width="1.5"></path></svg> Dashboard </div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9.5L12 4L21 9.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 13V19.4C19 19.7314 18.7314 20 18.4 20H5.6C5.26863 20 5 19.7314 5 19.4V13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Home </div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.5 22C20.3284 22 21 21.3284 21 20.5C21 19.6716 20.3284 19 19.5 19C18.6716 19 18 19.6716 18 20.5C18 21.3284 18.6716 22 19.5 22Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9.5 22C10.3284 22 11 21.3284 11 20.5C11 19.6716 10.3284 19 9.5 19C8.67157 19 8 19.6716 8 20.5C8 21.3284 8.67157 22 9.5 22Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M5 4H22L20 15H7L5 4ZM5 4C4.83333 3.33333 4 2 2 2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M20 15H7H5.23077C3.44646 15 2.5 15.7812 2.5 17C2.5 18.2188 3.44646 19 5.23077 19H19.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Marketplace </div><div class="flex items-center justify-between gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><div class="flex items-center gap-2 hover:cursor-pointer"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.1336 11C18.7155 16.3755 21 18 21 18H3C3 18 6 15.8667 6 8.4C6 6.70261 6.63214 5.07475 7.75736 3.87452C8.88258 2.67428 10.4087 2 12 2C12.3373 2 12.6717 2.0303 13 2.08949" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 8C20.6569 8 22 6.65685 22 5C22 3.34315 20.6569 2 19 2C17.3431 2 16 3.34315 16 5C16 6.65685 17.3431 8 19 8Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M13.73 21C13.5542 21.3031 13.3019 21.5547 12.9982 21.7295C12.6946 21.9044 12.3504 21.9965 12 21.9965C11.6496 21.9965 11.3054 21.9044 11.0018 21.7295C10.6982 21.5547 10.4458 21.3031 10.27 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Notification </div><div class="bg-gray-100 dark:bg-zinc-700 text-gray-700 dark:text-zinc-400 rounded-md py-0.5 px-2 text-xs"> 8 </div></div></div><div class="my-4 px-4"><div class="border-t"></div></div><div class="flex flex-col space-y-3 text-base font-medium text-gray-500 dark:text-zinc-400 px-8"><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 14V18.4C4 18.7314 4.26863 19 4.6 19H10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 14V18.4C19 18.7314 18.7314 19 18.4 19H14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 5H18.4C18.7314 5 19 5.26863 19 5.6V10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 10V5.6C4 5.26863 4.26863 5 4.6 5H10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 19V20C14 21.1046 13.1046 22 12 22C10.8954 22 10 21.1046 10 20V19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 10H5C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14H4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 10H20C21.1046 10 22 10.8954 22 12C22 13.1046 21.1046 14 20 14H19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 5V4C14 2.89543 13.1046 2 12 2C10.8954 2 10 2.89543 10 4V5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Projects </div><div class="flex items-center justify-between gap-2 hover:font-semibold hover:pl-0.5 transition-all"><div class="flex items-center gap-2"><svg width="20" stroke-width="1.5" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6L20 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.80002 5.79999L4.60002 6.59998L6.60001 4.59999" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.80002 11.8L4.60002 12.6L6.60001 10.6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.80002 17.8L4.60002 18.6L6.60001 16.6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 12L20 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 18L20 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Tasks </div><div class="bg-green-400 text-green-50 rounded-md py-0.5 px-2 text-xs font-semibold"> new </div></div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path></svg> Reporting </div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 4V2M15 4V6M15 4H10.5M3 10V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V10H3Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 10V6C3 4.89543 3.89543 4 5 4H7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 2V6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 10V6C21 4.89543 20.1046 4 19 4H18.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Calendar </div></div><!--  --><div class="my-4 px-4"><div class="border-t"></div></div><div class="flex flex-col space-y-3 text-base font-medium text-gray-500 dark:text-zinc-400 px-8"><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17 12.5C17.2761 12.5 17.5 12.2761 17.5 12C17.5 11.7239 17.2761 11.5 17 11.5C16.7239 11.5 16.5 11.7239 16.5 12C16.5 12.2761 16.7239 12.5 17 12.5Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 12.5C12.2761 12.5 12.5 12.2761 12.5 12C12.5 11.7239 12.2761 11.5 12 11.5C11.7239 11.5 11.5 11.7239 11.5 12C11.5 12.2761 11.7239 12.5 12 12.5Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 12.5C7.27614 12.5 7.5 12.2761 7.5 12C7.5 11.7239 7.27614 11.5 7 11.5C6.72386 11.5 6.5 11.7239 6.5 12C6.5 12.2761 6.72386 12.5 7 12.5Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 13.8214 2.48697 15.5291 3.33782 17L2.5 21.5L7 20.6622C8.47087 21.513 10.1786 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Chat </div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg> Invoice </div><div class="flex items-center gap-2 justify-between hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><div class="flex items-center gap-2"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17 10H20M23 10H20M20 10V7M20 10V13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M1 20V19C1 15.134 4.13401 12 8 12V12C11.866 12 15 15.134 15 19V20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8 12C10.2091 12 12 10.2091 12 8C12 5.79086 10.2091 4 8 4C5.79086 4 4 5.79086 4 8C4 10.2091 5.79086 12 8 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Friend request </div><div class="flex -space-x-2 items-center"><!-- 1 --><div class="flex"><div class="w-6 h-6 rounded-full border-2 border-white"><img class="w-full h-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651820943/Tailwind-Component-library/Human%20avatar/pexels-sound-on-3760857_hujrch.jpg" alt=""></div></div><!-- 2 --><div class="flex"><div class="w-6 h-6 rounded-full border-2 border-white"><img class="w-full h-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651821859/Tailwind-Component-library/Human%20avatar/pexels-pixabay-220453_ndnfc1.jpg" alt=""></div></div><!-- 3 --><div class="flex"><div class="w-6 h-6 rounded-full border-2 border-white"><img class="w-full h-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651821816/Tailwind-Component-library/Human%20avatar/pexels-andrea-piacquadio-3767410_kur6zy.jpg" alt=""></div></div></div></div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 11V4.6C2 4.26863 2.26863 4 2.6 4H8.77805C8.92127 4 9.05977 4.05124 9.16852 4.14445L12.3315 6.85555C12.4402 6.94876 12.5787 7 12.722 7H21.4C21.7314 7 22 7.26863 22 7.6V11M2 11V19.4C2 19.7314 2.26863 20 2.6 20H21.4C21.7314 20 22 19.7314 22 19.4V11M2 11H22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> File manager </div></div><!--  --><div class="flex flex-col space-y-3 text-base font-medium text-gray-500 dark:text-zinc-400 px-8 mt-28 pb-6"><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg> Users </div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 11C20 6.58172 16.4183 3 12 3C7.58172 3 4 6.58172 4 11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 15.4384V13.5616C2 12.6438 2.62459 11.8439 3.51493 11.6213L5.25448 11.1864C5.63317 11.0917 6 11.3781 6 11.7685V17.2315C6 17.6219 5.63317 17.9083 5.25448 17.8136L3.51493 17.3787C2.62459 17.1561 2 16.3562 2 15.4384Z" stroke="currentColor" stroke-width="1.5"></path><path d="M22 15.4384V13.5616C22 12.6438 21.3754 11.8439 20.4851 11.6213L18.7455 11.1864C18.3668 11.0917 18 11.3781 18 11.7685V17.2315C18 17.6219 18.3668 17.9083 18.7455 17.8136L20.4851 17.3787C21.3754 17.1561 22 16.3562 22 15.4384Z" stroke="currentColor" stroke-width="1.5"></path><path d="M20 18V18.5C20 19.6046 19.1046 20.5 18 20.5H14.5" stroke="currentColor" stroke-width="1.5"></path><path d="M13.5 22H10.5C9.67157 22 9 21.3284 9 20.5C9 19.6716 9.67157 19 10.5 19H13.5C14.3284 19 15 19.6716 15 20.5C15 21.3284 14.3284 22 13.5 22Z" stroke="currentColor" stroke-width="1.5"></path></svg> Support </div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19.6224 10.3954L18.5247 7.7448L20 6L18 4L16.2647 5.48295L13.5578 4.36974L12.9353 2H10.981L10.3491 4.40113L7.70441 5.51596L6 4L4 6L5.45337 7.78885L4.3725 10.4463L2 11V13L4.40111 13.6555L5.51575 16.2997L4 18L6 20L7.79116 18.5403L10.397 19.6123L11 22H13L13.6045 19.6132L16.2551 18.5155C16.6969 18.8313 18 20 18 20L20 18L18.5159 16.2494L19.6139 13.598L21.9999 12.9772L22 11L19.6224 10.3954Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Settings </div></div><!--  --></aside></div></div>`)
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "md:-ml-20 md:-my-10 w-full text-black" }, _attrs))}><div class="w-72 rounded-2xl bg-white dark:bg-zinc-900 overflow-y-hidden shadow-md"><aside class="w-full"><!-- logo --><div class="flex pl-6 pt-4 items-center"><div class="font-bold text-lg text-gray-700 dark:text-zinc-400 flex items-center w-10 h-10"><img class="w-full h-full" src="https://res.cloudinary.com/pranav1421/image/upload/v1652785994/Tailwind-Component-library/Logo/tailwind-css_yizuxw.svg" alt=""><span class="px-2">tailwindcss</span></div></div><!-- logo end --><div class="my-4 px-4"><div class="border-t"></div></div><!-- avatar start --><div class="px-8 flex space-x-2 items-center"><div class="w-12 h-12 relative rounded-full ring-2 ring-white dark:ring-black shadow-lg shadow-gray-300 dark:shadow-black hover:shadow-none"><img class="w-full h-full object-cover rounded-full border-2" src="https://res.cloudinary.com/pranav1421/image/upload/v1652079979/Tailwind-Component-library/Human%20avatar/payton-tuttle-RFFR1JjkJx8-unsplash_wglk5e.jpg" alt=""></div><div class="flex flex-col"><div class="text-base font-bold text-gray-600 dark:text-zinc-500">Elvis Ray</div><div class="text-xs font-medium text-gray-500 dark:text-zinc-400">Sales manager</div></div></div><!-- end avatart --><div class="flex flex-col space-y-3 text-base font-medium text-gray-500 dark:text-zinc-400 mt-8 px-8"><div class="text-xxs">E-commerce</div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 20.4V14.6C14 14.2686 14.2686 14 14.6 14H20.4C20.7314 14 21 14.2686 21 14.6V20.4C21 20.7314 20.7314 21 20.4 21H14.6C14.2686 21 14 20.7314 14 20.4Z" stroke="currentColor" stroke-width="1.5"></path><path d="M3 20.4V14.6C3 14.2686 3.26863 14 3.6 14H9.4C9.73137 14 10 14.2686 10 14.6V20.4C10 20.7314 9.73137 21 9.4 21H3.6C3.26863 21 3 20.7314 3 20.4Z" stroke="currentColor" stroke-width="1.5"></path><path d="M14 9.4V3.6C14 3.26863 14.2686 3 14.6 3H20.4C20.7314 3 21 3.26863 21 3.6V9.4C21 9.73137 20.7314 10 20.4 10H14.6C14.2686 10 14 9.73137 14 9.4Z" stroke="currentColor" stroke-width="1.5"></path><path d="M3 9.4V3.6C3 3.26863 3.26863 3 3.6 3H9.4C9.73137 3 10 3.26863 10 3.6V9.4C10 9.73137 9.73137 10 9.4 10H3.6C3.26863 10 3 9.73137 3 9.4Z" stroke="currentColor" stroke-width="1.5"></path></svg> Dashboard </div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9.5L12 4L21 9.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 13V19.4C19 19.7314 18.7314 20 18.4 20H5.6C5.26863 20 5 19.7314 5 19.4V13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Home </div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.5 22C20.3284 22 21 21.3284 21 20.5C21 19.6716 20.3284 19 19.5 19C18.6716 19 18 19.6716 18 20.5C18 21.3284 18.6716 22 19.5 22Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9.5 22C10.3284 22 11 21.3284 11 20.5C11 19.6716 10.3284 19 9.5 19C8.67157 19 8 19.6716 8 20.5C8 21.3284 8.67157 22 9.5 22Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M5 4H22L20 15H7L5 4ZM5 4C4.83333 3.33333 4 2 2 2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M20 15H7H5.23077C3.44646 15 2.5 15.7812 2.5 17C2.5 18.2188 3.44646 19 5.23077 19H19.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Marketplace </div><div class="flex items-center justify-between gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><div class="flex items-center gap-2 hover:cursor-pointer"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.1336 11C18.7155 16.3755 21 18 21 18H3C3 18 6 15.8667 6 8.4C6 6.70261 6.63214 5.07475 7.75736 3.87452C8.88258 2.67428 10.4087 2 12 2C12.3373 2 12.6717 2.0303 13 2.08949" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 8C20.6569 8 22 6.65685 22 5C22 3.34315 20.6569 2 19 2C17.3431 2 16 3.34315 16 5C16 6.65685 17.3431 8 19 8Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M13.73 21C13.5542 21.3031 13.3019 21.5547 12.9982 21.7295C12.6946 21.9044 12.3504 21.9965 12 21.9965C11.6496 21.9965 11.3054 21.9044 11.0018 21.7295C10.6982 21.5547 10.4458 21.3031 10.27 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Notification </div><div class="bg-gray-100 dark:bg-zinc-700 text-gray-700 dark:text-zinc-400 rounded-md py-0.5 px-2 text-xs"> 8 </div></div></div><div class="my-4 px-4"><div class="border-t"></div></div><div class="flex flex-col space-y-3 text-base font-medium text-gray-500 dark:text-zinc-400 px-8"><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 14V18.4C4 18.7314 4.26863 19 4.6 19H10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 14V18.4C19 18.7314 18.7314 19 18.4 19H14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 5H18.4C18.7314 5 19 5.26863 19 5.6V10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 10V5.6C4 5.26863 4.26863 5 4.6 5H10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 19V20C14 21.1046 13.1046 22 12 22C10.8954 22 10 21.1046 10 20V19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 10H5C6.10457 10 7 10.8954 7 12C7 13.1046 6.10457 14 5 14H4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19 10H20C21.1046 10 22 10.8954 22 12C22 13.1046 21.1046 14 20 14H19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M14 5V4C14 2.89543 13.1046 2 12 2C10.8954 2 10 2.89543 10 4V5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Projects </div><div class="flex items-center justify-between gap-2 hover:font-semibold hover:pl-0.5 transition-all"><div class="flex items-center gap-2"><svg width="20" stroke-width="1.5" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 6L20 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.80002 5.79999L4.60002 6.59998L6.60001 4.59999" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.80002 11.8L4.60002 12.6L6.60001 10.6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.80002 17.8L4.60002 18.6L6.60001 16.6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 12L20 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 18L20 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Tasks </div><div class="bg-green-400 text-green-50 rounded-md py-0.5 px-2 text-xs font-semibold"> new </div></div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path></svg> Reporting </div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 4V2M15 4V6M15 4H10.5M3 10V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V10H3Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 10V6C3 4.89543 3.89543 4 5 4H7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 2V6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 10V6C21 4.89543 20.1046 4 19 4H18.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Calendar </div></div><!--  --><div class="my-4 px-4"><div class="border-t"></div></div><div class="flex flex-col space-y-3 text-base font-medium text-gray-500 dark:text-zinc-400 px-8"><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17 12.5C17.2761 12.5 17.5 12.2761 17.5 12C17.5 11.7239 17.2761 11.5 17 11.5C16.7239 11.5 16.5 11.7239 16.5 12C16.5 12.2761 16.7239 12.5 17 12.5Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 12.5C12.2761 12.5 12.5 12.2761 12.5 12C12.5 11.7239 12.2761 11.5 12 11.5C11.7239 11.5 11.5 11.7239 11.5 12C11.5 12.2761 11.7239 12.5 12 12.5Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 12.5C7.27614 12.5 7.5 12.2761 7.5 12C7.5 11.7239 7.27614 11.5 7 11.5C6.72386 11.5 6.5 11.7239 6.5 12C6.5 12.2761 6.72386 12.5 7 12.5Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 13.8214 2.48697 15.5291 3.33782 17L2.5 21.5L7 20.6622C8.47087 21.513 10.1786 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Chat </div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg> Invoice </div><div class="flex items-center gap-2 justify-between hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><div class="flex items-center gap-2"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17 10H20M23 10H20M20 10V7M20 10V13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M1 20V19C1 15.134 4.13401 12 8 12V12C11.866 12 15 15.134 15 19V20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8 12C10.2091 12 12 10.2091 12 8C12 5.79086 10.2091 4 8 4C5.79086 4 4 5.79086 4 8C4 10.2091 5.79086 12 8 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Friend request </div><div class="flex -space-x-2 items-center"><!-- 1 --><div class="flex"><div class="w-6 h-6 rounded-full border-2 border-white"><img class="w-full h-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651820943/Tailwind-Component-library/Human%20avatar/pexels-sound-on-3760857_hujrch.jpg" alt=""></div></div><!-- 2 --><div class="flex"><div class="w-6 h-6 rounded-full border-2 border-white"><img class="w-full h-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651821859/Tailwind-Component-library/Human%20avatar/pexels-pixabay-220453_ndnfc1.jpg" alt=""></div></div><!-- 3 --><div class="flex"><div class="w-6 h-6 rounded-full border-2 border-white"><img class="w-full h-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651821816/Tailwind-Component-library/Human%20avatar/pexels-andrea-piacquadio-3767410_kur6zy.jpg" alt=""></div></div></div></div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 11V4.6C2 4.26863 2.26863 4 2.6 4H8.77805C8.92127 4 9.05977 4.05124 9.16852 4.14445L12.3315 6.85555C12.4402 6.94876 12.5787 7 12.722 7H21.4C21.7314 7 22 7.26863 22 7.6V11M2 11V19.4C2 19.7314 2.26863 20 2.6 20H21.4C21.7314 20 22 19.7314 22 19.4V11M2 11H22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> File manager </div></div><!--  --><div class="flex flex-col space-y-3 text-base font-medium text-gray-500 dark:text-zinc-400 px-8 mt-28 pb-6"><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg> Users </div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 11C20 6.58172 16.4183 3 12 3C7.58172 3 4 6.58172 4 11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 15.4384V13.5616C2 12.6438 2.62459 11.8439 3.51493 11.6213L5.25448 11.1864C5.63317 11.0917 6 11.3781 6 11.7685V17.2315C6 17.6219 5.63317 17.9083 5.25448 17.8136L3.51493 17.3787C2.62459 17.1561 2 16.3562 2 15.4384Z" stroke="currentColor" stroke-width="1.5"></path><path d="M22 15.4384V13.5616C22 12.6438 21.3754 11.8439 20.4851 11.6213L18.7455 11.1864C18.3668 11.0917 18 11.3781 18 11.7685V17.2315C18 17.6219 18.3668 17.9083 18.7455 17.8136L20.4851 17.3787C21.3754 17.1561 22 16.3562 22 15.4384Z" stroke="currentColor" stroke-width="1.5"></path><path d="M20 18V18.5C20 19.6046 19.1046 20.5 18 20.5H14.5" stroke="currentColor" stroke-width="1.5"></path><path d="M13.5 22H10.5C9.67157 22 9 21.3284 9 20.5C9 19.6716 9.67157 19 10.5 19H13.5C14.3284 19 15 19.6716 15 20.5C15 21.3284 14.3284 22 13.5 22Z" stroke="currentColor" stroke-width="1.5"></path></svg> Support </div><div class="flex items-center gap-2 hover:cursor-pointer hover:font-semibold hover:pl-0.5 transition-all"><svg width="20" height="20" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19.6224 10.3954L18.5247 7.7448L20 6L18 4L16.2647 5.48295L13.5578 4.36974L12.9353 2H10.981L10.3491 4.40113L7.70441 5.51596L6 4L4 6L5.45337 7.78885L4.3725 10.4463L2 11V13L4.40111 13.6555L5.51575 16.2997L4 18L6 20L7.79116 18.5403L10.397 19.6123L11 22H13L13.6045 19.6132L16.2551 18.5155C16.6969 18.8313 18 20 18 20L20 18L18.5159 16.2494L19.6139 13.598L21.9999 12.9772L22 11L19.6224 10.3954Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg> Settings </div></div><!--  --></aside></div></div>`)
 }
 
 
@@ -36317,7 +36323,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Sidebar/Sectioned.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Sidebar/Sectioned.vue"]]);
 }
 
 
@@ -36494,7 +36500,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Sidebar/Snippets/Sectioned.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Sidebar/Snippets/Sectioned.vue"]]);
 }
 
 
@@ -36514,7 +36520,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/toast.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -36647,11 +36653,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   _push(__vite_ssr_import_21__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_20__.mergeProps({ name: $data.layout }, _attrs), {
     default: __vite_ssr_import_20__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
-        _push(`<div class="flex p-4"${
+        _push(`<div class="flex py-4 md:p-4"${
           _scopeId
-        }><!-- content --><div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar"${
+        }><!-- content --><div class="flex md:pb-20 h-screen md:px-4 overflow-y-hidden scrollBar"${
           _scopeId
-        }><div class="overflow-y-auto w-full px-4 pb-20" id="toastContainer"${
+        }><div class="overflow-y-auto w-full md:px-4 pb-20" id="toastContainer"${
           _scopeId
         }>`)
         _push(__vite_ssr_import_21__.ssrRenderComponent(_component_HeadersHeading, null, {
@@ -36668,7 +36674,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }, _parent, _scopeId))
         _push(`<div${
           _scopeId
-        }><p class="text-base"${
+        }><p class="w-full text-base"${
           _scopeId
         }> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? </p></div><!-- Default alert --><section id="defaultToast" class="w-full"${
           _scopeId
@@ -37025,11 +37031,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> Toast With Buttons </button></div></div></div></div></div>`)
       } else {
         return [
-          __vite_ssr_import_20__.createVNode("div", { class: "flex p-4" }, [
+          __vite_ssr_import_20__.createVNode("div", { class: "flex py-4 md:p-4" }, [
             __vite_ssr_import_20__.createCommentVNode(" content "),
-            __vite_ssr_import_20__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
+            __vite_ssr_import_20__.createVNode("div", { class: "flex md:pb-20 h-screen md:px-4 overflow-y-hidden scrollBar" }, [
               __vite_ssr_import_20__.createVNode("div", {
-                class: "overflow-y-auto w-full px-4 pb-20",
+                class: "overflow-y-auto w-full md:px-4 pb-20",
                 id: "toastContainer"
               }, [
                 __vite_ssr_import_20__.createVNode(_component_HeadersHeading, null, {
@@ -37039,7 +37045,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                   _: 1 /* STABLE */
                 }),
                 __vite_ssr_import_20__.createVNode("div", null, [
-                  __vite_ssr_import_20__.createVNode("p", { class: "text-base" }, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? ")
+                  __vite_ssr_import_20__.createVNode("p", { class: "w-full text-base" }, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? ")
                 ]),
                 __vite_ssr_import_20__.createCommentVNode(" Default alert "),
                 __vite_ssr_import_20__.createVNode("section", {
@@ -37358,7 +37364,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_24__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/toast.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/toast.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -37390,7 +37396,7 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full" }, _attrs))}><div class="bg-white flex justify-between items-center px-4 py-3 rounded-lg text-gray-500 w-1/3 shadow-md"><div class="flex items-center space-x-2"><div class="p-1.5 bg-blue-100 rounded-lg text-blue-500"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg></div><div> This is a simple toast </div></div><div class="flex cursor-pointer hover:bg-gray-200 rounded-lg p-1 text-gray-400 hover:text-gray-700 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg></div></div></div>`)
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full" }, _attrs))}><div class="flex md:w-1/3 items-center justify-between rounded-lg bg-white dark:bg-zinc-800 px-4 py-3 text-gray-500 dark:text-zinc-300 shadow-md"><div class="flex items-center space-x-2"><div class="rounded-lg bg-blue-100 dark:bg-zinc-700 p-1.5 text-blue-500"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg></div><div>This is a simple toast</div></div><div class="flex cursor-pointer rounded-lg p-1 text-gray-400 transition-all hover:bg-gray-200 dark:hover:bg-zinc-700 hover:text-gray-900"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg></div></div></div>`)
 }
 
 
@@ -37404,7 +37410,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Toast/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Toast/Default.vue"]]);
 }
 
 
@@ -37425,22 +37431,22 @@ const _sfc_main = {
     return {
       code:` 
 <div class="w-full">
-  <div class="flex w-1/3 items-center justify-between rounded-lg bg-white px-4 py-3 text-gray-500 shadow-md">
+  <div class="flex w-1/3 items-center justify-between rounded-lg bg-white dark:bg-zinc-800 px-4 py-3 text-gray-500 dark:text-zinc-300 shadow-md">
     <div class="flex items-center space-x-2">
-      <div class="rounded-lg bg-blue-100 p-1.5 text-blue-500">
+      <div class="rounded-lg bg-blue-100 dark:bg-zinc-700 p-1.5 text-blue-500">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
           <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
         </svg>
       </div>
       <div>This is a simple toast</div>
     </div>
-    <div class="flex cursor-pointer rounded-lg p-1 text-gray-400 transition-all hover:bg-gray-200 hover:text-gray-700">
+    <div class="flex cursor-pointer rounded-lg p-1 text-gray-400 transition-all hover:bg-gray-200 dark:hover:bg-zinc-700 hover:text-gray-900">
       <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
       </svg>
     </div>
   </div>
-</div>  
+</div>
       `
     }
   }
@@ -37471,7 +37477,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Toast/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Toast/Snippets/Default.vue"]]);
 }
 
 
@@ -37497,8 +37503,8 @@ const _sfc_main = {
           icon: `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
 </svg>`,
-          bgcolor: "bg-green-100",
-          iconcolor: "text-green-500",
+          bgcolor: "bg-green-100  dark:bg-green-700 ",
+          iconcolor: "text-green-400 dark:text-green-400",
         },
         {
           id: 2,
@@ -37506,8 +37512,8 @@ const _sfc_main = {
           icon: `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
   <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
 </svg>`,
-          bgcolor: "bg-sky-100",
-          iconcolor: "text-sky-500",
+          bgcolor: "bg-sky-100 dark:bg-sky-700",
+          iconcolor: "text-sky-500 dark:text-sky-400",
         },
         {
           id: 3,
@@ -37515,8 +37521,8 @@ const _sfc_main = {
           icon: `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
   <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
 </svg>`,
-          bgcolor: "bg-yellow-100",
-          iconcolor: "text-yellow-500",
+          bgcolor: "bg-yellow-100 dark:bg-yellow-700",
+          iconcolor: "text-yellow-500 dark:text-yellow-400",
         },
         {
           id: 4,
@@ -37524,8 +37530,8 @@ const _sfc_main = {
           icon: `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
   <path fill-rule="evenodd" d="M13.477 14.89A6 6 0 015.11 6.524l8.367 8.368zm1.414-1.414L6.524 5.11a6 6 0 018.367 8.367zM18 10a8 8 0 11-16 0 8 8 0 0116 0z" clip-rule="evenodd" />
 </svg>`,
-          bgcolor: "bg-red-100",
-          iconcolor: "text-red-500",
+          bgcolor: "bg-red-100 dark:bg-red-700",
+          iconcolor: "text-red-500 dark:text-red-400",
         },
       ],
     };
@@ -37540,13 +37546,13 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/serve
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full" }, _attrs))}><!--[-->`)
   __vite_ssr_import_1__.ssrRenderList($data.items, (item, index) => {
-    _push(`<span><div class="bg-white flex justify-between items-center px-4 py-3 rounded-lg text-gray-500 w-1/3 shadow-md mb-2"><div class="flex items-center space-x-2"><div class="${
+    _push(`<span><div class="bg-white dark:bg-zinc-800 flex justify-between items-center px-4 py-3 rounded-lg text-gray-500 dark:text-zinc-300 md:w-1/3 shadow-md mb-2"><div class="flex items-center space-x-2"><div class="${
       __vite_ssr_import_1__.ssrRenderClass(`p-1.5 ${item.bgcolor} ${item.iconcolor} rounded-lg`)
     }"><p>${
       item.icon
     }</p></div><div>${
       __vite_ssr_import_1__.ssrInterpolate(item.text)
-    }</div></div><div class="cursor-pointer hover:bg-gray-200 rounded-lg p-1 text-gray-400 hover:text-gray-700 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg></div></div></span>`)
+    }</div></div><div class="cursor-pointer hover:bg-gray-200 dark:hover:bg-zinc-700 rounded-lg p-1 text-gray-400 hover:text-gray-700 dark:hover:text-zinc-900 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg></div></div></span>`)
   })
   _push(`<!--]--></div>`)
 }
@@ -37562,7 +37568,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Toast/StateColor.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Toast/StateColor.vue"]]);
 }
 
 
@@ -37583,61 +37589,61 @@ const _sfc_main = {
     return {
       code:` 
 <!--Green toast -->
-<div class="mb-2 flex w-1/3 items-center justify-between rounded-lg bg-white px-4 py-3 text-gray-500 shadow-md">
+<div class="mb-2 flex w-1/3 items-center justify-between rounded-lg bg-white px-4 py-3 text-gray-500 shadow-md dark:bg-zinc-800 dark:text-zinc-300">
   <div class="flex items-center space-x-2">
-    <div class="rounded-lg bg-green-100 p-1.5 text-green-500">
+    <div class="rounded-lg bg-green-100 p-1.5 text-green-400 dark:bg-green-700 dark:text-green-400">
       <p>
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
       </p>
     </div>
     <div>A successful toast</div>
   </div>
-  <div class="cursor-pointer rounded-lg p-1 text-gray-400 transition-all hover:bg-gray-200 hover:text-gray-700">
+  <div class="cursor-pointer rounded-lg p-1 text-gray-400 transition-all hover:bg-gray-200 hover:text-gray-700 dark:hover:bg-zinc-700 dark:hover:text-zinc-900">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="h-5 w-5"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
   </div>
 </div>
 <!-- blue toast -->
-<div class="mb-2 flex w-1/3 items-center justify-between rounded-lg bg-white px-4 py-3 text-gray-500 shadow-md">
+<div class="mb-2 flex w-1/3 items-center justify-between rounded-lg bg-white px-4 py-3 text-gray-500 shadow-md dark:bg-zinc-800 dark:text-zinc-300">
   <div class="flex items-center space-x-2">
-    <div class="rounded-lg bg-sky-100 p-1.5 text-sky-500">
+    <div class="rounded-lg bg-sky-100 p-1.5 text-sky-500 dark:bg-sky-700 dark:text-sky-400">
       <p>
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg>
       </p>
     </div>
     <div>An info toast</div>
   </div>
-  <div class="cursor-pointer rounded-lg p-1 text-gray-400 transition-all hover:bg-gray-200 hover:text-gray-700">
+  <div class="cursor-pointer rounded-lg p-1 text-gray-400 transition-all hover:bg-gray-200 hover:text-gray-700 dark:hover:bg-zinc-700 dark:hover:text-zinc-900">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="h-5 w-5"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
   </div>
 </div>
 <!-- yellow toast -->
-<div class="mb-2 flex w-1/3 items-center justify-between rounded-lg bg-white px-4 py-3 text-gray-500 shadow-md">
+<div class="mb-2 flex w-1/3 items-center justify-between rounded-lg bg-white px-4 py-3 text-gray-500 shadow-md dark:bg-zinc-800 dark:text-zinc-300">
   <div class="flex items-center space-x-2">
-    <div class="rounded-lg bg-yellow-100 p-1.5 text-yellow-500">
+    <div class="rounded-lg bg-yellow-100 p-1.5 text-yellow-500 dark:bg-yellow-700 dark:text-yellow-400">
       <p>
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"></path></svg>
       </p>
     </div>
     <div>A warning toast</div>
   </div>
-  <div class="cursor-pointer rounded-lg p-1 text-gray-400 transition-all hover:bg-gray-200 hover:text-gray-700">
+  <div class="cursor-pointer rounded-lg p-1 text-gray-400 transition-all hover:bg-gray-200 hover:text-gray-700 dark:hover:bg-zinc-700 dark:hover:text-zinc-900">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="h-5 w-5"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
   </div>
 </div>
 <!-- red toast -->
-<div class="mb-2 flex w-1/3 items-center justify-between rounded-lg bg-white px-4 py-3 text-gray-500 shadow-md">
+<div class="mb-2 flex w-1/3 items-center justify-between rounded-lg bg-white px-4 py-3 text-gray-500 shadow-md dark:bg-zinc-800 dark:text-zinc-300">
   <div class="flex items-center space-x-2">
-    <div class="rounded-lg bg-red-100 p-1.5 text-red-500">
+    <div class="rounded-lg bg-red-100 p-1.5 text-red-500 dark:bg-red-700 dark:text-red-400">
       <p>
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M13.477 14.89A6 6 0 015.11 6.524l8.367 8.368zm1.414-1.414L6.524 5.11a6 6 0 018.367 8.367zM18 10a8 8 0 11-16 0 8 8 0 0116 0z" clip-rule="evenodd"></path></svg>
       </p>
     </div>
     <div>A destructive toast</div>
   </div>
-  <div class="cursor-pointer rounded-lg p-1 text-gray-400 transition-all hover:bg-gray-200 hover:text-gray-700">
+  <div class="cursor-pointer rounded-lg p-1 text-gray-400 transition-all hover:bg-gray-200 hover:text-gray-700 dark:hover:bg-zinc-700 dark:hover:text-zinc-900">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="h-5 w-5"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
   </div>
-</div>  
+</div>
       `
     }
   }
@@ -37668,7 +37674,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Toast/Snippets/StateColor.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Toast/Snippets/StateColor.vue"]]);
 }
 
 
@@ -37694,11 +37700,12 @@ const _sfc_main = {
           icon: `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
   <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
 </svg>`,
-          bgcolor: "bg-green-100",
-          bgCrossColor: "hover:bg-green-100",
-          hoverCrossColor: "hover:text-green-600",
-          iconcolor: "text-green-500",
-          borderColor: "border-2 border-green-200",
+          textColor:"text-gray-500 dark:text-green-300",
+          bgcolor: "bg-green-100 dark:bg-green-700",
+          bgCrossColor: "hover:bg-green-100 dark:hover:bg-green-700",
+          hoverCrossColor: "hover:text-green-600 dark:hover:text-green-200",
+          iconcolor: "text-green-500 dark:text-green-400",
+          borderColor: "border-2 dark:border border-green-200",
         },
         {
           id: 2,
@@ -37706,11 +37713,12 @@ const _sfc_main = {
           icon: `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
   <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
 </svg>`,
-          bgcolor: "bg-sky-100",
-          bgCrossColor: "hover:bg-sky-100",
-          hoverCrossColor: "hover:text-sky-600",
-          iconcolor: "text-sky-500",
-          borderColor: "border-2 border-sky-200",
+          textColor:"text-gray-500 dark:text-sky-300",
+          bgcolor: "bg-sky-100 dark:bg-sky-700",
+          bgCrossColor: "hover:bg-sky-100 dark:hover:bg-sky-700",
+          hoverCrossColor: "hover:text-sky-600 dark:hover:text-sky-200",
+          iconcolor: "text-sky-500 dark:text-sky-400",
+          borderColor: "border-2 dark:border border-sky-200",
         },
         {
           id: 3,
@@ -37718,11 +37726,12 @@ const _sfc_main = {
           icon: `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
   <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
 </svg>`,
-          bgcolor: "bg-yellow-100",
-          bgCrossColor: "hover:bg-yellow-100",
-          hoverCrossColor: "hover:text-yellow-600",
-          iconcolor: "text-yellow-500",
-          borderColor: "border-2 border-yellow-200",
+          textColor:"text-gray-500 dark:text-yellow-300",
+          bgcolor: "bg-yellow-100 dark:bg-yellow-700",
+          bgCrossColor: " hover:bg-yellow-100 dark:hover:bg-yellow-700",
+          hoverCrossColor: "hover:text-yellow-600 dark:hover:text-yellow-200",
+          iconcolor: "text-yellow-500 dark:text-yellow-400",
+          borderColor: "border-2 dark:border border-yellow-200",
         },
         {
           id: 4,
@@ -37730,11 +37739,12 @@ const _sfc_main = {
           icon: `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
   <path fill-rule="evenodd" d="M13.477 14.89A6 6 0 015.11 6.524l8.367 8.368zm1.414-1.414L6.524 5.11a6 6 0 018.367 8.367zM18 10a8 8 0 11-16 0 8 8 0 0116 0z" clip-rule="evenodd" />
 </svg>`,
-          bgcolor: "bg-red-100",
-          bgCrossColor: "hover:bg-red-100",
-          hoverCrossColor: "hover:text-red-600",
-          iconcolor: "text-red-500",
-          borderColor: "border-2 border-red-200",
+          textColor:"text-gray-500 dark:text-red-300",
+          bgcolor: "bg-red-100 dark:bg-red-700",
+          bgCrossColor: "hover:bg-red-100 dark:hover:bg-red-700",
+          hoverCrossColor: "hover:text-red-600 dark:hover:text-red-200",
+          iconcolor: "text-red-500 dark:text-red-400",
+          borderColor: "border-2 dark:border border-red-200",
         },
       ],
     };
@@ -37750,7 +37760,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full" }, _attrs))}><!--[-->`)
   __vite_ssr_import_1__.ssrRenderList($data.items, (item, index) => {
     _push(`<span><div class="${
-      __vite_ssr_import_1__.ssrRenderClass(`bg-white flex justify-between items-center px-4 py-3 rounded-lg text-gray-500 w-1/3 ${item.borderColor} mb-2`)
+      __vite_ssr_import_1__.ssrRenderClass(`bg-white dark:bg-zinc-800 flex justify-between items-center px-4 py-3 rounded-lg md:w-1/3 ${item.textColor} ${item.borderColor} mb-3`)
     }"><div class="flex items-center space-x-2"><div class="${
       __vite_ssr_import_1__.ssrRenderClass(`p-1.5 ${item.bgcolor} ${item.iconcolor} rounded-lg`)
     }"><p>${
@@ -37775,7 +37785,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Toast/Outline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Toast/Outline.vue"]]);
 }
 
 
@@ -37796,58 +37806,58 @@ const _sfc_main = {
     return {
       code:` 
 <!--Green Toast  -->
-<div class="mb-2 flex w-1/3 items-center justify-between rounded-lg border-2 border-green-200 bg-white px-4 py-3 text-gray-500">
+<div class="mb-2 flex w-1/3 items-center justify-between rounded-lg border-2 border-green-200 bg-white px-4 py-3 text-gray-500 dark:border dark:bg-zinc-800 dark:text-green-300">
   <div class="flex items-center space-x-2">
-    <div class="rounded-lg bg-green-100 p-1.5 text-green-500">
+    <div class="rounded-lg bg-green-100 p-1.5 text-green-500 dark:bg-green-700 dark:text-green-400">
       <p>
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
       </p>
     </div>
     <div>A successful toast</div>
   </div>
-  <div class="cursor-pointer rounded-lg p-1 text-green-500 transition-all hover:bg-green-100 hover:text-green-600">
+  <div class="cursor-pointer rounded-lg p-1 text-green-500 transition-all hover:bg-green-100 hover:text-green-600 dark:text-green-400 dark:hover:bg-green-700 dark:hover:text-green-200">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="h-5 w-5"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
   </div>
 </div>
 <!-- Blue Toast -->
-<div class="mb-2 flex w-1/3 items-center justify-between rounded-lg border-2 border-sky-200 bg-white px-4 py-3 text-gray-500">
+<div class="mb-2 flex w-1/3 items-center justify-between rounded-lg border-2 border-sky-200 bg-white px-4 py-3 text-gray-500 dark:border dark:bg-zinc-800 dark:text-sky-300">
   <div class="flex items-center space-x-2">
-    <div class="rounded-lg bg-sky-100 p-1.5 text-sky-500">
+    <div class="rounded-lg bg-sky-100 p-1.5 text-sky-500 dark:bg-sky-700 dark:text-sky-400">
       <p>
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg>
       </p>
     </div>
     <div>An info toast</div>
   </div>
-  <div class="cursor-pointer rounded-lg p-1 text-sky-500 transition-all hover:bg-sky-100 hover:text-sky-600">
+  <div class="cursor-pointer rounded-lg p-1 text-sky-500 transition-all hover:bg-sky-100 hover:text-sky-600 dark:text-sky-400 dark:hover:bg-sky-700 dark:hover:text-sky-200">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="h-5 w-5"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
   </div>
 </div>
 <!-- Yellow Warning Toast -->
-<div class="mb-2 flex w-1/3 items-center justify-between rounded-lg border-2 border-yellow-200 bg-white px-4 py-3 text-gray-500">
+<div class="mb-2 flex w-1/3 items-center justify-between rounded-lg border-2 border-yellow-200 bg-white px-4 py-3 text-gray-500 dark:border dark:bg-zinc-800 dark:text-yellow-300">
   <div class="flex items-center space-x-2">
-    <div class="rounded-lg bg-yellow-100 p-1.5 text-yellow-500">
+    <div class="rounded-lg bg-yellow-100 p-1.5 text-yellow-500 dark:bg-yellow-700 dark:text-yellow-400">
       <p>
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"></path></svg>
       </p>
     </div>
     <div>A warning toast</div>
   </div>
-  <div class="cursor-pointer rounded-lg p-1 text-yellow-500 transition-all hover:bg-yellow-100 hover:text-yellow-600">
+  <div class="cursor-pointer rounded-lg p-1 text-yellow-500 transition-all hover:bg-yellow-100 hover:text-yellow-600 dark:text-yellow-400 dark:hover:bg-yellow-700 dark:hover:text-yellow-200">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="h-5 w-5"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
   </div>
 </div>
 <!-- Red destructive Toast -->
-<div class="mb-2 flex w-1/3 items-center justify-between rounded-lg border-2 border-red-200 bg-white px-4 py-3 text-gray-500">
+<div class="mb-2 flex w-1/3 items-center justify-between rounded-lg border-2 border-red-200 bg-white px-4 py-3 text-gray-500 dark:border dark:bg-zinc-800 dark:text-red-300">
   <div class="flex items-center space-x-2">
-    <div class="rounded-lg bg-red-100 p-1.5 text-red-500">
+    <div class="rounded-lg bg-red-100 p-1.5 text-red-500 dark:bg-red-700 dark:text-red-400">
       <p>
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M13.477 14.89A6 6 0 015.11 6.524l8.367 8.368zm1.414-1.414L6.524 5.11a6 6 0 018.367 8.367zM18 10a8 8 0 11-16 0 8 8 0 0116 0z" clip-rule="evenodd"></path></svg>
       </p>
     </div>
     <div>A destructive toast</div>
   </div>
-  <div class="cursor-pointer rounded-lg p-1 text-red-500 transition-all hover:bg-red-100 hover:text-red-600">
+  <div class="cursor-pointer rounded-lg p-1 text-red-500 transition-all hover:bg-red-100 hover:text-red-600 dark:text-red-400 dark:hover:bg-red-700 dark:hover:text-red-200">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="h-5 w-5"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
   </div>
 </div> 
@@ -37881,7 +37891,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Toast/Snippets/Outline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Toast/Snippets/Outline.vue"]]);
 }
 
 
@@ -37967,7 +37977,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full" }, _attrs))}><!--[-->`)
   __vite_ssr_import_1__.ssrRenderList($data.items, (item, index) => {
     _push(`<span><div class="${
-      __vite_ssr_import_1__.ssrRenderClass(`bg-white flex justify-between items-center px-4 py-3 rounded-lg text-gray-500 w-1/3 ${item.bgDivColor} mb-2`)
+      __vite_ssr_import_1__.ssrRenderClass(`bg-white flex justify-between items-center px-4 py-3 rounded-lg text-gray-500 md:w-1/3 ${item.bgDivColor} mb-2`)
     }"><div class="flex items-center space-x-2"><div class="${
       __vite_ssr_import_1__.ssrRenderClass(`p-1.5 ${item.bgcolor} ${item.iconcolor} rounded-lg`)
     }"><p>${
@@ -37994,7 +38004,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Toast/SolidColor.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Toast/SolidColor.vue"]]);
 }
 
 
@@ -38100,7 +38110,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Toast/Snippets/SolidColor.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Toast/Snippets/SolidColor.vue"]]);
 }
 
 
@@ -38130,7 +38140,7 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full" }, _attrs))}><!-- first type --><div class="bg-white flex gap-3 px-4 py-3 rounded-lg text-gray-500 w-96 shadow-md"><div class=""><div class="p-1 bg-red-100 text-red-500 rounded-md"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clip-rule="evenodd"></path></svg></div></div><div class="flex w-full flex-col"><div class="flex justify-between"><div class="text-gray-700 font-semibold">Saving document</div><div><div class="flex cursor-pointer hover:bg-gray-200 rounded-lg p-1 text-gray-400 hover:text-gray-700 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg></div></div></div><div class="text-gray-500 text-xs font-"> Document couldn&#39;t be saved. </div><div class="mt-2 w-24 text-xs px-1.5 py-1.5 font-medium text-white bg-red-500 rounded-md hover:bg-red-400 cursor-pointer text-center"> View error </div></div></div><!-- second type --><div class="bg-white px-4 py-4 rounded-lg text-gray-500 w-96 shadow-md mt-6"><div class="flex flex-col"><div class="flex items-center gap-1 justify-between"><div class="flex items-center gap-1"><div class="text-blue-500 rounded-md"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg></div><div class="text-gray-700 font-semibold">Update available</div></div><div class="flex cursor-pointer hover:bg-gray-200 rounded-lg p-1 text-gray-400 hover:text-gray-700 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg></div></div><div class="text-gray-500 text-xs font-medium"> A new software version is available for download </div><div class="mt-2 flex items-center gap-2"><div class="text-xs px-3 py-1 font-medium text-white bg-blue-500 rounded-md hover:bg-blue-600 cursor-pointer"> Update </div><div class="text-xs px-3 py-1 font-medium border text-gray-700 hover:bg-gray-50 rounded-md cursor-pointer"> Not now </div></div></div></div><!-- third method --><div class="bg-white flex gap-3 justify-between px-4 py-4 rounded-lg text-gray-500 w-96 shadow-md mt-6"><div class=""><div class="p-2 bg-blue-100 text-blue-500 rounded-md"><svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-1h-14" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 5v8a2 2 0 01-2 2h-5l-5 4v-4H4a2 2 0 01-2-2V5a2 2 0 012-2h12a2 2 0 012 2zM7 8H5v2h2V8zm2 0h2v2H9V8zm6 0h-2v2h2V8z" clip-rule="evenodd"></path></svg></div></div><div class="flex flex-col"><div class="text-gray-700 font-semibold"> Click &quot;Allow&quot; to get notified </div><div class="text-gray-500 text-xs font-medium"> We will show you quick message like this when you&#39;re online and we have something great to share. </div><div class="mt-2 flex items-center gap-2"><div class="text-xs px-3 py-1 font-medium text-gray-700 border hover:bg-gray-50 rounded-md cursor-pointer"> Don&#39;t Allow </div><div class="text-xs px-3 py-1 font-medium text-white bg-blue-500 rounded-md hover:bg-blue-600 cursor-pointer"> Allow </div></div></div></div><!-- Fourth method --><div class="flex gap-3 bg-white px-4 py-4 rounded-lg text-gray-500 w-96 shadow-md mt-6"><div class="w-8 h-8 relative mt-2"><img class="w-full h-full object-cover rounded-full" src="https://res.cloudinary.com/pranav1421/image/upload/v1651838637/Tailwind-Component-library/Human%20avatar/pexels-marta-dzedyshko-2067519_t8v1up.jpg" alt=""><div class="h-2.5 w-2.5 bg-green-400 absolute border-2 border-white -right-0 -bottom-0 rounded-full"></div></div><div class="flex w-full flex-col"><div class="flex justify-between"><div class="text-gray-700 font-semibold"> Hanna ward </div><div class="flex cursor-pointer hover:bg-gray-200 rounded-lg p-1 text-gray-400 hover:text-gray-700 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg></div></div><div class="text-gray-500 text-xs font-medium"> Hi, When is the meeting scheduled? </div><div class="flex gap-2 mt-2"><div class="text-xs text-blue-500 cursor-pointer"> Reply </div><div class="text-xs text-red-500 cursor-pointer"> Ignore </div></div><div></div></div></div><!-- Fifth method (undo button) --><div class="flex items-center gap-2 bg-white px-4 py-4 rounded-lg text-gray-500 w-96 shadow-md mt-6"><div><div class="p-1 text-blue-500 rounded-md"><svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.5 22C20.3284 22 21 21.3284 21 20.5C21 19.6716 20.3284 19 19.5 19C18.6716 19 18 19.6716 18 20.5C18 21.3284 18.6716 22 19.5 22Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9.5 22C10.3284 22 11 21.3284 11 20.5C11 19.6716 10.3284 19 9.5 19C8.67157 19 8 19.6716 8 20.5C8 21.3284 8.67157 22 9.5 22Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M5 4H22L20 15H7L5 4ZM5 4C4.83333 3.33333 4 2 2 2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M20 15H7H5.23077C3.44646 15 2.5 15.7812 2.5 17C2.5 18.2188 3.44646 19 5.23077 19H19.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div></div><div class="flex w-full flex-col"><div class="flex justify-between"><div class="text-gray-500 font-medium"> Item added to cart </div><div class="flex items-center gap-1"><div class="text-sm px-2 py-1 font-medium text-blue-500 rounded-md cursor-pointer"> Undo </div><div class="flex cursor-pointer hover:bg-gray-200 rounded-lg p-1 text-gray-400 hover:text-gray-700 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg></div></div></div><div></div></div></div></div>`)
+  _push(`<div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "w-full" }, _attrs))}><!-- first type --><div class="bg-white dark:bg-zinc-800 flex gap-3 px-4 py-3 rounded-lg text-gray-500 dark:text-zinc-300 md:w-96 shadow-md"><div class=""><div class="p-1 bg-red-100 dark:bg-red-700 text-red-500 dark:text-red-400 rounded-md"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clip-rule="evenodd"></path></svg></div></div><div class="flex w-full flex-col"><div class="flex justify-between"><div class="text-gray-700 dark:text-zinc-400 font-semibold">Saving document</div><div><div class="flex cursor-pointer hover:bg-gray-200 dark:hover:bg-zinc-700 rounded-lg p-1 text-gray-400 dark:text-zinc-500 hover:text-gray-700 dark:hover:text-zinc-500 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg></div></div></div><div class="text-gray-500 dark:text-zinc-500 text-xs font-"> Document couldn&#39;t be saved. </div><div class="mt-2 w-24 text-xs px-1.5 py-1.5 font-medium text-white bg-red-500 dark:bg-red-700 rounded-md hover:bg-red-400 dark:hover:bg-red-500 cursor-pointer text-center"> View error </div></div></div><!-- second type --><div class="bg-white dark:bg-zinc-800 px-4 py-4 rounded-lg text-gray-500 dark:text-zinc-300 md:w-96 shadow-md mt-6"><div class="flex flex-col"><div class="flex items-center gap-1 justify-between"><div class="flex items-center gap-1"><div class="text-blue-500 dark:text-blue-700 rounded-md"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg></div><div class="text-gray-700 dark:text-zinc-400 font-semibold">Update available</div></div><div class="flex cursor-pointer hover:bg-gray-200 dark:hover:bg-zinc-700 rounded-lg p-1 text-gray-400 dark:text-zinc-500 hover:text-gray-700 dark:hover:text-zinc-500 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg></div></div><div class="text-gray-500 dark:text-zinc-500 text-xs font-medium"> A new software version is available for download </div><div class="mt-2 flex items-center gap-2"><div class="text-xs px-3 py-1 font-medium text-white bg-blue-500 dark:bg-blue-700 rounded-md hover:bg-blue-600 dark:hover:bg-blue-500 cursor-pointer"> Update </div><div class="text-xs px-3 py-1 font-medium border dark:border-zinc-400 text-gray-700 dark:text-zinc-400 hover:bg-gray-50 dark:hover:bg-zinc-100 rounded-md cursor-pointer"> Not now </div></div></div></div><!-- third method --><div class="bg-white dark:bg-zinc-800 flex gap-3 justify-between px-4 py-4 rounded-lg text-gray-500 dark:text-zinc-300 md:w-96 shadow-md mt-6"><div class=""><div class="p-2 bg-blue-100 dark:bg-blue-700 text-blue-500 dark:text-blue-400 rounded-md"><svg xmlns="http://www.w3.org/2000/svg" class="md:h-14 md:w-14 h-6 w-6" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 5v8a2 2 0 01-2 2h-5l-5 4v-4H4a2 2 0 01-2-2V5a2 2 0 012-2h12a2 2 0 012 2zM7 8H5v2h2V8zm2 0h2v2H9V8zm6 0h-2v2h2V8z" clip-rule="evenodd"></path></svg></div></div><div class="flex flex-col"><div class="text-gray-700 dark:text-zinc-400 font-semibold"> Click &quot;Allow&quot; to get notified </div><div class="text-gray-500 dark:text-zinc-500 text-xs font-medium"> We will show you quick message like this when you&#39;re online and we have something great to share. </div><div class="mt-2 flex items-center gap-2"><div class="text-xs px-3 py-1 font-medium text-gray-700 dark:text-zinc-400 border dark:border-zinc-400 hover:bg-gray-50 rounded-md cursor-pointer"> Don&#39;t Allow </div><div class="text-xs px-3 py-1 font-medium text-white bg-blue-500 dark:bg-blue-700 rounded-md hover:bg-blue-600 dark:hover:bg-blue-500 cursor-pointer"> Allow </div></div></div></div><!-- Fourth method --><div class="flex gap-3 bg-white dark:bg-zinc-800 px-4 py-4 rounded-lg text-gray-500 dark:text-zinc-300 md:w-96 shadow-md mt-6"><div class="w-8 h-8 relative mt-2"><img class="w-full h-full object-cover rounded-full" src="https://res.cloudinary.com/pranav1421/image/upload/v1651838637/Tailwind-Component-library/Human%20avatar/pexels-marta-dzedyshko-2067519_t8v1up.jpg" alt=""><div class="h-2.5 w-2.5 bg-green-400 absolute border-2 border-white -right-0 -bottom-0 rounded-full"></div></div><div class="flex w-full flex-col"><div class="flex justify-between"><div class="text-gray-700 dark:text-zinc-400 font-semibold"> Hanna ward </div><div class="flex cursor-pointer hover:bg-gray-200 dark:hover:bg-zinc-700 rounded-lg p-1 text-gray-400 dark:text-zinc-500 hover:text-gray-700 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg></div></div><div class="text-gray-500 text-xs font-medium"> Hi, When is the meeting scheduled? </div><div class="flex gap-2 mt-2"><div class="text-xs text-blue-500 dark:text-blue-700 cursor-pointer"> Reply </div><div class="text-xs text-red-500 dark:text-red-700 cursor-pointer"> Ignore </div></div><div></div></div></div><!-- Fifth method (undo button) --><div class="flex items-center gap-2 bg-white dark:bg-zinc-800 px-4 py-4 rounded-lg text-gray-500 md:w-96 shadow-md mt-6"><div><div class="p-1 text-blue-500 dark:text-blue-700 rounded-md"><svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19.5 22C20.3284 22 21 21.3284 21 20.5C21 19.6716 20.3284 19 19.5 19C18.6716 19 18 19.6716 18 20.5C18 21.3284 18.6716 22 19.5 22Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9.5 22C10.3284 22 11 21.3284 11 20.5C11 19.6716 10.3284 19 9.5 19C8.67157 19 8 19.6716 8 20.5C8 21.3284 8.67157 22 9.5 22Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M5 4H22L20 15H7L5 4ZM5 4C4.83333 3.33333 4 2 2 2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M20 15H7H5.23077C3.44646 15 2.5 15.7812 2.5 17C2.5 18.2188 3.44646 19 5.23077 19H19.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div></div><div class="flex w-full flex-col"><div class="flex justify-between"><div class="text-gray-500 dark:text-zinc-400 font-medium"> Item added to cart </div><div class="flex items-center gap-1"><div class="text-sm px-2 py-1 font-medium text-blue-500 dark:text-blue-700 rounded-md cursor-pointer"> Undo </div><div class="flex cursor-pointer hover:bg-gray-200 dark:hover:bg-zinc-700 rounded-lg p-1 text-gray-400 dark:text-zinc-500 hover:text-gray-700 transition-all"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg></div></div></div><div></div></div></div></div>`)
 }
 
 
@@ -38144,7 +38154,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Toast/WithButton.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Toast/WithButton.vue"]]);
 }
 
 
@@ -38166,182 +38176,125 @@ const _sfc_main = {
       code:` 
 <div class="w-full">
   <!-- first type -->
-  <div class="bg-white flex gap-3 px-4 py-3 rounded-lg text-gray-500 w-96 shadow-md">
+  <div class="flex gap-3 rounded-lg bg-white px-4 py-3 text-gray-500 shadow-md dark:bg-zinc-800 dark:text-zinc-300 md:w-96">
     <div class="">
-      <div class="p-1 bg-red-100 text-red-500 rounded-md">
+      <div class="rounded-md bg-red-100 p-1 text-red-500 dark:bg-red-700 dark:text-red-400">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-          <path fill-rule="evenodd"
-            d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z"
-            clip-rule="evenodd" />
+          <path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clip-rule="evenodd" />
         </svg>
       </div>
     </div>
     <div class="flex w-full flex-col">
       <div class="flex justify-between">
-        <div class="text-gray-700 font-semibold">Saving document</div>
+        <div class="font-semibold text-gray-700 dark:text-zinc-400">Saving document</div>
         <div>
-          <div
-            class="flex cursor-pointer hover:bg-gray-200 rounded-lg p-1 text-gray-400 hover:text-gray-700 transition-all">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4  " fill="none" viewBox="0 0 24 24"
-              stroke="currentColor" stroke-width="2">
+          <div class="flex cursor-pointer rounded-lg p-1 text-gray-400 transition-all hover:bg-gray-200 hover:text-gray-700 dark:text-zinc-500 dark:hover:bg-zinc-700 dark:hover:text-zinc-500">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
             </svg>
           </div>
         </div>
       </div>
-      <div class="text-gray-500 text-xs font-">
-        Document couldn't be saved.
-      </div>
-      <div
-        class="mt-2 w-24 text-xs px-1.5 py-1.5 font-medium text-white bg-red-500 rounded-md hover:bg-red-400 cursor-pointer text-center">
-        View error
-      </div>
+      <div class="font- text-xs text-gray-500 dark:text-zinc-500">Document couldn't be saved.</div>
+
+      <div class="mt-2 w-24 cursor-pointer rounded-md bg-red-500 px-1.5 py-1.5 text-center text-xs font-medium text-white hover:bg-red-400 dark:bg-red-700 dark:hover:bg-red-500">View error</div>
     </div>
   </div>
   <!-- second type -->
-  <div class="bg-white px-4 py-4 rounded-lg text-gray-500 w-96 shadow-md mt-6">
+  <div class="mt-6 rounded-lg bg-white px-4 py-4 text-gray-500 shadow-md dark:bg-zinc-800 dark:text-zinc-300 md:w-96">
     <div class="flex flex-col">
-      <div class="flex items-center gap-1 justify-between">
+      <div class="flex items-center justify-between gap-1">
         <div class="flex items-center gap-1">
-          <div class="text-blue-500 rounded-md">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
-              stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+          <div class="rounded-md text-blue-500 dark:text-blue-700">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
             </svg>
           </div>
-          <div class="text-gray-700 font-semibold">Update available</div>
+          <div class="font-semibold text-gray-700 dark:text-zinc-400">Update available</div>
         </div>
-        <div
-          class="flex cursor-pointer hover:bg-gray-200 rounded-lg p-1 text-gray-400 hover:text-gray-700 transition-all">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4  " fill="none" viewBox="0 0 24 24"
-            stroke="currentColor" stroke-width="2">
+        <div class="flex cursor-pointer rounded-lg p-1 text-gray-400 transition-all hover:bg-gray-200 hover:text-gray-700 dark:text-zinc-500 dark:hover:bg-zinc-700 dark:hover:text-zinc-500">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
           </svg>
         </div>
       </div>
-      <div class="text-gray-500 text-xs font-medium">
-        A new software version is available for download
-      </div>
+      <div class="text-xs font-medium text-gray-500 dark:text-zinc-500">A new software version is available for download</div>
       <div class="mt-2 flex items-center gap-2">
-        <div class="text-xs px-3 py-1 font-medium text-white bg-blue-500 rounded-md hover:bg-blue-600 cursor-pointer">
-          Update
-        </div>
-        <div class="text-xs px-3 py-1 font-medium border text-gray-700 hover:bg-gray-50 rounded-md cursor-pointer">
-          Not now
-        </div>
+        <div class="cursor-pointer rounded-md bg-blue-500 px-3 py-1 text-xs font-medium text-white hover:bg-blue-600 dark:bg-blue-700 dark:hover:bg-blue-500">Update</div>
+        <div class="cursor-pointer rounded-md border dark:border-zinc-400 px-3 py-1 text-xs font-medium text-gray-700 hover:bg-gray-50 dark:text-zinc-400 dark:hover:bg-zinc-100">Not now</div>
       </div>
     </div>
   </div>
   <!-- third method -->
-  <div class="bg-white flex gap-3 justify-between px-4 py-4 rounded-lg text-gray-500 w-96 shadow-md mt-6">
+  <div class="mt-6 flex justify-between gap-3 rounded-lg bg-white px-4 py-4 text-gray-500 shadow-md dark:bg-zinc-800 dark:text-zinc-300 md:w-96">
     <div class="">
-      <div class="p-2 bg-blue-100 text-blue-500 rounded-md">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-1h-14" viewBox="0 0 20 20" fill="currentColor">
-          <path fill-rule="evenodd"
-            d="M18 5v8a2 2 0 01-2 2h-5l-5 4v-4H4a2 2 0 01-2-2V5a2 2 0 012-2h12a2 2 0 012 2zM7 8H5v2h2V8zm2 0h2v2H9V8zm6 0h-2v2h2V8z"
-            clip-rule="evenodd" />
+      <div class="rounded-md bg-blue-100 p-2 text-blue-500 dark:bg-blue-700 dark:text-blue-400">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 md:h-14 md:w-14" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M18 5v8a2 2 0 01-2 2h-5l-5 4v-4H4a2 2 0 01-2-2V5a2 2 0 012-2h12a2 2 0 012 2zM7 8H5v2h2V8zm2 0h2v2H9V8zm6 0h-2v2h2V8z" clip-rule="evenodd" />
         </svg>
       </div>
     </div>
     <div class="flex flex-col">
-      <div class="text-gray-700 font-semibold">
-        Click "Allow" to get notified
-      </div>
-      <div class="text-gray-500 text-xs font-medium">
-        We will show you quick message like this when you're online and we
-        have something great to share.
-      </div>
+      <div class="font-semibold text-gray-700 dark:text-zinc-400">Click "Allow" to get notified</div>
+      <div class="text-xs font-medium text-gray-500 dark:text-zinc-500">We will show you quick message like this when you're online and we have something great to share.</div>
       <div class="mt-2 flex items-center gap-2">
-        <div class="text-xs px-3 py-1 font-medium text-gray-700 border hover:bg-gray-50 rounded-md cursor-pointer">
-          Don't Allow
-        </div>
-        <div class="text-xs px-3 py-1 font-medium text-white bg-blue-500 rounded-md hover:bg-blue-600 cursor-pointer">
-          Allow
-        </div>
+        <div class="cursor-pointer rounded-md border dark:border-zinc-400 px-3 py-1 text-xs font-medium text-gray-700 hover:bg-gray-50 dark:text-zinc-400">Don't Allow</div>
+        <div class="cursor-pointer rounded-md bg-blue-500 px-3 py-1 text-xs font-medium text-white hover:bg-blue-600 dark:bg-blue-700 dark:hover:bg-blue-500">Allow</div>
       </div>
     </div>
   </div>
   <!-- Fourth method -->
-  <div class="flex  gap-3 bg-white px-4 py-4 rounded-lg text-gray-500 w-96 shadow-md mt-6">
-    <div class="w-8 h-8 relative mt-2">
-      <img
-        class="w-full h-full object-cover rounded-full"
-        src="https://res.cloudinary.com/pranav1421/image/upload/v1651838637/Tailwind-Component-library/Human%20avatar/pexels-marta-dzedyshko-2067519_t8v1up.jpg"
-        alt=""
-      />
-      <div class="h-2.5 w-2.5 bg-green-400 absolute border-2 border-white -right-0 -bottom-0 rounded-full"></div>
+  <div class="mt-6 flex gap-3 rounded-lg bg-white px-4 py-4 text-gray-500 shadow-md dark:bg-zinc-800 dark:text-zinc-300 md:w-96">
+    <div class="relative mt-2 h-8 w-8">
+      <img class="h-full w-full rounded-full object-cover" src="https://res.cloudinary.com/pranav1421/image/upload/v1651838637/Tailwind-Component-library/Human%20avatar/pexels-marta-dzedyshko-2067519_t8v1up.jpg" alt="" />
+      <div class="absolute -right-0 -bottom-0 h-2.5 w-2.5 rounded-full border-2 border-white bg-green-400"></div>
     </div>
+
     <div class="flex w-full flex-col">
       <div class="flex justify-between">
-        <div class="text-gray-700 font-semibold">
-          Hanna ward
-        </div>
-        <div
-          class="flex cursor-pointer hover:bg-gray-200 rounded-lg p-1 text-gray-400 hover:text-gray-700 transition-all">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4  " fill="none" viewBox="0 0 24 24"
-            stroke="currentColor" stroke-width="2">
+        <div class="font-semibold text-gray-700 dark:text-zinc-400">Hanna ward</div>
+        <div class="flex cursor-pointer rounded-lg p-1 text-gray-400 transition-all hover:bg-gray-200 hover:text-gray-700 dark:text-zinc-500 dark:hover:bg-zinc-700">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
           </svg>
         </div>
       </div>
-      <div class="text-gray-500 text-xs font-medium">
-        Hi, When is the meeting scheduled?
+      <div class="text-xs font-medium text-gray-500">Hi, When is the meeting scheduled?</div>
+      <div class="mt-2 flex gap-2">
+        <div class="cursor-pointer text-xs text-blue-500 dark:text-blue-700">Reply</div>
+        <div class="cursor-pointer text-xs text-red-500 dark:text-red-700">Ignore</div>
       </div>
-      <div class="flex gap-2 mt-2">
-        <div class="text-xs text-blue-500 cursor-pointer">
-          Reply
-        </div>
-        <div class="text-xs text-red-500 cursor-pointer">
-          Ignore
-        </div>
-      </div>
-      <div>
-      </div>
+      <div></div>
     </div>
   </div>
   <!-- Fifth method (undo button) -->
-  <div class="flex items-center gap-2 bg-white px-4 py-4 rounded-lg text-gray-500 w-96 shadow-md mt-6">
+  <div class="mt-6 flex items-center gap-2 rounded-lg bg-white px-4 py-4 text-gray-500 shadow-md dark:bg-zinc-800 md:w-96">
     <div>
-      <div class="p-1 text-blue-500 rounded-md">
-        <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none"
-          xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M19.5 22C20.3284 22 21 21.3284 21 20.5C21 19.6716 20.3284 19 19.5 19C18.6716 19 18 19.6716 18 20.5C18 21.3284 18.6716 22 19.5 22Z"
-            fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-          <path
-            d="M9.5 22C10.3284 22 11 21.3284 11 20.5C11 19.6716 10.3284 19 9.5 19C8.67157 19 8 19.6716 8 20.5C8 21.3284 8.67157 22 9.5 22Z"
-            fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-          <path d="M5 4H22L20 15H7L5 4ZM5 4C4.83333 3.33333 4 2 2 2" stroke="currentColor" stroke-linecap="round"
-            stroke-linejoin="round" />
-          <path d="M20 15H7H5.23077C3.44646 15 2.5 15.7812 2.5 17C2.5 18.2188 3.44646 19 5.23077 19H19.5"
-            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+      <div class="rounded-md p-1 text-blue-500 dark:text-blue-700">
+        <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M19.5 22C20.3284 22 21 21.3284 21 20.5C21 19.6716 20.3284 19 19.5 19C18.6716 19 18 19.6716 18 20.5C18 21.3284 18.6716 22 19.5 22Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M9.5 22C10.3284 22 11 21.3284 11 20.5C11 19.6716 10.3284 19 9.5 19C8.67157 19 8 19.6716 8 20.5C8 21.3284 8.67157 22 9.5 22Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M5 4H22L20 15H7L5 4ZM5 4C4.83333 3.33333 4 2 2 2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M20 15H7H5.23077C3.44646 15 2.5 15.7812 2.5 17C2.5 18.2188 3.44646 19 5.23077 19H19.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
       </div>
     </div>
     <div class="flex w-full flex-col">
       <div class="flex justify-between">
-        <div class="text-gray-500 font-medium">
-          Item added to cart
-        </div>
+        <div class="font-medium text-gray-500 dark:text-zinc-400">Item added to cart</div>
         <div class="flex items-center gap-1">
-          <div class="text-sm px-2 py-1 font-medium text-blue-500 rounded-md cursor-pointer">
-            Undo
-          </div>
-          <div
-            class="flex cursor-pointer hover:bg-gray-200 rounded-lg p-1 text-gray-400 hover:text-gray-700 transition-all">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4  " fill="none" viewBox="0 0 24 24"
-              stroke="currentColor" stroke-width="2">
+          <div class="cursor-pointer rounded-md px-2 py-1 text-sm font-medium text-blue-500 dark:text-blue-700">Undo</div>
+          <div class="flex cursor-pointer rounded-lg p-1 text-gray-400 transition-all hover:bg-gray-200 hover:text-gray-700 dark:text-zinc-500 dark:hover:bg-zinc-700">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
             </svg>
           </div>
         </div>
       </div>
-      <div>
-      </div>
+      <div></div>
     </div>
   </div>
-</div>  
+</div>
       `
     }
   }
@@ -38372,7 +38325,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Toast/Snippets/WithButton.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Toast/Snippets/WithButton.vue"]]);
 }
 
 
@@ -38392,7 +38345,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/typography.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -39246,7 +39199,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_24__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/typography.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/typography.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -39341,7 +39294,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Typography/Fontsize.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Typography/Fontsize.vue"]]);
 }
 
 
@@ -39413,7 +39366,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Typography/Snippets/FontSize.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Typography/Snippets/FontSize.vue"]]);
 }
 
 
@@ -39498,7 +39451,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Typography/FontWeight.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Typography/FontWeight.vue"]]);
 }
 
 
@@ -39566,7 +39519,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Typography/Snippets/FontWeight.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Typography/Snippets/FontWeight.vue"]]);
 }
 
 
@@ -39640,7 +39593,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Typography/Tracking.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Typography/Tracking.vue"]]);
 }
 
 
@@ -39702,7 +39655,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Typography/Snippets/Tracking.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Typography/Snippets/Tracking.vue"]]);
 }
 
 
@@ -39779,7 +39732,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Typography/TextDecoration.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Typography/TextDecoration.vue"]]);
 }
 
 
@@ -39849,7 +39802,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Typography/Snippets/TextDecoration.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Typography/Snippets/TextDecoration.vue"]]);
 }
 
 
@@ -39931,7 +39884,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Typography/TextDecorationThickness.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Typography/TextDecorationThickness.vue"]]);
 }
 
 
@@ -40016,7 +39969,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Typography/Snippets/TextDecorationThickness.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Typography/Snippets/TextDecorationThickness.vue"]]);
 }
 
 
@@ -40036,7 +39989,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/About.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -40088,14 +40041,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/About.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/About.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/alerts.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -41246,14 +41199,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_28__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_28__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/alerts.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_28__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/alerts.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/avatar.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -43192,14 +43145,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_40__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/avatar.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/avatar.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/badge.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -45105,14 +45058,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_40__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/badge.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/badge.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/breadcrumb.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -46219,14 +46172,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_28__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_28__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/breadcrumb.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_28__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/breadcrumb.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/buttonGroup.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -46936,14 +46889,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_21__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_21__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/buttonGroup.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_21__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/buttonGroup.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/buttons.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -48450,14 +48403,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_34__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_34__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/buttons.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_34__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/buttons.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/card.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -50380,14 +50333,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_40__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/card.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/card.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/dropdown.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -51220,14 +51173,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_22__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/dropdown.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/dropdown.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/footer.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -51935,14 +51888,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_22__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/footer.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/footer.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/form.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -52517,14 +52470,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_20__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_20__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/form.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_20__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/form.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/index.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
@@ -52795,14 +52748,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/index.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/navbar.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -53644,14 +53597,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_24__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/navbar.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/navbar.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/pagination.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -53757,11 +53710,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   _push(__vite_ssr_import_15__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_14__.mergeProps({ name: $data.layout }, _attrs), {
     default: __vite_ssr_import_14__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
-        _push(`<div class="flex p-4"${
+        _push(`<div class="flex py-4 md:p-4"${
           _scopeId
-        }><!-- content --><div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar"${
+        }><!-- content --><div class="flex md:pb-20 h-full md:h-screen md:px-4 overflow-y-hidden scrollBar"${
           _scopeId
-        }><div class="overflow-y-auto w-full px-4 pb-20" id="paginationContainer"${
+        }><div class="md:overflow-y-auto w-full md:px-4 md:pb-20" id="paginationContainer"${
           _scopeId
         }>`)
         _push(__vite_ssr_import_15__.ssrRenderComponent(_component_HeadersHeading, null, {
@@ -53931,11 +53884,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> With arrow pagination </button></div></div></div></div></div>`)
       } else {
         return [
-          __vite_ssr_import_14__.createVNode("div", { class: "flex p-4" }, [
+          __vite_ssr_import_14__.createVNode("div", { class: "flex py-4 md:p-4" }, [
             __vite_ssr_import_14__.createCommentVNode(" content "),
-            __vite_ssr_import_14__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
+            __vite_ssr_import_14__.createVNode("div", { class: "flex md:pb-20 h-full md:h-screen md:px-4 overflow-y-hidden scrollBar" }, [
               __vite_ssr_import_14__.createVNode("div", {
-                class: "overflow-y-auto w-full px-4 pb-20",
+                class: "md:overflow-y-auto w-full md:px-4 md:pb-20",
                 id: "paginationContainer"
               }, [
                 __vite_ssr_import_14__.createVNode(_component_HeadersHeading, null, {
@@ -54093,14 +54046,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_18__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_18__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/pagination.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_18__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/pagination.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/rating.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -54242,11 +54195,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   _push(__vite_ssr_import_23__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_22__.mergeProps({ name: $data.layout }, _attrs), {
     default: __vite_ssr_import_22__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
-        _push(`<div class="flex p-4"${
+        _push(`<div class="flex py-4 md:p-4"${
           _scopeId
-        }><!-- content --><div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar"${
+        }><!-- content --><div class="flex pb-20 h-screen md:px-4 overflow-y-hidden scrollBar"${
           _scopeId
-        }><div class="overflow-y-auto w-full px-4 pb-20" id="ratingContainer"${
+        }><div class="overflow-y-auto w-full md:px-4 pb-20" id="ratingContainer"${
           _scopeId
         }>`)
         _push(__vite_ssr_import_23__.ssrRenderComponent(_component_HeadersHeading, null, {
@@ -54688,11 +54641,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> Yes or No Rating </button></div></div></div></div></div>`)
       } else {
         return [
-          __vite_ssr_import_22__.createVNode("div", { class: "flex p-4" }, [
+          __vite_ssr_import_22__.createVNode("div", { class: "flex py-4 md:p-4" }, [
             __vite_ssr_import_22__.createCommentVNode(" content "),
-            __vite_ssr_import_22__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
+            __vite_ssr_import_22__.createVNode("div", { class: "flex pb-20 h-screen md:px-4 overflow-y-hidden scrollBar" }, [
               __vite_ssr_import_22__.createVNode("div", {
-                class: "overflow-y-auto w-full px-4 pb-20",
+                class: "overflow-y-auto w-full md:px-4 pb-20",
                 id: "ratingContainer"
               }, [
                 __vite_ssr_import_22__.createVNode(_component_HeadersHeading, null, {
@@ -55074,14 +55027,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_26__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_26__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/rating.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_26__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/rating.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/sidebar.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -55205,20 +55158,20 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   _push(__vite_ssr_import_19__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_18__.mergeProps({ name: $data.layout }, _attrs), {
     default: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
-        _push(`<div class="flex p-4"${
+        _push(`<div class="flex py-4 md:p-4"${
           _scopeId
-        }><!-- content --><div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar"${
+        }><!-- content --><div class="flex pb-20 h-screen md:px-4 overflow-y-hidden scrollBar"${
           _scopeId
-        }><div class="overflow-y-auto w-full px-4 pb-20" id="sidebarContainer"${
+        }><div class="overflow-y-auto w-full md:px-4 pb-20" id="sidebarContainer"${
           _scopeId
         }>`)
         _push(__vite_ssr_import_19__.ssrRenderComponent(_component_HeadersHeading, null, {
           default: __vite_ssr_import_18__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(` Toast `)
+              _push(` Sidebar `)
             } else {
               return [
-                __vite_ssr_import_18__.createTextVNode(" Toast ")
+                __vite_ssr_import_18__.createTextVNode(" Sidebar ")
               ]
             }
           }),
@@ -55515,16 +55468,16 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> Content Sectioned and avatar </button></div></div></div></div></div>`)
       } else {
         return [
-          __vite_ssr_import_18__.createVNode("div", { class: "flex p-4" }, [
+          __vite_ssr_import_18__.createVNode("div", { class: "flex py-4 md:p-4" }, [
             __vite_ssr_import_18__.createCommentVNode(" content "),
-            __vite_ssr_import_18__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
+            __vite_ssr_import_18__.createVNode("div", { class: "flex pb-20 h-screen md:px-4 overflow-y-hidden scrollBar" }, [
               __vite_ssr_import_18__.createVNode("div", {
-                class: "overflow-y-auto w-full px-4 pb-20",
+                class: "overflow-y-auto w-full md:px-4 pb-20",
                 id: "sidebarContainer"
               }, [
                 __vite_ssr_import_18__.createVNode(_component_HeadersHeading, null, {
                   default: __vite_ssr_import_18__.withCtx(() => [
-                    __vite_ssr_import_18__.createTextVNode(" Toast ")
+                    __vite_ssr_import_18__.createTextVNode(" Sidebar ")
                   ]),
                   _: 1 /* STABLE */
                 }),
@@ -55790,14 +55743,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_22__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/sidebar.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/sidebar.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/toast.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -55930,11 +55883,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   _push(__vite_ssr_import_21__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_20__.mergeProps({ name: $data.layout }, _attrs), {
     default: __vite_ssr_import_20__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
-        _push(`<div class="flex p-4"${
+        _push(`<div class="flex py-4 md:p-4"${
           _scopeId
-        }><!-- content --><div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar"${
+        }><!-- content --><div class="flex md:pb-20 h-screen md:px-4 overflow-y-hidden scrollBar"${
           _scopeId
-        }><div class="overflow-y-auto w-full px-4 pb-20" id="toastContainer"${
+        }><div class="overflow-y-auto w-full md:px-4 pb-20" id="toastContainer"${
           _scopeId
         }>`)
         _push(__vite_ssr_import_21__.ssrRenderComponent(_component_HeadersHeading, null, {
@@ -55951,7 +55904,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }, _parent, _scopeId))
         _push(`<div${
           _scopeId
-        }><p class="text-base"${
+        }><p class="w-full text-base"${
           _scopeId
         }> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? </p></div><!-- Default alert --><section id="defaultToast" class="w-full"${
           _scopeId
@@ -56308,11 +56261,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> Toast With Buttons </button></div></div></div></div></div>`)
       } else {
         return [
-          __vite_ssr_import_20__.createVNode("div", { class: "flex p-4" }, [
+          __vite_ssr_import_20__.createVNode("div", { class: "flex py-4 md:p-4" }, [
             __vite_ssr_import_20__.createCommentVNode(" content "),
-            __vite_ssr_import_20__.createVNode("div", { class: "flex pb-20 h-screen px-4 overflow-y-hidden scrollBar" }, [
+            __vite_ssr_import_20__.createVNode("div", { class: "flex md:pb-20 h-screen md:px-4 overflow-y-hidden scrollBar" }, [
               __vite_ssr_import_20__.createVNode("div", {
-                class: "overflow-y-auto w-full px-4 pb-20",
+                class: "overflow-y-auto w-full md:px-4 pb-20",
                 id: "toastContainer"
               }, [
                 __vite_ssr_import_20__.createVNode(_component_HeadersHeading, null, {
@@ -56322,7 +56275,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
                   _: 1 /* STABLE */
                 }),
                 __vite_ssr_import_20__.createVNode("div", null, [
-                  __vite_ssr_import_20__.createVNode("p", { class: "text-base" }, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? ")
+                  __vite_ssr_import_20__.createVNode("p", { class: "w-full text-base" }, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? ")
                 ]),
                 __vite_ssr_import_20__.createCommentVNode(" Default alert "),
                 __vite_ssr_import_20__.createVNode("section", {
@@ -56641,14 +56594,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_24__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/toast.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/toast.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/typography.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -57502,18 +57455,18 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_24__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/typography.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/typography.vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/router.options.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/router.options.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
 // Dependencies: 
 
 // --------------------
-const $id_2a66e4bb = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_49522b60 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const configRouterOptions = {}
 __vite_ssr_exports__.default = {
 ...configRouterOptions,
@@ -57522,13 +57475,13 @@ __vite_ssr_exports__.default = {
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/middleware.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/middleware.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
 // Dependencies: 
 
 // --------------------
-const $id_9707a1d9 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_a63124c4 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const globalMiddleware = []
 Object.defineProperty(__vite_ssr_exports__, "globalMiddleware", { enumerable: true, configurable: true, get(){ return globalMiddleware }});
 const namedMiddleware = {}
@@ -57537,15 +57490,15 @@ Object.defineProperty(__vite_ssr_exports__, "namedMiddleware", { enumerable: tru
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/dist.plugin.a7948c32.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/dist.plugin.14633d17.mjs
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/plugins/server.mjs ($id_80bc857d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/plugins/server.mjs ($id_a2c7814b)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt/dist/app/compat/vue-demi.mjs ($id_a8110be7)
 // - /node_modules/pinia/dist/pinia.mjs ($id_b1920624)
 // --------------------
-const $id_8479a5fe = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_db5b3053 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/compat/vue-demi.mjs");
@@ -57597,8 +57550,8 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt/dist/app/compat/vue-demi.mjs
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/dist.plugin.a7948c32.mjs ($id_8479a5fe)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs ($id_49d4941d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/dist.plugin.14633d17.mjs ($id_db5b3053)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs ($id_e78a68e0)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/compat/capi.mjs ($id_0c5717a4)
 // --------------------
@@ -57651,13 +57604,13 @@ Object.defineProperty(__vite_ssr_exports__, "del", { enumerable: true, configura
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/root-component.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/root-component.mjs
 // Parents: 
-// - G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/entry ($id_55ca067f)
+// - D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/entry ($id_fb1a40bc)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
 // --------------------
-const $id_75efd87a = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_5821a4fb = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-root.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -57667,11 +57620,11 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt/dist/app/components/nuxt-root.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/root-component.mjs ($id_75efd87a)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/root-component.mjs ($id_5821a4fb)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/error-component.mjs ($id_71dc3d8e)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/error-component.mjs ($id_33dea85c)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
@@ -57681,7 +57634,7 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
 // @ts-ignore
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/error-component.mjs");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/error-component.mjs");
 
 
 
@@ -57745,18 +57698,18 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/components/nuxt-root.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/components/nuxt-root.vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/error-component.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/error-component.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // --------------------
-const $id_71dc3d8e = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_33dea85c = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-error-page.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -57766,7 +57719,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt/dist/app/components/nuxt-error-page.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/error-component.mjs ($id_71dc3d8e)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/error-component.mjs ($id_33dea85c)
 // Dependencies: 
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
@@ -57851,7 +57804,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/components/nuxt-error-page.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/components/nuxt-error-page.vue"]]);
 }
 
 
@@ -57861,7 +57814,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs ($id_49d4941d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs ($id_e78a68e0)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=true&lang.css ($id_e68b6b38)
@@ -57870,7 +57823,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 const $id_b90d4d0f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs");
 
 
 const _sfc_main = {
@@ -57969,12 +57922,12 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-573335c0"],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-573335c0"],['__file',"D:/ortigan/tailwind-library-nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs
 // Parents: 
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
@@ -57986,7 +57939,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt/dist/pages/runtime/composables.mjs ($id_ff6ed455)
 // --------------------
-const $id_49d4941d = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_e78a68e0 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/index.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/compat/vue-demi.mjs");
@@ -58099,7 +58052,7 @@ Object.defineProperty(__vite_ssr_exports__, "definePageMeta", { enumerable: true
 // --------------------
 // Request: /node_modules/nuxt/dist/pages/runtime/composables.mjs
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs ($id_49d4941d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs ($id_e78a68e0)
 // Dependencies: 
 
 // --------------------
@@ -58132,14 +58085,14 @@ __vite_ssr_exports__.default = ".bg-white[data-v-573335c0]{--tw-bg-opacity:1;bac
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // Dependencies: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs ($id_49d4941d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs ($id_e78a68e0)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=true&lang.css ($id_a2b3b709)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_14c8b574 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs");
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs");
 
 
 const _sfc_main = {
@@ -58216,7 +58169,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-0914425d"],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-0914425d"],['__file',"D:/ortigan/tailwind-library-nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"]]);
 }
 
 
@@ -58237,14 +58190,14 @@ __vite_ssr_exports__.default = ".bg-white[data-v-0914425d]{--tw-bg-opacity:1;bac
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // Dependencies: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs ($id_49d4941d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs ($id_e78a68e0)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=true&lang.css ($id_2691164c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_bc2d74a1 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs");
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs");
 
 
 const _sfc_main = {
@@ -58327,7 +58280,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-1da4697d"],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-1da4697d"],['__file',"D:/ortigan/tailwind-library-nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue"]]);
 }
 
 
@@ -58344,13 +58297,13 @@ __vite_ssr_exports__.default = ".bg-white[data-v-1da4697d]{--tw-bg-opacity:1;bac
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/app-component.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/app-component.mjs
 // Parents: 
-// - G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/entry ($id_55ca067f)
+// - D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/entry ($id_fb1a40bc)
 // Dependencies: 
 // - /node_modules/nuxt/dist/pages/runtime/app.vue ($id_6c61010f)
 // --------------------
-const $id_70325738 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_19f8c5c0 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/pages/runtime/app.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -58360,7 +58313,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt/dist/pages/runtime/app.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/app-component.mjs ($id_70325738)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/app-component.mjs ($id_19f8c5c0)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -58405,15 +58358,15 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/pages/runtime/app.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/pages/runtime/app.vue"]]);
 }
 
 
 const __modules__ = {
-  "G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/entry": $id_55ca067f,
+  "D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/entry": $id_fb1a40bc,
   "/node_modules/vue/dist/vue.cjs.js": $id_60f0615f,
   "/node_modules/ohmyfetch/dist/index.mjs": $id_780217c4,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/paths.mjs": $id_2f93b0be,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/paths.mjs": $id_45a73e2c,
   "/node_modules/ufo/dist/index.mjs": $id_614de060,
   "/node_modules/nuxt/dist/app/index.mjs": $id_36927477,
   "/node_modules/nuxt/dist/app/nuxt.mjs": $id_e069d411,
@@ -58442,28 +58395,28 @@ const __modules__ = {
   "/node_modules/nuxt/dist/head/runtime/index.mjs": $id_b7351483,
   "/node_modules/nuxt/dist/head/runtime/composables.mjs": $id_04ea9504,
   "/node_modules/@vue/shared/dist/shared.cjs.js": $id_852b06a2,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/css.mjs": $id_790bc42f,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/css.mjs": $id_18c28846,
   "/assets/css/tailwind.css": $id_f75548e1,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/plugins/server.mjs": $id_80bc857d,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/plugins/server.mjs": $id_a2c7814b,
   "/node_modules/nuxt/dist/app/plugins/preload.server.mjs": $id_9871bba0,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/components.plugin.mjs": $id_df08b929,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/components.plugin.mjs": $id_50d79120,
   "/node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs": $id_e6f12003,
   "/node_modules/@vueuse/head/dist/index.mjs": $id_c032264e,
   "/node_modules/defu/dist/defu.mjs": $id_d7afab65,
   "/node_modules/nuxt/dist/head/runtime/plugin.mjs": $id_a2650341,
   "/node_modules/nuxt/dist/head/runtime/components.mjs": $id_b2a29d6f,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/meta.config.mjs": $id_7e65ac9b,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/meta.config.mjs": $id_1241d75d,
   "/node_modules/nuxt/dist/pages/runtime/router.mjs": $id_a090977b,
   "/node_modules/nuxt/dist/pages/runtime/page.mjs": $id_5fc14cdc,
   "/node_modules/nuxt/dist/pages/runtime/utils.mjs": $id_80f433aa,
   "/node_modules/nuxt/dist/app/components/utils.mjs": $id_69c52686,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs": $id_f44322c8,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs": $id_73381d96,
   "/pages/About.vue?macro=true": $id_b79d0c53,
   "/node_modules/vue/server-renderer/index.js": $id_b215fa1c,
   "/@id/plugin-vue:export-helper": $id_bbb863c1,
   "/pages/alerts.vue?macro=true": $id_07053f14,
   "/node_modules/nuxt/dist/app/components/layout.mjs": $id_39003883,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/layouts.mjs": $id_21f18624,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/layouts.mjs": $id_ec7d1029,
   "/layouts/custom.vue": $id_d158cf1f,
   "/components/Utils/Toast.vue": $id_1423e7ad,
   "/components/Header.vue": $id_4e284fc3,
@@ -58742,24 +58695,24 @@ const __modules__ = {
   "/pages/sidebar.vue": $id_1d8aa2b9,
   "/pages/toast.vue": $id_0830445b,
   "/pages/typography.vue": $id_b670e6ed,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/router.options.mjs": $id_2a66e4bb,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/middleware.mjs": $id_9707a1d9,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/dist.plugin.a7948c32.mjs": $id_8479a5fe,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/router.options.mjs": $id_49522b60,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/middleware.mjs": $id_a63124c4,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/dist.plugin.14633d17.mjs": $id_db5b3053,
   "/node_modules/nuxt/dist/app/compat/vue-demi.mjs": $id_a8110be7,
   "/node_modules/nuxt/dist/app/compat/capi.mjs": $id_0c5717a4,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/root-component.mjs": $id_75efd87a,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/root-component.mjs": $id_5821a4fb,
   "/node_modules/nuxt/dist/app/components/nuxt-root.vue": $id_e9bfada3,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/error-component.mjs": $id_71dc3d8e,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/error-component.mjs": $id_33dea85c,
   "/node_modules/nuxt/dist/app/components/nuxt-error-page.vue": $id_8cc6d73f,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": $id_b90d4d0f,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs": $id_49d4941d,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs": $id_e78a68e0,
   "/node_modules/nuxt/dist/pages/runtime/composables.mjs": $id_ff6ed455,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=true&lang.css": $id_e68b6b38,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": $id_14c8b574,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=true&lang.css": $id_a2b3b709,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue": $id_bc2d74a1,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=true&lang.css": $id_2691164c,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/app-component.mjs": $id_70325738,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/app-component.mjs": $id_19f8c5c0,
   "/node_modules/nuxt/dist/pages/runtime/app.vue": $id_6c61010f
 }
 
@@ -58848,4 +58801,4 @@ async function __instantiateModule__(url, urlStack) {
 }
 
 
-export default await __ssrLoadModule__("G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/entry")
+export default await __ssrLoadModule__("D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/entry")

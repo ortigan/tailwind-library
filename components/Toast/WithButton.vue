@@ -2,10 +2,10 @@
   <div class="w-full">
     <!-- first type -->
     <div
-      class="bg-white flex gap-3 px-4 py-3 rounded-lg text-gray-500 w-96 shadow-md"
+      class="bg-white dark:bg-zinc-800 flex gap-3 px-4 py-3 rounded-lg text-gray-500 dark:text-zinc-300 md:w-96 shadow-md"
     >
       <div class="">
-        <div class="p-1 bg-red-100 text-red-500 rounded-md">
+        <div class="p-1 bg-red-100 dark:bg-red-700 text-red-500 dark:text-red-400 rounded-md">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-5 w-5"
@@ -22,10 +22,10 @@
       </div>
       <div class="flex w-full flex-col">
         <div class="flex justify-between">
-          <div class="text-gray-700 font-semibold">Saving document</div>
+          <div class="text-gray-700 dark:text-zinc-400 font-semibold">Saving document</div>
           <div>
             <div
-              class="flex cursor-pointer hover:bg-gray-200 rounded-lg p-1 text-gray-400 hover:text-gray-700 transition-all"
+              class="flex cursor-pointer hover:bg-gray-200 dark:hover:bg-zinc-700 rounded-lg p-1 text-gray-400 dark:text-zinc-500 hover:text-gray-700 dark:hover:text-zinc-500 transition-all"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -44,12 +44,12 @@
             </div>
           </div>
         </div>
-        <div class="text-gray-500 text-xs font-">
+        <div class="text-gray-500 dark:text-zinc-500 text-xs font-">
           Document couldn't be saved.
         </div>
       
           <div
-            class="mt-2 w-24 text-xs px-1.5 py-1.5 font-medium text-white bg-red-500 rounded-md hover:bg-red-400 cursor-pointer text-center"
+            class="mt-2 w-24 text-xs px-1.5 py-1.5 font-medium text-white bg-red-500 dark:bg-red-700 rounded-md hover:bg-red-400 dark:hover:bg-red-500 cursor-pointer text-center"
           >
             View error
           </div>
@@ -58,12 +58,12 @@
     </div>
     <!-- second type -->
     <div
-      class="bg-white px-4 py-4 rounded-lg text-gray-500 w-96 shadow-md mt-6"
+      class="bg-white dark:bg-zinc-800 px-4 py-4 rounded-lg text-gray-500 dark:text-zinc-300 md:w-96 shadow-md mt-6"
     >
       <div class="flex flex-col">
         <div class="flex items-center gap-1 justify-between">
           <div class="flex items-center gap-1">
-            <div class="text-blue-500 rounded-md">
+            <div class="text-blue-500 dark:text-blue-700 rounded-md">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-4 w-4"
@@ -79,10 +79,10 @@
                 />
               </svg>
             </div>
-            <div class="text-gray-700 font-semibold">Update available</div>
+            <div class="text-gray-700 dark:text-zinc-400 font-semibold">Update available</div>
           </div>
           <div
-            class="flex cursor-pointer hover:bg-gray-200 rounded-lg p-1 text-gray-400 hover:text-gray-700 transition-all"
+            class="flex cursor-pointer hover:bg-gray-200 dark:hover:bg-zinc-700 rounded-lg p-1 text-gray-400 dark:text-zinc-500 hover:text-gray-700 dark:hover:text-zinc-500 transition-all"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -100,17 +100,17 @@
             </svg>
           </div>
         </div>
-        <div class="text-gray-500 text-xs font-medium">
+        <div class="text-gray-500 dark:text-zinc-500 text-xs font-medium">
           A new software version is available for download
         </div>
         <div class="mt-2 flex items-center gap-2">
           <div
-            class="text-xs px-3 py-1 font-medium text-white bg-blue-500 rounded-md hover:bg-blue-600 cursor-pointer"
+            class="text-xs px-3 py-1 font-medium text-white bg-blue-500 dark:bg-blue-700 rounded-md hover:bg-blue-600 dark:hover:bg-blue-500 cursor-pointer"
           >
             Update
           </div>
           <div
-            class="text-xs px-3 py-1 font-medium border text-gray-700 hover:bg-gray-50 rounded-md cursor-pointer"
+            class="text-xs px-3 py-1 font-medium border dark:border-zinc-400 text-gray-700 dark:text-zinc-400 hover:bg-gray-50 dark:hover:bg-zinc-100 rounded-md cursor-pointer"
           >
             Not now
           </div>
@@ -119,13 +119,13 @@
     </div>
     <!-- third method -->
     <div
-      class="bg-white flex gap-3 justify-between px-4 py-4 rounded-lg text-gray-500 w-96 shadow-md mt-6"
+      class="bg-white dark:bg-zinc-800 flex gap-3 justify-between px-4 py-4 rounded-lg text-gray-500 dark:text-zinc-300 md:w-96 shadow-md mt-6"
     >
       <div class="">
-        <div class="p-2 bg-blue-100 text-blue-500 rounded-md">
+        <div class="p-2 bg-blue-100 dark:bg-blue-700 text-blue-500 dark:text-blue-400 rounded-md">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-14 w-1h-14"
+            class="md:h-14 md:w-14 h-6 w-6"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
@@ -138,21 +138,21 @@
         </div>
       </div>
       <div class="flex flex-col">
-        <div class="text-gray-700 font-semibold">
+        <div class="text-gray-700 dark:text-zinc-400 font-semibold">
           Click "Allow" to get notified
         </div>
-        <div class="text-gray-500 text-xs font-medium">
+        <div class="text-gray-500 dark:text-zinc-500 text-xs font-medium">
           We will show you quick message like this when you're online and we
           have something great to share.
         </div>
         <div class="mt-2 flex items-center gap-2">
           <div
-            class="text-xs px-3 py-1 font-medium text-gray-700 border hover:bg-gray-50 rounded-md cursor-pointer"
+            class="text-xs px-3 py-1 font-medium text-gray-700 dark:text-zinc-400 border dark:border-zinc-400 hover:bg-gray-50 rounded-md cursor-pointer"
           >
             Don't Allow
           </div>
           <div
-            class="text-xs px-3 py-1 font-medium text-white bg-blue-500 rounded-md hover:bg-blue-600 cursor-pointer"
+            class="text-xs px-3 py-1 font-medium text-white bg-blue-500 dark:bg-blue-700 rounded-md hover:bg-blue-600 dark:hover:bg-blue-500 cursor-pointer"
           >
             Allow
           </div>
@@ -161,11 +161,8 @@
     </div>
     <!-- Fourth method -->
     <div
-      class="flex  gap-3 bg-white px-4 py-4 rounded-lg text-gray-500 w-96 shadow-md mt-6"
+      class="flex  gap-3 bg-white dark:bg-zinc-800 px-4 py-4 rounded-lg text-gray-500 dark:text-zinc-300 md:w-96 shadow-md mt-6"
     >
-   
-
-
          <div class="w-8 h-8 relative mt-2">
       <img
         class="w-full h-full object-cover rounded-full"
@@ -179,11 +176,11 @@
       <div class="flex w-full flex-col">
           <div class="flex justify-between">
 
-        <div class="text-gray-700 font-semibold">
+        <div class="text-gray-700 dark:text-zinc-400 font-semibold">
           Hanna ward
         </div>
          <div
-            class="flex cursor-pointer hover:bg-gray-200 rounded-lg p-1 text-gray-400 hover:text-gray-700 transition-all"
+            class="flex cursor-pointer hover:bg-gray-200 dark:hover:bg-zinc-700 rounded-lg p-1 text-gray-400 dark:text-zinc-500 hover:text-gray-700 transition-all"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -207,10 +204,10 @@
         </div>
         <div class="flex gap-2 mt-2">
 
-        <div class="text-xs text-blue-500 cursor-pointer">
+        <div class="text-xs text-blue-500 dark:text-blue-700 cursor-pointer">
             Reply
         </div>
-        <div class="text-xs text-red-500 cursor-pointer">
+        <div class="text-xs text-red-500 dark:text-red-700 cursor-pointer">
             Ignore
         </div>
         </div>
@@ -220,13 +217,13 @@
     </div>
      
 
-      </div>
+    </div>
     <!-- Fifth method (undo button) -->
     <div
-      class="flex items-center gap-2 bg-white px-4 py-4 rounded-lg text-gray-500 w-96 shadow-md mt-6"
+      class="flex items-center gap-2 bg-white dark:bg-zinc-800 px-4 py-4 rounded-lg text-gray-500 md:w-96 shadow-md mt-6"
     >
     <div>
-    <div class="p-1 text-blue-500 rounded-md">
+    <div class="p-1 text-blue-500 dark:text-blue-700 rounded-md">
           <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M19.5 22C20.3284 22 21 21.3284 21 20.5C21 19.6716 20.3284 19 19.5 19C18.6716 19 18 19.6716 18 20.5C18 21.3284 18.6716 22 19.5 22Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M9.5 22C10.3284 22 11 21.3284 11 20.5C11 19.6716 10.3284 19 9.5 19C8.67157 19 8 19.6716 8 20.5C8 21.3284 8.67157 22 9.5 22Z" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
@@ -240,16 +237,16 @@
       <div class="flex w-full flex-col">
           <div class="flex justify-between">
 
-        <div class="text-gray-500 font-medium">
+        <div class="text-gray-500 dark:text-zinc-400 font-medium">
          Item added to cart
         </div>
         <div class="flex items-center gap-1">
 
-       <div class="text-sm px-2 py-1 font-medium text-blue-500 rounded-md cursor-pointer">
+       <div class="text-sm px-2 py-1 font-medium text-blue-500 dark:text-blue-700 rounded-md cursor-pointer">
            Undo
        </div>
        <div
-            class="flex cursor-pointer hover:bg-gray-200 rounded-lg p-1 text-gray-400 hover:text-gray-700 transition-all"
+            class="flex cursor-pointer hover:bg-gray-200 dark:hover:bg-zinc-700 rounded-lg p-1 text-gray-400 dark:text-zinc-500 hover:text-gray-700 transition-all"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -277,9 +274,8 @@
     </div>
      
 
-      </div>
-   
-    </div>
+    </div>   
+  </div>
 
 </template>
 
