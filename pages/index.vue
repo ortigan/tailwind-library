@@ -1,32 +1,32 @@
 <template>
   <NuxtLayout :name="layout">
   <div>
-    <div class="flex relative pb-20">
+    <div class="flex relative ">
       <!-- content -->
       <div
-        class="font-primary w-full flex justify-center md:justify-start mt-32 md:mt-16 items-start md:items-center h-screen"
+        class="font-primary w-full flex justify-center md:justify-start mt-32 md:mt-16 items-start md:items-center h-full pb-32 md:pb-0 md:h-screen bgImg"
       >
         <div class="font-medium flex flex-col justify-center md:justify-start md:w-1/2">
           <div class="flex text-2xl md:text-5xl">
             <div class="mr-4">Tailwind</div>
             <div class="rotate-2 relative border border-zinc-900 dark:border-white px-4">
               <span
-                class="border border-zinc-900 dark:border-white bg-white dark:bg-[#0A0C25] h-2 w-2 md:h-4 md:h-4 h-2 w-2 md:h-4 md:w-4 absolute -left-2 -top-2"
+                class="border border-zinc-900 dark:border-white bg-white dark:bg-[#0A0C25]  h-2 w-2 md:h-4 md:w-4 absolute -left-2 -top-2"
               ></span>
               <span
-                class="border border-zinc-900 dark:border-white bg-white dark:bg-[#0A0C25] h-2 w-2 md:h-4 md:h-4 h-2 w-2 md:h-4 md:w-4 absolute -right-2 -top-2"
+                class="border border-zinc-900 dark:border-white bg-white dark:bg-[#0A0C25] h-2 w-2 md:h-4 md:w-4 absolute -right-2 -top-2"
               ></span
               ><span
-                class="border border-zinc-900 dark:border-white bg-white dark:bg-[#0A0C25] h-2 w-2 md:h-4 md:h-4 h-2 w-2 md:h-4 md:w-4 absolute -left-2 -bottom-2"
+                class="border border-zinc-900 dark:border-white bg-white dark:bg-[#0A0C25] h-2 w-2 md:h-4 md:w-4 absolute -left-2 -bottom-2"
               ></span
               ><span
-                class="border border-zinc-900 dark:border-white bg-white dark:bg-[#0A0C25] h-2 w-2 md:h-4 md:h-4 h-2 w-2 md:h-4 md:w-4 absolute -right-2 -bottom-2"
+                class="border border-zinc-900 dark:border-white bg-white dark:bg-[#0A0C25] h-2 w-2 md:h-4 md:w-4 absolute -right-2 -bottom-2"
               ></span>
               Components
             </div>
           </div>
           <div class="flex text-2xl md:text-5xl leading-tight">for your next project</div>
-          <div class="mt-10 text-base font-normal">
+          <div class="mt-10 text-base font-light">
             Start developing with an open-source library of over 450+ UI
             components, sections, and pages built with the utility classes from
             Tailwind CSS and designed in Figma.
@@ -94,6 +94,10 @@
       <!-- right sidebar -->
     </div>
    <HomePageFeatures />
+   <HomePageTechStack />
+   <HomePageFoundationComp />
+   <HomePageTailwindComp />
+   <HomePageFigmaComp />
     </div>
     <!--  -->
   </NuxtLayout>
@@ -115,5 +119,8 @@ export default {
 <style>
 .home-links a {
   margin-right: 1rem;
+}
+.bgImg{
+  background-image: url();
 }
 </style>
