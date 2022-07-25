@@ -3,7 +3,7 @@
     class="lg:flex-row w-full  px-8 py-5 rounded-lg shadow-lg text-gray-700 dark:text-zinc-400 bg-white dark:bg-zinc-900"
   >
     <!-- Ui reference Untitled UI  -->
-    <div class="grid grid-cols-2 md:grid-cols-6 gap-y-6 font-medium py-4">
+    <div class="grid grid-cols-2 lg:grid-cols-6 gap-y-6 font-medium py-4">
       <div class="flex flex-col justify-center col-span-2">
         <!-- logo -->
         <div class="flex flex-col">

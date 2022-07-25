@@ -4,7 +4,7 @@
   >
     <!--   -->
     <div
-      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-y-6 font-medium "
+      class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-y-6 font-medium "
     >
       <!-- Product -->
       <div class="flex flex-col gap-2 font-montserrat text-[#2a2f3d] text-xs font-bold cursor-pointer">
