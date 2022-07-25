@@ -12,8 +12,8 @@
     </div>
     <!-- 2nd half -->
     <div class="flex flex-col lg:flex-row">
-        <div class="border-l-2 border-gray-900 py-4 px-6 hover:bg-[#FF90E8]">Login</div>
-        <div class="border-l-2 border-gray-900 py-4 px-6 bg-gray-900 text-white hover:bg-[#FF90E8] hover:text-black">Start selling</div>
+        <div class="lg:border-l-2 border-gray-900 py-4 px-6 hover:bg-[#FF90E8]">Login</div>
+        <div class="lg:border-l-2 border-gray-900 py-4 px-6 bg-gray-900 text-white hover:bg-[#FF90E8] hover:text-black">Start selling</div>
     </div>
   </div>
 </template>
