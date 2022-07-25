@@ -48,12 +48,12 @@ export default
         icon: "",
         link: "/card"
     },
-    // {
-    //     id: 8,
-    //     title: 'Carousel',
-    //     icon: "",
-    //     link: "/carousel"
-    // },
+    {
+        id: 8,
+        title: 'Carousel',
+        icon: "",
+        link: "/carousel"
+    },
     {
         id: 9,
         title: 'Dropdown',

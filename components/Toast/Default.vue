@@ -1,6 +1,6 @@
 <template>
 <div class="w-full">
-  <div class="flex md:w-1/3 items-center justify-between rounded-lg bg-white dark:bg-zinc-800 px-4 py-3 text-gray-500 dark:text-zinc-300 shadow-md">
+  <div class="flex lg:w-1/3 items-center justify-between rounded-lg bg-white dark:bg-zinc-800 px-4 py-3 text-gray-500 dark:text-zinc-300 shadow-md">
     <div class="flex items-center space-x-2">
       <div class="rounded-lg bg-blue-100 dark:bg-zinc-700 p-1.5 text-blue-500">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">

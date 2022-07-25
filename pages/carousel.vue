@@ -2,9 +2,9 @@
   <NuxtLayout :name="layout">
     <div class="flex py-4 md:p-4">
       <!-- content -->
-      <div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar">
-        <div class="overflow-y-auto w-full px-4 pb-20" id="formContainer">
-          <HeadersHeading> Form  </HeadersHeading>
+      <div class="flex pb-20 h-screen lg:px-4 overflow-y-hidden scrollBar">
+        <div class="overflow-y-auto w-full px-4 pb-20" id="carouselContainer">
+          <HeadersHeading> Carousel  </HeadersHeading>
           <div>
             <p class="text-base">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -14,116 +14,117 @@
             </p>
           </div>
           <!-- start -->
-          <section id="formElement" class="w-full">
-            <HeadersSubHeading>
-              <template v-slot:subHeader>Element</template>
-              <template v-slot:code>
-                <UtilsShowCodeButton
-                  v-if="!form_elements"
-                  @click="form_elements = true"
-                ></UtilsShowCodeButton>
-                <UtilsHideCodeButton
-                  v-else
-                  @click="form_elements = false"
-                ></UtilsHideCodeButton>
-              </template>
-            </HeadersSubHeading>
-            <UtilsComponentPad>
-              <FormElement />
-            </UtilsComponentPad>
-            <!-- code snippet -->
-            <transition name="fadeSnippet">
-              <div v-show="form_elements" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
-                <div class="flex justify-between px-2 pt-2">
-                  <div>
-                    HTML
-                  </div>
-                  <div>
-                    <UtilsCopyButton
-                    @click="copyToClipboard('formElementComp')"
-                  ></UtilsCopyButton>
-                  </div>
-                </div>
-                <FormSnippetsElement id="formElementComp" />
-              </div>
-            </transition>
-            <!-- code snippet end -->
-          </section>
-          <!-- End  -->
-          <!-- start -->
-          <section id="defaultform" class="w-full">
+          <section id="defaultCarousel" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>Default</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_form"
-                  @click="default_form = true"
+                  v-if="!default_carousel"
+                  @click="default_carousel = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_form = false"
+                  @click="default_carousel = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <FormDefault />
+              <CarouselDefault />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_form" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="default_carousel" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
                   </div>
                   <div>
                     <UtilsCopyButton
-                    @click="copyToClipboard('defaultformComp')"
+                    @click="copyToClipboard('defaultCarouselComp')"
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <FormSnippetsDefault id="defaultformComp" />
+                <CarouselSnippetsDefault id="defaultCarouselComp" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
           <!-- End  -->
           <!-- start -->
-          <section id="floatingForm" class="w-full">
+          <section id="secondCarousel" class="w-full">
             <HeadersSubHeading>
-              <template v-slot:subHeader>Floating Form</template>
+              <template v-slot:subHeader>Type 2</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!floating_form"
-                  @click="floating_form = true"
+                  v-if="!second_carousel"
+                  @click="second_carousel = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="floating_form = false"
+                  @click="second_carousel = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <FormFloatinglabel />
+              <CarouselSecond />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="floating_form" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="second_carousel" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
                   </div>
                   <div>
                     <UtilsCopyButton
-                    @click="copyToClipboard('floatingFormComp')"
+                    @click="copyToClipboard('secondCarouselComp')"
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <FormSnippetsFloatinglabel id="floatingFormComp" />
+                <CarouselSnippetsSecond id="secondCarouselComp" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
-          <!-- End  -->         
+          <!-- End  -->
+          <!-- start -->
+          <section id="thirdCarousel" class="w-full">
+            <HeadersSubHeading>
+              <template v-slot:subHeader>Type 3</template>
+              <template v-slot:code>
+                <UtilsShowCodeButton
+                  v-if="!third_carousel"
+                  @click="third_carousel = true"
+                ></UtilsShowCodeButton>
+                <UtilsHideCodeButton
+                  v-else
+                  @click="third_carousel = false"
+                ></UtilsHideCodeButton>
+              </template>
+            </HeadersSubHeading>
+            <UtilsComponentPad>
+              <CarouselThird />
+            </UtilsComponentPad>
+            <!-- code snippet -->
+            <transition name="fadeSnippet">
+              <div v-show="third_carousel" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+                <div class="flex justify-between px-2 pt-2">
+                  <div>
+                    HTML
+                  </div>
+                  <div>
+                    <UtilsCopyButton
+                    @click="copyToClipboard('thirdCarouselComp')"
+                  ></UtilsCopyButton>
+                  </div>
+                </div>
+                <CarouselSnippetsThird id="thirdCarouselComp" />
+              </div>
+            </transition>
+            <!-- code snippet end -->
+          </section>
+          <!-- End  -->
+                   
                   
            
         </div>
@@ -137,14 +138,14 @@
             <!-- <AlertInfo /> -->
              <div class="flex flex-col justify-start items-end space-y-2">
             <p class="text-normal font-bold">On This Page</p>
-              <button @click="scrollToSection('formElement')">
-                Form Element
+              <button @click="scrollToSection('defaultCarousel')">
+                Default Carousel
               </button>
-              <button @click="scrollToSection('defaultform')">
-                Default Form
+              <button @click="scrollToSection('secondCarousel')">
+                Type 2
               </button>
-              <button @click="scrollToSection('floatingForm')">
-                Floating Form
+              <button @click="scrollToSection('thirdCarousel')">
+                Type 3
               </button>
                             
             </div>
@@ -171,9 +172,9 @@ export default {
   data() {
     return {
       layout: "custom",
-      form_elements: false,
-      default_form: false,
-      floating_form: false,
+      default_carousel: false,
+      second_carousel: false,
+      third_carousel: false,
       // SCROLL
       activeScrollSection: "",
       sample: "",
@@ -182,7 +183,7 @@ export default {
   methods: {
     scrollToSection(section) {
       this.activeScrollSection = section;
-      document.getElementById("formContainer").scrollTo({
+      document.getElementById("carouselContainer").scrollTo({
         top: document.getElementById(`${section}`).offsetTop - 100,
         behavior: "smooth",
       });
