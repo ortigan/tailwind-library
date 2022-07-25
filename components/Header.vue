@@ -32,7 +32,7 @@
                         : ''
                     "
                     @click="moveTo('home')"
-                    ><p class="mr-4">Home</p></nuxt-link
+                    ><p class="mr-4">Components</p></nuxt-link
                   >
                   <nuxt-link
                     to="/about"
@@ -42,7 +42,7 @@
                         ? 'transition duration-500 ease-linear text-primary font-semibold'
                         : ''
                     "
-                    ><p class="mr-4">About</p></nuxt-link
+                    ><p class="mr-4">Document</p></nuxt-link
                   >
                   <nuxt-link
                     to="/services"
@@ -52,7 +52,7 @@
                         ? 'transition duration-500 ease-linear text-primary font-semibold'
                         : ''
                     "
-                    ><p class="mr-4">Services</p></nuxt-link
+                    ><p class="mr-4">Templates</p></nuxt-link
                   >
                   <nuxt-link
                     to="/contact"
@@ -62,7 +62,7 @@
                         ? 'transition duration-500 ease-linear text-primary font-semibold'
                         : ''
                     "
-                    ><p class="mr-4">Contact Us</p></nuxt-link
+                    ><p class="mr-4">Figma</p></nuxt-link
                   >
                   <nuxt-link
                     to="/collaborate"
@@ -72,28 +72,9 @@
                         ? 'transition duration-500 ease-linear text-primary font-semibold'
                         : ''
                     "
-                    ><p class="mr-4">Collaborate</p></nuxt-link
+                    ><p class="mr-4">FAQ</p></nuxt-link
                   >
-                  <nuxt-link
-                    to="/blogs"
-                    class="text-tiny tracking-wider"
-                    :class="
-                      $route.path === '/blogs'
-                        ? 'transition duration-500 ease-linear text-primary font-semibold'
-                        : ''
-                    "
-                    ><p class="mr-4">Blogs</p></nuxt-link
-                  >
-                  <nuxt-link
-                    to="/faqs"
-                    class="text-tiny tracking-wider"
-                    :class="
-                      $route.path === '/faqs'
-                        ? 'transition duration-500 ease-linear text-primary font-semibold'
-                        : ''
-                    "
-                    ><p class="mr-4">FAQs</p></nuxt-link
-                  >
+                  
                    <div>
                   <div
                     v-if="store.theme === 'dark'"

@@ -1,8 +1,8 @@
 <template>
   <div
-    class="py-20"
+    class="py-10 md:py-20 w-full flex justify-between"
   >
-  <div class="flex gap-3">
+  <div class="w-full flex justify-between">
     <div>Simple</div>
     <div>accessible</div>
     <div>Unique</div>
