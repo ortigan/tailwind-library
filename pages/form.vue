@@ -2,7 +2,7 @@
   <NuxtLayout :name="layout">
     <div class="flex py-4 sm:p-4">
       <!-- content -->
-      <div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar">
+      <div class="flex pb-20 h-screen lg:px-4 overflow-y-hidden scrollBar">
         <div class="overflow-y-auto w-full px-4 pb-20" id="formContainer">
           <HeadersHeading> Form  </HeadersHeading>
           <div>
