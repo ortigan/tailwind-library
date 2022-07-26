@@ -1,9 +1,9 @@
 <template>
   <NuxtLayout :name="layout">
-    <div class="flex py-4 sm:p-4">
+    <div class="flex py-4 md:p-4">
       <!-- content -->
       <div class="flex pb-20 h-screen lg:px-4 overflow-y-hidden scrollBar">
-        <div class="overflow-y-auto w-full px-4 pb-20" id="navbarContainer">
+        <div class="overflow-y-auto w-full md:px-4 pb-20" id="navbarContainer">
           <HeadersHeading> Form  </HeadersHeading>
           <div>
             <p class="text-base">

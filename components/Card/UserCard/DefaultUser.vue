@@ -1,5 +1,5 @@
 <template>
-  <div class="flex w-full space-x-6 items-center">
+  <div class="flex flex-col lg:flex-row w-full space-x-0 lg:space-x-6 space-y-3 lg:space-y-0 lg:justify-center lg:items-center">
     <span v-for="(item, index) in items" :key="index" class="w-full">
       <div
         :class="

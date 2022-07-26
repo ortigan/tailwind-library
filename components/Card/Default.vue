@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col md:flex-row gap-4 w-full">
+  <div class="flex flex-col lg:flex-row w-full space-x-0 lg:space-x-6 space-y-3 lg:space-y-0">
       <span v-for="(item,index) in items" :key="index">
           <div :class="`p-6 rounded-lg ${item.shadowColor} ${item.hoverShadow} ${item.textColor} ${item.bgColor} ${item.border} ${item.hoverTextColor} ${item.hoverBgColor}`">
               <div class="flex flex-col w-full">
