@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex flex-col md:px-24 space-y-6">
+  <div class="w-full flex flex-col md:px-24 space-y-6 items-center">
       <div class="flex space-x-6">
       <!-- 1 -->
     <div class="flex w-1/3 space-x-2 items-center">
@@ -17,7 +17,7 @@
         </a>
     </div>
       <!-- 2 -->
-    <div class="flex w-1/3 space-x-2 items-center">
+    <div class="flex flex-col lg:flex-row w-1/3 space-x-2 space-y-2 md:space-y-0 items-center justify-center">
         <div class="w-12 h-12 relative">
       <img
         class="w-full h-full object-cover rounded-full"
@@ -37,7 +37,7 @@
         </div>
     </div>
       <!-- 3 -->
-    <div class="flex w-1/3 space-x-2 items-center">
+    <div class="flex flex-col lg:flex-row w-1/3 space-x-2 space-y-2 md:space-y-0 items-center justify-center">
         <div class="w-12 h-12 relative">
       <img
         class="w-full h-full object-cover rounded-full border-2 border-white ring-2 ring-green-300"
@@ -46,9 +46,9 @@
       />
 
         </div>
-        <div class="flex flex-col ">
-            <div class="font-bold text-base text-gray-700">Evans Rose</div>
-            <div class="font-semibold text-xs text-gray-500">View profile</div>
+        <div class="flex flex-col sm:justify-center sm:items-center md:justify-start md:items-start">
+            <div class="font-bold text-base text-gray-700 text-center">Evans Rose</div>
+            <div class="font-semibold text-xs text-gray-500 text-center">View profile</div>
         </div>
     </div>
       </div>

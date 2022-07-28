@@ -1,5 +1,5 @@
 <template>
-  <div class="flex space-x-4">
+  <div class="flex flex-wrap w-full sm:w-fit space-x-2 md:space-x-4">
    
     <!-- Initials -->
     <div

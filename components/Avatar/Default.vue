@@ -1,5 +1,5 @@
 <template>
-  <div class="flex w-full md:w-fit justify-start space-x-2 md:space-x-4">
+  <div class="flex w-full sm:w-fit justify-start space-x-2 md:space-x-4">
     <!-- Letter -->
     <div
       class=" w-10 h-10 flex items-center justify-center rounded-lg bg-gray-100 hover:bg-gray-200 dark:bg-zinc-800
