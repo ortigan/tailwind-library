@@ -39,11 +39,9 @@
       </div>
     </div>
     <!-- 3rd element -->
-    <div>
-   <div class="px-5 py-2 bg-sky-600 hover:bg-sky-700 rounded-lg">
+   <div class="px-3 py-1 md:px-5 md:py-2 bg-sky-600 hover:bg-sky-700 rounded-lg sm:mt-2 lg:mt-0">
        <div class="cursor-pointer text-white text-tiny font-medium" type="button">Get started</div>
    </div>
-    </div>
   </div>
 </template>
 

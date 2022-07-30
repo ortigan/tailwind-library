@@ -1,10 +1,10 @@
 <template>
   <NuxtLayout :name="layout">
-    <div class="flex p-4">
+    <div class="flex p-4 lg:py-4">
       <!-- content -->
-      <div class="flex pb-20 h-screen px-4 overflow-y-hidden scrollBar">
-        <div class="overflow-y-auto w-full px-4 pb-20" id="alertContainer">
-          <HeadersHeading> Button  </HeadersHeading>
+      <div class="flex pb-20 h-screen lg:px-4 overflow-y-hidden scrollBar">
+        <div class="overflow-y-auto w-full md:px-4 pb-20" id="alertContainer">
+          <HeadersHeading> Card  </HeadersHeading>
           <div>
             <p class="text-base">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -15,7 +15,7 @@
           </div>
           <!-- Default card -->
           <section id="defaultCard" class="w-full">
-            <HeadersSubHeading>
+            <!-- <HeadersSubHeading>
               <template v-slot:subHeader>Default</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
@@ -30,7 +30,7 @@
             </HeadersSubHeading>
             <UtilsComponentPad>
               <CardCta />
-            </UtilsComponentPad>
+            </UtilsComponentPad> -->
             <!-- code snippet -->
             <transition name="fadeSnippet">
               <div v-show="default_card" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">

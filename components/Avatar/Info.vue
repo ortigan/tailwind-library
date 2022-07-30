@@ -1,8 +1,8 @@
 <template>
-  <div class="flex flex-col space-y-6">
+  <div class="flex flex-wrap md:flex-col space-y-3 md:space-y-6 w-full sm:w-fit space-x-2 md:space-x-4 items-center">
       <div class="flex space-x-6">
       <!-- 1 -->
-    <div class="flex w-1/3 space-x-2 items-center">
+    <div class="flex flex-col lg:flex-row w-1/3 space-x-2 items-center">
         <div class="w-12 h-12">
       <img
         class="w-full h-full object-cover rounded-full"
@@ -16,7 +16,7 @@
         </div>
     </div>
       <!-- 2 -->
-    <div class="flex w-1/3 space-x-2 items-center">
+    <div class="flex flex-col lg:flex-row w-1/3 space-x-2 items-center">
         <div class="w-12 h-12 relative">
       <img
         class="w-full h-full object-cover rounded-full"
@@ -32,7 +32,7 @@
         </div>
     </div>
       <!-- 3 -->
-    <div class="flex w-1/3 space-x-2 items-center">
+    <div class="flex flex-col lg:flex-row w-1/3 space-x-2 items-center">
         <div class="w-12 h-12 relative">
       <img
         class="w-full h-full object-cover rounded-full border-2 border-white ring-2 ring-green-300"
@@ -50,7 +50,7 @@
     <!-- first row -->
       <div class="flex space-x-6">
       <!-- 1 -->
- <div class="flex w-1/3 space-x-2 items-center">
+ <div class="flex flex-col lg:flex-row w-1/3 space-x-2 items-center">
         <div class="w-12 h-12 relative">
       <img
         class="w-full h-full object-cover rounded-full"
@@ -66,7 +66,7 @@
         </div>
     </div>
       <!-- 2 -->
-    <div class="flex w-1/3 space-x-2 items-center">
+    <div class="flex flex-col lg:flex-row w-1/3 space-x-2 items-center">
         <div class="w-12 h-12 relative">
       <img
         class="w-full h-full object-cover rounded-full"
@@ -82,7 +82,7 @@
         </div>
     </div>
       <!-- 3 -->
-    <div class="flex w-1/3 space-x-2 items-center">
+    <div class="flex flex-col lg:flex-row w-1/3 space-x-2 items-center">
         <div class="w-12 h-12 relative">
       <img
         class="w-full h-full object-cover rounded-full"

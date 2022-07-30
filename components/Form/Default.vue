@@ -2,7 +2,7 @@
   <div
     class="flex-row w-full  px-8 py-5 rounded-lg border text-gray-700 dark:text-zinc-500 bg-white dark:bg-zinc-900"
   >
-    <div class="w-2/3 flex justify-center items-center ">
+    <div class="w-full md:w-2/3 flex justify-center items-center ">
       <form action="" class="w-full">
         <div class=" ">
           <!-- Email -->
@@ -56,11 +56,11 @@
             </label>
           </div>
           <!-- Login button -->
-          <div class="w-1/4 mt-6">
+          <div class="w-1/3 lg:w-1/4 mt-6">
             <div
-              class="bg-sky-500 dark:bg-sky-600 hover:bg-sky-600 dark:hover:bg-sky-500 text-white dark:text-zinc-300 hover:text-gray-50 dark:hover:text-zinc-100 text-center rounded-lg py-2 px-5"
+              class="bg-sky-500 dark:bg-sky-600 hover:bg-sky-600 dark:hover:bg-sky-500 text-white dark:text-zinc-300 hover:text-gray-50 dark:hover:text-zinc-100 text-center rounded-lg py-2 px-5 flex justify-center items-center"
             >
-              <button class=" font-semibold  ">Login</button>
+              <button class=" font-semibold ">Login</button>
             </div>
           </div>
         </div>

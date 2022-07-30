@@ -13,7 +13,7 @@ export default {
       code: `
 <div class="w-full rounded-lg bg-[#FAF5ED] px-8 py-6 text-gray-700 shadow-lg lg:flex-row">
   <!--   -->
-  <div class="grid grid-cols-2 gap-y-6 font-medium sm:grid-cols-3 md:grid-cols-5">
+  <div class="grid grid-cols-2 gap-y-6 font-medium md:grid-cols-3 lg:grid-cols-5">
     <!-- Product -->
     <div class="font-montserrat flex cursor-pointer flex-col gap-2 text-xs font-bold text-[#2a2f3d]">
       <div class="mb-1 text-xs font-normal uppercase">Product</div>

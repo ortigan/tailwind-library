@@ -1,9 +1,9 @@
 <template>
-  <div class="flex w-1/2 justify-center items-center">
+  <div class="flex w-full lg:w-1/2 lg:justify-center lg:items-center">
     <span v-for="(item, index) in items" :key="index" class="w-full h-full">
-      <div class="flex group space-x-4 px-6 py-6 shadow-lg bg-white rounded-xl">
+      <div class="flex flex-col lg:flex-row group space-x-0 lg:space-x-4 space-y-3 lg:space-y-0 px-6 py-6 shadow-lg bg-white rounded-xl">
         <!-- img -->
-        <div class="w-56 h-40 overflow-hidden rounded-xl">
+        <div class="lg:w-56 h-40 overflow-hidden rounded-xl">
           <img
             class="rounded-xl h-full w-full object-cover group-hover:scale-105"
             src="https://res.cloudinary.com/pranav1421/image/upload/v1652079979/Tailwind-Component-library/Human%20avatar/payton-tuttle-RFFR1JjkJx8-unsplash_wglk5e.jpg"

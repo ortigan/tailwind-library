@@ -1,5 +1,5 @@
 <template>
-  <div class="flex w-80 justify-center items-center">
+  <div class="flex w-full lg:w-80 lg:justify-center lg:items-center">
       <span v-for="(item,index) in items" :key="index" class="w-full">
           <div :class="`w-full p-4 rounded-xl ${item.shadowColor} ${item.hoverShadow} ${item.textColor} ${item.bgColor} ${item.border} ${item.hoverTextColor} ${item.hoverBgColor}`">
               <div class="flex flex-row justify-between items-center w-full">

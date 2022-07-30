@@ -1,91 +1,48 @@
 <template>
-  <div
-    class="flex-row w-full  px-8 py-8 rounded-lg border text-gray-700 dark:text-zinc-500 bg-white dark:bg-zinc-900"
-  >
-    <div class="w-2/3 flex justify-center items-center ">
-      <form action="" class="w-full">
-        <div class=" ">
-          <!-- User name -->
-          <div class="w-full flex relative items-center justify-center">
-           
-
-            <input
-              type="text" id="email"
-              class="flex-1 border-0 border-b-2 bg-white dark:bg-zinc-900 border-b-gray-300 dark:border-b-zinc-500 focus:border-b-sky-500 focus:ring-0 focus:outline-none transition-colors peer" 
-            />
-            <label for="email" class="cursor-text absolute left-0 text-base font-normal text-gray-500 peer-focus:text-xxs peer-focus:-top-2 transition-all peer-focus:text-sky-600 duration-300"
-              >User Name
-            </label>
-              
+  <div class="w-full flex-row rounded-lg border bg-white px-8 py-8 text-gray-700 dark:bg-zinc-900 dark:text-zinc-500">
+  <div class="flex w-full items-center justify-center md:w-2/3">
+    <form action="" class="w-full">
+      <div class=" ">
+        <!-- User name -->
+        <div class="relative flex w-full items-center justify-center">
+          <input type="text" id="email" class="peer flex-1 border-0 border-b-2 border-b-gray-300 bg-white transition-colors focus:border-b-sky-500 focus:outline-none focus:ring-0 dark:border-b-zinc-500 dark:bg-zinc-900" />
+          <label for="email" class="peer-focus:text-xxs absolute left-0 cursor-text text-base font-normal text-gray-500 transition-all duration-300 peer-focus:-top-2 peer-focus:text-sky-600">User Name </label>
+        </div>
+        <!-- password -->
+        <div class="relative mt-6 flex w-full items-center justify-center">
+          <input type="password" id="password" class="peer flex-1 border-0 border-b-2 border-b-gray-300 bg-white transition-colors focus:border-b-sky-500 focus:outline-none focus:ring-0 dark:border-b-zinc-500 dark:bg-zinc-900" />
+          <label for="password" class="peer-focus:text-xxs absolute left-0 cursor-text text-base font-normal text-gray-500 transition-all duration-300 peer-focus:-top-2 peer-focus:text-sky-600">Password</label>
+        </div>
+        <!-- Confirm password -->
+        <div class="relative mt-6 flex w-full items-center justify-center">
+          <input type="password" id="cpassword" class="peer flex-1 border-0 border-b-2 border-b-gray-300 bg-white transition-colors focus:border-b-sky-500 focus:outline-none focus:ring-0 dark:border-b-zinc-500 dark:bg-zinc-900" />
+          <label for="cpassword" class="peer-focus:text-xxs absolute left-0 cursor-text text-base font-normal text-gray-500 transition-all duration-300 peer-focus:-top-2 peer-focus:text-sky-600">Confirm Password</label>
+        </div>
+        <!-- State and country -->
+        <div class="mt-6 flex flex-col lg:flex-row w-full gap-4">
+          <div class="w-full lg:w-1/2">
+            <div class="relative mt-6 flex w-full items-center justify-center">
+              <input type="text" id="country" class="peer flex-1 border-0 border-b-2 border-b-gray-300 bg-white transition-colors focus:border-b-sky-500 focus:outline-none focus:ring-0 dark:border-b-zinc-500 dark:bg-zinc-900" />
+              <label for="country" class="peer-focus:text-xxs absolute left-0 cursor-text text-base font-normal text-gray-500 transition-all duration-300 peer-focus:-top-2 peer-focus:text-sky-600">Country</label>
+            </div>
           </div>
-          <!-- password -->
-             <div class="w-full flex relative items-center justify-center mt-6">
-           
-
-            <input
-              type="password" id="password"
-              class="flex-1 border-0 border-b-2 bg-white dark:bg-zinc-900 border-b-gray-300 dark:border-b-zinc-500 focus:border-b-sky-500 focus:ring-0 focus:outline-none transition-colors peer" 
-            />
-            <label for="password" class="cursor-text absolute left-0 text-base font-normal text-gray-500 peer-focus:text-xxs peer-focus:-top-2 transition-all peer-focus:text-sky-600 duration-300"
-              >Password
-            </label>
-              
-          </div>
-          <!-- Confirm password -->
-             <div class="w-full flex relative items-center justify-center mt-6">
-           
-
-            <input
-              type="password" id="cpassword"
-              class="flex-1 border-0 border-b-2 bg-white dark:bg-zinc-900 border-b-gray-300 dark:border-b-zinc-500 focus:border-b-sky-500 focus:ring-0 focus:outline-none transition-colors peer" 
-            />
-            <label for="cpassword" class="cursor-text absolute left-0 text-base font-normal text-gray-500 peer-focus:text-xxs peer-focus:-top-2 transition-all peer-focus:text-sky-600 duration-300"
-              >Confirm Password
-            </label>
-              
-          </div>
-          <!-- State and country -->
-          <div class="w-full flex gap-4 mt-6">
-              <div class="w-1/2">
-   <div class="w-full flex relative items-center justify-center mt-6">
-           
-
-            <input
-              type="text" id="country"
-              class="flex-1 border-0 border-b-2 bg-white dark:bg-zinc-900 border-b-gray-300 dark:border-b-zinc-500 focus:border-b-sky-500 focus:ring-0 focus:outline-none transition-colors peer" 
-            />
-            <label for="country" class="cursor-text absolute left-0 text-base font-normal text-gray-500 peer-focus:text-xxs peer-focus:-top-2 transition-all peer-focus:text-sky-600 duration-300"
-              >Country
-            </label>
-              
-          </div>
-              </div>
-              <div class="w-1/2">
-   <div class="w-full flex relative items-center justify-center mt-6">
-           
-
-            <input
-              type="text" id="state"
-              class="flex-1 border-0 border-b-2 bg-white dark:bg-zinc-900 border-b-gray-300 dark:border-b-zinc-500 focus:border-b-sky-500 focus:ring-0 focus:outline-none transition-colors peer" 
-            />
-            <label for="state" class="cursor-text absolute left-0 text-base font-normal text-gray-500 peer-focus:text-xxs peer-focus:-top-2 transition-all peer-focus:text-sky-600 duration-300"
-              >State
-            </label>
-              
-          </div>
-              </div>
-          </div>
-          
-          <!-- Login button -->
-          <div class="w-1/4 mt-6">
-              <div class="bg-sky-500 dark:bg-sky-600 hover:bg-sky-600 dark:hover:bg-sky-500 text-white dark:text-gray-300 hover:text-gray-50 dark:hover:text-gray-100 text-center rounded-lg py-2 px-5">
-                  <button class="font-semibold">Submit</button>
-              </div>
+          <div class="w-full lg:w-1/2">
+            <div class="relative mt-6 flex w-full items-center justify-center">
+              <input type="text" id="state" class="peer flex-1 border-0 border-b-2 border-b-gray-300 bg-white transition-colors focus:border-b-sky-500 focus:outline-none focus:ring-0 dark:border-b-zinc-500 dark:bg-zinc-900"/>
+              <label for="state" class="peer-focus:text-xxs absolute left-0 cursor-text text-base font-normal text-gray-500 transition-all duration-300 peer-focus:-top-2 peer-focus:text-sky-600">State</label>
+            </div>
           </div>
         </div>
-      </form>
-    </div>
+        <!-- Login button -->
+        <div class="mt-6 w-1/2 lg:w-1/4">
+          <div class="rounded-lg bg-sky-500 py-2 px-5 text-center text-white hover:bg-sky-600 hover:text-gray-50 dark:bg-sky-600 dark:text-gray-300 dark:hover:bg-sky-500 dark:hover:text-gray-100">
+            <button class="font-semibold">Submit</button>
+          </div>
+        </div>
+      </div>
+    </form>
   </div>
+</div>
 </template>
 
 <script>

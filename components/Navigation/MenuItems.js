@@ -48,12 +48,12 @@ export default
         icon: "",
         link: "/card"
     },
-    // {
-    //     id: 8,
-    //     title: 'Carousel',
-    //     icon: "",
-    //     link: "/carousel"
-    // },
+    {
+        id: 8,
+        title: 'Carousel',
+        icon: "",
+        link: "/carousel"
+    },
     {
         id: 9,
         title: 'Dropdown',
@@ -120,12 +120,12 @@ export default
         icon: "",
         link: "/rating"
     },
-    // {
-    //     id: 20,
-    //     title: 'Timeline',
-    //     icon: "",
-    //     link: "/timeline"
-    // },
+    {
+        id: 20,
+        title: 'Timeline',
+        icon: "",
+        link: "/timeline"
+    },
     // {
     //     id: 21,
     //     title: 'Progress',
@@ -138,12 +138,12 @@ export default
     //     icon: "",
     //     link: "/table"
     // },
-    // {
-    //     id: 23,
-    //     title: 'Spinner',
-    //     icon: "",
-    //     link: "/spinner"
-    // },
+    {
+        id: 23,
+        title: 'Spinner',
+        icon: "",
+        link: "/spinner"
+    },
     {
         id: 24,
         title: 'Toast',

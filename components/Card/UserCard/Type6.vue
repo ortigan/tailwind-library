@@ -1,5 +1,5 @@
 <template>
-  <div class="flex w-80 justify-center items-center">
+  <div class="flex w-full lg:w-80 justify-center items-center">
     <span v-for="(item, index) in items" :key="index" class="w-full h-full">
       <div class="flex flex-col group w-full h-full rounded-3xl shadow-lg p-4 text-gray-400 bg-white">
           <div class="flex justify-between">

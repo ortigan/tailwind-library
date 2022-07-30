@@ -1,5 +1,5 @@
 <template>
-  <div class="flex w-80 h-96 justify-center items-center">
+  <div class="flex w-full lg:w-80 h-96 justify-center items-center">
       <span v-for="(item,index) in items" :key="index" class="w-full h-full">
           <div :class="` overflow-hidden group w-full h-full relative rounded-xl ${item.shadowColor} ${item.hoverShadow} ${item.textColor} ${item.bgColor} ${item.border} ${item.hoverTextColor} ${item.hoverBgColor}`">
               <div class="h-96 w-full z-20">

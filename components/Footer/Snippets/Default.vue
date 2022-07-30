@@ -13,7 +13,7 @@ export default {
       code: `
 <div class="w-full rounded-lg bg-white px-8 py-5 text-gray-700 shadow-lg dark:bg-zinc-900 dark:text-zinc-400 lg:flex-row">
   <!-- Ui reference Untitled UI  -->
-  <div class="mt-6 grid grid-cols-2 gap-y-6 font-medium md:grid-cols-6">
+  <div class="mt-6 grid grid-cols-2 gap-y-6 font-medium lg:grid-cols-6">
     <div class="flex flex-col">
       <div class="mb-2 text-sm text-gray-400 dark:text-zinc-200">Product</div>
       <div class="text-base text-gray-600 dark:text-zinc-400">Overview</div>
@@ -75,7 +75,7 @@ export default {
     </div>
     <!--  -->
   </div>
-  <div class="mt-12 flex w-full flex-col justify-between border-t py-2 md:flex-row md:items-center">
+  <div class="mt-12 flex w-full flex-col justify-between border-t py-2 md:items-center lg:flex-row">
     <!-- logo -->
     <div class="flex items-center md:px-4">
       <div class="flex h-10 w-10 items-center text-lg font-bold text-gray-700 dark:text-zinc-500">

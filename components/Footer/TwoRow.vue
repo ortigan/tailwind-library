@@ -1,9 +1,9 @@
 <template>
   <div
-    class="lg:flex-row w-full  px-8 py-5 rounded-lg shadow-lg text-gray-700 dark:text-zinc-500 bg-white dark:bg-zinc-900"
+    class="lg:flex-row w-full px-8 py-5 rounded-lg shadow-lg text-gray-700 dark:text-zinc-500 bg-white dark:bg-zinc-900"
   >
   <!-- Ui reference Untitled UI  -->
-   <div class="grid grid-cols-2 md:grid-cols-4 gap-y-8 font-medium mt-6">
+   <div class="grid grid-cols-2 lg:grid-cols-4 gap-y-8 font-medium mt-6">
     <!-- Product -->
      <div class="flex flex-col text-gray-600 dark:text-zinc-400 text-base">
        <div class="text-gray-400 dark:text-zinc-200 text-sm mb-2">Product</div>
@@ -85,7 +85,7 @@
      <!--  -->
      
    </div>
-   <div class="flex flex-col md:flex-row justify-between md:items-center w-full py-2 border-t mt-12">
+   <div class="flex flex-col lg:flex-row justify-between md:items-center w-full py-2 border-t mt-12">
   <!-- logo -->
     <div class="flex items-center md:px-4">
       <div class="font-bold text-lg text-gray-700 dark:text-zinc-500 flex items-center w-10 h-10">
