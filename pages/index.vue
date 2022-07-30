@@ -1,12 +1,12 @@
 <template>
   <NuxtLayout :name="layout">
   <div>
-    <div class="flex relative ">
+    <div class="flex relative  mt-32 md:mt-16 ">
       <!-- content -->
       <div
-        class="font-primary w-full flex justify-center md:justify-start mt-32 md:mt-16 items-start md:items-center h-full pb-32 md:pb-0 md:h-screen bgImg"
+        class="font-primary w-full flex justify-center md:justify-start items-start md:items-center h-full pb-32 md:pb-0 md:h-screen bgImg"
       >
-        <div class="font-medium flex flex-col justify-center md:justify-start md:w-1/2">
+        <div class="font-medium px-4 flex flex-col justify-center md:justify-start md:w-full">
           <div class="flex text-2xl md:text-5xl">
             <div class="mr-4">Tailwind</div>
             <div class="rotate-2 relative border border-zinc-900 dark:border-white px-4">
@@ -91,6 +91,36 @@
           </div>
         </div>
       </div>
+        <div class="w-full flex items-center justify-center py-32">
+          <div class="w-full h-full grid grid-cols-5 grid-rows-5 ">
+            <div class="w-full h-full dark:border-gray-800 border-r border-b"></div>
+            <div class="w-full h-full dark:border-gray-800 border-b border-r"></div>
+            <div class="w-full h-full dark:border-gray-800 border-b border-r"></div>
+            <div class="w-full h-full dark:border-gray-800 border-b border-r"></div>
+            <div class="w-full h-full dark:border-gray-800 border-b"></div>
+            <div class="w-full h-full dark:border-gray-800 border-b border-r"></div>
+            <div class="w-full h-full dark:border-gray-800 border-b border-r"></div>
+            <div class="w-full h-full dark:border-gray-800 border-b border-r"></div>
+            <div class="w-full h-full dark:border-gray-800 border-b border-r"></div>
+            <div class="w-full h-full dark:border-gray-800 border-b"></div>
+            <div class="w-full h-full dark:border-gray-800 border-r border-b"></div>
+            <div class="w-full h-full dark:border-gray-800 border-b border-r"></div>
+            <div class="w-full h-full dark:border-gray-800 border-b border-r"></div>
+            <div class="w-full h-full dark:border-gray-800 border-b border-r"></div>
+            <div class="w-full h-full dark:border-gray-800 border-b"></div>
+            <div class="w-full h-full dark:border-gray-800 border-b border-r"></div>
+            <div class="w-full h-full dark:border-gray-800 border-b border-r"></div>
+            <div class="w-full h-full dark:border-gray-800 border-b border-r"></div>
+            <div class="w-full h-full dark:border-gray-800 border-b border-r"></div>
+            <div class="w-full h-full dark:border-gray-800 border-b"></div>
+            <div class="w-full h-full dark:border-gray-800 border-r"></div>
+            <div class="w-full h-full dark:border-gray-800 border-r"></div>
+            <div class="w-full h-full dark:border-gray-800 border-r"></div>
+            <div class="w-full h-full dark:border-gray-800 border-r"></div>
+            <div class="w-full h-full dark:border-gray-800 "></div>
+
+          </div>
+        </div>
       <!-- right sidebar -->
     </div>
    <HomePageFeatures />
@@ -120,7 +150,8 @@ export default {
 .home-links a {
   margin-right: 1rem;
 }
-.bgImg{
-  background-image: url();
+.textstroke{
+  color: black;
+	-webkit-text-stroke: 2px rgb(161, 161, 161)
 }
 </style>

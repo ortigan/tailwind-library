@@ -8,7 +8,7 @@
         style="transition-duration: 0.5s; z-index: 999"
       >
         <div class="p-3 top-0 absolute w-full z-40 text-gray-300 uppercase">
-          <div class="blurBg px-4 lg:container rounded-lg">
+          <div class="blurBg px-4 md:px-0 lg:mx-32 rounded-lg">
             <div class="flex items-center justify-between h-16 px-4 py-5">
               <div>
                 <nuxt-link

@@ -2,7 +2,7 @@
   <div :class="store.theme === 'light' ? 'light' : 'dark'" class="">
     <Header />
     <div class="dark:bg-[#121212] w-full dark:text-gray-100 flex">
-      <div class="px-4 md:container w-full">
+      <div class="px-4 md:px-32 w-full">
             <main class="w-full min-h-screen overflow-x-hidden">
               <slot />
             </main>
