@@ -120,12 +120,12 @@ export default
         icon: "",
         link: "/rating"
     },
-    // {
-    //     id: 20,
-    //     title: 'Timeline',
-    //     icon: "",
-    //     link: "/timeline"
-    // },
+    {
+        id: 20,
+        title: 'Timeline',
+        icon: "",
+        link: "/timeline"
+    },
     // {
     //     id: 21,
     //     title: 'Progress',
