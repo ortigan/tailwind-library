@@ -118,8 +118,21 @@ declare module 'vue' {
     'RatingOurCard': typeof import("../components/Rating/OurCard.vue")['default'],
     'RatingSmiley': typeof import("../components/Rating/Smiley.vue")['default'],
     'RatingYesOrNo': typeof import("../components/Rating/YesOrNo.vue")['default'],
+<<<<<<< HEAD
     'SpinnerDefault': typeof import("../components/Spinner/Default.vue")['default'],
     'TimelineAvatar': typeof import("../components/Timeline/Avatar.vue")['default'],
+=======
+    'SidebarDefault': typeof import("../components/Sidebar/Default.vue")['default'],
+    'SidebarSectioned': typeof import("../components/Sidebar/Sectioned.vue")['default'],
+    'SidebarSeparator': typeof import("../components/Sidebar/Separator.vue")['default'],
+    'SidebarInfo': typeof import("../components/Sidebar/SidebarInfo.vue")['default'],
+    'SidebarWithBadge': typeof import("../components/Sidebar/WithBadge.vue")['default'],
+    'SpinnerButton': typeof import("../components/Spinner/Button.vue")['default'],
+    'SpinnerColors': typeof import("../components/Spinner/Colors.vue")['default'],
+    'SpinnerDefault': typeof import("../components/Spinner/Default.vue")['default'],
+    'SpinnerSize': typeof import("../components/Spinner/Size.vue")['default'],
+    'SpinnerVariants': typeof import("../components/Spinner/Variants.vue")['default'],
+>>>>>>> a5f93fd8f3cc280df9b1fbb81a112c60b4a89265
     'TimelineDefault': typeof import("../components/Timeline/Default.vue")['default'],
     'TimelineHorizontal': typeof import("../components/Timeline/Horizontal.vue")['default'],
     'TimelineIcon': typeof import("../components/Timeline/Icon.vue")['default'],
@@ -261,6 +274,22 @@ declare module 'vue' {
     'SidebarSnippetsSectioned': typeof import("../components/Sidebar/Snippets/Sectioned.vue")['default'],
     'SidebarSnippetsSeparator': typeof import("../components/Sidebar/Snippets/Separator.vue")['default'],
     'SidebarSnippetsWithBadge': typeof import("../components/Sidebar/Snippets/WithBadge.vue")['default'],
+<<<<<<< HEAD
+=======
+    'SpinnerSnippetsButton': typeof import("../components/Spinner/Snippets/Button.vue")['default'],
+    'SpinnerSnippetsColors': typeof import("../components/Spinner/Snippets/Colors.vue")['default'],
+    'SpinnerSnippetsDefault': typeof import("../components/Spinner/Snippets/Default.vue")['default'],
+    'SpinnerSnippetsSize': typeof import("../components/Spinner/Snippets/Size.vue")['default'],
+    'SpinnerSnippetsVariants': typeof import("../components/Spinner/Snippets/Variants.vue")['default'],
+    'TimelineSnippetsDefault': typeof import("../components/Timeline/Snippets/Default.vue")['default'],
+    'TimelineSnippetsHorizontal': typeof import("../components/Timeline/Snippets/Horizontal.vue")['default'],
+    'TimelineSnippetsIcon': typeof import("../components/Timeline/Snippets/Icon.vue")['default'],
+    'ToastSnippetsDefault': typeof import("../components/Toast/Snippets/Default.vue")['default'],
+    'ToastSnippetsOutline': typeof import("../components/Toast/Snippets/Outline.vue")['default'],
+    'ToastSnippetsSolidColor': typeof import("../components/Toast/Snippets/SolidColor.vue")['default'],
+    'ToastSnippetsStateColor': typeof import("../components/Toast/Snippets/StateColor.vue")['default'],
+    'ToastSnippetsWithButton': typeof import("../components/Toast/Snippets/WithButton.vue")['default'],
+>>>>>>> a5f93fd8f3cc280df9b1fbb81a112c60b4a89265
     'TypographySnippetsFontSize': typeof import("../components/Typography/Snippets/FontSize.vue")['default'],
     'TypographySnippetsFontWeight': typeof import("../components/Typography/Snippets/FontWeight.vue")['default'],
     'TypographySnippetsTextDecoration': typeof import("../components/Typography/Snippets/TextDecoration.vue")['default'],
@@ -404,8 +433,21 @@ declare module 'vue' {
     'LazyRatingOurCard': typeof import("../components/Rating/OurCard.vue")['default'],
     'LazyRatingSmiley': typeof import("../components/Rating/Smiley.vue")['default'],
     'LazyRatingYesOrNo': typeof import("../components/Rating/YesOrNo.vue")['default'],
+<<<<<<< HEAD
     'LazySpinnerDefault': typeof import("../components/Spinner/Default.vue")['default'],
     'LazyTimelineAvatar': typeof import("../components/Timeline/Avatar.vue")['default'],
+=======
+    'LazySidebarDefault': typeof import("../components/Sidebar/Default.vue")['default'],
+    'LazySidebarSectioned': typeof import("../components/Sidebar/Sectioned.vue")['default'],
+    'LazySidebarSeparator': typeof import("../components/Sidebar/Separator.vue")['default'],
+    'LazySidebarInfo': typeof import("../components/Sidebar/SidebarInfo.vue")['default'],
+    'LazySidebarWithBadge': typeof import("../components/Sidebar/WithBadge.vue")['default'],
+    'LazySpinnerButton': typeof import("../components/Spinner/Button.vue")['default'],
+    'LazySpinnerColors': typeof import("../components/Spinner/Colors.vue")['default'],
+    'LazySpinnerDefault': typeof import("../components/Spinner/Default.vue")['default'],
+    'LazySpinnerSize': typeof import("../components/Spinner/Size.vue")['default'],
+    'LazySpinnerVariants': typeof import("../components/Spinner/Variants.vue")['default'],
+>>>>>>> a5f93fd8f3cc280df9b1fbb81a112c60b4a89265
     'LazyTimelineDefault': typeof import("../components/Timeline/Default.vue")['default'],
     'LazyTimelineHorizontal': typeof import("../components/Timeline/Horizontal.vue")['default'],
     'LazyTimelineIcon': typeof import("../components/Timeline/Icon.vue")['default'],
@@ -547,6 +589,22 @@ declare module 'vue' {
     'LazySidebarSnippetsSectioned': typeof import("../components/Sidebar/Snippets/Sectioned.vue")['default'],
     'LazySidebarSnippetsSeparator': typeof import("../components/Sidebar/Snippets/Separator.vue")['default'],
     'LazySidebarSnippetsWithBadge': typeof import("../components/Sidebar/Snippets/WithBadge.vue")['default'],
+<<<<<<< HEAD
+=======
+    'LazySpinnerSnippetsButton': typeof import("../components/Spinner/Snippets/Button.vue")['default'],
+    'LazySpinnerSnippetsColors': typeof import("../components/Spinner/Snippets/Colors.vue")['default'],
+    'LazySpinnerSnippetsDefault': typeof import("../components/Spinner/Snippets/Default.vue")['default'],
+    'LazySpinnerSnippetsSize': typeof import("../components/Spinner/Snippets/Size.vue")['default'],
+    'LazySpinnerSnippetsVariants': typeof import("../components/Spinner/Snippets/Variants.vue")['default'],
+    'LazyTimelineSnippetsDefault': typeof import("../components/Timeline/Snippets/Default.vue")['default'],
+    'LazyTimelineSnippetsHorizontal': typeof import("../components/Timeline/Snippets/Horizontal.vue")['default'],
+    'LazyTimelineSnippetsIcon': typeof import("../components/Timeline/Snippets/Icon.vue")['default'],
+    'LazyToastSnippetsDefault': typeof import("../components/Toast/Snippets/Default.vue")['default'],
+    'LazyToastSnippetsOutline': typeof import("../components/Toast/Snippets/Outline.vue")['default'],
+    'LazyToastSnippetsSolidColor': typeof import("../components/Toast/Snippets/SolidColor.vue")['default'],
+    'LazyToastSnippetsStateColor': typeof import("../components/Toast/Snippets/StateColor.vue")['default'],
+    'LazyToastSnippetsWithButton': typeof import("../components/Toast/Snippets/WithButton.vue")['default'],
+>>>>>>> a5f93fd8f3cc280df9b1fbb81a112c60b4a89265
     'LazyTypographySnippetsFontSize': typeof import("../components/Typography/Snippets/FontSize.vue")['default'],
     'LazyTypographySnippetsFontWeight': typeof import("../components/Typography/Snippets/FontWeight.vue")['default'],
     'LazyTypographySnippetsTextDecoration': typeof import("../components/Typography/Snippets/TextDecoration.vue")['default'],
@@ -692,8 +750,21 @@ export const RatingImdb: typeof import("../components/Rating/Imdb.vue")['default
 export const RatingOurCard: typeof import("../components/Rating/OurCard.vue")['default']
 export const RatingSmiley: typeof import("../components/Rating/Smiley.vue")['default']
 export const RatingYesOrNo: typeof import("../components/Rating/YesOrNo.vue")['default']
+<<<<<<< HEAD
 export const SpinnerDefault: typeof import("../components/Spinner/Default.vue")['default']
 export const TimelineAvatar: typeof import("../components/Timeline/Avatar.vue")['default']
+=======
+export const SidebarDefault: typeof import("../components/Sidebar/Default.vue")['default']
+export const SidebarSectioned: typeof import("../components/Sidebar/Sectioned.vue")['default']
+export const SidebarSeparator: typeof import("../components/Sidebar/Separator.vue")['default']
+export const SidebarInfo: typeof import("../components/Sidebar/SidebarInfo.vue")['default']
+export const SidebarWithBadge: typeof import("../components/Sidebar/WithBadge.vue")['default']
+export const SpinnerButton: typeof import("../components/Spinner/Button.vue")['default']
+export const SpinnerColors: typeof import("../components/Spinner/Colors.vue")['default']
+export const SpinnerDefault: typeof import("../components/Spinner/Default.vue")['default']
+export const SpinnerSize: typeof import("../components/Spinner/Size.vue")['default']
+export const SpinnerVariants: typeof import("../components/Spinner/Variants.vue")['default']
+>>>>>>> a5f93fd8f3cc280df9b1fbb81a112c60b4a89265
 export const TimelineDefault: typeof import("../components/Timeline/Default.vue")['default']
 export const TimelineHorizontal: typeof import("../components/Timeline/Horizontal.vue")['default']
 export const TimelineIcon: typeof import("../components/Timeline/Icon.vue")['default']
@@ -835,6 +906,22 @@ export const SidebarSnippetsDefault: typeof import("../components/Sidebar/Snippe
 export const SidebarSnippetsSectioned: typeof import("../components/Sidebar/Snippets/Sectioned.vue")['default']
 export const SidebarSnippetsSeparator: typeof import("../components/Sidebar/Snippets/Separator.vue")['default']
 export const SidebarSnippetsWithBadge: typeof import("../components/Sidebar/Snippets/WithBadge.vue")['default']
+<<<<<<< HEAD
+=======
+export const SpinnerSnippetsButton: typeof import("../components/Spinner/Snippets/Button.vue")['default']
+export const SpinnerSnippetsColors: typeof import("../components/Spinner/Snippets/Colors.vue")['default']
+export const SpinnerSnippetsDefault: typeof import("../components/Spinner/Snippets/Default.vue")['default']
+export const SpinnerSnippetsSize: typeof import("../components/Spinner/Snippets/Size.vue")['default']
+export const SpinnerSnippetsVariants: typeof import("../components/Spinner/Snippets/Variants.vue")['default']
+export const TimelineSnippetsDefault: typeof import("../components/Timeline/Snippets/Default.vue")['default']
+export const TimelineSnippetsHorizontal: typeof import("../components/Timeline/Snippets/Horizontal.vue")['default']
+export const TimelineSnippetsIcon: typeof import("../components/Timeline/Snippets/Icon.vue")['default']
+export const ToastSnippetsDefault: typeof import("../components/Toast/Snippets/Default.vue")['default']
+export const ToastSnippetsOutline: typeof import("../components/Toast/Snippets/Outline.vue")['default']
+export const ToastSnippetsSolidColor: typeof import("../components/Toast/Snippets/SolidColor.vue")['default']
+export const ToastSnippetsStateColor: typeof import("../components/Toast/Snippets/StateColor.vue")['default']
+export const ToastSnippetsWithButton: typeof import("../components/Toast/Snippets/WithButton.vue")['default']
+>>>>>>> a5f93fd8f3cc280df9b1fbb81a112c60b4a89265
 export const TypographySnippetsFontSize: typeof import("../components/Typography/Snippets/FontSize.vue")['default']
 export const TypographySnippetsFontWeight: typeof import("../components/Typography/Snippets/FontWeight.vue")['default']
 export const TypographySnippetsTextDecoration: typeof import("../components/Typography/Snippets/TextDecoration.vue")['default']
@@ -978,8 +1065,21 @@ export const LazyRatingImdb: typeof import("../components/Rating/Imdb.vue")['def
 export const LazyRatingOurCard: typeof import("../components/Rating/OurCard.vue")['default']
 export const LazyRatingSmiley: typeof import("../components/Rating/Smiley.vue")['default']
 export const LazyRatingYesOrNo: typeof import("../components/Rating/YesOrNo.vue")['default']
+<<<<<<< HEAD
 export const LazySpinnerDefault: typeof import("../components/Spinner/Default.vue")['default']
 export const LazyTimelineAvatar: typeof import("../components/Timeline/Avatar.vue")['default']
+=======
+export const LazySidebarDefault: typeof import("../components/Sidebar/Default.vue")['default']
+export const LazySidebarSectioned: typeof import("../components/Sidebar/Sectioned.vue")['default']
+export const LazySidebarSeparator: typeof import("../components/Sidebar/Separator.vue")['default']
+export const LazySidebarInfo: typeof import("../components/Sidebar/SidebarInfo.vue")['default']
+export const LazySidebarWithBadge: typeof import("../components/Sidebar/WithBadge.vue")['default']
+export const LazySpinnerButton: typeof import("../components/Spinner/Button.vue")['default']
+export const LazySpinnerColors: typeof import("../components/Spinner/Colors.vue")['default']
+export const LazySpinnerDefault: typeof import("../components/Spinner/Default.vue")['default']
+export const LazySpinnerSize: typeof import("../components/Spinner/Size.vue")['default']
+export const LazySpinnerVariants: typeof import("../components/Spinner/Variants.vue")['default']
+>>>>>>> a5f93fd8f3cc280df9b1fbb81a112c60b4a89265
 export const LazyTimelineDefault: typeof import("../components/Timeline/Default.vue")['default']
 export const LazyTimelineHorizontal: typeof import("../components/Timeline/Horizontal.vue")['default']
 export const LazyTimelineIcon: typeof import("../components/Timeline/Icon.vue")['default']
@@ -1121,6 +1221,22 @@ export const LazySidebarSnippetsDefault: typeof import("../components/Sidebar/Sn
 export const LazySidebarSnippetsSectioned: typeof import("../components/Sidebar/Snippets/Sectioned.vue")['default']
 export const LazySidebarSnippetsSeparator: typeof import("../components/Sidebar/Snippets/Separator.vue")['default']
 export const LazySidebarSnippetsWithBadge: typeof import("../components/Sidebar/Snippets/WithBadge.vue")['default']
+<<<<<<< HEAD
+=======
+export const LazySpinnerSnippetsButton: typeof import("../components/Spinner/Snippets/Button.vue")['default']
+export const LazySpinnerSnippetsColors: typeof import("../components/Spinner/Snippets/Colors.vue")['default']
+export const LazySpinnerSnippetsDefault: typeof import("../components/Spinner/Snippets/Default.vue")['default']
+export const LazySpinnerSnippetsSize: typeof import("../components/Spinner/Snippets/Size.vue")['default']
+export const LazySpinnerSnippetsVariants: typeof import("../components/Spinner/Snippets/Variants.vue")['default']
+export const LazyTimelineSnippetsDefault: typeof import("../components/Timeline/Snippets/Default.vue")['default']
+export const LazyTimelineSnippetsHorizontal: typeof import("../components/Timeline/Snippets/Horizontal.vue")['default']
+export const LazyTimelineSnippetsIcon: typeof import("../components/Timeline/Snippets/Icon.vue")['default']
+export const LazyToastSnippetsDefault: typeof import("../components/Toast/Snippets/Default.vue")['default']
+export const LazyToastSnippetsOutline: typeof import("../components/Toast/Snippets/Outline.vue")['default']
+export const LazyToastSnippetsSolidColor: typeof import("../components/Toast/Snippets/SolidColor.vue")['default']
+export const LazyToastSnippetsStateColor: typeof import("../components/Toast/Snippets/StateColor.vue")['default']
+export const LazyToastSnippetsWithButton: typeof import("../components/Toast/Snippets/WithButton.vue")['default']
+>>>>>>> a5f93fd8f3cc280df9b1fbb81a112c60b4a89265
 export const LazyTypographySnippetsFontSize: typeof import("../components/Typography/Snippets/FontSize.vue")['default']
 export const LazyTypographySnippetsFontWeight: typeof import("../components/Typography/Snippets/FontWeight.vue")['default']
 export const LazyTypographySnippetsTextDecoration: typeof import("../components/Typography/Snippets/TextDecoration.vue")['default']

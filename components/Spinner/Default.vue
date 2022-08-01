@@ -1,16 +1,28 @@
 <template>
-  <div class="w-full text-gray-500">
-    <div class="">
-        <ul class="inline-flex -space-x-px font-medium">
-            <li class="px-3 py-2 bg-white border hover:text-zinc-700 dark:text-zinc-400 dark:bg-zinc-800 hover:cursor-pointer hover:bg-zinc-50 border-zinc-200 dark:hover:bg-zinc-700 dark:border-zinc-700 rounded-l-lg">Previous</li>
-            <li class="px-3 py-2 bg-white border hover:text-zinc-700 dark:text-zinc-400 dark:bg-zinc-800 hover:cursor-pointer hover:bg-zinc-50 border-zinc-200 dark:hover:bg-zinc-700 dark:border-zinc-700 ">1</li>
-            <li class="px-3 py-2 bg-white border hover:text-zinc-700 dark:text-zinc-400 dark:bg-zinc-800 hover:cursor-pointer hover:bg-zinc-50 border-zinc-200 dark:hover:bg-zinc-700 dark:border-zinc-700 ">2</li>
-            <li class="px-3 py-2 border text-blue-500 hover:text-blue-700 hover:cursor-pointer bg-blue-50 hover:bg-blue-100 border-zinc-200 dark:bg-zinc-700 dark:text-blue-700 dark:hover:bg-zinc-700 dark:border-zinc-700">3</li>
-            <li class="px-3 py-2 bg-white border hover:text-zinc-700 dark:text-zinc-400 dark:bg-zinc-800 hover:cursor-pointer hover:bg-zinc-50 border-zinc-200 dark:hover:bg-zinc-700 dark:border-zinc-700 ">4</li>
-            <li class="px-3 py-2 bg-white border hover:text-zinc-700 dark:text-zinc-400 dark:bg-zinc-800 hover:cursor-pointer hover:bg-zinc-50 border-zinc-200 dark:hover:bg-zinc-700 dark:border-zinc-700 ">5</li>
-            <li class="px-3 py-2 bg-white border hover:text-zinc-700 dark:text-zinc-400 dark:bg-zinc-800 hover:cursor-pointer hover:bg-zinc-50 border-gray-200 dark:hover:bg-zinc-700 dark:border-zinc-700  rounded-r-lg">Next</li>
-        </ul>
-    </div>
+  <div class="w-full flex space-x-5 -my-3">
+     <button>
+<svg
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 inline text-gray-300 dark:text-gray-600 dark:fill-gray-400 fill-gray-600 animate-spin"
+>
+  <path
+    opacity="0.2"
+    fill-rule="evenodd"
+    clip-rule="evenodd"
+    d="M12 19C15.866 19 19 15.866 19 12C19 8.13401 15.866 5 12 5C8.13401 5 5 8.13401 5 12C5 15.866 8.13401 19 12 19ZM12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+    fill="currentColor"
+  />
+  <path
+    d="M2 12C2 6.47715 6.47715 2 12 2V5C8.13401 5 5 8.13401 5 12H2Z"
+    fill="currentFill"
+  />
+</svg>  
+  </button>
+  <!--  -->
+ 
   </div>
 </template>
 

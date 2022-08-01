@@ -146,12 +146,18 @@ export default
     },
     {
         id: 24,
+        title: 'Skeleton',
+        icon: "",
+        link: "/skeleton"
+    },
+    {
+        id: 25,
         title: 'Toast',
         icon: "",
         link: "/toast"
      },
 //     {
-//         id: 25,
+//         id: 26,
 //         title: 'Tooltip',
 //         icon: "",
 //         link: "/tooltip"

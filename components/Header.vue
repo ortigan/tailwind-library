@@ -3,12 +3,12 @@
     <header class="w-full absolute top-0">
       <nav
         transition:fade
-        class="fixed top-0 w-full bg-red-100 shadow-lg mb-6 z-10 f"
+        class="fixed top-0 w-full shadow-lg mb-6 z-10 "
         id="mainNav"
         style="transition-duration: 0.5s; z-index: 999"
       >
         <div class="p-3 top-0 absolute w-full z-40 text-gray-300 uppercase">
-          <div class="blurBg px-4 md:px-0 lg:mx-32 rounded-lg">
+          <div class="bg-gray-100 text-gray-800 dark:bg-[#1E1E1C] dark:text-gray-200 px-4 md:px-0 lg:mx-32 rounded-lg">
             <div class="flex items-center justify-between h-16 px-4 py-5">
               <div>
                 <nuxt-link
