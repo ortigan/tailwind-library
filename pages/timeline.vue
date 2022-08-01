@@ -87,6 +87,43 @@
             <!-- code snippet end -->
           </section>
           <!-- End  -->
+          <!-- start -->
+          <section id="avatarTimeline" class="w-full">
+            <HeadersSubHeading>
+              <template v-slot:subHeader>Avatar</template>
+              <template v-slot:code>
+                <UtilsShowCodeButton
+                  v-if="!avatar_timeline"
+                  @click="avatar_timeline = true"
+                ></UtilsShowCodeButton>
+                <UtilsHideCodeButton
+                  v-else
+                  @click="avatar_timeline = false"
+                ></UtilsHideCodeButton>
+              </template>
+            </HeadersSubHeading>
+            <UtilsComponentPad>
+              <TimelineAvatar />
+            </UtilsComponentPad>
+            <!-- code snippet -->
+            <transition name="fadeSnippet">
+              <div v-show="avatar_timeline" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+                <div class="flex justify-between px-2 pt-2">
+                  <div>
+                    HTML
+                  </div>
+                  <div>
+                    <UtilsCopyButton
+                    @click="copyToClipboard('avatarTimelineComp')"
+                  ></UtilsCopyButton>
+                  </div>
+                </div>
+                <TimelineSnippetsAvatar id="avatarTimelineComp" />
+              </div>
+            </transition>
+            <!-- code snippet end -->
+          </section>
+          <!-- End  -->
           
            
         </div>
@@ -106,8 +143,8 @@
               <button @click="scrollToSection('IconTimeline')">
                 Timeline With Icon
               </button>
-              <button @click="scrollToSection('contentSeparator')">
-                Content separator
+              <button @click="scrollToSection('avatarTimeline')">
+                Timeline With Avatar
               </button>
               <button @click="scrollToSection('contentSectionedAvatar')" class="text-right">
                 Content Sectioned and avatar
@@ -138,7 +175,7 @@ export default {
       layout: "custom",
       default_timeline: false,
       icon_timeline: false,
-      separator_sidebar: false,
+      avatar_timeline: false,
       sectioned_sidebar: false,
       // SCROLL
       activeScrollSection: "",
