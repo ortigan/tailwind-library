@@ -123,6 +123,11 @@ declare module 'vue' {
     'SidebarSeparator': typeof import("../components/Sidebar/Separator.vue")['default'],
     'SidebarInfo': typeof import("../components/Sidebar/SidebarInfo.vue")['default'],
     'SidebarWithBadge': typeof import("../components/Sidebar/WithBadge.vue")['default'],
+    'SkeletonCard': typeof import("../components/Skeleton/Card.vue")['default'],
+    'SkeletonDefault': typeof import("../components/Skeleton/Default.vue")['default'],
+    'SkeletonImage': typeof import("../components/Skeleton/Image.vue")['default'],
+    'SkeletonList': typeof import("../components/Skeleton/List.vue")['default'],
+    'SkeletonText': typeof import("../components/Skeleton/Text.vue")['default'],
     'SpinnerButton': typeof import("../components/Spinner/Button.vue")['default'],
     'SpinnerColors': typeof import("../components/Spinner/Colors.vue")['default'],
     'SpinnerDefault': typeof import("../components/Spinner/Default.vue")['default'],
@@ -416,6 +421,11 @@ declare module 'vue' {
     'LazySidebarSeparator': typeof import("../components/Sidebar/Separator.vue")['default'],
     'LazySidebarInfo': typeof import("../components/Sidebar/SidebarInfo.vue")['default'],
     'LazySidebarWithBadge': typeof import("../components/Sidebar/WithBadge.vue")['default'],
+    'LazySkeletonCard': typeof import("../components/Skeleton/Card.vue")['default'],
+    'LazySkeletonDefault': typeof import("../components/Skeleton/Default.vue")['default'],
+    'LazySkeletonImage': typeof import("../components/Skeleton/Image.vue")['default'],
+    'LazySkeletonList': typeof import("../components/Skeleton/List.vue")['default'],
+    'LazySkeletonText': typeof import("../components/Skeleton/Text.vue")['default'],
     'LazySpinnerButton': typeof import("../components/Spinner/Button.vue")['default'],
     'LazySpinnerColors': typeof import("../components/Spinner/Colors.vue")['default'],
     'LazySpinnerDefault': typeof import("../components/Spinner/Default.vue")['default'],
@@ -711,6 +721,11 @@ export const SidebarSectioned: typeof import("../components/Sidebar/Sectioned.vu
 export const SidebarSeparator: typeof import("../components/Sidebar/Separator.vue")['default']
 export const SidebarInfo: typeof import("../components/Sidebar/SidebarInfo.vue")['default']
 export const SidebarWithBadge: typeof import("../components/Sidebar/WithBadge.vue")['default']
+export const SkeletonCard: typeof import("../components/Skeleton/Card.vue")['default']
+export const SkeletonDefault: typeof import("../components/Skeleton/Default.vue")['default']
+export const SkeletonImage: typeof import("../components/Skeleton/Image.vue")['default']
+export const SkeletonList: typeof import("../components/Skeleton/List.vue")['default']
+export const SkeletonText: typeof import("../components/Skeleton/Text.vue")['default']
 export const SpinnerButton: typeof import("../components/Spinner/Button.vue")['default']
 export const SpinnerColors: typeof import("../components/Spinner/Colors.vue")['default']
 export const SpinnerDefault: typeof import("../components/Spinner/Default.vue")['default']
@@ -1004,6 +1019,11 @@ export const LazySidebarSectioned: typeof import("../components/Sidebar/Sectione
 export const LazySidebarSeparator: typeof import("../components/Sidebar/Separator.vue")['default']
 export const LazySidebarInfo: typeof import("../components/Sidebar/SidebarInfo.vue")['default']
 export const LazySidebarWithBadge: typeof import("../components/Sidebar/WithBadge.vue")['default']
+export const LazySkeletonCard: typeof import("../components/Skeleton/Card.vue")['default']
+export const LazySkeletonDefault: typeof import("../components/Skeleton/Default.vue")['default']
+export const LazySkeletonImage: typeof import("../components/Skeleton/Image.vue")['default']
+export const LazySkeletonList: typeof import("../components/Skeleton/List.vue")['default']
+export const LazySkeletonText: typeof import("../components/Skeleton/Text.vue")['default']
 export const LazySpinnerButton: typeof import("../components/Spinner/Button.vue")['default']
 export const LazySpinnerColors: typeof import("../components/Spinner/Colors.vue")['default']
 export const LazySpinnerDefault: typeof import("../components/Spinner/Default.vue")['default']
