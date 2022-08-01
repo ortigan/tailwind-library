@@ -13,27 +13,27 @@
               impedit dolore aliquam?
             </p>
           </div>
-          <!-- start -->
+          <!-- start default-->
           <section id="defaultNavbar" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>Default</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_navbar"
-                  @click="default_navbar = true"
+                  v-if="!default_spinner"
+                  @click="default_spinner = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_navbar = false"
+                  @click="default_spinner = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
             <UtilsComponentPad>
-              <NavbarDefault />
+              <SpinnerDefault />
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_navbar" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="default_spinner" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
@@ -44,13 +44,160 @@
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <NavbarSnippetsDefault id="defaultNavbarComp" />
+                <SpinnerSnippetsDefault id="defaultNavbarComp" />
+              </div>
+            </transition>
+            <!-- code snippet end -->
+          </section>
+          <!-- End default -->
+          <!-- start colors-->
+          <section id="defaultNavbar" class="w-full">
+            <HeadersSubHeading>
+              <template v-slot:subHeader>Colors</template>
+              <template v-slot:code>
+                <UtilsShowCodeButton
+                  v-if="!colors_spinner"
+                  @click="colors_spinner = true"
+                ></UtilsShowCodeButton>
+                <UtilsHideCodeButton
+                  v-else
+                  @click="colors_spinner = false"
+                ></UtilsHideCodeButton>
+              </template>
+            </HeadersSubHeading>
+            <UtilsComponentPad>
+              <SpinnerColors />
+            </UtilsComponentPad>
+            <!-- code snippet -->
+            <transition name="fadeSnippet">
+              <div v-show="colors_spinner" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+                <div class="flex justify-between px-2 pt-2">
+                  <div>
+                    HTML
+                  </div>
+                  <div>
+                    <UtilsCopyButton
+                    @click="copyToClipboard('defaultNavbarComp')"
+                  ></UtilsCopyButton>
+                  </div>
+                </div>
+                <SpinnerSnippetsDefault id="defaultNavbarComp" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
           <!-- End  -->
-                  
+          <!-- start Size-->
+          <section id="defaultNavbar" class="w-full">
+            <HeadersSubHeading>
+              <template v-slot:subHeader>Size</template>
+              <template v-slot:code>
+                <UtilsShowCodeButton
+                  v-if="!Size_spinner"
+                  @click="Size_spinner = true"
+                ></UtilsShowCodeButton>
+                <UtilsHideCodeButton
+                  v-else
+                  @click="Size_spinner = false"
+                ></UtilsHideCodeButton>
+              </template>
+            </HeadersSubHeading>
+            <UtilsComponentPad>
+              <SpinnerSize />
+            </UtilsComponentPad>
+            <!-- code snippet -->
+            <transition name="fadeSnippet">
+              <div v-show="colors_spinner" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+                <div class="flex justify-between px-2 pt-2">
+                  <div>
+                    HTML
+                  </div>
+                  <div>
+                    <UtilsCopyButton
+                    @click="copyToClipboard('defaultNavbarComp')"
+                  ></UtilsCopyButton>
+                  </div>
+                </div>
+                <SpinnerSnippetsDefault id="defaultNavbarComp" />
+              </div>
+            </transition>
+            <!-- code snippet end -->
+          </section>
+          <!-- End  -->
+          <!-- start Variants-->
+          <section id="defaultNavbar" class="w-full">
+            <HeadersSubHeading>
+              <template v-slot:subHeader>Variants</template>
+              <template v-slot:code>
+                <UtilsShowCodeButton
+                  v-if="!variant_spinner"
+                  @click="variant_spinner = true"
+                ></UtilsShowCodeButton>
+                <UtilsHideCodeButton
+                  v-else
+                  @click="variant_spinner = false"
+                ></UtilsHideCodeButton>
+              </template>
+            </HeadersSubHeading>
+            <UtilsComponentPad>
+              <SpinnerVariants />
+            </UtilsComponentPad>
+            <!-- code snippet -->
+            <transition name="fadeSnippet">
+              <div v-show="colors_spinner" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+                <div class="flex justify-between px-2 pt-2">
+                  <div>
+                    HTML
+                  </div>
+                  <div>
+                    <UtilsCopyButton
+                    @click="copyToClipboard('defaultNavbarComp')"
+                  ></UtilsCopyButton>
+                  </div>
+                </div>
+                <SpinnerSnippetsVariants id="defaultNavbarComp" />
+              </div>
+            </transition>
+            <!-- code snippet end -->
+          </section>
+          <!-- End  Button-->
+          <!-- start Button-->
+          <section id="defaultNavbar" class="w-full">
+            <HeadersSubHeading>
+              <template v-slot:subHeader>Button</template>
+              <template v-slot:code>
+                <UtilsShowCodeButton
+                  v-if="!Button_spinner"
+                  @click="Button_spinner = true"
+                ></UtilsShowCodeButton>
+                <UtilsHideCodeButton
+                  v-else
+                  @click="Button_spinner = false"
+                ></UtilsHideCodeButton>
+              </template>
+            </HeadersSubHeading>
+            <UtilsComponentPad>
+              <SpinnerButton />
+            </UtilsComponentPad>
+            <!-- code snippet -->
+            <transition name="fadeSnippet">
+              <div v-show="colors_spinner" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+                <div class="flex justify-between px-2 pt-2">
+                  <div>
+                    HTML
+                  </div>
+                  <div>
+                    <UtilsCopyButton
+                    @click="copyToClipboard('defaultNavbarComp')"
+                  ></UtilsCopyButton>
+                  </div>
+                </div>
+                <SpinnerSnippetsDefault id="defaultNavbarComp" />
+              </div>
+            </transition>
+            <!-- code snippet end -->
+          </section>
+          <!-- End  Button-->
                   
            
         </div>
@@ -104,11 +251,8 @@ export default {
   data() {
     return {
       layout: "custom",
-      default_navbar: false,
-      dropdown_navbar: false,
-      searchbar_navbar: false,
-      cta_navbar: false,
-      gumroad_navbar: false,
+      default_spinner: false,
+      colors_spinner: false,
       // SCROLL
       activeScrollSection: "",
       sample: "",

@@ -12,7 +12,7 @@ html{
 
 .blurBg {
   backdrop-filter: saturate(1.5) blur(12px);
-  background-color: rgba(30, 28, 28, 0.8);
+  
 }
 ::-webkit-scrollbar {
     width: 5px;
