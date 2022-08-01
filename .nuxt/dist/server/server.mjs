@@ -1,34 +1,34 @@
 
 // --------------------
-// Request: G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/entry
+// Request: D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/entry
 // Parents: 
 // - <entry> ($id_c757eb9e)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/ohmyfetch/dist/index.mjs ($id_780217c4)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/paths.mjs ($id_2f93b0be)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/paths.mjs ($id_45a73e2c)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/css.mjs ($id_790bc42f)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/plugins/server.mjs ($id_80bc857d)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/root-component.mjs ($id_75efd87a)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/app-component.mjs ($id_70325738)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/css.mjs ($id_18c28846)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/plugins/server.mjs ($id_a2c7814b)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/root-component.mjs ($id_5821a4fb)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/app-component.mjs ($id_19f8c5c0)
 // --------------------
-const $id_55ca067f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_fb1a40bc = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/ohmyfetch/dist/index.mjs");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/paths.mjs");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/paths.mjs");
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/css.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/css.mjs");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/plugins/server.mjs");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/plugins/server.mjs");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/root-component.mjs");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/root-component.mjs");
 
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/app-component.mjs");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/app-component.mjs");
 
 if (!globalThis.$fetch) {
   globalThis.$fetch = __vite_ssr_import_1__.$fetch.create({
@@ -93,7 +93,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // --------------------
 // Request: /node_modules/vue/dist/vue.cjs.js
 // Parents: 
-// - G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/entry ($id_55ca067f)
+// - D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/entry ($id_fb1a40bc)
 // - /node_modules/nuxt/dist/app/nuxt.mjs ($id_e069d411)
 // - /node_modules/nuxt/dist/app/composables/component.mjs ($id_53345950)
 // - /node_modules/nuxt/dist/app/composables/asyncData.mjs ($id_d5b6a221)
@@ -103,7 +103,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt/dist/app/composables/cookie.mjs ($id_511b441d)
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_04ea9504)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/components.plugin.mjs ($id_df08b929)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/components.plugin.mjs ($id_50d79120)
 // - /node_modules/@vueuse/head/dist/index.mjs ($id_c032264e)
 // - /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs ($id_e6f12003)
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_a2650341)
@@ -114,7 +114,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt/dist/app/components/utils.mjs ($id_69c52686)
 // - /pages/About.vue?macro=true ($id_b79d0c53)
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/layouts.mjs ($id_21f18624)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/layouts.mjs ($id_ec7d1029)
 // - /components/Utils/Toast.vue ($id_1423e7ad)
 // - /components/Header.vue ($id_4e284fc3)
 // - /components/Footer.vue ($id_f3d8f325)
@@ -347,6 +347,8 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /components/Timeline/Snippets/Default.vue ($id_cd677584)
 // - /components/Timeline/Icon.vue ($id_80cc1848)
 // - /components/Timeline/Snippets/Icon.vue ($id_9e938897)
+// - /components/Timeline/Avatar.vue ($id_dd4a08d4)
+// - /components/Timeline/Snippets/Avatar.vue ($id_d79aa0fc)
 // - /pages/timeline.vue?macro=true ($id_bdb4cda0)
 // - /components/Toast/Default.vue ($id_cd57beb8)
 // - /components/Toast/Snippets/Default.vue ($id_0edc06f2)
@@ -391,10 +393,10 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /pages/timeline.vue ($id_4c08ad81)
 // - /pages/toast.vue ($id_0830445b)
 // - /pages/typography.vue ($id_b670e6ed)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/dist.plugin.a7948c32.mjs ($id_8479a5fe)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/dist.plugin.14633d17.mjs ($id_db5b3053)
 // - /node_modules/nuxt/dist/app/compat/capi.mjs ($id_0c5717a4)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs ($id_49d4941d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs ($id_e78a68e0)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
@@ -404,7 +406,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 
 // --------------------
 const $id_60f0615f = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/vue/dist/vue.cjs.js")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/vue/dist/vue.cjs.js")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -413,19 +415,19 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/vue/dist/vue.cjs.js\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/vue/dist/vue.cjs.js\".")
   })
 
 
 // --------------------
 // Request: /node_modules/ohmyfetch/dist/index.mjs
 // Parents: 
-// - G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/entry ($id_55ca067f)
+// - D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/entry ($id_fb1a40bc)
 // Dependencies: 
 
 // --------------------
 const $id_780217c4 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/ohmyfetch/dist/index.mjs")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/ohmyfetch/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -434,18 +436,18 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/ohmyfetch/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/ohmyfetch/dist/index.mjs\".")
   })
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/paths.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/paths.mjs
 // Parents: 
-// - G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/entry ($id_55ca067f)
+// - D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/entry ($id_fb1a40bc)
 // Dependencies: 
 // - /node_modules/ufo/dist/index.mjs ($id_614de060)
 // --------------------
-const $id_2f93b0be = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_45a73e2c = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/ufo/dist/index.mjs");
 
 const appConfig = {"head":{"charset":"utf-8","viewport":"width=device-width, initial-scale=1","meta":[],"link":[{"href":"https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/themes/prism-tomorrow.min.css","crossorigin":"anonymous","referrerpolicy":"no-referrer","rel":"stylesheet"}],"style":[],"script":[{"src":"https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/prism.min.js","data-manual":true},{"src":"https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/plugins/normalize-whitespace/prism-normalize-whitespace.min.js","data-manual":true}]},"baseURL":"/","buildAssetsDir":"/_nuxt/","assetsPath":{},"cdnURL":""}
@@ -466,7 +468,7 @@ Object.defineProperty(__vite_ssr_exports__, "publicAssetsURL", { enumerable: tru
 // --------------------
 // Request: /node_modules/ufo/dist/index.mjs
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/paths.mjs ($id_2f93b0be)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/paths.mjs ($id_45a73e2c)
 // - /node_modules/nuxt/dist/app/composables/router.mjs ($id_db4d90a8)
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
@@ -474,7 +476,7 @@ Object.defineProperty(__vite_ssr_exports__, "publicAssetsURL", { enumerable: tru
 
 // --------------------
 const $id_614de060 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/ufo/dist/index.mjs")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/ufo/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -483,14 +485,14 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/ufo/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/ufo/dist/index.mjs\".")
   })
 
 
 // --------------------
 // Request: /node_modules/nuxt/dist/app/index.mjs
 // Parents: 
-// - G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/entry ($id_55ca067f)
+// - D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/entry ($id_fb1a40bc)
 // - /node_modules/nuxt/dist/app/composables/asyncData.mjs ($id_d5b6a221)
 // - /node_modules/nuxt/dist/app/composables/hydrate.mjs ($id_0063df1b)
 // - /node_modules/nuxt/dist/app/composables/state.mjs ($id_7d872108)
@@ -507,7 +509,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs ($id_49d4941d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs ($id_e78a68e0)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/nuxt.mjs ($id_e069d411)
 // - /node_modules/nuxt/dist/app/composables/index.mjs ($id_b067a79a)
@@ -702,7 +704,7 @@ function defineGetter(obj, key, val) {
 
 // --------------------
 const $id_a2c811c4 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/hookable/dist/index.mjs")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/hookable/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -711,7 +713,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/hookable/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/hookable/dist/index.mjs\".")
   })
 
 
@@ -723,7 +725,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
 
 // --------------------
 const $id_a569ca2d = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/unctx/dist/index.mjs")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/unctx/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -732,7 +734,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/unctx/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/unctx/dist/index.mjs\".")
   })
 
 
@@ -864,7 +866,7 @@ Object.defineProperty(__vite_ssr_exports__, "legacyPlugin", { enumerable: true, 
 
 // --------------------
 const $id_39e12da7 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/unenv/runtime/mock/proxy.mjs")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/unenv/runtime/mock/proxy.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -873,7 +875,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/unenv/runtime/mock/proxy.mjs\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/unenv/runtime/mock/proxy.mjs\".")
   })
 
 
@@ -1010,7 +1012,7 @@ Object.defineProperty(__vite_ssr_exports__, "defineNuxtComponent", { enumerable:
 
 // --------------------
 const $id_f9a4a698 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/vue-router/dist/vue-router.cjs.js")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/vue-router/dist/vue-router.cjs.js")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1019,7 +1021,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/vue-router/dist/vue-router.cjs.js\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/vue-router/dist/vue-router.cjs.js\".")
   })
 
 
@@ -1341,7 +1343,7 @@ Object.defineProperty(__vite_ssr_exports__, "useLazyFetch", { enumerable: true, 
 
 // --------------------
 const $id_b1b82cf3 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/ohash/dist/index.mjs")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/ohash/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1350,7 +1352,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/ohash/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/ohash/dist/index.mjs\".")
   })
 
 
@@ -1443,7 +1445,7 @@ function writeServerCookie(event, name, value, opts = {}) {
 
 // --------------------
 const $id_f4975261 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/cookie-es/dist/index.mjs")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/cookie-es/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1452,7 +1454,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/cookie-es/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/cookie-es/dist/index.mjs\".")
   })
 
 
@@ -1466,7 +1468,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
 
 // --------------------
 const $id_57d7ded6 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/h3/dist/index.mjs")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/h3/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1475,7 +1477,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/h3/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/h3/dist/index.mjs\".")
   })
 
 
@@ -1487,7 +1489,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
 
 // --------------------
 const $id_03d15ecd = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/destr/dist/index.mjs")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/destr/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1496,7 +1498,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/destr/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/destr/dist/index.mjs\".")
   })
 
 
@@ -1762,7 +1764,7 @@ __vite_ssr_exports__.default = defineNuxtLink({ componentName: "NuxtLink" });
 // Request: /node_modules/nuxt/dist/head/runtime/index.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs ($id_49d4941d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs ($id_e78a68e0)
 // Dependencies: 
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_04ea9504)
 // --------------------
@@ -1812,7 +1814,7 @@ Object.defineProperty(__vite_ssr_exports__, "useMeta", { enumerable: true, confi
 
 // --------------------
 const $id_852b06a2 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/@vue/shared/dist/shared.cjs.js")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/@vue/shared/dist/shared.cjs.js")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1821,18 +1823,18 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/@vue/shared/dist/shared.cjs.js\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/@vue/shared/dist/shared.cjs.js\".")
   })
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/css.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/css.mjs
 // Parents: 
-// - G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/entry ($id_55ca067f)
+// - D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/entry ($id_fb1a40bc)
 // Dependencies: 
 // - /assets/css/tailwind.css ($id_f75548e1)
 // --------------------
-const $id_790bc42f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_18c28846 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.css");
 ;
 }
@@ -1841,31 +1843,31 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.cs
 // --------------------
 // Request: /assets/css/tailwind.css
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/css.mjs ($id_790bc42f)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/css.mjs ($id_18c28846)
 // Dependencies: 
 
 // --------------------
 const $id_f75548e1 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap\");\n/*! tailwindcss v3.1.6 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[multiple],[type=date],[type=datetime-local],[type=email],[type=month],[type=number],[type=password],[type=search],[type=tel],[type=text],[type=time],[type=url],[type=week],select,textarea{--tw-shadow:0 0 #0000;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;border-color:#6b7280;border-radius:0;border-width:1px;font-size:1rem;line-height:1.5rem;padding:.5rem .75rem}[multiple]:focus,[type=date]:focus,[type=datetime-local]:focus,[type=email]:focus,[type=month]:focus,[type=number]:focus,[type=password]:focus,[type=search]:focus,[type=tel]:focus,[type=text]:focus,[type=time]:focus,[type=url]:focus,[type=week]:focus,select:focus,textarea:focus{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);border-color:#2563eb;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);outline:2px solid transparent;outline-offset:2px}input::-moz-placeholder,textarea::-moz-placeholder{color:#6b7280;opacity:1}input::placeholder,textarea::placeholder{color:#6b7280;opacity:1}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-date-and-time-value{min-height:1.5em}::-webkit-datetime-edit,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-meridiem-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-year-field{padding-bottom:0;padding-top:0}select{color-adjust:exact;background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3E%3C/svg%3E\");background-position:right .5rem center;background-repeat:no-repeat;background-size:1.5em 1.5em;padding-right:2.5rem;-webkit-print-color-adjust:exact;print-color-adjust:exact}[multiple]{color-adjust:unset;background-image:none;background-position:0 0;background-repeat:unset;background-size:initial;padding-right:.75rem;-webkit-print-color-adjust:unset;print-color-adjust:unset}[type=checkbox],[type=radio]{color-adjust:exact;--tw-shadow:0 0 #0000;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;background-origin:border-box;border-color:#6b7280;border-width:1px;color:#2563eb;display:inline-block;flex-shrink:0;height:1rem;padding:0;-webkit-print-color-adjust:exact;print-color-adjust:exact;-webkit-user-select:none;-moz-user-select:none;user-select:none;vertical-align:middle;width:1rem}[type=checkbox]{border-radius:0}[type=radio]{border-radius:100%}[type=checkbox]:focus,[type=radio]:focus{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:2px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);outline:2px solid transparent;outline-offset:2px}[type=checkbox]:checked,[type=radio]:checked{background-color:currentColor;background-position:50%;background-repeat:no-repeat;background-size:100% 100%;border-color:transparent}[type=checkbox]:checked{background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.207 4.793a1 1 0 0 1 0 1.414l-5 5a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L6.5 9.086l4.293-4.293a1 1 0 0 1 1.414 0z'/%3E%3C/svg%3E\")}[type=radio]:checked{background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='8' cy='8' r='3'/%3E%3C/svg%3E\")}[type=checkbox]:checked:focus,[type=checkbox]:checked:hover,[type=radio]:checked:focus,[type=radio]:checked:hover{background-color:currentColor;border-color:transparent}[type=checkbox]:indeterminate{background-color:currentColor;background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3E%3Cpath stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3E%3C/svg%3E\");background-position:50%;background-repeat:no-repeat;background-size:100% 100%;border-color:transparent}[type=checkbox]:indeterminate:focus,[type=checkbox]:indeterminate:hover{background-color:currentColor;border-color:transparent}[type=file]{background:unset;border-color:inherit;border-radius:0;border-width:0;font-size:unset;line-height:inherit;padding:0}[type=file]:focus{outline:1px solid ButtonText;outline:1px auto -webkit-focus-ring-color}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.top-0{top:0}.top-4{top:1rem}.right-4{right:1rem}.-left-2{left:-.5rem}.-top-2{top:-.5rem}.-right-2{right:-.5rem}.-bottom-2{bottom:-.5rem}.-right-1{right:-.25rem}.-bottom-1{bottom:-.25rem}.-right-3{right:-.75rem}.right-0{right:0}.bottom-0{bottom:0}.-right-0{right:0}.-top-0{top:0}.-bottom-0{bottom:0}.-top-1{top:-.25rem}.-top-3{top:-.75rem}.left-0{left:0}.left-3{left:.75rem}.-left-2\\.5{left:-.625rem}.-top-8{top:-2rem}.-top-20{top:-5rem}.z-10{z-index:10}.z-40{z-index:40}.z-20{z-index:20}.col-span-2{grid-column:span 2/span 2}.my-4{margin-bottom:1rem;margin-top:1rem}.mb-6{margin-bottom:1.5rem}.mr-4{margin-right:1rem}.mt-20{margin-top:5rem}.mt-6{margin-top:1.5rem}.mt-4{margin-top:1rem}.mt-32{margin-top:8rem}.mt-10{margin-top:2.5rem}.mt-40{margin-top:10rem}.ml-2{margin-left:.5rem}.ml-1{margin-left:.25rem}.mr-1{margin-right:.25rem}.mr-2{margin-right:.5rem}.mb-2{margin-bottom:.5rem}.mt-2{margin-top:.5rem}.mt-1{margin-top:.25rem}.mb-3{margin-bottom:.75rem}.mt-3{margin-top:.75rem}.ml-4{margin-left:1rem}.mb-1{margin-bottom:.25rem}.mt-12{margin-top:3rem}.-mt-14{margin-top:-3.5rem}.mt-8{margin-top:2rem}.mt-28{margin-top:7rem}.mb-4{margin-bottom:1rem}.-mb-40{margin-bottom:-10rem}.-mb-16{margin-bottom:-4rem}.block{display:block}.flex{display:flex}.inline-flex{display:inline-flex}.table{display:table}.grid{display:grid}.contents{display:contents}.hidden{display:none}.h-28{height:7rem}.h-6{height:1.5rem}.h-16{height:4rem}.h-screen{height:100vh}.h-full{height:100%}.h-2{height:.5rem}.h-5{height:1.25rem}.h-4{height:1rem}.h-10{height:2.5rem}.h-9{height:2.25rem}.h-3{height:.75rem}.h-8{height:2rem}.h-2\\.5{height:.625rem}.h-12{height:3rem}.h-14{height:3.5rem}.h-3\\.5{height:.875rem}.h-20{height:5rem}.h-11{height:2.75rem}.h-1\\.5{height:.375rem}.h-1{height:.25rem}.h-48{height:12rem}.h-7{height:1.75rem}.h-1\\/2{height:50%}.h-64{height:16rem}.h-4\\/5{height:80%}.h-1\\/5{height:20%}.h-24{height:6rem}.h-96{height:24rem}.h-1\\/3{height:33.333333%}.h-40{height:10rem}.h-56{height:14rem}.h-36{height:9rem}.min-h-screen{min-height:100vh}.w-full{width:100%}.w-56{width:14rem}.w-6{width:1.5rem}.w-40{width:10rem}.w-2{width:.5rem}.w-fit{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.w-5{width:1.25rem}.w-4{width:1rem}.w-10{width:2.5rem}.w-9{width:2.25rem}.w-3{width:.75rem}.w-8{width:2rem}.w-2\\.5{width:.625rem}.w-12{width:3rem}.w-14{width:3.5rem}.w-3\\.5{width:.875rem}.w-16{width:4rem}.w-20{width:5rem}.w-1\\/3{width:33.333333%}.w-11{width:2.75rem}.w-1\\.5{width:.375rem}.w-1{width:.25rem}.w-3\\/5{width:60%}.w-1\\/2{width:50%}.w-3\\/4{width:75%}.w-24{width:6rem}.w-28{width:7rem}.w-7{width:1.75rem}.w-2\\/3{width:66.666667%}.w-72{width:18rem}.w-60{width:15rem}.w-64{width:16rem}.w-auto{width:auto}.w-1\\/4{width:25%}.w-36{width:9rem}.w-96{width:24rem}.w-80{width:20rem}.flex-1{flex:1 1 0%}.-translate-y-12{--tw-translate-y:-3rem}.-translate-y-12,.-translate-y-20{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-translate-y-20{--tw-translate-y:-5rem}.-translate-y-5{--tw-translate-y:-1.25rem}.-translate-y-5,.rotate-2{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.rotate-2{--tw-rotate:2deg}.rotate-180{--tw-rotate:180deg}.-rotate-90,.rotate-180{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-rotate-90{--tw-rotate:-90deg}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.cursor-text{cursor:text}.grid-flow-row{grid-auto-flow:row}.grid-cols-5{grid-template-columns:repeat(5,minmax(0,1fr))}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-rows-5{grid-template-rows:repeat(5,minmax(0,1fr))}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.justify-around{justify-content:space-around}.gap-3{gap:.75rem}.gap-1{gap:.25rem}.gap-2{gap:.5rem}.gap-4{gap:1rem}.gap-10{gap:2.5rem}.gap-y-6{row-gap:1.5rem}.gap-y-8{row-gap:2rem}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.5rem*var(--tw-space-y-reverse));margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)))}.space-x-5>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.25rem*var(--tw-space-x-reverse))}.space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.5rem*var(--tw-space-x-reverse))}.space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.25rem*var(--tw-space-y-reverse));margin-top:calc(.25rem*(1 - var(--tw-space-y-reverse)))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1rem*var(--tw-space-y-reverse));margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.75rem*var(--tw-space-y-reverse));margin-top:calc(.75rem*(1 - var(--tw-space-y-reverse)))}.space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1rem*var(--tw-space-x-reverse))}.space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.5rem*var(--tw-space-x-reverse))}.space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1.5rem*var(--tw-space-y-reverse));margin-top:calc(1.5rem*(1 - var(--tw-space-y-reverse)))}.-space-x-3>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(-.75rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(-.75rem*var(--tw-space-x-reverse))}.space-x-1>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.25rem*var(--tw-space-x-reverse))}.-space-x-px>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(-1px*(1 - var(--tw-space-x-reverse)));margin-right:calc(-1px*var(--tw-space-x-reverse))}.space-x-0>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(0px*(1 - var(--tw-space-x-reverse)));margin-right:calc(0px*var(--tw-space-x-reverse))}.space-x-3>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.75rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.75rem*var(--tw-space-x-reverse))}.space-x-8>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(2rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(2rem*var(--tw-space-x-reverse))}.space-y-16>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(4rem*var(--tw-space-y-reverse));margin-top:calc(4rem*(1 - var(--tw-space-y-reverse)))}.-space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(-.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(-.5rem*var(--tw-space-x-reverse))}.-space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(-.25rem*var(--tw-space-y-reverse));margin-top:calc(-.25rem*(1 - var(--tw-space-y-reverse)))}.divide-y>:not([hidden])~:not([hidden]){--tw-divide-y-reverse:0;border-bottom-width:calc(1px*var(--tw-divide-y-reverse));border-top-width:calc(1px*(1 - var(--tw-divide-y-reverse)))}.divide-gray-700>:not([hidden])~:not([hidden]){--tw-divide-opacity:1;border-color:rgb(55 65 81/var(--tw-divide-opacity))}.divide-neutral-700>:not([hidden])~:not([hidden]){--tw-divide-opacity:1;border-color:rgb(64 64 64/var(--tw-divide-opacity))}.overflow-hidden{overflow:hidden}.overflow-y-auto{overflow-y:auto}.overflow-x-hidden{overflow-x:hidden}.overflow-y-hidden{overflow-y:hidden}.rounded-lg{border-radius:.5rem}.rounded{border-radius:.25rem}.rounded-md{border-radius:.375rem}.rounded-full{border-radius:9999px}.rounded-2xl{border-radius:1rem}.rounded-sm{border-radius:.125rem}.rounded-xl{border-radius:.75rem}.rounded-3xl{border-radius:1.5rem}.rounded-l-lg{border-bottom-left-radius:.5rem;border-top-left-radius:.5rem}.rounded-r-lg{border-bottom-right-radius:.5rem;border-top-right-radius:.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-0{border-width:0}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-r{border-right-width:1px}.border-l-2{border-left-width:2px}.border-t-2{border-top-width:2px}.border-b-2{border-bottom-width:2px}.border-l{border-left-width:1px}.border-dashed{border-style:dashed}.border-neutral-700{--tw-border-opacity:1;border-color:rgb(64 64 64/var(--tw-border-opacity))}.border-zinc-900{--tw-border-opacity:1;border-color:rgb(24 24 27/var(--tw-border-opacity))}.border-\\[\\#0A0C25\\]{--tw-border-opacity:1;border-color:rgb(10 12 37/var(--tw-border-opacity))}.border-gray-900{--tw-border-opacity:1;border-color:rgb(17 24 39/var(--tw-border-opacity))}.border-black{--tw-border-opacity:1;border-color:rgb(0 0 0/var(--tw-border-opacity))}.border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81/var(--tw-border-opacity))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219/var(--tw-border-opacity))}.border-sky-700{--tw-border-opacity:1;border-color:rgb(3 105 161/var(--tw-border-opacity))}.border-emerald-700{--tw-border-opacity:1;border-color:rgb(4 120 87/var(--tw-border-opacity))}.border-amber-700{--tw-border-opacity:1;border-color:rgb(180 83 9/var(--tw-border-opacity))}.border-rose-700{--tw-border-opacity:1;border-color:rgb(190 18 60/var(--tw-border-opacity))}.border-slate-900{--tw-border-opacity:1;border-color:rgb(15 23 42/var(--tw-border-opacity))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255/var(--tw-border-opacity))}.border-gray-400{--tw-border-opacity:1;border-color:rgb(156 163 175/var(--tw-border-opacity))}.border-cyan-500{--tw-border-opacity:1;border-color:rgb(6 182 212/var(--tw-border-opacity))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235/var(--tw-border-opacity))}.border-sky-600{--tw-border-opacity:1;border-color:rgb(2 132 199/var(--tw-border-opacity))}.border-emerald-600{--tw-border-opacity:1;border-color:rgb(5 150 105/var(--tw-border-opacity))}.border-amber-600{--tw-border-opacity:1;border-color:rgb(217 119 6/var(--tw-border-opacity))}.border-rose-600{--tw-border-opacity:1;border-color:rgb(225 29 72/var(--tw-border-opacity))}.border-gray-600{--tw-border-opacity:1;border-color:rgb(75 85 99/var(--tw-border-opacity))}.border-pink-500{--tw-border-opacity:1;border-color:rgb(236 72 153/var(--tw-border-opacity))}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246/var(--tw-border-opacity))}.border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55/var(--tw-border-opacity))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240/var(--tw-border-opacity))}.border-slate-600{--tw-border-opacity:1;border-color:rgb(71 85 105/var(--tw-border-opacity))}.border-zinc-600{--tw-border-opacity:1;border-color:rgb(82 82 91/var(--tw-border-opacity))}.border-zinc-200{--tw-border-opacity:1;border-color:rgb(228 228 231/var(--tw-border-opacity))}.border-indigo-500{--tw-border-opacity:1;border-color:rgb(99 102 241/var(--tw-border-opacity))}.border-sky-500{--tw-border-opacity:1;border-color:rgb(14 165 233/var(--tw-border-opacity))}.border-blue-500{--tw-border-opacity:1;border-color:rgb(59 130 246/var(--tw-border-opacity))}.border-green-200{--tw-border-opacity:1;border-color:rgb(187 247 208/var(--tw-border-opacity))}.border-sky-200{--tw-border-opacity:1;border-color:rgb(186 230 253/var(--tw-border-opacity))}.border-yellow-200{--tw-border-opacity:1;border-color:rgb(254 240 138/var(--tw-border-opacity))}.border-red-200{--tw-border-opacity:1;border-color:rgb(254 202 202/var(--tw-border-opacity))}.border-cyan-800{--tw-border-opacity:1;border-color:rgb(21 94 117/var(--tw-border-opacity))}.border-b-gray-300{--tw-border-opacity:1;border-bottom-color:rgb(209 213 219/var(--tw-border-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.bg-red-100{--tw-bg-opacity:1;background-color:rgb(254 226 226/var(--tw-bg-opacity))}.bg-neutral-50{--tw-bg-opacity:1;background-color:rgb(250 250 250/var(--tw-bg-opacity))}.bg-\\[\\#0A0C25\\]{--tw-bg-opacity:1;background-color:rgb(10 12 37/var(--tw-bg-opacity))}.bg-sky-200{--tw-bg-opacity:1;background-color:rgb(186 230 253/var(--tw-bg-opacity))}.bg-sky-300{--tw-bg-opacity:1;background-color:rgb(125 211 252/var(--tw-bg-opacity))}.bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.bg-gray-600{--tw-bg-opacity:1;background-color:rgb(75 85 99/var(--tw-bg-opacity))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity))}.bg-gray-200{--tw-bg-opacity:1;background-color:rgb(229 231 235/var(--tw-bg-opacity))}.bg-sky-100{--tw-bg-opacity:1;background-color:rgb(224 242 254/var(--tw-bg-opacity))}.bg-zinc-100{--tw-bg-opacity:1;background-color:rgb(244 244 245/var(--tw-bg-opacity))}.bg-gray-300{--tw-bg-opacity:1;background-color:rgb(209 213 219/var(--tw-bg-opacity))}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229/var(--tw-bg-opacity))}.bg-amber-100{--tw-bg-opacity:1;background-color:rgb(254 243 199/var(--tw-bg-opacity))}.bg-rose-100{--tw-bg-opacity:1;background-color:rgb(255 228 230/var(--tw-bg-opacity))}.bg-yellow-400{--tw-bg-opacity:1;background-color:rgb(250 204 21/var(--tw-bg-opacity))}.bg-cyan-600{--tw-bg-opacity:1;background-color:rgb(8 145 178/var(--tw-bg-opacity))}.bg-violet-500{--tw-bg-opacity:1;background-color:rgb(139 92 246/var(--tw-bg-opacity))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254/var(--tw-bg-opacity))}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246/var(--tw-bg-opacity))}.bg-pink-300{--tw-bg-opacity:1;background-color:rgb(249 168 212/var(--tw-bg-opacity))}.bg-rose-500{--tw-bg-opacity:1;background-color:rgb(244 63 94/var(--tw-bg-opacity))}.bg-gray-500{--tw-bg-opacity:1;background-color:rgb(107 114 128/var(--tw-bg-opacity))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94/var(--tw-bg-opacity))}.bg-cyan-500{--tw-bg-opacity:1;background-color:rgb(6 182 212/var(--tw-bg-opacity))}.bg-yellow-500{--tw-bg-opacity:1;background-color:rgb(234 179 8/var(--tw-bg-opacity))}.bg-green-400{--tw-bg-opacity:1;background-color:rgb(74 222 128/var(--tw-bg-opacity))}.bg-purple-400{--tw-bg-opacity:1;background-color:rgb(192 132 252/var(--tw-bg-opacity))}.bg-indigo-300{--tw-bg-opacity:1;background-color:rgb(165 180 252/var(--tw-bg-opacity))}.bg-red-400{--tw-bg-opacity:1;background-color:rgb(248 113 113/var(--tw-bg-opacity))}.bg-fuchsia-600{--tw-bg-opacity:1;background-color:rgb(192 38 211/var(--tw-bg-opacity))}.bg-sky-400{--tw-bg-opacity:1;background-color:rgb(56 189 248/var(--tw-bg-opacity))}.bg-amber-400{--tw-bg-opacity:1;background-color:rgb(251 191 36/var(--tw-bg-opacity))}.bg-teal-400{--tw-bg-opacity:1;background-color:rgb(45 212 191/var(--tw-bg-opacity))}.bg-red-500{--tw-bg-opacity:1;background-color:rgb(239 68 68/var(--tw-bg-opacity))}.bg-yellow-200{--tw-bg-opacity:1;background-color:rgb(254 240 138/var(--tw-bg-opacity))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity))}.bg-gray-400{--tw-bg-opacity:1;background-color:rgb(156 163 175/var(--tw-bg-opacity))}.bg-blue-400{--tw-bg-opacity:1;background-color:rgb(96 165 250/var(--tw-bg-opacity))}.bg-teal-300{--tw-bg-opacity:1;background-color:rgb(94 234 212/var(--tw-bg-opacity))}.bg-emerald-400{--tw-bg-opacity:1;background-color:rgb(52 211 153/var(--tw-bg-opacity))}.bg-amber-300{--tw-bg-opacity:1;background-color:rgb(252 211 77/var(--tw-bg-opacity))}.bg-rose-300{--tw-bg-opacity:1;background-color:rgb(253 164 175/var(--tw-bg-opacity))}.bg-red-300{--tw-bg-opacity:1;background-color:rgb(252 165 165/var(--tw-bg-opacity))}.bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.bg-yellow-100{--tw-bg-opacity:1;background-color:rgb(254 249 195/var(--tw-bg-opacity))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity))}.bg-\\[\\#ff6d2d\\]{--tw-bg-opacity:1;background-color:rgb(255 109 45/var(--tw-bg-opacity))}.bg-slate-600{--tw-bg-opacity:1;background-color:rgb(71 85 105/var(--tw-bg-opacity))}.bg-zinc-600{--tw-bg-opacity:1;background-color:rgb(82 82 91/var(--tw-bg-opacity))}.bg-neutral-600{--tw-bg-opacity:1;background-color:rgb(82 82 82/var(--tw-bg-opacity))}.bg-stone-600{--tw-bg-opacity:1;background-color:rgb(87 83 78/var(--tw-bg-opacity))}.bg-red-600{--tw-bg-opacity:1;background-color:rgb(220 38 38/var(--tw-bg-opacity))}.bg-orange-600{--tw-bg-opacity:1;background-color:rgb(234 88 12/var(--tw-bg-opacity))}.bg-amber-600{--tw-bg-opacity:1;background-color:rgb(217 119 6/var(--tw-bg-opacity))}.bg-yellow-600{--tw-bg-opacity:1;background-color:rgb(202 138 4/var(--tw-bg-opacity))}.bg-lime-600{--tw-bg-opacity:1;background-color:rgb(101 163 13/var(--tw-bg-opacity))}.bg-green-600{--tw-bg-opacity:1;background-color:rgb(22 163 74/var(--tw-bg-opacity))}.bg-emerald-600{--tw-bg-opacity:1;background-color:rgb(5 150 105/var(--tw-bg-opacity))}.bg-teal-600{--tw-bg-opacity:1;background-color:rgb(13 148 136/var(--tw-bg-opacity))}.bg-sky-600{--tw-bg-opacity:1;background-color:rgb(2 132 199/var(--tw-bg-opacity))}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235/var(--tw-bg-opacity))}.bg-indigo-600{--tw-bg-opacity:1;background-color:rgb(79 70 229/var(--tw-bg-opacity))}.bg-violet-600{--tw-bg-opacity:1;background-color:rgb(124 58 237/var(--tw-bg-opacity))}.bg-pink-600{--tw-bg-opacity:1;background-color:rgb(219 39 119/var(--tw-bg-opacity))}.bg-rose-600{--tw-bg-opacity:1;background-color:rgb(225 29 72/var(--tw-bg-opacity))}.bg-slate-400{--tw-bg-opacity:1;background-color:rgb(148 163 184/var(--tw-bg-opacity))}.bg-zinc-400{--tw-bg-opacity:1;background-color:rgb(161 161 170/var(--tw-bg-opacity))}.bg-neutral-400{--tw-bg-opacity:1;background-color:rgb(163 163 163/var(--tw-bg-opacity))}.bg-stone-400{--tw-bg-opacity:1;background-color:rgb(168 162 158/var(--tw-bg-opacity))}.bg-orange-400{--tw-bg-opacity:1;background-color:rgb(251 146 60/var(--tw-bg-opacity))}.bg-yellow-300{--tw-bg-opacity:1;background-color:rgb(253 224 71/var(--tw-bg-opacity))}.bg-lime-400{--tw-bg-opacity:1;background-color:rgb(163 230 53/var(--tw-bg-opacity))}.bg-cyan-400{--tw-bg-opacity:1;background-color:rgb(34 211 238/var(--tw-bg-opacity))}.bg-indigo-400{--tw-bg-opacity:1;background-color:rgb(129 140 248/var(--tw-bg-opacity))}.bg-violet-400{--tw-bg-opacity:1;background-color:rgb(167 139 250/var(--tw-bg-opacity))}.bg-fuchsia-400{--tw-bg-opacity:1;background-color:rgb(232 121 249/var(--tw-bg-opacity))}.bg-pink-400{--tw-bg-opacity:1;background-color:rgb(244 114 182/var(--tw-bg-opacity))}.bg-rose-400{--tw-bg-opacity:1;background-color:rgb(251 113 133/var(--tw-bg-opacity))}.bg-zinc-50{--tw-bg-opacity:1;background-color:rgb(250 250 250/var(--tw-bg-opacity))}.bg-teal-500{--tw-bg-opacity:1;background-color:rgb(20 184 166/var(--tw-bg-opacity))}.bg-teal-800{--tw-bg-opacity:1;background-color:rgb(17 94 89/var(--tw-bg-opacity))}.bg-slate-300{--tw-bg-opacity:1;background-color:rgb(203 213 225/var(--tw-bg-opacity))}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240/var(--tw-bg-opacity))}.bg-neutral-100{--tw-bg-opacity:1;background-color:rgb(245 245 245/var(--tw-bg-opacity))}.bg-\\[\\#FAF5ED\\]{--tw-bg-opacity:1;background-color:rgb(250 245 237/var(--tw-bg-opacity))}.bg-sky-500{--tw-bg-opacity:1;background-color:rgb(14 165 233/var(--tw-bg-opacity))}.bg-blue-50{--tw-bg-opacity:1;background-color:rgb(239 246 255/var(--tw-bg-opacity))}.bg-neutral-700{--tw-bg-opacity:1;background-color:rgb(64 64 64/var(--tw-bg-opacity))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249/var(--tw-bg-opacity))}.bg-green-100{--tw-bg-opacity:1;background-color:rgb(220 252 231/var(--tw-bg-opacity))}.bg-black\\/70{background-color:rgba(0,0,0,.7)}.bg-indigo-200{--tw-bg-opacity:1;background-color:rgb(199 210 254/var(--tw-bg-opacity))}.bg-cyan-800{--tw-bg-opacity:1;background-color:rgb(21 94 117/var(--tw-bg-opacity))}.bg-opacity-70{--tw-bg-opacity:0.7}.bg-opacity-90{--tw-bg-opacity:0.9}.bg-gradient-to-br{background-image:linear-gradient(to bottom right,var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.from-sky-400{--tw-gradient-from:#38bdf8;--tw-gradient-to:rgba(56,189,248,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-rose-400{--tw-gradient-from:#fb7185;--tw-gradient-to:rgba(251,113,133,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-emerald-400{--tw-gradient-from:#34d399;--tw-gradient-to:rgba(52,211,153,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-amber-400{--tw-gradient-from:#fbbf24;--tw-gradient-to:rgba(251,191,36,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-fuchsia-400{--tw-gradient-from:#e879f9;--tw-gradient-to:rgba(232,121,249,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-blue-500{--tw-gradient-from:#3b82f6;--tw-gradient-to:rgba(59,130,246,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-pink-600{--tw-gradient-from:#db2777;--tw-gradient-to:rgba(219,39,119,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-neutral-200{--tw-gradient-from:#e5e5e5;--tw-gradient-to:hsla(0,0%,90%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-red-300{--tw-gradient-from:#fca5a5;--tw-gradient-to:hsla(0,94%,82%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.via-sky-500{--tw-gradient-to:rgba(14,165,233,0);--tw-gradient-stops:var(--tw-gradient-from),#0ea5e9,var(--tw-gradient-to)}.via-rose-500{--tw-gradient-to:rgba(244,63,94,0);--tw-gradient-stops:var(--tw-gradient-from),#f43f5e,var(--tw-gradient-to)}.via-emerald-500{--tw-gradient-to:rgba(16,185,129,0);--tw-gradient-stops:var(--tw-gradient-from),#10b981,var(--tw-gradient-to)}.via-amber-500{--tw-gradient-to:rgba(245,158,11,0);--tw-gradient-stops:var(--tw-gradient-from),#f59e0b,var(--tw-gradient-to)}.via-fuchsia-500{--tw-gradient-to:rgba(217,70,239,0);--tw-gradient-stops:var(--tw-gradient-from),#d946ef,var(--tw-gradient-to)}.via-purple-400{--tw-gradient-to:rgba(192,132,252,0);--tw-gradient-stops:var(--tw-gradient-from),#c084fc,var(--tw-gradient-to)}.to-sky-600{--tw-gradient-to:#0284c7}.to-rose-600{--tw-gradient-to:#e11d48}.to-emerald-600{--tw-gradient-to:#059669}.to-amber-600{--tw-gradient-to:#d97706}.to-fuchsia-600{--tw-gradient-to:#c026d3}.to-sky-300{--tw-gradient-to:#7dd3fc}.to-indigo-300{--tw-gradient-to:#a5b4fc}.to-teal-400{--tw-gradient-to:#2dd4bf}.to-rose-500{--tw-gradient-to:#f43f5e}.bg-clip-padding{background-clip:padding-box}.object-cover{-o-object-fit:cover;object-fit:cover}.p-3{padding:.75rem}.p-4{padding:1rem}.p-0\\.5{padding:.125rem}.p-0{padding:0}.p-2{padding:.5rem}.p-6{padding:1.5rem}.p-1{padding:.25rem}.p-10{padding:2.5rem}.p-1\\.5{padding:.375rem}.px-4{padding-left:1rem;padding-right:1rem}.py-5{padding-bottom:1.25rem;padding-top:1.25rem}.px-2{padding-left:.5rem;padding-right:.5rem}.py-1{padding-bottom:.25rem;padding-top:.25rem}.py-4{padding-bottom:1rem;padding-top:1rem}.py-2{padding-bottom:.5rem;padding-top:.5rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-32{padding-bottom:8rem;padding-top:8rem}.px-1{padding-left:.25rem;padding-right:.25rem}.px-0\\.5{padding-left:.125rem;padding-right:.125rem}.px-0{padding-left:0;padding-right:0}.px-3{padding-left:.75rem;padding-right:.75rem}.py-0\\.5{padding-bottom:.125rem;padding-top:.125rem}.py-0{padding-bottom:0;padding-top:0}.px-2\\.5{padding-left:.625rem;padding-right:.625rem}.px-1\\.5{padding-left:.375rem;padding-right:.375rem}.py-3{padding-bottom:.75rem;padding-top:.75rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-3\\.5{padding-bottom:.875rem;padding-top:.875rem}.py-1\\.5{padding-bottom:.375rem;padding-top:.375rem}.px-7{padding-left:1.75rem;padding-right:1.75rem}.px-9{padding-left:2.25rem;padding-right:2.25rem}.py-6{padding-bottom:1.5rem;padding-top:1.5rem}.py-8{padding-bottom:2rem;padding-top:2rem}.py-10{padding-bottom:2.5rem;padding-top:2.5rem}.py-20{padding-bottom:5rem;padding-top:5rem}.py-2\\.5{padding-bottom:.625rem;padding-top:.625rem}.pt-6{padding-top:1.5rem}.pt-2{padding-top:.5rem}.pb-4{padding-bottom:1rem}.pb-20{padding-bottom:5rem}.pb-32{padding-bottom:8rem}.pt-1{padding-top:.25rem}.pl-1{padding-left:.25rem}.pl-10{padding-left:2.5rem}.pt-10{padding-top:2.5rem}.pt-8{padding-top:2rem}.pl-6{padding-left:1.5rem}.pt-4{padding-top:1rem}.pl-8{padding-left:2rem}.pb-6{padding-bottom:1.5rem}.pb-3{padding-bottom:.75rem}.text-center{text-align:center}.text-right{text-align:right}.font-primary{font-family:Inter}.text-xs{font-size:.75rem}.text-tiny{font-size:.875rem}.text-xxs{font-size:.7rem}.text-base{font-size:1rem}.text-sm{font-size:.875rem}.text-2xl{font-size:1.5rem}.text-xl{font-size:1.25rem}.text-lg{font-size:1.125rem}.text-3xl{font-size:1.875rem}.text-5xl{font-size:3rem}.text-4xl{font-size:2.25rem}.text-6xl{font-size:4rem}.font-normal{font-weight:400}.font-light{font-weight:300}.font-semibold{font-weight:600}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-thin{font-weight:100}.font-extralight{font-weight:200}.font-extrabold{font-weight:800}.font-black{font-weight:900}.uppercase{text-transform:uppercase}.lowercase{text-transform:lowercase}.italic{font-style:italic}.leading-tight{line-height:1.25}.leading-none{line-height:1}.tracking-wide{letter-spacing:.025em}.tracking-wider{letter-spacing:.05em}.tracking-tight{letter-spacing:-.025em}.tracking-tighter{letter-spacing:-.05em}.tracking-normal{letter-spacing:0}.tracking-widest{letter-spacing:.1em}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85/var(--tw-text-opacity))}.text-sky-700{--tw-text-opacity:1;color:rgb(3 105 161/var(--tw-text-opacity))}.text-sky-900{--tw-text-opacity:1;color:rgb(12 74 110/var(--tw-text-opacity))}.text-sky-800{--tw-text-opacity:1;color:rgb(7 89 133/var(--tw-text-opacity))}.text-sky-500{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.text-\\[\\#0A0C25\\]{--tw-text-opacity:1;color:rgb(10 12 37/var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.text-sky-400{--tw-text-opacity:1;color:rgb(56 189 248/var(--tw-text-opacity))}.text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.text-zinc-400{--tw-text-opacity:1;color:rgb(161 161 170/var(--tw-text-opacity))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87/var(--tw-text-opacity))}.text-amber-700{--tw-text-opacity:1;color:rgb(180 83 9/var(--tw-text-opacity))}.text-rose-700{--tw-text-opacity:1;color:rgb(190 18 60/var(--tw-text-opacity))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216/var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94/var(--tw-text-opacity))}.text-cyan-500{--tw-text-opacity:1;color:rgb(6 182 212/var(--tw-text-opacity))}.text-sky-600{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105/var(--tw-text-opacity))}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6/var(--tw-text-opacity))}.text-rose-600{--tw-text-opacity:1;color:rgb(225 29 72/var(--tw-text-opacity))}.text-pink-500{--tw-text-opacity:1;color:rgb(236 72 153/var(--tw-text-opacity))}.text-blue-500{--tw-text-opacity:1;color:rgb(59 130 246/var(--tw-text-opacity))}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.text-sky-300{--tw-text-opacity:1;color:rgb(125 211 252/var(--tw-text-opacity))}.text-teal-300{--tw-text-opacity:1;color:rgb(94 234 212/var(--tw-text-opacity))}.text-teal-800{--tw-text-opacity:1;color:rgb(17 94 89/var(--tw-text-opacity))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184/var(--tw-text-opacity))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105/var(--tw-text-opacity))}.text-indigo-600{--tw-text-opacity:1;color:rgb(79 70 229/var(--tw-text-opacity))}.text-neutral-500{--tw-text-opacity:1;color:rgb(115 115 115/var(--tw-text-opacity))}.text-neutral-400{--tw-text-opacity:1;color:rgb(163 163 163/var(--tw-text-opacity))}.text-pink-600{--tw-text-opacity:1;color:rgb(219 39 119/var(--tw-text-opacity))}.text-\\[\\#2a2f3d\\]{--tw-text-opacity:1;color:rgb(42 47 61/var(--tw-text-opacity))}.text-\\[\\#ff6d2d\\]{--tw-text-opacity:1;color:rgb(255 109 45/var(--tw-text-opacity))}.text-yellow-400{--tw-text-opacity:1;color:rgb(250 204 21/var(--tw-text-opacity))}.text-green-50{--tw-text-opacity:1;color:rgb(240 253 244/var(--tw-text-opacity))}.text-yellow-500{--tw-text-opacity:1;color:rgb(234 179 8/var(--tw-text-opacity))}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68/var(--tw-text-opacity))}.text-sky-50{--tw-text-opacity:1;color:rgb(240 249 255/var(--tw-text-opacity))}.text-yellow-50{--tw-text-opacity:1;color:rgb(254 252 232/var(--tw-text-opacity))}.text-red-50{--tw-text-opacity:1;color:rgb(254 242 242/var(--tw-text-opacity))}.text-green-400{--tw-text-opacity:1;color:rgb(74 222 128/var(--tw-text-opacity))}.text-cyan-700{--tw-text-opacity:1;color:rgb(14 116 144/var(--tw-text-opacity))}.text-gray-50{--tw-text-opacity:1;color:rgb(249 250 251/var(--tw-text-opacity))}.text-teal-400{--tw-text-opacity:1;color:rgb(45 212 191/var(--tw-text-opacity))}.text-cyan-800{--tw-text-opacity:1;color:rgb(21 94 117/var(--tw-text-opacity))}.text-yellow-300{--tw-text-opacity:1;color:rgb(253 224 71/var(--tw-text-opacity))}.text-pink-100{--tw-text-opacity:1;color:rgb(252 231 243/var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.overline{-webkit-text-decoration-line:overline;text-decoration-line:overline}.line-through{-webkit-text-decoration-line:line-through;text-decoration-line:line-through}.no-underline{-webkit-text-decoration-line:none;text-decoration-line:none}.decoration-auto{text-decoration-thickness:auto}.decoration-0{text-decoration-thickness:0}.decoration-1{text-decoration-thickness:1px}.decoration-2{text-decoration-thickness:2px}.decoration-4{text-decoration-thickness:4px}.decoration-8{text-decoration-thickness:8px}.decoration-from-font{text-decoration-thickness:from-font}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.shadow,.shadow-lg{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow{--tw-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color)}.shadow-md{--tw-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-gray-300{--tw-shadow-color:#d1d5db;--tw-shadow:var(--tw-shadow-colored)}.shadow-gray-400{--tw-shadow-color:#9ca3af;--tw-shadow:var(--tw-shadow-colored)}.shadow-blue-300{--tw-shadow-color:#93c5fd;--tw-shadow:var(--tw-shadow-colored)}.shadow-red-300{--tw-shadow-color:#fca5a5;--tw-shadow:var(--tw-shadow-colored)}.shadow-gray-200{--tw-shadow-color:#e5e7eb;--tw-shadow:var(--tw-shadow-colored)}.shadow-sky-500\\/50{--tw-shadow-color:rgba(14,165,233,.5);--tw-shadow:var(--tw-shadow-colored)}.shadow-rose-500\\/40{--tw-shadow-color:rgba(244,63,94,.4);--tw-shadow:var(--tw-shadow-colored)}.shadow-emerald-500\\/50{--tw-shadow-color:rgba(16,185,129,.5);--tw-shadow:var(--tw-shadow-colored)}.shadow-amber-500\\/50{--tw-shadow-color:rgba(245,158,11,.5);--tw-shadow:var(--tw-shadow-colored)}.shadow-fuchsia-500\\/50{--tw-shadow-color:rgba(217,70,239,.5);--tw-shadow:var(--tw-shadow-colored)}.outline{outline-style:solid}.ring-2{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.ring,.ring-2{box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.ring{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.ring-indigo-400{--tw-ring-opacity:1;--tw-ring-color:rgb(129 140 248/var(--tw-ring-opacity))}.ring-green-300{--tw-ring-opacity:1;--tw-ring-color:rgb(134 239 172/var(--tw-ring-opacity))}.ring-red-300{--tw-ring-opacity:1;--tw-ring-color:rgb(252 165 165/var(--tw-ring-opacity))}.ring-sky-300{--tw-ring-opacity:1;--tw-ring-color:rgb(125 211 252/var(--tw-ring-opacity))}.ring-emerald-400{--tw-ring-opacity:1;--tw-ring-color:rgb(52 211 153/var(--tw-ring-opacity))}.ring-blue-300{--tw-ring-opacity:1;--tw-ring-color:rgb(147 197 253/var(--tw-ring-opacity))}.ring-red-400{--tw-ring-opacity:1;--tw-ring-color:rgb(248 113 113/var(--tw-ring-opacity))}.ring-green-400{--tw-ring-opacity:1;--tw-ring-color:rgb(74 222 128/var(--tw-ring-opacity))}.ring-pink-600{--tw-ring-opacity:1;--tw-ring-color:rgb(219 39 119/var(--tw-ring-opacity))}.ring-white{--tw-ring-opacity:1;--tw-ring-color:rgb(255 255 255/var(--tw-ring-opacity))}.blur{--tw-blur:blur(8px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-filter{-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-all{transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,-webkit-text-decoration-color;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,-webkit-text-decoration-color;transition-timing-function:cubic-bezier(.4,0,.2,1)}.delay-200{transition-delay:.2s}.duration-500{transition-duration:.5s}.duration-300{transition-duration:.3s}.duration-100{transition-duration:.1s}.duration-200{transition-duration:.2s}.ease-linear{transition-timing-function:linear}.ease-in{transition-timing-function:cubic-bezier(.4,0,1,1)}html{font-family:\"Inter\",sans-serif;font-family:\"Montserrat\",sans-serif}.blurBg{-webkit-backdrop-filter:saturate(1.5) blur(12px);backdrop-filter:saturate(1.5) blur(12px);background-color:rgba(30,28,28,.8)}::-webkit-scrollbar{height:12px;width:5px}::-webkit-scrollbar-track{border:1px solid #8c8c8c;border-radius:10px}::-webkit-scrollbar-thumb{background:#848484;border-radius:10px}::-webkit-scrollbar-thumb:hover{background:#909090}.no-scrollbar::-webkit-scrollbar{display:none}.no-scrollbar{-ms-overflow-style:none;scrollbar-width:none}pre[class*=language-]{border-radius:10px!important;font-size:.9rem;margin:.5em 0;overflow:auto;padding:1em}.light pre[class*=language-]{background:#f5f5f5!important;padding:1.5rem}.dark pre[class*=language-]{background:#171717!important;padding:1.5rem}.fadeSnippet-enter-active{-webkit-animation:fade-in .2s;animation:fade-in .2s}.fadeSnippet-leave-active{-webkit-animation:fade-out .2s;animation:fade-out .2s}@-webkit-keyframes fade-in{0%{transform:translateY(10px)}to{transform:translateY(0)}}@keyframes fade-in{0%{transform:translateY(10px)}to{transform:translateY(0)}}@-webkit-keyframes fade-out{0%{transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}@keyframes fade-out{0%{transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}.placeholder\\:text-gray-400::-moz-placeholder{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.placeholder\\:text-gray-400::placeholder{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.hover\\:mr-2:hover{margin-right:.5rem}.hover\\:block:hover{display:block}.hover\\:h-10:hover{height:2.5rem}.hover\\:w-10:hover{width:2.5rem}.hover\\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\\:cursor-pointer:hover{cursor:pointer}.hover\\:cursor-default:hover{cursor:default}.hover\\:border-2:hover{border-width:2px}.hover\\:border:hover{border-width:1px}.hover\\:border-\\[\\#ff6d2d\\]:hover{--tw-border-opacity:1;border-color:rgb(255 109 45/var(--tw-border-opacity))}.hover\\:border-gray-500:hover{--tw-border-opacity:1;border-color:rgb(107 114 128/var(--tw-border-opacity))}.hover\\:border-blue-500:hover{--tw-border-opacity:1;border-color:rgb(59 130 246/var(--tw-border-opacity))}.hover\\:bg-gray-200:hover{--tw-bg-opacity:1;background-color:rgb(229 231 235/var(--tw-bg-opacity))}.hover\\:bg-blue-200:hover{--tw-bg-opacity:1;background-color:rgb(191 219 254/var(--tw-bg-opacity))}.hover\\:bg-gray-800:hover{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.hover\\:bg-indigo-200:hover{--tw-bg-opacity:1;background-color:rgb(199 210 254/var(--tw-bg-opacity))}.hover\\:bg-sky-200:hover{--tw-bg-opacity:1;background-color:rgb(186 230 253/var(--tw-bg-opacity))}.hover\\:bg-teal-200:hover{--tw-bg-opacity:1;background-color:rgb(153 246 228/var(--tw-bg-opacity))}.hover\\:bg-rose-200:hover{--tw-bg-opacity:1;background-color:rgb(254 205 211/var(--tw-bg-opacity))}.hover\\:bg-red-200:hover{--tw-bg-opacity:1;background-color:rgb(254 202 202/var(--tw-bg-opacity))}.hover\\:bg-emerald-200:hover{--tw-bg-opacity:1;background-color:rgb(167 243 208/var(--tw-bg-opacity))}.hover\\:bg-yellow-200:hover{--tw-bg-opacity:1;background-color:rgb(254 240 138/var(--tw-bg-opacity))}.hover\\:bg-zinc-200:hover{--tw-bg-opacity:1;background-color:rgb(228 228 231/var(--tw-bg-opacity))}.hover\\:bg-gray-900:hover{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.hover\\:bg-\\[\\#FAF5ED\\]:hover{--tw-bg-opacity:1;background-color:rgb(250 245 237/var(--tw-bg-opacity))}.hover\\:bg-pink-500:hover{--tw-bg-opacity:1;background-color:rgb(236 72 153/var(--tw-bg-opacity))}.hover\\:bg-gray-300:hover{--tw-bg-opacity:1;background-color:rgb(209 213 219/var(--tw-bg-opacity))}.hover\\:bg-green-400:hover{--tw-bg-opacity:1;background-color:rgb(74 222 128/var(--tw-bg-opacity))}.hover\\:bg-cyan-400:hover{--tw-bg-opacity:1;background-color:rgb(34 211 238/var(--tw-bg-opacity))}.hover\\:bg-gray-700:hover{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.hover\\:bg-cyan-500:hover{--tw-bg-opacity:1;background-color:rgb(6 182 212/var(--tw-bg-opacity))}.hover\\:bg-gray-100:hover{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity))}.hover\\:bg-sky-600:hover{--tw-bg-opacity:1;background-color:rgb(2 132 199/var(--tw-bg-opacity))}.hover\\:bg-sky-700:hover{--tw-bg-opacity:1;background-color:rgb(3 105 161/var(--tw-bg-opacity))}.hover\\:bg-\\[\\#FF90E8\\]:hover{--tw-bg-opacity:1;background-color:rgb(255 144 232/var(--tw-bg-opacity))}.hover\\:bg-zinc-50:hover{--tw-bg-opacity:1;background-color:rgb(250 250 250/var(--tw-bg-opacity))}.hover\\:bg-blue-100:hover{--tw-bg-opacity:1;background-color:rgb(219 234 254/var(--tw-bg-opacity))}.hover\\:bg-gray-50:hover{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity))}.hover\\:bg-green-100:hover{--tw-bg-opacity:1;background-color:rgb(220 252 231/var(--tw-bg-opacity))}.hover\\:bg-sky-100:hover{--tw-bg-opacity:1;background-color:rgb(224 242 254/var(--tw-bg-opacity))}.hover\\:bg-yellow-100:hover{--tw-bg-opacity:1;background-color:rgb(254 249 195/var(--tw-bg-opacity))}.hover\\:bg-red-100:hover{--tw-bg-opacity:1;background-color:rgb(254 226 226/var(--tw-bg-opacity))}.hover\\:bg-red-400:hover{--tw-bg-opacity:1;background-color:rgb(248 113 113/var(--tw-bg-opacity))}.hover\\:bg-blue-600:hover{--tw-bg-opacity:1;background-color:rgb(37 99 235/var(--tw-bg-opacity))}.hover\\:bg-amber-200:hover{--tw-bg-opacity:1;background-color:rgb(253 230 138/var(--tw-bg-opacity))}.hover\\:bg-teal-500:hover{--tw-bg-opacity:1;background-color:rgb(20 184 166/var(--tw-bg-opacity))}.hover\\:bg-cyan-900:hover{--tw-bg-opacity:1;background-color:rgb(22 78 99/var(--tw-bg-opacity))}.hover\\:bg-gradient-to-r:hover{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.hover\\:pl-0\\.5:hover{padding-left:.125rem}.hover\\:pl-0:hover{padding-left:0}.hover\\:font-semibold:hover{font-weight:600}.hover\\:text-sky-800:hover{--tw-text-opacity:1;color:rgb(7 89 133/var(--tw-text-opacity))}.hover\\:text-emerald-800:hover{--tw-text-opacity:1;color:rgb(6 95 70/var(--tw-text-opacity))}.hover\\:text-amber-800:hover{--tw-text-opacity:1;color:rgb(146 64 14/var(--tw-text-opacity))}.hover\\:text-rose-800:hover{--tw-text-opacity:1;color:rgb(159 18 57/var(--tw-text-opacity))}.hover\\:text-gray-500:hover{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.hover\\:text-\\[\\#ff6d2d\\]:hover{--tw-text-opacity:1;color:rgb(255 109 45/var(--tw-text-opacity))}.hover\\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.hover\\:text-gray-400:hover{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.hover\\:text-blue-800:hover{--tw-text-opacity:1;color:rgb(30 64 175/var(--tw-text-opacity))}.hover\\:text-sky-500:hover{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.hover\\:text-gray-100:hover{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.hover\\:text-gray-200:hover{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.hover\\:text-gray-700:hover{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.hover\\:text-gray-50:hover{--tw-text-opacity:1;color:rgb(249 250 251/var(--tw-text-opacity))}.hover\\:text-sky-700:hover{--tw-text-opacity:1;color:rgb(3 105 161/var(--tw-text-opacity))}.hover\\:text-black:hover{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.hover\\:text-zinc-700:hover{--tw-text-opacity:1;color:rgb(63 63 70/var(--tw-text-opacity))}.hover\\:text-blue-700:hover{--tw-text-opacity:1;color:rgb(29 78 216/var(--tw-text-opacity))}.hover\\:text-gray-900:hover{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.hover\\:text-green-600:hover{--tw-text-opacity:1;color:rgb(22 163 74/var(--tw-text-opacity))}.hover\\:text-sky-600:hover{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.hover\\:text-yellow-600:hover{--tw-text-opacity:1;color:rgb(202 138 4/var(--tw-text-opacity))}.hover\\:text-red-600:hover{--tw-text-opacity:1;color:rgb(220 38 38/var(--tw-text-opacity))}.hover\\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline}.hover\\:shadow-none:hover{--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000}.hover\\:shadow-inner:hover,.hover\\:shadow-none:hover{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.hover\\:shadow-inner:hover{--tw-shadow:inset 0 2px 4px 0 rgba(0,0,0,.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color)}.hover\\:shadow-gray-200:hover{--tw-shadow-color:#e5e7eb;--tw-shadow:var(--tw-shadow-colored)}.hover\\:shadow-cyan-200:hover{--tw-shadow-color:#a5f3fc;--tw-shadow:var(--tw-shadow-colored)}.focus\\:z-10:focus{z-index:10}.focus\\:border-sky-500:focus{--tw-border-opacity:1;border-color:rgb(14 165 233/var(--tw-border-opacity))}.focus\\:border-b-sky-500:focus{--tw-border-opacity:1;border-bottom-color:rgb(14 165 233/var(--tw-border-opacity))}.focus\\:bg-gray-900:focus{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.focus\\:font-medium:focus{font-weight:500}.focus\\:text-sky-500:focus{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.focus\\:text-gray-50:focus{--tw-text-opacity:1;color:rgb(249 250 251/var(--tw-text-opacity))}.focus\\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.focus\\:ring-0:focus,.focus\\:ring-2:focus{box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.focus\\:ring-0:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(var(--tw-ring-offset-width)) var(--tw-ring-color)}.focus\\:ring-sky-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(14 165 233/var(--tw-ring-opacity))}.focus\\:ring-gray-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(107 114 128/var(--tw-ring-opacity))}.group:hover .group-hover\\:-translate-y-40{--tw-translate-y:-10rem}.group:hover .group-hover\\:-translate-y-40,.group:hover .group-hover\\:scale-110{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\\:scale-110{--tw-scale-x:1.1;--tw-scale-y:1.1}.group:hover .group-hover\\:scale-105{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\\:underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.peer:focus~.peer-focus\\:-top-2{top:-.5rem}.peer:focus~.peer-focus\\:text-xxs{font-size:.7rem}.peer:focus~.peer-focus\\:text-sky-600{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.dark .dark\\:border-0{border-width:0}.dark .dark\\:border{border-width:1px}.dark .dark\\:border-white{--tw-border-opacity:1;border-color:rgb(255 255 255/var(--tw-border-opacity))}.dark .dark\\:border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55/var(--tw-border-opacity))}.dark .dark\\:border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219/var(--tw-border-opacity))}.dark .dark\\:border-gray-400{--tw-border-opacity:1;border-color:rgb(156 163 175/var(--tw-border-opacity))}.dark .dark\\:border-gray-900{--tw-border-opacity:1;border-color:rgb(17 24 39/var(--tw-border-opacity))}.dark .dark\\:border-zinc-600{--tw-border-opacity:1;border-color:rgb(82 82 91/var(--tw-border-opacity))}.dark .dark\\:border-zinc-100{--tw-border-opacity:1;border-color:rgb(244 244 245/var(--tw-border-opacity))}.dark .dark\\:border-gray-500{--tw-border-opacity:1;border-color:rgb(107 114 128/var(--tw-border-opacity))}.dark .dark\\:border-zinc-500{--tw-border-opacity:1;border-color:rgb(113 113 122/var(--tw-border-opacity))}.dark .dark\\:border-zinc-300{--tw-border-opacity:1;border-color:rgb(212 212 216/var(--tw-border-opacity))}.dark .dark\\:border-zinc-700{--tw-border-opacity:1;border-color:rgb(63 63 70/var(--tw-border-opacity))}.dark .dark\\:border-zinc-400{--tw-border-opacity:1;border-color:rgb(161 161 170/var(--tw-border-opacity))}.dark .dark\\:border-black{--tw-border-opacity:1;border-color:rgb(0 0 0/var(--tw-border-opacity))}.dark .dark\\:border-gray-600{--tw-border-opacity:1;border-color:rgb(75 85 99/var(--tw-border-opacity))}.dark .dark\\:border-\\[\\#2D2D2D\\]{--tw-border-opacity:1;border-color:rgb(45 45 45/var(--tw-border-opacity))}.dark .dark\\:border-b-zinc-500{--tw-border-opacity:1;border-bottom-color:rgb(113 113 122/var(--tw-border-opacity))}.dark .dark\\:bg-neutral-800{--tw-bg-opacity:1;background-color:rgb(38 38 38/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#121212\\]{--tw-bg-opacity:1;background-color:rgb(18 18 18/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#0A0C25\\]{--tw-bg-opacity:1;background-color:rgb(10 12 37/var(--tw-bg-opacity))}.dark .dark\\:bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.dark .dark\\:bg-sky-500{--tw-bg-opacity:1;background-color:rgb(14 165 233/var(--tw-bg-opacity))}.dark .dark\\:bg-sky-600{--tw-bg-opacity:1;background-color:rgb(2 132 199/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-500{--tw-bg-opacity:1;background-color:rgb(107 114 128/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-600{--tw-bg-opacity:1;background-color:rgb(75 85 99/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-800{--tw-bg-opacity:1;background-color:rgb(39 39 42/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-700{--tw-bg-opacity:1;background-color:rgb(63 63 70/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-900{--tw-bg-opacity:1;background-color:rgb(24 24 27/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-500{--tw-bg-opacity:1;background-color:rgb(113 113 122/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-300{--tw-bg-opacity:1;background-color:rgb(212 212 216/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#374151\\]{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.dark .dark\\:bg-neutral-700{--tw-bg-opacity:1;background-color:rgb(64 64 64/var(--tw-bg-opacity))}.dark .dark\\:bg-neutral-600{--tw-bg-opacity:1;background-color:rgb(82 82 82/var(--tw-bg-opacity))}.dark .dark\\:bg-green-700{--tw-bg-opacity:1;background-color:rgb(21 128 61/var(--tw-bg-opacity))}.dark .dark\\:bg-sky-700{--tw-bg-opacity:1;background-color:rgb(3 105 161/var(--tw-bg-opacity))}.dark .dark\\:bg-yellow-700{--tw-bg-opacity:1;background-color:rgb(161 98 7/var(--tw-bg-opacity))}.dark .dark\\:bg-red-700{--tw-bg-opacity:1;background-color:rgb(185 28 28/var(--tw-bg-opacity))}.dark .dark\\:bg-blue-700{--tw-bg-opacity:1;background-color:rgb(29 78 216/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#212121\\]{--tw-bg-opacity:1;background-color:rgb(33 33 33/var(--tw-bg-opacity))}.dark .dark\\:bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.dark .dark\\:from-neutral-50{--tw-gradient-from:#fafafa;--tw-gradient-to:hsla(0,0%,98%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.dark .dark\\:to-neutral-500{--tw-gradient-to:#737373}.dark .dark\\:text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.dark .dark\\:text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.dark .dark\\:text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.dark .dark\\:text-sky-500{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.dark .dark\\:text-sky-600{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.dark .dark\\:text-\\[\\#0A0C25\\]{--tw-text-opacity:1;color:rgb(10 12 37/var(--tw-text-opacity))}.dark .dark\\:text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.dark .dark\\:text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.dark .dark\\:text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity))}.dark .dark\\:text-zinc-400{--tw-text-opacity:1;color:rgb(161 161 170/var(--tw-text-opacity))}.dark .dark\\:text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.dark .dark\\:text-zinc-200{--tw-text-opacity:1;color:rgb(228 228 231/var(--tw-text-opacity))}.dark .dark\\:text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.dark .dark\\:text-sky-400{--tw-text-opacity:1;color:rgb(56 189 248/var(--tw-text-opacity))}.dark .dark\\:text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.dark .dark\\:text-neutral-200{--tw-text-opacity:1;color:rgb(229 229 229/var(--tw-text-opacity))}.dark .dark\\:text-zinc-500{--tw-text-opacity:1;color:rgb(113 113 122/var(--tw-text-opacity))}.dark .dark\\:text-zinc-50{--tw-text-opacity:1;color:rgb(250 250 250/var(--tw-text-opacity))}.dark .dark\\:text-gray-50{--tw-text-opacity:1;color:rgb(249 250 251/var(--tw-text-opacity))}.dark .dark\\:text-blue-50{--tw-text-opacity:1;color:rgb(239 246 255/var(--tw-text-opacity))}.dark .dark\\:text-zinc-300{--tw-text-opacity:1;color:rgb(212 212 216/var(--tw-text-opacity))}.dark .dark\\:text-zinc-700{--tw-text-opacity:1;color:rgb(63 63 70/var(--tw-text-opacity))}.dark .dark\\:text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216/var(--tw-text-opacity))}.dark .dark\\:text-neutral-500{--tw-text-opacity:1;color:rgb(115 115 115/var(--tw-text-opacity))}.dark .dark\\:text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235/var(--tw-text-opacity))}.dark .dark\\:text-neutral-400{--tw-text-opacity:1;color:rgb(163 163 163/var(--tw-text-opacity))}.dark .dark\\:text-green-300{--tw-text-opacity:1;color:rgb(134 239 172/var(--tw-text-opacity))}.dark .dark\\:text-green-400{--tw-text-opacity:1;color:rgb(74 222 128/var(--tw-text-opacity))}.dark .dark\\:text-sky-300{--tw-text-opacity:1;color:rgb(125 211 252/var(--tw-text-opacity))}.dark .dark\\:text-yellow-300{--tw-text-opacity:1;color:rgb(253 224 71/var(--tw-text-opacity))}.dark .dark\\:text-yellow-400{--tw-text-opacity:1;color:rgb(250 204 21/var(--tw-text-opacity))}.dark .dark\\:text-red-300{--tw-text-opacity:1;color:rgb(252 165 165/var(--tw-text-opacity))}.dark .dark\\:text-red-400{--tw-text-opacity:1;color:rgb(248 113 113/var(--tw-text-opacity))}.dark .dark\\:text-blue-400{--tw-text-opacity:1;color:rgb(96 165 250/var(--tw-text-opacity))}.dark .dark\\:text-red-700{--tw-text-opacity:1;color:rgb(185 28 28/var(--tw-text-opacity))}.dark .dark\\:shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.dark .dark\\:shadow-sky-800\\/80{--tw-shadow-color:rgba(7,89,133,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-rose-800\\/80{--tw-shadow-color:rgba(159,18,57,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-emerald-800\\/80{--tw-shadow-color:rgba(6,95,70,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-amber-800\\/80{--tw-shadow-color:rgba(146,64,14,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-fuchsia-800\\/80{--tw-shadow-color:rgba(134,25,143,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-white\\/5{--tw-shadow-color:hsla(0,0%,100%,.05);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-black\\/5{--tw-shadow-color:rgba(0,0,0,.05);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-black{--tw-shadow-color:#000;--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:ring-black{--tw-ring-opacity:1;--tw-ring-color:rgb(0 0 0/var(--tw-ring-opacity))}.dark .dark\\:hover\\:bg-zinc-700:hover{--tw-bg-opacity:1;background-color:rgb(63 63 70/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-zinc-800:hover{--tw-bg-opacity:1;background-color:rgb(39 39 42/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-sky-500:hover{--tw-bg-opacity:1;background-color:rgb(14 165 233/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-gray-700:hover{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-green-700:hover{--tw-bg-opacity:1;background-color:rgb(21 128 61/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-sky-700:hover{--tw-bg-opacity:1;background-color:rgb(3 105 161/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-yellow-700:hover{--tw-bg-opacity:1;background-color:rgb(161 98 7/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-red-700:hover{--tw-bg-opacity:1;background-color:rgb(185 28 28/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-red-500:hover{--tw-bg-opacity:1;background-color:rgb(239 68 68/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-blue-500:hover{--tw-bg-opacity:1;background-color:rgb(59 130 246/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-zinc-100:hover{--tw-bg-opacity:1;background-color:rgb(244 244 245/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-gray-800:hover{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.dark .dark\\:hover\\:text-sky-500:hover{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-zinc-100:hover{--tw-text-opacity:1;color:rgb(244 244 245/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-gray-100:hover{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-green-200:hover{--tw-text-opacity:1;color:rgb(187 247 208/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-sky-200:hover{--tw-text-opacity:1;color:rgb(186 230 253/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-yellow-200:hover{--tw-text-opacity:1;color:rgb(254 240 138/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-red-200:hover{--tw-text-opacity:1;color:rgb(254 202 202/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-zinc-900:hover{--tw-text-opacity:1;color:rgb(24 24 27/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-zinc-500:hover{--tw-text-opacity:1;color:rgb(113 113 122/var(--tw-text-opacity))}.dark .dark\\:focus\\:bg-zinc-800:focus{--tw-bg-opacity:1;background-color:rgb(39 39 42/var(--tw-bg-opacity))}.dark .dark\\:focus\\:bg-gray-800:focus{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.dark .dark\\:focus\\:text-sky-500:focus{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.dark .dark\\:focus\\:ring-gray-400:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(156 163 175/var(--tw-ring-opacity))}@media (min-width:640px){.sm\\:mt-2{margin-top:.5rem}.sm\\:h-96{height:24rem}.sm\\:h-40{height:10rem}.sm\\:h-full{height:100%}.sm\\:w-fit{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.sm\\:w-full{width:100%}.sm\\:items-center{align-items:center}.sm\\:justify-center{justify-content:center}.sm\\:p-4{padding:1rem}.sm\\:text-sm{font-size:.875rem}}@media (min-width:768px){.md\\:container{margin-left:auto;margin-right:auto;padding-left:.5rem;padding-right:.5rem;width:100%}@media (min-width:340px){.md\\:container{max-width:340px}}@media (min-width:640px){.md\\:container{max-width:640px;padding-left:1rem;padding-right:1rem}}@media (min-width:768px){.md\\:container{max-width:768px;padding-left:1rem;padding-right:1rem}}@media (min-width:1024px){.md\\:container{max-width:1024px;padding-left:2rem;padding-right:2rem}}@media (min-width:1280px){.md\\:container{max-width:1280px;padding-left:3rem;padding-right:3rem}}@media (min-width:1536px){.md\\:container{max-width:1536px;padding-left:3rem;padding-right:3rem}}.md\\:-my-10{margin-bottom:-2.5rem;margin-top:-2.5rem}.md\\:mt-16{margin-top:4rem}.md\\:mr-2{margin-right:.5rem}.md\\:-mt-20{margin-top:-5rem}.md\\:-ml-20{margin-left:-5rem}.md\\:block{display:block}.md\\:hidden{display:none}.md\\:h-screen{height:100vh}.md\\:h-4{height:1rem}.md\\:h-full{height:100%}.md\\:h-36{height:9rem}.md\\:h-14{height:3.5rem}.md\\:h-64{height:16rem}.md\\:w-44{width:11rem}.md\\:w-full{width:100%}.md\\:w-4{width:1rem}.md\\:w-2\\/3{width:66.666667%}.md\\:w-1\\/2{width:50%}.md\\:w-96{width:24rem}.md\\:w-36{width:9rem}.md\\:w-14{width:3.5rem}.md\\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.md\\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.md\\:flex-row{flex-direction:row}.md\\:flex-col{flex-direction:column}.md\\:items-start{align-items:flex-start}.md\\:items-center{align-items:center}.md\\:justify-start{justify-content:flex-start}.md\\:justify-center{justify-content:center}.md\\:gap-4{gap:1rem}.md\\:gap-1{gap:.25rem}.md\\:space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1rem*var(--tw-space-x-reverse))}.md\\:space-y-0>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(0px*var(--tw-space-y-reverse));margin-top:calc(0px*(1 - var(--tw-space-y-reverse)))}.md\\:space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1.5rem*var(--tw-space-y-reverse));margin-top:calc(1.5rem*(1 - var(--tw-space-y-reverse)))}.md\\:space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.5rem*var(--tw-space-x-reverse))}.md\\:space-x-1>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.25rem*var(--tw-space-x-reverse))}.md\\:overflow-y-auto{overflow-y:auto}.md\\:rounded-xl{border-radius:.75rem}.md\\:border-2{border-width:2px}.md\\:p-4{padding:1rem}.md\\:p-10{padding:2.5rem}.md\\:px-0{padding-left:0;padding-right:0}.md\\:px-32{padding-left:8rem;padding-right:8rem}.md\\:px-4{padding-left:1rem;padding-right:1rem}.md\\:px-24{padding-left:6rem;padding-right:6rem}.md\\:px-3{padding-left:.75rem;padding-right:.75rem}.md\\:py-20{padding-bottom:5rem;padding-top:5rem}.md\\:px-16{padding-left:4rem;padding-right:4rem}.md\\:py-16{padding-bottom:4rem;padding-top:4rem}.md\\:px-5{padding-left:1.25rem;padding-right:1.25rem}.md\\:py-2{padding-bottom:.5rem;padding-top:.5rem}.md\\:pb-0{padding-bottom:0}.md\\:pb-20{padding-bottom:5rem}.md\\:pb-6{padding-bottom:1.5rem}.md\\:text-base{font-size:1rem}.md\\:text-5xl{font-size:3rem}.md\\:text-sm{font-size:.875rem}.md\\:text-2xl{font-size:1.5rem}.md\\:text-lg{font-size:1.125rem}}@media (min-width:1024px){.lg\\:mx-32{margin-left:8rem;margin-right:8rem}.lg\\:mt-2{margin-top:.5rem}.lg\\:mt-6{margin-top:1.5rem}.lg\\:mt-3{margin-top:.75rem}.lg\\:mt-4{margin-top:1rem}.lg\\:mt-0{margin-top:0}.lg\\:block{display:block}.lg\\:hidden{display:none}.lg\\:h-96{height:24rem}.lg\\:h-full{height:100%}.lg\\:w-full{width:100%}.lg\\:w-1\\/4{width:25%}.lg\\:w-3\\/4{width:75%}.lg\\:w-3\\/5{width:60%}.lg\\:w-2\\/3{width:66.666667%}.lg\\:w-1\\/3{width:33.333333%}.lg\\:w-1\\/2{width:50%}.lg\\:w-80{width:20rem}.lg\\:w-56{width:14rem}.lg\\:grid-cols-5{grid-template-columns:repeat(5,minmax(0,1fr))}.lg\\:grid-cols-6{grid-template-columns:repeat(6,minmax(0,1fr))}.lg\\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.lg\\:flex-row{flex-direction:row}.lg\\:items-center{align-items:center}.lg\\:justify-center{justify-content:center}.lg\\:gap-4{gap:1rem}.lg\\:space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.5rem*var(--tw-space-x-reverse))}.lg\\:space-y-0>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(0px*var(--tw-space-y-reverse));margin-top:calc(0px*(1 - var(--tw-space-y-reverse)))}.lg\\:space-x-8>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(2rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(2rem*var(--tw-space-x-reverse))}.lg\\:space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1rem*var(--tw-space-x-reverse))}.lg\\:border-l-2{border-left-width:2px}.lg\\:py-4{padding-bottom:1rem;padding-top:1rem}.lg\\:px-4{padding-left:1rem;padding-right:1rem}.lg\\:py-6{padding-bottom:1.5rem;padding-top:1.5rem}.lg\\:px-12{padding-left:3rem;padding-right:3rem}.lg\\:py-2{padding-bottom:.5rem;padding-top:.5rem}.lg\\:py-8{padding-bottom:2rem;padding-top:2rem}.lg\\:text-3xl{font-size:1.875rem}.lg\\:text-2xl{font-size:1.5rem}.lg\\:text-xs{font-size:.75rem}.lg\\:text-sm{font-size:.875rem}.lg\\:text-xl{font-size:1.25rem}}@media (min-width:1536px){.\\32xl\\:text-2xl{font-size:1.5rem}}";
+__vite_ssr_exports__.default = "@import url(\"https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap\");\n/*! tailwindcss v3.1.6 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[multiple],[type=date],[type=datetime-local],[type=email],[type=month],[type=number],[type=password],[type=search],[type=tel],[type=text],[type=time],[type=url],[type=week],select,textarea{--tw-shadow:0 0 #0000;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;border-color:#6b7280;border-radius:0;border-width:1px;font-size:1rem;line-height:1.5rem;padding:.5rem .75rem}[multiple]:focus,[type=date]:focus,[type=datetime-local]:focus,[type=email]:focus,[type=month]:focus,[type=number]:focus,[type=password]:focus,[type=search]:focus,[type=tel]:focus,[type=text]:focus,[type=time]:focus,[type=url]:focus,[type=week]:focus,select:focus,textarea:focus{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);border-color:#2563eb;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);outline:2px solid transparent;outline-offset:2px}input::-moz-placeholder,textarea::-moz-placeholder{color:#6b7280;opacity:1}input::placeholder,textarea::placeholder{color:#6b7280;opacity:1}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-date-and-time-value{min-height:1.5em}::-webkit-datetime-edit,::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-meridiem-field,::-webkit-datetime-edit-millisecond-field,::-webkit-datetime-edit-minute-field,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-second-field,::-webkit-datetime-edit-year-field{padding-bottom:0;padding-top:0}select{color-adjust:exact;background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3E%3C/svg%3E\");background-position:right .5rem center;background-repeat:no-repeat;background-size:1.5em 1.5em;padding-right:2.5rem;-webkit-print-color-adjust:exact;print-color-adjust:exact}[multiple]{color-adjust:unset;background-image:none;background-position:0 0;background-repeat:unset;background-size:initial;padding-right:.75rem;-webkit-print-color-adjust:unset;print-color-adjust:unset}[type=checkbox],[type=radio]{color-adjust:exact;--tw-shadow:0 0 #0000;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;background-origin:border-box;border-color:#6b7280;border-width:1px;color:#2563eb;display:inline-block;flex-shrink:0;height:1rem;padding:0;-webkit-print-color-adjust:exact;print-color-adjust:exact;-webkit-user-select:none;-moz-user-select:none;user-select:none;vertical-align:middle;width:1rem}[type=checkbox]{border-radius:0}[type=radio]{border-radius:100%}[type=checkbox]:focus,[type=radio]:focus{--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:2px;--tw-ring-offset-color:#fff;--tw-ring-color:#2563eb;--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow);outline:2px solid transparent;outline-offset:2px}[type=checkbox]:checked,[type=radio]:checked{background-color:currentColor;background-position:50%;background-repeat:no-repeat;background-size:100% 100%;border-color:transparent}[type=checkbox]:checked{background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.207 4.793a1 1 0 0 1 0 1.414l-5 5a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L6.5 9.086l4.293-4.293a1 1 0 0 1 1.414 0z'/%3E%3C/svg%3E\")}[type=radio]:checked{background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='8' cy='8' r='3'/%3E%3C/svg%3E\")}[type=checkbox]:checked:focus,[type=checkbox]:checked:hover,[type=radio]:checked:focus,[type=radio]:checked:hover{background-color:currentColor;border-color:transparent}[type=checkbox]:indeterminate{background-color:currentColor;background-image:url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3E%3Cpath stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3E%3C/svg%3E\");background-position:50%;background-repeat:no-repeat;background-size:100% 100%;border-color:transparent}[type=checkbox]:indeterminate:focus,[type=checkbox]:indeterminate:hover{background-color:currentColor;border-color:transparent}[type=file]{background:unset;border-color:inherit;border-radius:0;border-width:0;font-size:unset;line-height:inherit;padding:0}[type=file]:focus{outline:1px solid ButtonText;outline:1px auto -webkit-focus-ring-color}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.top-0{top:0}.top-4{top:1rem}.right-4{right:1rem}.-left-2{left:-.5rem}.-top-2{top:-.5rem}.-right-2{right:-.5rem}.-bottom-2{bottom:-.5rem}.-right-1{right:-.25rem}.-bottom-1{bottom:-.25rem}.-right-3{right:-.75rem}.right-0{right:0}.bottom-0{bottom:0}.-right-0{right:0}.-top-0{top:0}.-bottom-0{bottom:0}.-top-1{top:-.25rem}.-top-3{top:-.75rem}.left-0{left:0}.left-3{left:.75rem}.-left-2\\.5{left:-.625rem}.-top-8{top:-2rem}.-top-20{top:-5rem}.-left-3\\.5{left:-.875rem}.-left-3{left:-.75rem}.z-10{z-index:10}.z-40{z-index:40}.z-20{z-index:20}.col-span-2{grid-column:span 2/span 2}.my-4{margin-bottom:1rem;margin-top:1rem}.mb-6{margin-bottom:1.5rem}.mr-4{margin-right:1rem}.mt-20{margin-top:5rem}.mt-6{margin-top:1.5rem}.mt-4{margin-top:1rem}.mt-32{margin-top:8rem}.mt-10{margin-top:2.5rem}.mt-40{margin-top:10rem}.ml-2{margin-left:.5rem}.ml-1{margin-left:.25rem}.mr-1{margin-right:.25rem}.mr-2{margin-right:.5rem}.mb-2{margin-bottom:.5rem}.mt-2{margin-top:.5rem}.mt-1{margin-top:.25rem}.mb-3{margin-bottom:.75rem}.mt-3{margin-top:.75rem}.ml-4{margin-left:1rem}.mb-1{margin-bottom:.25rem}.mt-12{margin-top:3rem}.-mt-14{margin-top:-3.5rem}.mt-8{margin-top:2rem}.mt-28{margin-top:7rem}.mb-4{margin-bottom:1rem}.-mb-40{margin-bottom:-10rem}.-mb-16{margin-bottom:-4rem}.ml-5{margin-left:1.25rem}.block{display:block}.flex{display:flex}.inline-flex{display:inline-flex}.table{display:table}.grid{display:grid}.contents{display:contents}.hidden{display:none}.h-28{height:7rem}.h-6{height:1.5rem}.h-16{height:4rem}.h-screen{height:100vh}.h-full{height:100%}.h-2{height:.5rem}.h-5{height:1.25rem}.h-4{height:1rem}.h-10{height:2.5rem}.h-9{height:2.25rem}.h-3{height:.75rem}.h-8{height:2rem}.h-2\\.5{height:.625rem}.h-12{height:3rem}.h-14{height:3.5rem}.h-3\\.5{height:.875rem}.h-20{height:5rem}.h-11{height:2.75rem}.h-1\\.5{height:.375rem}.h-1{height:.25rem}.h-48{height:12rem}.h-7{height:1.75rem}.h-1\\/2{height:50%}.h-64{height:16rem}.h-4\\/5{height:80%}.h-1\\/5{height:20%}.h-24{height:6rem}.h-96{height:24rem}.h-1\\/3{height:33.333333%}.h-40{height:10rem}.h-56{height:14rem}.h-36{height:9rem}.min-h-screen{min-height:100vh}.w-full{width:100%}.w-56{width:14rem}.w-6{width:1.5rem}.w-40{width:10rem}.w-2{width:.5rem}.w-fit{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.w-5{width:1.25rem}.w-4{width:1rem}.w-10{width:2.5rem}.w-9{width:2.25rem}.w-3{width:.75rem}.w-8{width:2rem}.w-2\\.5{width:.625rem}.w-12{width:3rem}.w-14{width:3.5rem}.w-3\\.5{width:.875rem}.w-16{width:4rem}.w-20{width:5rem}.w-1\\/3{width:33.333333%}.w-11{width:2.75rem}.w-1\\.5{width:.375rem}.w-1{width:.25rem}.w-3\\/5{width:60%}.w-1\\/2{width:50%}.w-3\\/4{width:75%}.w-24{width:6rem}.w-28{width:7rem}.w-7{width:1.75rem}.w-2\\/3{width:66.666667%}.w-72{width:18rem}.w-60{width:15rem}.w-64{width:16rem}.w-auto{width:auto}.w-1\\/4{width:25%}.w-36{width:9rem}.w-96{width:24rem}.w-80{width:20rem}.flex-1{flex:1 1 0%}.-translate-y-12{--tw-translate-y:-3rem}.-translate-y-12,.-translate-y-20{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-translate-y-20{--tw-translate-y:-5rem}.-translate-y-5{--tw-translate-y:-1.25rem}.-translate-y-5,.rotate-2{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.rotate-2{--tw-rotate:2deg}.rotate-180{--tw-rotate:180deg}.-rotate-90,.rotate-180{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-rotate-90{--tw-rotate:-90deg}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.cursor-text{cursor:text}.grid-flow-row{grid-auto-flow:row}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-cols-5{grid-template-columns:repeat(5,minmax(0,1fr))}.grid-rows-5{grid-template-rows:repeat(5,minmax(0,1fr))}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.justify-around{justify-content:space-around}.gap-3{gap:.75rem}.gap-1{gap:.25rem}.gap-2{gap:.5rem}.gap-4{gap:1rem}.gap-10{gap:2.5rem}.gap-y-6{row-gap:1.5rem}.gap-y-8{row-gap:2rem}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.5rem*var(--tw-space-y-reverse));margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)))}.space-x-5>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.25rem*var(--tw-space-x-reverse))}.space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.5rem*var(--tw-space-x-reverse))}.space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.25rem*var(--tw-space-y-reverse));margin-top:calc(.25rem*(1 - var(--tw-space-y-reverse)))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1rem*var(--tw-space-y-reverse));margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(.75rem*var(--tw-space-y-reverse));margin-top:calc(.75rem*(1 - var(--tw-space-y-reverse)))}.space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1rem*var(--tw-space-x-reverse))}.space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.5rem*var(--tw-space-x-reverse))}.space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1.5rem*var(--tw-space-y-reverse));margin-top:calc(1.5rem*(1 - var(--tw-space-y-reverse)))}.-space-x-3>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(-.75rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(-.75rem*var(--tw-space-x-reverse))}.space-x-1>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.25rem*var(--tw-space-x-reverse))}.-space-x-px>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(-1px*(1 - var(--tw-space-x-reverse)));margin-right:calc(-1px*var(--tw-space-x-reverse))}.space-x-0>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(0px*(1 - var(--tw-space-x-reverse)));margin-right:calc(0px*var(--tw-space-x-reverse))}.space-x-3>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.75rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.75rem*var(--tw-space-x-reverse))}.space-x-8>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(2rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(2rem*var(--tw-space-x-reverse))}.space-y-16>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(4rem*var(--tw-space-y-reverse));margin-top:calc(4rem*(1 - var(--tw-space-y-reverse)))}.-space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(-.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(-.5rem*var(--tw-space-x-reverse))}.-space-y-1>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(-.25rem*var(--tw-space-y-reverse));margin-top:calc(-.25rem*(1 - var(--tw-space-y-reverse)))}.divide-y>:not([hidden])~:not([hidden]){--tw-divide-y-reverse:0;border-bottom-width:calc(1px*var(--tw-divide-y-reverse));border-top-width:calc(1px*(1 - var(--tw-divide-y-reverse)))}.divide-gray-700>:not([hidden])~:not([hidden]){--tw-divide-opacity:1;border-color:rgb(55 65 81/var(--tw-divide-opacity))}.divide-neutral-700>:not([hidden])~:not([hidden]){--tw-divide-opacity:1;border-color:rgb(64 64 64/var(--tw-divide-opacity))}.overflow-hidden{overflow:hidden}.overflow-y-auto{overflow-y:auto}.overflow-x-hidden{overflow-x:hidden}.overflow-y-hidden{overflow-y:hidden}.rounded-lg{border-radius:.5rem}.rounded{border-radius:.25rem}.rounded-md{border-radius:.375rem}.rounded-full{border-radius:9999px}.rounded-2xl{border-radius:1rem}.rounded-sm{border-radius:.125rem}.rounded-xl{border-radius:.75rem}.rounded-3xl{border-radius:1.5rem}.rounded-l-lg{border-bottom-left-radius:.5rem;border-top-left-radius:.5rem}.rounded-r-lg{border-bottom-right-radius:.5rem;border-top-right-radius:.5rem}.border{border-width:1px}.border-2{border-width:2px}.border-0{border-width:0}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-l-2{border-left-width:2px}.border-t-2{border-top-width:2px}.border-b-2{border-bottom-width:2px}.border-l{border-left-width:1px}.border-r{border-right-width:1px}.border-dashed{border-style:dashed}.border-neutral-700{--tw-border-opacity:1;border-color:rgb(64 64 64/var(--tw-border-opacity))}.border-zinc-900{--tw-border-opacity:1;border-color:rgb(24 24 27/var(--tw-border-opacity))}.border-\\[\\#0A0C25\\]{--tw-border-opacity:1;border-color:rgb(10 12 37/var(--tw-border-opacity))}.border-gray-900{--tw-border-opacity:1;border-color:rgb(17 24 39/var(--tw-border-opacity))}.border-black{--tw-border-opacity:1;border-color:rgb(0 0 0/var(--tw-border-opacity))}.border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81/var(--tw-border-opacity))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219/var(--tw-border-opacity))}.border-sky-700{--tw-border-opacity:1;border-color:rgb(3 105 161/var(--tw-border-opacity))}.border-emerald-700{--tw-border-opacity:1;border-color:rgb(4 120 87/var(--tw-border-opacity))}.border-amber-700{--tw-border-opacity:1;border-color:rgb(180 83 9/var(--tw-border-opacity))}.border-rose-700{--tw-border-opacity:1;border-color:rgb(190 18 60/var(--tw-border-opacity))}.border-slate-900{--tw-border-opacity:1;border-color:rgb(15 23 42/var(--tw-border-opacity))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255/var(--tw-border-opacity))}.border-gray-400{--tw-border-opacity:1;border-color:rgb(156 163 175/var(--tw-border-opacity))}.border-cyan-500{--tw-border-opacity:1;border-color:rgb(6 182 212/var(--tw-border-opacity))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235/var(--tw-border-opacity))}.border-sky-600{--tw-border-opacity:1;border-color:rgb(2 132 199/var(--tw-border-opacity))}.border-emerald-600{--tw-border-opacity:1;border-color:rgb(5 150 105/var(--tw-border-opacity))}.border-amber-600{--tw-border-opacity:1;border-color:rgb(217 119 6/var(--tw-border-opacity))}.border-rose-600{--tw-border-opacity:1;border-color:rgb(225 29 72/var(--tw-border-opacity))}.border-gray-600{--tw-border-opacity:1;border-color:rgb(75 85 99/var(--tw-border-opacity))}.border-pink-500{--tw-border-opacity:1;border-color:rgb(236 72 153/var(--tw-border-opacity))}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246/var(--tw-border-opacity))}.border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55/var(--tw-border-opacity))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240/var(--tw-border-opacity))}.border-slate-600{--tw-border-opacity:1;border-color:rgb(71 85 105/var(--tw-border-opacity))}.border-zinc-600{--tw-border-opacity:1;border-color:rgb(82 82 91/var(--tw-border-opacity))}.border-zinc-200{--tw-border-opacity:1;border-color:rgb(228 228 231/var(--tw-border-opacity))}.border-indigo-500{--tw-border-opacity:1;border-color:rgb(99 102 241/var(--tw-border-opacity))}.border-sky-500{--tw-border-opacity:1;border-color:rgb(14 165 233/var(--tw-border-opacity))}.border-blue-500{--tw-border-opacity:1;border-color:rgb(59 130 246/var(--tw-border-opacity))}.border-green-200{--tw-border-opacity:1;border-color:rgb(187 247 208/var(--tw-border-opacity))}.border-sky-200{--tw-border-opacity:1;border-color:rgb(186 230 253/var(--tw-border-opacity))}.border-yellow-200{--tw-border-opacity:1;border-color:rgb(254 240 138/var(--tw-border-opacity))}.border-red-200{--tw-border-opacity:1;border-color:rgb(254 202 202/var(--tw-border-opacity))}.border-cyan-800{--tw-border-opacity:1;border-color:rgb(21 94 117/var(--tw-border-opacity))}.border-gray-500{--tw-border-opacity:1;border-color:rgb(107 114 128/var(--tw-border-opacity))}.border-b-gray-300{--tw-border-opacity:1;border-bottom-color:rgb(209 213 219/var(--tw-border-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.bg-red-100{--tw-bg-opacity:1;background-color:rgb(254 226 226/var(--tw-bg-opacity))}.bg-neutral-50{--tw-bg-opacity:1;background-color:rgb(250 250 250/var(--tw-bg-opacity))}.bg-\\[\\#0A0C25\\]{--tw-bg-opacity:1;background-color:rgb(10 12 37/var(--tw-bg-opacity))}.bg-sky-200{--tw-bg-opacity:1;background-color:rgb(186 230 253/var(--tw-bg-opacity))}.bg-sky-300{--tw-bg-opacity:1;background-color:rgb(125 211 252/var(--tw-bg-opacity))}.bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.bg-gray-600{--tw-bg-opacity:1;background-color:rgb(75 85 99/var(--tw-bg-opacity))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity))}.bg-gray-200{--tw-bg-opacity:1;background-color:rgb(229 231 235/var(--tw-bg-opacity))}.bg-sky-100{--tw-bg-opacity:1;background-color:rgb(224 242 254/var(--tw-bg-opacity))}.bg-zinc-100{--tw-bg-opacity:1;background-color:rgb(244 244 245/var(--tw-bg-opacity))}.bg-gray-300{--tw-bg-opacity:1;background-color:rgb(209 213 219/var(--tw-bg-opacity))}.bg-emerald-100{--tw-bg-opacity:1;background-color:rgb(209 250 229/var(--tw-bg-opacity))}.bg-amber-100{--tw-bg-opacity:1;background-color:rgb(254 243 199/var(--tw-bg-opacity))}.bg-rose-100{--tw-bg-opacity:1;background-color:rgb(255 228 230/var(--tw-bg-opacity))}.bg-yellow-400{--tw-bg-opacity:1;background-color:rgb(250 204 21/var(--tw-bg-opacity))}.bg-cyan-600{--tw-bg-opacity:1;background-color:rgb(8 145 178/var(--tw-bg-opacity))}.bg-violet-500{--tw-bg-opacity:1;background-color:rgb(139 92 246/var(--tw-bg-opacity))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254/var(--tw-bg-opacity))}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246/var(--tw-bg-opacity))}.bg-pink-300{--tw-bg-opacity:1;background-color:rgb(249 168 212/var(--tw-bg-opacity))}.bg-rose-500{--tw-bg-opacity:1;background-color:rgb(244 63 94/var(--tw-bg-opacity))}.bg-gray-500{--tw-bg-opacity:1;background-color:rgb(107 114 128/var(--tw-bg-opacity))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94/var(--tw-bg-opacity))}.bg-cyan-500{--tw-bg-opacity:1;background-color:rgb(6 182 212/var(--tw-bg-opacity))}.bg-yellow-500{--tw-bg-opacity:1;background-color:rgb(234 179 8/var(--tw-bg-opacity))}.bg-green-400{--tw-bg-opacity:1;background-color:rgb(74 222 128/var(--tw-bg-opacity))}.bg-purple-400{--tw-bg-opacity:1;background-color:rgb(192 132 252/var(--tw-bg-opacity))}.bg-indigo-300{--tw-bg-opacity:1;background-color:rgb(165 180 252/var(--tw-bg-opacity))}.bg-red-400{--tw-bg-opacity:1;background-color:rgb(248 113 113/var(--tw-bg-opacity))}.bg-fuchsia-600{--tw-bg-opacity:1;background-color:rgb(192 38 211/var(--tw-bg-opacity))}.bg-sky-400{--tw-bg-opacity:1;background-color:rgb(56 189 248/var(--tw-bg-opacity))}.bg-amber-400{--tw-bg-opacity:1;background-color:rgb(251 191 36/var(--tw-bg-opacity))}.bg-teal-400{--tw-bg-opacity:1;background-color:rgb(45 212 191/var(--tw-bg-opacity))}.bg-red-500{--tw-bg-opacity:1;background-color:rgb(239 68 68/var(--tw-bg-opacity))}.bg-yellow-200{--tw-bg-opacity:1;background-color:rgb(254 240 138/var(--tw-bg-opacity))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity))}.bg-gray-400{--tw-bg-opacity:1;background-color:rgb(156 163 175/var(--tw-bg-opacity))}.bg-blue-400{--tw-bg-opacity:1;background-color:rgb(96 165 250/var(--tw-bg-opacity))}.bg-teal-300{--tw-bg-opacity:1;background-color:rgb(94 234 212/var(--tw-bg-opacity))}.bg-emerald-400{--tw-bg-opacity:1;background-color:rgb(52 211 153/var(--tw-bg-opacity))}.bg-amber-300{--tw-bg-opacity:1;background-color:rgb(252 211 77/var(--tw-bg-opacity))}.bg-rose-300{--tw-bg-opacity:1;background-color:rgb(253 164 175/var(--tw-bg-opacity))}.bg-red-300{--tw-bg-opacity:1;background-color:rgb(252 165 165/var(--tw-bg-opacity))}.bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.bg-yellow-100{--tw-bg-opacity:1;background-color:rgb(254 249 195/var(--tw-bg-opacity))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity))}.bg-\\[\\#ff6d2d\\]{--tw-bg-opacity:1;background-color:rgb(255 109 45/var(--tw-bg-opacity))}.bg-slate-600{--tw-bg-opacity:1;background-color:rgb(71 85 105/var(--tw-bg-opacity))}.bg-zinc-600{--tw-bg-opacity:1;background-color:rgb(82 82 91/var(--tw-bg-opacity))}.bg-neutral-600{--tw-bg-opacity:1;background-color:rgb(82 82 82/var(--tw-bg-opacity))}.bg-stone-600{--tw-bg-opacity:1;background-color:rgb(87 83 78/var(--tw-bg-opacity))}.bg-red-600{--tw-bg-opacity:1;background-color:rgb(220 38 38/var(--tw-bg-opacity))}.bg-orange-600{--tw-bg-opacity:1;background-color:rgb(234 88 12/var(--tw-bg-opacity))}.bg-amber-600{--tw-bg-opacity:1;background-color:rgb(217 119 6/var(--tw-bg-opacity))}.bg-yellow-600{--tw-bg-opacity:1;background-color:rgb(202 138 4/var(--tw-bg-opacity))}.bg-lime-600{--tw-bg-opacity:1;background-color:rgb(101 163 13/var(--tw-bg-opacity))}.bg-green-600{--tw-bg-opacity:1;background-color:rgb(22 163 74/var(--tw-bg-opacity))}.bg-emerald-600{--tw-bg-opacity:1;background-color:rgb(5 150 105/var(--tw-bg-opacity))}.bg-teal-600{--tw-bg-opacity:1;background-color:rgb(13 148 136/var(--tw-bg-opacity))}.bg-sky-600{--tw-bg-opacity:1;background-color:rgb(2 132 199/var(--tw-bg-opacity))}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235/var(--tw-bg-opacity))}.bg-indigo-600{--tw-bg-opacity:1;background-color:rgb(79 70 229/var(--tw-bg-opacity))}.bg-violet-600{--tw-bg-opacity:1;background-color:rgb(124 58 237/var(--tw-bg-opacity))}.bg-pink-600{--tw-bg-opacity:1;background-color:rgb(219 39 119/var(--tw-bg-opacity))}.bg-rose-600{--tw-bg-opacity:1;background-color:rgb(225 29 72/var(--tw-bg-opacity))}.bg-slate-400{--tw-bg-opacity:1;background-color:rgb(148 163 184/var(--tw-bg-opacity))}.bg-zinc-400{--tw-bg-opacity:1;background-color:rgb(161 161 170/var(--tw-bg-opacity))}.bg-neutral-400{--tw-bg-opacity:1;background-color:rgb(163 163 163/var(--tw-bg-opacity))}.bg-stone-400{--tw-bg-opacity:1;background-color:rgb(168 162 158/var(--tw-bg-opacity))}.bg-orange-400{--tw-bg-opacity:1;background-color:rgb(251 146 60/var(--tw-bg-opacity))}.bg-yellow-300{--tw-bg-opacity:1;background-color:rgb(253 224 71/var(--tw-bg-opacity))}.bg-lime-400{--tw-bg-opacity:1;background-color:rgb(163 230 53/var(--tw-bg-opacity))}.bg-cyan-400{--tw-bg-opacity:1;background-color:rgb(34 211 238/var(--tw-bg-opacity))}.bg-indigo-400{--tw-bg-opacity:1;background-color:rgb(129 140 248/var(--tw-bg-opacity))}.bg-violet-400{--tw-bg-opacity:1;background-color:rgb(167 139 250/var(--tw-bg-opacity))}.bg-fuchsia-400{--tw-bg-opacity:1;background-color:rgb(232 121 249/var(--tw-bg-opacity))}.bg-pink-400{--tw-bg-opacity:1;background-color:rgb(244 114 182/var(--tw-bg-opacity))}.bg-rose-400{--tw-bg-opacity:1;background-color:rgb(251 113 133/var(--tw-bg-opacity))}.bg-zinc-50{--tw-bg-opacity:1;background-color:rgb(250 250 250/var(--tw-bg-opacity))}.bg-teal-500{--tw-bg-opacity:1;background-color:rgb(20 184 166/var(--tw-bg-opacity))}.bg-teal-800{--tw-bg-opacity:1;background-color:rgb(17 94 89/var(--tw-bg-opacity))}.bg-slate-300{--tw-bg-opacity:1;background-color:rgb(203 213 225/var(--tw-bg-opacity))}.bg-slate-200{--tw-bg-opacity:1;background-color:rgb(226 232 240/var(--tw-bg-opacity))}.bg-neutral-100{--tw-bg-opacity:1;background-color:rgb(245 245 245/var(--tw-bg-opacity))}.bg-\\[\\#FAF5ED\\]{--tw-bg-opacity:1;background-color:rgb(250 245 237/var(--tw-bg-opacity))}.bg-sky-500{--tw-bg-opacity:1;background-color:rgb(14 165 233/var(--tw-bg-opacity))}.bg-blue-50{--tw-bg-opacity:1;background-color:rgb(239 246 255/var(--tw-bg-opacity))}.bg-neutral-700{--tw-bg-opacity:1;background-color:rgb(64 64 64/var(--tw-bg-opacity))}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249/var(--tw-bg-opacity))}.bg-green-100{--tw-bg-opacity:1;background-color:rgb(220 252 231/var(--tw-bg-opacity))}.bg-black\\/70{background-color:rgba(0,0,0,.7)}.bg-indigo-200{--tw-bg-opacity:1;background-color:rgb(199 210 254/var(--tw-bg-opacity))}.bg-cyan-800{--tw-bg-opacity:1;background-color:rgb(21 94 117/var(--tw-bg-opacity))}.bg-opacity-70{--tw-bg-opacity:0.7}.bg-opacity-90{--tw-bg-opacity:0.9}.bg-gradient-to-br{background-image:linear-gradient(to bottom right,var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.from-sky-400{--tw-gradient-from:#38bdf8;--tw-gradient-to:rgba(56,189,248,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-rose-400{--tw-gradient-from:#fb7185;--tw-gradient-to:rgba(251,113,133,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-emerald-400{--tw-gradient-from:#34d399;--tw-gradient-to:rgba(52,211,153,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-amber-400{--tw-gradient-from:#fbbf24;--tw-gradient-to:rgba(251,191,36,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-fuchsia-400{--tw-gradient-from:#e879f9;--tw-gradient-to:rgba(232,121,249,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-blue-500{--tw-gradient-from:#3b82f6;--tw-gradient-to:rgba(59,130,246,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-pink-600{--tw-gradient-from:#db2777;--tw-gradient-to:rgba(219,39,119,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-neutral-200{--tw-gradient-from:#e5e5e5;--tw-gradient-to:hsla(0,0%,90%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-red-300{--tw-gradient-from:#fca5a5;--tw-gradient-to:hsla(0,94%,82%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.via-sky-500{--tw-gradient-to:rgba(14,165,233,0);--tw-gradient-stops:var(--tw-gradient-from),#0ea5e9,var(--tw-gradient-to)}.via-rose-500{--tw-gradient-to:rgba(244,63,94,0);--tw-gradient-stops:var(--tw-gradient-from),#f43f5e,var(--tw-gradient-to)}.via-emerald-500{--tw-gradient-to:rgba(16,185,129,0);--tw-gradient-stops:var(--tw-gradient-from),#10b981,var(--tw-gradient-to)}.via-amber-500{--tw-gradient-to:rgba(245,158,11,0);--tw-gradient-stops:var(--tw-gradient-from),#f59e0b,var(--tw-gradient-to)}.via-fuchsia-500{--tw-gradient-to:rgba(217,70,239,0);--tw-gradient-stops:var(--tw-gradient-from),#d946ef,var(--tw-gradient-to)}.via-purple-400{--tw-gradient-to:rgba(192,132,252,0);--tw-gradient-stops:var(--tw-gradient-from),#c084fc,var(--tw-gradient-to)}.to-sky-600{--tw-gradient-to:#0284c7}.to-rose-600{--tw-gradient-to:#e11d48}.to-emerald-600{--tw-gradient-to:#059669}.to-amber-600{--tw-gradient-to:#d97706}.to-fuchsia-600{--tw-gradient-to:#c026d3}.to-sky-300{--tw-gradient-to:#7dd3fc}.to-indigo-300{--tw-gradient-to:#a5b4fc}.to-teal-400{--tw-gradient-to:#2dd4bf}.to-rose-500{--tw-gradient-to:#f43f5e}.bg-clip-padding{background-clip:padding-box}.object-cover{-o-object-fit:cover;object-fit:cover}.p-3{padding:.75rem}.p-4{padding:1rem}.p-0\\.5{padding:.125rem}.p-0{padding:0}.p-2{padding:.5rem}.p-6{padding:1.5rem}.p-1{padding:.25rem}.p-10{padding:2.5rem}.p-1\\.5{padding:.375rem}.px-4{padding-left:1rem;padding-right:1rem}.py-5{padding-bottom:1.25rem;padding-top:1.25rem}.px-2{padding-left:.5rem;padding-right:.5rem}.py-1{padding-bottom:.25rem;padding-top:.25rem}.py-4{padding-bottom:1rem;padding-top:1rem}.py-2{padding-bottom:.5rem;padding-top:.5rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-1{padding-left:.25rem;padding-right:.25rem}.px-0\\.5{padding-left:.125rem;padding-right:.125rem}.px-0{padding-left:0;padding-right:0}.px-3{padding-left:.75rem;padding-right:.75rem}.py-0\\.5{padding-bottom:.125rem;padding-top:.125rem}.py-0{padding-bottom:0;padding-top:0}.px-2\\.5{padding-left:.625rem;padding-right:.625rem}.px-1\\.5{padding-left:.375rem;padding-right:.375rem}.py-3{padding-bottom:.75rem;padding-top:.75rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-8{padding-left:2rem;padding-right:2rem}.py-3\\.5{padding-bottom:.875rem;padding-top:.875rem}.py-1\\.5{padding-bottom:.375rem;padding-top:.375rem}.px-7{padding-left:1.75rem;padding-right:1.75rem}.px-9{padding-left:2.25rem;padding-right:2.25rem}.py-6{padding-bottom:1.5rem;padding-top:1.5rem}.py-8{padding-bottom:2rem;padding-top:2rem}.py-10{padding-bottom:2.5rem;padding-top:2.5rem}.py-20{padding-bottom:5rem;padding-top:5rem}.py-2\\.5{padding-bottom:.625rem;padding-top:.625rem}.py-32{padding-bottom:8rem;padding-top:8rem}.pt-6{padding-top:1.5rem}.pt-2{padding-top:.5rem}.pb-4{padding-bottom:1rem}.pb-20{padding-bottom:5rem}.pb-32{padding-bottom:8rem}.pt-1{padding-top:.25rem}.pl-1{padding-left:.25rem}.pl-10{padding-left:2.5rem}.pt-10{padding-top:2.5rem}.pt-8{padding-top:2rem}.pl-6{padding-left:1.5rem}.pt-4{padding-top:1rem}.pl-8{padding-left:2rem}.pb-6{padding-bottom:1.5rem}.pb-3{padding-bottom:.75rem}.text-center{text-align:center}.text-right{text-align:right}.font-primary{font-family:Inter}.text-xs{font-size:.75rem}.text-tiny{font-size:.875rem}.text-xxs{font-size:.7rem}.text-base{font-size:1rem}.text-sm{font-size:.875rem}.text-2xl{font-size:1.5rem}.text-xl{font-size:1.25rem}.text-lg{font-size:1.125rem}.text-3xl{font-size:1.875rem}.text-5xl{font-size:3rem}.text-4xl{font-size:2.25rem}.text-6xl{font-size:4rem}.font-normal{font-weight:400}.font-light{font-weight:300}.font-semibold{font-weight:600}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-thin{font-weight:100}.font-extralight{font-weight:200}.font-extrabold{font-weight:800}.font-black{font-weight:900}.uppercase{text-transform:uppercase}.lowercase{text-transform:lowercase}.italic{font-style:italic}.leading-tight{line-height:1.25}.leading-none{line-height:1}.tracking-wide{letter-spacing:.025em}.tracking-wider{letter-spacing:.05em}.tracking-tight{letter-spacing:-.025em}.tracking-tighter{letter-spacing:-.05em}.tracking-normal{letter-spacing:0}.tracking-widest{letter-spacing:.1em}.text-black{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85/var(--tw-text-opacity))}.text-sky-700{--tw-text-opacity:1;color:rgb(3 105 161/var(--tw-text-opacity))}.text-sky-900{--tw-text-opacity:1;color:rgb(12 74 110/var(--tw-text-opacity))}.text-sky-800{--tw-text-opacity:1;color:rgb(7 89 133/var(--tw-text-opacity))}.text-sky-500{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.text-\\[\\#0A0C25\\]{--tw-text-opacity:1;color:rgb(10 12 37/var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.text-sky-400{--tw-text-opacity:1;color:rgb(56 189 248/var(--tw-text-opacity))}.text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.text-zinc-400{--tw-text-opacity:1;color:rgb(161 161 170/var(--tw-text-opacity))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87/var(--tw-text-opacity))}.text-amber-700{--tw-text-opacity:1;color:rgb(180 83 9/var(--tw-text-opacity))}.text-rose-700{--tw-text-opacity:1;color:rgb(190 18 60/var(--tw-text-opacity))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216/var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94/var(--tw-text-opacity))}.text-cyan-500{--tw-text-opacity:1;color:rgb(6 182 212/var(--tw-text-opacity))}.text-sky-600{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.text-emerald-600{--tw-text-opacity:1;color:rgb(5 150 105/var(--tw-text-opacity))}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6/var(--tw-text-opacity))}.text-rose-600{--tw-text-opacity:1;color:rgb(225 29 72/var(--tw-text-opacity))}.text-pink-500{--tw-text-opacity:1;color:rgb(236 72 153/var(--tw-text-opacity))}.text-blue-500{--tw-text-opacity:1;color:rgb(59 130 246/var(--tw-text-opacity))}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.text-sky-300{--tw-text-opacity:1;color:rgb(125 211 252/var(--tw-text-opacity))}.text-teal-300{--tw-text-opacity:1;color:rgb(94 234 212/var(--tw-text-opacity))}.text-teal-800{--tw-text-opacity:1;color:rgb(17 94 89/var(--tw-text-opacity))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184/var(--tw-text-opacity))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105/var(--tw-text-opacity))}.text-indigo-600{--tw-text-opacity:1;color:rgb(79 70 229/var(--tw-text-opacity))}.text-neutral-500{--tw-text-opacity:1;color:rgb(115 115 115/var(--tw-text-opacity))}.text-neutral-400{--tw-text-opacity:1;color:rgb(163 163 163/var(--tw-text-opacity))}.text-pink-600{--tw-text-opacity:1;color:rgb(219 39 119/var(--tw-text-opacity))}.text-\\[\\#2a2f3d\\]{--tw-text-opacity:1;color:rgb(42 47 61/var(--tw-text-opacity))}.text-\\[\\#ff6d2d\\]{--tw-text-opacity:1;color:rgb(255 109 45/var(--tw-text-opacity))}.text-yellow-400{--tw-text-opacity:1;color:rgb(250 204 21/var(--tw-text-opacity))}.text-green-50{--tw-text-opacity:1;color:rgb(240 253 244/var(--tw-text-opacity))}.text-yellow-500{--tw-text-opacity:1;color:rgb(234 179 8/var(--tw-text-opacity))}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68/var(--tw-text-opacity))}.text-sky-50{--tw-text-opacity:1;color:rgb(240 249 255/var(--tw-text-opacity))}.text-yellow-50{--tw-text-opacity:1;color:rgb(254 252 232/var(--tw-text-opacity))}.text-red-50{--tw-text-opacity:1;color:rgb(254 242 242/var(--tw-text-opacity))}.text-green-400{--tw-text-opacity:1;color:rgb(74 222 128/var(--tw-text-opacity))}.text-cyan-700{--tw-text-opacity:1;color:rgb(14 116 144/var(--tw-text-opacity))}.text-gray-50{--tw-text-opacity:1;color:rgb(249 250 251/var(--tw-text-opacity))}.text-teal-400{--tw-text-opacity:1;color:rgb(45 212 191/var(--tw-text-opacity))}.text-cyan-800{--tw-text-opacity:1;color:rgb(21 94 117/var(--tw-text-opacity))}.text-yellow-300{--tw-text-opacity:1;color:rgb(253 224 71/var(--tw-text-opacity))}.text-pink-100{--tw-text-opacity:1;color:rgb(252 231 243/var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.overline{-webkit-text-decoration-line:overline;text-decoration-line:overline}.line-through{-webkit-text-decoration-line:line-through;text-decoration-line:line-through}.no-underline{-webkit-text-decoration-line:none;text-decoration-line:none}.decoration-auto{text-decoration-thickness:auto}.decoration-0{text-decoration-thickness:0}.decoration-1{text-decoration-thickness:1px}.decoration-2{text-decoration-thickness:2px}.decoration-4{text-decoration-thickness:4px}.decoration-8{text-decoration-thickness:8px}.decoration-from-font{text-decoration-thickness:from-font}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.shadow,.shadow-lg{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow{--tw-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color)}.shadow-md{--tw-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-gray-300{--tw-shadow-color:#d1d5db;--tw-shadow:var(--tw-shadow-colored)}.shadow-gray-400{--tw-shadow-color:#9ca3af;--tw-shadow:var(--tw-shadow-colored)}.shadow-blue-300{--tw-shadow-color:#93c5fd;--tw-shadow:var(--tw-shadow-colored)}.shadow-red-300{--tw-shadow-color:#fca5a5;--tw-shadow:var(--tw-shadow-colored)}.shadow-gray-200{--tw-shadow-color:#e5e7eb;--tw-shadow:var(--tw-shadow-colored)}.shadow-sky-500\\/50{--tw-shadow-color:rgba(14,165,233,.5);--tw-shadow:var(--tw-shadow-colored)}.shadow-rose-500\\/40{--tw-shadow-color:rgba(244,63,94,.4);--tw-shadow:var(--tw-shadow-colored)}.shadow-emerald-500\\/50{--tw-shadow-color:rgba(16,185,129,.5);--tw-shadow:var(--tw-shadow-colored)}.shadow-amber-500\\/50{--tw-shadow-color:rgba(245,158,11,.5);--tw-shadow:var(--tw-shadow-colored)}.shadow-fuchsia-500\\/50{--tw-shadow-color:rgba(217,70,239,.5);--tw-shadow:var(--tw-shadow-colored)}.outline{outline-style:solid}.ring-2{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.ring,.ring-2{box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.ring{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.ring-indigo-400{--tw-ring-opacity:1;--tw-ring-color:rgb(129 140 248/var(--tw-ring-opacity))}.ring-green-300{--tw-ring-opacity:1;--tw-ring-color:rgb(134 239 172/var(--tw-ring-opacity))}.ring-red-300{--tw-ring-opacity:1;--tw-ring-color:rgb(252 165 165/var(--tw-ring-opacity))}.ring-sky-300{--tw-ring-opacity:1;--tw-ring-color:rgb(125 211 252/var(--tw-ring-opacity))}.ring-emerald-400{--tw-ring-opacity:1;--tw-ring-color:rgb(52 211 153/var(--tw-ring-opacity))}.ring-blue-300{--tw-ring-opacity:1;--tw-ring-color:rgb(147 197 253/var(--tw-ring-opacity))}.ring-red-400{--tw-ring-opacity:1;--tw-ring-color:rgb(248 113 113/var(--tw-ring-opacity))}.ring-green-400{--tw-ring-opacity:1;--tw-ring-color:rgb(74 222 128/var(--tw-ring-opacity))}.ring-pink-600{--tw-ring-opacity:1;--tw-ring-color:rgb(219 39 119/var(--tw-ring-opacity))}.ring-white{--tw-ring-opacity:1;--tw-ring-color:rgb(255 255 255/var(--tw-ring-opacity))}.blur{--tw-blur:blur(8px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-filter{-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-text-decoration-color,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-all{transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}.transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,fill,stroke,-webkit-text-decoration-color;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,-webkit-text-decoration-color;transition-timing-function:cubic-bezier(.4,0,.2,1)}.delay-200{transition-delay:.2s}.duration-500{transition-duration:.5s}.duration-300{transition-duration:.3s}.duration-100{transition-duration:.1s}.duration-200{transition-duration:.2s}.ease-linear{transition-timing-function:linear}.ease-in{transition-timing-function:cubic-bezier(.4,0,1,1)}html{font-family:\"Inter\",sans-serif;font-family:\"Montserrat\",sans-serif}.blurBg{-webkit-backdrop-filter:saturate(1.5) blur(12px);backdrop-filter:saturate(1.5) blur(12px);background-color:rgba(30,28,28,.8)}::-webkit-scrollbar{height:12px;width:5px}::-webkit-scrollbar-track{border:1px solid #8c8c8c;border-radius:10px}::-webkit-scrollbar-thumb{background:#848484;border-radius:10px}::-webkit-scrollbar-thumb:hover{background:#909090}.no-scrollbar::-webkit-scrollbar{display:none}.no-scrollbar{-ms-overflow-style:none;scrollbar-width:none}pre[class*=language-]{border-radius:10px!important;font-size:.9rem;margin:.5em 0;overflow:auto;padding:1em}.light pre[class*=language-]{background:#f5f5f5!important;padding:1.5rem}.dark pre[class*=language-]{background:#171717!important;padding:1.5rem}.fadeSnippet-enter-active{-webkit-animation:fade-in .2s;animation:fade-in .2s}.fadeSnippet-leave-active{-webkit-animation:fade-out .2s;animation:fade-out .2s}@-webkit-keyframes fade-in{0%{transform:translateY(10px)}to{transform:translateY(0)}}@keyframes fade-in{0%{transform:translateY(10px)}to{transform:translateY(0)}}@-webkit-keyframes fade-out{0%{transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}@keyframes fade-out{0%{transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}.placeholder\\:text-gray-400::-moz-placeholder{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.placeholder\\:text-gray-400::placeholder{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.hover\\:mr-2:hover{margin-right:.5rem}.hover\\:block:hover{display:block}.hover\\:h-10:hover{height:2.5rem}.hover\\:w-10:hover{width:2.5rem}.hover\\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\\:cursor-pointer:hover{cursor:pointer}.hover\\:cursor-default:hover{cursor:default}.hover\\:border-2:hover{border-width:2px}.hover\\:border:hover{border-width:1px}.hover\\:border-\\[\\#ff6d2d\\]:hover{--tw-border-opacity:1;border-color:rgb(255 109 45/var(--tw-border-opacity))}.hover\\:border-gray-500:hover{--tw-border-opacity:1;border-color:rgb(107 114 128/var(--tw-border-opacity))}.hover\\:border-blue-500:hover{--tw-border-opacity:1;border-color:rgb(59 130 246/var(--tw-border-opacity))}.hover\\:bg-gray-200:hover{--tw-bg-opacity:1;background-color:rgb(229 231 235/var(--tw-bg-opacity))}.hover\\:bg-blue-200:hover{--tw-bg-opacity:1;background-color:rgb(191 219 254/var(--tw-bg-opacity))}.hover\\:bg-gray-800:hover{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.hover\\:bg-indigo-200:hover{--tw-bg-opacity:1;background-color:rgb(199 210 254/var(--tw-bg-opacity))}.hover\\:bg-sky-200:hover{--tw-bg-opacity:1;background-color:rgb(186 230 253/var(--tw-bg-opacity))}.hover\\:bg-teal-200:hover{--tw-bg-opacity:1;background-color:rgb(153 246 228/var(--tw-bg-opacity))}.hover\\:bg-rose-200:hover{--tw-bg-opacity:1;background-color:rgb(254 205 211/var(--tw-bg-opacity))}.hover\\:bg-red-200:hover{--tw-bg-opacity:1;background-color:rgb(254 202 202/var(--tw-bg-opacity))}.hover\\:bg-emerald-200:hover{--tw-bg-opacity:1;background-color:rgb(167 243 208/var(--tw-bg-opacity))}.hover\\:bg-yellow-200:hover{--tw-bg-opacity:1;background-color:rgb(254 240 138/var(--tw-bg-opacity))}.hover\\:bg-zinc-200:hover{--tw-bg-opacity:1;background-color:rgb(228 228 231/var(--tw-bg-opacity))}.hover\\:bg-gray-900:hover{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.hover\\:bg-\\[\\#FAF5ED\\]:hover{--tw-bg-opacity:1;background-color:rgb(250 245 237/var(--tw-bg-opacity))}.hover\\:bg-pink-500:hover{--tw-bg-opacity:1;background-color:rgb(236 72 153/var(--tw-bg-opacity))}.hover\\:bg-gray-300:hover{--tw-bg-opacity:1;background-color:rgb(209 213 219/var(--tw-bg-opacity))}.hover\\:bg-green-400:hover{--tw-bg-opacity:1;background-color:rgb(74 222 128/var(--tw-bg-opacity))}.hover\\:bg-cyan-400:hover{--tw-bg-opacity:1;background-color:rgb(34 211 238/var(--tw-bg-opacity))}.hover\\:bg-gray-700:hover{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.hover\\:bg-cyan-500:hover{--tw-bg-opacity:1;background-color:rgb(6 182 212/var(--tw-bg-opacity))}.hover\\:bg-gray-100:hover{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity))}.hover\\:bg-sky-600:hover{--tw-bg-opacity:1;background-color:rgb(2 132 199/var(--tw-bg-opacity))}.hover\\:bg-sky-700:hover{--tw-bg-opacity:1;background-color:rgb(3 105 161/var(--tw-bg-opacity))}.hover\\:bg-\\[\\#FF90E8\\]:hover{--tw-bg-opacity:1;background-color:rgb(255 144 232/var(--tw-bg-opacity))}.hover\\:bg-zinc-50:hover{--tw-bg-opacity:1;background-color:rgb(250 250 250/var(--tw-bg-opacity))}.hover\\:bg-blue-100:hover{--tw-bg-opacity:1;background-color:rgb(219 234 254/var(--tw-bg-opacity))}.hover\\:bg-gray-50:hover{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity))}.hover\\:bg-green-100:hover{--tw-bg-opacity:1;background-color:rgb(220 252 231/var(--tw-bg-opacity))}.hover\\:bg-sky-100:hover{--tw-bg-opacity:1;background-color:rgb(224 242 254/var(--tw-bg-opacity))}.hover\\:bg-yellow-100:hover{--tw-bg-opacity:1;background-color:rgb(254 249 195/var(--tw-bg-opacity))}.hover\\:bg-red-100:hover{--tw-bg-opacity:1;background-color:rgb(254 226 226/var(--tw-bg-opacity))}.hover\\:bg-red-400:hover{--tw-bg-opacity:1;background-color:rgb(248 113 113/var(--tw-bg-opacity))}.hover\\:bg-blue-600:hover{--tw-bg-opacity:1;background-color:rgb(37 99 235/var(--tw-bg-opacity))}.hover\\:bg-amber-200:hover{--tw-bg-opacity:1;background-color:rgb(253 230 138/var(--tw-bg-opacity))}.hover\\:bg-teal-500:hover{--tw-bg-opacity:1;background-color:rgb(20 184 166/var(--tw-bg-opacity))}.hover\\:bg-cyan-900:hover{--tw-bg-opacity:1;background-color:rgb(22 78 99/var(--tw-bg-opacity))}.hover\\:bg-gradient-to-r:hover{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.hover\\:pl-0\\.5:hover{padding-left:.125rem}.hover\\:pl-0:hover{padding-left:0}.hover\\:font-semibold:hover{font-weight:600}.hover\\:text-sky-800:hover{--tw-text-opacity:1;color:rgb(7 89 133/var(--tw-text-opacity))}.hover\\:text-emerald-800:hover{--tw-text-opacity:1;color:rgb(6 95 70/var(--tw-text-opacity))}.hover\\:text-amber-800:hover{--tw-text-opacity:1;color:rgb(146 64 14/var(--tw-text-opacity))}.hover\\:text-rose-800:hover{--tw-text-opacity:1;color:rgb(159 18 57/var(--tw-text-opacity))}.hover\\:text-gray-500:hover{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.hover\\:text-\\[\\#ff6d2d\\]:hover{--tw-text-opacity:1;color:rgb(255 109 45/var(--tw-text-opacity))}.hover\\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.hover\\:text-gray-400:hover{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.hover\\:text-blue-800:hover{--tw-text-opacity:1;color:rgb(30 64 175/var(--tw-text-opacity))}.hover\\:text-sky-500:hover{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.hover\\:text-gray-100:hover{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.hover\\:text-gray-200:hover{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.hover\\:text-gray-700:hover{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.hover\\:text-gray-50:hover{--tw-text-opacity:1;color:rgb(249 250 251/var(--tw-text-opacity))}.hover\\:text-sky-700:hover{--tw-text-opacity:1;color:rgb(3 105 161/var(--tw-text-opacity))}.hover\\:text-black:hover{--tw-text-opacity:1;color:rgb(0 0 0/var(--tw-text-opacity))}.hover\\:text-zinc-700:hover{--tw-text-opacity:1;color:rgb(63 63 70/var(--tw-text-opacity))}.hover\\:text-blue-700:hover{--tw-text-opacity:1;color:rgb(29 78 216/var(--tw-text-opacity))}.hover\\:text-gray-900:hover{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.hover\\:text-green-600:hover{--tw-text-opacity:1;color:rgb(22 163 74/var(--tw-text-opacity))}.hover\\:text-sky-600:hover{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.hover\\:text-yellow-600:hover{--tw-text-opacity:1;color:rgb(202 138 4/var(--tw-text-opacity))}.hover\\:text-red-600:hover{--tw-text-opacity:1;color:rgb(220 38 38/var(--tw-text-opacity))}.hover\\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline}.hover\\:shadow-none:hover{--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000}.hover\\:shadow-inner:hover,.hover\\:shadow-none:hover{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.hover\\:shadow-inner:hover{--tw-shadow:inset 0 2px 4px 0 rgba(0,0,0,.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color)}.hover\\:shadow-gray-200:hover{--tw-shadow-color:#e5e7eb;--tw-shadow:var(--tw-shadow-colored)}.hover\\:shadow-cyan-200:hover{--tw-shadow-color:#a5f3fc;--tw-shadow:var(--tw-shadow-colored)}.focus\\:z-10:focus{z-index:10}.focus\\:border-sky-500:focus{--tw-border-opacity:1;border-color:rgb(14 165 233/var(--tw-border-opacity))}.focus\\:border-b-sky-500:focus{--tw-border-opacity:1;border-bottom-color:rgb(14 165 233/var(--tw-border-opacity))}.focus\\:bg-gray-900:focus{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.focus\\:font-medium:focus{font-weight:500}.focus\\:text-sky-500:focus{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.focus\\:text-gray-50:focus{--tw-text-opacity:1;color:rgb(249 250 251/var(--tw-text-opacity))}.focus\\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color)}.focus\\:ring-0:focus,.focus\\:ring-2:focus{box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.focus\\:ring-0:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(var(--tw-ring-offset-width)) var(--tw-ring-color)}.focus\\:ring-sky-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(14 165 233/var(--tw-ring-opacity))}.focus\\:ring-gray-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(107 114 128/var(--tw-ring-opacity))}.group:hover .group-hover\\:-translate-y-40{--tw-translate-y:-10rem}.group:hover .group-hover\\:-translate-y-40,.group:hover .group-hover\\:scale-110{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\\:scale-110{--tw-scale-x:1.1;--tw-scale-y:1.1}.group:hover .group-hover\\:scale-105{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\\:underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.peer:focus~.peer-focus\\:-top-2{top:-.5rem}.peer:focus~.peer-focus\\:text-xxs{font-size:.7rem}.peer:focus~.peer-focus\\:text-sky-600{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.dark .dark\\:border-0{border-width:0}.dark .dark\\:border{border-width:1px}.dark .dark\\:border-white{--tw-border-opacity:1;border-color:rgb(255 255 255/var(--tw-border-opacity))}.dark .dark\\:border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219/var(--tw-border-opacity))}.dark .dark\\:border-gray-400{--tw-border-opacity:1;border-color:rgb(156 163 175/var(--tw-border-opacity))}.dark .dark\\:border-gray-900{--tw-border-opacity:1;border-color:rgb(17 24 39/var(--tw-border-opacity))}.dark .dark\\:border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55/var(--tw-border-opacity))}.dark .dark\\:border-zinc-600{--tw-border-opacity:1;border-color:rgb(82 82 91/var(--tw-border-opacity))}.dark .dark\\:border-zinc-100{--tw-border-opacity:1;border-color:rgb(244 244 245/var(--tw-border-opacity))}.dark .dark\\:border-gray-500{--tw-border-opacity:1;border-color:rgb(107 114 128/var(--tw-border-opacity))}.dark .dark\\:border-zinc-500{--tw-border-opacity:1;border-color:rgb(113 113 122/var(--tw-border-opacity))}.dark .dark\\:border-zinc-300{--tw-border-opacity:1;border-color:rgb(212 212 216/var(--tw-border-opacity))}.dark .dark\\:border-zinc-700{--tw-border-opacity:1;border-color:rgb(63 63 70/var(--tw-border-opacity))}.dark .dark\\:border-zinc-400{--tw-border-opacity:1;border-color:rgb(161 161 170/var(--tw-border-opacity))}.dark .dark\\:border-black{--tw-border-opacity:1;border-color:rgb(0 0 0/var(--tw-border-opacity))}.dark .dark\\:border-gray-600{--tw-border-opacity:1;border-color:rgb(75 85 99/var(--tw-border-opacity))}.dark .dark\\:border-\\[\\#2D2D2D\\]{--tw-border-opacity:1;border-color:rgb(45 45 45/var(--tw-border-opacity))}.dark .dark\\:border-neutral-400{--tw-border-opacity:1;border-color:rgb(163 163 163/var(--tw-border-opacity))}.dark .dark\\:border-yellow-400{--tw-border-opacity:1;border-color:rgb(250 204 21/var(--tw-border-opacity))}.dark .dark\\:border-b-zinc-500{--tw-border-opacity:1;border-bottom-color:rgb(113 113 122/var(--tw-border-opacity))}.dark .dark\\:bg-neutral-800{--tw-bg-opacity:1;background-color:rgb(38 38 38/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#121212\\]{--tw-bg-opacity:1;background-color:rgb(18 18 18/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#0A0C25\\]{--tw-bg-opacity:1;background-color:rgb(10 12 37/var(--tw-bg-opacity))}.dark .dark\\:bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity))}.dark .dark\\:bg-sky-500{--tw-bg-opacity:1;background-color:rgb(14 165 233/var(--tw-bg-opacity))}.dark .dark\\:bg-sky-600{--tw-bg-opacity:1;background-color:rgb(2 132 199/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-500{--tw-bg-opacity:1;background-color:rgb(107 114 128/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-600{--tw-bg-opacity:1;background-color:rgb(75 85 99/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-800{--tw-bg-opacity:1;background-color:rgb(39 39 42/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-700{--tw-bg-opacity:1;background-color:rgb(63 63 70/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-900{--tw-bg-opacity:1;background-color:rgb(24 24 27/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-500{--tw-bg-opacity:1;background-color:rgb(113 113 122/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-300{--tw-bg-opacity:1;background-color:rgb(212 212 216/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#374151\\]{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.dark .dark\\:bg-neutral-700{--tw-bg-opacity:1;background-color:rgb(64 64 64/var(--tw-bg-opacity))}.dark .dark\\:bg-neutral-600{--tw-bg-opacity:1;background-color:rgb(82 82 82/var(--tw-bg-opacity))}.dark .dark\\:bg-green-700{--tw-bg-opacity:1;background-color:rgb(21 128 61/var(--tw-bg-opacity))}.dark .dark\\:bg-sky-700{--tw-bg-opacity:1;background-color:rgb(3 105 161/var(--tw-bg-opacity))}.dark .dark\\:bg-yellow-700{--tw-bg-opacity:1;background-color:rgb(161 98 7/var(--tw-bg-opacity))}.dark .dark\\:bg-red-700{--tw-bg-opacity:1;background-color:rgb(185 28 28/var(--tw-bg-opacity))}.dark .dark\\:bg-blue-700{--tw-bg-opacity:1;background-color:rgb(29 78 216/var(--tw-bg-opacity))}.dark .dark\\:bg-\\[\\#212121\\]{--tw-bg-opacity:1;background-color:rgb(33 33 33/var(--tw-bg-opacity))}.dark .dark\\:bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity))}.dark .dark\\:bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity))}.dark .dark\\:bg-zinc-600{--tw-bg-opacity:1;background-color:rgb(82 82 91/var(--tw-bg-opacity))}.dark .dark\\:from-neutral-50{--tw-gradient-from:#fafafa;--tw-gradient-to:hsla(0,0%,98%,0);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.dark .dark\\:to-neutral-500{--tw-gradient-to:#737373}.dark .dark\\:text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.dark .dark\\:text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.dark .dark\\:text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}.dark .dark\\:text-sky-500{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.dark .dark\\:text-sky-600{--tw-text-opacity:1;color:rgb(2 132 199/var(--tw-text-opacity))}.dark .dark\\:text-\\[\\#0A0C25\\]{--tw-text-opacity:1;color:rgb(10 12 37/var(--tw-text-opacity))}.dark .dark\\:text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity))}.dark .dark\\:text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.dark .dark\\:text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity))}.dark .dark\\:text-zinc-400{--tw-text-opacity:1;color:rgb(161 161 170/var(--tw-text-opacity))}.dark .dark\\:text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.dark .dark\\:text-zinc-200{--tw-text-opacity:1;color:rgb(228 228 231/var(--tw-text-opacity))}.dark .dark\\:text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.dark .dark\\:text-sky-400{--tw-text-opacity:1;color:rgb(56 189 248/var(--tw-text-opacity))}.dark .dark\\:text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity))}.dark .dark\\:text-neutral-200{--tw-text-opacity:1;color:rgb(229 229 229/var(--tw-text-opacity))}.dark .dark\\:text-zinc-500{--tw-text-opacity:1;color:rgb(113 113 122/var(--tw-text-opacity))}.dark .dark\\:text-zinc-50{--tw-text-opacity:1;color:rgb(250 250 250/var(--tw-text-opacity))}.dark .dark\\:text-gray-50{--tw-text-opacity:1;color:rgb(249 250 251/var(--tw-text-opacity))}.dark .dark\\:text-blue-50{--tw-text-opacity:1;color:rgb(239 246 255/var(--tw-text-opacity))}.dark .dark\\:text-zinc-300{--tw-text-opacity:1;color:rgb(212 212 216/var(--tw-text-opacity))}.dark .dark\\:text-zinc-700{--tw-text-opacity:1;color:rgb(63 63 70/var(--tw-text-opacity))}.dark .dark\\:text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216/var(--tw-text-opacity))}.dark .dark\\:text-neutral-500{--tw-text-opacity:1;color:rgb(115 115 115/var(--tw-text-opacity))}.dark .dark\\:text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235/var(--tw-text-opacity))}.dark .dark\\:text-neutral-400{--tw-text-opacity:1;color:rgb(163 163 163/var(--tw-text-opacity))}.dark .dark\\:text-green-300{--tw-text-opacity:1;color:rgb(134 239 172/var(--tw-text-opacity))}.dark .dark\\:text-green-400{--tw-text-opacity:1;color:rgb(74 222 128/var(--tw-text-opacity))}.dark .dark\\:text-sky-300{--tw-text-opacity:1;color:rgb(125 211 252/var(--tw-text-opacity))}.dark .dark\\:text-yellow-300{--tw-text-opacity:1;color:rgb(253 224 71/var(--tw-text-opacity))}.dark .dark\\:text-yellow-400{--tw-text-opacity:1;color:rgb(250 204 21/var(--tw-text-opacity))}.dark .dark\\:text-red-300{--tw-text-opacity:1;color:rgb(252 165 165/var(--tw-text-opacity))}.dark .dark\\:text-red-400{--tw-text-opacity:1;color:rgb(248 113 113/var(--tw-text-opacity))}.dark .dark\\:text-blue-400{--tw-text-opacity:1;color:rgb(96 165 250/var(--tw-text-opacity))}.dark .dark\\:text-red-700{--tw-text-opacity:1;color:rgb(185 28 28/var(--tw-text-opacity))}.dark .dark\\:text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253/var(--tw-text-opacity))}.dark .dark\\:text-blue-200{--tw-text-opacity:1;color:rgb(191 219 254/var(--tw-text-opacity))}.dark .dark\\:text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity))}.dark .dark\\:shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.dark .dark\\:shadow-sky-800\\/80{--tw-shadow-color:rgba(7,89,133,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-rose-800\\/80{--tw-shadow-color:rgba(159,18,57,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-emerald-800\\/80{--tw-shadow-color:rgba(6,95,70,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-amber-800\\/80{--tw-shadow-color:rgba(146,64,14,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-fuchsia-800\\/80{--tw-shadow-color:rgba(134,25,143,.8);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-white\\/5{--tw-shadow-color:hsla(0,0%,100%,.05);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-black\\/5{--tw-shadow-color:rgba(0,0,0,.05);--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:shadow-black{--tw-shadow-color:#000;--tw-shadow:var(--tw-shadow-colored)}.dark .dark\\:ring-black{--tw-ring-opacity:1;--tw-ring-color:rgb(0 0 0/var(--tw-ring-opacity))}.dark .dark\\:hover\\:bg-zinc-700:hover{--tw-bg-opacity:1;background-color:rgb(63 63 70/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-zinc-800:hover{--tw-bg-opacity:1;background-color:rgb(39 39 42/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-sky-500:hover{--tw-bg-opacity:1;background-color:rgb(14 165 233/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-gray-700:hover{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-green-700:hover{--tw-bg-opacity:1;background-color:rgb(21 128 61/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-sky-700:hover{--tw-bg-opacity:1;background-color:rgb(3 105 161/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-yellow-700:hover{--tw-bg-opacity:1;background-color:rgb(161 98 7/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-red-700:hover{--tw-bg-opacity:1;background-color:rgb(185 28 28/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-red-500:hover{--tw-bg-opacity:1;background-color:rgb(239 68 68/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-blue-500:hover{--tw-bg-opacity:1;background-color:rgb(59 130 246/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-zinc-100:hover{--tw-bg-opacity:1;background-color:rgb(244 244 245/var(--tw-bg-opacity))}.dark .dark\\:hover\\:bg-gray-800:hover{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.dark .dark\\:hover\\:text-sky-500:hover{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-zinc-100:hover{--tw-text-opacity:1;color:rgb(244 244 245/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-gray-100:hover{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-green-200:hover{--tw-text-opacity:1;color:rgb(187 247 208/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-sky-200:hover{--tw-text-opacity:1;color:rgb(186 230 253/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-yellow-200:hover{--tw-text-opacity:1;color:rgb(254 240 138/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-red-200:hover{--tw-text-opacity:1;color:rgb(254 202 202/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-zinc-900:hover{--tw-text-opacity:1;color:rgb(24 24 27/var(--tw-text-opacity))}.dark .dark\\:hover\\:text-zinc-500:hover{--tw-text-opacity:1;color:rgb(113 113 122/var(--tw-text-opacity))}.dark .dark\\:focus\\:bg-zinc-800:focus{--tw-bg-opacity:1;background-color:rgb(39 39 42/var(--tw-bg-opacity))}.dark .dark\\:focus\\:bg-gray-800:focus{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity))}.dark .dark\\:focus\\:text-sky-500:focus{--tw-text-opacity:1;color:rgb(14 165 233/var(--tw-text-opacity))}.dark .dark\\:focus\\:ring-gray-400:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(156 163 175/var(--tw-ring-opacity))}@media (min-width:640px){.sm\\:mt-2{margin-top:.5rem}.sm\\:h-96{height:24rem}.sm\\:h-40{height:10rem}.sm\\:h-full{height:100%}.sm\\:w-fit{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.sm\\:w-full{width:100%}.sm\\:items-center{align-items:center}.sm\\:justify-center{justify-content:center}.sm\\:p-4{padding:1rem}.sm\\:text-sm{font-size:.875rem}}@media (min-width:768px){.md\\:container{margin-left:auto;margin-right:auto;padding-left:.5rem;padding-right:.5rem;width:100%}@media (min-width:340px){.md\\:container{max-width:340px}}@media (min-width:640px){.md\\:container{max-width:640px;padding-left:1rem;padding-right:1rem}}@media (min-width:768px){.md\\:container{max-width:768px;padding-left:1rem;padding-right:1rem}}@media (min-width:1024px){.md\\:container{max-width:1024px;padding-left:2rem;padding-right:2rem}}@media (min-width:1280px){.md\\:container{max-width:1280px;padding-left:3rem;padding-right:3rem}}@media (min-width:1536px){.md\\:container{max-width:1536px;padding-left:3rem;padding-right:3rem}}.md\\:-my-10{margin-bottom:-2.5rem;margin-top:-2.5rem}.md\\:mt-16{margin-top:4rem}.md\\:mr-2{margin-right:.5rem}.md\\:-mt-20{margin-top:-5rem}.md\\:-ml-20{margin-left:-5rem}.md\\:block{display:block}.md\\:hidden{display:none}.md\\:h-screen{height:100vh}.md\\:h-4{height:1rem}.md\\:h-full{height:100%}.md\\:h-36{height:9rem}.md\\:h-14{height:3.5rem}.md\\:h-64{height:16rem}.md\\:w-44{width:11rem}.md\\:w-1\\/2{width:50%}.md\\:w-4{width:1rem}.md\\:w-full{width:100%}.md\\:w-2\\/3{width:66.666667%}.md\\:w-96{width:24rem}.md\\:w-36{width:9rem}.md\\:w-14{width:3.5rem}.md\\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.md\\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.md\\:flex-row{flex-direction:row}.md\\:flex-col{flex-direction:column}.md\\:items-start{align-items:flex-start}.md\\:items-center{align-items:center}.md\\:justify-start{justify-content:flex-start}.md\\:justify-center{justify-content:center}.md\\:gap-4{gap:1rem}.md\\:gap-1{gap:.25rem}.md\\:space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1rem*var(--tw-space-x-reverse))}.md\\:space-y-0>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(0px*var(--tw-space-y-reverse));margin-top:calc(0px*(1 - var(--tw-space-y-reverse)))}.md\\:space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(1.5rem*var(--tw-space-y-reverse));margin-top:calc(1.5rem*(1 - var(--tw-space-y-reverse)))}.md\\:space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.5rem*var(--tw-space-x-reverse))}.md\\:space-x-1>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(.25rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(.25rem*var(--tw-space-x-reverse))}.md\\:overflow-y-auto{overflow-y:auto}.md\\:rounded-xl{border-radius:.75rem}.md\\:border-2{border-width:2px}.md\\:p-4{padding:1rem}.md\\:p-10{padding:2.5rem}.md\\:px-4{padding-left:1rem;padding-right:1rem}.md\\:px-24{padding-left:6rem;padding-right:6rem}.md\\:px-3{padding-left:.75rem;padding-right:.75rem}.md\\:py-20{padding-bottom:5rem;padding-top:5rem}.md\\:px-16{padding-left:4rem;padding-right:4rem}.md\\:py-16{padding-bottom:4rem;padding-top:4rem}.md\\:px-5{padding-left:1.25rem;padding-right:1.25rem}.md\\:py-2{padding-bottom:.5rem;padding-top:.5rem}.md\\:px-0{padding-left:0;padding-right:0}.md\\:px-32{padding-left:8rem;padding-right:8rem}.md\\:pb-0{padding-bottom:0}.md\\:pb-20{padding-bottom:5rem}.md\\:pb-6{padding-bottom:1.5rem}.md\\:text-base{font-size:1rem}.md\\:text-5xl{font-size:3rem}.md\\:text-sm{font-size:.875rem}.md\\:text-2xl{font-size:1.5rem}.md\\:text-lg{font-size:1.125rem}}@media (min-width:1024px){.lg\\:container{margin-left:auto;margin-right:auto;padding-left:.5rem;padding-right:.5rem;width:100%}@media (min-width:340px){.lg\\:container{max-width:340px}}@media (min-width:640px){.lg\\:container{max-width:640px;padding-left:1rem;padding-right:1rem}}@media (min-width:768px){.lg\\:container{max-width:768px;padding-left:1rem;padding-right:1rem}}@media (min-width:1024px){.lg\\:container{max-width:1024px;padding-left:2rem;padding-right:2rem}}@media (min-width:1280px){.lg\\:container{max-width:1280px;padding-left:3rem;padding-right:3rem}}@media (min-width:1536px){.lg\\:container{max-width:1536px;padding-left:3rem;padding-right:3rem}}.lg\\:mx-32{margin-left:8rem;margin-right:8rem}.lg\\:mt-2{margin-top:.5rem}.lg\\:mt-6{margin-top:1.5rem}.lg\\:mt-3{margin-top:.75rem}.lg\\:mt-4{margin-top:1rem}.lg\\:mt-0{margin-top:0}.lg\\:block{display:block}.lg\\:hidden{display:none}.lg\\:h-96{height:24rem}.lg\\:h-full{height:100%}.lg\\:w-full{width:100%}.lg\\:w-1\\/4{width:25%}.lg\\:w-3\\/4{width:75%}.lg\\:w-3\\/5{width:60%}.lg\\:w-2\\/3{width:66.666667%}.lg\\:w-1\\/3{width:33.333333%}.lg\\:w-1\\/2{width:50%}.lg\\:w-80{width:20rem}.lg\\:w-56{width:14rem}.lg\\:grid-cols-5{grid-template-columns:repeat(5,minmax(0,1fr))}.lg\\:grid-cols-6{grid-template-columns:repeat(6,minmax(0,1fr))}.lg\\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.lg\\:flex-row{flex-direction:row}.lg\\:items-center{align-items:center}.lg\\:justify-center{justify-content:center}.lg\\:gap-4{gap:1rem}.lg\\:space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1.5rem*var(--tw-space-x-reverse))}.lg\\:space-y-0>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-bottom:calc(0px*var(--tw-space-y-reverse));margin-top:calc(0px*(1 - var(--tw-space-y-reverse)))}.lg\\:space-x-8>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(2rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(2rem*var(--tw-space-x-reverse))}.lg\\:space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-left:calc(1rem*(1 - var(--tw-space-x-reverse)));margin-right:calc(1rem*var(--tw-space-x-reverse))}.lg\\:border-l-2{border-left-width:2px}.lg\\:py-4{padding-bottom:1rem;padding-top:1rem}.lg\\:px-4{padding-left:1rem;padding-right:1rem}.lg\\:py-6{padding-bottom:1.5rem;padding-top:1.5rem}.lg\\:px-12{padding-left:3rem;padding-right:3rem}.lg\\:py-2{padding-bottom:.5rem;padding-top:.5rem}.lg\\:py-8{padding-bottom:2rem;padding-top:2rem}.lg\\:text-3xl{font-size:1.875rem}.lg\\:text-2xl{font-size:1.5rem}.lg\\:text-xs{font-size:.75rem}.lg\\:text-sm{font-size:.875rem}.lg\\:text-xl{font-size:1.25rem}}@media (min-width:1536px){.\\32xl\\:text-2xl{font-size:1.5rem}}";
 }
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/plugins/server.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/plugins/server.mjs
 // Parents: 
-// - G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/entry ($id_55ca067f)
+// - D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/entry ($id_fb1a40bc)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/plugins/preload.server.mjs ($id_9871bba0)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/components.plugin.mjs ($id_df08b929)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/components.plugin.mjs ($id_50d79120)
 // - /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs ($id_e6f12003)
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_a2650341)
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/dist.plugin.a7948c32.mjs ($id_8479a5fe)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/dist.plugin.14633d17.mjs ($id_db5b3053)
 // --------------------
-const $id_80bc857d = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_a2c7814b = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/plugins/preload.server.mjs");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/components.plugin.mjs");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/components.plugin.mjs");
 
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs");
 
@@ -1873,7 +1875,7 @@ const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt/dist/pages/runtime/router.mjs");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/dist.plugin.a7948c32.mjs");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/dist.plugin.14633d17.mjs");
 
 __vite_ssr_exports__.default = [
   __vite_ssr_import_0__.default,
@@ -1889,7 +1891,7 @@ __vite_ssr_exports__.default = [
 // --------------------
 // Request: /node_modules/nuxt/dist/app/plugins/preload.server.mjs
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/plugins/server.mjs ($id_80bc857d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/plugins/server.mjs ($id_a2c7814b)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
 // --------------------
@@ -1910,13 +1912,13 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin((nuxtApp) 
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/components.plugin.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/components.plugin.mjs
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/plugins/server.mjs ($id_80bc857d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/plugins/server.mjs ($id_a2c7814b)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // --------------------
-const $id_df08b929 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_50d79120 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 
@@ -1935,7 +1937,7 @@ __vite_ssr_exports__.default = function (nuxtApp) {
 // --------------------
 // Request: /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/plugins/server.mjs ($id_80bc857d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/plugins/server.mjs ($id_a2c7814b)
 // Dependencies: 
 // - /node_modules/@vueuse/head/dist/index.mjs ($id_c032264e)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -2418,7 +2420,7 @@ Object.defineProperty(__vite_ssr_exports__, "useHead", { enumerable: true, confi
 
 // --------------------
 const $id_d7afab65 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/defu/dist/defu.mjs")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/defu/dist/defu.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -2427,20 +2429,20 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/defu/dist/defu.mjs\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/defu/dist/defu.mjs\".")
   })
 
 
 // --------------------
 // Request: /node_modules/nuxt/dist/head/runtime/plugin.mjs
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/plugins/server.mjs ($id_80bc857d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/plugins/server.mjs ($id_a2c7814b)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt/dist/head/runtime/components.mjs ($id_b2a29d6f)
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_04ea9504)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/meta.config.mjs ($id_7e65ac9b)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/meta.config.mjs ($id_1241d75d)
 // --------------------
 const $id_a2650341 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -2451,7 +2453,7 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/meta.config.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/meta.config.mjs");
 
 const metaMixin = {
   created() {
@@ -2699,13 +2701,13 @@ Object.defineProperty(__vite_ssr_exports__, "Body", { enumerable: true, configur
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/meta.config.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/meta.config.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_a2650341)
 // Dependencies: 
 
 // --------------------
-const $id_7e65ac9b = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_1241d75d = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 __vite_ssr_exports__.default = {"globalMeta":{"charset":"utf-8","viewport":"width=device-width, initial-scale=1","meta":[],"link":[{"href":"https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/themes/prism-tomorrow.min.css","crossorigin":"anonymous","referrerpolicy":"no-referrer","rel":"stylesheet"}],"style":[],"script":[{"src":"https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/prism.min.js","data-manual":true},{"src":"https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/plugins/normalize-whitespace/prism-normalize-whitespace.min.js","data-manual":true}]}};
 }
 
@@ -2713,7 +2715,7 @@ __vite_ssr_exports__.default = {"globalMeta":{"charset":"utf-8","viewport":"widt
 // --------------------
 // Request: /node_modules/nuxt/dist/pages/runtime/router.mjs
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/plugins/server.mjs ($id_80bc857d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/plugins/server.mjs ($id_a2c7814b)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue-router/dist/vue-router.cjs.js ($id_f9a4a698)
@@ -2721,9 +2723,9 @@ __vite_ssr_exports__.default = {"globalMeta":{"charset":"utf-8","viewport":"widt
 // - /node_modules/ufo/dist/index.mjs ($id_614de060)
 // - /node_modules/nuxt/dist/pages/runtime/page.mjs ($id_5fc14cdc)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/router.options.mjs ($id_2a66e4bb)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/middleware.mjs ($id_9707a1d9)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/router.options.mjs ($id_49522b60)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/middleware.mjs ($id_a63124c4)
 // --------------------
 const $id_a090977b = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -2738,11 +2740,11 @@ const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs");
 
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/router.options.mjs");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/router.options.mjs");
 
-const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/middleware.mjs");
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/middleware.mjs");
 
 function createCurrentLocation(base, location) {
   const { pathname, search, hash } = location;
@@ -2995,7 +2997,7 @@ Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, confi
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
 // Dependencies: 
@@ -3042,7 +3044,7 @@ Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, confi
 // - /pages/toast.vue ($id_0830445b)
 // - /pages/typography.vue ($id_b670e6ed)
 // --------------------
-const $id_f44322c8 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_73381d96 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/pages/About.vue?macro=true");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/pages/alerts.vue?macro=true");
@@ -3089,7 +3091,7 @@ __vite_ssr_exports__.default = [
   {
     name: "About",
     path: "/About",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/About.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/About.vue",
     children: [],
     meta: __vite_ssr_import_0__.meta,
     alias: __vite_ssr_import_0__.meta?.alias || [],
@@ -3098,7 +3100,7 @@ __vite_ssr_exports__.default = [
   {
     name: "alerts",
     path: "/alerts",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/alerts.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/alerts.vue",
     children: [],
     meta: __vite_ssr_import_1__.meta,
     alias: __vite_ssr_import_1__.meta?.alias || [],
@@ -3107,7 +3109,7 @@ __vite_ssr_exports__.default = [
   {
     name: "avatar",
     path: "/avatar",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/avatar.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/avatar.vue",
     children: [],
     meta: __vite_ssr_import_2__.meta,
     alias: __vite_ssr_import_2__.meta?.alias || [],
@@ -3116,7 +3118,7 @@ __vite_ssr_exports__.default = [
   {
     name: "badge",
     path: "/badge",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/badge.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/badge.vue",
     children: [],
     meta: __vite_ssr_import_3__.meta,
     alias: __vite_ssr_import_3__.meta?.alias || [],
@@ -3125,7 +3127,7 @@ __vite_ssr_exports__.default = [
   {
     name: "breadcrumb",
     path: "/breadcrumb",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/breadcrumb.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/breadcrumb.vue",
     children: [],
     meta: __vite_ssr_import_4__.meta,
     alias: __vite_ssr_import_4__.meta?.alias || [],
@@ -3134,7 +3136,7 @@ __vite_ssr_exports__.default = [
   {
     name: "buttonGroup",
     path: "/buttonGroup",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/buttonGroup.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/buttonGroup.vue",
     children: [],
     meta: __vite_ssr_import_5__.meta,
     alias: __vite_ssr_import_5__.meta?.alias || [],
@@ -3143,7 +3145,7 @@ __vite_ssr_exports__.default = [
   {
     name: "buttons",
     path: "/buttons",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/buttons.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/buttons.vue",
     children: [],
     meta: __vite_ssr_import_6__.meta,
     alias: __vite_ssr_import_6__.meta?.alias || [],
@@ -3152,7 +3154,7 @@ __vite_ssr_exports__.default = [
   {
     name: "card",
     path: "/card",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/card.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/card.vue",
     children: [],
     meta: __vite_ssr_import_7__.meta,
     alias: __vite_ssr_import_7__.meta?.alias || [],
@@ -3161,7 +3163,7 @@ __vite_ssr_exports__.default = [
   {
     name: "carousel",
     path: "/carousel",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/carousel.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/carousel.vue",
     children: [],
     meta: __vite_ssr_import_8__.meta,
     alias: __vite_ssr_import_8__.meta?.alias || [],
@@ -3170,7 +3172,7 @@ __vite_ssr_exports__.default = [
   {
     name: "dropdown",
     path: "/dropdown",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/dropdown.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/dropdown.vue",
     children: [],
     meta: __vite_ssr_import_9__.meta,
     alias: __vite_ssr_import_9__.meta?.alias || [],
@@ -3179,7 +3181,7 @@ __vite_ssr_exports__.default = [
   {
     name: "footer",
     path: "/footer",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/footer.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/footer.vue",
     children: [],
     meta: __vite_ssr_import_10__.meta,
     alias: __vite_ssr_import_10__.meta?.alias || [],
@@ -3188,7 +3190,7 @@ __vite_ssr_exports__.default = [
   {
     name: "form",
     path: "/form",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/form.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/form.vue",
     children: [],
     meta: __vite_ssr_import_11__.meta,
     alias: __vite_ssr_import_11__.meta?.alias || [],
@@ -3197,7 +3199,7 @@ __vite_ssr_exports__.default = [
   {
     name: "index",
     path: "/",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/index.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/index.vue",
     children: [],
     meta: __vite_ssr_import_12__.meta,
     alias: __vite_ssr_import_12__.meta?.alias || [],
@@ -3206,7 +3208,7 @@ __vite_ssr_exports__.default = [
   {
     name: "navbar",
     path: "/navbar",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/navbar.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/navbar.vue",
     children: [],
     meta: __vite_ssr_import_13__.meta,
     alias: __vite_ssr_import_13__.meta?.alias || [],
@@ -3215,7 +3217,7 @@ __vite_ssr_exports__.default = [
   {
     name: "pagination",
     path: "/pagination",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/pagination.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/pagination.vue",
     children: [],
     meta: __vite_ssr_import_14__.meta,
     alias: __vite_ssr_import_14__.meta?.alias || [],
@@ -3224,7 +3226,7 @@ __vite_ssr_exports__.default = [
   {
     name: "rating",
     path: "/rating",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/rating.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/rating.vue",
     children: [],
     meta: __vite_ssr_import_15__.meta,
     alias: __vite_ssr_import_15__.meta?.alias || [],
@@ -3233,7 +3235,7 @@ __vite_ssr_exports__.default = [
   {
     name: "sidebar",
     path: "/sidebar",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/sidebar.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/sidebar.vue",
     children: [],
     meta: __vite_ssr_import_16__.meta,
     alias: __vite_ssr_import_16__.meta?.alias || [],
@@ -3242,7 +3244,7 @@ __vite_ssr_exports__.default = [
   {
     name: "spinner",
     path: "/spinner",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/spinner.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/spinner.vue",
     children: [],
     meta: __vite_ssr_import_17__.meta,
     alias: __vite_ssr_import_17__.meta?.alias || [],
@@ -3251,7 +3253,7 @@ __vite_ssr_exports__.default = [
   {
     name: "timeline",
     path: "/timeline",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/timeline.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/timeline.vue",
     children: [],
     meta: __vite_ssr_import_18__.meta,
     alias: __vite_ssr_import_18__.meta?.alias || [],
@@ -3260,7 +3262,7 @@ __vite_ssr_exports__.default = [
   {
     name: "toast",
     path: "/toast",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/toast.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/toast.vue",
     children: [],
     meta: __vite_ssr_import_19__.meta,
     alias: __vite_ssr_import_19__.meta?.alias || [],
@@ -3269,7 +3271,7 @@ __vite_ssr_exports__.default = [
   {
     name: "typography",
     path: "/typography",
-    file: "G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/typography.vue",
+    file: "D:/ortigan/tailwind-library-nuxt/pages/typography.vue",
     children: [],
     meta: __vite_ssr_import_20__.meta,
     alias: __vite_ssr_import_20__.meta?.alias || [],
@@ -3282,7 +3284,7 @@ __vite_ssr_exports__.default = [
 // --------------------
 // Request: /pages/About.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -3334,7 +3336,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/About.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/About.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -3572,9 +3574,11 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // - /components/Sidebar/Snippets/Sectioned.vue ($id_1756fb05)
 // - /pages/sidebar.vue?macro=true ($id_3f4c97d9)
 // - /pages/spinner.vue?macro=true ($id_d9b4ac22)
+// - /components/Timeline/Default.vue ($id_a30078fc)
 // - /components/Timeline/Snippets/Default.vue ($id_cd677584)
 // - /components/Timeline/Icon.vue ($id_80cc1848)
 // - /components/Timeline/Snippets/Icon.vue ($id_9e938897)
+// - /components/Timeline/Avatar.vue ($id_dd4a08d4)
 // - /pages/timeline.vue?macro=true ($id_bdb4cda0)
 // - /components/Toast/Default.vue ($id_cd57beb8)
 // - /components/Toast/Snippets/Default.vue ($id_0edc06f2)
@@ -3629,7 +3633,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 
 // --------------------
 const $id_b215fa1c = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/vue/server-renderer/index.js")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/vue/server-renderer/index.js")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -3638,7 +3642,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/vue/server-renderer/index.js\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/vue/server-renderer/index.js\".")
   })
 
 
@@ -3878,6 +3882,8 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
 // - /components/Timeline/Snippets/Default.vue ($id_cd677584)
 // - /components/Timeline/Icon.vue ($id_80cc1848)
 // - /components/Timeline/Snippets/Icon.vue ($id_9e938897)
+// - /components/Timeline/Avatar.vue ($id_dd4a08d4)
+// - /components/Timeline/Snippets/Avatar.vue ($id_d79aa0fc)
 // - /pages/timeline.vue?macro=true ($id_bdb4cda0)
 // - /components/Toast/Default.vue ($id_cd57beb8)
 // - /components/Toast/Snippets/Default.vue ($id_0edc06f2)
@@ -3947,7 +3953,7 @@ __vite_ssr_exports__.default = (sfc, props) => {
 // --------------------
 // Request: /pages/alerts.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -5098,7 +5104,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_28__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_28__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/alerts.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_28__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/alerts.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -5152,7 +5158,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt/dist/app/components/utils.mjs ($id_69c52686)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/layouts.mjs ($id_21f18624)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/layouts.mjs ($id_ec7d1029)
 // --------------------
 const $id_39003883 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -5161,7 +5167,7 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/layouts.mjs");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/layouts.mjs");
 
 const defaultLayoutTransition = { name: "layout", mode: "out-in" };
 __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
@@ -5188,7 +5194,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/layouts.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/layouts.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // Dependencies: 
@@ -5196,7 +5202,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
 // - /layouts/custom.vue ($id_d158cf1f)
 // - /layouts/full.vue ($id_2ca7d6cb)
 // --------------------
-const $id_21f18624 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_ec7d1029 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 __vite_ssr_exports__.default = {
@@ -5209,7 +5215,7 @@ __vite_ssr_exports__.default = {
 // --------------------
 // Request: /layouts/custom.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/layouts.mjs ($id_21f18624)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/layouts.mjs ($id_ec7d1029)
 // Dependencies: 
 // - /components/Utils/Toast.vue ($id_1423e7ad)
 // - /components/Header.vue ($id_4e284fc3)
@@ -5342,7 +5348,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_11__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_11__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/layouts/custom.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_11__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/layouts/custom.vue"]]);
 }
 
 
@@ -5379,7 +5385,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Utils/Toast.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Utils/Toast.vue"]]);
 }
 
 
@@ -5751,7 +5757,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Header.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Header.vue"]]);
 }
 
 
@@ -5787,12 +5793,12 @@ Object.defineProperty(__vite_ssr_exports__, "useStore", { enumerable: true, conf
 // Request: /node_modules/pinia/dist/pinia.mjs
 // Parents: 
 // - /store/index.js ($id_3135ce2a)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/dist.plugin.a7948c32.mjs ($id_8479a5fe)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/dist.plugin.14633d17.mjs ($id_db5b3053)
 // Dependencies: 
 
 // --------------------
 const $id_b1920624 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_modules/pinia/dist/pinia.mjs")
+import("file:///D:/ortigan/tailwind-library-nuxt/node_modules/pinia/dist/pinia.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -5801,7 +5807,7 @@ import("file:///G:/Ortigan/tailwind%20component%20nuxt3/tailwind-library/node_mo
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/pinia/dist/pinia.mjs\".")
+    throw new Error("[vite dev] Error loading external \"D:/ortigan/tailwind-library-nuxt/node_modules/pinia/dist/pinia.mjs\".")
   })
 
 
@@ -5841,7 +5847,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Footer.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer.vue"]]);
 }
 
 
@@ -6030,7 +6036,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}.bgGradient{back
 // --------------------
 // Request: /layouts/full.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/layouts.mjs ($id_21f18624)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/layouts.mjs ($id_ec7d1029)
 // Dependencies: 
 // - /components/Header.vue ($id_4e284fc3)
 // - /store/index.js ($id_3135ce2a)
@@ -6101,7 +6107,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/layouts/full.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/layouts/full.vue"]]);
 }
 
 
@@ -6189,7 +6195,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Headers/Heading.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Headers/Heading.vue"]]);
 }
 
 
@@ -6269,7 +6275,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Headers/SubHeading.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Headers/SubHeading.vue"]]);
 }
 
 
@@ -6345,7 +6351,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Utils/ShowCodeButton.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Utils/ShowCodeButton.vue"]]);
 }
 
 
@@ -6421,7 +6427,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Utils/HideCodeButton.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Utils/HideCodeButton.vue"]]);
 }
 
 
@@ -6497,7 +6503,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Utils/ComponentPad.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Utils/ComponentPad.vue"]]);
 }
 
 
@@ -6576,7 +6582,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/DefaultAlert.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/DefaultAlert.vue"]]);
 }
 
 
@@ -6650,7 +6656,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Utils/CopyButton.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Utils/CopyButton.vue"]]);
 }
 
 
@@ -6710,7 +6716,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/Snippets/DefaultAlert.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/Snippets/DefaultAlert.vue"]]);
 }
 
 
@@ -6789,7 +6795,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/StateAlert.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/StateAlert.vue"]]);
 }
 
 
@@ -6853,7 +6859,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/Snippets/StateAlert.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/Snippets/StateAlert.vue"]]);
 }
 
 
@@ -6934,7 +6940,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/WithButton.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/WithButton.vue"]]);
 }
 
 
@@ -7009,7 +7015,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/Snippets/WithButton.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/Snippets/WithButton.vue"]]);
 }
 
 
@@ -7090,7 +7096,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/WithLink.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/WithLink.vue"]]);
 }
 
 
@@ -7160,7 +7166,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/Snippets/WithLink.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/Snippets/WithLink.vue"]]);
 }
 
 
@@ -7258,7 +7264,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/WithIcon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/WithIcon.vue"]]);
 }
 
 
@@ -7390,7 +7396,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/Snippets/WithIcon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/Snippets/WithIcon.vue"]]);
 }
 
 
@@ -7495,7 +7501,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/WithBorder.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/WithBorder.vue"]]);
 }
 
 
@@ -7616,7 +7622,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/Snippets/WithBorder.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/Snippets/WithBorder.vue"]]);
 }
 
 
@@ -7721,7 +7727,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/BorderLeft.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/BorderLeft.vue"]]);
 }
 
 
@@ -7831,7 +7837,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/Snippets/BorderLeft.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/Snippets/BorderLeft.vue"]]);
 }
 
 
@@ -7949,7 +7955,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Alert/AlertInfo.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Alert/AlertInfo.vue"]]);
 }
 
 
@@ -7969,7 +7975,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/avatar.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -9908,7 +9914,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_40__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/avatar.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/avatar.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -9948,7 +9954,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Default.vue"]]);
 }
 
 
@@ -10021,7 +10027,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/Default.vue"]]);
 }
 
 
@@ -10059,7 +10065,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Size.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Size.vue"]]);
 }
 
 
@@ -10132,7 +10138,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/Size.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/Size.vue"]]);
 }
 
 
@@ -10170,7 +10176,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Presence.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Presence.vue"]]);
 }
 
 
@@ -10250,7 +10256,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/Presence.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/Presence.vue"]]);
 }
 
 
@@ -10288,7 +10294,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Circle.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Circle.vue"]]);
 }
 
 
@@ -10368,7 +10374,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/Circle.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/Circle.vue"]]);
 }
 
 
@@ -10406,7 +10412,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Square.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Square.vue"]]);
 }
 
 
@@ -10485,7 +10491,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/Square.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/Square.vue"]]);
 }
 
 
@@ -10523,7 +10529,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/PresenceRing.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/PresenceRing.vue"]]);
 }
 
 
@@ -10599,7 +10605,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/PresenceRing.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/PresenceRing.vue"]]);
 }
 
 
@@ -10637,7 +10643,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Color.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Color.vue"]]);
 }
 
 
@@ -10712,7 +10718,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/Color.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/Color.vue"]]);
 }
 
 
@@ -10750,7 +10756,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Badge.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Badge.vue"]]);
 }
 
 
@@ -10847,7 +10853,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/Badge.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/Badge.vue"]]);
 }
 
 
@@ -10885,7 +10891,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Shadow.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Shadow.vue"]]);
 }
 
 
@@ -10977,7 +10983,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/Shadow.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/Shadow.vue"]]);
 }
 
 
@@ -11017,7 +11023,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Group1.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Group1.vue"]]);
 }
 
 
@@ -11117,7 +11123,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/Group1.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/Group1.vue"]]);
 }
 
 
@@ -11157,7 +11163,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Group2.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Group2.vue"]]);
 }
 
 
@@ -11249,7 +11255,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/Group2.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/Group2.vue"]]);
 }
 
 
@@ -11287,7 +11293,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Info.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Info.vue"]]);
 }
 
 
@@ -11400,7 +11406,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/Info.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/Info.vue"]]);
 }
 
 
@@ -11438,7 +11444,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/DropDown.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/DropDown.vue"]]);
 }
 
 
@@ -11523,7 +11529,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Avatar/Snippets/DropDown.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Avatar/Snippets/DropDown.vue"]]);
 }
 
 
@@ -11543,7 +11549,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/badge.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -13449,7 +13455,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_40__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/badge.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/badge.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -13555,7 +13561,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Default.vue"]]);
 }
 
 
@@ -13611,7 +13617,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/default.vue"]]);
 }
 
 
@@ -13715,7 +13721,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Large.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Large.vue"]]);
 }
 
 
@@ -13771,7 +13777,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Large.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/Large.vue"]]);
 }
 
 
@@ -13863,7 +13869,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/StateColor.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/StateColor.vue"]]);
 }
 
 
@@ -13917,7 +13923,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/StateColor.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/StateColor.vue"]]);
 }
 
 
@@ -14066,7 +14072,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Outline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Outline.vue"]]);
 }
 
 
@@ -14126,7 +14132,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Outline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/Outline.vue"]]);
 }
 
 
@@ -14265,7 +14271,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Pill.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Pill.vue"]]);
 }
 
 
@@ -14325,7 +14331,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Pill.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/Pill.vue"]]);
 }
 
 
@@ -14474,7 +14480,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/PillOutline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/PillOutline.vue"]]);
 }
 
 
@@ -14534,7 +14540,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/PillOutline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/PillOutline.vue"]]);
 }
 
 
@@ -14673,7 +14679,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Rectangle.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Rectangle.vue"]]);
 }
 
 
@@ -14775,7 +14781,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Rectangle.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/Rectangle.vue"]]);
 }
 
 
@@ -14914,7 +14920,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Cancel.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Cancel.vue"]]);
 }
 
 
@@ -15030,7 +15036,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Cancel.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/Cancel.vue"]]);
 }
 
 
@@ -15193,7 +15199,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Link.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Link.vue"]]);
 }
 
 
@@ -15300,7 +15306,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Link.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/Link.vue"]]);
 }
 
 
@@ -15404,7 +15410,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Size.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Size.vue"]]);
 }
 
 
@@ -15476,7 +15482,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Size.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/Size.vue"]]);
 }
 
 
@@ -15587,7 +15593,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Positioned.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Positioned.vue"]]);
 }
 
 
@@ -15667,7 +15673,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Positioned.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/Positioned.vue"]]);
 }
 
 
@@ -15778,7 +15784,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Text.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Text.vue"]]);
 }
 
 
@@ -15855,7 +15861,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Text.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/Text.vue"]]);
 }
 
 
@@ -15965,7 +15971,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Icon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Icon.vue"]]);
 }
 
 
@@ -16046,7 +16052,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Badge/Snippets/Icon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Badge/Snippets/Icon.vue"]]);
 }
 
 
@@ -16066,7 +16072,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/breadcrumb.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -17173,7 +17179,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_28__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_28__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/breadcrumb.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_28__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/breadcrumb.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -17228,7 +17234,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Default.vue"]]);
 }
 
 
@@ -17284,7 +17290,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Snippets/Default.vue"]]);
 }
 
 
@@ -17337,7 +17343,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Arrow.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Arrow.vue"]]);
 }
 
 
@@ -17402,7 +17408,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Snippets/Arrow.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Snippets/Arrow.vue"]]);
 }
 
 
@@ -17450,7 +17456,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Icon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Icon.vue"]]);
 }
 
 
@@ -17535,7 +17541,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Snippets/Icon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Snippets/Icon.vue"]]);
 }
 
 
@@ -17607,7 +17613,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Solid.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Solid.vue"]]);
 }
 
 
@@ -17723,7 +17729,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Snippets/Solid.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Snippets/Solid.vue"]]);
 }
 
 
@@ -17790,7 +17796,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Outline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Outline.vue"]]);
 }
 
 
@@ -17944,7 +17950,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Snippets/Outline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Snippets/Outline.vue"]]);
 }
 
 
@@ -18019,7 +18025,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Alignment.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Alignment.vue"]]);
 }
 
 
@@ -18225,7 +18231,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Snippets/Alignment.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Snippets/Alignment.vue"]]);
 }
 
 
@@ -18323,7 +18329,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Separator.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Separator.vue"]]);
 }
 
 
@@ -18469,7 +18475,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/BreadCrumb/Snippets/Separator.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/BreadCrumb/Snippets/Separator.vue"]]);
 }
 
 
@@ -18489,7 +18495,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/buttonGroup.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -19199,7 +19205,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_21__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_21__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/buttonGroup.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_21__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/buttonGroup.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -19241,7 +19247,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/ButtonGroup/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/ButtonGroup/Default.vue"]]);
 }
 
 
@@ -19297,7 +19303,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/ButtonGroup/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/ButtonGroup/Snippets/Default.vue"]]);
 }
 
 
@@ -19337,7 +19343,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/ButtonGroup/Outline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/ButtonGroup/Outline.vue"]]);
 }
 
 
@@ -19395,7 +19401,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/ButtonGroup/Snippets/Outline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/ButtonGroup/Snippets/Outline.vue"]]);
 }
 
 
@@ -19433,7 +19439,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/ButtonGroup/OutlineIcon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/ButtonGroup/OutlineIcon.vue"]]);
 }
 
 
@@ -19505,7 +19511,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/ButtonGroup/Snippets/OutlineIcon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/ButtonGroup/Snippets/OutlineIcon.vue"]]);
 }
 
 
@@ -19543,7 +19549,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/ButtonGroup/Icon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/ButtonGroup/Icon.vue"]]);
 }
 
 
@@ -19614,7 +19620,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/ButtonGroup/Snippets/Icon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/ButtonGroup/Snippets/Icon.vue"]]);
 }
 
 
@@ -19634,7 +19640,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/buttons.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -21141,7 +21147,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_34__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_34__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/buttons.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_34__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/buttons.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -21275,7 +21281,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Default.vue"]]);
 }
 
 
@@ -21334,7 +21340,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Snippets/Default.vue"]]);
 }
 
 
@@ -21475,7 +21481,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Outline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Outline.vue"]]);
 }
 
 
@@ -21533,7 +21539,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/Outline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Snippets/Outline.vue"]]);
 }
 
 
@@ -21625,7 +21631,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/StateColor.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/StateColor.vue"]]);
 }
 
 
@@ -21679,7 +21685,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/StateColor.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Snippets/StateColor.vue"]]);
 }
 
 
@@ -21785,7 +21791,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Size.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Size.vue"]]);
 }
 
 
@@ -21839,7 +21845,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/Size.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Snippets/Size.vue"]]);
 }
 
 
@@ -21912,7 +21918,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/DualIcon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/DualIcon.vue"]]);
 }
 
 
@@ -21978,7 +21984,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/DualIcon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Snippets/DualIcon.vue"]]);
 }
 
 
@@ -22220,7 +22226,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/LightColor.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/LightColor.vue"]]);
 }
 
 
@@ -22278,7 +22284,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/LightColor.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Snippets/LightColor.vue"]]);
 }
 
 
@@ -22521,7 +22527,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/DarkColor.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/DarkColor.vue"]]);
 }
 
 
@@ -22579,7 +22585,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/DarkColor.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Snippets/DarkColor.vue"]]);
 }
 
 
@@ -22663,7 +22669,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/ColoredShadow.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/ColoredShadow.vue"]]);
 }
 
 
@@ -22720,7 +22726,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/ColoredShadow.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Snippets/ColoredShadow.vue"]]);
 }
 
 
@@ -22804,7 +22810,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Gradient.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Gradient.vue"]]);
 }
 
 
@@ -22861,7 +22867,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/Gradient.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Snippets/Gradient.vue"]]);
 }
 
 
@@ -22907,7 +22913,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Appsmith.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Appsmith.vue"]]);
 }
 
 
@@ -22958,7 +22964,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Button/Snippets/Appsmith.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Button/Snippets/Appsmith.vue"]]);
 }
 
 
@@ -22978,7 +22984,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/card.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -24840,7 +24846,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_39__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_39__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/card.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_39__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/card.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -24922,7 +24928,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/Snippets/Default.vue"]]);
 }
 
 
@@ -25015,7 +25021,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/Default.vue"]]);
 }
 
 
@@ -25092,7 +25098,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/Snippets/Cta.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/Snippets/Cta.vue"]]);
 }
 
 
@@ -25209,7 +25215,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/Link.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/Link.vue"]]);
 }
 
 
@@ -25304,7 +25310,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/Snippets/Link.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/Snippets/Link.vue"]]);
 }
 
 
@@ -25406,7 +25412,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/DefaultUser.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/DefaultUser.vue"]]);
 }
 
 
@@ -25480,7 +25486,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/DefaultUser.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Snippets/DefaultUser.vue"]]);
 }
 
 
@@ -25592,7 +25598,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Type1.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Type1.vue"]]);
 }
 
 
@@ -25678,7 +25684,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type1.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Snippets/Type1.vue"]]);
 }
 
 
@@ -25746,7 +25752,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Type2.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Type2.vue"]]);
 }
 
 
@@ -25810,7 +25816,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type2.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Snippets/Type2.vue"]]);
 }
 
 
@@ -25883,7 +25889,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Type3.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Type3.vue"]]);
 }
 
 
@@ -25958,7 +25964,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type3.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Snippets/Type3.vue"]]);
 }
 
 
@@ -26034,7 +26040,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Type4.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Type4.vue"]]);
 }
 
 
@@ -26110,7 +26116,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type4.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Snippets/Type4.vue"]]);
 }
 
 
@@ -26190,7 +26196,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Type5.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Type5.vue"]]);
 }
 
 
@@ -26269,7 +26275,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type5.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Snippets/Type5.vue"]]);
 }
 
 
@@ -26329,7 +26335,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Type6.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Type6.vue"]]);
 }
 
 
@@ -26406,7 +26412,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type6.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Snippets/Type6.vue"]]);
 }
 
 
@@ -26466,7 +26472,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Type7.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Type7.vue"]]);
 }
 
 
@@ -26549,7 +26555,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type7.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Snippets/Type7.vue"]]);
 }
 
 
@@ -26601,7 +26607,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Type8.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Type8.vue"]]);
 }
 
 
@@ -26683,7 +26689,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type8.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Snippets/Type8.vue"]]);
 }
 
 
@@ -26731,7 +26737,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Type9.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Type9.vue"]]);
 }
 
 
@@ -26829,7 +26835,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Card/UserCard/Snippets/Type9.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Card/UserCard/Snippets/Type9.vue"]]);
 }
 
 
@@ -26849,7 +26855,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/carousel.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -27424,7 +27430,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_20__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_20__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/carousel.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_20__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/carousel.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -27471,7 +27477,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Carousel/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Carousel/Default.vue"]]);
 }
 
 
@@ -27546,7 +27552,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Carousel/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Carousel/Snippets/Default.vue"]]);
 }
 
 
@@ -27591,7 +27597,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Carousel/Second.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Carousel/Second.vue"]]);
 }
 
 
@@ -27661,7 +27667,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Carousel/Snippets/Second.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Carousel/Snippets/Second.vue"]]);
 }
 
 
@@ -27705,7 +27711,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Carousel/Third.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Carousel/Third.vue"]]);
 }
 
 
@@ -27793,7 +27799,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Carousel/Snippets/Third.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Carousel/Snippets/Third.vue"]]);
 }
 
 
@@ -27813,7 +27819,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/dropdown.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -28646,7 +28652,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_22__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/dropdown.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/dropdown.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -28770,7 +28776,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Dropdown/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Dropdown/Default.vue"]]);
 }
 
 
@@ -28821,7 +28827,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Dropdown/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Dropdown/Snippets/Default.vue"]]);
 }
 
 
@@ -28928,7 +28934,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Dropdown/Heading.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Dropdown/Heading.vue"]]);
 }
 
 
@@ -29039,7 +29045,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Dropdown/NoIcon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Dropdown/NoIcon.vue"]]);
 }
 
 
@@ -29233,7 +29239,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Dropdown/Profile.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Dropdown/Profile.vue"]]);
 }
 
 
@@ -29357,7 +29363,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Dropdown/WithIcon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Dropdown/WithIcon.vue"]]);
 }
 
 
@@ -29389,7 +29395,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/footer.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -30097,7 +30103,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_22__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/footer.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/footer.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -30143,7 +30149,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Footer/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer/Default.vue"]]);
 }
 
 
@@ -30270,7 +30276,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Footer/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer/Snippets/Default.vue"]]);
 }
 
 
@@ -30314,7 +30320,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Footer/LogoSection.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer/LogoSection.vue"]]);
 }
 
 
@@ -30446,7 +30452,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Footer/Snippets/LogoSection.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer/Snippets/LogoSection.vue"]]);
 }
 
 
@@ -30490,7 +30496,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Footer/TwoRow.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer/TwoRow.vue"]]);
 }
 
 
@@ -30635,7 +30641,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Footer/Snippets/TwoRow.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer/Snippets/TwoRow.vue"]]);
 }
 
 
@@ -30679,7 +30685,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Footer/Appsmith.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer/Appsmith.vue"]]);
 }
 
 
@@ -30808,7 +30814,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Footer/Snippets/Appsmith.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Footer/Snippets/Appsmith.vue"]]);
 }
 
 
@@ -30828,7 +30834,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/form.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -31403,7 +31409,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_20__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_20__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/form.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_20__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/form.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -31449,7 +31455,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Form/Element.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Form/Element.vue"]]);
 }
 
 
@@ -31532,7 +31538,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Form/Snippets/Element.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Form/Snippets/Element.vue"]]);
 }
 
 
@@ -31576,7 +31582,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Form/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Form/Default.vue"]]);
 }
 
 
@@ -31667,7 +31673,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Form/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Form/Snippets/Default.vue"]]);
 }
 
 
@@ -31711,7 +31717,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Form/Floatinglabel.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Form/Floatinglabel.vue"]]);
 }
 
 
@@ -31805,7 +31811,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Form/Snippets/Floatinglabel.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Form/Snippets/Floatinglabel.vue"]]);
 }
 
 
@@ -31825,7 +31831,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/index.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
@@ -32203,7 +32209,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_12__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_12__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/index.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_12__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/index.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -32249,7 +32255,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/HomePage/Features.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/HomePage/Features.vue"]]);
 }
 
 
@@ -32293,7 +32299,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/HomePage/TechStack.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/HomePage/TechStack.vue"]]);
 }
 
 
@@ -32358,7 +32364,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/HomePage/FoundationComp.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/HomePage/FoundationComp.vue"]]);
 }
 
 
@@ -32401,7 +32407,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/HomePage/ComponentShowcase/CompShowcasePad.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/HomePage/ComponentShowcase/CompShowcasePad.vue"]]);
 }
 
 
@@ -32466,7 +32472,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/HomePage/TailwindComp.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/HomePage/TailwindComp.vue"]]);
 }
 
 
@@ -32531,7 +32537,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/HomePage/FigmaComp.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/HomePage/FigmaComp.vue"]]);
 }
 
 
@@ -32551,7 +32557,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}.textstroke{-web
 // --------------------
 // Request: /pages/navbar.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -33393,7 +33399,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_24__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/navbar.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/navbar.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -33441,7 +33447,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Navbar/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Navbar/Default.vue"]]);
 }
 
 
@@ -33519,7 +33525,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Navbar/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Navbar/Snippets/Default.vue"]]);
 }
 
 
@@ -33563,7 +33569,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Navbar/Dropdown.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Navbar/Dropdown.vue"]]);
 }
 
 
@@ -33648,7 +33654,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Navbar/Snippets/Dropdown.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Navbar/Snippets/Dropdown.vue"]]);
 }
 
 
@@ -33692,7 +33698,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Navbar/Search.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Navbar/Search.vue"]]);
 }
 
 
@@ -33768,7 +33774,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Navbar/Snippets/Search.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Navbar/Snippets/Search.vue"]]);
 }
 
 
@@ -33812,7 +33818,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Navbar/Cta.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Navbar/Cta.vue"]]);
 }
 
 
@@ -33891,7 +33897,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Navbar/Snippets/Cta.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Navbar/Snippets/Cta.vue"]]);
 }
 
 
@@ -33935,7 +33941,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Navbar/Gumroad.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Navbar/Gumroad.vue"]]);
 }
 
 
@@ -34001,7 +34007,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Navbar/Snippets/Gumroad.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Navbar/Snippets/Gumroad.vue"]]);
 }
 
 
@@ -34021,7 +34027,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/pagination.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -34463,7 +34469,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_18__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_18__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/pagination.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_18__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/pagination.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -34505,7 +34511,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Pagination/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Pagination/Default.vue"]]);
 }
 
 
@@ -34564,7 +34570,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Pagination/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Pagination/Snippets/Default.vue"]]);
 }
 
 
@@ -34604,7 +34610,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Pagination/WithArrow.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Pagination/WithArrow.vue"]]);
 }
 
 
@@ -34663,7 +34669,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Pagination/Snippets/WithArrow.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Pagination/Snippets/WithArrow.vue"]]);
 }
 
 
@@ -34683,7 +34689,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/rating.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -35657,7 +35663,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_26__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_26__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/rating.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_26__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/rating.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -35699,7 +35705,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Rating/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Rating/Default.vue"]]);
 }
 
 
@@ -35766,7 +35772,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Rating/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Rating/Snippets/Default.vue"]]);
 }
 
 
@@ -35842,7 +35848,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Rating/OurCard.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Rating/OurCard.vue"]]);
 }
 
 
@@ -35905,7 +35911,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Rating/Snippets/OurCard.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Rating/Snippets/OurCard.vue"]]);
 }
 
 
@@ -35986,7 +35992,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Rating/Heart.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Rating/Heart.vue"]]);
 }
 
 
@@ -36043,7 +36049,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Rating/Snippets/Heart.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Rating/Snippets/Heart.vue"]]);
 }
 
 
@@ -36083,7 +36089,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Rating/Imdb.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Rating/Imdb.vue"]]);
 }
 
 
@@ -36159,7 +36165,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Rating/Snippets/Imdb.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Rating/Snippets/Imdb.vue"]]);
 }
 
 
@@ -36210,7 +36216,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Rating/Smiley.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Rating/Smiley.vue"]]);
 }
 
 
@@ -36267,7 +36273,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Rating/Snippets/Smiley.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Rating/Snippets/Smiley.vue"]]);
 }
 
 
@@ -36318,7 +36324,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Rating/YesOrNo.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Rating/YesOrNo.vue"]]);
 }
 
 
@@ -36373,7 +36379,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Rating/Snippets/YesOrNo.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Rating/Snippets/YesOrNo.vue"]]);
 }
 
 
@@ -36393,7 +36399,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/sidebar.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -37102,7 +37108,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_22__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/sidebar.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/sidebar.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -37142,7 +37148,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Sidebar/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Sidebar/Default.vue"]]);
 }
 
 
@@ -37239,7 +37245,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Sidebar/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Sidebar/Snippets/Default.vue"]]);
 }
 
 
@@ -37277,7 +37283,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Sidebar/WithBadge.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Sidebar/WithBadge.vue"]]);
 }
 
 
@@ -37388,7 +37394,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Sidebar/Snippets/WithBadge.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Sidebar/Snippets/WithBadge.vue"]]);
 }
 
 
@@ -37426,7 +37432,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Sidebar/Separator.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Sidebar/Separator.vue"]]);
 }
 
 
@@ -37582,7 +37588,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Sidebar/Snippets/Separator.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Sidebar/Snippets/Separator.vue"]]);
 }
 
 
@@ -37620,7 +37626,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Sidebar/Sectioned.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Sidebar/Sectioned.vue"]]);
 }
 
 
@@ -37797,7 +37803,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Sidebar/Snippets/Sectioned.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Sidebar/Snippets/Sectioned.vue"]]);
 }
 
 
@@ -37817,7 +37823,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/spinner.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -38151,7 +38157,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_16__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_16__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/spinner.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_16__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/spinner.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -38173,7 +38179,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/timeline.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -38186,6 +38192,8 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // - /components/Timeline/Snippets/Default.vue ($id_cd677584)
 // - /components/Timeline/Icon.vue ($id_80cc1848)
 // - /components/Timeline/Snippets/Icon.vue ($id_9e938897)
+// - /components/Timeline/Avatar.vue ($id_dd4a08d4)
+// - /components/Timeline/Snippets/Avatar.vue ($id_d79aa0fc)
 // - /components/Alert/AlertInfo.vue ($id_df465372)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -38215,28 +38223,32 @@ const __vite_ssr_import_9__ = await __vite_ssr_import__("/components/Timeline/Ic
 
 const __vite_ssr_import_10__ = await __vite_ssr_import__("/components/Timeline/Snippets/Icon.vue");
 
+const __vite_ssr_import_11__ = await __vite_ssr_import__("/components/Timeline/Avatar.vue");
 
-const __vite_ssr_import_11__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
+const __vite_ssr_import_12__ = await __vite_ssr_import__("/components/Timeline/Snippets/Avatar.vue");
 
-const __vite_ssr_import_12__ = await __vite_ssr_import__("/components/Alert/AlertInfo.vue");
 
-const __vite_ssr_import_13__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
+const __vite_ssr_import_13__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
+
+const __vite_ssr_import_14__ = await __vite_ssr_import__("/components/Alert/AlertInfo.vue");
+
+const __vite_ssr_import_15__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
 
 const _sfc_main = {
   metaInfo: {
     title: "Alerts",
   },
   components: {
-    AlertInfo: __vite_ssr_import_12__.default,
-    Heading: __vite_ssr_import_13__.default,
-    SubHeading: __vite_ssr_import_11__.default,
+    AlertInfo: __vite_ssr_import_14__.default,
+    Heading: __vite_ssr_import_15__.default,
+    SubHeading: __vite_ssr_import_13__.default,
 },
   data() {
     return {
       layout: "custom",
       default_timeline: false,
       icon_timeline: false,
-      separator_sidebar: false,
+      avatar_timeline: false,
       sectioned_sidebar: false,
       // SCROLL
       activeScrollSection: "",
@@ -38260,9 +38272,9 @@ const _sfc_main = {
   },
 };
 
-const __vite_ssr_import_14__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_16__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_15__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+const __vite_ssr_import_17__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
@@ -38277,9 +38289,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   const _component_TimelineSnippetsDefault = __vite_ssr_import_8__.default
   const _component_TimelineIcon = __vite_ssr_import_9__.default
   const _component_TimelineSnippetsIcon = __vite_ssr_import_10__.default
+  const _component_TimelineAvatar = __vite_ssr_import_11__.default
+  const _component_TimelineSnippetsAvatar = __vite_ssr_import_12__.default
 
-  _push(__vite_ssr_import_15__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_14__.mergeProps({ name: $data.layout }, _attrs), {
-    default: __vite_ssr_import_14__.withCtx((_, _push, _parent, _scopeId) => {
+  _push(__vite_ssr_import_17__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_16__.mergeProps({ name: $data.layout }, _attrs), {
+    default: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
         _push(`<div class="flex py-4 md:p-4"${
           _scopeId
@@ -38288,13 +38302,13 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }><div class="overflow-y-auto w-full md:px-4 pb-20" id="timelineContainer"${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_15__.ssrRenderComponent(_component_HeadersHeading, null, {
-          default: __vite_ssr_import_14__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_HeadersHeading, null, {
+          default: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(` Sidebar `)
             } else {
               return [
-                __vite_ssr_import_14__.createTextVNode(" Sidebar ")
+                __vite_ssr_import_16__.createTextVNode(" Sidebar ")
               ]
             }
           }),
@@ -38307,35 +38321,35 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? </p></div><!-- start --><section id="defaultTimeline" class="w-full"${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_15__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_14__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`Default`)
             } else {
               return [
-                __vite_ssr_import_14__.createTextVNode("Default")
+                __vite_ssr_import_16__.createTextVNode("Default")
               ]
             }
           }),
-          code: __vite_ssr_import_14__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               if (!$data.default_timeline) {
-                _push(__vite_ssr_import_15__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsShowCodeButton, {
                   onClick: $event => ($data.default_timeline = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_15__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsHideCodeButton, {
                   onClick: $event => ($data.default_timeline = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
                 (!$data.default_timeline)
-                  ? (__vite_ssr_import_14__.openBlock(), __vite_ssr_import_14__.createBlock(_component_UtilsShowCodeButton, {
+                  ? (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
                       onClick: $event => ($data.default_timeline = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_14__.openBlock(), __vite_ssr_import_14__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
                       onClick: $event => ($data.default_timeline = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
@@ -38344,20 +38358,20 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_15__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_14__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_15__.ssrRenderComponent(_component_TimelineDefault, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_17__.ssrRenderComponent(_component_TimelineDefault, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_14__.createVNode(_component_TimelineDefault)
+                __vite_ssr_import_16__.createVNode(_component_TimelineDefault)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_15__.ssrRenderStyle(($data.default_timeline) ? null : { display: "none" })
+          __vite_ssr_import_17__.ssrRenderStyle(($data.default_timeline) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -38367,41 +38381,41 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_15__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultTimelineComp'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_15__.ssrRenderComponent(_component_TimelineSnippetsDefault, { id: "defaultTimelineComp" }, null, _parent, _scopeId))
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_TimelineSnippetsDefault, { id: "defaultTimelineComp" }, null, _parent, _scopeId))
         _push(`</div><!-- code snippet end --></section><!-- End  --><!-- start --><section id="IconTimeline" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_15__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_14__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`Icon`)
             } else {
               return [
-                __vite_ssr_import_14__.createTextVNode("Icon")
+                __vite_ssr_import_16__.createTextVNode("Icon")
               ]
             }
           }),
-          code: __vite_ssr_import_14__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               if (!$data.icon_timeline) {
-                _push(__vite_ssr_import_15__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsShowCodeButton, {
                   onClick: $event => ($data.icon_timeline = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_15__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsHideCodeButton, {
                   onClick: $event => ($data.icon_timeline = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
                 (!$data.icon_timeline)
-                  ? (__vite_ssr_import_14__.openBlock(), __vite_ssr_import_14__.createBlock(_component_UtilsShowCodeButton, {
+                  ? (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
                       onClick: $event => ($data.icon_timeline = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_14__.openBlock(), __vite_ssr_import_14__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
                       onClick: $event => ($data.icon_timeline = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
@@ -38410,20 +38424,20 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_15__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_14__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_15__.ssrRenderComponent(_component_TimelineIcon, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_17__.ssrRenderComponent(_component_TimelineIcon, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_14__.createVNode(_component_TimelineIcon)
+                __vite_ssr_import_16__.createVNode(_component_TimelineIcon)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_15__.ssrRenderStyle(($data.icon_timeline) ? null : { display: "none" })
+          __vite_ssr_import_17__.ssrRenderStyle(($data.icon_timeline) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -38433,11 +38447,77 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_15__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('IconTimelineComp'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_15__.ssrRenderComponent(_component_TimelineSnippetsIcon, { id: "IconTimelineComp" }, null, _parent, _scopeId))
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_TimelineSnippetsIcon, { id: "IconTimelineComp" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End  --><!-- start --><section id="avatarTimeline" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Avatar`)
+            } else {
+              return [
+                __vite_ssr_import_16__.createTextVNode("Avatar")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.avatar_timeline) {
+                _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.avatar_timeline = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.avatar_timeline = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.avatar_timeline)
+                  ? (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.avatar_timeline = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.avatar_timeline = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_17__.ssrRenderComponent(_component_TimelineAvatar, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_16__.createVNode(_component_TimelineAvatar)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_17__.ssrRenderStyle(($data.avatar_timeline) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('avatarTimelineComp'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_TimelineSnippetsAvatar, { id: "avatarTimelineComp" }, null, _parent, _scopeId))
         _push(`</div><!-- code snippet end --></section><!-- End  --></div></div><!-- right sidebar --><div class="hidden lg:block"${
           _scopeId
         }><div class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2"${
@@ -38454,152 +38534,205 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }> Timeline With Icon </button><button${
           _scopeId
-        }> Content separator </button><button class="text-right"${
+        }> Timeline With Avatar </button><button class="text-right"${
           _scopeId
         }> Content Sectioned and avatar </button></div></div></div></div></div>`)
       } else {
         return [
-          __vite_ssr_import_14__.createVNode("div", { class: "flex py-4 md:p-4" }, [
-            __vite_ssr_import_14__.createCommentVNode(" content "),
-            __vite_ssr_import_14__.createVNode("div", { class: "flex pb-20 h-screen md:px-4 overflow-y-hidden scrollBar" }, [
-              __vite_ssr_import_14__.createVNode("div", {
+          __vite_ssr_import_16__.createVNode("div", { class: "flex py-4 md:p-4" }, [
+            __vite_ssr_import_16__.createCommentVNode(" content "),
+            __vite_ssr_import_16__.createVNode("div", { class: "flex pb-20 h-screen md:px-4 overflow-y-hidden scrollBar" }, [
+              __vite_ssr_import_16__.createVNode("div", {
                 class: "overflow-y-auto w-full md:px-4 pb-20",
                 id: "timelineContainer"
               }, [
-                __vite_ssr_import_14__.createVNode(_component_HeadersHeading, null, {
-                  default: __vite_ssr_import_14__.withCtx(() => [
-                    __vite_ssr_import_14__.createTextVNode(" Sidebar ")
+                __vite_ssr_import_16__.createVNode(_component_HeadersHeading, null, {
+                  default: __vite_ssr_import_16__.withCtx(() => [
+                    __vite_ssr_import_16__.createTextVNode(" Sidebar ")
                   ]),
                   _: 1 /* STABLE */
                 }),
-                __vite_ssr_import_14__.createVNode("div", null, [
-                  __vite_ssr_import_14__.createVNode("p", { class: "text-base" }, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? ")
+                __vite_ssr_import_16__.createVNode("div", null, [
+                  __vite_ssr_import_16__.createVNode("p", { class: "text-base" }, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? ")
                 ]),
-                __vite_ssr_import_14__.createCommentVNode(" start "),
-                __vite_ssr_import_14__.createVNode("section", {
+                __vite_ssr_import_16__.createCommentVNode(" start "),
+                __vite_ssr_import_16__.createVNode("section", {
                   id: "defaultTimeline",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_14__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_14__.withCtx(() => [
-                      __vite_ssr_import_14__.createTextVNode("Default")
+                  __vite_ssr_import_16__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.createTextVNode("Default")
                     ]),
-                    code: __vite_ssr_import_14__.withCtx(() => [
+                    code: __vite_ssr_import_16__.withCtx(() => [
                       (!$data.default_timeline)
-                        ? (__vite_ssr_import_14__.openBlock(), __vite_ssr_import_14__.createBlock(_component_UtilsShowCodeButton, {
+                        ? (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
                             onClick: $event => ($data.default_timeline = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_14__.openBlock(), __vite_ssr_import_14__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
                             onClick: $event => ($data.default_timeline = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_14__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_14__.withCtx(() => [
-                      __vite_ssr_import_14__.createVNode(_component_TimelineDefault)
+                  __vite_ssr_import_16__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.createVNode(_component_TimelineDefault)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_14__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_14__.createVNode(__vite_ssr_import_14__.Transition, {
+                  __vite_ssr_import_16__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_16__.createVNode(__vite_ssr_import_16__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_14__.withCtx(() => [
-                      __vite_ssr_import_14__.withDirectives(__vite_ssr_import_14__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_14__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_14__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_14__.createVNode("div", null, [
-                            __vite_ssr_import_14__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.withDirectives(__vite_ssr_import_16__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_16__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_16__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_16__.createVNode("div", null, [
+                            __vite_ssr_import_16__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultTimelineComp'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_14__.createVNode(_component_TimelineSnippetsDefault, { id: "defaultTimelineComp" })
+                        __vite_ssr_import_16__.createVNode(_component_TimelineSnippetsDefault, { id: "defaultTimelineComp" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_14__.vShow, $data.default_timeline]
+                        [__vite_ssr_import_16__.vShow, $data.default_timeline]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_14__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_16__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_14__.createCommentVNode(" End  "),
-                __vite_ssr_import_14__.createCommentVNode(" start "),
-                __vite_ssr_import_14__.createVNode("section", {
+                __vite_ssr_import_16__.createCommentVNode(" End  "),
+                __vite_ssr_import_16__.createCommentVNode(" start "),
+                __vite_ssr_import_16__.createVNode("section", {
                   id: "IconTimeline",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_14__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_14__.withCtx(() => [
-                      __vite_ssr_import_14__.createTextVNode("Icon")
+                  __vite_ssr_import_16__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.createTextVNode("Icon")
                     ]),
-                    code: __vite_ssr_import_14__.withCtx(() => [
+                    code: __vite_ssr_import_16__.withCtx(() => [
                       (!$data.icon_timeline)
-                        ? (__vite_ssr_import_14__.openBlock(), __vite_ssr_import_14__.createBlock(_component_UtilsShowCodeButton, {
+                        ? (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
                             onClick: $event => ($data.icon_timeline = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_14__.openBlock(), __vite_ssr_import_14__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
                             onClick: $event => ($data.icon_timeline = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_14__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_14__.withCtx(() => [
-                      __vite_ssr_import_14__.createVNode(_component_TimelineIcon)
+                  __vite_ssr_import_16__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.createVNode(_component_TimelineIcon)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_14__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_14__.createVNode(__vite_ssr_import_14__.Transition, {
+                  __vite_ssr_import_16__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_16__.createVNode(__vite_ssr_import_16__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_14__.withCtx(() => [
-                      __vite_ssr_import_14__.withDirectives(__vite_ssr_import_14__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_14__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_14__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_14__.createVNode("div", null, [
-                            __vite_ssr_import_14__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.withDirectives(__vite_ssr_import_16__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_16__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_16__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_16__.createVNode("div", null, [
+                            __vite_ssr_import_16__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('IconTimelineComp'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_14__.createVNode(_component_TimelineSnippetsIcon, { id: "IconTimelineComp" })
+                        __vite_ssr_import_16__.createVNode(_component_TimelineSnippetsIcon, { id: "IconTimelineComp" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_14__.vShow, $data.icon_timeline]
+                        [__vite_ssr_import_16__.vShow, $data.icon_timeline]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_14__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_16__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_14__.createCommentVNode(" End  ")
+                __vite_ssr_import_16__.createCommentVNode(" End  "),
+                __vite_ssr_import_16__.createCommentVNode(" start "),
+                __vite_ssr_import_16__.createVNode("section", {
+                  id: "avatarTimeline",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_16__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.createTextVNode("Avatar")
+                    ]),
+                    code: __vite_ssr_import_16__.withCtx(() => [
+                      (!$data.avatar_timeline)
+                        ? (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.avatar_timeline = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.avatar_timeline = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_16__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.createVNode(_component_TimelineAvatar)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_16__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_16__.createVNode(__vite_ssr_import_16__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.withDirectives(__vite_ssr_import_16__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_16__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_16__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_16__.createVNode("div", null, [
+                            __vite_ssr_import_16__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('avatarTimelineComp'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_16__.createVNode(_component_TimelineSnippetsAvatar, { id: "avatarTimelineComp" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_16__.vShow, $data.avatar_timeline]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_16__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_16__.createCommentVNode(" End  ")
               ])
             ]),
-            __vite_ssr_import_14__.createCommentVNode(" right sidebar "),
-            __vite_ssr_import_14__.createVNode("div", { class: "hidden lg:block" }, [
-              __vite_ssr_import_14__.createVNode("div", { class: "w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2" }, [
-                __vite_ssr_import_14__.createVNode("div", { class: "overflow-y-auto" }, [
-                  __vite_ssr_import_14__.createCommentVNode(" <AlertInfo /> "),
-                  __vite_ssr_import_14__.createVNode("div", { class: "flex flex-col justify-start items-end space-y-2" }, [
-                    __vite_ssr_import_14__.createVNode("p", { class: "text-normal font-bold" }, "On This Page"),
-                    __vite_ssr_import_14__.createVNode("button", {
+            __vite_ssr_import_16__.createCommentVNode(" right sidebar "),
+            __vite_ssr_import_16__.createVNode("div", { class: "hidden lg:block" }, [
+              __vite_ssr_import_16__.createVNode("div", { class: "w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2" }, [
+                __vite_ssr_import_16__.createVNode("div", { class: "overflow-y-auto" }, [
+                  __vite_ssr_import_16__.createCommentVNode(" <AlertInfo /> "),
+                  __vite_ssr_import_16__.createVNode("div", { class: "flex flex-col justify-start items-end space-y-2" }, [
+                    __vite_ssr_import_16__.createVNode("p", { class: "text-normal font-bold" }, "On This Page"),
+                    __vite_ssr_import_16__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('defaultTimeline'))
                     }, " Default Timeline ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_14__.createVNode("button", {
+                    __vite_ssr_import_16__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('IconTimeline'))
                     }, " Timeline With Icon ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_14__.createVNode("button", {
-                      onClick: $event => ($options.scrollToSection('contentSeparator'))
-                    }, " Content separator ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_14__.createVNode("button", {
+                    __vite_ssr_import_16__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('avatarTimeline'))
+                    }, " Timeline With Avatar ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_16__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('contentSectionedAvatar')),
                       class: "text-right"
                     }, " Content Sectioned and avatar ", 8 /* PROPS */, ["onClick"])
@@ -38615,20 +38748,20 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   }, _parent))
 }
 
-const __vite_ssr_import_16__ = await __vite_ssr_import__("/pages/timeline.vue?vue&type=style&index=0&lang.css");
+const __vite_ssr_import_18__ = await __vite_ssr_import__("/pages/timeline.vue?vue&type=style&index=0&lang.css");
 
 
-const __vite_ssr_import_17__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_19__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_17__.useSSRContext()
+  const ssrContext = __vite_ssr_import_19__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/timeline.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_18__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_20__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_18__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/timeline.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_20__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/timeline.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -38641,6 +38774,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // - /pages/timeline.vue ($id_4c08ad81)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_a30078fc = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
@@ -38653,23 +38787,27 @@ const _sfc_main = {
   },
 };
 
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<!--[--><!-- TYPE A  --><div class="p-4"><ol class="border-indigo-500 relative border-l dark:border-gray-300 dark:text-neutral-400"><li class="mb-4 ml-4"><!-- Circle --><div class="absolute -left-2.5 h-5 w-5 bg-white rounded-full flex items-center justify-center"><div class="bg-sky-500 border-sky-500 h-3 w-3 rounded-full border"></div></div><!-- Data 1 --><time class="mb-1 text-sm font-normal leading-none">Date</time><!-- Data 2  --><p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p><div class="w-28 h-8 border rounded-md flex items-center justify-center text-xs font-medium text-gray-600">Download ZIP</div></li><li class="mb-4 ml-4"><!-- Circle --><div class="absolute -left-2.5 h-5 w-5 bg-white rounded-full flex items-center justify-center"><div class="bg-sky-500 border-sky-500 h-3 w-3 rounded-full border"></div></div><!-- Data 1 --><time class="mb-1 text-sm font-normal leading-none">Date</time><!-- Data 2  --><p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p></li><li class="mb-4 ml-4"><!-- Circle --><div class="absolute -left-2.5 h-5 w-5 bg-white rounded-full flex items-center justify-center"><div class="bg-sky-500 border-sky-500 h-3 w-3 rounded-full border"></div></div><!-- Data 1 --><time class="mb-1 text-sm font-normal leading-none">Date</time><!-- Data 2  --><p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p></li></ol></div><!-- TYPE B  --><div class="p-4"><ol class="border-indigo-500 relative border-l dark:border-gray-600 dark:text-neutral-400"><li class="mb-4 ml-4"><!-- Circle --><div class="bg-sky-500 border-sky-500 absolute text-xs h-5 w-5 text-white flex justify-center items-center font-medium rounded-full -left-2">A</div><!-- Data 1 --><time class="mb-1 text-sm font-normal leading-none">Date</time><!-- Data 2  --><p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p></li><li class="mb-4 ml-4"><!-- Circle --><div class="bg-sky-500 border-sky-500 absolute text-xs h-5 w-5 text-white flex justify-center items-center font-medium rounded-full border -left-2">B</div><!-- Data 1 --><time class="mb-1 text-sm font-normal leading-none">Date</time><!-- Data 2  --><p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p></li></ol></div><!--]-->`)
+  _push(`<!--[--><!-- TYPE A  --><div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "p-4" }, _attrs))}><ol class="border-indigo-500 relative border-l dark:border-gray-300 text-gray-500 dark:text-neutral-400"><li class="mb-4 ml-4"><!-- Circle --><div class="absolute -left-2.5 h-5 w-5 bg-white dark:bg-zinc-800 rounded-full flex items-center justify-center"><div class="bg-sky-500 border-sky-500 h-3 w-3 rounded-full border"></div></div><!-- Data 1 --><time class="mb-1 text-sm font-normal leading-none">Date</time><!-- Data 2  --><p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p><div class="w-28 h-8 border border-gray-500 dark:border-neutral-400 rounded-md flex items-center justify-center text-xs font-medium text-gray-400 dark:text-neutral-500">Download ZIP</div></li><li class="mb-4 ml-4"><!-- Circle --><div class="absolute -left-2.5 h-5 w-5 bg-white dark:bg-zinc-800 rounded-full flex items-center justify-center"><div class="bg-sky-500 border-sky-500 h-3 w-3 rounded-full border"></div></div><!-- Data 1 --><time class="mb-1 text-sm font-normal leading-none">Date</time><!-- Data 2  --><p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p></li><li class="mb-4 ml-4"><!-- Circle --><div class="absolute -left-2.5 h-5 w-5 bg-white dark:bg-zinc-800 rounded-full flex items-center justify-center"><div class="bg-sky-500 border-sky-500 h-3 w-3 rounded-full border"></div></div><!-- Data 1 --><time class="mb-1 text-sm font-normal leading-none">Date</time><!-- Data 2  --><p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p></li></ol></div><!--]-->`)
 }
 
 
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_0__.useSSRContext()
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Timeline/Default.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Timeline/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Timeline/Default.vue"]]);
 }
 
 
@@ -38720,7 +38858,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Timeline/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Timeline/Snippets/Default.vue"]]);
 }
 
 
@@ -38746,7 +38884,7 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<!--[--><!-- TYPE icon  --><div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "p-4" }, _attrs))}><ol class="border-blue-500 relative border-l dark:border-gray-600 dark:text-neutral-400"><li class="mb-4 ml-4"><!-- Circle --><div class="bg-sky-200 absolute text-xs h-5 w-5 text-white flex justify-center items-center font-medium rounded-full -left-2.5"><svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-blue-500" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg></div><!-- Data 1 --><time class="mb-1 text-sm font-normal leading-none">Title 1</time><!-- Data 2  --><p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p></li><li class="mb-4 ml-4"><!-- Circle --><div class="bg-sky-200 absolute text-xs h-5 w-5 text-white flex justify-center items-center font-medium rounded-full border -left-2.5"><svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-blue-500" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg></div><!-- Data 1 --><time class="mb-1 text-sm font-normal leading-none">Title 2</time><!-- Data 2  --><p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p></li><li class="mb-4 ml-4"><!-- Circle --><div class="bg-sky-200 absolute text-xs h-5 w-5 text-white flex justify-center items-center font-medium rounded-full border -left-2.5"><svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-blue-500" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg></div><!-- Data 1 --><time class="mb-1 text-sm font-normal leading-none">Title 3</time><!-- Data 2  --><p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p></li></ol></div><!--]-->`)
+  _push(`<!--[--><!-- TYPE icon  --><div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "p-4" }, _attrs))}><ol class="border-gray-400 relative border-l dark:border-gray-600 text-neutral-500 dark:text-neutral-400"><li class="mb-4 ml-4"><!-- Circle --><div class="bg-sky-200 dark:bg-zinc-600 absolute text-xs h-5 w-5 text-white flex justify-center items-center font-medium rounded-full -left-2.5"><svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-blue-500 dark:text-blue-300" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg></div><!-- Data 1 --><time class="mb-1 text-sm font-normal leading-none">Title 1</time><!-- Data 2  --><p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p></li><li class="mb-4 ml-4"><!-- Circle --><div class="bg-sky-200 dark:bg-zinc-600 absolute text-xs h-5 w-5 text-white flex justify-center items-center font-medium rounded-full -left-2.5"><svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-blue-500 dark:text-blue-300" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg></div><!-- Data 1 --><time class="mb-1 text-sm font-normal leading-none">Title 2</time><!-- Data 2  --><p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p></li><li class="mb-4 ml-4"><!-- Circle --><div class="bg-sky-200 dark:bg-zinc-600 absolute text-xs h-5 w-5 text-white flex justify-center items-center font-medium rounded-full -left-2.5"><svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-blue-500 dark:text-blue-300" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg></div><!-- Data 1 --><time class="mb-1 text-sm font-normal leading-none">Title 3</time><!-- Data 2  --><p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p></li></ol></div><!--]-->`)
 }
 
 
@@ -38760,7 +38898,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Timeline/Icon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Timeline/Icon.vue"]]);
 }
 
 
@@ -38811,7 +38949,75 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Timeline/Snippets/Icon.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Timeline/Snippets/Icon.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Timeline/Avatar.vue
+// Parents: 
+// - /pages/timeline.vue?macro=true ($id_bdb4cda0)
+// - /pages/timeline.vue ($id_4c08ad81)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_dd4a08d4 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+
+const _sfc_main = {
+
+}
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<!--[--><!-- TYPE icon  --><div${__vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({ class: "p-4" }, _attrs))}><ol class="border-gray-400 relative border-l border-dashed dark:border-gray-600 text-neutral-500 dark:text-neutral-400"><li class="mb-4 ml-5"><!-- Circle --><div class="bg-sky-200 dark:bg-zinc-600 absolute text-xs h-6 w-6 text-white flex justify-center items-center font-medium rounded-full -left-3 overflow-hidden"><img src="https://res.cloudinary.com/ortigan/image/upload/v1655120909/IMG_20190909_205547_265_d8ir8r.jpg" alt="" class="h-full w-full object-cover"></div><!-- Data 1 --><time class="mb-1 text-sm font-normal leading-none">Title 1</time><!-- Data 2  --><p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p></li><li class="mb-4 ml-5"><!-- Circle --><div class="bg-sky-200 dark:bg-zinc-600 absolute text-xs h-6 w-6 text-white flex justify-center items-center font-medium rounded-full -left-3 overflow-hidden"><img src="https://res.cloudinary.com/ortigan/image/upload/v1658494606/unsplash_UIp163xCV6w_ibh2bi.png" alt="" class="h-full w-full object-cover"></div><!-- Data 1 --><time class="mb-1 text-sm font-normal leading-none">Title 2</time><!-- Data 2  --><p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p></li><li class="mb-4 ml-5"><!-- Circle --><div class="bg-sky-200 dark:bg-zinc-600 absolute text-xs h-6 w-6 text-white flex justify-center items-center font-medium rounded-full -left-3 overflow-hidden"><img src="https://res.cloudinary.com/ortigan/image/upload/v1653905347/girl2_p4z6yr.png" alt="" class="h-full w-full object-cover"></div><!-- Data 1 --><time class="mb-1 text-sm font-normal leading-none">Title 3</time><!-- Data 2  --><p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p></li></ol></div><!--]-->`)
+}
+
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_2__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Timeline/Avatar.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Timeline/Avatar.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Timeline/Snippets/Avatar.vue
+// Parents: 
+// - /pages/timeline.vue?macro=true ($id_bdb4cda0)
+// - /pages/timeline.vue ($id_4c08ad81)
+// Dependencies: 
+// - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
+// - /@id/plugin-vue:export-helper ($id_bbb863c1)
+// --------------------
+const $id_d79aa0fc = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const _sfc_main = {}
+
+
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_0__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Timeline/Snippets/Avatar.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"D:/ortigan/tailwind-library-nuxt/components/Timeline/Snippets/Avatar.vue"]]);
 }
 
 
@@ -38831,7 +39037,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/toast.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -39675,7 +39881,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_24__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/toast.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/toast.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -39721,7 +39927,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Toast/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Toast/Default.vue"]]);
 }
 
 
@@ -39788,7 +39994,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Toast/Snippets/Default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Toast/Snippets/Default.vue"]]);
 }
 
 
@@ -39879,7 +40085,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Toast/StateColor.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Toast/StateColor.vue"]]);
 }
 
 
@@ -39985,7 +40191,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Toast/Snippets/StateColor.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Toast/Snippets/StateColor.vue"]]);
 }
 
 
@@ -40096,7 +40302,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Toast/Outline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Toast/Outline.vue"]]);
 }
 
 
@@ -40202,7 +40408,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Toast/Snippets/Outline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Toast/Snippets/Outline.vue"]]);
 }
 
 
@@ -40315,7 +40521,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Toast/SolidColor.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Toast/SolidColor.vue"]]);
 }
 
 
@@ -40421,7 +40627,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Toast/Snippets/SolidColor.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Toast/Snippets/SolidColor.vue"]]);
 }
 
 
@@ -40465,7 +40671,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Toast/WithButton.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Toast/WithButton.vue"]]);
 }
 
 
@@ -40636,7 +40842,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Toast/Snippets/WithButton.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Toast/Snippets/WithButton.vue"]]);
 }
 
 
@@ -40656,7 +40862,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/typography.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -41510,7 +41716,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_24__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/typography.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/typography.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -41605,7 +41811,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Typography/Fontsize.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Typography/Fontsize.vue"]]);
 }
 
 
@@ -41677,7 +41883,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Typography/Snippets/FontSize.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Typography/Snippets/FontSize.vue"]]);
 }
 
 
@@ -41762,7 +41968,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Typography/FontWeight.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Typography/FontWeight.vue"]]);
 }
 
 
@@ -41830,7 +42036,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Typography/Snippets/FontWeight.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Typography/Snippets/FontWeight.vue"]]);
 }
 
 
@@ -41904,7 +42110,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Typography/Tracking.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Typography/Tracking.vue"]]);
 }
 
 
@@ -41966,7 +42172,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Typography/Snippets/Tracking.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Typography/Snippets/Tracking.vue"]]);
 }
 
 
@@ -42043,7 +42249,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Typography/TextDecoration.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Typography/TextDecoration.vue"]]);
 }
 
 
@@ -42113,7 +42319,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Typography/Snippets/TextDecoration.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Typography/Snippets/TextDecoration.vue"]]);
 }
 
 
@@ -42195,7 +42401,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Typography/TextDecorationThickness.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Typography/TextDecorationThickness.vue"]]);
 }
 
 
@@ -42280,7 +42486,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Typography/Snippets/TextDecorationThickness.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/components/Typography/Snippets/TextDecorationThickness.vue"]]);
 }
 
 
@@ -42300,7 +42506,7 @@ __vite_ssr_exports__.default = ".home-links a{margin-right:1rem}";
 // --------------------
 // Request: /pages/About.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -42352,14 +42558,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/About.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/About.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/alerts.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -43510,14 +43716,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_28__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_28__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/alerts.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_28__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/alerts.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/avatar.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -45456,14 +45662,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_40__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/avatar.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/avatar.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/badge.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -47369,14 +47575,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_40__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/badge.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_40__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/badge.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/breadcrumb.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -48483,14 +48689,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_28__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_28__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/breadcrumb.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_28__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/breadcrumb.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/buttonGroup.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -49200,14 +49406,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_21__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_21__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/buttonGroup.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_21__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/buttonGroup.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/buttons.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -50714,14 +50920,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_34__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_34__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/buttons.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_34__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/buttons.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/card.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -52583,14 +52789,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_39__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_39__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/card.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_39__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/card.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/carousel.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -53165,14 +53371,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_20__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_20__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/carousel.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_20__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/carousel.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/dropdown.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -54005,14 +54211,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_22__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/dropdown.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/dropdown.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/footer.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -54720,14 +54926,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_22__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/footer.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/footer.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/form.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -55302,14 +55508,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_20__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_20__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/form.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_20__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/form.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/index.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
@@ -55687,14 +55893,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_12__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_12__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_12__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/index.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/navbar.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -56536,14 +56742,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_24__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/navbar.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/navbar.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/pagination.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -56985,14 +57191,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_18__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_18__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/pagination.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_18__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/pagination.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/rating.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -57966,14 +58172,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_26__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_26__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/rating.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_26__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/rating.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/sidebar.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -58682,14 +58888,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_22__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/sidebar.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_22__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/sidebar.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/spinner.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -59023,14 +59229,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_16__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_16__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/spinner.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_16__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/spinner.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/timeline.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -59043,6 +59249,8 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_16__.default(_sfc_
 // - /components/Timeline/Snippets/Default.vue ($id_cd677584)
 // - /components/Timeline/Icon.vue ($id_80cc1848)
 // - /components/Timeline/Snippets/Icon.vue ($id_9e938897)
+// - /components/Timeline/Avatar.vue ($id_dd4a08d4)
+// - /components/Timeline/Snippets/Avatar.vue ($id_d79aa0fc)
 // - /components/Alert/AlertInfo.vue ($id_df465372)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -59072,28 +59280,32 @@ const __vite_ssr_import_9__ = await __vite_ssr_import__("/components/Timeline/Ic
 
 const __vite_ssr_import_10__ = await __vite_ssr_import__("/components/Timeline/Snippets/Icon.vue");
 
+const __vite_ssr_import_11__ = await __vite_ssr_import__("/components/Timeline/Avatar.vue");
 
-const __vite_ssr_import_11__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
+const __vite_ssr_import_12__ = await __vite_ssr_import__("/components/Timeline/Snippets/Avatar.vue");
 
-const __vite_ssr_import_12__ = await __vite_ssr_import__("/components/Alert/AlertInfo.vue");
 
-const __vite_ssr_import_13__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
+const __vite_ssr_import_13__ = await __vite_ssr_import__("/components/Headers/SubHeading.vue");
+
+const __vite_ssr_import_14__ = await __vite_ssr_import__("/components/Alert/AlertInfo.vue");
+
+const __vite_ssr_import_15__ = await __vite_ssr_import__("/components/Headers/Heading.vue");
 
 const _sfc_main = {
   metaInfo: {
     title: "Alerts",
   },
   components: {
-    AlertInfo: __vite_ssr_import_12__.default,
-    Heading: __vite_ssr_import_13__.default,
-    SubHeading: __vite_ssr_import_11__.default,
+    AlertInfo: __vite_ssr_import_14__.default,
+    Heading: __vite_ssr_import_15__.default,
+    SubHeading: __vite_ssr_import_13__.default,
 },
   data() {
     return {
       layout: "custom",
       default_timeline: false,
       icon_timeline: false,
-      separator_sidebar: false,
+      avatar_timeline: false,
       sectioned_sidebar: false,
       // SCROLL
       activeScrollSection: "",
@@ -59117,9 +59329,9 @@ const _sfc_main = {
   },
 };
 
-const __vite_ssr_import_14__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_16__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
-const __vite_ssr_import_15__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
+const __vite_ssr_import_17__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
@@ -59134,9 +59346,11 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   const _component_TimelineSnippetsDefault = __vite_ssr_import_8__.default
   const _component_TimelineIcon = __vite_ssr_import_9__.default
   const _component_TimelineSnippetsIcon = __vite_ssr_import_10__.default
+  const _component_TimelineAvatar = __vite_ssr_import_11__.default
+  const _component_TimelineSnippetsAvatar = __vite_ssr_import_12__.default
 
-  _push(__vite_ssr_import_15__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_14__.mergeProps({ name: $data.layout }, _attrs), {
-    default: __vite_ssr_import_14__.withCtx((_, _push, _parent, _scopeId) => {
+  _push(__vite_ssr_import_17__.ssrRenderComponent(_component_NuxtLayout, __vite_ssr_import_16__.mergeProps({ name: $data.layout }, _attrs), {
+    default: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
       if (_push) {
         _push(`<div class="flex py-4 md:p-4"${
           _scopeId
@@ -59145,13 +59359,13 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }><div class="overflow-y-auto w-full md:px-4 pb-20" id="timelineContainer"${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_15__.ssrRenderComponent(_component_HeadersHeading, null, {
-          default: __vite_ssr_import_14__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_HeadersHeading, null, {
+          default: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(` Sidebar `)
             } else {
               return [
-                __vite_ssr_import_14__.createTextVNode(" Sidebar ")
+                __vite_ssr_import_16__.createTextVNode(" Sidebar ")
               ]
             }
           }),
@@ -59164,35 +59378,35 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? </p></div><!-- start --><section id="defaultTimeline" class="w-full"${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_15__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_14__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`Default`)
             } else {
               return [
-                __vite_ssr_import_14__.createTextVNode("Default")
+                __vite_ssr_import_16__.createTextVNode("Default")
               ]
             }
           }),
-          code: __vite_ssr_import_14__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               if (!$data.default_timeline) {
-                _push(__vite_ssr_import_15__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsShowCodeButton, {
                   onClick: $event => ($data.default_timeline = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_15__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsHideCodeButton, {
                   onClick: $event => ($data.default_timeline = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
                 (!$data.default_timeline)
-                  ? (__vite_ssr_import_14__.openBlock(), __vite_ssr_import_14__.createBlock(_component_UtilsShowCodeButton, {
+                  ? (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
                       onClick: $event => ($data.default_timeline = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_14__.openBlock(), __vite_ssr_import_14__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
                       onClick: $event => ($data.default_timeline = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
@@ -59201,20 +59415,20 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_15__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_14__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_15__.ssrRenderComponent(_component_TimelineDefault, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_17__.ssrRenderComponent(_component_TimelineDefault, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_14__.createVNode(_component_TimelineDefault)
+                __vite_ssr_import_16__.createVNode(_component_TimelineDefault)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_15__.ssrRenderStyle(($data.default_timeline) ? null : { display: "none" })
+          __vite_ssr_import_17__.ssrRenderStyle(($data.default_timeline) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -59224,41 +59438,41 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_15__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('defaultTimelineComp'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_15__.ssrRenderComponent(_component_TimelineSnippetsDefault, { id: "defaultTimelineComp" }, null, _parent, _scopeId))
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_TimelineSnippetsDefault, { id: "defaultTimelineComp" }, null, _parent, _scopeId))
         _push(`</div><!-- code snippet end --></section><!-- End  --><!-- start --><section id="IconTimeline" class="w-full"${_scopeId}>`)
-        _push(__vite_ssr_import_15__.ssrRenderComponent(_component_HeadersSubHeading, null, {
-          subHeader: __vite_ssr_import_14__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               _push(`Icon`)
             } else {
               return [
-                __vite_ssr_import_14__.createTextVNode("Icon")
+                __vite_ssr_import_16__.createTextVNode("Icon")
               ]
             }
           }),
-          code: __vite_ssr_import_14__.withCtx((_, _push, _parent, _scopeId) => {
+          code: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
               if (!$data.icon_timeline) {
-                _push(__vite_ssr_import_15__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsShowCodeButton, {
                   onClick: $event => ($data.icon_timeline = true)
                 }, null, _parent, _scopeId))
               } else {
-                _push(__vite_ssr_import_15__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsHideCodeButton, {
                   onClick: $event => ($data.icon_timeline = false)
                 }, null, _parent, _scopeId))
               }
             } else {
               return [
                 (!$data.icon_timeline)
-                  ? (__vite_ssr_import_14__.openBlock(), __vite_ssr_import_14__.createBlock(_component_UtilsShowCodeButton, {
+                  ? (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsShowCodeButton, {
                       key: 0,
                       onClick: $event => ($data.icon_timeline = true)
                     }, null, 8 /* PROPS */, ["onClick"]))
-                  : (__vite_ssr_import_14__.openBlock(), __vite_ssr_import_14__.createBlock(_component_UtilsHideCodeButton, {
+                  : (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsHideCodeButton, {
                       key: 1,
                       onClick: $event => ($data.icon_timeline = false)
                     }, null, 8 /* PROPS */, ["onClick"]))
@@ -59267,20 +59481,20 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
-        _push(__vite_ssr_import_15__.ssrRenderComponent(_component_UtilsComponentPad, null, {
-          default: __vite_ssr_import_14__.withCtx((_, _push, _parent, _scopeId) => {
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
             if (_push) {
-              _push(__vite_ssr_import_15__.ssrRenderComponent(_component_TimelineIcon, null, null, _parent, _scopeId))
+              _push(__vite_ssr_import_17__.ssrRenderComponent(_component_TimelineIcon, null, null, _parent, _scopeId))
             } else {
               return [
-                __vite_ssr_import_14__.createVNode(_component_TimelineIcon)
+                __vite_ssr_import_16__.createVNode(_component_TimelineIcon)
               ]
             }
           }),
           _: 1 /* STABLE */
         }, _parent, _scopeId))
         _push(`<!-- code snippet --><div style="${
-          __vite_ssr_import_15__.ssrRenderStyle(($data.icon_timeline) ? null : { display: "none" })
+          __vite_ssr_import_17__.ssrRenderStyle(($data.icon_timeline) ? null : { display: "none" })
         }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
           _scopeId
         }><div class="flex justify-between px-2 pt-2"${
@@ -59290,11 +59504,77 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
         }> HTML </div><div${
           _scopeId
         }>`)
-        _push(__vite_ssr_import_15__.ssrRenderComponent(_component_UtilsCopyButton, {
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsCopyButton, {
           onClick: $event => ($options.copyToClipboard('IconTimelineComp'))
         }, null, _parent, _scopeId))
         _push(`</div></div>`)
-        _push(__vite_ssr_import_15__.ssrRenderComponent(_component_TimelineSnippetsIcon, { id: "IconTimelineComp" }, null, _parent, _scopeId))
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_TimelineSnippetsIcon, { id: "IconTimelineComp" }, null, _parent, _scopeId))
+        _push(`</div><!-- code snippet end --></section><!-- End  --><!-- start --><section id="avatarTimeline" class="w-full"${_scopeId}>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_HeadersSubHeading, null, {
+          subHeader: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(`Avatar`)
+            } else {
+              return [
+                __vite_ssr_import_16__.createTextVNode("Avatar")
+              ]
+            }
+          }),
+          code: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              if (!$data.avatar_timeline) {
+                _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsShowCodeButton, {
+                  onClick: $event => ($data.avatar_timeline = true)
+                }, null, _parent, _scopeId))
+              } else {
+                _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsHideCodeButton, {
+                  onClick: $event => ($data.avatar_timeline = false)
+                }, null, _parent, _scopeId))
+              }
+            } else {
+              return [
+                (!$data.avatar_timeline)
+                  ? (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsShowCodeButton, {
+                      key: 0,
+                      onClick: $event => ($data.avatar_timeline = true)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+                  : (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsHideCodeButton, {
+                      key: 1,
+                      onClick: $event => ($data.avatar_timeline = false)
+                    }, null, 8 /* PROPS */, ["onClick"]))
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsComponentPad, null, {
+          default: __vite_ssr_import_16__.withCtx((_, _push, _parent, _scopeId) => {
+            if (_push) {
+              _push(__vite_ssr_import_17__.ssrRenderComponent(_component_TimelineAvatar, null, null, _parent, _scopeId))
+            } else {
+              return [
+                __vite_ssr_import_16__.createVNode(_component_TimelineAvatar)
+              ]
+            }
+          }),
+          _: 1 /* STABLE */
+        }, _parent, _scopeId))
+        _push(`<!-- code snippet --><div style="${
+          __vite_ssr_import_17__.ssrRenderStyle(($data.avatar_timeline) ? null : { display: "none" })
+        }" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg"${
+          _scopeId
+        }><div class="flex justify-between px-2 pt-2"${
+          _scopeId
+        }><div${
+          _scopeId
+        }> HTML </div><div${
+          _scopeId
+        }>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_UtilsCopyButton, {
+          onClick: $event => ($options.copyToClipboard('avatarTimelineComp'))
+        }, null, _parent, _scopeId))
+        _push(`</div></div>`)
+        _push(__vite_ssr_import_17__.ssrRenderComponent(_component_TimelineSnippetsAvatar, { id: "avatarTimelineComp" }, null, _parent, _scopeId))
         _push(`</div><!-- code snippet end --></section><!-- End  --></div></div><!-- right sidebar --><div class="hidden lg:block"${
           _scopeId
         }><div class="w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2"${
@@ -59311,152 +59591,205 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
           _scopeId
         }> Timeline With Icon </button><button${
           _scopeId
-        }> Content separator </button><button class="text-right"${
+        }> Timeline With Avatar </button><button class="text-right"${
           _scopeId
         }> Content Sectioned and avatar </button></div></div></div></div></div>`)
       } else {
         return [
-          __vite_ssr_import_14__.createVNode("div", { class: "flex py-4 md:p-4" }, [
-            __vite_ssr_import_14__.createCommentVNode(" content "),
-            __vite_ssr_import_14__.createVNode("div", { class: "flex pb-20 h-screen md:px-4 overflow-y-hidden scrollBar" }, [
-              __vite_ssr_import_14__.createVNode("div", {
+          __vite_ssr_import_16__.createVNode("div", { class: "flex py-4 md:p-4" }, [
+            __vite_ssr_import_16__.createCommentVNode(" content "),
+            __vite_ssr_import_16__.createVNode("div", { class: "flex pb-20 h-screen md:px-4 overflow-y-hidden scrollBar" }, [
+              __vite_ssr_import_16__.createVNode("div", {
                 class: "overflow-y-auto w-full md:px-4 pb-20",
                 id: "timelineContainer"
               }, [
-                __vite_ssr_import_14__.createVNode(_component_HeadersHeading, null, {
-                  default: __vite_ssr_import_14__.withCtx(() => [
-                    __vite_ssr_import_14__.createTextVNode(" Sidebar ")
+                __vite_ssr_import_16__.createVNode(_component_HeadersHeading, null, {
+                  default: __vite_ssr_import_16__.withCtx(() => [
+                    __vite_ssr_import_16__.createTextVNode(" Sidebar ")
                   ]),
                   _: 1 /* STABLE */
                 }),
-                __vite_ssr_import_14__.createVNode("div", null, [
-                  __vite_ssr_import_14__.createVNode("p", { class: "text-base" }, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? ")
+                __vite_ssr_import_16__.createVNode("div", null, [
+                  __vite_ssr_import_16__.createVNode("p", { class: "text-base" }, " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias optio quam architecto culpa unde accusamus illo error neque explicabo, numquam ut, qui eligendi magnam non quis fugiat impedit dolore aliquam? ")
                 ]),
-                __vite_ssr_import_14__.createCommentVNode(" start "),
-                __vite_ssr_import_14__.createVNode("section", {
+                __vite_ssr_import_16__.createCommentVNode(" start "),
+                __vite_ssr_import_16__.createVNode("section", {
                   id: "defaultTimeline",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_14__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_14__.withCtx(() => [
-                      __vite_ssr_import_14__.createTextVNode("Default")
+                  __vite_ssr_import_16__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.createTextVNode("Default")
                     ]),
-                    code: __vite_ssr_import_14__.withCtx(() => [
+                    code: __vite_ssr_import_16__.withCtx(() => [
                       (!$data.default_timeline)
-                        ? (__vite_ssr_import_14__.openBlock(), __vite_ssr_import_14__.createBlock(_component_UtilsShowCodeButton, {
+                        ? (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
                             onClick: $event => ($data.default_timeline = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_14__.openBlock(), __vite_ssr_import_14__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
                             onClick: $event => ($data.default_timeline = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_14__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_14__.withCtx(() => [
-                      __vite_ssr_import_14__.createVNode(_component_TimelineDefault)
+                  __vite_ssr_import_16__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.createVNode(_component_TimelineDefault)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_14__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_14__.createVNode(__vite_ssr_import_14__.Transition, {
+                  __vite_ssr_import_16__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_16__.createVNode(__vite_ssr_import_16__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_14__.withCtx(() => [
-                      __vite_ssr_import_14__.withDirectives(__vite_ssr_import_14__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_14__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_14__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_14__.createVNode("div", null, [
-                            __vite_ssr_import_14__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.withDirectives(__vite_ssr_import_16__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_16__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_16__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_16__.createVNode("div", null, [
+                            __vite_ssr_import_16__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('defaultTimelineComp'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_14__.createVNode(_component_TimelineSnippetsDefault, { id: "defaultTimelineComp" })
+                        __vite_ssr_import_16__.createVNode(_component_TimelineSnippetsDefault, { id: "defaultTimelineComp" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_14__.vShow, $data.default_timeline]
+                        [__vite_ssr_import_16__.vShow, $data.default_timeline]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_14__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_16__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_14__.createCommentVNode(" End  "),
-                __vite_ssr_import_14__.createCommentVNode(" start "),
-                __vite_ssr_import_14__.createVNode("section", {
+                __vite_ssr_import_16__.createCommentVNode(" End  "),
+                __vite_ssr_import_16__.createCommentVNode(" start "),
+                __vite_ssr_import_16__.createVNode("section", {
                   id: "IconTimeline",
                   class: "w-full"
                 }, [
-                  __vite_ssr_import_14__.createVNode(_component_HeadersSubHeading, null, {
-                    subHeader: __vite_ssr_import_14__.withCtx(() => [
-                      __vite_ssr_import_14__.createTextVNode("Icon")
+                  __vite_ssr_import_16__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.createTextVNode("Icon")
                     ]),
-                    code: __vite_ssr_import_14__.withCtx(() => [
+                    code: __vite_ssr_import_16__.withCtx(() => [
                       (!$data.icon_timeline)
-                        ? (__vite_ssr_import_14__.openBlock(), __vite_ssr_import_14__.createBlock(_component_UtilsShowCodeButton, {
+                        ? (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsShowCodeButton, {
                             key: 0,
                             onClick: $event => ($data.icon_timeline = true)
                           }, null, 8 /* PROPS */, ["onClick"]))
-                        : (__vite_ssr_import_14__.openBlock(), __vite_ssr_import_14__.createBlock(_component_UtilsHideCodeButton, {
+                        : (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsHideCodeButton, {
                             key: 1,
                             onClick: $event => ($data.icon_timeline = false)
                           }, null, 8 /* PROPS */, ["onClick"]))
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_14__.createVNode(_component_UtilsComponentPad, null, {
-                    default: __vite_ssr_import_14__.withCtx(() => [
-                      __vite_ssr_import_14__.createVNode(_component_TimelineIcon)
+                  __vite_ssr_import_16__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.createVNode(_component_TimelineIcon)
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_14__.createCommentVNode(" code snippet "),
-                  __vite_ssr_import_14__.createVNode(__vite_ssr_import_14__.Transition, {
+                  __vite_ssr_import_16__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_16__.createVNode(__vite_ssr_import_16__.Transition, {
                     name: "fadeSnippet",
                     persisted: ""
                   }, {
-                    default: __vite_ssr_import_14__.withCtx(() => [
-                      __vite_ssr_import_14__.withDirectives(__vite_ssr_import_14__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
-                        __vite_ssr_import_14__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
-                          __vite_ssr_import_14__.createVNode("div", null, " HTML "),
-                          __vite_ssr_import_14__.createVNode("div", null, [
-                            __vite_ssr_import_14__.createVNode(_component_UtilsCopyButton, {
+                    default: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.withDirectives(__vite_ssr_import_16__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_16__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_16__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_16__.createVNode("div", null, [
+                            __vite_ssr_import_16__.createVNode(_component_UtilsCopyButton, {
                               onClick: $event => ($options.copyToClipboard('IconTimelineComp'))
                             }, null, 8 /* PROPS */, ["onClick"])
                           ])
                         ]),
-                        __vite_ssr_import_14__.createVNode(_component_TimelineSnippetsIcon, { id: "IconTimelineComp" })
+                        __vite_ssr_import_16__.createVNode(_component_TimelineSnippetsIcon, { id: "IconTimelineComp" })
                       ], 512 /* NEED_PATCH */), [
-                        [__vite_ssr_import_14__.vShow, $data.icon_timeline]
+                        [__vite_ssr_import_16__.vShow, $data.icon_timeline]
                       ])
                     ]),
                     _: 1 /* STABLE */
                   }),
-                  __vite_ssr_import_14__.createCommentVNode(" code snippet end ")
+                  __vite_ssr_import_16__.createCommentVNode(" code snippet end ")
                 ]),
-                __vite_ssr_import_14__.createCommentVNode(" End  ")
+                __vite_ssr_import_16__.createCommentVNode(" End  "),
+                __vite_ssr_import_16__.createCommentVNode(" start "),
+                __vite_ssr_import_16__.createVNode("section", {
+                  id: "avatarTimeline",
+                  class: "w-full"
+                }, [
+                  __vite_ssr_import_16__.createVNode(_component_HeadersSubHeading, null, {
+                    subHeader: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.createTextVNode("Avatar")
+                    ]),
+                    code: __vite_ssr_import_16__.withCtx(() => [
+                      (!$data.avatar_timeline)
+                        ? (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsShowCodeButton, {
+                            key: 0,
+                            onClick: $event => ($data.avatar_timeline = true)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                        : (__vite_ssr_import_16__.openBlock(), __vite_ssr_import_16__.createBlock(_component_UtilsHideCodeButton, {
+                            key: 1,
+                            onClick: $event => ($data.avatar_timeline = false)
+                          }, null, 8 /* PROPS */, ["onClick"]))
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_16__.createVNode(_component_UtilsComponentPad, null, {
+                    default: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.createVNode(_component_TimelineAvatar)
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_16__.createCommentVNode(" code snippet "),
+                  __vite_ssr_import_16__.createVNode(__vite_ssr_import_16__.Transition, {
+                    name: "fadeSnippet",
+                    persisted: ""
+                  }, {
+                    default: __vite_ssr_import_16__.withCtx(() => [
+                      __vite_ssr_import_16__.withDirectives(__vite_ssr_import_16__.createVNode("div", { class: "transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg" }, [
+                        __vite_ssr_import_16__.createVNode("div", { class: "flex justify-between px-2 pt-2" }, [
+                          __vite_ssr_import_16__.createVNode("div", null, " HTML "),
+                          __vite_ssr_import_16__.createVNode("div", null, [
+                            __vite_ssr_import_16__.createVNode(_component_UtilsCopyButton, {
+                              onClick: $event => ($options.copyToClipboard('avatarTimelineComp'))
+                            }, null, 8 /* PROPS */, ["onClick"])
+                          ])
+                        ]),
+                        __vite_ssr_import_16__.createVNode(_component_TimelineSnippetsAvatar, { id: "avatarTimelineComp" })
+                      ], 512 /* NEED_PATCH */), [
+                        [__vite_ssr_import_16__.vShow, $data.avatar_timeline]
+                      ])
+                    ]),
+                    _: 1 /* STABLE */
+                  }),
+                  __vite_ssr_import_16__.createCommentVNode(" code snippet end ")
+                ]),
+                __vite_ssr_import_16__.createCommentVNode(" End  ")
               ])
             ]),
-            __vite_ssr_import_14__.createCommentVNode(" right sidebar "),
-            __vite_ssr_import_14__.createVNode("div", { class: "hidden lg:block" }, [
-              __vite_ssr_import_14__.createVNode("div", { class: "w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2" }, [
-                __vite_ssr_import_14__.createVNode("div", { class: "overflow-y-auto" }, [
-                  __vite_ssr_import_14__.createCommentVNode(" <AlertInfo /> "),
-                  __vite_ssr_import_14__.createVNode("div", { class: "flex flex-col justify-start items-end space-y-2" }, [
-                    __vite_ssr_import_14__.createVNode("p", { class: "text-normal font-bold" }, "On This Page"),
-                    __vite_ssr_import_14__.createVNode("button", {
+            __vite_ssr_import_16__.createCommentVNode(" right sidebar "),
+            __vite_ssr_import_16__.createVNode("div", { class: "hidden lg:block" }, [
+              __vite_ssr_import_16__.createVNode("div", { class: "w-40 flex flex-col min-h-screen overflow-y-hidden text-sm py-2" }, [
+                __vite_ssr_import_16__.createVNode("div", { class: "overflow-y-auto" }, [
+                  __vite_ssr_import_16__.createCommentVNode(" <AlertInfo /> "),
+                  __vite_ssr_import_16__.createVNode("div", { class: "flex flex-col justify-start items-end space-y-2" }, [
+                    __vite_ssr_import_16__.createVNode("p", { class: "text-normal font-bold" }, "On This Page"),
+                    __vite_ssr_import_16__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('defaultTimeline'))
                     }, " Default Timeline ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_14__.createVNode("button", {
+                    __vite_ssr_import_16__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('IconTimeline'))
                     }, " Timeline With Icon ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_14__.createVNode("button", {
-                      onClick: $event => ($options.scrollToSection('contentSeparator'))
-                    }, " Content separator ", 8 /* PROPS */, ["onClick"]),
-                    __vite_ssr_import_14__.createVNode("button", {
+                    __vite_ssr_import_16__.createVNode("button", {
+                      onClick: $event => ($options.scrollToSection('avatarTimeline'))
+                    }, " Timeline With Avatar ", 8 /* PROPS */, ["onClick"]),
+                    __vite_ssr_import_16__.createVNode("button", {
                       onClick: $event => ($options.scrollToSection('contentSectionedAvatar')),
                       class: "text-right"
                     }, " Content Sectioned and avatar ", 8 /* PROPS */, ["onClick"])
@@ -59472,27 +59805,27 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   }, _parent))
 }
 
-const __vite_ssr_import_16__ = await __vite_ssr_import__("/pages/timeline.vue?vue&type=style&index=0&lang.css");
+const __vite_ssr_import_18__ = await __vite_ssr_import__("/pages/timeline.vue?vue&type=style&index=0&lang.css");
 
 
-const __vite_ssr_import_17__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_19__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_17__.useSSRContext()
+  const ssrContext = __vite_ssr_import_19__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/timeline.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_18__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_20__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_18__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/timeline.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_20__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/timeline.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/toast.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -60336,14 +60669,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_24__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/toast.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/toast.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/typography.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs ($id_f44322c8)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs ($id_73381d96)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /components/Headers/Heading.vue ($id_7aa6b9b6)
@@ -61197,18 +61530,18 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_24__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/pages/typography.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_24__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/pages/typography.vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/router.options.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/router.options.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
 // Dependencies: 
 
 // --------------------
-const $id_2a66e4bb = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_49522b60 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const configRouterOptions = {}
 __vite_ssr_exports__.default = {
 ...configRouterOptions,
@@ -61217,13 +61550,13 @@ __vite_ssr_exports__.default = {
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/middleware.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/middleware.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
 // Dependencies: 
 
 // --------------------
-const $id_9707a1d9 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_a63124c4 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const globalMiddleware = []
 Object.defineProperty(__vite_ssr_exports__, "globalMiddleware", { enumerable: true, configurable: true, get(){ return globalMiddleware }});
 const namedMiddleware = {}
@@ -61232,15 +61565,15 @@ Object.defineProperty(__vite_ssr_exports__, "namedMiddleware", { enumerable: tru
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/dist.plugin.a7948c32.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/dist.plugin.14633d17.mjs
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/plugins/server.mjs ($id_80bc857d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/plugins/server.mjs ($id_a2c7814b)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt/dist/app/compat/vue-demi.mjs ($id_a8110be7)
 // - /node_modules/pinia/dist/pinia.mjs ($id_b1920624)
 // --------------------
-const $id_8479a5fe = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_db5b3053 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/compat/vue-demi.mjs");
@@ -61292,8 +61625,8 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt/dist/app/compat/vue-demi.mjs
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/dist.plugin.a7948c32.mjs ($id_8479a5fe)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs ($id_49d4941d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/dist.plugin.14633d17.mjs ($id_db5b3053)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs ($id_e78a68e0)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/compat/capi.mjs ($id_0c5717a4)
 // --------------------
@@ -61346,13 +61679,13 @@ Object.defineProperty(__vite_ssr_exports__, "del", { enumerable: true, configura
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/root-component.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/root-component.mjs
 // Parents: 
-// - G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/entry ($id_55ca067f)
+// - D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/entry ($id_fb1a40bc)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
 // --------------------
-const $id_75efd87a = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_5821a4fb = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-root.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -61362,11 +61695,11 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt/dist/app/components/nuxt-root.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/root-component.mjs ($id_75efd87a)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/root-component.mjs ($id_5821a4fb)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/error-component.mjs ($id_71dc3d8e)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/error-component.mjs ($id_33dea85c)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
@@ -61376,7 +61709,7 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
 // @ts-ignore
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/error-component.mjs");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/error-component.mjs");
 
 
 
@@ -61440,18 +61773,18 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/components/nuxt-root.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/components/nuxt-root.vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/error-component.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/error-component.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // --------------------
-const $id_71dc3d8e = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_33dea85c = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-error-page.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -61461,7 +61794,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt/dist/app/components/nuxt-error-page.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/error-component.mjs ($id_71dc3d8e)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/error-component.mjs ($id_33dea85c)
 // Dependencies: 
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
@@ -61546,7 +61879,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/components/nuxt-error-page.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/components/nuxt-error-page.vue"]]);
 }
 
 
@@ -61556,7 +61889,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs ($id_49d4941d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs ($id_e78a68e0)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=true&lang.css ($id_e68b6b38)
@@ -61565,7 +61898,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 const $id_b90d4d0f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs");
 
 
 const _sfc_main = {
@@ -61664,12 +61997,12 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-573335c0"],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-573335c0"],['__file',"D:/ortigan/tailwind-library-nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs
 // Parents: 
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
@@ -61681,7 +62014,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt/dist/pages/runtime/composables.mjs ($id_ff6ed455)
 // --------------------
-const $id_49d4941d = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_e78a68e0 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/index.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/compat/vue-demi.mjs");
@@ -61794,7 +62127,7 @@ Object.defineProperty(__vite_ssr_exports__, "definePageMeta", { enumerable: true
 // --------------------
 // Request: /node_modules/nuxt/dist/pages/runtime/composables.mjs
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs ($id_49d4941d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs ($id_e78a68e0)
 // Dependencies: 
 
 // --------------------
@@ -61827,14 +62160,14 @@ __vite_ssr_exports__.default = ".bg-white[data-v-573335c0]{--tw-bg-opacity:1;bac
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // Dependencies: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs ($id_49d4941d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs ($id_e78a68e0)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=true&lang.css ($id_a2b3b709)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_14c8b574 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs");
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs");
 
 
 const _sfc_main = {
@@ -61911,7 +62244,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-0914425d"],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-0914425d"],['__file',"D:/ortigan/tailwind-library-nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"]]);
 }
 
 
@@ -61932,14 +62265,14 @@ __vite_ssr_exports__.default = ".bg-white[data-v-0914425d]{--tw-bg-opacity:1;bac
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // Dependencies: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs ($id_49d4941d)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs ($id_e78a68e0)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=true&lang.css ($id_2691164c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_bc2d74a1 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs");
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs");
 
 
 const _sfc_main = {
@@ -62022,7 +62355,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-1da4697d"],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-1da4697d"],['__file',"D:/ortigan/tailwind-library-nuxt/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue"]]);
 }
 
 
@@ -62039,13 +62372,13 @@ __vite_ssr_exports__.default = ".bg-white[data-v-1da4697d]{--tw-bg-opacity:1;bac
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/app-component.mjs
+// Request: /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/app-component.mjs
 // Parents: 
-// - G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/entry ($id_55ca067f)
+// - D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/entry ($id_fb1a40bc)
 // Dependencies: 
 // - /node_modules/nuxt/dist/pages/runtime/app.vue ($id_6c61010f)
 // --------------------
-const $id_70325738 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_19f8c5c0 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/pages/runtime/app.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -62055,7 +62388,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt/dist/pages/runtime/app.vue
 // Parents: 
-// - /@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/app-component.mjs ($id_70325738)
+// - /@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/app-component.mjs ($id_19f8c5c0)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -62100,15 +62433,15 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/pages/runtime/app.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/pages/runtime/app.vue"]]);
 }
 
 
 const __modules__ = {
-  "G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/entry": $id_55ca067f,
+  "D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/entry": $id_fb1a40bc,
   "/node_modules/vue/dist/vue.cjs.js": $id_60f0615f,
   "/node_modules/ohmyfetch/dist/index.mjs": $id_780217c4,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/paths.mjs": $id_2f93b0be,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/paths.mjs": $id_45a73e2c,
   "/node_modules/ufo/dist/index.mjs": $id_614de060,
   "/node_modules/nuxt/dist/app/index.mjs": $id_36927477,
   "/node_modules/nuxt/dist/app/nuxt.mjs": $id_e069d411,
@@ -62137,28 +62470,28 @@ const __modules__ = {
   "/node_modules/nuxt/dist/head/runtime/index.mjs": $id_b7351483,
   "/node_modules/nuxt/dist/head/runtime/composables.mjs": $id_04ea9504,
   "/node_modules/@vue/shared/dist/shared.cjs.js": $id_852b06a2,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/css.mjs": $id_790bc42f,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/css.mjs": $id_18c28846,
   "/assets/css/tailwind.css": $id_f75548e1,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/plugins/server.mjs": $id_80bc857d,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/plugins/server.mjs": $id_a2c7814b,
   "/node_modules/nuxt/dist/app/plugins/preload.server.mjs": $id_9871bba0,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/components.plugin.mjs": $id_df08b929,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/components.plugin.mjs": $id_50d79120,
   "/node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs": $id_e6f12003,
   "/node_modules/@vueuse/head/dist/index.mjs": $id_c032264e,
   "/node_modules/defu/dist/defu.mjs": $id_d7afab65,
   "/node_modules/nuxt/dist/head/runtime/plugin.mjs": $id_a2650341,
   "/node_modules/nuxt/dist/head/runtime/components.mjs": $id_b2a29d6f,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/meta.config.mjs": $id_7e65ac9b,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/meta.config.mjs": $id_1241d75d,
   "/node_modules/nuxt/dist/pages/runtime/router.mjs": $id_a090977b,
   "/node_modules/nuxt/dist/pages/runtime/page.mjs": $id_5fc14cdc,
   "/node_modules/nuxt/dist/pages/runtime/utils.mjs": $id_80f433aa,
   "/node_modules/nuxt/dist/app/components/utils.mjs": $id_69c52686,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/routes.mjs": $id_f44322c8,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/routes.mjs": $id_73381d96,
   "/pages/About.vue?macro=true": $id_b79d0c53,
   "/node_modules/vue/server-renderer/index.js": $id_b215fa1c,
   "/@id/plugin-vue:export-helper": $id_bbb863c1,
   "/pages/alerts.vue?macro=true": $id_07053f14,
   "/node_modules/nuxt/dist/app/components/layout.mjs": $id_39003883,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/layouts.mjs": $id_21f18624,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/layouts.mjs": $id_ec7d1029,
   "/layouts/custom.vue": $id_d158cf1f,
   "/components/Utils/Toast.vue": $id_1423e7ad,
   "/components/Header.vue": $id_4e284fc3,
@@ -62414,6 +62747,8 @@ const __modules__ = {
   "/components/Timeline/Snippets/Default.vue": $id_cd677584,
   "/components/Timeline/Icon.vue": $id_80cc1848,
   "/components/Timeline/Snippets/Icon.vue": $id_9e938897,
+  "/components/Timeline/Avatar.vue": $id_dd4a08d4,
+  "/components/Timeline/Snippets/Avatar.vue": $id_d79aa0fc,
   "/pages/timeline.vue?vue&type=style&index=0&lang.css": $id_6632a442,
   "/pages/toast.vue?macro=true": $id_47b99752,
   "/components/Toast/Default.vue": $id_cd57beb8,
@@ -62460,24 +62795,24 @@ const __modules__ = {
   "/pages/timeline.vue": $id_4c08ad81,
   "/pages/toast.vue": $id_0830445b,
   "/pages/typography.vue": $id_b670e6ed,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/router.options.mjs": $id_2a66e4bb,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/middleware.mjs": $id_9707a1d9,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/dist.plugin.a7948c32.mjs": $id_8479a5fe,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/router.options.mjs": $id_49522b60,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/middleware.mjs": $id_a63124c4,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/dist.plugin.14633d17.mjs": $id_db5b3053,
   "/node_modules/nuxt/dist/app/compat/vue-demi.mjs": $id_a8110be7,
   "/node_modules/nuxt/dist/app/compat/capi.mjs": $id_0c5717a4,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/root-component.mjs": $id_75efd87a,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/root-component.mjs": $id_5821a4fb,
   "/node_modules/nuxt/dist/app/components/nuxt-root.vue": $id_e9bfada3,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/error-component.mjs": $id_71dc3d8e,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/error-component.mjs": $id_33dea85c,
   "/node_modules/nuxt/dist/app/components/nuxt-error-page.vue": $id_8cc6d73f,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": $id_b90d4d0f,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/imports.mjs": $id_49d4941d,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/imports.mjs": $id_e78a68e0,
   "/node_modules/nuxt/dist/pages/runtime/composables.mjs": $id_ff6ed455,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=true&lang.css": $id_e68b6b38,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": $id_14c8b574,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=true&lang.css": $id_a2b3b709,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue": $id_bc2d74a1,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=true&lang.css": $id_2691164c,
-  "/@id/virtual:nuxt:G:/Ortigan/tailwind component nuxt3/tailwind-library/.nuxt/app-component.mjs": $id_70325738,
+  "/@id/virtual:nuxt:D:/ortigan/tailwind-library-nuxt/.nuxt/app-component.mjs": $id_19f8c5c0,
   "/node_modules/nuxt/dist/pages/runtime/app.vue": $id_6c61010f
 }
 
@@ -62566,4 +62901,4 @@ async function __instantiateModule__(url, urlStack) {
 }
 
 
-export default await __ssrLoadModule__("G:/Ortigan/tailwind component nuxt3/tailwind-library/node_modules/nuxt/dist/app/entry")
+export default await __ssrLoadModule__("D:/ortigan/tailwind-library-nuxt/node_modules/nuxt/dist/app/entry")
