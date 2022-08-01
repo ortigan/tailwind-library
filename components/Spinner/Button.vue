@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex space-x-5 -my-3">
+  <div class="w-full flex space-x-5">
      <button type="button" class="px-3 disabled py-1.5 inline bg-sky-500 dark:bg-sky-500 rounded items-center space-x-1 focus:outline-none" disabled>
 <svg
   width="24"

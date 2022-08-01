@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex space-x-5 -my-3">
+  <div class="w-full flex space-x-5">
      <button>
 <svg
   width="24"

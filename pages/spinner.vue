@@ -81,7 +81,7 @@
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <SpinnerSnippetsDefault id="ColorSpinnerComp" />
+                <SpinnerSnippetsColors id="ColorSpinnerComp" />
               </div>
             </transition>
             <!-- code snippet end -->
@@ -118,7 +118,7 @@
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <SpinnerSnippetsDefault id="SizeSpinnerComp" />
+                <SpinnerSnippetsSize id="SizeSpinnerComp" />
               </div>
             </transition>
             <!-- code snippet end -->
@@ -192,7 +192,7 @@
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <SpinnerSnippetsDefault id="ButtonSpinnerComp" />
+                <SpinnerSnippetsButton id="ButtonSpinnerComp" />
               </div>
             </transition>
             <!-- code snippet end -->
