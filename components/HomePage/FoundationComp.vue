@@ -19,14 +19,13 @@
                 <div class="">Colors</div>
             </div>
         </div> -->
-        <HomePageComponentShowcaseCompShowcasePad />
-        <HomePageComponentShowcaseCompShowcasePad />
-        <HomePageComponentShowcaseCompShowcasePad />
-        <HomePageComponentShowcaseCompShowcasePad />
-        <HomePageComponentShowcaseCompShowcasePad />
-        <HomePageComponentShowcaseCompShowcasePad />
-        <HomePageComponentShowcaseCompShowcasePad />
-        <HomePageComponentShowcaseCompShowcasePad />
+        <span v-for="(item, index) in items" :key="index">
+        <HomePageComponentShowcaseCompShowcasePad >
+          <template v-slot:image>{{item.image}}</template>
+          <template v-slot:title>{{item.title}}</template>
+        </HomePageComponentShowcaseCompShowcasePad>
+          </span>
+   
     </div>
   </div>
 </template>
@@ -35,7 +34,43 @@
 export default {
   data() {
     return {
-      items: [{}],
+      items: [
+        {
+        id: 1,
+        imageurl: "",
+        title:"Colors"
+      },
+        {
+        id: 2,
+        imageurl: "",
+        title:"Typography"
+      },
+        {
+        id: 3,
+        imageurl: "",
+        title:"Layout"
+      },
+        {
+        id: 4,
+        imageurl: "",
+        title:"Shadows"
+      },
+        {
+        id: 5,
+        imageurl: "",
+        title:"Image effects"
+      },
+        {
+        id: 6,
+        imageurl: "",
+        title:"Grids and spacing"
+      },
+        {
+        id: 7,
+        imageurl: "",
+        title:"Logos"
+      },
+      ],
     };
   },
 };
