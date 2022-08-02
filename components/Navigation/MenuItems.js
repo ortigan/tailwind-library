@@ -61,6 +61,12 @@ export default
         link: "/dropdown"
     },
     {
+        id: 9,
+        title: 'List Group',
+        icon: "",
+        link: "/listgroup"
+    },
+    {
         id: 10,
         title: 'Form',
         icon: "",
