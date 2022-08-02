@@ -14,17 +14,17 @@
             </p>
           </div>
           <!-- start -->
-          <section id="defaultSidebar" class="w-full">
+          <section id="defaultSkeleton" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>Default</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_sidebar"
-                  @click="default_sidebar = true"
+                  v-if="!default_skeleton"
+                  @click="default_skeleton = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_sidebar = false"
+                  @click="default_skeleton = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
@@ -33,35 +33,35 @@
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_sidebar" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="default_skeleton" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
                   </div>
                   <div>
                     <UtilsCopyButton
-                    @click="copyToClipboard('defaultSidebarComp')"
+                    @click="copyToClipboard('defaultSkeletonComp')"
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <SidebarSnippetsDefault id="defaultSidebarComp" />
+                <SkeletonSnippetsDefault id="defaultSkeletonComp" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
           <!-- End  -->
           <!-- start image -->
-          <section id="defaultSidebar" class="w-full">
+          <section id="imageSkeleton" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>Image</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_sidebar"
-                  @click="default_sidebar = true"
+                  v-if="!image_skeleton"
+                  @click="image_skeleton = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_sidebar = false"
+                  @click="image_skeleton = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
@@ -70,35 +70,35 @@
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_sidebar" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="image_skeleton" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
                   </div>
                   <div>
                     <UtilsCopyButton
-                    @click="copyToClipboard('defaultSidebarComp')"
+                    @click="copyToClipboard('imageSkeletonComp')"
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <SidebarSnippetsDefault id="defaultSidebarComp" />
+                <SkeletonSnippetsImage id="imageSkeletonComp" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
           <!-- End  -->
           <!-- start Text -->
-          <section id="defaultSidebar" class="w-full">
+          <section id="textSkeleton" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>Text</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_sidebar"
-                  @click="default_sidebar = true"
+                  v-if="!text_skeleton"
+                  @click="text_skeleton = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_sidebar = false"
+                  @click="text_skeleton = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
@@ -107,35 +107,35 @@
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_sidebar" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="text_skeleton" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
                   </div>
                   <div>
                     <UtilsCopyButton
-                    @click="copyToClipboard('defaultSidebarComp')"
+                    @click="copyToClipboard('textSkeletonComp')"
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <SidebarSnippetsDefault id="defaultSidebarComp" />
+                <SkeletonSnippetsText id="textSkeletonComp" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
           <!-- End  -->
           <!-- start Card -->
-          <section id="defaultSidebar" class="w-full">
+          <section id="cardSkeleton" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>Card</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_sidebar"
-                  @click="default_sidebar = true"
+                  v-if="!card_skeleton"
+                  @click="card_skeleton = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_sidebar = false"
+                  @click="card_skeleton = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
@@ -144,35 +144,35 @@
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_sidebar" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="card_skeleton" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
                   </div>
                   <div>
                     <UtilsCopyButton
-                    @click="copyToClipboard('defaultSidebarComp')"
+                    @click="copyToClipboard('cardSkeletonComp')"
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <SidebarSnippetsDefault id="defaultSidebarComp" />
+                <SkeletonSnippetsCard id="cardSkeletonComp" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
           <!-- End  -->
           <!-- start List -->
-          <section id="defaultSidebar" class="w-full">
+          <section id="listSkeleton" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>List</template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_sidebar"
-                  @click="default_sidebar = true"
+                  v-if="!list_skeleton"
+                  @click="list_skeleton = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_sidebar = false"
+                  @click="list_skeleton = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
@@ -181,18 +181,18 @@
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_sidebar" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="list_skeleton" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
                   </div>
                   <div>
                     <UtilsCopyButton
-                    @click="copyToClipboard('defaultSidebarComp')"
+                    @click="copyToClipboard('listSkeletonComp')"
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <SidebarSnippetsDefault id="defaultSidebarComp" />
+                <SkeletonSnippetsList id="listSkeletonComp" />
               </div>
             </transition>
             <!-- code snippet end -->
@@ -211,17 +211,20 @@
             <!-- <AlertInfo /> -->
             <div class="flex flex-col justify-start items-end space-y-2">
               <p class="text-normal font-bold">On This Page</p>
-              <button @click="scrollToSection('defaultSidebar')">
-                Default Sidebar
+              <button @click="scrollToSection('defaultSkeleton')">
+                Default Skeleton
               </button>
-              <button @click="scrollToSection('sidebarWithBadge')">
-                Sidebar With Badge
+              <button @click="scrollToSection('imageSkeleton')">
+                Image Skeleton
               </button>
-              <button @click="scrollToSection('contentSeparator')">
-                Content separator
+              <button @click="scrollToSection('textSkeleton')">
+                Text Skeleton
               </button>
-              <button @click="scrollToSection('contentSectionedAvatar')" class="text-right">
-                Content Sectioned and avatar
+              <button @click="scrollToSection('cardSkeleton')">
+                Card Skeleton
+              </button>
+              <button @click="scrollToSection('listSkeleton')">
+                List Skeleton
               </button>
             </div>
           </div>
@@ -247,10 +250,11 @@ export default {
   data() {
     return {
       layout: "custom",
-      default_sidebar: false,
-      badge_sidebar: false,
-      separator_sidebar: false,
-      sectioned_sidebar: false,
+      default_skeleton: false,
+      image_skeleton: false,
+      text_skeleton: false,
+      card_skeleton: false,
+      list_skeleton: false,
       // SCROLL
       activeScrollSection: "",
       sample: "",
