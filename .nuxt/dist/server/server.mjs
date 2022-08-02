@@ -3657,6 +3657,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // - /components/Timeline/Icon.vue ($id_80cc1848)
 // - /components/Timeline/Snippets/Icon.vue ($id_9e938897)
 // - /components/Timeline/Avatar.vue ($id_dd4a08d4)
+// - /components/Timeline/Snippets/Avatar.vue ($id_d79aa0fc)
 // - /pages/timeline.vue?macro=true ($id_bdb4cda0)
 // - /components/Toast/Default.vue ($id_cd57beb8)
 // - /components/Toast/Snippets/Default.vue ($id_0edc06f2)
@@ -42369,7 +42370,35 @@ const _sfc_main = {
   data() {
     return {
       code:` 
-        
+<div class="p-4">
+  <ol class="border-indigo-500 relative border-l dark:border-gray-300 text-gray-500 dark:text-neutral-400">
+    <li class="mb-4 ml-4">
+      <!-- Circle -->
+      <div class="absolute -left-2.5 h-5 w-5 bg-white dark:bg-zinc-800 rounded-full flex items-center justify-center"><div class="bg-sky-500 border-sky-500 h-3 w-3 rounded-full border"></div></div>
+      <!-- Data 1 -->
+      <time class="mb-1 text-sm font-normal leading-none">Date</time>
+      <!-- Data 2  -->
+      <p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p>
+      <div class="w-28 h-8 border border-gray-500 dark:border-neutral-400 rounded-md flex items-center justify-center text-xs font-medium text-gray-400 dark:text-neutral-500">Download ZIP</div>
+    </li>
+    <li class="mb-4 ml-4">
+      <!-- Circle -->
+      <div class="absolute -left-2.5 h-5 w-5 bg-white dark:bg-zinc-800 rounded-full flex items-center justify-center"><div class="bg-sky-500 border-sky-500 h-3 w-3 rounded-full border"></div></div>
+      <!-- Data 1 -->
+      <time class="mb-1 text-sm font-normal leading-none">Date</time>
+      <!-- Data 2  -->
+      <p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p>
+    </li>
+    <li class="mb-4 ml-4">
+      <!-- Circle -->
+      <div class="absolute -left-2.5 h-5 w-5 bg-white dark:bg-zinc-800 rounded-full flex items-center justify-center"><div class="bg-sky-500 border-sky-500 h-3 w-3 rounded-full border"></div></div>
+      <!-- Data 1 -->
+      <time class="mb-1 text-sm font-normal leading-none">Date</time>
+      <!-- Data 2  -->
+      <p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p>
+    </li>
+  </ol>
+</div>       
       `
     }
   }
@@ -42460,7 +42489,43 @@ const _sfc_main = {
   data() {
     return {
       code:` 
-        
+<!-- TYPE icon  -->
+<div class="p-4">
+  <ol class="relative border-l border-gray-400 text-neutral-500 dark:border-gray-600 dark:text-neutral-400">
+    <li class="mb-4 ml-4">
+      <!-- Circle -->
+      <div class="absolute -left-2.5 flex h-5 w-5 items-center justify-center rounded-full bg-sky-200 text-xs font-medium text-white dark:bg-zinc-600">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-blue-500 dark:text-blue-300" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd" /></svg>
+      </div>
+      <!-- Data 1 -->
+      <time class="mb-1 text-sm font-normal leading-none">Title 1</time>
+      <!-- Data 2  -->
+      <p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p>
+    </li>
+    <li class="mb-4 ml-4">
+      <!-- Circle -->
+      <div class="absolute -left-2.5 flex h-5 w-5 items-center justify-center rounded-full bg-sky-200 text-xs font-medium text-white dark:bg-zinc-600">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-blue-500 dark:text-blue-300" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd" /></svg>
+      </div>
+      <!-- Data 1 -->
+      <time class="mb-1 text-sm font-normal leading-none">Title 2</time>
+      <!-- Data 2  -->
+      <p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p>
+    </li>
+    <li class="mb-4 ml-4">
+      <!-- Circle -->
+      <div class="absolute -left-2.5 flex h-5 w-5 items-center justify-center rounded-full bg-sky-200 text-xs font-medium text-white dark:bg-zinc-600">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-blue-500 dark:text-blue-300" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd" />
+        </svg>
+      </div>
+      <!-- Data 1 -->
+      <time class="mb-1 text-sm font-normal leading-none">Title 3</time>
+      <!-- Data 2  -->
+      <p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p>
+    </li>
+  </ol>
+</div>       
       `
     }
   }
@@ -42541,25 +42606,81 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_m
 // - /pages/timeline.vue?macro=true ($id_bdb4cda0)
 // - /pages/timeline.vue ($id_4c08ad81)
 // Dependencies: 
+// - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_d79aa0fc = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const _sfc_main = {}
+
+const _sfc_main = {
+  data() {
+    return {
+      code:` 
+<div class="p-4">
+  <ol class="relative border-l border-dashed border-gray-400 text-neutral-500 dark:border-gray-600 dark:text-neutral-400">
+    <li class="mb-4 ml-5">
+      <!-- Circle -->
+      <div class="absolute -left-3 flex h-6 w-6 items-center justify-center overflow-hidden rounded-full bg-sky-200 text-xs font-medium text-white dark:bg-zinc-600">
+        <img src="https://res.cloudinary.com/ortigan/image/upload/v1655120909/IMG_20190909_205547_265_d8ir8r.jpg" alt="" class="h-full w-full object-cover" />
+      </div>
+      <!-- Data 1 -->
+      <time class="mb-1 text-sm font-normal leading-none">Title 1</time>
+      <!-- Data 2  -->
+      <p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p>
+    </li>
+    <li class="mb-4 ml-5">
+      <!-- Circle -->
+      <div class="absolute -left-3 flex h-6 w-6 items-center justify-center overflow-hidden rounded-full bg-sky-200 text-xs font-medium text-white dark:bg-zinc-600">
+        <img src="https://res.cloudinary.com/ortigan/image/upload/v1658494606/unsplash_UIp163xCV6w_ibh2bi.png" alt="" class="h-full w-full object-cover" />
+      </div>
+      <!-- Data 1 -->
+      <time class="mb-1 text-sm font-normal leading-none">Title 2</time>
+      <!-- Data 2  -->
+      <p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p>
+    </li>
+    <li class="mb-4 ml-5">
+      <!-- Circle -->
+      <div class="absolute -left-3 flex h-6 w-6 items-center justify-center overflow-hidden rounded-full bg-sky-200 text-xs font-medium text-white dark:bg-zinc-600">
+        <img src="https://res.cloudinary.com/ortigan/image/upload/v1653905347/girl2_p4z6yr.png" alt="" class="h-full w-full object-cover" />
+      </div>
+      <!-- Data 1 -->
+      <time class="mb-1 text-sm font-normal leading-none">Title 3</time>
+      <!-- Data 2  -->
+      <p class="mb-4 text-sm font-normal">Name <strong class="lowercase"> data</strong></p>
+    </li>
+  </ol>
+</div>
+      `
+    }
+  }
+};
+
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
 
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<pre${
+    __vite_ssr_import_0__.ssrRenderAttrs(_attrs)
+  }><code class="language-markup">
+  ${
+    __vite_ssr_import_0__.ssrInterpolate($data.code)
+  }
+</code>
+</pre>`)
+}
 
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_0__.useSSRContext()
+  const ssrContext = __vite_ssr_import_1__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Timeline/Snippets/Avatar.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Timeline/Snippets/Avatar.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"G:/Ortigan/tailwind component nuxt3/tailwind-library/components/Timeline/Snippets/Avatar.vue"]]);
 }
 
 
