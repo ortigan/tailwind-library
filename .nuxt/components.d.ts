@@ -37,6 +37,7 @@ declare module 'vue' {
     'BadgeSize': typeof import("../components/Badge/Size.vue")['default'],
     'BadgeStateColor': typeof import("../components/Badge/StateColor.vue")['default'],
     'BadgeText': typeof import("../components/Badge/Text.vue")['default'],
+<<<<<<< HEAD
     'AccordionInfo': typeof import("../components/Accordion/AccordionInfo.vue")['default'],
     'AccordionBorder': typeof import("../components/Accordion/Border.vue")['default'],
     'AccordionBorderType2': typeof import("../components/Accordion/BorderType2.vue")['default'],
@@ -63,6 +64,8 @@ declare module 'vue' {
     'CardCta': typeof import("../components/Card/Cta.vue")['default'],
     'CardDefault': typeof import("../components/Card/Default.vue")['default'],
     'CardLink': typeof import("../components/Card/Link.vue")['default'],
+=======
+>>>>>>> 20755082eb7092abc7ae2495dc60c83475b64353
     'ButtonAppsmith': typeof import("../components/Button/Appsmith.vue")['default'],
     'ButtonBlockButtons': typeof import("../components/Button/BlockButtons.vue")['default'],
     'ButtonInfo': typeof import("../components/Button/ButtonInfo.vue")['default'],
@@ -75,6 +78,23 @@ declare module 'vue' {
     'ButtonOutline': typeof import("../components/Button/Outline.vue")['default'],
     'ButtonSize': typeof import("../components/Button/Size.vue")['default'],
     'ButtonStateColor': typeof import("../components/Button/StateColor.vue")['default'],
+<<<<<<< HEAD
+=======
+    'BreadCrumbAlignment': typeof import("../components/BreadCrumb/Alignment.vue")['default'],
+    'BreadCrumbArrow': typeof import("../components/BreadCrumb/Arrow.vue")['default'],
+    'BreadCrumbDefault': typeof import("../components/BreadCrumb/Default.vue")['default'],
+    'BreadCrumbIcon': typeof import("../components/BreadCrumb/Icon.vue")['default'],
+    'BreadCrumbOutline': typeof import("../components/BreadCrumb/Outline.vue")['default'],
+    'BreadCrumbSeparator': typeof import("../components/BreadCrumb/Separator.vue")['default'],
+    'BreadCrumbSolid': typeof import("../components/BreadCrumb/Solid.vue")['default'],
+    'ButtonGroupDefault': typeof import("../components/ButtonGroup/Default.vue")['default'],
+    'ButtonGroupIcon': typeof import("../components/ButtonGroup/Icon.vue")['default'],
+    'ButtonGroupOutline': typeof import("../components/ButtonGroup/Outline.vue")['default'],
+    'ButtonGroupOutlineIcon': typeof import("../components/ButtonGroup/OutlineIcon.vue")['default'],
+    'CardCta': typeof import("../components/Card/Cta.vue")['default'],
+    'CardDefault': typeof import("../components/Card/Default.vue")['default'],
+    'CardLink': typeof import("../components/Card/Link.vue")['default'],
+>>>>>>> 20755082eb7092abc7ae2495dc60c83475b64353
     'CarouselDefault': typeof import("../components/Carousel/Default.vue")['default'],
     'CarouselSecond': typeof import("../components/Carousel/Second.vue")['default'],
     'CarouselThird': typeof import("../components/Carousel/Third.vue")['default'],
@@ -190,6 +210,7 @@ declare module 'vue' {
     'BadgeSnippetsSize': typeof import("../components/Badge/Snippets/Size.vue")['default'],
     'BadgeSnippetsStateColor': typeof import("../components/Badge/Snippets/StateColor.vue")['default'],
     'BadgeSnippetsText': typeof import("../components/Badge/Snippets/Text.vue")['default'],
+<<<<<<< HEAD
     'AccordionSnippetsBorder': typeof import("../components/Accordion/Snippets/Border.vue")['default'],
     'AccordionSnippetsBorderType2': typeof import("../components/Accordion/Snippets/BorderType2.vue")['default'],
     'AccordionSnippetsGlass': typeof import("../components/Accordion/Snippets/Glass.vue")['default'],
@@ -205,6 +226,19 @@ declare module 'vue' {
     'ButtonGroupSnippetsIcon': typeof import("../components/ButtonGroup/Snippets/Icon.vue")['default'],
     'ButtonGroupSnippetsOutline': typeof import("../components/ButtonGroup/Snippets/Outline.vue")['default'],
     'ButtonGroupSnippetsOutlineIcon': typeof import("../components/ButtonGroup/Snippets/OutlineIcon.vue")['default'],
+=======
+    'ButtonSnippetsAppsmith': typeof import("../components/Button/Snippets/Appsmith.vue")['default'],
+    'ButtonSnippetsBlockButtons': typeof import("../components/Button/Snippets/BlockButtons.vue")['default'],
+    'ButtonSnippetsColoredShadow': typeof import("../components/Button/Snippets/ColoredShadow.vue")['default'],
+    'ButtonSnippetsDarkColor': typeof import("../components/Button/Snippets/DarkColor.vue")['default'],
+    'ButtonSnippetsDefault': typeof import("../components/Button/Snippets/Default.vue")['default'],
+    'ButtonSnippetsDualIcon': typeof import("../components/Button/Snippets/DualIcon.vue")['default'],
+    'ButtonSnippetsGradient': typeof import("../components/Button/Snippets/Gradient.vue")['default'],
+    'ButtonSnippetsLightColor': typeof import("../components/Button/Snippets/LightColor.vue")['default'],
+    'ButtonSnippetsOutline': typeof import("../components/Button/Snippets/Outline.vue")['default'],
+    'ButtonSnippetsSize': typeof import("../components/Button/Snippets/Size.vue")['default'],
+    'ButtonSnippetsStateColor': typeof import("../components/Button/Snippets/StateColor.vue")['default'],
+>>>>>>> 20755082eb7092abc7ae2495dc60c83475b64353
     'BreadCrumbSnippetsAlignment': typeof import("../components/BreadCrumb/Snippets/Alignment.vue")['default'],
     'BreadCrumbSnippetsArrow': typeof import("../components/BreadCrumb/Snippets/Arrow.vue")['default'],
     'BreadCrumbSnippetsDefault': typeof import("../components/BreadCrumb/Snippets/Default.vue")['default'],
@@ -212,6 +246,13 @@ declare module 'vue' {
     'BreadCrumbSnippetsOutline': typeof import("../components/BreadCrumb/Snippets/Outline.vue")['default'],
     'BreadCrumbSnippetsSeparator': typeof import("../components/BreadCrumb/Snippets/Separator.vue")['default'],
     'BreadCrumbSnippetsSolid': typeof import("../components/BreadCrumb/Snippets/Solid.vue")['default'],
+<<<<<<< HEAD
+=======
+    'ButtonGroupSnippetsDefault': typeof import("../components/ButtonGroup/Snippets/Default.vue")['default'],
+    'ButtonGroupSnippetsIcon': typeof import("../components/ButtonGroup/Snippets/Icon.vue")['default'],
+    'ButtonGroupSnippetsOutline': typeof import("../components/ButtonGroup/Snippets/Outline.vue")['default'],
+    'ButtonGroupSnippetsOutlineIcon': typeof import("../components/ButtonGroup/Snippets/OutlineIcon.vue")['default'],
+>>>>>>> 20755082eb7092abc7ae2495dc60c83475b64353
     'CardSnippetsCta': typeof import("../components/Card/Snippets/Cta.vue")['default'],
     'CardSnippetsDefault': typeof import("../components/Card/Snippets/Default.vue")['default'],
     'CardSnippetsLink': typeof import("../components/Card/Snippets/Link.vue")['default'],
@@ -225,6 +266,7 @@ declare module 'vue' {
     'CardUserCardType7': typeof import("../components/Card/UserCard/Type7.vue")['default'],
     'CardUserCardType8': typeof import("../components/Card/UserCard/Type8.vue")['default'],
     'CardUserCardType9': typeof import("../components/Card/UserCard/Type9.vue")['default'],
+<<<<<<< HEAD
     'ButtonSnippetsAppsmith': typeof import("../components/Button/Snippets/Appsmith.vue")['default'],
     'ButtonSnippetsBlockButtons': typeof import("../components/Button/Snippets/BlockButtons.vue")['default'],
     'ButtonSnippetsColoredShadow': typeof import("../components/Button/Snippets/ColoredShadow.vue")['default'],
@@ -236,6 +278,8 @@ declare module 'vue' {
     'ButtonSnippetsOutline': typeof import("../components/Button/Snippets/Outline.vue")['default'],
     'ButtonSnippetsSize': typeof import("../components/Button/Snippets/Size.vue")['default'],
     'ButtonSnippetsStateColor': typeof import("../components/Button/Snippets/StateColor.vue")['default'],
+=======
+>>>>>>> 20755082eb7092abc7ae2495dc60c83475b64353
     'CarouselSnippetsDefault': typeof import("../components/Carousel/Snippets/Default.vue")['default'],
     'CarouselSnippetsSecond': typeof import("../components/Carousel/Snippets/Second.vue")['default'],
     'CarouselSnippetsThird': typeof import("../components/Carousel/Snippets/Third.vue")['default'],
@@ -345,6 +389,7 @@ declare module 'vue' {
     'LazyBadgeSize': typeof import("../components/Badge/Size.vue")['default'],
     'LazyBadgeStateColor': typeof import("../components/Badge/StateColor.vue")['default'],
     'LazyBadgeText': typeof import("../components/Badge/Text.vue")['default'],
+<<<<<<< HEAD
     'LazyAccordionInfo': typeof import("../components/Accordion/AccordionInfo.vue")['default'],
     'LazyAccordionBorder': typeof import("../components/Accordion/Border.vue")['default'],
     'LazyAccordionBorderType2': typeof import("../components/Accordion/BorderType2.vue")['default'],
@@ -371,6 +416,8 @@ declare module 'vue' {
     'LazyCardCta': typeof import("../components/Card/Cta.vue")['default'],
     'LazyCardDefault': typeof import("../components/Card/Default.vue")['default'],
     'LazyCardLink': typeof import("../components/Card/Link.vue")['default'],
+=======
+>>>>>>> 20755082eb7092abc7ae2495dc60c83475b64353
     'LazyButtonAppsmith': typeof import("../components/Button/Appsmith.vue")['default'],
     'LazyButtonBlockButtons': typeof import("../components/Button/BlockButtons.vue")['default'],
     'LazyButtonInfo': typeof import("../components/Button/ButtonInfo.vue")['default'],
@@ -383,6 +430,23 @@ declare module 'vue' {
     'LazyButtonOutline': typeof import("../components/Button/Outline.vue")['default'],
     'LazyButtonSize': typeof import("../components/Button/Size.vue")['default'],
     'LazyButtonStateColor': typeof import("../components/Button/StateColor.vue")['default'],
+<<<<<<< HEAD
+=======
+    'LazyBreadCrumbAlignment': typeof import("../components/BreadCrumb/Alignment.vue")['default'],
+    'LazyBreadCrumbArrow': typeof import("../components/BreadCrumb/Arrow.vue")['default'],
+    'LazyBreadCrumbDefault': typeof import("../components/BreadCrumb/Default.vue")['default'],
+    'LazyBreadCrumbIcon': typeof import("../components/BreadCrumb/Icon.vue")['default'],
+    'LazyBreadCrumbOutline': typeof import("../components/BreadCrumb/Outline.vue")['default'],
+    'LazyBreadCrumbSeparator': typeof import("../components/BreadCrumb/Separator.vue")['default'],
+    'LazyBreadCrumbSolid': typeof import("../components/BreadCrumb/Solid.vue")['default'],
+    'LazyButtonGroupDefault': typeof import("../components/ButtonGroup/Default.vue")['default'],
+    'LazyButtonGroupIcon': typeof import("../components/ButtonGroup/Icon.vue")['default'],
+    'LazyButtonGroupOutline': typeof import("../components/ButtonGroup/Outline.vue")['default'],
+    'LazyButtonGroupOutlineIcon': typeof import("../components/ButtonGroup/OutlineIcon.vue")['default'],
+    'LazyCardCta': typeof import("../components/Card/Cta.vue")['default'],
+    'LazyCardDefault': typeof import("../components/Card/Default.vue")['default'],
+    'LazyCardLink': typeof import("../components/Card/Link.vue")['default'],
+>>>>>>> 20755082eb7092abc7ae2495dc60c83475b64353
     'LazyCarouselDefault': typeof import("../components/Carousel/Default.vue")['default'],
     'LazyCarouselSecond': typeof import("../components/Carousel/Second.vue")['default'],
     'LazyCarouselThird': typeof import("../components/Carousel/Third.vue")['default'],
@@ -498,6 +562,7 @@ declare module 'vue' {
     'LazyBadgeSnippetsSize': typeof import("../components/Badge/Snippets/Size.vue")['default'],
     'LazyBadgeSnippetsStateColor': typeof import("../components/Badge/Snippets/StateColor.vue")['default'],
     'LazyBadgeSnippetsText': typeof import("../components/Badge/Snippets/Text.vue")['default'],
+<<<<<<< HEAD
     'LazyAccordionSnippetsBorder': typeof import("../components/Accordion/Snippets/Border.vue")['default'],
     'LazyAccordionSnippetsBorderType2': typeof import("../components/Accordion/Snippets/BorderType2.vue")['default'],
     'LazyAccordionSnippetsGlass': typeof import("../components/Accordion/Snippets/Glass.vue")['default'],
@@ -513,6 +578,19 @@ declare module 'vue' {
     'LazyButtonGroupSnippetsIcon': typeof import("../components/ButtonGroup/Snippets/Icon.vue")['default'],
     'LazyButtonGroupSnippetsOutline': typeof import("../components/ButtonGroup/Snippets/Outline.vue")['default'],
     'LazyButtonGroupSnippetsOutlineIcon': typeof import("../components/ButtonGroup/Snippets/OutlineIcon.vue")['default'],
+=======
+    'LazyButtonSnippetsAppsmith': typeof import("../components/Button/Snippets/Appsmith.vue")['default'],
+    'LazyButtonSnippetsBlockButtons': typeof import("../components/Button/Snippets/BlockButtons.vue")['default'],
+    'LazyButtonSnippetsColoredShadow': typeof import("../components/Button/Snippets/ColoredShadow.vue")['default'],
+    'LazyButtonSnippetsDarkColor': typeof import("../components/Button/Snippets/DarkColor.vue")['default'],
+    'LazyButtonSnippetsDefault': typeof import("../components/Button/Snippets/Default.vue")['default'],
+    'LazyButtonSnippetsDualIcon': typeof import("../components/Button/Snippets/DualIcon.vue")['default'],
+    'LazyButtonSnippetsGradient': typeof import("../components/Button/Snippets/Gradient.vue")['default'],
+    'LazyButtonSnippetsLightColor': typeof import("../components/Button/Snippets/LightColor.vue")['default'],
+    'LazyButtonSnippetsOutline': typeof import("../components/Button/Snippets/Outline.vue")['default'],
+    'LazyButtonSnippetsSize': typeof import("../components/Button/Snippets/Size.vue")['default'],
+    'LazyButtonSnippetsStateColor': typeof import("../components/Button/Snippets/StateColor.vue")['default'],
+>>>>>>> 20755082eb7092abc7ae2495dc60c83475b64353
     'LazyBreadCrumbSnippetsAlignment': typeof import("../components/BreadCrumb/Snippets/Alignment.vue")['default'],
     'LazyBreadCrumbSnippetsArrow': typeof import("../components/BreadCrumb/Snippets/Arrow.vue")['default'],
     'LazyBreadCrumbSnippetsDefault': typeof import("../components/BreadCrumb/Snippets/Default.vue")['default'],
@@ -520,6 +598,13 @@ declare module 'vue' {
     'LazyBreadCrumbSnippetsOutline': typeof import("../components/BreadCrumb/Snippets/Outline.vue")['default'],
     'LazyBreadCrumbSnippetsSeparator': typeof import("../components/BreadCrumb/Snippets/Separator.vue")['default'],
     'LazyBreadCrumbSnippetsSolid': typeof import("../components/BreadCrumb/Snippets/Solid.vue")['default'],
+<<<<<<< HEAD
+=======
+    'LazyButtonGroupSnippetsDefault': typeof import("../components/ButtonGroup/Snippets/Default.vue")['default'],
+    'LazyButtonGroupSnippetsIcon': typeof import("../components/ButtonGroup/Snippets/Icon.vue")['default'],
+    'LazyButtonGroupSnippetsOutline': typeof import("../components/ButtonGroup/Snippets/Outline.vue")['default'],
+    'LazyButtonGroupSnippetsOutlineIcon': typeof import("../components/ButtonGroup/Snippets/OutlineIcon.vue")['default'],
+>>>>>>> 20755082eb7092abc7ae2495dc60c83475b64353
     'LazyCardSnippetsCta': typeof import("../components/Card/Snippets/Cta.vue")['default'],
     'LazyCardSnippetsDefault': typeof import("../components/Card/Snippets/Default.vue")['default'],
     'LazyCardSnippetsLink': typeof import("../components/Card/Snippets/Link.vue")['default'],
@@ -533,6 +618,7 @@ declare module 'vue' {
     'LazyCardUserCardType7': typeof import("../components/Card/UserCard/Type7.vue")['default'],
     'LazyCardUserCardType8': typeof import("../components/Card/UserCard/Type8.vue")['default'],
     'LazyCardUserCardType9': typeof import("../components/Card/UserCard/Type9.vue")['default'],
+<<<<<<< HEAD
     'LazyButtonSnippetsAppsmith': typeof import("../components/Button/Snippets/Appsmith.vue")['default'],
     'LazyButtonSnippetsBlockButtons': typeof import("../components/Button/Snippets/BlockButtons.vue")['default'],
     'LazyButtonSnippetsColoredShadow': typeof import("../components/Button/Snippets/ColoredShadow.vue")['default'],
@@ -544,6 +630,8 @@ declare module 'vue' {
     'LazyButtonSnippetsOutline': typeof import("../components/Button/Snippets/Outline.vue")['default'],
     'LazyButtonSnippetsSize': typeof import("../components/Button/Snippets/Size.vue")['default'],
     'LazyButtonSnippetsStateColor': typeof import("../components/Button/Snippets/StateColor.vue")['default'],
+=======
+>>>>>>> 20755082eb7092abc7ae2495dc60c83475b64353
     'LazyCarouselSnippetsDefault': typeof import("../components/Carousel/Snippets/Default.vue")['default'],
     'LazyCarouselSnippetsSecond': typeof import("../components/Carousel/Snippets/Second.vue")['default'],
     'LazyCarouselSnippetsThird': typeof import("../components/Carousel/Snippets/Third.vue")['default'],
@@ -655,6 +743,7 @@ export const BadgeRectangle: typeof import("../components/Badge/Rectangle.vue")[
 export const BadgeSize: typeof import("../components/Badge/Size.vue")['default']
 export const BadgeStateColor: typeof import("../components/Badge/StateColor.vue")['default']
 export const BadgeText: typeof import("../components/Badge/Text.vue")['default']
+<<<<<<< HEAD
 export const AccordionInfo: typeof import("../components/Accordion/AccordionInfo.vue")['default']
 export const AccordionBorder: typeof import("../components/Accordion/Border.vue")['default']
 export const AccordionBorderType2: typeof import("../components/Accordion/BorderType2.vue")['default']
@@ -681,6 +770,8 @@ export const BreadCrumbSolid: typeof import("../components/BreadCrumb/Solid.vue"
 export const CardCta: typeof import("../components/Card/Cta.vue")['default']
 export const CardDefault: typeof import("../components/Card/Default.vue")['default']
 export const CardLink: typeof import("../components/Card/Link.vue")['default']
+=======
+>>>>>>> 20755082eb7092abc7ae2495dc60c83475b64353
 export const ButtonAppsmith: typeof import("../components/Button/Appsmith.vue")['default']
 export const ButtonBlockButtons: typeof import("../components/Button/BlockButtons.vue")['default']
 export const ButtonInfo: typeof import("../components/Button/ButtonInfo.vue")['default']
@@ -693,6 +784,23 @@ export const ButtonLightColor: typeof import("../components/Button/LightColor.vu
 export const ButtonOutline: typeof import("../components/Button/Outline.vue")['default']
 export const ButtonSize: typeof import("../components/Button/Size.vue")['default']
 export const ButtonStateColor: typeof import("../components/Button/StateColor.vue")['default']
+<<<<<<< HEAD
+=======
+export const BreadCrumbAlignment: typeof import("../components/BreadCrumb/Alignment.vue")['default']
+export const BreadCrumbArrow: typeof import("../components/BreadCrumb/Arrow.vue")['default']
+export const BreadCrumbDefault: typeof import("../components/BreadCrumb/Default.vue")['default']
+export const BreadCrumbIcon: typeof import("../components/BreadCrumb/Icon.vue")['default']
+export const BreadCrumbOutline: typeof import("../components/BreadCrumb/Outline.vue")['default']
+export const BreadCrumbSeparator: typeof import("../components/BreadCrumb/Separator.vue")['default']
+export const BreadCrumbSolid: typeof import("../components/BreadCrumb/Solid.vue")['default']
+export const ButtonGroupDefault: typeof import("../components/ButtonGroup/Default.vue")['default']
+export const ButtonGroupIcon: typeof import("../components/ButtonGroup/Icon.vue")['default']
+export const ButtonGroupOutline: typeof import("../components/ButtonGroup/Outline.vue")['default']
+export const ButtonGroupOutlineIcon: typeof import("../components/ButtonGroup/OutlineIcon.vue")['default']
+export const CardCta: typeof import("../components/Card/Cta.vue")['default']
+export const CardDefault: typeof import("../components/Card/Default.vue")['default']
+export const CardLink: typeof import("../components/Card/Link.vue")['default']
+>>>>>>> 20755082eb7092abc7ae2495dc60c83475b64353
 export const CarouselDefault: typeof import("../components/Carousel/Default.vue")['default']
 export const CarouselSecond: typeof import("../components/Carousel/Second.vue")['default']
 export const CarouselThird: typeof import("../components/Carousel/Third.vue")['default']
@@ -808,6 +916,7 @@ export const BadgeSnippetsRectangle: typeof import("../components/Badge/Snippets
 export const BadgeSnippetsSize: typeof import("../components/Badge/Snippets/Size.vue")['default']
 export const BadgeSnippetsStateColor: typeof import("../components/Badge/Snippets/StateColor.vue")['default']
 export const BadgeSnippetsText: typeof import("../components/Badge/Snippets/Text.vue")['default']
+<<<<<<< HEAD
 export const AccordionSnippetsBorder: typeof import("../components/Accordion/Snippets/Border.vue")['default']
 export const AccordionSnippetsBorderType2: typeof import("../components/Accordion/Snippets/BorderType2.vue")['default']
 export const AccordionSnippetsGlass: typeof import("../components/Accordion/Snippets/Glass.vue")['default']
@@ -823,6 +932,19 @@ export const ButtonGroupSnippetsDefault: typeof import("../components/ButtonGrou
 export const ButtonGroupSnippetsIcon: typeof import("../components/ButtonGroup/Snippets/Icon.vue")['default']
 export const ButtonGroupSnippetsOutline: typeof import("../components/ButtonGroup/Snippets/Outline.vue")['default']
 export const ButtonGroupSnippetsOutlineIcon: typeof import("../components/ButtonGroup/Snippets/OutlineIcon.vue")['default']
+=======
+export const ButtonSnippetsAppsmith: typeof import("../components/Button/Snippets/Appsmith.vue")['default']
+export const ButtonSnippetsBlockButtons: typeof import("../components/Button/Snippets/BlockButtons.vue")['default']
+export const ButtonSnippetsColoredShadow: typeof import("../components/Button/Snippets/ColoredShadow.vue")['default']
+export const ButtonSnippetsDarkColor: typeof import("../components/Button/Snippets/DarkColor.vue")['default']
+export const ButtonSnippetsDefault: typeof import("../components/Button/Snippets/Default.vue")['default']
+export const ButtonSnippetsDualIcon: typeof import("../components/Button/Snippets/DualIcon.vue")['default']
+export const ButtonSnippetsGradient: typeof import("../components/Button/Snippets/Gradient.vue")['default']
+export const ButtonSnippetsLightColor: typeof import("../components/Button/Snippets/LightColor.vue")['default']
+export const ButtonSnippetsOutline: typeof import("../components/Button/Snippets/Outline.vue")['default']
+export const ButtonSnippetsSize: typeof import("../components/Button/Snippets/Size.vue")['default']
+export const ButtonSnippetsStateColor: typeof import("../components/Button/Snippets/StateColor.vue")['default']
+>>>>>>> 20755082eb7092abc7ae2495dc60c83475b64353
 export const BreadCrumbSnippetsAlignment: typeof import("../components/BreadCrumb/Snippets/Alignment.vue")['default']
 export const BreadCrumbSnippetsArrow: typeof import("../components/BreadCrumb/Snippets/Arrow.vue")['default']
 export const BreadCrumbSnippetsDefault: typeof import("../components/BreadCrumb/Snippets/Default.vue")['default']
@@ -830,6 +952,13 @@ export const BreadCrumbSnippetsIcon: typeof import("../components/BreadCrumb/Sni
 export const BreadCrumbSnippetsOutline: typeof import("../components/BreadCrumb/Snippets/Outline.vue")['default']
 export const BreadCrumbSnippetsSeparator: typeof import("../components/BreadCrumb/Snippets/Separator.vue")['default']
 export const BreadCrumbSnippetsSolid: typeof import("../components/BreadCrumb/Snippets/Solid.vue")['default']
+<<<<<<< HEAD
+=======
+export const ButtonGroupSnippetsDefault: typeof import("../components/ButtonGroup/Snippets/Default.vue")['default']
+export const ButtonGroupSnippetsIcon: typeof import("../components/ButtonGroup/Snippets/Icon.vue")['default']
+export const ButtonGroupSnippetsOutline: typeof import("../components/ButtonGroup/Snippets/Outline.vue")['default']
+export const ButtonGroupSnippetsOutlineIcon: typeof import("../components/ButtonGroup/Snippets/OutlineIcon.vue")['default']
+>>>>>>> 20755082eb7092abc7ae2495dc60c83475b64353
 export const CardSnippetsCta: typeof import("../components/Card/Snippets/Cta.vue")['default']
 export const CardSnippetsDefault: typeof import("../components/Card/Snippets/Default.vue")['default']
 export const CardSnippetsLink: typeof import("../components/Card/Snippets/Link.vue")['default']
@@ -843,6 +972,7 @@ export const CardUserCardType6: typeof import("../components/Card/UserCard/Type6
 export const CardUserCardType7: typeof import("../components/Card/UserCard/Type7.vue")['default']
 export const CardUserCardType8: typeof import("../components/Card/UserCard/Type8.vue")['default']
 export const CardUserCardType9: typeof import("../components/Card/UserCard/Type9.vue")['default']
+<<<<<<< HEAD
 export const ButtonSnippetsAppsmith: typeof import("../components/Button/Snippets/Appsmith.vue")['default']
 export const ButtonSnippetsBlockButtons: typeof import("../components/Button/Snippets/BlockButtons.vue")['default']
 export const ButtonSnippetsColoredShadow: typeof import("../components/Button/Snippets/ColoredShadow.vue")['default']
@@ -854,6 +984,8 @@ export const ButtonSnippetsLightColor: typeof import("../components/Button/Snipp
 export const ButtonSnippetsOutline: typeof import("../components/Button/Snippets/Outline.vue")['default']
 export const ButtonSnippetsSize: typeof import("../components/Button/Snippets/Size.vue")['default']
 export const ButtonSnippetsStateColor: typeof import("../components/Button/Snippets/StateColor.vue")['default']
+=======
+>>>>>>> 20755082eb7092abc7ae2495dc60c83475b64353
 export const CarouselSnippetsDefault: typeof import("../components/Carousel/Snippets/Default.vue")['default']
 export const CarouselSnippetsSecond: typeof import("../components/Carousel/Snippets/Second.vue")['default']
 export const CarouselSnippetsThird: typeof import("../components/Carousel/Snippets/Third.vue")['default']
@@ -963,6 +1095,7 @@ export const LazyBadgeRectangle: typeof import("../components/Badge/Rectangle.vu
 export const LazyBadgeSize: typeof import("../components/Badge/Size.vue")['default']
 export const LazyBadgeStateColor: typeof import("../components/Badge/StateColor.vue")['default']
 export const LazyBadgeText: typeof import("../components/Badge/Text.vue")['default']
+<<<<<<< HEAD
 export const LazyAccordionInfo: typeof import("../components/Accordion/AccordionInfo.vue")['default']
 export const LazyAccordionBorder: typeof import("../components/Accordion/Border.vue")['default']
 export const LazyAccordionBorderType2: typeof import("../components/Accordion/BorderType2.vue")['default']
@@ -989,6 +1122,8 @@ export const LazyBreadCrumbSolid: typeof import("../components/BreadCrumb/Solid.
 export const LazyCardCta: typeof import("../components/Card/Cta.vue")['default']
 export const LazyCardDefault: typeof import("../components/Card/Default.vue")['default']
 export const LazyCardLink: typeof import("../components/Card/Link.vue")['default']
+=======
+>>>>>>> 20755082eb7092abc7ae2495dc60c83475b64353
 export const LazyButtonAppsmith: typeof import("../components/Button/Appsmith.vue")['default']
 export const LazyButtonBlockButtons: typeof import("../components/Button/BlockButtons.vue")['default']
 export const LazyButtonInfo: typeof import("../components/Button/ButtonInfo.vue")['default']
@@ -1001,6 +1136,23 @@ export const LazyButtonLightColor: typeof import("../components/Button/LightColo
 export const LazyButtonOutline: typeof import("../components/Button/Outline.vue")['default']
 export const LazyButtonSize: typeof import("../components/Button/Size.vue")['default']
 export const LazyButtonStateColor: typeof import("../components/Button/StateColor.vue")['default']
+<<<<<<< HEAD
+=======
+export const LazyBreadCrumbAlignment: typeof import("../components/BreadCrumb/Alignment.vue")['default']
+export const LazyBreadCrumbArrow: typeof import("../components/BreadCrumb/Arrow.vue")['default']
+export const LazyBreadCrumbDefault: typeof import("../components/BreadCrumb/Default.vue")['default']
+export const LazyBreadCrumbIcon: typeof import("../components/BreadCrumb/Icon.vue")['default']
+export const LazyBreadCrumbOutline: typeof import("../components/BreadCrumb/Outline.vue")['default']
+export const LazyBreadCrumbSeparator: typeof import("../components/BreadCrumb/Separator.vue")['default']
+export const LazyBreadCrumbSolid: typeof import("../components/BreadCrumb/Solid.vue")['default']
+export const LazyButtonGroupDefault: typeof import("../components/ButtonGroup/Default.vue")['default']
+export const LazyButtonGroupIcon: typeof import("../components/ButtonGroup/Icon.vue")['default']
+export const LazyButtonGroupOutline: typeof import("../components/ButtonGroup/Outline.vue")['default']
+export const LazyButtonGroupOutlineIcon: typeof import("../components/ButtonGroup/OutlineIcon.vue")['default']
+export const LazyCardCta: typeof import("../components/Card/Cta.vue")['default']
+export const LazyCardDefault: typeof import("../components/Card/Default.vue")['default']
+export const LazyCardLink: typeof import("../components/Card/Link.vue")['default']
+>>>>>>> 20755082eb7092abc7ae2495dc60c83475b64353
 export const LazyCarouselDefault: typeof import("../components/Carousel/Default.vue")['default']
 export const LazyCarouselSecond: typeof import("../components/Carousel/Second.vue")['default']
 export const LazyCarouselThird: typeof import("../components/Carousel/Third.vue")['default']
@@ -1116,6 +1268,7 @@ export const LazyBadgeSnippetsRectangle: typeof import("../components/Badge/Snip
 export const LazyBadgeSnippetsSize: typeof import("../components/Badge/Snippets/Size.vue")['default']
 export const LazyBadgeSnippetsStateColor: typeof import("../components/Badge/Snippets/StateColor.vue")['default']
 export const LazyBadgeSnippetsText: typeof import("../components/Badge/Snippets/Text.vue")['default']
+<<<<<<< HEAD
 export const LazyAccordionSnippetsBorder: typeof import("../components/Accordion/Snippets/Border.vue")['default']
 export const LazyAccordionSnippetsBorderType2: typeof import("../components/Accordion/Snippets/BorderType2.vue")['default']
 export const LazyAccordionSnippetsGlass: typeof import("../components/Accordion/Snippets/Glass.vue")['default']
@@ -1131,6 +1284,19 @@ export const LazyButtonGroupSnippetsDefault: typeof import("../components/Button
 export const LazyButtonGroupSnippetsIcon: typeof import("../components/ButtonGroup/Snippets/Icon.vue")['default']
 export const LazyButtonGroupSnippetsOutline: typeof import("../components/ButtonGroup/Snippets/Outline.vue")['default']
 export const LazyButtonGroupSnippetsOutlineIcon: typeof import("../components/ButtonGroup/Snippets/OutlineIcon.vue")['default']
+=======
+export const LazyButtonSnippetsAppsmith: typeof import("../components/Button/Snippets/Appsmith.vue")['default']
+export const LazyButtonSnippetsBlockButtons: typeof import("../components/Button/Snippets/BlockButtons.vue")['default']
+export const LazyButtonSnippetsColoredShadow: typeof import("../components/Button/Snippets/ColoredShadow.vue")['default']
+export const LazyButtonSnippetsDarkColor: typeof import("../components/Button/Snippets/DarkColor.vue")['default']
+export const LazyButtonSnippetsDefault: typeof import("../components/Button/Snippets/Default.vue")['default']
+export const LazyButtonSnippetsDualIcon: typeof import("../components/Button/Snippets/DualIcon.vue")['default']
+export const LazyButtonSnippetsGradient: typeof import("../components/Button/Snippets/Gradient.vue")['default']
+export const LazyButtonSnippetsLightColor: typeof import("../components/Button/Snippets/LightColor.vue")['default']
+export const LazyButtonSnippetsOutline: typeof import("../components/Button/Snippets/Outline.vue")['default']
+export const LazyButtonSnippetsSize: typeof import("../components/Button/Snippets/Size.vue")['default']
+export const LazyButtonSnippetsStateColor: typeof import("../components/Button/Snippets/StateColor.vue")['default']
+>>>>>>> 20755082eb7092abc7ae2495dc60c83475b64353
 export const LazyBreadCrumbSnippetsAlignment: typeof import("../components/BreadCrumb/Snippets/Alignment.vue")['default']
 export const LazyBreadCrumbSnippetsArrow: typeof import("../components/BreadCrumb/Snippets/Arrow.vue")['default']
 export const LazyBreadCrumbSnippetsDefault: typeof import("../components/BreadCrumb/Snippets/Default.vue")['default']
@@ -1138,6 +1304,13 @@ export const LazyBreadCrumbSnippetsIcon: typeof import("../components/BreadCrumb
 export const LazyBreadCrumbSnippetsOutline: typeof import("../components/BreadCrumb/Snippets/Outline.vue")['default']
 export const LazyBreadCrumbSnippetsSeparator: typeof import("../components/BreadCrumb/Snippets/Separator.vue")['default']
 export const LazyBreadCrumbSnippetsSolid: typeof import("../components/BreadCrumb/Snippets/Solid.vue")['default']
+<<<<<<< HEAD
+=======
+export const LazyButtonGroupSnippetsDefault: typeof import("../components/ButtonGroup/Snippets/Default.vue")['default']
+export const LazyButtonGroupSnippetsIcon: typeof import("../components/ButtonGroup/Snippets/Icon.vue")['default']
+export const LazyButtonGroupSnippetsOutline: typeof import("../components/ButtonGroup/Snippets/Outline.vue")['default']
+export const LazyButtonGroupSnippetsOutlineIcon: typeof import("../components/ButtonGroup/Snippets/OutlineIcon.vue")['default']
+>>>>>>> 20755082eb7092abc7ae2495dc60c83475b64353
 export const LazyCardSnippetsCta: typeof import("../components/Card/Snippets/Cta.vue")['default']
 export const LazyCardSnippetsDefault: typeof import("../components/Card/Snippets/Default.vue")['default']
 export const LazyCardSnippetsLink: typeof import("../components/Card/Snippets/Link.vue")['default']
@@ -1151,6 +1324,7 @@ export const LazyCardUserCardType6: typeof import("../components/Card/UserCard/T
 export const LazyCardUserCardType7: typeof import("../components/Card/UserCard/Type7.vue")['default']
 export const LazyCardUserCardType8: typeof import("../components/Card/UserCard/Type8.vue")['default']
 export const LazyCardUserCardType9: typeof import("../components/Card/UserCard/Type9.vue")['default']
+<<<<<<< HEAD
 export const LazyButtonSnippetsAppsmith: typeof import("../components/Button/Snippets/Appsmith.vue")['default']
 export const LazyButtonSnippetsBlockButtons: typeof import("../components/Button/Snippets/BlockButtons.vue")['default']
 export const LazyButtonSnippetsColoredShadow: typeof import("../components/Button/Snippets/ColoredShadow.vue")['default']
@@ -1162,6 +1336,8 @@ export const LazyButtonSnippetsLightColor: typeof import("../components/Button/S
 export const LazyButtonSnippetsOutline: typeof import("../components/Button/Snippets/Outline.vue")['default']
 export const LazyButtonSnippetsSize: typeof import("../components/Button/Snippets/Size.vue")['default']
 export const LazyButtonSnippetsStateColor: typeof import("../components/Button/Snippets/StateColor.vue")['default']
+=======
+>>>>>>> 20755082eb7092abc7ae2495dc60c83475b64353
 export const LazyCarouselSnippetsDefault: typeof import("../components/Carousel/Snippets/Default.vue")['default']
 export const LazyCarouselSnippetsSecond: typeof import("../components/Carousel/Snippets/Second.vue")['default']
 export const LazyCarouselSnippetsThird: typeof import("../components/Carousel/Snippets/Third.vue")['default']
