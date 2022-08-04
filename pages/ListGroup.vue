@@ -3,7 +3,7 @@
     <div class="flex py-4 md:p-4">
       <!-- content -->
       <div class="flex  h-screen md:px-4 overflow-y-hidden scrollBar">
-        <div class="overflow-y-auto w-full md:px-4 " id="alertContainer">
+        <div class="overflow-y-auto w-full md:px-4 " id="listGroupContainer">
           <HeadersHeading> List group  </HeadersHeading>
           <div>
             <p class="text-sm md:text-base">
@@ -13,17 +13,17 @@
             </p>
           </div>
           <!-- Default List -->
-          <section id="defaultList" class="w-full">
+          <section id="defaultGroup" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>Default </template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_List"
-                  @click="default_List = true"
+                  v-if="!default_group"
+                  @click="default_group = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_List = false"
+                  @click="default_group = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
@@ -32,35 +32,35 @@
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_alert" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="default_group" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
                   </div>
                   <div>
                     <UtilsCopyButton
-                    @click="copyToClipboard('defaultAlertComp')"
+                    @click="copyToClipboard('defaultGroupComp')"
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <AlertSnippetsDefaultAlert id="defaultAlertComp" />
+                <ListGroupSnippetsDefault id="defaultGroupComp" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
           <!-- End default list -->
           <!-- Hover List -->
-          <section id="defaultList" class="w-full">
+          <section id="defaultHover" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>Default hover </template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_List"
-                  @click="default_List = true"
+                  v-if="!default_hover"
+                  @click="default_hover = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_List = false"
+                  @click="default_hover = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
@@ -69,35 +69,35 @@
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_alert" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="default_hover" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
                   </div>
                   <div>
                     <UtilsCopyButton
-                    @click="copyToClipboard('defaultAlertComp')"
+                    @click="copyToClipboard('defaultHoverComp')"
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <AlertSnippetsDefaultAlert id="defaultAlertComp" />
+                <ListGroupSnippetsHover id="defaultHoverComp" />
               </div>
             </transition>
             <!-- code snippet end -->
           </section>
           <!-- End Hover list -->
           <!-- Active List -->
-          <section id="defaultList" class="w-full">
+          <section id="ActiveGroup" class="w-full">
             <HeadersSubHeading>
               <template v-slot:subHeader>Active </template>
               <template v-slot:code>
                 <UtilsShowCodeButton
-                  v-if="!default_List"
-                  @click="default_List = true"
+                  v-if="!active_group"
+                  @click="active_group = true"
                 ></UtilsShowCodeButton>
                 <UtilsHideCodeButton
                   v-else
-                  @click="default_List = false"
+                  @click="active_group = false"
                 ></UtilsHideCodeButton>
               </template>
             </HeadersSubHeading>
@@ -106,18 +106,18 @@
             </UtilsComponentPad>
             <!-- code snippet -->
             <transition name="fadeSnippet">
-              <div v-show="default_alert" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
+              <div v-show="active_group" class="transition-all mt-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg">
                 <div class="flex justify-between px-2 pt-2">
                   <div>
                     HTML
                   </div>
                   <div>
                     <UtilsCopyButton
-                    @click="copyToClipboard('defaultAlertComp')"
+                    @click="copyToClipboard('ActiveGroupComp')"
                   ></UtilsCopyButton>
                   </div>
                 </div>
-                <AlertSnippetsDefaultAlert id="defaultAlertComp" />
+                <ListGroupSnippetsActive id="ActiveGroupComp" />
               </div>
             </transition>
             <!-- code snippet end -->
@@ -135,29 +135,14 @@
             <!-- <AlertInfo /> -->
             <div class="flex flex-col justify-start items-end space-y-2">
               <p class="text-normal font-bold">On This Page</p>
-              <button @click="scrollToSection('defaultAlert')">
-                Default Alert
+              <button @click="scrollToSection('defaultGroup')">
+                Default group
               </button>
-              <button @click="scrollToSection('stateColorAlert')">
-                State Color Alert
+              <button @click="scrollToSection('defaultHover')">
+                Default hover
               </button>
-              <button @click="scrollToSection('withBtnAlert')">
-                With Button Alert
-              </button>
-              <button @click="scrollToSection('withLink')">
-                Alert With Link
-              </button>
-              <button @click="scrollToSection('alertWithIcon')">
-                Alert With Icon
-              </button>
-              <button @click="scrollToSection('alertWithBorder')">
-                Alert With Border
-              </button>
-              <button
-                @click="scrollToSection('borderLeft')"
-                class="flex flex-row"
-              >
-                Alert With Left-Border
+              <button @click="scrollToSection('ActiveGroup')">
+                Active
               </button>
             </div>
           </div>
@@ -183,13 +168,9 @@ export default {
   data() {
     return {
       layout: "custom",
-      default_alert: false,
-      statecolor_alert: false,
-      with_button: false,
-      alert_wlink: false,
-      alert_wicon: false,
-      alert_wborder: false,
-      alert_wleftborder: false,
+      default_group: false,
+      default_hover: false,
+      active_group: false,
       // SCROLL
       activeScrollSection: "",
       sample: "",
@@ -198,7 +179,7 @@ export default {
   methods: {
     scrollToSection(section) {
       this.activeScrollSection = section;
-      document.getElementById("alertContainer").scrollTo({
+      document.getElementById("listGroupContainer").scrollTo({
         top: document.getElementById(`${section}`).offsetTop - 100,
         behavior: "smooth",
       });
